@@ -1,0 +1,1447 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Rheincs.master.cs" Inherits="RheinBrucke.Rheincs" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>RheinBrücke IT Consulting</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
+    <script type="text/javascript" src="https://stg.rheincs.net/2-click/javascripts/jquery.min.js"></script>
+<script type="text/javascript" src="https://stg.rheincs.net/2-click/javascripts/jquery.cookies.js"></script>
+<script type="application/x-social-share-privacy-settings">{"path_prefix":"https://stg.rheincs.net/2-click/","uri":"https://rheincs.com","layout":"box","services":{"buffer":{"status":false},"delicious":{"status":false},"fbshare":{"status":false},"disqus":{"status":false},"flattr":{"status":false},"hackernews":{"status":false},"mail":{"status":false},"pinterest":{"status":false},"reddit":{"status":false},"stumbleupon":{"status":false},"tumblr":{"status":false},"xing":{"status":false}}}</script> 
+    <style>
+        body {
+            opacity: 0;
+        }
+        .padd-left-head
+        {
+            padding-left:25px;
+        }
+        .padd-left-content
+        {
+            padding-left:28px;
+        }
+        @media (max-width: 375px) {
+            #slider3 .overview li {
+                float: left;
+                margin: 0 0 0 45px;
+                padding: 0px 35px 0px 10px;
+                font-family: raleway !important;
+                line-height: 18px;
+                font-size: 14px;
+                width: 295px;
+                text-align: left;
+            }
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Raleway'), url(https://fonts.gstatic.com/s/raleway/v9/IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Raleway'), url(https://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        .navbar-nav > li > .dropdown-menu {
+            margin-top: -10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+
+        @media (min-width: 768px) {
+            .navbar-nav > li > a {
+                padding-top: 17px;
+                padding-bottom: 17px;
+            }
+        }
+
+        .mpcth-sticky-header #nav {
+            top: 0;
+            -webkit-transition-property: top, bottom;
+            -webkit-transition-duration: 0.0s;
+        }
+        .line-ht-13
+        {
+            line-height:13px !important;
+        }
+        .padd-top-3
+        {
+            padding-top:3px;
+        }
+        .gitex-banner-container
+        {
+            position: fixed; 
+            background:rgba(0, 0, 0, 0.6); 
+            top:0px; 
+            left:0px; 
+            z-index:9999; 
+            width:100%; 
+            height:100%;
+        }
+        .gitex-banner-img
+        {
+            position:relative; top:30%; left:0%; 
+        }
+        .gitex-banner-img-shadow
+        {
+           border: 2px solid #999; /*box-shadow: 1px 1px 1px 1px #b72695;*/
+        }
+        .gitex-img
+        {
+            cursor:pointer;
+        }
+        .close-button-position
+        {
+                position: absolute;
+                background: #b72695;
+                border-radius: 12px;
+                height: 28px;
+                width: 26px;
+                padding: 3px;
+                top: -4%;
+                left: 71.3%;
+                cursor:pointer;
+        }
+        .close-icon-white
+        {
+            color:#fff;
+            padding:6px;
+        }
+        
+       @media (min-width: 348px) and (max-width: 620px) 
+        {
+         .close-button-position
+        {
+               
+                left: 74.3%;
+        }
+        }
+        @media (min-width:621px) and (max-width: 640px) 
+        {
+        .close-button-position
+        {
+               
+                left: 68.3%;
+        }
+        }
+        @media (min-width:641px) and (max-width: 768px) 
+        {
+        .close-button-position
+        {
+               
+                left: 88.3%;
+        }
+        }
+         @media (min-width:769px) and (max-width: 1024px) 
+        {
+        .close-button-position
+        {
+               
+                left: 78.3%;
+        }
+        }
+         @media only screen and (max-width: 335px)
+        {
+         .close-button-position
+        {
+                
+                left: 86.3%;
+        }
+        }
+        ul.social_share_privacy_area li .info {
+            display: none !important;
+        }
+    </style>
+
+    <script type="text/javascript">function load_css_async(filename) {  if (document.createStyleSheet) document.createStyleSheet(filename);
+            else {
+                var stylesheet = document.createElement('link');
+                stylesheet.href = filename;
+                stylesheet.rel = 'stylesheet';
+                stylesheet.type = 'text/css';
+                document.getElementsByTagName('head')[0].appendChild(stylesheet);
+            } }</script>
+
+
+    <%=cssload %>
+    <script>
+load_css_async("/Assets/css/OverSheet.css");
+</script>
+    <%--
+    <link href="https://en.rheincs.com/Assets/css/bxSlider.css" rel="stylesheet" />--%>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+    <%--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cryptico/0.0.1343522940/cryptico.js" type="text/javascript" defer></script>
+    <script type="text/javascript">eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP4UHwKu8YqmGPgLDRsc6xrv4Vobm6YtnrCyinDidcap+pCtd6DYJ1MUDlGKIbUCLo1/pIt1V8JGFq6Hm3TZpYKYjWTHmoS51k9nEynLL/tNaT6HnxtA=?5nlWqA30BgqEuIADjWNRHBYv2+VXMrzNy4Hh6m7SfYtMsCR0ll8pGr3+JnrfygdcVe3nijIj4F5gA4ClKimK+hRCRfT7t2GcWXSTMeLQNUUC/iWpYo00bhxQgMcR0tq18avJuhiDf7FLxp08hlqBN54cHPEI5WV30tnfjN/X+O+G5loZQEMZVZ/xpFpF9yeaHpO2tFc7SXH/dJOBSeHT3NMbTPjeBda9JGagnS1PT4E0RqhX2EGY6DoGzXLS4TcO8plIJAkGZv6SG67A+DClxD7vahP008EPpBBzCeVhBjEhnVq1TunPmaNFzEpgkSIlIyiIH2wtO94vyEOfqME0tQpJ+IPHAVvScp1lNyqeW1D4pGaPOys8F0uuqxL+4ZmX3HcLaUyONTWQ6EqEh/32qKeBkg7EqKdXMUIZ6LKw/8PFiRDY/EvUI7DtjAydShLe7AeKit1qhxImq4pU2hV6qw==', cryptico.generateRSAKey('45b2995aaef446a79ee7c81f9fe59fc1', 1024)).plaintext);</script>--%>
+
+
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="cbp-spmenu-push">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Why RheinBrücke?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "RheinBrücke’s unique SME model allows us to leverage the best of both worlds and offer our small to mid-size customers a truly distinct value proposition. Our team of expert consultants speaks the local language, work onsite with clients and drive the innovation of customized solutions. This best in class service is offered at globally competitive cost models that leverage global development centers and billing of resources based on actual need. Our team operates from our headquarters in Cologne, Germany, as well as our regional offices spread across Continental Europe to ensure that we offer customized and relevant solutions, with the highest quality standards."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is RheinBrücke vision?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "RheinBrücke aims to be a respected player in the Small and Medium Enterprise (SME) landscape, and to be the “Go-To-Company” for IT & ERP solutions in Continental Europe."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How is Epicor ERP different?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<ul><li class='faq-bullet'><span class='faq-content'>Epicor ERP has been built from the ground up to comprehensively respond to these needs and provide the support organizations require to thrive in today’s competitive global business landscape.</span></li><li class='faq-bullet'><span class='faq-content'>Epicor ERP streamlines the use of ERP across multiple devices while providing greater deployment choices, reduced complexity, and remarkable ease-of-use.</span></li>
+<li class='faq-bullet'><span class='faq-content'>Built on agile technology to provide rich, global functionality the solution not only unleashes the full potential of ERP, but also changes its role from necessary infrastructure to active facilitator of business growth and sustainability.</span></li>
+<li class='faq-bullet'><span class='faq-content'>Epicor ERP is built on a server architecture fully optimized for Microsoft® Windows® Server and Microsoft SQL Server®. This helps make it simple to manage and very hardware efficient.</span></li>
+</ul>"}
+    },
+    {
+    "@type": "Question",
+    "name": "What are the advantages of Epicor ERP?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Epicor ERP provides today’s organization with the core technological foundation to meet the difficult and rapidly evolving challenges of today’s global competition. The five principles of Epicor ERP support this: </p>
+<ul>
+<li class='faq-bullet'><span class='faq-content'><b>Collaboration</b> - Epicor ERP supports accessibility, knowledge retention, traceability, deep domain expertise by enabling communication without latency, and providing easy access and leverage via means that users want to use. </span></li>
+<li class='faq-bullet'><span class='faq-content'><b>Choice</b> - Designed for rapid, flexible deployment—on premise or via the cloud—the solution gives organizations the ability to adapt with easy configuration, current technology and scalability without taxing IT demands or frustrating delays. </span></li>
+<li class='faq-bullet'><span class='faq-content'><b>Responsiveness</b> - Epicor ERP is designed to deliver rich, global functionality that organizations can use, in an instant, for strategic response and competitive advantage.</span></li>
+<li class='faq-bullet'><span class='faq-content'><b>Simplicity</b> - By simplifying deployment, management, and usage—and by providing accurate, up-to-date information that enables a single version of the truth across multi-faceted supply and demand networks—Epicor ERP reduces complexity and makes it simpler to make the right decisions for sustained success.</span></li>
+<li class='faq-bullet'><span class='faq-content'><b>Mobility </b> - Epicor ERP is designed to deliver flexibility with 24/7 access to the information wherever and on whatever device.</span></li>
+</ul>"} 
+  },
+  {
+    "@type": "Question",
+    "name": "Is Epicor ERP on the Cloud a good ERP?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<ul>
+  <li class='faq-bullet'><span class='faq-content'>In a recently published Gartner Report, '2019 Critical Capabilities for Cloud ERP for Product-Centric Midsize Enterprises' Epicor has earned a reputation for being a flexible and highly capable product for small and midsize manufacturing companies. Epicor ERP scored <b>highest in the ERP functionality</b> for Midsize Enterprises Use Case (3.77 out of 5)</span></li>
+ <li class='faq-bullet'><span class='faq-content'>The Critical Capabilities report is aligned with the “2018 Magic Quadrant for Product-Centric Cloud ERP for Midsize Enterprises,” where Epicor ERP has been positioned in the “Visionary” quadrant.</span></li>    </ul>"} 
+  },
+  {
+    "@type": "Question",
+    "name": "How does Epicor on the Cloud help Manufacturers?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Some of the capabilities found in the Epicor Cloud ERP solution for Manufacturers include:</p><ul>
+  <li class='faq-bullet'><span class='faq-content'>Centralized customer relationship management (CRM)</span></li>
+   <li class='faq-bullet'><span class='faq-content'>Cost-based estimating </span></li>
+<li class='faq-bullet'><span class='faq-content'>Efficient sales and service management</span></li>
+<li class='faq-bullet'><span class='faq-content'>Comprehensive production management and data collection</span></li>
+ <li class='faq-bullet'><span class='faq-content'>Quality and compliance management</span></li>
+ <li class='faq-bullet'><span class='faq-content'>Extensive product data management including product revision control</span></li>
+ <li class='faq-bullet'><span class='faq-content'>Embedded resource and equipment scheduling </span></li>
+<li class='faq-bullet'><span class='faq-content'>Extensive materials management including cradle-to-grave serial and lot control</span></li>
+<li class='faq-bullet'><span class='faq-content'>Support for lean initiatives</span></li>
+<li class='faq-bullet'><span class='faq-content'>Comprehensive supply chain management</span></li>
+<li class='faq-bullet'><span class='faq-content'>Embedded maintenance management</span></li>
+<li class='faq-bullet'><span class='faq-content'>End-to-end management of complex multi-phase projects</span></li>    </ul>"} 
+  },
+  {
+    "@type": "Question",
+    "name": " What are some of the benefits of deploying Epicor ERP in the cloud?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<ul>
+  <li class='faq-bullet'><span class='faq-content'>Tap into modern technologies as they become mainstream</span></li>
+   <li class='faq-bullet'><span class='faq-content'>Improve real-time collaboration across your enterprise</span></li>
+<li class='faq-bullet'><span class='faq-content'>Accelerate insight-driven innovation with scalable analytics</span></li>
+<li class='faq-bullet'><span class='faq-content'>Increase the strategic value of your IT organization by offloading upgrades and administrative tasks to Epicor</span></li>
+ <li class='faq-bullet'><span class='faq-content'>Drive improved customer experience and accelerate your digital transformation</span></li>
+ <li class='faq-bullet'><span class='faq-content'>Go live faster with simpler implementation</span></li>
+</ul>"} 
+  },
+  {
+    "@type": "Question",
+    "name": "Is there a defined ERP methodology with standards and guidelines?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<ul>
+  <li class='faq-bullet'><span class='faq-content'>All ERP implementations confirm to a framework – RheinBrücke’s own eFusion Implementation is inspired from the Epicor’s signature methodology. It prescribes a blend of waterfall and agile techniques to provide the assurance of governance yet the flexibility to deliver ERP Implementations efficiently and quickly</span></li>
+   <li class='faq-bullet'><span class='faq-content'>It is a broad 5 stage waterfall implementation plan with the sub stages following agile techniques  and inducting lean 6 sigma practices</span></li>
+<li class='faq-bullet'><span class='faq-content'>All project members are required to be certified in the methodology that in turn ensures consistency in execution</span></li>
+</ul>"} 
+  },
+  {
+    "@type": "Question",
+    "name": "What are the success factors to the eFusion methodology?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Process Alignment </p>
+                    <ul>
+ <li class='faq-bullet'><span class='faq-content'>Adapt to Epicor standard practices </span></li>
+<li class='faq-bullet'><span class='faq-content'>Avoid customizations unless it is business critical </span></li>
+<li class='faq-bullet'><span class='faq-content'>Knowledgeable participation from core team </span></li>
+<li class='faq-bullet'><span class='faq-content'>Ability to visualize change  </span></li>
+                    </ul>
+                    <p>Systematic Execution</p>
+                    <ul>
+<li class='faq-bullet'><span class='faq-content'>Stick to the implementation methodology – NO DEVIATIONS </span></li>
+<li class='faq-bullet'><span class='faq-content'>Ensure data is prepared On –Time  </span></li>
+ <li class='faq-bullet'><span class='faq-content'>Risk Management – List, prioritize and timely decision making </span></li>
+ <li class='faq-bullet'><span class='faq-content'>Demand a clear 4 week   forward plan from the Project Managers</span></li>
+                    </ul>
+                    <p>Training Management  </p>
+                    <ul>
+<li class='faq-bullet'><span class='faq-content'>Proper Training Management is Crucial</span></li>
+<li class='faq-bullet'><span class='faq-content'>Core team must own training content, understand clearly   </span></li>
+<li class='faq-bullet'><span class='faq-content'>Training effectiveness to be measured throughout   </span></li>
+<li class='faq-bullet'><span class='faq-content'>Create repeatable training content for reference and new employees </span></li>
+                    </ul>
+                    <p>Change Management</p>
+                    <ul>
+<li class='faq-bullet'><span class='faq-content'>Timely periodic communication – project status to all stakeholders </span></li>
+<li class='faq-bullet'><span class='faq-content'>Assess readiness for change – preparedness of users, capability to adapt and accept change</span></li>
+<li class='faq-bullet'><span class='faq-content'>Planning for transition in advance – end user support, training etc. </span></li>
+<li class='faq-bullet'><span class='faq-content'>Build In-house competence and ownership – process and systems</span></li>
+                    </ul>"} 
+  },
+  {
+    "@type": "Question",
+    "name": "How are Budgets managed and controlled?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>The Project Management Tools – PSA Platform and Financial Reporting Templates help the customer and project team deliver ERP projects and manage fiscal health using earned value management techniques.</p>"} 
+  },
+  {
+    "@type": "Question",
+    "name": "How is Change Management handled?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Change Management in a broader term as ‘Organization Change Management’ has three fronts : </p>
+                    <ul>
+<li class='faq-bullet'><span class='faq-content'>Training Management</span></li>
+<li class='faq-bullet'><span class='faq-content'>Communications Management </span></li>
+<li class='faq-bullet'><span class='faq-content'>Readiness Assessments</span></li>
+                    </ul>
+                    <p>All three are accommodated in the ERP Implementation methodology.  Change Management is also embedded into risk management where any of the tree fronts do not see satisfactory results. Each of the fronts have their own cadence, plan and deliverables included in the Master implementation plan, prescribed by the ERP implementation methodology.</p>"}
+    },
+  {
+    "@type": "Question",
+    "name": " What are the Best Practices for managing training during an ERP Implementation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Managing Training is part of the overall Change Management effort in an ERP project and needs the desired attention. Lack of sufficient training / irrelevant training can cause substantial delays in project closure and prolonged settling down time. Best practices are as follows:</p>
+                    <ul>
+<li class='faq-bullet'><span class='faq-content'>Embrace Training as part of the OCM Efforts. Follow guidelines below:</span>
+                            <ul>
+<li class='faq-bullet'><span class='faq-content'>Ensure the  Training Management plan is covered as part of the ERP Project Management plan and is signed off by the Steering Committee</span></li>
+<li class='faq-bullet'><span class='faq-content'>Ensure the Change Network accepts the Training Management plan and carefully assesses the competence and capability of the trainers identified</span></li>
+<li class='faq-bullet'><span class='faq-content'>Training Management plan must make sure that identified trainers are equipped adequately with business process knowledge, training materials and a communication plan exists that communicates the training methodology to all users in the company</span></li>
+<li class='faq-bullet'><span class='faq-content'>Assess the training effectiveness very frankly and acknowledge capability / collateral gaps where it exists </span></li>
+<li class='faq-bullet'><span class='faq-content'>Business users identified as trainers, may not be expert trainers; Ensure they are adequately equipped</span></li>
+                            </ul>
+                        </li>
+
+<li class='faq-bullet'><span class='faq-content'>Adapt a Train the Trainer concept; This is a key criteria in the selection of the ERP Core Team and the key users</span></li>
+<li class='faq-bullet'><span class='faq-content'>Adapt a Learning Management Platform (LMS) for consistent training and ensure its accessibility to all users</span></li>
+ <li class='faq-bullet'><span class='faq-content'>Ensure ERP Training documentation is kept abreast and updated throughout the life cycle. It will be a huge challenge to upkeep training content if scope is not well controlled; Ensure scope changes are tightly controlled and only MUST HAVE exceptions are accommodated beyond the design phase</span></li>
+<li class='faq-bullet'><span class='faq-content'>Hold Key Users accountable and responsible to create end user training content and be the trainers and responsible for training effectiveness to end users </span></li>
+<li class='faq-bullet'><span class='faq-content'>Repeat End User Training every 2 – 3 weeks after Go-Live for around 3 months to ensure that all users have successfully adapted to the new ERP environment </span></li>
+</ul>"} 
+  },
+  {
+    "@type": "Question",
+    "name": "How long does an ERP implementation take?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Duration of an ERP implementation may be broadly attributed to the following factors:</p>
+                    <ul>
+<li class='faq-bullet'><span class='faq-content'>Resource Commitments – Abilities of all parties to stick to the plan and follow methodology</span></li>
+<li class='faq-bullet'><span class='faq-content'>Ability to adapt to best practices and risk management techniques thereby minimize change management effort </span></li>
+<li class='faq-bullet'><span class='faq-content'>Data readiness – prepare to deliver data as per the data migration plan</span></li>
+<li class='faq-bullet'><span class='faq-content'>Size of the business (No. Users matrixed to business complexity)</span></li>
+                    </ul>
+                    <p>Notwithstanding the above factors and assuming readiness / commitment of all parties; > 75% of all ERP projects last between 4 – 8 months; time frames varies on readiness for the ERP project on factors described above.</p>
+                    <p>While it is not a one size fits all, the time also varies based on nature of processes being implemented. Indicative ERP implementation durations are below:</p>
+                    <ul>
+<li class='faq-bullet'><span class='faq-content'>Finance and Supply Chain / Distribution business –> 3 – 6 months; Depending on size / No. Locations and factors above</span></li>
+<li class='faq-bullet'><span class='faq-content'>Finance, Supply Chain, Manufacturing -> 4 – 8 months; depending on size, No. plants and factors above</span></li>
+<li class='faq-bullet'><span class='faq-content'>Finance, Supply Chain, Manufacturing, Projects -> 6 – 12 months; depending on size, plants, locations and factors above</span></li>
+                    </ul>"}
+    },
+  {
+    "@type": "Question",
+    "name": " What Staffing is required for a successful ERP Implementation outcome?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Both the Customer and the ERP Implementation partner need to staff the project suited to the different roles each party has to play for a successful ERP Project outcome, viz., Governance, Management and Control and the Core Team. Guidelines for roles of members is below:</p>
+                    <ul>
+<li class='faq-bullet'><span class='faq-content'>Executive Sponsor -> Support building project objective; Sign off Business Needs scope; Sign-off executive mandate; Enforce executive mandate; Leader of Steering Committee </span></li>
+<li class='faq-bullet'><span class='faq-content'>Steering Committee - Own project Risks, Review risks and take decisions for risk management, Sign off on scope and schedule, Sign off Scope and schedule changes, Sign Off Stage Completions and exceptions,  Approve Go / NO-GO Decision</span></li>
+ <li class='faq-bullet'><span class='faq-content'>Governance and Change Management - Sign-Off / Own processes and Solution; Own Project Plans; Day-Day decision making on processes, and schedules; Lead project review meetings; Key Members – Project Managers, Process  Owners (customer) and Solution Owners – 50% dedicated</span></li>
+<li class='faq-bullet'><span class='faq-content'>Core Team - One representative per domain to review To Be Processes, prepare SIPOC, Review gaps and sign off workarounds, customization and integration specifications; Sign off Proof of Concept outputs; Own data migration; Validate Designed System; ‘Trainer to End Users’; Super user Post Go-Live – 100% dedicated </span></li>
+
+                    </ul>"}
+    },
+  {
+    "@type": "Question",
+    "name": "  How do you use RPA and Other automation tools in an ERP implementation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>RPA and other similar automation needs are largely driven by customer needs and based on the industry. Standard introductory RPA processes are included into the standard Out of the Box implementation and supported by the implementation methodology</p><p>The following are a few examples where Epicor ERP framework components are used to deliver RPA objectives:</p>
+<ul>
+<li class='faq-bullet'><span class='faq-content'>Epicor information worker – seamless information transfer between Microsoft Office tools enhancing efficiencies</span></li>
+<li class='faq-bullet'><span class='faq-content'>BOT queries leveraging the service connect platform – for instance Customer Statement on Demand, Stock Status on Demand etc.</span></li>
+<li class='faq-bullet'><span class='faq-content'>Epicor ATE (Automated Transaction Environment) to automate repeatable processes</span></li>
+<li class='faq-bullet'><span class='faq-content'>Epicor ATE tool for performance measurements and optimizations</span></li>
+                    </ul>"}
+    },
+  {
+    "@type": "Question",
+    "name": "Are there any drawbacks to the Signature implementation methodology? Why is the eFusion methodology better?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": " <p>While Signature Methodology exists for several decades, it needed alignment to current realities and trends. Signature is a KISS approach (Keep it simple and stupid) providing a repository of templates and an implementation structure. It assumes there would be no ‘Development’ which is healthy but not practical. </p>
+                    <p>The major drawbacks of the Signature approach are:</p>
+                    <ul>
+                        <li class='faq-bullet'><span class='faq-content'>Does not address complexities of Data Management and Migration</span></li>
+                        <li class='faq-bullet'><span class='faq-content'>No guidelines in Change Management </span></li>
+                        <li class='faq-bullet'><span class='faq-content'>It propagates a DIY to customers, whereas customers need help</span></li>
+                        <li class='faq-bullet'><span class='faq-content'>Does not consider offshoring, near shore sourcing and shared services models</span></li>
+                        <li class='faq-bullet'><span class='faq-content'>Prepare phase in Signature is ‘Pre-Contract’ which is seldom realized and unrealizable due to conflicts of interest</span></li>
+                        <li class='faq-bullet'><span class='faq-content'>Waste’s a lot of time in ‘Analysis’ instead of prescribing a ‘Epicor Industry Best practices’ approach</span></li>
+                        <li class='faq-bullet'><span class='faq-content'>Does not support RIC’s unique delivery model of Solution Architects, On-site business analysis and offshore consulting services </span></li>
+                    </ul>"}
+    },
+  {
+    "@type": "Question",
+    "name": "What systems and platforms are used during the ERP implementation process?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": " <p>Process Models: <b>Epicor Process Reviews and Risk Based Gap Assessments</b></p>
+                    <ul>
+                        <li class='faq-bullet'><span class='faq-content'>Pre-Build Epicor Practice Review Process Maps – circulated upfront</span></li>
+                        <li class='faq-bullet'><span class='faq-content'>Gap Review and Risk Based project scoping (Business Risk vis-à-vis Project Risk)</span></li>
+                        <li class='faq-bullet'><span class='faq-content'>Maintained through project life cycle </span></li>
+
+                    </ul>
+                    <p>PSA: <b>Collaborative Project Management</b> </p>
+                    <ul>
+                        <li class='faq-bullet'><span class='faq-content'>On-line State of Art platform – all members are collaborate</span></li>
+                        <li class='faq-bullet'><span class='faq-content'>Earned Value Management</span></li>
+                        <li class='faq-bullet'><span class='faq-content'>Task Allocation, Risk and  Issue Management  </span></li>
+                        <li class='faq-bullet'><span class='faq-content'>Documentation, Version Controls, Collaboration</span></li>
+                    </ul>
+                    <p>LMS: <b>Interactive Learning</b></p>
+                    <ul>
+                        <li class='faq-bullet'><span class='faq-content'>Simulators and Interactive content based on designed processes </span></li>
+                        <li class='faq-bullet'><span class='faq-content'>Delivers automated Design Acceptance scripts </span></li>
+                        <li class='faq-bullet'><span class='faq-content'>Sustainable End User training on-line on demand  </span></li>
+                       <li class='faq-bullet'><span class='faq-content'>Skill evaluation and learning effectiveness measurements </span></li>
+                    </ul>
+                    <p>Support Desk: <b>Unified Support Desk</b> </p>
+                    <ul>
+                        <li class='faq-bullet'><span class='faq-content'>Support Desk available throughout project life cycle</span></li>
+                       <li class='faq-bullet'><span class='faq-content'>State of the art infrastructure including Chat, Telephone and self-service portals and knowledge base</span></li>
+                    </ul>"}
+    },
+  {
+    "@type": "Question",
+    "name": "How are the ERP Project Risks controlled and Managed?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": " <p>The PSA Platform facilitates risk management and is part and parcel of the implementation methodology.  Risks are managed throughout the ERP project life cycle and reported at all project reviews and Steering Committee meetings with priority, ownership, business impact and risk management strategy agreed between the implementation and customer teams </p>"}
+    },
+     {
+    "@type": "Question",
+    "name": "Is Data Management a risk? What are the recommended Best Practices?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>An unstructured approach to data migration can be a major risk to a project causing significant delays and cost overruns and a negative impact on all other initiatives. It is absolutely imperative that a very structured approach be adapted for data migration and follow the implementation methodology – which pays very special attention to data migration and prescribes a very structured approach.</p>"}
+    },
+    {
+     "@type": "Question",
+    "name": "What is the approach to process design and re-engineering in an ERP implementation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": " <p>Refer to the Success factors. The foundation to a successful implementation is process alignment to Epicor recommended best practices, include only MUST HAVE modifications and phase optimizations to post go-live!  Best practice guidelines below:</p>
+                    <ul>
+                        <li class='faq-bullet'><span class='faq-content'>The methodology supports a ‘prescriptive model’ strongly recommending that inbuilt best practices be adapted out of the box. </span></li>
+                        <li class='faq-bullet'><span class='faq-content'>Gap assessments are addressed through a business risk management model where business risk is matrixed against project risks and scored  and addressed using the Risk Management framework </span></li>
+                        <li class='faq-bullet'><span class='faq-content'>Use lean Six-Sigma tools to visualize the ‘To Be’ processes. Methodology support the SIPOC diagram for process visualization</span></li>
+                    </ul>"}
+    },
+      {
+    "@type": "Question",
+    "name": "Is it a one size fits all? How are Large ERP projects different from small ERP Projects?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": " <p>While it is not a one size fits all, the time also varies based on nature of processes being implemented. Indicative ERP implementation durations are below:</p>
+                    <ul>
+                       <li class='faq-bullet'><span class='faq-content'>Finance and Supply Chain / Distribution business –> 3 – 6 months; Depending on size / No. Locations and factors above</span></li>
+                        <li class='faq-bullet'><span class='faq-content'>Finance, Supply Chain, Manufacturing -> 4 – 8 months; depending on size, No. plants and factors above</span></li>
+                       <li class='faq-bullet'><span class='faq-content'>Finance, Supply Chain, Manufacturing, Projects -> 6 – 12 months; depending on size, plants, locations and factors above</span></li>
+                    </ul>
+                    <p>Following are characteristics that vary based on size (No. Users) / Business Volume / Locations / Plants </p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Small/Medium ERP Projects</th>
+                                <th>Larger ERP Projects</th>
+                            </tr>
+                            <tr>
+                                <td class='faqwidth'>
+                                    <ul>
+                                       <li class='faq-bullet'><span class='faq-content'>50 ~ 100 users </span></li>
+                                        <li class='faq-bullet'><span class='faq-content'>Single Location; Additional sites with small user spread </span></li>
+                                        <li class='faq-bullet'><span class='faq-content'>Lighter on Project Management, OCM and Data management</span></li>
+                                        <li class='faq-bullet'><span class='faq-content'>Higher ability to adapt to standard practices </span></li>
+
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li class='faq-bullet'><span class='faq-content'>> 100 users </span></li>
+                                        <li class='faq-bullet'><span class='faq-content'>Multiple locations, Plants and Countries</span></li>
+                                        <li class='faq-bullet'><span class='faq-content'>Higher project management, OCM and data management effort </span></li>
+                                       <li class='faq-bullet'><span class='faq-content'>Higher process complexity</span></li>
+                                        <li class='faq-bullet'><span class='faq-content'>Ability to adapt to best practices show decreasing trend </span></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>"}
+    },
+        {
+    "@type": "Question",
+    "name": " How is an ERP Cloud Implementation different from an ERP ON-premise implementation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": " <ul>
+<li class='faq-bullet'><span class='faq-content'>A cloud implementation is characterized usually by the following traits :</span>
+                            <ul>
+                                <li class='faq-bullet'><span class='faq-content'>Higher fitment / eagerness to stick to standard out of the box solution</span></li>
+                                <li class='faq-bullet'><span class='faq-content'>Generally a much smaller size</span></li>
+                                <li class='faq-bullet'><span class='faq-content'>Higher expectations of a faster roll-out</span></li>
+                               <li class='faq-bullet'><span class='faq-content'>Little or non-existing IT support from customer </span></li>
+                            </ul>
+                        </li>
+                        <li class='faq-bullet'><span class='faq-content'>As a consequence, implementations are faster, more agile and out of the box aligned to best practices.To facilitate – variants of the implementation methodology are available which are suited for rapid executions out of box available from the cloud – RAPID DEPLOYMENT. A rapid deployment is achieved between 30 - 60 days. </span></li>
+                        <li class='faq-bullet'><span class='faq-content'>At times for larger cloud deployments a hybrid model become necessary and prescribed in the methodology – FAST TRACK </span></li>
+                        <li class='faq-bullet'><span class='faq-content'>In FAST TRACK – basic customizations, Data upload on Go-Live are allowed and go-live stage accomplished between 60 – 90 days</span></li>
+
+                    </ul>"}
+    }
+    ]
+  }
+</script>
+    <a id="showLeft1" style="z-index: 1111;" class="slider-menu-icon mobilemenu mobilemenu-color-main-color-hover" href="#"><i class="fa fa-bars"></i></a>
+    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s2">
+        <div class="pull-right closeicon" id="HideLeft1"><i class="fa fa-times"></i></div>
+        <div class="mobilemenu-header">
+            <div class="header-search">
+                <div class="col-md-3 no-padding  float-left">
+                    <div class="col-md-6">
+                        <!--class="mobile-multi-language">-->
+                        <div ><a href="http://stgde.rheincs.net" class="mobl-lang">DE</a>&nbsp;/&nbsp;<a href="https://stg.rheincs.net" class="mobl-lang">EN | </a><div id="blogid" style="display:inline-block;">
+                        <a style="color: white; font-size: 13px; font-family: 'Raleway';"
+                           href="http://stg.rheincs.net/blog">BLOG</a>
+                    </div></div>
+                         
+                    </div>
+                    <div style="display:none;" class="">
+                        <div class="textSearchMobile">
+                            <input type="text" class="Search-text-box" id="search-input-mobile" placeholder="SEARCH" onfocus="this.placeholder=''" onblur="this.placeholder='SEARCH'" /><i class="fa fa-search Searchicon mobilesearch-closeicon" id="mob-search"></i>
+                        </div>
+                    </div>
+                   
+                   
+                </div>
+            </div>
+        </div>
+        <ul class="mobilmenu-ul">
+            <li class="mobilemenu-level1"><a href="<%=rootpath %>" class="Level1-menu ETMenu"><span class="mobilemenu-border-bottom">Home</span></a></li>
+            <li>
+                <a href="#" class="mobilemenu-level1 Level1-menu"><span class="mobilemenu-border-bottom">About Us</span></a>
+                <ul>
+                    <li><a href="<%=rootpath %>about-us/overview" class="Level2small-menu ETMenu"><span>Overview</span></a></li>
+                    <li><a href="<%=rootpath %>about-us/leadership" class="Level2small-menu ETMenu"><span>Leadership</span></a></li>
+                    <li><a href="<%=rootpath %>about-us/customer-speak" class="Level2small-menu ETMenu"><span>Customer Speak</span></a></li>
+                    <li><a href="<%=rootpath %>about-us/success-stories" class="Level2small-menu ETMenu"><span>Success Stories</span></a></li>
+                   <%-- <li><a href="<%=rootpath %>about-us/corporate-videos" class="Level2small-menu ETMenu"><span>Corporate Videos</span></a></li>--%>
+
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="mobilemenu-level1 Level1-menu ETMenu"><span class="mobilemenu-border-bottom">Solutions</span></a>
+                <ul>
+                    <%--
+                    <li>
+                        <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Focused Solutions</span></a>
+                        <ul>
+                            <li><a href="<%=rootpath %>solutions/focused-solutions/small-businesses" class="Level3-menu ETMenu"><span>Small Business</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/focused-solutions/mid-market-companies" class="Level3-menu ETMenu"><span>Mid-Market Companies</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/focused-solutions/enterprise" class="Level3-menu ETMenu"><span>Enterprise</span></a></li>
+                        </ul>
+                    </li>--%>
+                    <li>
+                        <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Our Solutions</span></a>
+                        <ul>
+
+                            <li><a href="<%=rootpath %>Epicor-Payroll-MEA" class="Level3-menu ETMenu"><span>Epicor Payroll MEA</span></a></li>
+                            <li><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="Level3-menu ETMenu"><span>Copy Company Tool</span></a></li>
+                            <li><a href="<%=rootpath %>ppa-power-plant-analytics" class="Level3-menu ETMenu"><span>Power Plant Analytics</span></a></li>
+                            <li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software" class="Level3-menu ETMenu"><span>MeRLIN – Strategic Sourcing Software</span></a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Consulting & Advisory Services</span></a>
+                        <ul>
+                            <li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/erp-selection-advisory-solutions" class="Level3-menu ETMenu"><span>ERP Selection Advisory Services</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/program-and-project-management-services" class="Level3-menu ETMenu"><span>Program and Project Management</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/it-business-excellence" class="Level3-menu ETMenu"><span>IT Business Excellence</span></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Enterprise Solutions (ERP) & Services</span></a>
+                        <ul>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="Level3-menu ETMenu"><span>SAP</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud" class="Level3-menu ETMenu"><span>Epicor Cloud</span></a>
+                                 <ul>
+                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP" class="Level3-menu ETMenu"><span>Gartner Magic Quadrant for Cloud ERP</span></a></li></ul>
+                            </li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="Level3-menu ETMenu"><span>EPICOR</span></a>
+                                <ul>
+                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing" class="Level3-menu ETMenu"><span>For Manufacturing</span></a></li>
+                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing" class="Level3-menu ETMenu"><span>For Cable Manufacturing</span></a></li>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software" class="Level3-menu ETMenu"><span>For Distribution</span></a></li>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design" class="Level3-menu ETMenu"><span>For Interior Design</span></a></li>
+                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC" class="Level3-menu ETMenu"><span>For Construction & EPC</span></a></li>
+                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" class="Level3-menu ETMenu"><span>Epicor HCM</span></a></li>
+                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software" class="Level3-menu ETMenu"><span>Epicor Iscala for Hospitality</span></a></li>
+                                    
+                               </ul>
+                            </li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering" class="Level3-menu ETMenu"><span>Epicor Support+</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-driven-BI-and-analytics"  class="Level3-menu ETMenu"><span>Business-Driven BI and Analytics</span></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">IT Services & Solutions</span></a>
+                        <ul>
+                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies" class="Level3-menu ETMenu"><span>Microsoft Technologies</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies/application-maintenance-and-support" class="Level3-menu ETMenu"><span>Application Maintenance & Support</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies/testing-services" class="Level3-menu ETMenu"><span>Testing Services</span></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">IP & Product Development Services</span></a>
+                        <ul>
+                            <li><a href="<%=rootpath %>solutions/ip-product-development-services/product-engineering-development-services" class="Level3-menu ETMenu"><span>Product Engineering & Development Services</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/ip-product-development-services/technology-support-for-product-startups" class="Level3-menu ETMenu"><span>Technology Support for Product Startups</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies" class="Level3-menu ETMenu"><span>Open Source Technologies</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            
+      <li><a href="#" class="mobilemenu-level1 Level1-menu"><span class="mobilemenu-border-bottom">Resources</span></a>
+                <ul>
+                    <li><a href="https://blog.rheincs.com" class="Level2small-menu ETMenu"><span>Blog</span></a></li>
+                    <li><a href="<%=rootpath %>resources/webinars/webinars-list" class="Level2small-menu ETMenu"><span>Webinars</span></a></li>
+                    <li><a href="<%=rootpath %>resources/webinars/webinars-recordings" class="Level2small-menu ETMenu"><span>Webinars Recordings</span></a></li>
+                    <li><a href="<%=rootpath %>whitePapers/whitepapers" class="Level2small-menu ETMenu"><span>White Papers</span></a></li>
+                    <li><a href="<%=rootpath %>brochure/brochures" class="Level2small-menu ETMenu"><span>Brochures</span></a></li>
+                    <li><a href="<%=rootpath %>factsheets/factsheets" class="Level2small-menu ETMenu"><span>FactSheets</span></a></li>
+                    <li><a href="<%=rootpath %>casestudies/CaseStudy" class="Level2small-menu ETMenu"><span>Case Studies</span></a></li>
+                    <li><a href="<%=rootpath %>about-us/corporate-videos" class="Level2small-menu ETMenu"><span>Corporate Videos</span></a></li>
+                    <li><a href="<%=rootpath %>our-history" class="Level2small-menu ETMenu"><span>Our History</span></a></li>
+                    <li><a href="<%=rootpath %>news-and-events" class="Level2small-menu ETMenu"><span>News and Events</span></a></li>
+                     <li><a href="<%=rootpath %>resources/faq" class="Level2small-menu ETMenu"><span>FAQ</span></a></li>
+                </ul>
+            </li>
+            <li><a href="<%=rootpath %>partners" class="mobilemenu-level1 Level1-menu ETMenu"><span class="mobilemenu-border-bottom">Partners</span></a></li>
+            <li>
+                <a href="#" class="mobilemenu-level1 Level1-menu"><span class="mobilemenu-border-bottom">Careers</span></a>
+                <ul>
+                    <li><a href="<%=rootpath %>careers/career-model" class="Level2small-menu ETMenu"><span>Career Model</span></a></li>
+                    <li><a href="<%=rootpath %>careers/mentoring-approach" class="Level2small-menu ETMenu"><span>Mentoring Approach</span></a></li>
+                    <li><a href="<%=rootpath %>careers/current-openings" class="Level2small-menu ETMenu"><span>Current Openings</span></a></li>
+                </ul>
+            </li>
+            <li><a href="<%=rootpath %>contact-us" class="mobilemenu-level1 Level1-menu ETMenu"><span class="mobilemenu-border-bottom">Contact Us</span></a></li>
+        </ul>
+    </nav>
+    <header id="navhead">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 headertopnav hidden-xs hidden-sm" id="headsearch">
+                    <div class="header-search">
+                        <div class="col-md-3 pull-right no-padding hidden-xs hidden-sm hidden-md" style="width: 5%;padding-left: 30px !important;margin-top: 8px;">
+                            <a style="color: white; font-family: raleway !important; font-size: 13px;"
+                               href="https://blog.rheincs.com">BLOG</a>
+                        </div>
+                        <div class="col-md-3 pull-right no-padding hidden-xs hidden-sm hidden-md" style="display: none;">
+                            <div class="">
+                                <div class="textSearch">
+                                    <input type="text" class="Search-text-box" id="search-input" placeholder="SEARCH" onfocus="this.placeholder=''" onblur="this.placeholder='SEARCH'" /><i class="fa fa-search Searchicon"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 pull-right no-padd-right hidden-xs hidden-sm">
+                            <div class="pull-right multi-language"><a href="http://stgde.rheincs.net" class="white-color">DE</a>&nbsp;/&nbsp;<a href="https://stg.rheincs.net" class="white-color">EN</a> | </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo col-md-12 col-md-offset-0 navbar-static-top header-responsive-align header-box-shadow" id="nav">
+                    <br />
+                    <div class="col-md-2">
+                        <a href="<%=rootpath %>">
+                            <img id="Img1" src="Assets/images/RheinBrücke-logo.jpg" runat="server" alt="RheinBrücke IT Consulting" class="ETlogo" />
+                        </a>
+                    </div>
+                    <div class="col-md-10">
+                        <nav class="navbar navbar-default" role="navigation" id="menu">
+                            <div class="container-fluid">
+                                <div class="collapse navbar-collapse padd-top-20 menualign" id="bs-megadropdown-tabs">
+                                    <ul class="nav navbar-nav">
+                                        <li class="menuname ETMenu"><a href="<%=rootpath %>">Home</a></li>
+                                        <li class="dropdown ETMenu">
+                                            <a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">About Us <span class="caret"></span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/overview">Overview</a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/leadership">Leadership</a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/customer-speak">Customer Speak</a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/success-stories">Success Stories</a></li>
+                                               <%-- <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/corporate-videos">Corporate Videos</a></li>--%>
+
+
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown mega-dropdown active ETMenu">
+                                            <a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">Solutions <span class="caret"></span></a>
+                                            <div class="dropdown-menu mega-dropdown-menu">
+                                                <div class="container-fluid">
+                                                    <div class="tab-content pull-left">
+                                                        <div class="tab-pane active">
+                                                            <div class="col-md-3 col-md-3V2">
+                                                                <%--<ul class="">
+                                                                    <li class="menuname-small menuheading">Focused Solutions</li>
+                                                                    <br />
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/focused-solutions/small-businesses">Small Business </a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/focused-solutions/mid-market-companies">Mid-Market Companies</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/focused-solutions/enterprise">Enterprise</a></li>
+                                                                </ul>--%>
+                                                                <ul class="">
+                                                                    <li class="menuname-small menuheading">Our Solutions</li>
+                                                                    <br />
+
+                                                                    <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>Epicor-Payroll-MEA"><span>Epicor Payroll MEA</span></a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>ppa-power-plant-analytics">Power Plant Analytics </a></li>
+                                                                    <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN – Strategic Sourcing Software</a></li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3 col-md-3V2">
+                                                                <ul>
+                                                                    <li class="menuname-small menuheading-large menu-consulting">Consulting & Advisory Services</li>
+                                                                    <br />
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/erp-selection-advisory-solutions">ERP Selection Advisory Services</a></li>
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/program-and-project-management-services">Program And Project Management</a></li>
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/it-business-excellence">IT Business Excellence</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3 col-md-3V2">
+                                                                <ul>
+                                                                    <li class="menuname-small menuheading-large menu-erp"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp">Enterprise Solutions (ERP) & Services</a></li>
+                                                                    <br />
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">SAP</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud">Epicor Cloud</a>
+                                                                        <ul class="padd-top-3">
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP">Gartner Magic Quadrant for Cloud ERP</a></li>
+                                                                            </ul>
+                                                                    </li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">EPICOR</a>
+                                                                        <ul class="padd-top-3">
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing">For Manufacturing</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing">For Cable Manufacturing</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software">For Distribution</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design">For Interior Design</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC">For Construction & EPC</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm">Epicor HCM</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software">Epicor Iscala for Hospitality</a></li>
+                                                                            
+                                                                        </ul> 
+                                                                      
+                                                                    </li>
+                                                                    <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-driven-BI-and-analytics">Business-Driven BI and Analytics</a></li>
+                                                                   <%-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/Epicor-for-manufacturing">Epicor for Manufacturing</a></li>--%>
+                                                                     </ul>
+                                                            </div>
+                                                            <div class="col-md-3 col-md-3V2">
+                                                                <ul>
+                                                                    <li class="menuname-small menuheading">IT Services & Solutions</li>
+                                                                    <br />
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies/application-maintenance-and-support">Application Maintenance & Support</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies/testing-services">Testing Services</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3 col-md-3V2">
+                                                                <ul>
+                                                                    <li class="menuname-small menuheading-large menu-erp">IP & Product Development Services</li>
+                                                                    <br />
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/product-engineering-development-services">Product Engineering and Development Services</a></li>
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/technology-support-for-product-startups">Technology Support for Product Startups</a></li>
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open Source Technologies</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                      <li class="dropdown"><a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">Resources<span class="caret"></span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="menuname-small ETMenu"><a href="https://blog.rheincs.com"><span>Blog</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/webinars/webinars-list"><span>Webinars</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/webinars/webinars-recordings"><span>Webinars Recordings</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>whitePapers/whitepapers"><span>White Papers</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>brochure/brochures"><span>Brochures</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>factsheets/factsheets"><span>FactSheets</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>casestudies/CaseStudy"><span>Case Studies</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/corporate-videos"><span>Corporate Videos</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>our-history"><span>Our History</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>news-and-events"><span>News and Events</span></a></li>
+                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/faq"><span>FAQ</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menuname ETMenu"><a href="<%=rootpath %>partners">Partners</a></li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">Careers <span class="caret"></span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>careers/career-model">Career Model</a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>careers/mentoring-approach">Mentoring Approach</a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>careers/current-openings">Current Openings</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menuname ETMenu"><a href="<%=rootpath %>contact-us">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <form id="form1" runat="server">
+            <div class="row">
+                <div class="clearfix">&nbsp;</div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                <a href="#" id="back_to_top" class="back-to-top-position-right"><i class="fa fa-angle-up"></i></a>
+                <div id="Contactfeedback" class="ETcallout"><a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a> </div>
+                <div id="socialicon">
+                    <div data-social-share-privacy='true'>   </div>
+                   <%-- <ul>
+                        <li class="hvr-wobble-to-top-right">
+                            <a id="linkdin" href="#" target="_blank" title="LinkedIn">
+                                <img style="height: 35px; width: 35px;" src="<%=rootpath %>Assets/images/linkedin.png" />
+                            </a>
+                        </li>
+                        <li class="hvr-wobble-to-top-right">
+                            <a id="facebook" href="#" target="_blank" title="Facebook">
+                                <img style="height: 35px; width: 35px;" src="<%=rootpath %>Assets/images/facebook.png" />
+                            </a>
+                        </li>
+
+                        <li class="hvr-wobble-to-top-right">
+                            <a id="twitter" href="#" target="_blank" title="Twitter">
+                                <img style="height: 35px; width: 35px;" src="<%=rootpath %>Assets/images/twitter.png" />
+                            </a>
+                        </li>
+                        <li class="hvr-wobble-to-top-right">
+                            <a id="GPlus" href="#" target="_blank" title="Google-plus">
+                                <img style="height: 35px; width: 35px;" src="<%=rootpath %>Assets/images/google-plus.png" />
+                            </a>
+                        </li>
+                    </ul>--%>
+                </div>
+                <div class="modal fade" id="myModal-contactus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header modal-header-bgcolor">
+                                <%-- <div class="modal-header modal-header-v2"> <button type="button" class="close " data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> </div>--%>
+                                <button type="button" class="close closev2" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title redColor">Contact Us</h4>
+                            </div>
+                            <div class="col-md-12 padd-top">
+                                <div class="form-group">
+                                    <label class="success" id="successmessage" hidden="hidden">Thank you for contacting RheinBrücke. We will get back to you soon.</label>
+                                </div>
+                            </div>
+                            <div class="modal-body modalform">
+                                <p style="padding-top: 0%; padding-bottom: 9px;" class="formhead">Please fill in your details.</p>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                       <select id="ddlServices" class="dropdown" style="width: 100%; padding: 6px;">
+                                            <option value="0">-- Select Any One --</option>
+                                            <option value="1">Epicor</option>
+                                            <option value="2">ERP</option>
+                                            <option value="3">EPICOR for Manufacturing</option>
+                                           <option value="4">EPICOR for Retail</option>
+                                            <option value="5">EPICOR for Cable Manufacturing</option>
+                                            <option value="6">EPICOR for Distribution</option>
+                                            <option value="7">EPICOR for Interior Design</option>
+                                            <option value="8">EPICOR for EPC and Construction</option>
+                                           <option value="9"> EPICOR iScala for hospitality</option>
+                                           <option value="10"> RheinBrücke Power Plant Analytics</option>
+                                            <option value="11">Business Intelligence</option>
+                                            <option value="12">MeRLIN </option>
+                                            <option value="13">SAP</option>
+                                            <option value="14">Epicor HCM</option>
+                                            <option value="15">Epicpay Product</option>
+                                            <option value="16">CCT (Copy Company Tool)</option>
+                                            <option value="17">SharePoint</option>
+                                            <option value="18">Microsoft Technologies - .Net & SQL Server</option>
+                                        </select>
+                                        <span class="validator" id="reqddlservices" hidden="hidden" style="font-size: 13px;">Select the Services</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="*Your Name" id="txtName" class="write-to-us-input" />
+                                        <span class="validator" id="reqName" hidden="hidden" style="font-size: 13px;">Enter Your Name</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="*Your Official Email Address" id="txtEmail" class="write-to-us-input" />
+                                        <span class="validator" id="reqemail" hidden="hidden" style="font-size: 13px;">Enter Your Email Address</span> 
+                                        <span class="validator" style="font-size: 13px;" id="valemail" hidden="hidden">Enter Valid Email Address</span>
+                                         <span class="validator" style="font-size: 13px;" id="domainemail" hidden="hidden">Enter Valid Official Address</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="Your Mobile Number" id="txtPhone" class="write-to-us-input" />
+                                        <span class="validator" id="reqphone" hidden="hidden" style="font-size: 13px;">Enter Your Mobile Number</span> 
+                                        <span style="font-size: 13px;" class="validator" id="valphone" hidden="hidden">Enter Valid Mobile Number</span>
+                                    </div>
+                                </div>
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="Your Company Name" id="txtCompany" class="write-to-us-input" />
+                                          <span class="validator" id="reqcompanyName" hidden="hidden" style="font-size: 13px;">Enter Your Company name</span>
+                                        <span style="font-size: 13px;" class="validator" id="valcompanyname" hidden="hidden">Enter Valid Company Name</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <textarea cols="45" style="font-size: 13px;" rows="5" placeholder="*Your Message" id="txtMessage" class="write-to-us-input"></textarea>
+                                        <span class="validator" id="reqMessage" hidden="hidden" style="font-size: 13px;">Enter Your Message</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="button" id="btnContactUs" class="submit-button" data-loading-text="Submitting.." value="Submit" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="footer">
+                    <div class="row" style="margin: 0px">
+                        <div style="max-width: 1024px !important; margin: auto;">
+                            <ul class="bxslider">
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/national-gas.jpg" class="hvr-bounce-out" title="National Gas" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/trw.jpg" class="hvr-bounce-out" title="TRW-Automotive" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/sandoz.jpg" class="hvr-bounce-out" title="Sandoz Pharmaceuticals " />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/pertro-masilla.jpg" class="hvr-bounce-out" title="Petro Masila" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/rsp-consultojg.jpg" class="hvr-bounce-out" title="RSP Consultants" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/kemppi.jpg" class="hvr-bounce-out" title="Kemppi" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/rederal.jpg" class="hvr-bounce-out" title="Federal Mogul" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/saudi-american-glass.jpg" class="hvr-bounce-out" title="SAR-Saudi American Glass" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/ray.jpg" class="hvr-bounce-out" title="Ray International" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/msd.jpg" class="hvr-bounce-out" title="Msd" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/belcan.jpg" class="hvr-bounce-out" title="Belcan" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/flsmidh.jpg" class="hvr-bounce-out" title="Flsmidth" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/kone.jpg" class="hvr-bounce-out" title="Kone" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/kern.jpg" class="hvr-bounce-out" title="Kern" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/cash-fire.jpg" class="hvr-bounce-out" title="Cease-fire" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/sembcorp.jpg" class="hvr-bounce-out" title="Sembcorp" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/kraft-heinz.jpg" class="hvr-bounce-out" title="Heinz" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/stahl.jpg" class="hvr-bounce-out" title="Stahil" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/amazon.jpg" class="hvr-bounce-out" title="Amazon" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/alcon.jpg" class="hvr-bounce-out" title="Alcon" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/pradeep-metals.jpg" class="hvr-bounce-out" title="Pradeep-Metals" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/euronics.jpg" class="hvr-bounce-out" title="Euronics" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/arabian-industries.jpg" class="hvr-bounce-out" title="Arabian-Industries" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/arabi-enertech.jpg" class="hvr-bounce-out" title="Arabi-Enertech" />
+                                </li>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/novartis.jpg" class="hvr-bounce-out" title="Novartis" />
+                                </li>
+                                <%--
+                                <li>
+                                    <img src="Assets/images/Bond-Interiors.png" class="hvr-bounce-out" title="Bond Interiors" style="border: 1px solid #ddd;" />
+                                </li>--%>
+                                <li>
+                                    <img src="<%=rootpath %>Assets/images/Gerab.png" class="hvr-bounce-out" title="Gerab" style="border: 1px solid #ddd;" />
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <footer>
+                        <div class="row alignFooter footerCenter">
+                            <div class="col-md-5 testimonial">
+                                <div class="col-md-12 no-padding testimonial-margin">
+                                    <p class="testimonial-paragraph">At RheinBrücke, we see a demand gap for SMEs and bridge the gap. Our passion for excellence is demonstrated by our consultants consistently striving to deliver beyond the expectations of our clients. </p>
+                                    <br />
+                                    <p class="testimonial-paragraph">See what some of them have to say.</p>
+                                    <div class="col-md-offset-1 col-xs-offset-0 col-sm-offset-0 col-lg-offset-1">
+                                        <div id="slider3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="col-md-12 nopadding splst-margin">
+                                    <div class="fBottom"><span class="border talk">Talk to a Specialist today</span> </div>
+                                    <div class="fBottomFull"><span class="telephone">+ 49 (0) 221 650 60 608</span></div>
+                                    <br />
+                                    <div class="fBottom"><span class="border">Collaborate with RheinBrücke</span> </div>
+                                    <div class="boder2">
+                                        <span class="border1">
+                                            <p>EPICOR Partner Enablement Program</p>
+                                        </span>
+                                    </div>
+                                    <a data-toggle="modal" onclick="DownloadClear()" class="ETdownload" data-target="#myModal-pepdownload">
+                                        <div class="fBottom"><span class="telephone download">Download PDF</span></div>
+                                    </a>
+                                    <div class="modal fade" id="myModal-pepdownload" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content mymodal-download">
+                                                <div class="modal-header modal-header-bgcolor">
+                                                    <button type="button" class="close closev2" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
+                                                    <h4 class="modal-title redColor">Download RheinBrücke’s EPICOR Partner Enablement Program document</h4>
+                                                </div>
+                                                <div class="col-md-12 padd-top">
+                                                    <div class="form-group">
+                                                        <label class="success" id="PEPsuccessmessage" hidden="hidden">Thank you for submitting your details. You will receive an email shortly with a link to download RheinBrücke's EPICOR Partner Enablement Program document.</label>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p class="formhead">Please fill in your details to download RheinBrücke’s EPICOR Partner Enablement Program document.</p>
+                                                    <p>&nbsp;</p>
+                                                    <p>
+                                                        <input type="text" placeholder="*Your Name" id="txtCalloutName" class="write-to-us-input" />
+                                                    </p>
+                                                    <span style="margin-top: 5px;" class="validator" id="reqCalloutName" hidden="hidden">Enter Your Name</span>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>
+                                                        <input type="text" placeholder="*Your Email Address" id="txtCalloutEmail" class="write-to-us-input" />
+                                                    </p>
+                                                    <span style="margin-top: 5px;" class="validator" id="reqCalloutemail" hidden="hidden">Enter Your Email Address</span> <span class="validator" id="valCalloutemail" hidden="hidden" style="margin-top:2px;">Enter Valid Email Address</span>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>
+                                                        <input type="number" placeholder="Your Mobile Number" id="txtCalloutMobNo" class="write-to-us-input" />
+                                                    </p>
+                                                    <span style="margin-top: 5px;" class="validator" id="reqCalloutMobNo" hidden="hidden">Enter Your Mobile Number</span> <span class="validator" id="valCalloutMobNo" hidden="hidden">Enter Valid Your Mobile Number</span>
+                                                </div>
+                                                <div class="clearfix">&nbsp;</div>
+                                                <div class="modal-body">
+                                                    <input type="button" id="BtnCallout" class="submit-button" data-loading-text="Submitting.." value="Submit" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="fBottom"><span class="border">Connect with us</span> </div>
+                                    <ul class="social">
+                                        <li><a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" title="LinkedIn" target="_blank" aria-hidden="true" class="icon-linkedin ETsocialicon"></a></li>
+                                        <li><a href="https://plus.google.com/108478282039113445071" title="Google-plus" target="_blank" aria-hidden="true" class="icon-google-plus ETsocialicon"></a></li>
+                                        <li><a href="https://www.facebook.com/RheinBrucke" title="Facebook" target="_blank" aria-hidden="true" class="icon-facebook ETsocialicon"></a></li>
+                                        <li><a href="https://twitter.com/RheinBruckeIT" title="Twitter" target="_blank" aria-hidden="true" class="icon-twitter ETsocialicon"></a></li>
+                                        <li><a href="https://www.youtube.com/channel/UCuR25ldsvrd7yd5vkzqntAg" title="Youtube" target="_blank" aria-hidden="true" class="icon-youtube ETsocialicon"></a></li>
+                                        <li class="social1">
+                                            <a href="https://blog.rheincs.com" title="Blog" target="_blank" aria-hidden="true">
+                                                <img src="<%=rootpath %>Assets/images/b.png" style="margin-top: 13px;margin-left:1px;" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <%--<ul class="social1">
+                                        <li>
+                                            <a href="http://blog.rheincs.com" title="Blog" target="_blank" aria-hidden="true">
+                                                <img src="https://en.rheincs.com/Assets/images/b.png" />
+                                            </a>
+                                        </li>
+                                    </ul>--%>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <%-- <div class="fBottom"><span class="border">Top Consultant 2014-2015</span></div><a href="/Newsandevents/NewsEventsDetail.aspx?ID=11"> <img src="https://en.rheincs.com/Assets/images/RheinBrücke-TopConsultant-Award.jpg" alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant" /></a>
+                            </div>--%>
+                            <div class="col-md-10 nopadding awards-margin">
+                                <div class="fBottom" style="text-align: center"><span class="border">Awards and Recognition</span></div>
+                                <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                                    <%--<ol class="carousel-indicators1">
+                                        <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel1" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel1" data-slide-to="2"></li>
+                                    </ol>--%>
+                                    <div class="carousel-inner" role="listbox" style="width: 200px; margin: auto;">
+                                        <%-- <div class="item active">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-recognised-as-top-consultant-germany">
+                                                <img src="<%=rootpath %>Assets/images/RheinBrücke-TopConsultant-Award.jpg" alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>--%>
+                                        <div class="item active">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
+                                                <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg" alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+
+                                        <div class="item ">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-epicor-international-partner-of-the-year">
+                                                <img src="<%=rootpath %>Assets/images/Epicor-partner-2016.png" alt="RheinBrücke Epicor Internation Partner of the year 2016" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/Vetri-IBA-silver-Stevies.png" alt="Vetri Maverick of the year" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/Vetri-IBA-Stevies.png" alt="Vetri IT executive of the year" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/Support-IBA-Stevies.png" alt="Bronze Stevie IBA winner support department" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item ">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/HR-IBA-Stevies.png" alt="Bronze Stevie IBA winner HR department" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
+                                                <img src="<%=rootpath %>Assets/images/executiveoftheyear.jpg" alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                      
+
+                                    </div>
+                                    <a class="left carousel-control" style="left: -31px; height: 30px; margin-top: 100px; font-size: 30px;"
+                                       href="#myCarousel1" role="button" data-slide="prev"><</a>
+                                    <a class="right carousel-control" href="#myCarousel1" style="left: auto; right: -17px; height: 30px; margin-top: 100px; font-size: 30px;"
+                                       role="button" data-slide="next">></a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="bottomFooter">
+                    <div class="copy">
+                        <div class="pull-left leftF">© RheinBrücke IT Consulting GmbH - All Rights Reserved</div>
+                        <div class="pull-right rightF"><a href="<%=rootpath %>sitemap">Sitemap</a> |  <a href="<%=rootpath %>Impressum">Impressum</a> | <a href="<%=rootpath %>terms">Terms</a> | <a href="<%=rootpath %>privacy">Privacy</a></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                </footer>
+            </div>
+    </div>
+    </form>
+    </div>
+    
+   <%--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content voting-popup-bgimg">
+                <div class="modal-header ">
+                    <button type="button" class="close close-popup" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
+                    <div class="col-md-12 popup-logo-design">
+                        <div class="col-md-6 ">
+                            <img src="https://en.rheincs.com/Assets/images/RB_Logo_rgb.png" class="popup-width" />
+                        </div>
+                    </div>
+                    <div class="col-md-12 popup-design">
+                        <div class="col-md-2 ">
+                            <img src="https://en.rheincs.com/Assets/images/head_IBALogo.gif" class="popup-width1" />
+                        </div>
+                    </div>
+                    <div class="modal-body mainContent">
+                        <div class="redColor padd-top-20">
+                            <p>RHEINBRÜCKE CONTINUES TO SHINE AT THE STEVIE AWARDS</p>
+                        </div>
+                        <div class="col-md-12">
+                            <p class="text-center padding-top-10">We are delighted to announce that RheinBrücke IT Consulting is in the running to win the prestigious</p>
+                        </div>
+                        <div class="col-md-12">
+                            <p class="text-center padding-top-10">International 2015 People’s choice Stevie Awards for Favourite Company</p>
+                        </div>
+                        <div class="col-md-12 padd-top-20 popup-vote-size">
+                            <p>Please click the image below to vote for us </p>
+                        </div>
+                        <br />
+                        <p>
+                            <a target="_blank" href="https://peopleschoice.stevieawards.com/default.cfm?action=voteStep2&nomination_id=39916&AwardId=3238&sitetype=PI">
+                                <img src="https://en.rheincs.com/Assets/images/Stevies.jpg" class="popup-width2 padd-top-20" alt="stevies-voting" />
+                            </a>
+                        </p>
+                        <br />
+                        <p class="popup-ribbon-style3">Thank-you for supporting and spending your valuable time. We will reach out to you when the results are announced.</p>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>--%>
+
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js" defer="defer">
+    </script>
+      <!--LeadSquared Tracking Code Start-->
+    <script type="text/javascript" src="https://web.mxradon.com/t/Tracker.js" defer="defer"></script>
+    <!--LeadSquared Tracking Code End-->
+<!-- GOOGLE ANALYTICS CODE-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61074754-1', 'auto');
+  ga('send', 'pageview');
+  ga('set', 'anonymizeIp', true);
+    </script>
+<!--END OF GOOGLE ANALYTICS CODE-->
+    <script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=292694,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+    </script>
+    <noscript>
+        <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955726328/?guid=ON&amp;script=0" />
+        </div>
+    </noscript>
+
+</body>
+   
+<%: Scripts.Render("~/assets/jsmin")%>
+<asp:contentplaceholder runat="server" id="FooterScript" />
+<script src="<%=rootpath %>Assets/js/bxSlider.js" defer></script>
+<script type="text/javascript">
+    //function gitexlp()
+    //{
+    //    window.open('https://www.rheincs.com/events/RheinBrücke-at-GITEX-2017', '_blank');
+    //}
+    //function closegitex()
+    //{
+    //    $(".gitex-banner-container").css('display','none');
+    //}
+    //$(document).ready(function () {
+    //    setTimeout(function () { $('html, body').scrollTop(0); }, 1000);
+    //    $(".gitex-banner-container .gitex-banner-img").fadeIn('slow');
+        
+    //    $(function () {
+    //        $(".gitex-banner-container").delay(10000).fadeOut('slow');
+    //    });
+      
+    //    $("body").click
+    //    (
+    //      function (e) {
+    //          if (e.target.className !== "gitex-img") {
+    //              $(".gitex-banner-container").hide();
+    //          }
+    //      }
+    //    );
+    //});
+
+    $(function () {
+        $('#back_to_top').click(function () {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1000);
+            return false;
+        });
+    });
+
+    $(document).ready(function () {
+       
+
+        $("#twitter").attr("href", "https://twitter.com/intent/tweet?url=" + window.location.href + "");
+        $("#facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + window.location.href + "");
+        $("#linkdin").attr("href", "http://www.linkedin.com/shareArticle?url=" + window.location.href + "");
+        $("#GPlus").attr("href", "https://plus.google.com/share?url=" + window.location.href + "");
+
+        $('.bxslider').bxSlider({
+            auto: true,
+            autoControls: true,
+            minSlides: 5,
+            maxSlides: 5,
+            slideWidth: 360,
+            slideMargin: 25,
+            pause: 5000
+        });
+
+
+        //$('.bxslider').bxSlider({
+        //    auto: true,
+        //    autoControls: true,
+        //    minSlides: 1,
+        //    maxSlides: 5,
+        //    slideWidth: 150,
+        //    slideMargin: 17,
+        //    pause: 5000
+        //});
+
+
+
+        $('.navbar .dropdown').hover(function () {
+            $(this).find('.dropdown-menu').first().stop(true, true).slideDown(150);
+        }, function () {
+            $(this).find('.dropdown-menu').first().stop(true, true).slideUp(105)
+        });
+
+    });
+
+    $(window).on('beforeunload', function () {
+        $(window).scrollTop(0);
+    });
+
+    //$(window).scroll(function () {
+
+    //    if ($(this).scrollTop() > 0) {DownloadClear()
+    //        $('#socialicon').css('display', 'block');
+    //    }
+    //    else {
+    //        $('#socialicon').css('display', 'none');
+    //    }
+    //});
+
+    // Changes for Carousel Scripts
+    $('#myCarousel1').carousel({
+        interval: 3000
+    });
+    function DownloadClear() {
+        $("#reqCalloutName,#reqCalloutMobNo,#reqCalloutemail,#valCalloutemail,#valCalloutMobNo").hide(); $("#txtCalloutName").val(""); $("#txtCalloutEmail,#txtCalloutMobNo").val("");
+    }
+
+</script>
+    <!--Start of Tawk.to Script-->
+<<%--script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5ad86448227d3d7edc241ae7/1cbemufce';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+    //Sitemap
+$(document).ready(function () {
+    $("a[href$='javascript:void(0)']").css("cursor", "default");
+    $("ul.sub-menu a[href$='javascript:void(0)']").hover(function () {
+        $(this).css("color", "#666")
+    });
+});
+</script>--%>
+<!--End of Tawk.to Script-->
+
+<!-- Start of LiveChat (www.livechat.com) code -->
+<script>
+    window.__lc = window.__lc || {};
+    window.__lc.license = 14850255;
+    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+</script>
+<noscript><a href="https://www.livechat.com/chat-with/14850255/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+<!-- End of LiveChat code -->
+
+</html>

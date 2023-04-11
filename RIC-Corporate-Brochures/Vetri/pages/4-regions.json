@@ -1,0 +1,102 @@
+[
+  {
+    "x": 100,
+    "y": 580,
+    "width": 55,
+    "height": 12,
+    "class": "link",
+    "data": {
+      "url": "https://www.rheincs.com"
+    }
+  },
+  {
+    "x": 353,
+    "y": 280,
+    "width": 49,
+    "height": 12,
+    "class": "link",
+    "data": {
+      "url": "https://www.rheincs.com/rheinbrucke-solutions/manufacturing"
+    }
+  },
+  {
+    "x": 400,
+    "y": 280,
+     "width": 20,
+    "height": 6,
+    "class": "link",
+    "data": {
+      "url": "https://www.rheincs.com/rheinbrucke-solutions/manufacturing"
+    }
+  },
+  {
+    "x": 415,
+    "y": 287,
+    "width": 20,
+    "height": 6,
+    "class": "link",
+    "data": {
+      "url": "https://www.rheincs.com/rheinbrucke-solutions/epicor-for-construction-and-epc-overview"
+    }
+  },
+  {
+    "x": 353,
+    "y": 302,
+    "width": 104,
+    "height": 12,
+    "class": "link",
+    "data": {
+      "url": "https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/epicor/preconfigured-epicor-solutions"
+    }
+  },
+  {
+    "x": 353,
+    "y": 315,
+    "width": 45,
+    "height": 12,
+    "class": "link",
+    "data": {
+      "url": "https://www.rheincs.com/rheinbrucke-solutions/hcm"
+    }
+  },
+  {
+    "x": 47,
+    "y": 487,
+    "width": 80,
+    "height": 90,
+    "class": "link",
+    "data": {
+      "url": "https://www.rheincs.com/rheinbrucke-cct-copy-company-tool"
+    }
+  },
+  {
+    "x": 147,
+    "y": 487,
+    "width": 80,
+    "height": 90,
+    "class": "link",
+    "data": {
+      "url": "https://www.rheincs.com/epicpay-smart-payroll-solution"
+    }
+  },
+  {
+    "x": 245,
+    "y": 487,
+    "width": 80,
+    "height": 90,
+    "class": "link",
+    "data": {
+      "url": "https://www.youtube.com/watch?v=oYXzJmGZMLg"
+    }
+  },
+  {
+    "x": 338,
+    "y": 487,
+    "width": 80,
+    "height": 90,
+    "class": "link",
+    "data": {
+      "url": "https://www.rheincs.com/rheinbrucke-solutions/PPA"
+    }
+  }
+]

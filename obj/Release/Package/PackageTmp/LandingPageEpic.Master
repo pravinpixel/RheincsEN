@@ -1,0 +1,1036 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LandingPageEpic.master.cs" Inherits="RheinBrucke.LandingPageEpic" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>RheinBrücke IT Consulting</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
+    <script type="text/javascript" src="https://stg.rheincs.net/2-click/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="https://stg.rheincs.net/2-click/javascripts/jquery.cookies.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script type="application/x-social-share-privacy-settings">{"path_prefix":"https://stg.rheincs.net/2-click/","uri":"https://rheincs.com","layout":"box","services":{"buffer":{"status":false},"delicious":{"status":false},"fbshare":{"status":false},"disqus":{"status":false},"flattr":{"status":false},"hackernews":{"status":false},"mail":{"status":false},"pinterest":{"status":false},"reddit":{"status":false},"stumbleupon":{"status":false},"tumblr":{"status":false},"xing":{"status":false}}}</script>
+    <style>
+        li.hvr-wobble-to-top-right {
+            display: inherit;
+        }
+
+        body {
+            opacity: 0;
+        }
+
+        body {
+            opacity: 1 !important;
+            background: url(../Assets/images/RheinBrücke.jpg) center no-repeat fixed #f5f5f5 !important;
+            background-size: cover !important;
+        }
+
+        #Contactfeedback {
+            height: 104px;
+            width: 104px;
+            position: fixed;
+            top: 12% !important;
+            right: 0;
+            z-index: 1060;
+            transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+            cursor: pointer;
+        }
+
+        .mega-dropdown-menu {
+            padding: 20px 15px 15px !important;
+            text-align: center !important;
+            width: 100% !important;
+        }
+
+        @media (max-width: 375px) {
+            #slider3 .overview li {
+                float: left;
+                margin: 0 0 0 45px;
+                padding: 0px 35px 0px 10px;
+                font-family: raleway !important;
+                line-height: 18px;
+                font-size: 14px;
+                width: 295px;
+                text-align: left;
+            }
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Raleway'), url(https://fonts.gstatic.com/s/raleway/v9/IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Raleway'), url(https://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U +E0FF, U+EFFD, U+F000;
+        }
+
+        .navbar-nav > li > .dropdown-menu {
+            margin-top: -10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+
+        @media (min-width: 768px) {
+            .navbar-nav > li > a {
+                padding-top: 17px;
+                padding-bottom: 17px;
+            }
+        }
+
+        .mpcth-sticky-header #nav {
+            top: 0;
+            -webkit-transition-property: top, bottom;
+            -webkit-transition-duration: 0.0s;
+        }
+
+        #socialicon {
+            position: fixed;
+            top: 12% !important;
+            left: 0;
+            z-index: 1060;
+            cursor: pointer;
+        }
+
+        .hvr-wobble-to-top-right {
+            /* display: inline-block; */
+            vertical-align: middle;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -moz-osx-font-smoothing: grayscale;
+            padding: 4px 0;
+        }
+
+        .form-control {
+            height: 54px !important;
+        }
+
+        .line-ht-13 {
+            line-height: 13px !important;
+        }
+
+        .line-ht-18 {
+            line-height: 18px !important;
+        }
+    </style>
+
+    <script type='text/javascript'>
+        var _vwo_code = (function () {
+            var account_id = 292694,
+            settings_tolerance = 2000,
+            library_tolerance = 2500,
+            use_existing_jquery = false,
+            /* DO NOT EDIT BELOW THIS LINE */
+            f = false, d = document; return { use_existing_jquery: function () { return use_existing_jquery; }, library_tolerance: function () { return library_tolerance; }, finish: function () { if (!f) { f = true; var a = d.getElementById('_vis_opt_path_hides'); if (a) a.parentNode.removeChild(a); } }, finished: function () { return f; }, load: function (a) { var b = d.createElement('script'); b.src = a; b.type = 'text/javascript'; b.innerText; b.onerror = function () { _vwo_code.finish(); }; d.getElementsByTagName('head')[0].appendChild(b); }, init: function () { settings_timer = setTimeout('_vwo_code.finish()', settings_tolerance); var a = d.createElement('style'), b = 'body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}', h = d.getElementsByTagName('head')[0]; a.setAttribute('id', '_vis_opt_path_hides'); a.setAttribute('type', 'text/css'); if (a.styleSheet) a.styleSheet.cssText = b; else a.appendChild(d.createTextNode(b)); h.appendChild(a); this.load('//dev.visualwebsiteoptimizer.com/j.php?a=' + account_id + '&u=' + encodeURIComponent(d.URL) + '&r=' + Math.random()); return settings_timer; } };
+        }()); _vwo_settings_timer = _vwo_code.init();
+    </script>
+    <noscript>
+        <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955726328/?guid=ON&amp;script=0" />
+        </div>
+    </noscript>
+    <!--LeadSquared Tracking Code Start-->
+    <script type="text/javascript" src="https://web.mxradon.com/t/Tracker.js"></script>
+    <script type="text/javascript">
+        //pidTracker('17537');
+    </script>
+    <!--LeadSquared Tracking Code End-->
+    <script type="text/javascript">function load_css_async(filename) {
+if (document.createStyleSheet) document.createStyleSheet(filename);
+else {
+    var stylesheet = document.createElement('link');
+    stylesheet.href = filename;
+    stylesheet.rel = 'stylesheet';
+    stylesheet.type = 'text/css';
+    document.getElementsByTagName('head')[0].appendChild(stylesheet);
+}
+}</script>
+
+
+    <%=cssload %>
+    <script>
+        load_css_async("/Assets/css/OverSheet.css");
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+
+
+    <a id="showLeft1" style="z-index: 1111;" class="slider-menu-icon mobilemenu mobilemenu-color-main-color-hover" href="#"><i class="fa 
+
+fa-bars"></i></a>
+    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s2">
+
+        <div class="pull-right closeicon" id="HideLeft1"><i class="fa fa-times"></i></div>
+        <div class="mobilemenu-header">
+               <div class="header-search">
+                <div class="col-md-3 no-padding  float-left">
+                    <div class="col-md-6">
+                        <!--class="mobile-multi-language">-->
+                        <div ><a href="http://stgde.rheincs.net" class="mobl-lang">DE</a>&nbsp;/&nbsp;<a href="https://stg.rheincs.net" class="mobl-lang">EN | </a><div id="blogid" style="display:inline-block;">
+                        <a style="color: white; font-size: 13px; font-family: 'Raleway';"
+                           href="http://stg.rheincs.net/blog">BLOG</a>
+                    </div></div>
+                         
+                    </div>
+                    <div style="display:none;" class="">
+                        <div class="textSearchMobile">
+                            <input type="text" class="Search-text-box" id="search-input-mobile" placeholder="SEARCH" onfocus="this.placeholder=''" onblur="this.placeholder='SEARCH'" /><i class="fa fa-search Searchicon mobilesearch-closeicon" id="mob-search"></i>
+                        </div>
+                    </div>
+                   
+                   
+                </div>
+            </div>
+        </div>
+        <ul class="mobilmenu-ul">
+            <li class="mobilemenu-level1"><a href="<%=rootpath %>" class="Level1-menu ETMenu"><span class="mobilemenu-border-
+
+bottom">Home</span></a></li>
+            <li><a href="#" class="mobilemenu-level1 Level1-menu"><span class="mobilemenu-border-bottom">About Us</span></a>
+                <ul>
+                    <li><a href="<%=rootpath %>about-us/overview" class="Level2small-menu ETMenu"><span>Overview</span></a></li>
+                    <li><a href="<%=rootpath %>about-us/leadership" class="Level2small-menu ETMenu"><span>Leadership</span></a></li>
+                    <li><a href="<%=rootpath %>about-us/customer-speak" class="Level2small-menu ETMenu"><span>Customer Speak</span></a></li>
+                    <li><a href="<%=rootpath %>about-us/success-stories" class="Level2small-menu ETMenu"><span>Success Stories</span></a></li>
+                    <%-- <li><a href="<%=rootpath %>about-us/corporate-videos" class="Level2small-menu ETMenu"><span>Corporate Videos</span></a></li>--%>
+                </ul>
+            </li>
+            <li><a href="#" class="mobilemenu-level1 Level1-menu ETMenu"><span class="mobilemenu-border-bottom">Solutions</span></a>
+                <ul>
+                    <%--<li><a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Focused 
+
+Solutions</span></a>
+                        <ul>
+                            <li><a href="<%=rootpath %>solutions/focused-solutions/small-businesses" class="Level3-menu 
+
+ETMenu"><span>Small Business</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/focused-solutions/mid-market-companies" class="Level3-menu 
+
+ETMenu"><span>Mid-Market Companies</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/focused-solutions/enterprise" class="Level3-menu 
+
+ETMenu"><span>Enterprise</span></a></li>
+                        </ul>
+                    </li>--%>
+                    <li><a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Our Solutions</span></a>
+                        <ul>
+                            <li><a href="<%=rootpath %>Epicor-Payroll-MEA" class="Level3-menu ETMenu"><span>Epicor Payroll MEA</span></a></li>
+                            <li><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="Level3-menu ETMenu"><span>Copy Company Tool</span></a></li>
+                            <li><a href="<%=rootpath %>ppa-power-plant-analytics" class="Level3-menu ETMenu"><span>Power Plant Analytics</span></a></li>
+                            <li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software" class="Level3-menu ETMenu"><span>MeRLIN – Strategic Sourcing Software</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Consulting & Advisory 
+
+Services</span></a>
+                        <ul>
+                            <li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/erp-selection-advisory-solutions" class="Level3-menu ETMenu"><span>ERP Selection Advisory Services</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/program-and-project-management-services" class="Level3-menu ETMenu"><span>Program and Project Management</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/it-business-excellence" class="Level3-menu ETMenu"><span>IT Business Excellence</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Enterprise Solutions (ERP) & Services</span></a>
+                        <ul>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="Level3-menu ETMenu"><span>SAP</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud" class="Level3-menu ETMenu"><span>Epicor Cloud</span></a>
+                                <ul>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP" class="Level3-menu ETMenu"><span>Gartner Magic Quadrant for Cloud ERP</span></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="Level3-menu ETMenu"><span>EPICOR </span></a>
+                                <ul>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing" class="Level3-menu ETMenu"><span>For Manufacturing</span></a></li>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing" class="Level3-menu ETMenu"><span>For Cable Manufacturing</span></a></li>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software" class="Level3-menu ETMenu"><span>For Distribution</span></a></li>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design" class="Level3-menu ETMenu"><span>For Interior Design</span></a></li>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC" class="Level3-menu ETMenu"><span>For Construction & EPC</span></a></li>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" class="Level3-menu ETMenu"><span>Epicor HCM</span></a></li>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software" class="Level3-menu ETMenu"><span>Epicor Iscala for Hospitality</span></a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering" class="Level3-menu ETMenu"><span>Epicor Support+</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-driven-BI-and-analytics" class="Level3-menu ETMenu"><span>Business-Driven BI and Analytics</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">IT Services & Solutions</span></a>
+                        <ul>
+                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies" class="Level3-menu ETMenu"><span>Microsoft Technologies</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies/application-maintenance-and-support" class="Level3-menu ETMenu"><span>Application Maintenance & Support</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies/testing-services" class="Level3-menu ETMenu"><span>Testing Services</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">IP & Product Development Services</span></a>
+                        <ul>
+                            <li><a href="<%=rootpath %>solutions/ip-product-development-services/product-engineering-development-services" class="Level3-menu ETMenu"><span>Product Engineering & Development Services</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/ip-product-development-services/technology-support-for-product-startups" class="Level3-menu ETMenu"><span>Technology Support for Product Startups</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies" class="Level3-menu ETMenu"><span>Open Source Technologies</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#" class="mobilemenu-level1 Level1-menu"><span class="mobilemenu-border-bottom">Resources</span></a>
+                <ul>
+                    <li><a href="https://blog.rheincs.com" class="Level2small-menu ETMenu"><span>Blog</span></a></li>
+                    <li><a href="<%=rootpath %>resources/webinars/webinars-list" class="Level2small-menu ETMenu"><span>Webinars</span></a></li>
+                    <li><a href="<%=rootpath %>resources/webinars/webinars-recordings" class="Level2small-menu ETMenu"><span>Webinars Recordings</span></a></li>
+                    <li><a href="<%=rootpath %>whitePapers/whitepapers" class="Level2small-menu ETMenu"><span>White Papers</span></a></li>
+                    <li><a href="<%=rootpath %>brochure/brochures" class="Level2small-menu ETMenu"><span>Brochures</span></a></li>
+                    <li><a href="<%=rootpath %>factsheets/factsheets" class="Level2small-menu ETMenu"><span>FactSheets</span></a></li>
+                    <li><a href="<%=rootpath %>casestudies/CaseStudy" class="Level2small-menu ETMenu"><span>Case Studies</span></a></li>
+                    <li><a href="<%=rootpath %>about-us/corporate-videos" class="Level2small-menu ETMenu"><span>Corporate Videos</span></a></li>
+                    <li><a href="<%=rootpath %>our-history" class="Level2small-menu ETMenu"><span>Our History</span></a></li>
+                    <li><a href="<%=rootpath %>news-and-events" class="Level2small-menu ETMenu"><span>News and Events</span></a></li>
+                    <li><a href="<%=rootpath %>resources/faq" class="Level2small-menu ETMenu"><span>FAQ</span></a></li>
+                </ul>
+            </li>
+            <li><a href="<%=rootpath %>partners" class="mobilemenu-level1 Level1-menu ETMenu"><span class="mobilemenu-border-bottom">Partners</span></a></li>
+            <li><a href="#" class="mobilemenu-level1 Level1-menu"><span class="mobilemenu-border-bottom">Careers</span></a>
+                <ul>
+                    <li><a href="<%=rootpath %>careers/career-model" class="Level2small-menu ETMenu"><span>Career Model</span></a></li>
+                    <li><a href="<%=rootpath %>careers/mentoring-approach" class="Level2small-menu ETMenu"><span>Mentoring Approach</span></a></li>
+                    <li><a href="<%=rootpath %>careers/current-openings" class="Level2small-menu ETMenu"><span>Current Openings</span></a></li>
+                </ul>
+            </li>
+            <li><a href="<%=rootpath %>contact-us" class="mobilemenu-level1 Level1-menu ETMenu"><span class="mobilemenu-border-bottom">Contact Us</span></a></li>
+        </ul>
+    </nav>
+    <header id="navhead">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 headertopnav hidden-xs hidden-sm" id="headsearch">
+
+                  <div class="header-search">
+                        <div class="col-md-3 pull-right no-padding hidden-xs hidden-sm hidden-md" style="width: 5%;padding-left: 30px !important;margin-top: 8px;">
+                            <a style="color: white; font-family: raleway !important; font-size: 13px;"
+                               href="https://blog.rheincs.com">BLOG</a>
+                        </div>
+                        <div class="col-md-3 pull-right no-padding hidden-xs hidden-sm hidden-md" style="display: none;">
+                            <div class="">
+                                <div class="textSearch">
+                                    <input type="text" class="Search-text-box" id="search-input" placeholder="SEARCH" onfocus="this.placeholder=''" onblur="this.placeholder='SEARCH'" /><i class="fa fa-search Searchicon"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 pull-right no-padd-right hidden-xs hidden-sm">
+                            <div class="pull-right multi-language"><a href="http://stgde.rheincs.net" class="white-color">DE</a>&nbsp;/&nbsp;<a href="https://stg.rheincs.net" class="white-color">EN</a> | </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="socialicon">
+                    <div data-social-share-privacy='true'>
+                    </div>
+                    <%--<ul>
+                        <li class="hvr-wobble-to-top-right">
+                            <a id="linkdin" href="#" target="_blank" title="LinkedIn">
+                                <img style="height: 35px; width: 35px;" src="/Assets/images/linkedin.png" /></a>
+                        </li>
+                        <li class="hvr-wobble-to-top-right">
+                            <a id="facebook" href="#" target="_blank" title="Facebook">
+                                <img style="height: 35px; width: 35px;" src="/Assets/images/facebook.png" /></a>
+                        </li>
+
+                        <li class="hvr-wobble-to-top-right">
+                            <a id="twitter" href="#" target="_blank" title="Twitter">
+                                <img style="height: 35px; width: 35px;" src="/Assets/images/twitter.png" /></a>
+                        </li>
+                        <li class="hvr-wobble-to-top-right">
+                            <a id="GPlus" href="#" target="_blank" title="Google-plus">
+                                <img style="height: 35px; width: 35px;" src="/Assets/images/google-plus.png" /></a>
+                        </li>
+                    </ul>--%>
+                </div>
+                <div class="logo col-md-12 col-md-offset-0 navbar-static-top header-responsive-align header-box-shadow" id="nav">
+                    <br />
+                    <div class="col-md-2">
+                        <a href="<%=rootpath %>">
+                            <img id="Img1" src="~/Assets/images/RheinBrücke-logo.jpg" runat="server" alt="RheinBrücke IT Consulting" class="ETlogo" /></a>
+                    </div>
+                    <div class="col-md-10">
+                        <nav class="navbar navbar-default" role="navigation" id="menu">
+                            <div class="container-fluid">
+                                <div class="collapse navbar-collapse padd-top-20 menualign" id="bs-megadropdown-tabs">
+                                    <ul class="nav navbar-nav">
+                                        <li class="menuname ETMenu"><a href="<%=rootpath %>">Home</a></li>
+                                        <li class="dropdown ETMenu"><a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">About Us <span class="caret"></span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/overview">Overview</a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/leadership">Leadership</a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/customer-speak">Customer Speak</a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/success-stories">Success Stories</a></li>
+                                                <%--<li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/corporate-videos">Corporate Videos</a></li>--%>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown mega-dropdown active ETMenu"><a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">Solutions <span class="caret"></span></a>
+                                            <div class="dropdown-menu mega-dropdown-menu">
+                                                <div class="container-fluid">
+                                                    <div class="tab-content pull-left">
+                                                        <div class="tab-pane active">
+                                                            <div class="col-md-3 col-md-3V2">
+                                                                <%--<ul class="">
+                                                                    <li class="menuname-small menuheading">Focused Solutions</li>
+                                                                    <br />
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/focused-solutions/small-businesses">Small Business </a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/focused-solutions/mid-market-companies">Mid-Market Companies</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/focused-solutions/enterprise">Enterprise</a></li>
+                                                                </ul>--%>
+                                                                <ul class="">
+                                                                    <li class="menuname-small menuheading">Our Solutions</li>
+                                                                    <br />
+
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>Epicor-Payroll-MEA"><span>Epicor Payroll MEA</span></a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>ppa-power-plant-analytics">Power Plant Analytics </a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN – Strategic Sourcing Software</a></li>
+
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3 col-md-3V2">
+                                                                <ul>
+                                                                    <li class="menuname-small menuheading-large menu-consulting">Consulting & Advisory Services</li>
+                                                                    <br />
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/erp-selection-advisory-solutions">ERP Selection Advisory Services</a></li>
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/program-and-project-management-services">Program And Project Management</a></li>
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/it-business-excellence">IT Business Excellence</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3 col-md-3V2">
+                                                                <ul>
+                                                                    <li class="menuname-small menuheading-large menu-erp"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp">Enterprise Solutions (ERP) & Services</a></li>
+                                                                    <br />
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">SAP</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud">Epicor Cloud</a>
+                                                                        <ul class="padd-top-3">
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP">Gartner Magic Quadrant for Cloud ERP</a></li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">EPICOR </a>
+                                                                        <ul class="padd-top-3">
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing">For Manufacturing</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing">For Cable Manufacturing</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software">For Distribution</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design">For Interior Design</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC">For Construction & EPC</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm">Epicor HCM</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software">Epicor Iscala for Hospitality</a></li>
+
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-driven-BI-and-analytics">Business-Driven BI and Analytics</a></li>
+
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3 col-md-3V2">
+                                                                <ul>
+                                                                    <li class="menuname-small menuheading">IT Services & Solutions</li>
+                                                                    <br />
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies/application-maintenance-and-support">Application Maintenance & Support</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies/testing-services">Testing Services</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3 col-md-3V2">
+                                                                <ul>
+                                                                    <li class="menuname-small menuheading-large menu-erp">IP & Product Development Services</li>
+                                                                    <br />
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/product-engineering-development-services">Product Engineering and Development Services</a></li>
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/technology-support-for-product-startups">Technology Support for Product Startups</a></li>
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open Source Technologies</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="dropdown"><a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">Resources<span class="caret"></span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="menuname-small ETMenu"><a href="http://blog.rheincs.com"><span>Blog</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/webinars/webinars-list"><span>Webinars</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/webinars/webinars-recordings"><span>Webinars Recordings</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>whitePapers/whitepapers"><span>White Papers</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>brochure/brochures"><span>Brochures</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>factsheets/factsheets"><span>FactSheets</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>casestudies/CaseStudy"><span>Case Studies</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/corporate-videos"><span>Corporate Videos</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>our-history"><span>Our History</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>news-and-events"><span>News and Events</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/faq"><span>FAQ</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menuname ETMenu"><a href="<%=rootpath %>partners">Partners</a></li>
+                                        <li class="dropdown"><a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">Careers <span class="caret"></span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>careers/career-model">Career Model</a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>careers/mentoring-approach">Mentoring Approach</a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>careers/current-openings">Current Openings</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menuname ETMenu"><a href="<%=rootpath %>contact-us">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <form id="form1" runat="server">
+            <div class="row">
+                <div class="clearfix">&nbsp;</div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                <div id="Contactfeedback" class="ETcallout"><a data-toggle="modal" data-target="#myModal-contactus">Contact Us</a> </div>
+                <div class="modal fade" id="myModal-contactus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header modal-header-bgcolor">
+                                <%-- <div class="modal-header modal-header-v2"> <button type="button" class="close " data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> </div>--%>
+                                <button type="button" class="close closev2" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title redColor">Contact Us</h4>
+                            </div>
+                            <div class="col-md-12 padd-top">
+                                <div class="form-group">
+                                    <label class="success" id="successmessage" hidden="hidden">Thank you for contacting RheinBrücke. We will get back to you soon.</label>
+                                </div>
+                            </div>
+                            <div class="modal-body modalform">
+                                <p style="padding-top: 0%; padding-bottom: 9px;" class="formhead">Please fill in your details.</p>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <select id="ddlServices" class="dropdown" style="width: 100%; padding: 6px;">
+                                            <option value="0">-- Select Any One --</option>
+                                            <option value="1">Epicor</option>
+                                            <option value="2">ERP</option>
+                                            <option value="3">EPICOR for Manufacturing</option>
+                                            <option value="4">EPICOR for Retail</option>
+                                            <option value="5">EPICOR for Cable Manufacturing</option>
+                                            <option value="6">EPICOR for Distribution</option>
+                                            <option value="7">EPICOR for Interior Design</option>
+                                            <option value="8">EPICOR for EPC and Construction</option>
+                                            <option value="9">EPICOR iScala for hospitality</option>
+                                            <option value="10">RheinBrücke Power Plant Analytics</option>
+                                            <option value="11">Business Intelligence</option>
+                                            <option value="12">MeRLIN </option>
+                                            <option value="13">SAP</option>
+                                            <option value="14">Epicor HCM</option>
+                                            <option value="15">Epicpay Product</option>
+                                            <option value="16">CCT (Copy Company Tool)</option>
+                                            <option value="17">SharePoint</option>
+                                            <option value="18">Microsoft Technologies - .Net & SQL Server</option>
+                                        </select>
+                                        <span class="validator" id="reqddlservices" hidden="hidden" style="font-size: 13px;">Select the Services</span>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="*Your Name" id="txtName" class="write-to-us-input" />
+                                        <span class="validator" id="reqName" hidden="hidden" style="font-size: 13px;">Enter Your Name</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="*Your Email Address" id="txtEmail" class="write-to-us-input" />
+                                        <span class="validator" id="reqemail" hidden="hidden" style="font-size: 13px;">Enter Your Email Address</span> 
+                                        <span class="validator" style="font-size: 13px;" id="valemail" hidden="hidden">Enter Valid Email Address</span>
+                                        <span class="validator" style="font-size: 13px;" id="domainemail" hidden="hidden">Enter Valid Official Address</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="Your Mobile Number" id="txtPhone" class="write-to-us-input" />
+                                        <span class="validator" id="reqphone" hidden="hidden" style="font-size: 13px;">Enter Your Mobile Number</span> 
+                                        <span style="font-size: 13px;" class="validator" id="valphone" hidden="hidden">Enter Valid Phone Number</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="Your Company Name" id="txtCompanyname" class="write-to-us-input" />
+                                        <span class="validator" id="reqCompanyname" hidden="hidden" style="font-size: 13px;">Enter Your Company Name</span>
+                                         <span style="font-size: 13px;" class="validator" id="valcompanyname" hidden="hidden">Enter Valid Company Name</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <textarea cols="45" style="font-size: 13px;" rows="5" placeholder="*Your Message" id="txtMessage" class="write-to-us-input"></textarea>
+                                        <span class="validator" id="reqMessage" hidden="hidden" style="font-size: 13px;">Enter Your Message</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="button" id="btnContactUs1" class="submit-button" data-loading-text="Submitting.." value="Submit" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin: 0px">
+                    <div style="max-width: 1024px !important; margin: auto;">
+                        <ul class="bxslider">
+                            <li>
+                                <img src="Assets/images/national-gas.jpg" class="hvr-bounce-out" title="National Gas" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/trw.jpg" class="hvr-bounce-out" title="TRW-Automotive" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/sandoz.jpg" class="hvr-bounce-out" title="Sandoz Pharmaceuticals " />
+                            </li>
+                            <li>
+                                <img src="Assets/images/pertro-masilla.jpg" class="hvr-bounce-out" title="Petro Masila" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/rsp-consultojg.jpg" class="hvr-bounce-out" title="RSP Consultants" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/kemppi.jpg" class="hvr-bounce-out" title="Kemppi" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/rederal.jpg" class="hvr-bounce-out" title="Federal Mogul" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/saudi-american-glass.jpg" class="hvr-bounce-out" title="SAR-Saudi American Glass" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/ray.jpg" class="hvr-bounce-out" title="Ray International" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/msd.jpg" class="hvr-bounce-out" title="Msd" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/belcan.jpg" class="hvr-bounce-out" title="Belcan" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/flsmidh.jpg" class="hvr-bounce-out" title="Flsmidth" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/kone.jpg" class="hvr-bounce-out" title="Kone" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/kern.jpg" class="hvr-bounce-out" title="Kern" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/cash-fire.jpg" class="hvr-bounce-out" title="Cease-fire" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/sembcorp.jpg" class="hvr-bounce-out" title="Sembcorp" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/kraft-heinz.jpg" class="hvr-bounce-out" title="Heinz" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/stahl.jpg" class="hvr-bounce-out" title="Stahil" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/amazon.jpg" class="hvr-bounce-out" title="Amazon" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/alcon.jpg" class="hvr-bounce-out" title="Alcon" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/pradeep-metals.jpg" class="hvr-bounce-out" title="Pradeep-Metals" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/euronics.jpg" class="hvr-bounce-out" title="Euronics" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/arabian-industries.jpg" class="hvr-bounce-out" title="Arabian-Industries" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/arabi-enertech.jpg" class="hvr-bounce-out" title="Arabi-Enertech" />
+                            </li>
+                            <li>
+                                <img src="Assets/images/novartis.jpg" class="hvr-bounce-out" title="Novartis" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <footer id="footer">
+                    <div class="row alignFooter footerCenter">
+                        <div class="col-md-5 testimonial">
+                            <div class="col-md-12 no-padding testimonial-margin">
+                                <p class="testimonial-paragraph">At RheinBrücke, we see a demand gap for SMEs and bridge the gap. Our passion for excellence is demonstrated by our consultants consistently striving to deliver beyond the expectations of our clients. </p>
+                                <br />
+                                <p class="testimonial-paragraph">See what some of them have to say.</p>
+                                <div class="col-md-offset-1 col-xs-offset-0 col-sm-offset-0 col-lg-offset-1">
+                                    <div id="slider3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="col-md-12 nopadding splst-margin">
+                                <div class="fBottom"><span class="border talk">Talk to a Specialist today</span> </div>
+                                <div class="fBottomFull"><span class="telephone">+ 49 (0) 221 650 60 608</span></div>
+                                <br />
+                                <div class="fBottom"><span class="border">Collaborate with RheinBrücke</span> </div>
+                                <div class="boder2">
+                                    <span class="border1">
+                                        <p>EPICOR Partner Enablement Program</p>
+                                    </span>
+                                </div>
+                                <a data-toggle="modal" class="ETdownload" data-target="#myModal-pepdownload">
+                                    <div class="fBottom"><span class="telephone download">Download PDF</span></div>
+                                </a>
+                                <div class="modal fade" id="myModal-pepdownload" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content mymodal-download">
+                                            <div class="modal-header modal-header-bgcolor">
+                                                <button type="button" class="close closev2" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title redColor">Download RheinBrücke’s EPICOR Partner Enablement Program document</h4>
+                                            </div>
+                                            <div class="col-md-12 padd-top">
+                                                <div class="form-group">
+                                                    <label class="success" id="PEPsuccessmessage" hidden="hidden">Thank you for submitting your details. You will receive an email shortly with a link to download RheinBrücke's EPICOR Partner Enablement Program document.</label>
+                                                </div>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="formhead">Please fill in your details to download RheinBrücke’s EPICOR Partner Enablement Program document.</p>
+                                                <p>&nbsp;</p>
+                                                <p>
+                                                    <input type="text" placeholder="*Your Name" id="txtCalloutName" class="write-to-us-input" />
+                                                </p>
+                                                <span style="margin-top: 5px;" class="validator" id="reqCalloutName" hidden="hidden">Enter Your Name</span>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    <input type="text" placeholder="*Your Email Address" id="txtCalloutEmail" class="write-to-us-input" />
+                                                </p>
+                                                <span style="margin-top: 5px;" class="validator" id="reqCalloutemail" hidden="hidden">Enter Your Email Address</span> <span class="validator" id="valCalloutemail" hidden="hidden" style="margin-top: 2px;">Enter Valid Email Address</span>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    <input type="text" placeholder="*Your Company Name" id="txtCalloutCompanyName" class="write-to-us-input" />
+                                                </p>
+                                                <span style="margin-top: 5px;" class="validator" id="reqCalloutCompanyName" hidden="hidden">Enter Your Company Name</span> <span class="validator" id="valCalloutCompanyname" hidden="hidden" style="margin-top: 2px;">Enter Valid Company Name</span>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    <input type="number" placeholder="Your Mobile Number" id="txtCalloutMobNo" class="write-to-us-input" />
+                                                </p>
+                                                <span style="margin-top: 5px;" class="validator" id="reqCalloutMobNo" hidden="hidden">Enter Your Mobile Number</span> <span class="validator" id="valCalloutMobNo" hidden="hidden">Enter Valid Your Mobile Number</span>
+                                            </div>
+                                            <div class="clearfix">&nbsp;</div>
+                                            <div class="modal-body">
+                                                <input type="button" id="BtnCallout" class="submit-button" data-loading-text="Submitting.." value="Submit" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="fBottom"><span class="border">Connect with us</span> </div>
+                                <ul class="social">
+                                    <li><a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" title="LinkedIn" target="_blank" aria-hidden="true" class="icon-linkedin ETsocialicon"></a></li>
+                                    <li><a href="https://plus.google.com/108478282039113445071" title="Google-plus" target="_blank" aria-hidden="true" class="icon-google-plus ETsocialicon"></a></li>
+                                    <li><a href="https://www.facebook.com/RheinBrucke" title="Facebook" target="_blank" aria-hidden="true" class="icon-facebook ETsocialicon"></a></li>
+                                    <li><a href="https://twitter.com/RheinBruckeIT" title="Twitter" target="_blank" aria-hidden="true" class="icon-twitter ETsocialicon"></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCuR25ldsvrd7yd5vkzqntAg" title="Youtube" target="_blank" aria-hidden="true" class="icon-youtube ETsocialicon"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <%-- <div class="fBottom"><span class="border">Top Consultant 2014-2015</span></div><a 
+
+href="/Newsandevents/NewsEventsDetail.aspx?ID=11"> <img src="<%=rootpath %>Assets/images/RheinBrücke-TopConsultant-Award.jpg" 
+
+alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant"/></a> </div>--%>
+                            <div class="col-md-10 nopadding awards-margin">
+                                <div class="fBottom" style="text-align: center"><span class="border">Awards and Recognition</span></div>
+                                <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                                    <%--<ol class="carousel-indicators1">
+                                        <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel1" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel1" data-slide-to="2"></li>
+                                    </ol>--%>
+                                    <div class="carousel-inner" role="listbox" style="width: 200px; margin: auto;">
+                                        <%-- <div class="item active">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-recognised-as-top-consultant-germany">
+                                                <img src="<%=rootpath %>Assets/images/RheinBrücke-TopConsultant-Award.jpg" alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>--%>
+                                        <div class="item active">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
+                                                <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg" alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+
+                                        <div class="item ">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-epicor-international-partner-of-the-year">
+                                                <img src="<%=rootpath %>Assets/images/Epicor-partner-2016.png" alt="RheinBrücke Epicor Internation Partner of the year 2016" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/Vetri-IBA-silver-Stevies.png" alt="Vetri Maverick of the year" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/Vetri-IBA-Stevies.png" alt="Vetri IT executive of the year" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/Support-IBA-Stevies.png" alt="Bronze Stevie IBA winner support department" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item ">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/HR-IBA-Stevies.png" alt="Bronze Stevie IBA winner HR department" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
+                                                <img src="<%=rootpath %>Assets/images/executiveoftheyear.jpg" alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control" style="left: -31px; height: 30px; margin-top: 100px; font-size: 30px;"
+                                        href="#myCarousel1" role="button" data-slide="prev"><</a>
+                                    <a class="right carousel-control" href="#myCarousel1" style="left: auto; right: -17px; height: 30px; margin-top: 100px; font-size: 30px;"
+                                        role="button" data-slide="next">></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomFooter">
+                        <div class="copy">
+                            <div class="pull-left leftF">© RheinBrücke IT Consulting GmbH - All Rights Reserved</div>
+                            <div class="pull-right rightF"><a href="<%=rootpath %>sitemap">Sitemap</a> |  <a href="<%=rootpath %>Impressum.aspx">Impressum</a> | <a href="<%=rootpath %>terms">Terms</a> | <a href="<%=rootpath %>privacy">Privacy</a></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </footer>
+            </div>
+        </form>
+    </div>
+    <!-- GOOGLE ANALYTICS CODE-->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-61074754-1', 'auto');
+        ga('send', 'pageview');
+        ga('set', 'anonymizeIp', true);
+    </script>
+    <!--END OF GOOGLE ANALYTICS CODE-->
+</body>
+
+<%: Scripts.Render("~/assets/jsmin")%>
+<asp:contentplaceholder runat="server" id="FooterScript" />
+<script src="/Assets/js/bxSlider.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $('.navbar .dropdown').hover(function () {
+            $(this).find('.dropdown-menu').first().stop(true, true).slideDown(150);
+        }, function () {
+            $(this).find('.dropdown-menu').first().stop(true, true).slideUp(105)
+        });
+        $("#twitter").attr("href", "https://twitter.com/intent/tweet?url=" + window.location.href + "");
+        $("#facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + window.location.href + "");
+        $("#linkdin").attr("href", "http://www.linkedin.com/shareArticle?url=" + window.location.href + "");
+        $("#GPlus").attr("href", "https://plus.google.com/share?url=" + window.location.href + "");
+        $('.bxslider').bxSlider({
+            auto: true,
+            autoControls: true,
+            minSlides: 5,
+            maxSlides: 5,
+            slideWidth: 360,
+            slideMargin: 25,
+            pause: 5000
+        });
+        $('#myCarousel1').carousel({
+            interval: 3000
+        });
+    });
+
+
+    $(document).ready(function () {
+        var _rootUrl = $("#hdfRootUrl").val();
+        $('#btnpeppartnerContactUs').click(function () {
+            var r = PartnerContactUsValidation();
+            if (r == 1) {
+                $(this).button('loading');
+                save();
+            }
+        });
+
+    });
+    $(document).ready(function () {
+        $("#btnContactUs1").click(function () {
+            //debugger;
+          
+            var a = ContactUsValidation(); 1 == a && ($(this).button("loading"), save1())
+        })
+    });
+
+   
+
+    function save1() {
+        //debugger;
+        var a = $("#txtName").val(), e = $("#txtEmail").val(), t = $("#txtPhone").val(), l = $("#txtMessage").val(), s = $('#ddlServices option:selected').text();
+        var _tUrl = window.location.pathname;
+        var data = {
+            name: a,
+            email: e,
+            phone: t,
+            message: l,
+            ContactUsUrl: _tUrl,
+            Services: s
+        };
+
+        $.ajax({
+            type: "POST",
+            url: "/" + "api/ContactUs/UpdateCallout",
+            data: JSON.stringify(data),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: success,
+            failure: function (a) { alert(a.d) }
+        })
+    }
+    function success() {
+        $("#successmessage").show(),
+        $("#btnContactUs1").button('reset'),
+        $("#reqddlservices").hide(), $("#reqName").hide(), $("#reqemail").hide(), $("#reqphone").hide(), $("#reqMessage").hide(), $("#valemail").hide(), $("#valphone").hide(), $("#txtName").val(""), $("#txtEmail").val(""), $("#txtPhone").val(""), $("#txtMessage").val(""), $('#ddlServices').val('0'),
+        setTimeout(function () { $('#successmessage').hide(); $('#myModal-contactus').modal('hide'); }, 4000);
+    }
+
+    function clear() {
+        $("#reqpeppartnerName").hide();
+        $("#reqpeppartneremail,#reqpeppartnermobno,#reqpeppartnercompany").hide();
+        $("#valpeppartneremail,#valpeppartnermobno,#valpeppartnercompany").hide();
+        $("#txtpeppartnerName,#txtpeppartnermobno,#txtpeppartnercompany").val('');
+        $("#txtpeppartneremail").val('');
+    }
+    function PartnerContactUsValidation() {
+        var name = $('#txtpeppartnerName').val();
+        var email = $('#txtpeppartneremail').val();
+        var mobno = $('#txtpeppartnermobno').val();
+        var company = $('#txtpeppartnercompany').val();
+        var response = 1;
+
+        $("#reqpeppartnerName").hide();
+        $("#reqpeppartneremail,#reqpeppartnermobno,#reqpeppartnercompany").hide();
+        $("#reqpeppartnerMessage").hide();
+        $("#valpeppartneremail,#valpeppartnermobno,#valpeppartnercompany").hide();
+
+        if (name == '') {
+            $("#reqpeppartnerName").show();
+            response = 0;
+        }
+        if (email == '') {
+            $("#reqpeppartneremail").show();
+            response = 0;
+        }
+        else {
+            if (!IsEmail(email)) {
+                $("#valpeppartneremail").show();
+                response = 0;
+            }
+            if (email != "" && IsEmail(email)) {
+                var bannedDomains = ["gmail.com", "ymail.com", "yahoomail.com", "hotmail.com", "outlook.com", "rediff.com", "rediffmail.com"];
+                var domain = email.split('@')[1];
+                if (bannedDomains.indexOf(domain) == 0) {
+                    $("#valpeppartnerdomainemail").show(); response = 0;
+                }
+            }
+        }
+        if (mobno == '') {
+            $("#reqpeppartnermobno").show();
+            response = 0;
+        }
+        if (mobno != '' && mobno.length < 10) {
+            $("#valpeppartnermobno").show();
+            response = 0;
+        }
+        if (company == '') {
+            $("#reqpeppartnercompany").show();
+            response = 0;
+        }
+        return response;
+    }
+    function IsEmail(email) {
+        if (email == '') {
+            return true;
+        }
+        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        return regex.test(email);
+    }
+    function save() {
+        var _rootUrl = $("#hdfRootUrl").val();
+
+        var user = {
+            name: $('#txtpeppartnerName').val(),
+            email: $('#txtpeppartneremail').val(),
+            phone: $('#txtpeppartnermobno').val(),
+            company: $('#txtpeppartnercompany').val(),
+
+        };
+
+        $.ajax({
+            type: "POST",
+            url: "/" + "api/ContactUs/UpdateEpipaylanding",
+            data: JSON.stringify(user),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: success,
+            failure: function (response) {
+                alert(response.d);
+            }
+
+        });
+        //debugger;
+    }
+
+    function successepicor(response) {
+        $("#successmessagee").show();
+        $('#btnpeppartnerContactUs').button('reset');
+        clear();
+
+    }
+    function DownpepClear() {
+        clear(); $("#successmessagee").hide();
+    }
+</script>
+<script type="text/javascript">(function () { var s = document.createElement('script'); var t = document.getElementsByTagName('script')[0]; s.type = 'text/javascript'; s.async = true; s.src = 'https://stg.rheincs.net/2-click/javascripts/jquery.socialshareprivacy.min.autoload.js'; t.parentNode.insertBefore(s, t); })();</script>
+</html>

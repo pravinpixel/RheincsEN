@@ -1,0 +1,309 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header .logo-img {
+        width: 100px !important;
+    }
+    .header .nav-item-child {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 72px !important;
+    padding: 13px !important;
+}
+}
+@media (max-width: 991px) {
+    .dropdown-menu{
+            position: relative;
+    }
+    body {
+        padding-top:0px;
+    }
+    .navbar-fixed-top {
+        top: -21px;
+    }
+    .box-icon img{
+        width:65px;
+    }
+    .space {
+        display: none;
+    }
+    .footer-h3 {
+    font-size: 17px;
+}
+    #pricing {
+    padding: 10px 0 70px;
+}
+    #services {
+        padding: 0px 0 75px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    button.multiselect.dropdown-toggle.btn.btn-default {
+        width: 100%;
+        
+    }
+    .btn-group, .btn-group-vertical {
+  width:100%;
+}
+    #cta .btn {
+    margin-top: 0px;
+}
+   .media.service-box .pull-left {
+    margin-right: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+         .social ul li {
+    display: none;
+}
+         .section-header .section-title {
+    font-size: 34px;
+    color: #272727;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+         .textAlign{
+             text-align:left;
+         }
+         #main-slider .slider-inner h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+}
+          
+         .btn-lg, .btn-group-lg>.btn {
+    padding: 10px 6px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+         #features .media.service-box:first-child {
+    margin-top: 0px;
+}
+         #features, #services, #portfolio, #about, #pricing
+         {
+             border-bottom:1px solid #ccc;
+         }
+         .lead {
+         position: relative;
+    top: 30%;
+    right: 0%;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) { 
+      .media.service-box .pull-left {
+    margin-right: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+         .social ul li {
+    display: none;
+}
+         .section-header .section-title {
+    font-size: 34px;
+    color: #272727;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+         .textAlign{
+             text-align:left;
+         }
+         section> .container{
+             padding:40px;
+         }
+         #main-slider .slider-inner h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+}
+          
+         .btn-lg, .btn-group-lg>.btn {
+    padding: 10px 6px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+         #features .media.service-box:first-child {
+    margin-top: 0px;
+}
+         #features, #services, #portfolio, #about, #pricing
+         {
+             border-bottom:1px solid #ccc;
+         }
+         .lead {
+      position: relative;
+    top: 31%;
+    right: 0%;
+}
+                button.multiselect.dropdown-toggle.btn.btn-default {
+        width: 100%;
+        
+    }
+    .btn-group, .btn-group-vertical {
+  width:100%;
+}
+button.btn.Submit1 {
+    width: 100% !important;
+}
+#cta .btn {
+    margin-top: 0px;
+}
+        
+}
+ @media screen and (min-width:482px)and (max-width:575px){
+              .social ul li {
+    display: none;
+}
+              .overview-p
+              {
+                  text-align:justify;
+              }
+ }
+
+@media screen and (min-width:320px) and (max-width:481px){
+    #tour .flex-caption {
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+       .overview-p
+              {
+                  text-align:justify;
+              }
+    #main-slider .item {
+        height: 400px;
+    }
+    #main-slider .slider-inner h2 {
+        margin-top: 40% !important;
+    }
+         .media.service-box .pull-left {
+    margin-right: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+         .social ul li {
+    display: none;
+}
+         .section-header .section-title {
+    font-size: 23px;
+    color: #272727;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+         .box-description h3 {
+    font-size: 17px;
+}
+         .textAlign{
+             text-align:justify;
+                 font-size: 13px;
+         }
+         .textC{
+        text-align:center;
+         }
+         section> .container{
+             padding:40px;
+         }
+         #main-slider .slider-inner h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+}
+          
+         .btn-lg, .btn-group-lg>.btn {
+     padding: 10px 6px;
+    font-size: 16px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+         #features .media.service-box:first-child {
+    margin-top: 0px;
+}
+         #features, #services, #portfolio, #about, #pricing
+         {
+             border-bottom:1px solid #ccc;
+         }
+         .lead {
+    position: relative;
+    top: 30%;
+    right:0%;
+}
+             button.multiselect.dropdown-toggle.btn.btn-default {
+        width: 100%;
+        
+    }
+             #cta .btn {
+    margin-top: 0px;
+}
+    .btn-group, .btn-group-vertical {
+  width:100%;
+}
+}
+@media screen and (max-height:350px) {
+    #main-slider .item {
+        height: 250px !important;
+    }
+    .header .nav-item-child {
+    color: #515769;
+    line-height: 1.4;
+    padding: 7px 12px 6px 15px !important;
+}
+    .header .nav-item-child {
+        font-size: 12px !important;
+    }
+    .header .nav-item-hover:after
+    {
+        background: transparent !important;
+    }
+}
+@media screen and (max-height:370px) {
+        #main-slider .item {
+        height: 320px !important;
+            }
+    #main-slider .slider-inner {
+        position: absolute;
+        top: 25%;
+    }
+    #main-slider .slider-inner h2 {
+        margin-top: 60px;
+    }
+}
+@media screen and (max-height:420px) {
+     .header .nav-item-child {
+    color: #515769;
+    line-height: 1.4;
+    padding: 7px 12px 6px 15px !important;
+}
+    .header .nav-item-child {
+        font-size: 12px !important;
+    }
+    .header .nav-item-hover:after
+    {
+        background: transparent !important;
+    }
+    #main-slider .item {
+        height: 312px;
+    }
+        .wpb_text_column ul, .ct-mPopup ul {
+    padding-left: 20px;
+    font-size: 14px !important;
+}
+        .solution-para p
+        {
+            text-align:center !important;
+        }
+}

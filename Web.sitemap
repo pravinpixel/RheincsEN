@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode>
+    <siteMapNode title="Blog" url="http://Blog.rheincs.com">
+    </siteMapNode>
+
+    <siteMapNode url="/" title="Home" description="Home" />
+    <!--<siteMapNode url="/merry_christmas-and-happy_new_year-2017" title="Merry christmas and Happy New Year 2017" description="Merry christmas and Happy New Year 2017" />-->
+     
+
+    <siteMapNode title="About Us" url="javascript:void(0)">
+      <siteMapNode url="/about-us/overview" title="Overview"  description="Overview"  />
+      <siteMapNode url="/about-us/leadership" title="Leadership"  description="Leadership">
+        <siteMapNode url="/about-us/leadership/leadership-Joerg-Pirron" title="Dr.Joerg Pirron"  description="Leadership-JoergPirron" />
+        <siteMapNode url="/about-us/leadership/leadership-Kenneth-Taormina" title="Kenneth Taormina"  description="Leadership-Kenneth Taormina" />
+        <siteMapNode url="/about-us/leadership/leadership-VetriSelvan" title="Vetri Selvan"  description="Leadership-VetriSelvan" />
+        <siteMapNode url="/about-us/leadership/leadership-KumarMallampalli" title="Kumar Mallampalli"  description="Leadership-KumarMallampalli" />
+      </siteMapNode>
+      <siteMapNode url="/about-us/customer-speak" title="Customer Speak"  description="customer Speak" />
+      <siteMapNode url="/about-us/success-stories" title="Success Stories"  description="Success Stories" />    
+    </siteMapNode>
+
+    <siteMapNode title="Solutions" url="javascript:void(0)" >
+      <siteMapNode title="Our Solutions" url="javascript:void(0)">
+        <siteMapNode url="/Epicor-Payroll-MEA" title="Epicor Payroll MEA"  description="Epicor Payroll MEA" />
+        <siteMapNode url="/rheinbrucke-cct-copy-company-tool" title="Copy company tool"  description="Copy company tool" />
+        <siteMapNode url="/ppa-power-plant-analytics" title="Power Plant Analytics"  description="Power Plant Analytics" />
+        <siteMapNode url="/MeRLIN-strategic-sourcing-software" title="MeRLIN – Strategic Sourcing Software"  description="MeRLIN – Strategic Sourcing Software" />
+      </siteMapNode>
+      <siteMapNode title="Consulting and Advisory Services" url="javascript:void(0)">
+        <siteMapNode url="/solutions/consulting-and-advisory-solutions/erp-selection-advisory-solutions" title="ERP Selection Advisory Services" description="ERP SelectionAdvisory Services" />
+        <siteMapNode url="/solutions/consulting-and-advisory-solutions/program-and-project-management-services" title="Program And Project Management" description="Program AndProject Management" />
+        <siteMapNode url="/solutions/consulting-and-advisory-solutions/it-business-excellence" title="IT Business Excellence" description="ITBusinessExcellence" />
+      </siteMapNode>
+      <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/erp" title="Enterprise(ERP) Solutions and Services" description="Enterprise(ERP) Solutions and Services" >
+         <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/sap" title="SAP"  description="SAP" />
+         <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor-cloud" title="Epicor Cloud"  description="Epicor Cloud">
+         <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP" title="Gartner Magic Quadrant perspective on Epicor ERP"  description="Gartner Magic Quadrant perspective on Epicor ERP" />
+        </siteMapNode>
+        <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor" title="Epicor ERP"  description="Epicor">
+            <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/preconfigured-epicor-solutions" title="Preconfigured Solutions" description="PreconfiguredSolutions">
+              <siteMapNode url="/Epicor-Payroll-MEA" title="EpicPay" description="EpicPay" />
+            </siteMapNode>
+            <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/partner-enablement-program" title="Partner Enablement Program" description="PartnerEnablementProgram" />
+            <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/implementation-support-services" title="Implementation Support Services"  description="ImplementationSupportServices" />
+            <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/epicor-services-rendered" title="Services Rendered for Epicor" description="ServicesRendered" />
+          <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing" title="Epicor For Manufacturing" description="EpicorForManufacturing" />
+          <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing" title="Epicor For Cable Manufacturing" description="EpicorForCableManufacturing" />
+          <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/rheinbrucke-retail-FMCG-solution" title="The RheinBrücke Retail-FMCG Solution" description="The RheinBrücke Retail-FMCG Solution" />
+          <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software" title="Epicor For Distribution" description="EpicorForDistribution" />
+          <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design" title="Epicor For Interior Design" description="EpicorForInteriorDesign" />
+          <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-epc" title="Epicor For Construction and EPC" description="EpicorForConstructionAndEPC" />
+          <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" title="Epicor HCM" description="EpicorHCM" />
+         <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software" title="Epicor iScala Hospitality Industry Software" description="Epicor iScala Hospitality Industry Software" />
+        </siteMapNode>
+          <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/business-driven-BI-and-analytics" title="Business-Driven BI and Analytics"  description="Business-Driven BI and Analytics" />
+      </siteMapNode>
+        <siteMapNode title="IT Services and Solutions" url="javascript:void(0)" >
+          <siteMapNode url="/solutions/it-services-and-solutions/microsoft-technologies" title="Microsoft Technologies"  description="MicrosoftTechnologies" >
+            <siteMapNode url="/solutions/it-services-and-solutions/microsoft-technologies/consulting" title="Consulting"  description="Consulting" />
+            <siteMapNode url="/solutions/it-services-and-solutions/microsoft-technologies/sharepoint" title="Sharepoint Services"  description="Sharepoint Services" />
+            <siteMapNode url="/solutions/it-services-and-solutions/microsoft-technologies/microsoft-bi-solutions" title="Insights And Analytics" description="InsightsAndAnalytics" />
+            <siteMapNode url="/solutions/it-services-and-solutions/microsoft-technologies/cloud-and-azure" title="Cloud and Azure"  description="CloudAzure" />
+            <siteMapNode url="/solutions/it-services-and-solutions/microsoft-technologies/application-development-maintenance-services" title="Application Development Maintenance Services"  description="ApplicationDevelopmentMaintenanceServices" />
+          </siteMapNode>
+          <siteMapNode url="/solutions/it-services-and-solutions/microsoft-technologies/application-maintenance-and-support" title="Application Maintenance And Support"  description="Application Maintenance And Support" />
+          <siteMapNode url="/solutions/it-services-and-solutions/microsoft-technologies/testing-services" title="Testing Services"  description="Testing Services" />
+        </siteMapNode>
+        <siteMapNode title="IP and Product Development Services" url="javascript:void(0)">
+          <siteMapNode url="/solutions/ip-product-development-services/product-engineering-development-services" title="Product Engineering And Development Services"  description="ProductEngineeringAndDevelopmentServices" />
+          <siteMapNode url="/solutions/ip-product-development-services/technology-support-for-product-startups" title="Technology Support For Product Startups"  description="TechnologySupportForProductStartups" />
+          <siteMapNode url="/solutions/ip-product-development-services/open-source-technologies" title="Open Source Technologies" description="OpenSourceTechnologies" />
+        </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode title="Resources" url="javascript:void(0)">
+        <siteMapNode url="https://blog.rheincs.com" title="Blog"  description="Blog" />
+        <siteMapNode url="/whitePapers/whitepapers" title="White Papers"  description="White Papers" />
+        <siteMapNode url="/brochure/brochures" title="Brochures"  description="Brochures" />
+      <siteMapNode url="/factsheets/factsheets" title="FactSheets"  description="FactSheets" />
+        <siteMapNode url="/casestudies/CaseStudy" title="CaseStudies"  description="CaseStudies" />
+        <siteMapNode url="/about-us/corporate-videos" title="Corporate Videos"  description="Corporate Videos" />
+        <siteMapNode url="/our-history" title="Our History"  description="Our History" />
+    <siteMapNode url="/news-and-events" title="News and Events"  description="News and Events" />
+      </siteMapNode>
+      <siteMapNode title="Careers" url="javascript:void(0)">
+        <siteMapNode url="/careers/career-model" title="Career Model"  description="Career Model" />
+        <siteMapNode url="/careers/mentoring-approach" title="Mentoring Approach"  description="Mentoring Approach" />
+        <siteMapNode url="/careers/current-openings" title="Current Openings"  description="Current Openings" />
+      </siteMapNode>
+     <siteMapNode title="RheinBrücke Solutions" url="javascript:void(0)">
+        <siteMapNode url="/rheinbrucke-solutions/manufacturing" title="EPICOR for Manufacturing"  description="EPICOR for Manufacturing" />
+        <siteMapNode url="/rheinbrucke-solutions/cable-manufacturing" title="EPICOR for Cable Manufacturing"  description="EPICOR for Cable Manufacturing" />
+        <siteMapNode url="/rheinbrucke-solutions/interior-design" title="EPICOR for Interior Design"  description="EPICOR for Interior Design" />
+        <siteMapNode url="/rheinbrucke-solutions/epicor-for-construction-and-epc" title="EPICOR for EPC and Construction"  description="EPICOR for EPC and Construction" />
+        <siteMapNode url="/rheinbrucke-solutions/hcm" title="EPICOR HCM"  description="EPICOR HCM" />
+        <siteMapNode url="/rheinbrucke-solutions/epicor-iscala-hospitality-industry-software" title="EPICOR iScala for Hospitality"  description="EPICOR iScala for Hospitality" />
+        <siteMapNode url="/rheinbrucke-solutions/ppa" title="RheinBrücke Power Plant Analytics"  description="RheinBrücke Power Plant Analytics" />
+       <siteMapNode url="/rheinbrucke-solutions/distribution" title="Distribution"  description="Distribution" />
+       <siteMapNode url="/rheinbrucke-solutions/epicor-erp_solution_for_oilfield_services_companies_ofs" title="Oilfield Services"  description="Oilfield Services" />
+       <siteMapNode url="http://view.rheincs.com/Manufacturing-Casestudy" title="Manufacturing Case Study"  description="Manufacturing Case Study" />
+       <siteMapNode url="http://view.rheincs.com/Epicor-Payroll-MEA-Factsheet" title="Epicor Payroll MEA Factsheet"  description="Epicor Payroll MEA Factsheet" />
+       <siteMapNode url="http://view.rheincs.com/Enhancing-ERP-Experience-Flyers" title="Enhancing ERP Experience Flyers"  description="Enhancing ERP Experience Flyers" />
+       <siteMapNode url="http://view.rheincs.com/Choosing-the-right-ERP-vendor" title="Choosing the right ERP Vendors"  description="Choosing the right ERP Vendors" />
+       <siteMapNode url="http://view.rheincs.com/Compare-the-Best-ERP-Systems" title="ERP Comparison"  description="ERP Comparison" />
+       <siteMapNode url="http://view.rheincs.com/ROI-Analysis-Factsheet" title="ROI Analysis Factsheet"  description="ROI Analysis Factsheet" />
+       <siteMapNode url="http://view.rheincs.com/OFS-ERP" title="Oil Field Services"  description="Oil Field Services" /> 
+      </siteMapNode>
+      <siteMapNode title="Events" url="javascript:void(0)">
+        <siteMapNode url="/Events/RheinBrücke-at-GITEX-2017" title="RheinBrücke at GITEX 2017"  description="RheinBrücke at GITEX 2017" />
+      <siteMapNode url="/Events/RheinBrücke-at-MENA-summit-2018" title="RheinBrücke at EPICOR MENA SUMMIT 2018"  description="RheinBrücke at EPICOR MENA SUMMIT 2018" />       
+      </siteMapNode>
+     <siteMapNode url="/epicor-erp-upgrade" title="EPICOR 10 upgrade"  description="EPICOR 10 upgrade" />
+      <siteMapNode url="/contact-us" title="Contact Us" description="Contact Us" />
+      <siteMapNode url="/terms" title="Terms" description="Terms" />
+      <siteMapNode url="/privacy" title="Privacy" description="Privacy" />
+      <siteMapNode url="/sitemap" title="Sitemap" description="Sitemap" />
+      <siteMapNode url="/impressum" title="Impressum" description="Impressum" />
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,399 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="campaigns-dist.master.cs" Inherits="RheinBrucke.campaigns_dist" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Distribution</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="robots" content="noindex,nofollow" />
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <!-- Bootstrap -->
+        <link href="Assets/Distribution/css/bootstrap.min.css" rel="stylesheet" />
+            <!-- Animate -->
+        <link href="Assets/Distribution/css/animate.min.css" rel="stylesheet" />    
+        <!-- Main Css -->
+        <link href="Assets/Distribution/css/style.css" rel="stylesheet" /> 
+        <link rel="shortcut icon" type="image/x-icon" href="https://rheincs.com/favicon.png" /> 
+    <link href="Assets/Distribution/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="Assets/Distribution/css/owl.theme.min.css" rel="stylesheet" />
+    <style>
+            .main-logo-img{
+                width: 114px;
+                margin-top: -10px;
+            }
+            .bs-callout {
+    padding: 20px;
+    margin: 10px 0;
+    border: 0px solid #18484c;
+    border-left-width: 5px;
+    border-radius: 0px;
+    transition-duration: .2s;
+    background-color: rgba(0, 0, 0, 0.81)
+}
+
+.bs-callout:hover{
+box-shadow: 4px 6px 2px rgba(125, 116, 116, 0.3);
+}
+.bs-img{
+     padding: 0;
+}   
+
+.bs-img img{
+    max-height: 35px;
+}
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:40px;
+    height:40px;
+    background-color:#4b9993;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff
+}
+#scroll:hover {
+    background-color:#fff;
+    opacity:1;
+    filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+    border:1px solid gray;
+}
+        #scroll span:hover {
+            border-bottom-color:gray;
+        }
+        </style>
+</head>
+<body>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+          
+        </asp:ContentPlaceHolder>
+
+     <!-- GOOGLE ANALYTICS-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90996429-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+    </script>
+     <!-- END OF GOOGLE ANALYTICS-->
+    <script src="../Assets/Distribution/js/multiselectbootstrap.js"></script>
+    <script src="../Assets/Distribution/js/owl.carousel.min.js"></script>
+       <script type="text/javascript">
+
+$('.multiselect-ui').multiselect({
+            nonSelectedText: 'Downloads'
+        });
+
+
+$(function() {
+    $('.multiselect-ui').multiselect({
+        includeSelectAllOption: true
+    });
+});
+       </script>
+   <script>
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 100){
+            $('#scroll').fadeIn();
+        }else{
+            $('#scroll').fadeOut();
+        }
+    });
+    $('#scroll').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+    $('#myCarousel').carousel({
+        interval: 8000
+    });
+});
+</script> 
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var _rootUrl = $("#hdfRootUrl").val();
+            function ValidateEmail(email) {
+                var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+                return expr.test(email);
+            };
+     $('#top-submit').click(function () {
+                if ($('#top-name').val() == '') {
+                    $('#showErrorMsg').text("Please enter your name"); $('#top-name').focus(); return false;
+                }
+                var name = $('#top-name').val();
+                var regex = /^[a-zA-Z ]*$/;
+                var valid_test = regex.test(name);
+                if (valid_test === false) {
+                    $('#showErrorMsg').html('Please Enter Proper name');
+                    $('#top-name').focus();
+                    return false;                
+                }
+                if ($('#top-email').val() == '') {
+                    $('#showErrorMsg').text("Ensure work email!."); $('#top-email').focus(); return false;
+                }
+                var email = $('#top-email').val();
+                var a = email.split('@');
+                if (a[1].toLowerCase() == 'gmail.com' || a[1].toLowerCase() == 'live.com' || a[1].toLowerCase() == 'live.in' || a[1].toLowerCase() == 'outlook.com' || a[1].toLowerCase() == 'yahoo.com' || a[1].toLowerCase() == 'zoho.com' || a[1].toLowerCase() == 'yandex.com' || a[1].toLowerCase() == 'aol.com' || a[1].toLowerCase() == 'mail.com' || a[1].toLowerCase() == 'inbox.com') {
+                    $('#showErrorMsg').text("Please provide us with your work e-mail and not your personal e-mail!.");
+                    $('#top-email').focus(); return false;
+                }
+                if (!ValidateEmail($('#top-email').val())) {
+                    $('#showErrorMsg').text("Enter proper email!."); $('#top-email').focus(); return false;
+                }
+                //if ($('#top-phone').val() == '') {
+                //    $('#showErrorMsg').text("Ensure mobile number!."); $('#top-phone').focus(); return false;
+                //}
+                // eof email validation 
+                //sending email data through ajax call
+
+                var Data = {
+                    name: $('#top-name').val(),
+                    Email: $('#top-email').val(),
+                    phone: $('#top-phone').val(),
+                    message: $('#top-message').val(),
+                    Services: "Distribution"
+                };
+                $.ajax({
+                    type: 'POST',
+                    url: "/" + "api/ContactUs/FBContactUs",
+                    data: JSON.stringify(Data),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        //debugger
+                        //console.log("Hi How are you");
+                        if (response == "success") {
+                            $('#top-form').trigger("reset");
+                            window.location = "../rheinbrucke-solutions/thankyou-distribution";
+                            //window.location = "../rheinbrucke-solutions/thankyou";
+                            // alert('yes');
+                        }
+
+                    }
+                });
+     });
+
+     $('#submitBtn').click(function () {
+
+         if ($('.Username1').val() == '') {
+             $('.showErrorMsg').text("Please enter your name"); $('.Username1').focus(); return false;
+         }
+         var val = $('.Username1').val();
+         var regex = /^[a-zA-Z ]*$/;
+         var valid_test = regex.test(val);
+         if (valid_test === false)
+             {
+             $(".showErrorMsg").html('Please Enter Proper name');
+             $('.Username1').focus();
+             return false;
+         }
+         if ($('.Email1').val() == '') {
+             $('.showErrorMsg').text("Ensure work email!."); $('.Email1').focus(); return false;
+         }
+         if (!ValidateEmail($(".Email1").val())) {
+             $('.showErrorMsg').text("Enter proper email!."); $('.Email1').focus(); return false;
+         }
+         var email = $('.Email1').val();
+         var a = email.split('@');
+         if (a[1].toLowerCase() == 'gmail.com' || a[1].toLowerCase() == 'live.com' || a[1].toLowerCase() == 'live.in' || a[1].toLowerCase() == 'outlook.com' || a[1].toLowerCase() == 'yahoo.com' || a[1].toLowerCase() == 'zoho.com' || a[1].toLowerCase() == 'yandex.com' || a[1].toLowerCase() == 'aol.com' || a[1].toLowerCase() == 'mail.com' || a[1].toLowerCase() == 'inbox.com') {
+             $('.showErrorMsg').text("Please provide us with your work e-mail and not your personal e-mail!.");
+             $('.Email1').focus(); return false;
+         }
+         //if ($('.Mobile1').val() == '') {
+         //    $('.showErrorMsg').text("Ensure mobile number!."); $('.Mobile1').focus(); return false;
+         //}
+         var checks = new Array();
+         $('input[type=checkbox]:checked').each(function () {
+
+             checks.push($(this).val());
+
+         });
+
+         var checked = $("input[type=checkbox]:checked").length;
+
+         if (!checked) {
+             $('.showErrorMsg').text("Select any one option.");
+
+         }
+         // eof email validation 
+         //sending email data through ajax call
+
+         var Data = {
+             firstname: $('.Username1').val(),
+             phone: $('.Mobile1').val(),
+             email: $('.Email1').val(),
+             ServiceType: "Distribution",
+             CheckBoxValues: checks
+         };
+         $.ajax({
+             type: 'POST',
+             url: "/" + "api/Landing/Campaigns",
+             data: JSON.stringify(Data),
+             contentType: "application/json; charset=utf-8",
+             dataType: "json",
+             success: function (response) {
+
+                 debugger;
+                 if (response == "success") {
+                     $('#con-form').trigger("reset");
+                     window.location = "../rheinbrucke-solutions/thankyou-distribution";
+                 }
+             }
+         });
+         //eof sending email data through ajax call               
+     });
+        });
+                </script>
+    <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
+    <script type="text/javascript">
+                        function onFormSubmitContact() {
+			var checks = new Array ();
+                            var fieldMapping = {
+MXHOrgCode: "17537",
+MXHLandingPageId: "9943f7ad-b6e8-11e7-9042-22000aa79843",
+                                MXHAsc: "",
+                                FirstName: "top-name",
+                                EmailAddress: "top-email",
+                                Phone: "top-phone",
+                                mx_Your_Message: "top-message",
+                            };
+                            var onSuccess = function (data) {                   
+                                data = $.parseJSON(data)
+                                var logData = {
+                                    Name: $('#top-name').val(),
+                                    Email: $('#top-email').val(),
+                                    Mobile: $('#top-phone').val(),
+                                    FormPID: data.PId,
+                                    FormStatus: data.Status,
+                                    ServiceType: "Campaigns-Distribution"
+                                }
+                                $.ajax({
+                                    type: "POST",
+                                    url: "/" + "api/Admin/LeadSquaredLog",
+                                    data: JSON.stringify(logData),
+                                    contentType: "application/json; charset=utf-8",
+                                    dataType: "json",
+                                    failure: function (response) {
+                                        alert(response.d);
+                                    }
+
+                                });
+                                console.log(data);
+                            }
+                            var onError = function (data) {                 
+                                data = $.parseJSON(data)
+                                var logData = {
+                                    Name: $('#top-name').val(),
+                                    Email: $('#top-email').val(),
+                                    Mobile: $('#top-phone').val(),
+                                    FormPID: data.PId,
+                                    FormStatus: data.Status,
+                                    ServiceType: "Campaigns-Distribution"
+                                }
+                                $.ajax({
+                                    type: "POST",
+                                    url: "/" + "api/Admin/LeadSquaredLog",
+                                    data: JSON.stringify(logData),
+                                    contentType: "application/json; charset=utf-8",
+                                    dataType: "json",
+                                    failure: function (response) {
+                                        alert(response.d);
+                                    }
+
+                                });
+                                console.log(data);
+                            }
+                            new LSQForm().captureLead(fieldMapping, "top-form",
+                            {
+                            onSuccess: onSuccess,   //optional
+                            onError: onError,       //optional
+                            });					
+                        };
+                        function onFormSubmit() {
+                            var fieldMapping = {
+                                MXHOrgCode: "17537",
+                                MXHLandingPageId: "426feae5-beaf-11e7-9042-22000aa79843",
+                                MXHAsc: "",
+                                FirstName: "form-first-name",
+                                EmailAddress: "form-email",
+                                Phone: "form-mobile",
+                                mx_Select_Option: "top-select"
+                            };
+                            var onSuccess = function (data) {
+                                data = $.parseJSON(data)
+                                var logData = {
+                                    Name: $('.Username1').val(),
+                                    Mobile: $('.Mobile1').val(),
+                                    Email: $('.Email1').val(),
+                                    FormPID: data.PId,
+                                    FormStatus: data.Status,
+                                    ServiceType: "Campaigns-Distribution Form"
+                                }
+                                $.ajax({
+                                    type: "POST",
+                                    url: "/" + "api/Admin/LeadSquaredLog",
+                                    data: JSON.stringify(logData),
+                                    contentType: "application/json; charset=utf-8",
+                                    dataType: "json",
+                                    failure: function (response) {
+                                        alert(response.d);
+                                    }
+
+                                });
+                                console.log(data);
+                            }
+                            var onError = function (data) {
+                                data = $.parseJSON(data)
+                                var logData = {
+                                    Name: $('.Username1').val(),
+                                    Mobile: $('.Mobile1').val(),
+                                    Email: $('.Email1').val(),
+                                    FormPID: data.PId,
+                                    FormStatus: data.Status,
+                                    ServiceType: "Campaigns-Distribution Form"
+                                }
+                                $.ajax({
+                                    type: "POST",
+                                    url: "/" + "api/Admin/LeadSquaredLog",
+                                    data: JSON.stringify(logData),
+                                    contentType: "application/json; charset=utf-8",
+                                    dataType: "json",
+                                    failure: function (response) {
+                                        alert(response.d);
+                                    }
+
+                                });
+                                console.log(data);
+                            }
+                            new LSQForm().captureLead(fieldMapping, "con-form",
+                            {
+                                onSuccess: onSuccess,   //optional
+                                onError: onError,       //optional
+                            });
+                        };
+                    </script>
+
+</body>
+
+</html>

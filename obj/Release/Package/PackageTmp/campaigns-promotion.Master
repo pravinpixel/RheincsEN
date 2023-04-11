@@ -1,0 +1,585 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="campaigns-promotion.master.cs" Inherits="RheinBrucke.campaigns_promotion" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+     <title>Promotion</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
+
+    <style>
+        ol, ul {
+            margin-top: 0 !important;
+            margin-bottom: 0px !important;
+        }
+
+        .logo {
+            float: left;
+            margin-left: 3%;
+        }
+
+        .faiconcolor {
+            color: #7e8386 !important;
+            text-decoration: none;
+        }
+
+            .faiconcolor:hover {
+                color: #7e8386 !important;
+                text-decoration: none;
+            }
+
+        .btn-group-sm > .btn, .btn-sm {
+            padding: 5px 7px;
+            font-size: 12px;
+            line-height: 1.5;
+            border-radius: 3px;
+        }
+    </style>
+
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+     <link href="/Assets2/promo/css/layout.css" rel="stylesheet" />
+     <link href="/Assets2/promo/css/layout.css" rel="stylesheet" />
+    <link href="/Assets2/promo/css/screen.css" rel="stylesheet" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="/Assets2/promo/js/client_agltracking_common.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="https://rheincs.com/favicon.png" />
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css" />
+    <link href="/Assets2/promo/css/fullscreenstyle.css" rel="stylesheet" />
+     <link href="/Assets2/promo/css/owl.carousel.css" rel="stylesheet" />
+     <link rel="stylesheet" href="/Assets2/promo/css/jquery.mCustomScrollbar.css" />
+     <link rel="stylesheet" type="text/css" href="/Assets2/promo/css/jquery.fancybox8cbb.css?v=2.1.5" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/Assets2/promo/css/jquery.fancybox-buttons.css" media="screen" />
+
+        <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+ <!-- GOOGLE ANALYTICS-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90996429-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+    </script>
+     <!-- END OF GOOGLE ANALYTICS-->
+
+  <%--   
+    <script type='text/javascript'>
+(function() {
+         window.zarget=true;
+         var protocol = ('https:' == document.location.protocol ? 'https:' : 'http:');
+         var scriptTag = document.createElement('script');
+         scriptTag.type = 'text/javascript';
+         scriptTag.async = true;
+         scriptTag.src = protocol +'//cdn.zarget.com/133396/274711.js';
+         var s = document.getElementsByTagName('script')[0];
+         s.parentNode.insertBefore(scriptTag, s);
+})();
+function zargetTimeout() {
+         window.zarget = false;
+}
+window.zargetTimer = setTimeout(zargetTimeout, 3000);
+</script>--%>
+
+
+    <script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=292694,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script>
+
+
+<!--LeadSquared Tracking Code Start-->
+<script type="text/javascript" src="https://web.mxradon.com/t/Tracker.js"></script>
+<script type="text/javascript">
+      pidTracker('17537');
+</script>
+<!--LeadSquared Tracking Code End-->
+
+
+</head>
+<body>
+    
+
+
+    
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+        
+        </asp:ContentPlaceHolder>
+
+    <!-- Google Code for Remarketing Tag -->
+<script type="text/javascript">
+var google_tag_params = {
+    dynx_itemid: '48550682',
+};
+</script>
+
+
+<!--New Tracking Code-->
+    <script type="text/javascript" src="https://secure.leadforensics.com/js/111189.js" ></script>
+<noscript><img alt="" src="https://secure.leadforensics.com/111189.png" style="display:none;" /></noscript>
+<!--Eof New Tracking Code-->
+    
+</body>
+
+    <asp:contentplaceholder runat="server" id="FooterScript" />
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  
+    <script type="text/javascript" src="../Assets2/promo/js/html5.js"></script>
+    <script src="/Assets2/promo/js/owl.carousel.js"></script>
+   
+    <script src="/Assets2/promo/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript" src="/Assets2/promo/js/jquery.fancybox8cbb.js?v=2.1.5"></script>
+   
+    <script type="text/javascript" src="/Assets2/promo/js/jquery.fancybox-buttons.js"></script>
+    <script src="/Assets2/promo/js/jquery.fullscreenslides.js"></script>
+    <script type="text/javascript" src="/Assets2/promo/js/script.js"></script>
+    <script src="/Assets2/promo/js/jquery.fullscreenslides.js"></script>
+    <script src="/Assets2/promo/js/socialCircle.js"></script>
+    <script type="text/javascript">
+        $(".socialCircle-center").socialCircle({
+            rotate: 0,
+            radius: 200,
+            circleSize: 2,
+            speed: 500
+        });
+    </script>
+    <script>
+
+        $("a[href='#top']").click(function () {
+            $("html, body").animate({ scrollTop: 0 }, "slow");
+            return false;
+        });
+    </script>
+
+    <script id="sample">
+        $(function () {
+            // initialize the slideshow
+            $('.image span').fullscreenslides();
+
+            // All events are bound to this container element
+            var $container = $('#fullscreenSlideshowContainer');
+
+            $container
+              //This is triggered once:
+              .bind("init", function () {
+
+                  // The slideshow does not provide its own UI, so add your own
+                  // check the fullscreenstyle.css for corresponding styles
+                  $container
+                    .append('<div class="ui" id="fs-close">&times;</div>')
+                    .append('<div class="ui" id="fs-loader">Loading...</div>')
+                    .append('<div class="ui" id="fs-prev">&lt;</div>')
+                    .append('<div class="ui" id="fs-next">&gt;</div>')
+                    .append('<div class="ui" id="fs-caption"><span></span></div>');
+
+                  // Bind to the ui elements and trigger slideshow events
+                  $('#fs-prev').click(function () {
+                      // You can trigger the transition to the previous slide
+                      $container.trigger("prevSlide");
+                  });
+                  $('#fs-next').click(function () {
+                      // You can trigger the transition to the next slide
+                      $container.trigger("nextSlide");
+                  });
+                  $('#fs-close').click(function () {
+                      // You can close the slide show like this:
+
+                      $container.trigger("close");
+
+                      location.reload();
+                  });
+
+              })
+              // When a slide starts to load this is called
+              .bind("startLoading", function () {
+                  // show spinner
+                  $('#fs-loader').show();
+              })
+              // When a slide stops to load this is called:
+              .bind("stopLoading", function () {
+                  // hide spinner
+                  $('#fs-loader').hide();
+              })
+              // When a slide is shown this is called.
+              // The "loading" events are triggered only once per slide.
+              // The "start" and "end" events are called every time.
+              // Notice the "slide" argument:
+              .bind("startOfSlide", function (event, slide) {
+                  // set and show caption
+                  $('#fs-caption span').text(slide.title);
+                  $('#fs-caption').show();
+              })
+              // before a slide is hidden this is called:
+              .bind("endOfSlide", function (event, slide) {
+                  $('#fs-caption').hide();
+              });
+
+        });
+    </script>
+    <script>
+        function showWidth(ele, w) {
+            $("div").text("The width for the " + ele + " is " + w + "px.");
+        }
+        $("#getp").click(function () {
+            showWidth("paragraph", $("p").width());
+        });
+        $("#getd").click(function () {
+            showWidth("document", $(document).width());
+        });
+        $("#getw").click(function () {
+            showWidth("window", $(window).width());
+        });
+    </script>
+    <script>
+        (function ($) {
+            $(window).load(function () {
+
+                $(".right_scroll1").mCustomScrollbar({
+                    theme: "dark-3"
+                });
+
+                $(".right_scroll2").mCustomScrollbar({
+                    theme: "dark-3"
+                });
+                $(".right_scroll3").mCustomScrollbar({
+                    theme: "dark-3"
+                });
+                $(".right_scroll4").mCustomScrollbar({
+                    theme: "dark-3"
+                });
+                $(".right_scroll5").mCustomScrollbar({
+                    theme: "dark-3"
+                });
+            });
+        })(jQuery);
+        $(document).ready(function () {
+            //$("#Overview").click(function () {
+            //    $("#Banner1").show();
+            //    $("#Banner3").hide();
+            //    $("#Banner2").hide();
+            //    $("#Banner4").hide();
+
+            //});
+            //$("#Features").click(function () {
+            //    $("#Banner2").show();
+            //    $("#Banner1").hide();
+            //    $("#Banner3").hide();
+            //    $("#Banner4").hide();
+            //});
+            //$("#Benefits").click(function () {
+            //    $("#Banner3").show();
+            //    $("#Banner1").hide();
+            //    $("#Banner1").hide();
+            //    $("#Banner4").hide();
+            //});
+            //$("#Modules").click(function () {
+            //    $("#Banner4").show();
+            //    $("#Banner1").hide();
+            //    $("#Banner1").hide();
+            //    $("#Banner3").hide();
+
+            //});
+
+        })
+        $(function () {
+
+            $('.button-checkbox').each(function () {
+
+                // Settings
+                var $widget = $(this),
+                    $button = $widget.find('button'),
+                    $checkbox = $widget.find('input:checkbox'),
+                    color = $button.data('color'),
+                    settings = {
+                        on: {
+                            icon: 'glyphicon glyphicon-check'
+                        },
+                        off: {
+                            icon: 'glyphicon glyphicon-unchecked'
+                        }
+                    };
+
+                // Event Handlers
+                $button.on('click', function () {
+                    $checkbox.prop('checked', !$checkbox.is(':checked'));
+                    $checkbox.triggerHandler('change');
+                    updateDisplay();
+                });
+                $checkbox.on('change', function () {
+                    updateDisplay();
+                });
+
+                // Actions
+                function updateDisplay() {
+                    var isChecked = $checkbox.is(':checked');
+
+                    // Set the button's state
+                    $button.data('state', (isChecked) ? "on" : "off");
+
+                    // Set the button's icon
+                    $button.find('.state-icon')
+                        .removeClass()
+                        .addClass('state-icon ' + settings[$button.data('state')].icon);
+
+                    // Update the button's color
+                    if (isChecked) {
+                        $button
+                            .removeClass('btn-default')
+                            .addClass('btn-' + color + ' active');
+                    }
+                    else {
+                        $button
+                            .removeClass('btn-' + color + ' active')
+                            .addClass('btn-default');
+                    }
+                }
+
+                // Initialization
+                function init() {
+
+                    updateDisplay();
+
+                    // Inject the icon if applicable
+                    if ($button.find('.state-icon').length == 0) {
+                        $button.prepend('<i class="state-icon ' + settings[$button.data('state')].icon + '"></i> ');
+                    }
+                }
+                init();
+            });
+        });
+        $("#menu-main-menu-m i[class*='fa-share-squaret']").click(function () {
+            if ($(this).closest("li").children("ul").length) {
+                $(this).text($(this).text() == "" ? "" : "");
+                $(this).closest("li").children("ul").toggleClass('active');
+                $(this).closest("li").children("ul").slideToggle(500);
+            }
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".Share").click(function () {
+                $(".social").toggle("slow");
+            });
+
+        });
+        
+
+      
+
+
+        var url = window.location.href;
+        var hash = url.substring(url.indexOf('#') + 1);
+        
+        $(".twitter").attr("href", "https://twitter.com/intent/tweet?url=" + window.location.href + document.location.hash + "");
+        $(".facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + window.location.href + document.location.hash + "");
+        $(".linkdin").attr("href", "http://www.linkedin.com/shareArticle?url=" + window.location.href + document.location.hash + "");
+        $(".GPlus").attr("href", "https://plus.google.com/share?url=" + window.location.href + document.location.hash + "");
+    </script>
+
+    <script>
+        var name, email, mobile;
+        function IsEmailValid(a) {
+            if ("" == a) return !0; var e = /^([a-zA-Z0-9_.+-])+\@@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            return e.test(a)
+        }
+        $(document).ready(function () {
+            var _rootUrl = $("#hdfRootUrl").val();
+            $('#Submit1').click(function () {
+
+                flagpromotion = true;
+                if ($('#Username1').val() == '') {
+                    $('.showErrorMsg').text("Please enter your name"); $('#Username1').focus(); return false;
+                    flagpromotion = false;
+                }
+                if ($('#Email1').val() == '') {
+                    $('.showErrorMsg').text("Ensure work email!."); $('#Email1').focus(); return false;
+                    flagpromotion = false;
+                }
+                //if ($('#Mobile1').val().length < 10) {
+                //    $('.showErrorMsg').text("Ensure phone number!."); $('#Mobile1').focus(); return false;
+                //    flagpromotion = false;
+                //}
+                
+                var email = $('#Email1').val();
+                var a = email.split('@');
+                if (a[1].toLowerCase() == 'gmail.com' || a[1].toLowerCase() == 'live.com' || a[1].toLowerCase() == 'live.in' || a[1].toLowerCase() == 'outlook.com' || a[1].toLowerCase() == 'yahoo.com' || a[1].toLowerCase() == 'zoho.com' || a[1].toLowerCase() == 'yandex.com' || a[1].toLowerCase() == 'aol.com' || a[1].toLowerCase() == 'mail.com' || a[1].toLowerCase() == 'inbox.com') {
+                    $('.showErrorMsg').text("Please provide us with your work e-mail and not your personal e-mail!."); $('#Email1').focus(); return false;
+                    flagpromotion = false;
+                }
+               
+                
+
+                var checks = new Array();
+                $('input:checked').each(function () {
+
+                    checks.push($(this).attr('name'));
+                });
+
+                var checked = $("input[type=checkbox]:checked").length;
+
+                if (!checked) {
+                    $('.showErrorMsg').text("Select any one option.");
+                    return false;
+                    flagpromotion = false;
+
+                }
+                //leadsquared
+                if (flagpromotion = true)
+                {
+                    saveleadpromotion();
+                }
+                var Data = {
+                    firstname: $('#Username1').val(),
+                    email: $('#Email1').val(),
+                    phone: $('#Mobile1').val(),
+                    ServiceType: "PPA",
+                    CheckBoxValues: checks
+
+                };
+                name = $('#Username1').val();
+                email = $('#Email1').val();
+                mobile = $('#Mobile1').val();
+                $.ajax({
+
+                    type: 'POST',
+
+                    url: "/" + "api/Landing/Campaigns",
+                    data: JSON.stringify(Data),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+
+                        if (response == "success") {
+
+                            $('#Username1,#Email1', checks).val('');
+                            $('#form1').trigger("reset");
+                            window.location = "../rheinbrucke-solutions/thankyou";
+
+                        }
+
+                    }
+                });
+
+              
+            });
+
+        });
+    </script>
+
+     <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
+
+                    <script type="text/javascript">
+                          
+                        function saveleadpromotion() {
+
+			                var checks = new Array();
+                            var fieldMapping = {
+                                MXHOrgCode: "17537",
+                       MXHLandingPageId: "d5b6d518-1a94-11e7-a02b-22000b10e324",
+                                MXHAsc: "",
+                                FirstName: "name",
+									 Mobile: "mobile",
+                                EmailAddress: "email",
+                                
+                                mx_Download_Brochure: "brochure",
+                                mx_Download_Casestudy: "casestudy",
+                                mx_Request_for_Demo:"demo"
+                            };
+
+                            var onSuccess = function (data) {                   
+
+                                data = $.parseJSON(data)
+                                var logData = {
+                                    Name: name,
+                                    FormPID: data.PId,
+                                    Email: email,
+                                    Mobile: mobile,
+                                    FormStatus: data.Status,
+                                    ServiceType: "Campaigns-Promotion -PPA"
+                                }
+                                $.ajax({
+                                    type: "POST",
+                                    url: "/" + "api/Admin/LeadSquaredLog",
+                                    data: JSON.stringify(logData),
+                                    contentType: "application/json; charset=utf-8",
+                                    dataType: "json",
+                                    failure: function (response) {
+                                        alert(response.d);
+                                    }
+
+                                });
+                                console.log(data);
+					
+	
+                            }
+
+                            var onError = function (data) {                 
+
+                                data = $.parseJSON(data)
+                                var logData = {
+                                    Name: name,
+                                    FormPID: data.PId,
+                                    Email: email,
+                                    Mobile: mobile,
+                                    FormStatus: data.Status,
+                                    ServiceType: "Campaigns-Promotion -PPA"
+                                }
+                                $.ajax({
+                                    type: "POST",
+                                    url: "/" + "api/Admin/LeadSquaredLog",
+                                    data: JSON.stringify(logData),
+                                    contentType: "application/json; charset=utf-8",
+                                    dataType: "json",
+                                    failure: function (response) {
+                                        alert(response.d);
+                                    }
+
+                                });
+                                console.log(data);
+
+                            }
+
+
+
+                            new LSQForm().captureLead(fieldMapping, "form1",
+
+                            {
+
+                            onSuccess: onSuccess,   //optional
+
+                            onError: onError,       //optional
+
+                            });
+			
+				
+
+};
+
+                        
+                    </script>
+
+   
+</html>

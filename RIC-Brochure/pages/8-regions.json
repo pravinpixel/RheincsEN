@@ -1,0 +1,22 @@
+[
+  {
+    "x": 78,
+    "y": 579,
+    "width": 55,
+    "height": 12,
+    "class": "link",
+    "data": {
+      "url": "https://www.rheincs.com"
+    }
+  },
+  {
+	"x": 30,
+	 "y": 500,
+	 "width": 80,
+    "height": 60,
+   "class": "link",
+   "data": {
+   "url": "https://www.rheincs.com"
+    }
+}
+]

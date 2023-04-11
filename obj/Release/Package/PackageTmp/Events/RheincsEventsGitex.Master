@@ -1,0 +1,438 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RheincsEventsGitex.master.cs" Inherits="RheinBrucke.Events.RheincsEventsGitex" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Meet RheinBrücke at GITEX 2017</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
+    <!-- FAVICON LINK -->
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon" />
+    <!-- STYLESHEETS -->
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" type="text/css" href="Assets/GITEX/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/GITEX/css/vendor/bootstrap-theme.min.css" />
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" type="text/css" href="Assets/GITEX/css/vendor/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/GITEX/css/vendor/font-awesome/dist/font-awesome-animation.min.css" />
+    <!-- MAGNIFIC LIGHT BOX -->
+    <link rel="stylesheet" type="text/css" href="Assets/GITEX/css/vendor/magnific/magnific-popup.css" />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" type="text/css" href="Assets/GITEX/css/custom/style.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/GITEX/css/custom/responsive.css" />
+    <!-- Multiselect -->
+    <link href="Assets/GITEX/css/multiselect.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="75">
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    <!--Modal-->
+      <div class="modal fade" id="myModal-Tourcontactus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header modal-header-bgcolor">
+                                <button type="button" class="close closev2" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Book Your Tour Here</h4>
+                            </div>
+                            <div class="col-md-12 padd-top">
+                                <div class="form-group">
+                                    <label class="success" id="successmessage" hidden="hidden">Thank you for contacting RheinBrücke. We will get back to you soon.</label>
+                                </div>
+                            </div>
+                            <div class="modal-body modalform">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="*Your Name" id="txtName" name="tour-name" class="write-to-us-input" />
+                                       
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="*Your Email Address" name="tour-email" id="txtEmail" class="write-to-us-input" />
+                                        
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="*Your Mobile Number" name="tour-phone" id="txtPhone" class="write-to-us-input" />
+                                       
+                                    </div>
+                                </div>
+                               <div class="row">
+                                    <div class="col-md-12">
+                                        <select id="sessions" class="dropdown multiselect-ui" name="TourSessions" multiple="multiple" style="width: 100%; padding: 6px;">
+                                           
+                                            <option value="Build your very own custom session">Build your very own custom session</option>
+                                            <option value="Transforming HR: Creating Value Through People">Transforming HR: Creating Value Through People</option>
+                                            <option value="Calculating the ROI for an ERP system implementation">Calculating the ROI for an ERP system implementation</option>
+                                            <option value="Business driven BI and Analytics">Business driven BI and Analytics</option>
+                                            <option value="Technology ingredients that drive business to Hotels and Restaurants">Technology ingredients that drive business to Hotels and Restaurants</option>
+                                            <option value="MeRLIN – Empowering Modern Sourcing">MeRLIN – Empowering Modern Sourcing</option>
+                                            <option value="Extending your Enterprise ERP - empowering end users">Extending your Enterprise ERP - empowering end users</option>
+                                            <option value="RheinBrücke Industry specific solutions for EPC companies">RheinBrücke Industry specific solutions for EPC companies</option>
+                                            <option value="RheinBrücke Epicor Mobility Solutions to optimize Field ticketing">RheinBrücke Epicor Mobility Solutions to optimize Field ticketing</option>
+                                            <option value="RheinBrücke Industry specific solutions for Oil and Gas Companies">RheinBrücke Industry specific solutions for Oil and Gas Companies</option>
+
+                                        </select>
+                                        <span class="validator" id="reqddlservices" hidden="hidden" style="font-size: 13px;">Select the Services</span>
+                                    </div>
+                                </div>
+                                <span class="showErrorMsg" style="color: red; margin-top:10px;"></span>
+                                <span class="showErrorMsg2" style="color: red; margin-top:10px;"></span>
+                                <div class="clearfix">&nbsp;</div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="button"  id="btnTour" class="btn btn-14-1 content-spacing content-uppercase content-bold" data-loading-text="Submitting.." value="Submit" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <!--Eof Modal-->
+  <!-- JQUERY LIBRARY -->
+    <script type="text/javascript" src="Assets/GITEX/js/vendor/jquery.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script type="text/javascript" src="Assets/GITEX/js/vendor/bootstrap.min.js"></script>
+    <!-- MAGNIFIC LIGHT BOX -->
+    <script type="text/javascript" src="Assets/GITEX/js/vendor/magnific/jquery.magnific-popup.js"></script>
+    <!-- SUBSCRIBE MAILCHIMP -->
+    <script type="text/javascript" src="Assets/GITEX/js/vendor/subscribe/subscribe_validate.js"></script>
+    <!-- FORM VALIDATION -->
+    <script type="text/javascript" src="Assets/GITEX/js/vendor/validate/jquery.validate.min.js"></script>
+    <!-- DIGITAL CLOCK JS -->
+    <script type="text/javascript" src="Assets/GITEX/js/vendor/digital-clock/digital-clock.js"></script>
+    <!-- THEME JS -->
+    <script type="text/javascript" src="Assets/GITEX/js/custom/custom.js"></script>
+    <script src="Assets/GITEX/js/mulitselectbootstrap.js"></script>
+   <script type="text/javascript">
+    $(function() {
+        $('.multiselect-ui').multiselect({
+            includeSelectAllOption: true
+        });
+    });
+    </script>
+    <!--Validation and Emailing Script-->
+    <script type="text/javascript">
+    function IsEmailValid(a) {
+            if ("" == a) return !0; var e = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            return e.test(a)
+        }
+		 var email, email1, mobile, mobile1, name, name1;
+        $(document).ready(function () {
+            var _rootUrl = $("#hdfRootUrl").val();
+            $('#btnTour').click(function () {
+                flag = true;
+                if ($('#txtName').val() == '') {
+                    $('.showErrorMsg').text("Please enter your name"); $('.showErrorMsg2').text(""); $('#txtName').focus(); return false;
+                    flag = false;
+                }
+                if ($('#txtEmail').val() == '') {
+                    $('.showErrorMsg').text("Enter email address!."); $('.showErrorMsg2').text(""); $('#txtEmail').focus(); return false;
+                    flag = false;
+                }
+                if ($('#txtEmail').val() != '') {
+                    //alert('not empty');
+                    if (!IsEmailValid($('#txtEmail').val())) {
+                        //alert('not valid');
+                        $('.showErrorMsg').text("");
+                        $('.showErrorMsg2').text("Enter valid email address!."); $('#txtEmail').focus(); return false;
+                        flag = false;
+                    }
+                }
+                //var email = $('#txtEmail').val();
+                //var a = email.split('@');
+                //if (a[1].toLowerCase() == 'gmail.com' || a[1].toLowerCase() == 'live.com' || a[1].toLowerCase() == 'live.in' || a[1].toLowerCase() == 'outlook.com' || a[1].toLowerCase() == 'yahoo.com' || a[1].toLowerCase() == 'zoho.com' || a[1].toLowerCase() == 'yandex.com' || a[1].toLowerCase() == 'aol.com' || a[1].toLowerCase() == 'mail.com' || a[1].toLowerCase() == 'inbox.com') {
+                //    $('.showErrorMsg').text("Please provide us with your work e-mail and not your personal e-mail!.");
+                //    $('#txtEmail').focus(); return false;
+                //}
+                
+                if ($('#txtPhone').val() == '') {
+                    $('.showErrorMsg').text("Ensure mobile number!."); $('.showErrorMsg2').text(""); $('#txtPhone').focus(); return false;
+                    flag = false;
+                }
+
+                var checks = new Array();
+                $('input[type=checkbox]:checked').each(function () {
+
+                    checks.push($(this).val());
+
+                });
+
+                var checked = $("input[type=checkbox]:checked").length;
+
+                if (!checked) {
+                    $('.showErrorMsg').text("Select any one option.");
+                    $('.showErrorMsg2').text("");
+                    return false;
+
+                }
+                // eof email validation 
+                //sending email data through ajax call
+
+                var Data = {
+                    firstname: $('#txtName').val(),
+                    email: $('#txtEmail').val(),
+                    phone: $('#txtPhone').val(),
+                    ServiceType: "GITEX Event",
+                    CheckBoxValues: checks
+                };
+				  name = $('#txtName').val();
+                email = $('#txtEmail').val();
+                mobile = $('#txtPhone').val(),
+                $.ajax({
+                    type: 'POST',
+                    url: "/" + "api/Landing/Campaigns",
+                    data: JSON.stringify(Data),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+
+                        //debugger;
+				 if (response == "success") {
+                            //$('#myModal').modal('show');
+				     //var a = $('#hero-fname').val();
+                           // $('.name').text(a);
+                            $('#register-form').trigger("reset");
+                            //$(".country").val('');
+                            $(':input').not(':button, :submit, :reset, :hidden, :checkbox, :radio').val('');
+                            $(':checkbox, :radio').prop('checked', false);
+                           // $('.country').val(0);
+                            $(".showErrorMsg").text(" ");
+                            $('.multiselect-ui').multiselect('refresh');
+                            window.location = "../Events/thankyou-gitex";
+                        }      
+                    }                  
+                });
+                //eof sending email data through ajax call     
+                //Leadsquared Integration
+                if (flag == true)
+                {
+                    //alert('move to leadsquared');
+                    var fieldMapping = {
+                        MXHOrgCode: "17537",
+                        MXHLandingPageId: "da542782-9798-11e7-9042-22000aa79843",
+                        MXHAsc: "",
+                        FirstName: "tour-name",
+                        EmailAddress: "tour-email",
+                        Mobile: "tour-phone",
+                        mx_Select_Tour_Options: "TourSessions"
+                    };
+                    var onSuccess = function (data) {
+                       data = $.parseJSON(data)
+                        var logData = {
+                            Name: name,
+                            FormPID: data.PId,
+                            Email: email,
+                            Mobile: mobile,
+                            FormStatus: data.Status,
+                            ServiceType: "GITEX-myModal-Tourcontactus"
+                        }
+                        $.ajax({
+                            type: "POST",
+                            url: "/" + "api/Admin/LeadSquaredLog",
+                            data: JSON.stringify(logData),
+                            contentType: "application/json; charset=utf-8",
+                            dataType: "json",
+                            failure: function (response) {
+                                alert(response.d);
+                            }
+
+                        });
+                        console.log(data);
+                    }
+                    var onError = function (data) {
+                        data = $.parseJSON(data)
+                        var logData = {
+                            Name: name,
+                            FormPID: data.PId,
+                            Email: email,
+                            Mobile: mobile,
+                            FormStatus: data.Status,
+                            ServiceType: "GITEX-myModal-Tourcontactus"
+                        }
+                        $.ajax({
+                            type: "POST",
+                            url: "/" + "api/Admin/LeadSquaredLog",
+                            data: JSON.stringify(logData),
+                            contentType: "application/json; charset=utf-8",
+                            dataType: "json",
+                            failure: function (response) {
+                                alert(response.d);
+                            }
+
+                        });
+                        console.log(data);
+                    }
+                    new LSQForm().captureLead(fieldMapping, "myModal-Tourcontactus",
+                    {
+                        onSuccess: onSuccess,   //optional
+                        onError: onError,       //optional
+                    });
+                }
+                
+                   
+               
+            });           
+        
+
+        //Contact us form validation
+        $('#contact-submit').click(function () {
+            cflag = true;
+            if ($('#con-name').val() == '') {
+                $('.showErrorMsg1').text("Please enter your name"); $('.showErrorMsg3').text(""); $('#con-name').focus(); return false;
+                cflag = false;
+            }
+            if ($('#con-email').val() == '') {
+                $('.showErrorMsg1').text("Ensure work email!."); $('.showErrorMsg3').text(""); $('#con-email').focus(); return false;
+                cflag = false;
+            }
+            if ($('#con-email').val() != '') {
+                if (!IsEmailValid($('#con-email').val())) {
+                    $('.showErrorMsg1').text("");
+                    $('.showErrorMsg3').text("Enter valid email address!."); $('#con-email').focus(); return false;
+                    cflag = false;
+                }
+            }
+            //var a = email.split('@');
+            //if (a[1].toLowerCase() == 'gmail.com' || a[1].toLowerCase() == 'live.com' || a[1].toLowerCase() == 'live.in' || a[1].toLowerCase() == 'outlook.com' || a[1].toLowerCase() == 'yahoo.com' || a[1].toLowerCase() == 'zoho.com' || a[1].toLowerCase() == 'yandex.com' || a[1].toLowerCase() == 'aol.com' || a[1].toLowerCase() == 'mail.com' || a[1].toLowerCase() == 'inbox.com') {
+            //    $('.showErrorMsg1').text("Please provide us with your work e-mail and not your personal e-mail!.");
+            //    $('#con-email').focus(); return false;
+            //}        
+            if ($('#con-phone').val() == '') {
+                $('.showErrorMsg1').text("Ensure mobile number!."); $('.showErrorMsg3').text(""); $('#con-phone').focus(); return false;
+                cflag = false;
+            }
+            
+
+            //sending email data through ajax call
+
+            var Data = {
+                name: $('#con-name').val(),
+                email: $('#con-email').val(),
+                phone: $('#con-phone').val(),
+                message:'empty',
+                Services: "GITEX Event Contact"
+            };
+			   name1 = $('#con-name').val();
+            email1 = $('#con-email').val();
+            mobile1 = $('#con-phone').val();
+            $.ajax({
+                type: 'POST',
+                url: "/" + "api/ContactUs/EventContactUs",
+                data: JSON.stringify(Data),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+
+                   // debugger;
+                    if (response == "success") {
+                        //$('#myModal').modal('show');
+                        //var a = $('#hero-fname').val();
+                        // $('.name').text(a);
+                        $('#register-form').trigger("reset");
+                        //$(".country").val('');
+                        $(':input').not(':button, :submit, :reset, :hidden, :checkbox, :radio').val('');
+                        $(':checkbox, :radio').prop('checked', false);
+                        // $('.country').val(0);
+                        $(".showErrorMsg").text(" ");
+                        $('.multiselect-ui').multiselect('refresh');
+                        window.location = "../Events/thankyou-gitex";
+                    }
+                }
+            });
+            //eof sending email data through ajax call        
+
+            //leadsquared Integration
+           // function onFormSubmitContact() {
+                var fieldMapping = {
+                    MXHOrgCode: "17537",
+                    MXHLandingPageId: "e92fbda6-979a-11e7-9042-22000aa79843",
+                    MXHAsc: "",
+                    FirstName: "con-name",
+                    EmailAddress: "con-email",
+                    Mobile: "con-phone"
+                    //mx_Your_Message: "con-message"
+                };
+                var onSuccess = function (data) {
+                      data = $.parseJSON(data)
+                    var logData = {
+                        Name: name1,
+                        FormPID: data.PId,
+                        Email: email1,
+                        Mobile: mobile1,
+                        FormStatus: data.Status,
+                        ServiceType: "GITEX-Contact"
+                    }
+                    $.ajax({
+                        type: "POST",
+                        url: "/" + "api/Admin/LeadSquaredLog",
+                        data: JSON.stringify(logData),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        failure: function (response) {
+                            alert(response.d);
+                        }
+
+                    });
+                    console.log(data);
+                }
+                var onError = function (data) {
+                      data = $.parseJSON(data)
+                    var logData = {
+                        Name: name1,
+                        FormPID: data.PId,
+                        Email: email1,
+                        Mobile: mobile1,
+                        FormStatus: data.Status,
+                        ServiceType: "GITEX-Contact"
+                    }
+                    $.ajax({
+                        type: "POST",
+                        url: "/" + "api/Admin/LeadSquaredLog",
+                        data: JSON.stringify(logData),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        failure: function (response) {
+                            alert(response.d);
+                        }
+
+                    });
+                    console.log(data);
+                }
+                new LSQForm().captureLead(fieldMapping, "GITEX-Contact",
+                {
+                    onSuccess: onSuccess,   //optional
+                    onError: onError,       //optional
+                });
+            //};
+        }); //contact validation
+
+    });//documebt ready
+        //Multiselect Dropdown script
+        $('.multiselect-ui').multiselect({
+            nonSelectedText: 'Select options'
+
+        });
+    </script>
+    <!--Analytics code-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90996429-1', 'auto');
+  ga('send', 'pageview');
+</script> 
+ 
+       <%--Lead square implementation--%>
+<script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
+     <%--eof Lead square implementation--%>
+</body>
+</html>

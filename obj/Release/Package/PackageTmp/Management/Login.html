@@ -1,0 +1,33 @@
+﻿<form action="#" method="post" style="padding: 0 18px;" id="login-form">
+    <div class="form-group has-feedback login-user">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control button", @placeholder = "User Name", })
+        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+    </div>
+    <div class="form-group has-feedback pwd-login">
+        @Html.PasswordFor(m => m.Password, new { @class = "form-control button", @placeholder = "Password" })
+        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="forggot-pwd">
+                    <a href="/Account/ResetPassword" style="color:#362f2d;" id="frgt-pwd">Forgot Password?</a>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="checkbox user-login" style="cursor:pointer;font-size:15px">
+                    <a href="/Account/Register" id="new-user">New User</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="social-auth-links text-center">
+        <input type="submit" class="btn btn-sm btnlogin" value="LOGIN" id="login" />
+    </div>
+</form>

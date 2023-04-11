@@ -1,0 +1,336 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RheinBrücke-at-MENA-summit-2018.master.cs" Inherits="RheinBrucke.Events.RheinBrücke_at_MENA_summit_2018" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Meet RheinBrücke at EPICOR MENA SUMMIT 2018</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
+    <!-- FAVICON LINK -->
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon" />
+    <!-- STYLESHEETS -->
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" type="text/css" href="Assets/GITEX/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/GITEX/css/vendor/bootstrap-theme.min.css" />
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" type="text/css" href="Assets/GITEX/css/vendor/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/GITEX/css/vendor/font-awesome/dist/font-awesome-animation.min.css" />
+    <!-- MAGNIFIC LIGHT BOX -->
+    <link rel="stylesheet" type="text/css" href="Assets/GITEX/css/vendor/magnific/magnific-popup.css" />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" type="text/css" href="Assets/GITEX/css/custom/style-v2.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/GITEX/css/custom/responsive.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="75">
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    <!--Eof Modal-->
+  <!-- JQUERY LIBRARY -->
+    <style>  
+         .events-clock{  
+           margin-left: 64px;
+            }
+         .topbar2.navbar-default .navbar-nav > li > a:focus,
+.topbar2.navbar-default .navbar-nav > li > a:hover,
+.topbar2.navbar-default .navbar-nav > li > a:active {
+    color: #ffffff !important;
+    background-color: #2196F3 !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+        .topbar2.navbar-default .navbar-toggle {
+            background-color: #2196F3 !important;
+        }
+        @media (max-width:720px){
+        .events-clock{  
+            margin-left: 0px;
+            }
+            .header-bgimage {
+                    background-image: url('../../Events/Assets/GITEX/images/Banner-1.jpeg');
+                    padding-bottom: 0px;
+                    padding-top: 0px;
+            }
+            .header-div {
+                margin: 0 auto;
+                width: 80%;
+                background-color: rgba(0, 0, 0, 0.38);
+                margin-top: 30px;
+            }
+            .header-div h1
+            {
+                font-size:27px;
+            }
+        }
+        @media (max-width:520px) {
+            .float-icon {
+    width: 80px;
+}
+            .header-div
+            {
+                    width: 100%;
+            }
+            .events-clock {
+    margin-top: 10px;
+}
+                          .img-text
+              {
+                padding-right: 0px;
+                padding-left: 0px;
+              }
+                            .events-clock li
+              {
+                      margin-right: 10px !important;
+              }
+        }
+        @media (max-width:420px) {
+              .header-bgimage {
+                    background-image: url('../../Events/Assets/GITEX/images/Banner-1.jpeg');
+                    padding-bottom: 0px;
+                    padding-top: 0px;
+            }
+              .events-clock li
+              {
+                      margin-right: 10px !important;
+              }
+              .events-clock {
+                margin-top: 0px;
+                }
+              .float-icon {
+                width: 80px;
+                }
+             .header-div {
+                margin: 1px auto;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.38);
+                margin-top: 15px;
+                    padding-left: 5px;
+                }
+              .header-div h1
+              {    font-size:23px;
+              }
+              #Aboutus h3
+              {
+                  font-size:20px;
+              }
+
+        }
+        @media (max-height:400px) {
+            .header-bgimage {
+                background-image: url('../../Events/Assets/GITEX/images/Banner1.jpg');
+            }
+           .header-bgimage
+           {
+               padding-bottom: 0px !important;
+    padding-top: 0px !important;
+           }
+           .header-div h1
+           {
+               font-size:30px;
+           }
+		   .float-icon {
+    width: 75px !important;
+	    margin-top: 20px;}
+        }
+		@media (max-height:340px) {
+		.header-div h1 {
+    font-size: 23px !important;
+}
+.events-clock {
+    margin-top: 10px;
+	    margin-left: 50px;
+}
+.header-div {
+    width: 90%;
+	}
+		}
+
+         .float-icon
+         {
+             width:100px;
+         }
+        </style>
+    <script type="text/javascript" src="Assets/GITEX/js/vendor/jquery.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script type="text/javascript" src="Assets/GITEX/js/vendor/bootstrap.min.js"></script>
+    <!-- MAGNIFIC LIGHT BOX -->
+    <script type="text/javascript" src="Assets/GITEX/js/vendor/magnific/jquery.magnific-popup.js"></script>
+    <!-- SUBSCRIBE MAILCHIMP -->
+    <script type="text/javascript" src="Assets/GITEX/js/vendor/subscribe/subscribe_validate.js"></script>
+    <!-- FORM VALIDATION -->
+    <script type="text/javascript" src="Assets/GITEX/js/vendor/validate/jquery.validate.min.js"></script>
+    <!-- DIGITAL CLOCK JS -->
+    <script type="text/javascript" src="Assets/GITEX/js/vendor/digital-clock/digital-clock2.js"></script>
+    <!-- THEME JS -->
+    <script type="text/javascript" src="Assets/GITEX/js/custom/custom.js"></script>
+    <!--Validation and Emailing Script-->
+    <script type="text/javascript">
+    function IsEmailValid(a) {
+            if ("" == a) return !0; var e = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            return e.test(a)
+        }
+		 var email1, mobile1, name1, company, role;
+        $(document).ready(function () {
+            var _rootUrl = $("#hdfRootUrl").val();        
+        //Contact us form validation
+        $('#contact-submit').click(function () {
+            if ($('#con-name').val() == '') {
+                $('.showErrorMsg1').text("Please enter your name"); $('.showErrorMsg3').text(""); $('#con-name').focus(); return false;
+            }
+            if ($('#con-email').val() == '') {
+                $('.showErrorMsg1').text("Ensure work email!."); $('.showErrorMsg3').text(""); $('#con-email').focus(); return false;
+            }
+            if ($('#con-email').val() != '') {
+                if (!IsEmailValid($('#con-email').val())) {
+                    $('.showErrorMsg1').text("");
+                    $('.showErrorMsg3').text("Enter valid email address!."); $('#con-email').focus(); return false;
+                }
+            }
+            //var a = email.split('@');
+            //if (a[1].toLowerCase() == 'gmail.com' || a[1].toLowerCase() == 'live.com' || a[1].toLowerCase() == 'live.in' || a[1].toLowerCase() == 'outlook.com' || a[1].toLowerCase() == 'yahoo.com' || a[1].toLowerCase() == 'zoho.com' || a[1].toLowerCase() == 'yandex.com' || a[1].toLowerCase() == 'aol.com' || a[1].toLowerCase() == 'mail.com' || a[1].toLowerCase() == 'inbox.com') {
+            //    $('.showErrorMsg1').text("Please provide us with your work e-mail and not your personal e-mail!.");
+            //    $('#con-email').focus(); return false;
+            //}        
+            if ($('#con-phone').val() == '') {
+                $('.showErrorMsg1').text("Ensure mobile number!."); $('.showErrorMsg3').text(""); $('#con-phone').focus(); return false;
+            }
+            if ($('#con-company').val() == '') {
+                $('.showErrorMsg1').text("Ensure Your company name!."); $('.showErrorMsg3').text(""); $('#con-company').focus(); return false;
+            }
+            if ($('#con-role').val() == '') {
+                $('.showErrorMsg1').text("Ensure Designation!."); $('.showErrorMsg3').text(""); $('#con-role').focus(); return false;
+            }
+            
+
+            //sending email data through ajax call
+
+            var Data = {
+                name: $('#con-name').val(),
+                email: $('#con-email').val(),
+                phone: $('#con-phone').val(),
+                company: $('#con-company').val(),
+                role: $('#con-role').val(),
+                Services: "MENA Summit 2018"
+            };
+			   name1 = $('#con-name').val();
+            email1 = $('#con-email').val();
+            mobile1 = $('#con-phone').val();
+			company=$('#con-company').val();
+			role=$('#con-role').val();
+            $.ajax({
+                type: 'POST',
+                url: "/" + "api/ContactUs/MENAEventContactUs",
+                data: JSON.stringify(Data),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+
+                   // debugger;
+                    if (response == "success") {
+                        //$('#myModal').modal('show');
+                        //var a = $('#hero-fname').val();
+                        // $('.name').text(a);
+                        $('#MENA-form').trigger("reset");
+                        //$(".country").val('');
+                        $(':input').not(':button, :submit, :reset, :hidden, :checkbox, :radio').val('');
+                        $(':checkbox, :radio').prop('checked', false);
+                        // $('.country').val(0);
+                        $(".showErrorMsg").text(" ");
+                        window.location = "../Events/thankyou-MENA-summit";
+                    }
+                }
+            });
+            //eof sending email data through ajax call        
+        });
+        });
+        </script>
+        <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
+    <script type="text/javascript">      
+        function onFormSubmit() {
+                var fieldMapping = {
+                    MXHOrgCode: "17537",
+                    MXHLandingPageId: "89e26a8b-0cea-11e8-b342-22000aa7969a",
+                    MXHAsc: "",
+                    FirstName: "con-name",
+                    EmailAddress: "con-email",
+                    Mobile: "con-phone",
+                    Company: "con-company",
+					JobTitle: "con-role"
+                };
+                var onSuccess = function (data) {
+                      data = $.parseJSON(data)
+                    var logData = {
+                        Name: name1,
+                        FormPID: data.PId,
+                        Email: email1,
+                        Mobile: mobile1,
+                        FormStatus: data.Status,
+                        ServiceType: "MENA Summit 2018"
+                    }
+                    $.ajax({
+                        type: "POST",
+                        url: "/" + "api/Admin/LeadSquaredLog",
+                        data: JSON.stringify(logData),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        failure: function (response) {
+                            alert(response.d);
+                        }
+
+                    });
+                    console.log(data);
+                }
+                var onError = function (data) {
+                      data = $.parseJSON(data)
+                    var logData = {
+                        Name: name1,
+                        FormPID: data.PId,
+                        Email: email1,
+                        Mobile: mobile1,
+                        FormStatus: data.Status,
+                        ServiceType: "MENA Summit 2018"
+                    }
+                    $.ajax({
+                        type: "POST",
+                        url: "/" + "api/Admin/LeadSquaredLog",
+                        data: JSON.stringify(logData),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        failure: function (response) {
+                            alert(response.d);
+                        }
+
+                    });
+                    console.log(data);
+                }
+                new LSQForm().captureLead(fieldMapping, "MENA-form",
+                {
+                    onSuccess: onSuccess,   //optional
+                    onError: onError,       //optional
+                });
+                };
+        //Multiselect Dropdown script
+    </script>
+
+    <!--Analytics code-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90996429-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+ 
+       <%--Lead square implementation--%>
+
+     <%--eof Lead square implementation--%>
+</body>
+</html>

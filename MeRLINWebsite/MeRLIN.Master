@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MeRLIN.master.cs" Inherits="RheinBrucke.MeRLIN.MeRLIN" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MeRLIN</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/layout.min.css" rel="stylesheet" />
+    <link href="css/animation-css.css" rel="stylesheet" />
+    <link href="css/aos.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="body" data-spy="scroll" data-target=".header" class="page-on-scroll">
+   
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+  
+</body>
+        <script src="Js/jquery.min.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="Js/layout.min.js"></script>
+<script src="Js/aos.js"></script>
+   <script>
+  AOS.init();
+      </script>
+
+        <script>
+            (function($) {
+  $.fn.visible = function(partial) {
+
+    var $t = $(this),
+      $w = $(window),
+      viewTop = $w.scrollTop(),
+      viewBottom = viewTop + $w.height(),
+      _top = $t.offset().top,
+      _bottom = _top + $t.height(),
+      compareTop = partial === true ? _bottom : _top,
+      compareBottom = partial === true ? _top : _bottom;
+
+    return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+
+  };
+
+})(jQuery);
+
+var win = $(window);
+var allMods = $(".module");
+
+allMods.each(function(i, el) {
+  var el = $(el);
+  if (el.visible(true)) {
+    el.addClass("already-visible");
+  }
+});
+
+win.scroll(function(event) {
+  allMods.each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("come-in");
+    }
+  });
+});
+        </script>
+</html>

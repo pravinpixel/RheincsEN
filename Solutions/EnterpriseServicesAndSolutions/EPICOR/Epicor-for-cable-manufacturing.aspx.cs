@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR
+{
+    public partial class Epicor_for_cable_manufacturing : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
