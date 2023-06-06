@@ -22,7 +22,7 @@ namespace RheinBrucke
         }
 
         [WebMethod]
-        public static string UpdateContactUs(string name, string email, string message, string phone, string Services)
+        public static string UpdateContactUs(string name, string email, string message, string phone,string company, string Services)
         {
             string response = "failed";
             try
@@ -32,11 +32,11 @@ namespace RheinBrucke
                     //ContactUSMailID
                     string toAddress = WebConfigurationManager.AppSettings["ContactUSMailID"];
                     MasterRepository obj = new MasterRepository();
-                    bool status = obj.SaveContactUS(name, email, message,phone,Services);
+                    bool status = obj.SaveContactUS(name, email, message,phone,company,Services);
                     if (status)
                         response = "success";
                     MailComponent objMail = new MailComponent();
-                    objMail.SendMail_SaveContactUs(toAddress, name, email,phone, message,Services, Utility.SiteUrl);
+                    objMail.SendMail_SaveContactUs(toAddress, name, email,phone, message,company,Services, Utility.SiteUrl);
                     objMail.SendMail_SaveUserContact(name, email, Utility.SiteUrl);
 
                 }

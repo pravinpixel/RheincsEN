@@ -67,6 +67,7 @@ namespace RheinBrucke
             routes.MapPageRoute("oil-field-services", "rheinbrucke-solutions/epicor-erp_solution_for_oilfield_services_companies_ofs", "~/rheinbrucke-solutions/oil-field-services.aspx");
             routes.MapPageRoute("Thankyou-Oilfield_Services", "rheinbrucke-solutions/Thankyou-Oilfield_Services", "~/rheinbrucke-solutions/Thankyou-OFS.aspx");
             routes.MapPageRoute("EPC", "rheinbrucke-solutions/epicor-for-construction-and-epc", "~/rheinbrucke-solutions/epicor-for-construction-and-epc.aspx");
+            routes.MapPageRoute("Wire-Rope", "solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-wire-rope-manufacturing", "~/Solutions/EnterpriseServicesAndSolutions/EPICOR/epicor-for-wire-rope-manufacturing.aspx");
             routes.MapPageRoute("EPC-hook-up", "rheinbrucke-solutions/epicor-for-construction-and-epc-hook-up-questions", "~/rheinbrucke-solutions/epicor-for-construction-and-epc-hook-up-questions.aspx");
             routes.MapPageRoute("Partners-Inserito-EPC-hook-up", "rheinbrucke-solutions/partners-inserito-epicor-for-construction-and-epc-hook-up-questions", "~/rheinbrucke-solutions/epicor-for-construction-and-epc-hook-up-questions-inserito.aspx");
 

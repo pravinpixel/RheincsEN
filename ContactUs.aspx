@@ -220,7 +220,7 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                 <div class="col-md-4 nopadding">
                     <div class="clearfix">&nbsp;</div>
                     <div class="col-md-12">
-                        <select id="DDLServices" class="dropdown" style="width: 100%; padding: 6px;">
+                        <select id="DDLServices" name="DDLServices" class="dropdown" style="width: 100%; padding: 6px;">
                             <option value="0">-- Select Any One --</option>
                             <option value="1">Epicor</option>
                             <option value="2">SAP</option>
@@ -246,13 +246,12 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                     </div>
                     <div class="clearfix">&nbsp;</div>
                     <div class="col-md-12">
-                        <input type="text" placeholder="*Your Company Name" name="email-address" id="txtComapnyNmae" class="write-to-us-input" />
+                        <input type="text" placeholder="*Your Company Name" name="company-name" id="txtCompanyNmae" class="write-to-us-input" />
                         <span style="margin-top: 5px;" class="validator" id="reqCompanyNmae" hidden="hidden">Enter Your Company Name</span>
-                        <span style="margin-top: 5px;" class="validator" id="valCompanyName" hidden="hidden">Enter Valid Comapny Name</span>
                     </div>
                     <div class="clearfix">&nbsp;</div>
                     <div class="col-md-12">
-                        <input type="text" placeholder="Your Mobile Number" name="name" id="txtmobileno" class="write-to-us-input" />
+                        <input type="text" placeholder="Your Mobile Number" name="mobile-number" id="txtmobileno" class="write-to-us-input" />
                         <span style="margin-top: 5px;" class="validator" id="reqmobileno" hidden="hidden">Enter Your Mobile Number</span><span style="margin-top: 5px;" class="validator" id="Validationmobileno" hidden="hidden">Enter valid phone number</span>
                     </div>
                 </div>
@@ -300,11 +299,11 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
 
         function clear() {
             $("#reqContactName").hide();
-            $("#reqContactemail,#reqmobileno").hide();
+            $("#reqContactemail,#reqmobileno,#reqCompanyNmae").hide();
             $("#reqContactMessage,#reqDDlservices").hide();
             $("#valContactemail,#Validationmobileno").hide();
             $(".showErrorMsg").hide();
-            $("#txtContactName,#txtmobileno").val('');
+            $("#txtContactName,#txtmobileno,#txtCompanyNmae").val('');
             $("#txtContactemail").val('');
             $("#txtContactMessage").val(''); $('#DDLServices').val('0');
            // grecaptcha.reset();
@@ -314,13 +313,16 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
             var email = $('#txtContactemail').val();
             var message = $('#txtContactMessage').val();
             var services = $('#DDLServices').val();
+            var companyname = $('#txtCompanyNmae').val();
             var mobileno = $('#txtmobileno').val();
+            
             var response = 1;
-            $("#valContactemail,#reqmobileno,#Validationmobileno").hide();
+            $("#valContactemail,#reqmobileno,#Validationmobileno,#reqCompanyNmae").hide();
             $("#reqDDlservices").hide();
             $("#reqContactName").hide();
             $("#reqContactemail").hide();
             $("#reqContactMessage").hide();
+            $("#valContactemail").hide();
             $("#valContactemail").hide();
             if (services == '0' || services == '') {
                 $("#reqDDlservices").show();
@@ -346,6 +348,10 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
             //}
             if (mobileno != "" && mobileno.length < 10) {
                 $("#Validationmobileno").show();
+                response = 0;
+            }
+            if (companyname == '') {
+                $("#reqCompanyNmae").show();
                 response = 0;
             }
             if (message == '') {
@@ -374,6 +380,7 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                 email: $('#txtContactemail').val(),
                 message: $('#txtContactMessage').val(),
                 phone: $('#txtmobileno').val(),
+                company: $('#txtCompanyNmae').val(),
                 Services: $('#DDLServices option:selected').text()
             };
             $.ajax({
@@ -415,17 +422,18 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
 			var checks = new Array();
 
                            
-			debugger;
+			//debugger;
 
                             var fieldMapping = {
                                 MXHOrgCode: "17537",
-                                MXHLandingPageId: "fdd83aa5-1f68-11e7-a02b-22000b10e324",
+                                MXHLandingPageId: "9ca08586-9f86-11e7-9042-22000aa79843",
                                 MXHAsc: "",
                                 FirstName: "name",
-							    EmailAddress: "email-address",
+                                EmailAddress: "email-address",
                                 Phone: "mobile-number",
+                                Company: "company-name",
                                 mx_Your_Message:"message",
-                                mx_Contactus_dropdown: "select-services",
+                                mx_Contactus_dropdown: "DDLServices",
                             };
 
                             var onSuccess = function (data) {                   
@@ -436,6 +444,7 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                                     FormPID: data.PId,
                                     Email: $('#txtContactemail').val(),
                                     Mobile: $('#txtmobileno').val(),
+                                    Company: $('#txtCompanyNmae').val(),
                                     FormStatus: data.Status,
                                     FormMsg: data.Message,
                                     FormAction: data.FormAction,
@@ -465,6 +474,7 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                                     FormPID: data.PId,
                                     Email: $('#txtContactemail').val(),
                                     Mobile: $('#txtmobileno').val(),
+                                    Company: $('#txtCompanyNmae').val(),
                                     FormStatus: data.Status,
                                     FormMsg: data.Message,
                                     FormAction: data.FormAction,

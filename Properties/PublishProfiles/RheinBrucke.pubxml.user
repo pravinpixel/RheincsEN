@@ -108,7 +108,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/16/2020 13:33:23</publishTime>
     </File>
     <File Include="AboutUs/Aboutus-CorporateVideos.aspx">
-      <publishTime>07/21/2020 12:41:38</publishTime>
+      <publishTime>02/10/2023 11:38:36</publishTime>
     </File>
     <File Include="AboutUs/Aboutus-CustomerSpeak.aspx">
       <publishTime>04/16/2020 13:33:23</publishTime>
@@ -621,7 +621,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/16/2020 13:33:26</publishTime>
     </File>
     <File Include="Assets/css/rheincs.min.css">
-      <publishTime>12/10/2022 01:02:52</publishTime>
+      <publishTime>04/28/2023 15:59:34</publishTime>
     </File>
     <File Include="Assets/css/StyleSheet.css">
       <publishTime>04/16/2020 13:33:26</publishTime>
@@ -3828,7 +3828,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/31/2020 20:50:38</publishTime>
     </File>
     <File Include="Assets/images/partners/enetric-logo.jpg">
-      <publishTime>09/01/2020 11:25:07</publishTime>
+      <publishTime>01/09/2020 11:25:07</publishTime>
     </File>
     <File Include="Assets/images/partners/ffi-logo.png">
       <publishTime>07/31/2020 21:02:05</publishTime>
@@ -7896,10 +7896,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/16/2020 13:34:52</publishTime>
     </File>
     <File Include="bin/RheinBrucke.dll">
-      <publishTime>02/02/2023 12:58:31</publishTime>
+      <publishTime>05/22/2023 14:37:37</publishTime>
     </File>
     <File Include="bin/RheinBrucke.dll.config">
-      <publishTime>12/16/2022 12:32:12</publishTime>
+      <publishTime>05/11/2023 16:43:55</publishTime>
     </File>
     <File Include="bin/RheinBrucke.pdb">
       <publishTime>06/28/2021 22:02:39</publishTime>
@@ -7989,7 +7989,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/16/2020 13:34:54</publishTime>
     </File>
     <File Include="ContactUs.aspx">
-      <publishTime>10/31/2022 10:56:25</publishTime>
+      <publishTime>04/26/2023 18:08:53</publishTime>
     </File>
     <File Include="Content/googlejs/analytics.aspx">
       <publishTime>04/16/2020 13:34:54</publishTime>
@@ -11232,7 +11232,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/16/2020 13:35:25</publishTime>
     </File>
     <File Include="Landing/CCTLanding.aspx">
-      <publishTime>01/30/2023 19:39:40</publishTime>
+      <publishTime>02/13/2023 11:58:08</publishTime>
     </File>
     <File Include="Landing/ERPLanding.aspx">
       <publishTime>04/16/2020 13:35:25</publishTime>
@@ -11511,10 +11511,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/22/2020 18:51:01</publishTime>
     </File>
     <File Include="Landing/PPALanding.aspx">
-      <publishTime>04/16/2020 13:35:25</publishTime>
+      <publishTime>04/06/2023 19:13:40</publishTime>
     </File>
     <File Include="LandingPageEpic.Master">
-      <publishTime>01/30/2023 15:53:22</publishTime>
+      <publishTime>04/05/2023 18:30:42</publishTime>
     </File>
     <File Include="Lösungen/IPUndProduktentwicklung/OpenSourceTechnologien.aspx">
       <publishTime>10/15/2018 15:10:10</publishTime>
@@ -12888,7 +12888,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/16/2020 13:33:21</publishTime>
     </File>
     <File Include="Privacy.aspx">
-      <publishTime>04/16/2020 13:33:21</publishTime>
+      <publishTime>04/28/2023 11:52:35</publishTime>
     </File>
     <File Include="private/Testimonial/testimonial.html">
       <publishTime>04/16/2020 13:38:50</publishTime>
@@ -12912,19 +12912,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/16/2020 13:38:50</publishTime>
     </File>
     <File Include="Resources/webinars/event-grid.jpg">
-      <publishTime>05/03/2020 23:36:59</publishTime>
+      <publishTime>03/05/2020 23:36:59</publishTime>
     </File>
     <File Include="Resources/webinars/event-list.jpg">
-      <publishTime>05/04/2020 00:22:29</publishTime>
+      <publishTime>04/05/2020 00:22:29</publishTime>
     </File>
     <File Include="Resources/webinars/style-webinar.css">
-      <publishTime>08/15/2020 13:18:18</publishTime>
+      <publishTime>04/28/2023 16:16:41</publishTime>
     </File>
     <File Include="Resources/webinars/webinars-list.aspx">
-      <publishTime>09/01/2020 18:41:46</publishTime>
+      <publishTime>04/28/2023 16:29:42</publishTime>
     </File>
     <File Include="Resources/webinars/webinars-recordings.aspx">
-      <publishTime>10/06/2020 00:23:08</publishTime>
+      <publishTime>04/28/2023 16:02:31</publishTime>
     </File>
     <File Include="Resources/whitepapers.aspx">
       <publishTime>04/16/2020 13:38:50</publishTime>
@@ -13047,13 +13047,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/16/2020 13:33:21</publishTime>
     </File>
     <File Include="Rheincs.Master">
-      <publishTime>01/17/2023 10:56:40</publishTime>
+      <publishTime>05/22/2023 12:20:58</publishTime>
     </File>
     <File Include="RheincsIscala.Master">
       <publishTime>04/16/2020 13:33:21</publishTime>
     </File>
     <File Include="RheincsLanding.Master">
-      <publishTime>01/17/2023 13:32:24</publishTime>
+      <publishTime>05/22/2023 12:20:58</publishTime>
     </File>
     <File Include="RIC-Brochure/css/jquery.ui.css">
       <publishTime>04/16/2020 13:38:53</publishTime>
@@ -17211,7 +17211,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/16/2020 13:39:32</publishTime>
     </File>
     <File Include="Solutions/EnterpriseServicesAndSolutions/EPICOR/Epicor-for-distribution.aspx">
-      <publishTime>01/30/2023 19:55:12</publishTime>
+      <publishTime>04/06/2023 19:12:44</publishTime>
     </File>
     <File Include="Solutions/EnterpriseServicesAndSolutions/EPICOR/Epicor-for-energy-utility.aspx">
       <publishTime>04/16/2020 13:39:32</publishTime>
@@ -17225,14 +17225,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Solutions/EnterpriseServicesAndSolutions/EPICOR/Epicor-for-retail.aspx">
       <publishTime>01/30/2023 19:48:02</publishTime>
     </File>
+    <File Include="Solutions/EnterpriseServicesAndSolutions/EPICOR/epicor-for-wire-rope-manufacturing.aspx">
+      <publishTime>05/22/2023 14:36:59</publishTime>
+    </File>
     <File Include="Solutions/EnterpriseServicesAndSolutions/EPICOR/Epicor-hcm.aspx">
-      <publishTime>04/16/2020 13:39:32</publishTime>
+      <publishTime>04/06/2023 19:14:24</publishTime>
     </File>
     <File Include="Solutions/EnterpriseServicesAndSolutions/EPICOR/Epicor-ImplementationSupportServices.aspx">
       <publishTime>04/16/2020 13:39:32</publishTime>
     </File>
     <File Include="Solutions/EnterpriseServicesAndSolutions/EPICOR/epicor-iscala-hospitality-industry-software.aspx">
-      <publishTime>04/16/2020 13:39:33</publishTime>
+      <publishTime>04/06/2023 19:14:45</publishTime>
     </File>
     <File Include="Solutions/EnterpriseServicesAndSolutions/EPICOR/Epicor-PartnerEnablementProgram.aspx">
       <publishTime>04/16/2020 13:39:33</publishTime>
@@ -17241,7 +17244,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/16/2020 13:39:33</publishTime>
     </File>
     <File Include="Solutions/EnterpriseServicesAndSolutions/EPICOR/Epicor.aspx">
-      <publishTime>04/18/2020 17:13:05</publishTime>
+      <publishTime>04/24/2023 11:00:20</publishTime>
     </File>
     <File Include="Solutions/EnterpriseServicesAndSolutions/EPICOR/ERP-BI.aspx">
       <publishTime>04/16/2020 13:39:33</publishTime>
@@ -17256,13 +17259,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/22/2020 18:51:01</publishTime>
     </File>
     <File Include="Solutions/EnterpriseServicesAndSolutions/EpicorCloud/epicor-cloud.aspx">
-      <publishTime>04/17/2021 20:50:34</publishTime>
+      <publishTime>04/05/2023 19:05:18</publishTime>
     </File>
     <File Include="Solutions/EnterpriseServicesAndSolutions/EpicorCloud/gartner-cloud-erp.aspx">
-      <publishTime>04/18/2020 17:13:05</publishTime>
+      <publishTime>04/05/2023 18:29:44</publishTime>
     </File>
     <File Include="Solutions/EnterpriseServicesAndSolutions/ERP.aspx">
-      <publishTime>04/16/2020 13:39:32</publishTime>
+      <publishTime>04/24/2023 11:55:38</publishTime>
     </File>
     <File Include="Solutions/EnterpriseServicesAndSolutions/SAP.aspx">
       <publishTime>04/16/2020 13:39:32</publishTime>
@@ -17319,7 +17322,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/16/2020 13:33:22</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/19/2022 15:35:39</publishTime>
+      <publishTime>05/22/2023 14:37:41</publishTime>
     </File>
     <File Include="Web.sitemap">
       <publishTime>04/16/2020 13:33:22</publishTime>
@@ -17334,7 +17337,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/16/2020 13:33:22</publishTime>
     </File>
     <File Include="_Rheincs.Master">
-      <publishTime>12/09/2022 15:00:10</publishTime>
+      <publishTime>09/12/2022 15:00:10</publishTime>
     </File>
     <File Include="_V2Rheincs.Master">
       <publishTime>04/16/2020 13:33:22</publishTime>

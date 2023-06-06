@@ -308,7 +308,7 @@ namespace RheinBrucke.Library
                 }
             return mailObj;
         }
-        public bool SendMail_SaveContactUs(string ToAddress, string Name, string Email, string Phone, string Message, string Services, string SiteUrl)
+        public bool SendMail_SaveContactUs(string ToAddress, string Name, string Email, string Phone, string Message, string Company, string Services, string SiteUrl)
         {
             bool IsMailSend = false;
 
@@ -326,6 +326,7 @@ namespace RheinBrucke.Library
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Phone", Phone);
+                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Company", Company);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Message", Message);
 
 

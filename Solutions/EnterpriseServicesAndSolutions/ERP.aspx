@@ -257,7 +257,7 @@
         </ul>
         </div>
                     
-                    <div class="clearfix">&nbsp;</div>
+                   
                 </div>
 
             </div>
@@ -300,7 +300,7 @@
         <div class="contentwithpadding">
             <div class="wrappernewbullet main-container">
                 <h3 class="redColor head-font">Industry specific ERP solutions</h3>
-               <div class="col-md-9 nopadding">
+               <div class="col-md-12 nopadding">
                  <ul>
                     <li>
                         <span class="withIcons"><i class="fa fa-fw fa-cogs"></i></span>&nbsp;
@@ -308,7 +308,10 @@
                     </li>
                 </ul>
                    </div>
-                <div class="col-md-3 marg-t36"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor"><img src="../../Assets/images/epicorLogo.png" alt="Epicor" /></a></div>
+            <%--    <div class="col-md-3 marg-t36">
+                    <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor"><img src="../../Assets/images/epicorLogo.png" alt="Epicor" /></a>
+
+                </div>--%>
                 <div class="main-container">
                     <p class="bulletContent-business">Enterprise Resource Planning (ERP) for manufacturing provides an all-in-one ERP solution for your manufacturing needs. ERP help manufacturers organise production schedules, monitor stock levels, introduce automation into workflows and perform quality checks and controls.</p>
                 </div>
@@ -396,11 +399,31 @@
 
         </div>
 
+
+         <div class="contentwithpadding">
+            <div class="wrappernewbullet main-container">
+                <h3 class="redColor head-font">Industry specific ERP solutions</h3>
+               <div class="col-md-12 nopadding">
+                 <ul>
+                    <li>
+                        <span class="withIcons"><i class="fa fa-fw fa-cogs"></i></span>&nbsp;
+                        <span class="mainContent">ERP for Manufacturing</span>
+                    </li>
+                </ul>
+                   </div>
+            <%--    <div class="col-md-3 marg-t36">
+                    <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor"><img src="../../Assets/images/epicorLogo.png" alt="Epicor" /></a>
+
+                </div>--%>
+                <div class="main-container">
+                    <p class="bulletContent-business">Enterprise Resource Planning (ERP) for manufacturing provides an all-in-one ERP solution for your manufacturing needs. ERP help manufacturers organise production schedules, monitor stock levels, introduce automation into workflows and perform quality checks and controls.</p>
+                </div>
+
          <div class="contentwithpadding">
             <div class="wrappernewbullet main-container">
                 <h3 class="redColor head-font">SAP</h3>
             </div>
-            <div class="mainContent-normal contentdiv main-container" style="text-align: justify">
+            <div class="bulletContent-business" style="text-align: justify">
                 We at RheinBrücke, provide ERP program and project management, technical consulting, development services, maintenance and support services as well as ready solutions to clients globally on <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="link-text" target="_blank">EPICOR</a> and <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="link-text" target="_blank">SAP</a>
             </div>
             <div class="mainContent-normal contentdiv main-container" style="text-align: justify">
@@ -671,7 +694,7 @@
                     RheinBrücke aims to be a respected player in the Small and Medium Enterprise (SME) landscape, and to be the “Go-To-Company” for IT & ERP solutions in Continental Europe. RheinBrücke is an Epicor International Partner of the year twice in the last 3 years and also a platinum partner. We are also one of the few ISV Gold Partner in the world for Epicor because we have developed products on top of Epicor. We are also a SAP COIL Partner.
                 </div>
                 <div class="mainContent-normal contentdiv main-container" style="text-align: justify">
-                    The importance of ERP systems far outweighs the initial cost, time and effort involved in implementation if you choose the right solution. <a data-toggle="modal" style="color: #7b1315; font-weight:700" onclick="Clear()" data-target="#myModal-contactus">Talk to our experts</a> for more information on features and functions, implementation goals, and questions. With enough careful research and thoughtful consideration, you’ll find that an ERP software provides all the benefits listed above painting a picture for why ERP is important to a company.
+                    The importance of ERP systems far outweighs the initial cost, time and effort involved in implementation if you choose the right solution. <a data-toggle="modal" style="font-weight:700" onclick="Clear()" class="link-text" data-target="#myModal-contactus">Talk to our experts</a> for more information on features and functions, implementation goals, and questions. With enough careful research and thoughtful consideration, you’ll find that an ERP software provides all the benefits listed above painting a picture for why ERP is important to a company.
                 </div>
         <div class="contentwithpadding">
            <p class="redColor head-font" style="text-align:center"><a data-toggle="modal" style="color: #7b1315; text-decoration:underline" onclick="Clear()" data-target="#myModal-contactus">Speak to our ERP consultants to answer all your questions</a></p>

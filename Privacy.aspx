@@ -306,7 +306,7 @@ If necessary, we will monitor and record our communications with you, including 
                                 <div class="redBullets"></div>
                                 <p class="bulletContent">Provide location-based services (such as location-aware content), in which case we collect geolocated data to enable a corresponding user experience.</p>
                                 <p class="bulletContent">When using your information for legitimate business purposes, we ensure that all information used for such purposes is pseudonymised and that we use aggregated data that does not allow conclusions to be drawn about you or anyone else.<br /><br />
-You have the right to oppose the processing based on our legitimate interest. For this purpose, please contact our Data protection officers Varun Dhamodharan at Varun.dhamodharan@rheincs.com or Data Protection Officer c / o activeMind Management and Technology Consulting AG, datenschutz@rheincs.com for any data protection-related e-mails. Your message will only be visible to the data protection officers.<br /><br />
+You have the right to oppose the processing based on our legitimate interest. For this purpose, please contact our Data protection officers Varun Dhamodharan at Varun.dhamodharan@rheincs.com or Data Protection Officer c / o activeMind Management and Technology Consulting AG, rheincs@activemind.de for any data protection-related e-mails. Your message will only be visible to the data protection officers.<br /><br />
 You may also contact our Data Protection advisory body ActiveMind.AG for any further information regarding the same. <br /><br />
 activeMind AG<br />
 Kurfürstendamm 56<br />
@@ -571,7 +571,7 @@ We retain your personal information for the entire duration of our business rela
 
 <h3 class="redColor">Backup and storage of information</h3>
 <p>Your information is safe as we take reasonable technical and organizational measures to prevent unauthorized access or processing of your personal information, including accidental loss, damage, or accidental destruction. We will do our best to protect your personal information, but we cannot guarantee that the security of your information relating to our website, our applications or services or other websites, applications and services via an Internet connection or otherwise similar connection are transmitted, one hundred percent guaranteed. </p>
-<p>If you suspect that your information has been misused by unauthorized persons, please contact our Data protection officers Varun Dhamodharan at Varun.dhamodharan@rheincs.com or Data Protection Officer c / o activeMind Management and Technology Consulting AG, datenschutz@rheincs.com for any data protection-related e-mails. Your message will only be visible to the data protection officers.</p>
+<p>If you suspect that your information has been misused by unauthorized persons, please contact our Data protection officers Varun Dhamodharan at Varun.dhamodharan@rheincs.com or Data Protection Officer c / o activeMind Management and Technology Consulting AG, rheincs@activemind.defor any data protection-related e-mails. Your message will only be visible to the data protection officers.</p>
 
 <h3 class="redColor">Transfers outside the European Economic Area</h3>
 <p>Personal data in the European Union are protected by data protection laws; however, the same protection is not guaranteed in all countries.</p>

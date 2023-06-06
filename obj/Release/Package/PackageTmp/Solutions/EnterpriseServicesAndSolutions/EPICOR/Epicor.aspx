@@ -543,51 +543,96 @@
 
                 <p>Oil & Gas Industries work in a deadline sensitive environment with intense competition, rapid growth, widely variable and sudden changes in business cycles, remote work locations, multi-million dollar projects, huge capital investments and long invoicing cycles. It contains more service providers than most other Industries, so maintaining a strong reputation is critical. Players in this industry need the right business systems software that is reliable, adaptable, automated and cost effective.</p>
             </div>
-            <div class="col-md-12 list-padd-oil">
+           <div class="col-md-12 list-padd">
                 <!--list-->
                 <div class="col-md-12 epicorlist">
                     <ul class="epicor-ul">
-                        <li>
-                            <div class="redBullets-epicor-erp"></div>
-                            <p class="bulletContent-epicor-grey">Integrate processes – from engineering and maintenance to financials and production</p>
-                        </li>
+                         <li>
+                            <div class="redBullets-pre-epicor"></div>
+                            <p class="bulletContent-pre-epicor">Integrate processes – from engineering and maintenance to financials and production</p>
+                        </li> 
                     </ul>
                 </div>
                 <div class="col-md-12 epicorlist">
                     <ul class="epicor-ul">
-                        <li>
-                            <div class="redBullets-epicor-erp"></div>
-                            <p class="bulletContent-epicor-grey">Increase flexibility and proactively respond to changing market conditions</p>
+                         <li>
+                            <div class="redBullets-pre-epicor"></div>
+                            <p class="bulletContent-pre-epicor">Increase flexibility and proactively respond to changing market conditions</p>
                         </li>
+                       
                     </ul>
                 </div>
                 <div class="col-md-12 epicorlist">
                     <ul class="epicor-ul">
-                        <li>
-                            <div class="redBullets-epicor-erp"></div>
-                            <p class="bulletContent-epicor-grey">Improve asset utilization, extend lifetimes, and reduce maintenance costs</p>
+                         <li>
+                            <div class="redBullets-pre-epicor"></div>
+                            <p class="bulletContent-pre-epicor">Improve asset utilization, extend lifetimes, and reduce maintenance costs</p>
                         </li>
+                       
+                    
                     </ul>
                 </div>
                 <div class="col-md-12 epicorlist">
                     <ul class="epicor-ul">
-                        <li>
-                            <div class="redBullets-epicor-erp"></div>
-                            <p class="bulletContent-epicor-grey">Synchronize portfolio and project management to drive maximum ROCE</p>
+                          <li>
+                            <div class="redBullets-pre-epicor"></div>
+                            <p class="bulletContent-pre-epicor">Synchronize portfolio and project management to drive maximum ROCE</p>
                         </li>
+                         
                     </ul>
                 </div>
 
                 <!--eof list-->
             </div>
             <div class="clearfix"></div>
-            <div class="col-md-12 epicor-left-padd">
+            <div class="col-md-12 list-padd">
+			
                 <p class="strong-para">Typical challenges that hinder growth in the Oil & Gas Industry include:</p>
-
-                <p class="bulletContent-epicor-grey">On-time delivery without compromising on quality</p>
-                <p class="bulletContent-epicor-grey">Difficulty in meeting ever-increasing demand with limited supply</p>
-                <p class="bulletContent-epicor-grey">Managing finances with fluctuating exploration and production costs</p>
-                <p class="bulletContent-epicor-grey">Obtaining visibility of materials, projects and resources</p>
+				
+				 <div class="col-md-12 epicorlist">
+                    <ul class="epicor-ul">
+                         <li>
+                            <div class="redBullets-pre-epicor"></div>
+                            <p class="bulletContent-pre-epicor">On-time delivery without compromising on quality</p>
+                        </li>
+                       
+                    
+                    </ul>
+                </div>
+				
+				 <div class="col-md-12 epicorlist">
+                    <ul class="epicor-ul">
+                         <li>
+                            <div class="redBullets-pre-epicor"></div>
+                            <p class="bulletContent-pre-epicor">Difficulty in meeting ever-increasing demand with limited supply</p>
+                        </li>
+                       
+                    
+                    </ul>
+                </div>
+				
+				 <div class="col-md-12 epicorlist">
+                    <ul class="epicor-ul">
+                         <li>
+                            <div class="redBullets-pre-epicor"></div>
+                            <p class="bulletContent-pre-epicor">Managing finances with fluctuating exploration and production costs</p>
+                        </li>
+                       
+                    
+                    </ul>
+                </div>
+				
+				 <div class="col-md-12 epicorlist">
+                    <ul class="epicor-ul">
+                         <li>
+                            <div class="redBullets-pre-epicor"></div>
+                            <p class="bulletContent-pre-epicor">Obtaining visibility of materials, projects and resources</p>
+                        </li>
+                       
+                    
+                    </ul>
+                </div>
+			 
             </div>
         </div>
         <!--Eof Oil & Gas-->

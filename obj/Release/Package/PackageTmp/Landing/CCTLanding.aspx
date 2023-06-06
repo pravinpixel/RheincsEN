@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="global erp strategy, global erp rollout, hassle free erp configuration migration tool, erp implementation plan, erp implementation agile methodology, successful erp implementation and rollout, erp system configuration migration, erp deployment strategy, erp deployment plan, big bang erp implementation, phased erp rollouts, erp implementation approaches, economical global erp rollout strategy" />
     <meta name="Description" content="CCT moves configuration settings from the parent company to its subsidiaries in no time and improves audit compliance by generating accurate reports" />
+    <meta name=”robots” content=”noindex”>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     <title>CCT</title>

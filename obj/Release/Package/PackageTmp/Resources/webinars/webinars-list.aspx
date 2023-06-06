@@ -144,7 +144,7 @@
 													<span class="icon">
 														<i class="fa fa-microphone"></i>
 													</span>
-                                                    <div class="info-content"><small class="speaker-name">Speakers</small></div>
+                                                    <div class="info-content"><small class="speaker-name"> </small></div>
 													<div class="info-content">
 														<small class="speaker-name"><%# Eval("Speaker1").ToString() %></small>
 														<p class="speaker-designation"><%# Eval("Speaker1Designation").ToString() %></p>
@@ -297,6 +297,8 @@
             $(".webinaritems").click(function () {
                 console.log($(this).data('selected'));
                 $('#myModal').modal('show');
+                $(".multiselect-ui option:selected").prop("selected", false);
+                $('.multiselect-ui').multiselect('refresh');
                 $('.multiselect-ui').multiselect('select', [$(this).data('selected')]);
 
                 //$('#dates-field2').val(

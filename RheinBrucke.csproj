@@ -4656,6 +4656,7 @@
     <Content Include="Solutions\ConsultingAndAdvisorySolutions\ProgramAndProjectManagement.aspx" />
     <Content Include="Solutions\EnterpriseServicesAndSolutions\EpicorCloud\gartner-cloud-erp.aspx" />
     <Content Include="Solutions\EnterpriseServicesAndSolutions\EpicorCloud\epicor-cloud.aspx" />
+    <Content Include="Solutions\EnterpriseServicesAndSolutions\EPICOR\epicor-for-wire-rope-manufacturing.aspx" />
     <Content Include="Solutions\EnterpriseServicesAndSolutions\EPICOR\Epicor-for-cable-manufacturing.aspx" />
     <Content Include="Solutions\EnterpriseServicesAndSolutions\EPICOR\Epicor-for-distribution.aspx" />
     <Content Include="Solutions\EnterpriseServicesAndSolutions\EPICOR\Epicor-for-energy-utility.aspx" />
@@ -7109,6 +7110,13 @@
     <Compile Include="Solutions\EnterpriseServicesAndSolutions\EpicorCloud\epicor-cloud.aspx.designer.cs">
       <DependentUpon>epicor-cloud.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Solutions\EnterpriseServicesAndSolutions\EPICOR\epicor-for-wire-rope-manufacturing.aspx.cs">
+      <DependentUpon>epicor-for-wire-rope-manufacturing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Solutions\EnterpriseServicesAndSolutions\EPICOR\epicor-for-wire-rope-manufacturing.aspx.designer.cs">
+      <DependentUpon>epicor-for-wire-rope-manufacturing.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Solutions\EnterpriseServicesAndSolutions\EPICOR\Epicor-for-cable-manufacturing.aspx.cs">
       <DependentUpon>Epicor-for-cable-manufacturing.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -7385,6 +7393,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Assets\images\SEO-page-images\rope-manufacturing\" />
     <Folder Include="Assets\image\" />
     <Folder Include="Assets\OFS\pdf\" />
     <Folder Include="AttachmentFile\" />

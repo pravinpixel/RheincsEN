@@ -366,7 +366,8 @@ h4.panel-title{margin:10px 0px !important;}
 .cookies td.cktd
 {
     width:74%;
-}*/
+}*/
+
          </style>
     
     <!-- Content Starts Here-->
@@ -413,7 +414,7 @@ h4.panel-title{margin:10px 0px !important;}
                       </div>  
                     <div class="col-md-4"> 
                          <h5 class="deco-header" style="margin-left:18px">
-                    <span class="redBottom" style="text-transform:none">For more details,please fill</span></h5>    
+                    <span class="redBottom" style="text-transform:none">For more details, please fill in the details below.</span></h5>    
                         <!--form -->
                          <div class="col-md-12 padd-top" style="margin-left:3px">
                     <div class="form-group">
@@ -785,7 +786,7 @@ h4.panel-title{margin:10px 0px !important;}
      
    
          <h5 class="deco-header" style="margin-left:18px">
-                    <span class="redBottom" style="text-transform:none">For more information on our service offerings please fill in the details below.</span></h5>
+                    <span class="redBottom" style="text-transform:none">For more information on our service offerings, please fill in the details below.</span></h5>
          <!--Form-->
          <div class="col-md-12 padd-top" style="margin-left:3px">
                     <div class="form-group">
@@ -826,10 +827,10 @@ h4.panel-title{margin:10px 0px !important;}
        
             <div class="col-md-12">
         <h3 class="redColor">Related Blogs</h3>
-                     <p style="font-size:1.3em"><b><a href="http://stgblog.rheincs.net/post/five-benefits-of-moving-erp-to-the-cloud/">Five benefits of moving ERP to the Cloud.</a></b></p><br />
-					 <p style="font-size:1.3em"><b><a href="http://stgblog.rheincs.net/post/erp-on-the-cloud-for-the-manufacturing-industry/">ERP on the Cloud for the Manufacturing Industry</a></b></p><br />
-                     <p style="font-size:1.3em"><b><a href="http://stgblog.rheincs.net/post/roi-of-a-modern-erp-cloud-solution/">ROI of A Modern ERP Cloud Solution</a></b></p><br />
-                     <p style="font-size:1.3em"><b><a href="http://stgblog.rheincs.net/post/is-your-erp-application-secure-on-the-cloud/">Is Your ERP Application Secure on The Cloud?</a></b></p>
+                     <p style="font-size:1.3em"><b><a href="https://blog.rheincs.com/post/five-benefits-of-moving-erp-to-the-cloud/ ">Five benefits of moving ERP to the Cloud.</a></b></p><br />
+					 <p style="font-size:1.3em"><b><a href="https://blog.rheincs.com/post/erp-on-the-cloud-for-the-manufacturing-industry/ ">ERP on the Cloud for the Manufacturing Industry</a></b></p><br />
+                     <p style="font-size:1.3em"><b><a href="https://blog.rheincs.com/post/roi-of-a-modern-erp-cloud-solution/ ">ROI of A Modern ERP Cloud Solution</a></b></p><br />
+                     <p style="font-size:1.3em"><b><a href="https://blog.rheincs.com/post/is-your-erp-application-secure-on-the-cloud/ ">Is Your ERP Application Secure on The Cloud?</a></b></p>
             </div>
             
      </div>
@@ -845,7 +846,7 @@ h4.panel-title{margin:10px 0px !important;}
                             <div class="modal-header modal-header-bgcolor">
                               
                                 <button type="button" class="close closev2" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title redColor">For more information on our service offerings please fill in the details below.</h4>
+                                <h4 class="modal-title redColor">For more information on our service offerings, please fill in the details below.</h4>
                             </div>
                             <div class="col-md-12 padd-top">
                                 <div class="form-group">

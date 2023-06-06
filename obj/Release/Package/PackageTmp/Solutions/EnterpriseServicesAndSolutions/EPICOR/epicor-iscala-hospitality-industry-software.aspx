@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="epicor erp project implementation, erp demo, customized epicor erp solutions and implementation, epicor erp support, epicor erp strategy, Epicor platinum partners in Germany|Netherlands|India|UAE, epicor erp integration, epicor erp consultants, outsourcing epicor erp management, epicor erp consulting companies and firm in germany netherlands europe india dubai uae middle east , epicor erp consultants in germany netherlands europe india dubai uae middle east, epicor erp implementation partners,ERP, Epicor, Enterprise Resource Planning, Cloud"/> 
     <meta name="Description" content="To make better decisions and drive more revenue, you need to connect your hospitality-specific strategy and plans to your front- and back-office systems. Your hotel needs a software that touches every aspect of your business, whether it is your finance team, human resources, sales, reservations, banks, material management etc"/>
+      <meta name="robots" content="noindex">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

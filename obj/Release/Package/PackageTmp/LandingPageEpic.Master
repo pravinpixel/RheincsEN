@@ -150,16 +150,17 @@
         //pidTracker('17537');
     </script>
     <!--LeadSquared Tracking Code End-->
-    <script type="text/javascript">function load_css_async(filename) {
-if (document.createStyleSheet) document.createStyleSheet(filename);
-else {
-    var stylesheet = document.createElement('link');
-    stylesheet.href = filename;
-    stylesheet.rel = 'stylesheet';
-    stylesheet.type = 'text/css';
-    document.getElementsByTagName('head')[0].appendChild(stylesheet);
-}
-}</script>
+    <script type="text/javascript">
+        function load_css_async(filename) {
+            if (document.createStyleSheet) document.createStyleSheet(filename);
+            else {
+                var stylesheet = document.createElement('link');
+                stylesheet.href = filename;
+                stylesheet.rel = 'stylesheet';
+                stylesheet.type = 'text/css';
+                document.getElementsByTagName('head')[0].appendChild(stylesheet);
+            }
+        }</script>
 
 
     <%=cssload %>
@@ -171,9 +172,6 @@ else {
     </asp:ContentPlaceHolder>
 </head>
 <body>
-
-
-
     <a id="showLeft1" style="z-index: 1111;" class="slider-menu-icon mobilemenu mobilemenu-color-main-color-hover" href="#"><i class="fa 
 
 fa-bars"></i></a>
@@ -181,23 +179,26 @@ fa-bars"></i></a>
 
         <div class="pull-right closeicon" id="HideLeft1"><i class="fa fa-times"></i></div>
         <div class="mobilemenu-header">
-               <div class="header-search">
+            <div class="header-search">
                 <div class="col-md-3 no-padding  float-left">
                     <div class="col-md-6">
                         <!--class="mobile-multi-language">-->
-                        <div ><a href="http://stgde.rheincs.net" class="mobl-lang">DE</a>&nbsp;/&nbsp;<a href="https://stg.rheincs.net" class="mobl-lang">EN | </a><div id="blogid" style="display:inline-block;">
-                        <a style="color: white; font-size: 13px; font-family: 'Raleway';"
-                           href="http://stg.rheincs.net/blog">BLOG</a>
-                    </div></div>
-                         
+                        <div>
+                            <a href="http://stgde.rheincs.net" class="mobl-lang">DE</a>&nbsp;/&nbsp;<a href="https://stg.rheincs.net" class="mobl-lang">EN | </a>
+                            <div id="blogid" style="display: inline-block;">
+                                <a style="color: white; font-size: 13px; font-family: 'Raleway';"
+                                    href="http://stg.rheincs.net/blog">BLOG</a>
+                            </div>
+                        </div>
+
                     </div>
-                    <div style="display:none;" class="">
+                    <div style="display: none;" class="">
                         <div class="textSearchMobile">
                             <input type="text" class="Search-text-box" id="search-input-mobile" placeholder="SEARCH" onfocus="this.placeholder=''" onblur="this.placeholder='SEARCH'" /><i class="fa fa-search Searchicon mobilesearch-closeicon" id="mob-search"></i>
                         </div>
                     </div>
-                   
-                   
+
+
                 </div>
             </div>
         </div>
@@ -234,7 +235,7 @@ ETMenu"><span>Enterprise</span></a></li>
                     <li><a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Our Solutions</span></a>
                         <ul>
                             <li><a href="<%=rootpath %>Epicor-Payroll-MEA" class="Level3-menu ETMenu"><span>Epicor Payroll MEA</span></a></li>
-                            <li><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="Level3-menu ETMenu"><span>Copy Company Tool</span></a></li>
+                            <%--<li><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="Level3-menu ETMenu"><span>Copy Company Tool</span></a></li>--%>
                             <li><a href="<%=rootpath %>ppa-power-plant-analytics" class="Level3-menu ETMenu"><span>Power Plant Analytics</span></a></li>
                             <li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software" class="Level3-menu ETMenu"><span>MeRLIN – Strategic Sourcing Software</span></a></li>
                         </ul>
@@ -319,10 +320,10 @@ Services</span></a>
             <div class="row">
                 <div class="col-md-12 headertopnav hidden-xs hidden-sm" id="headsearch">
 
-                  <div class="header-search">
-                        <div class="col-md-3 pull-right no-padding hidden-xs hidden-sm hidden-md" style="width: 5%;padding-left: 30px !important;margin-top: 8px;">
+                    <div class="header-search">
+                        <div class="col-md-3 pull-right no-padding hidden-xs hidden-sm hidden-md" style="width: 5%; padding-left: 30px !important; margin-top: 8px;">
                             <a style="color: white; font-family: raleway !important; font-size: 13px;"
-                               href="https://blog.rheincs.com">BLOG</a>
+                                href="https://blog.rheincs.com">BLOG</a>
                         </div>
                         <div class="col-md-3 pull-right no-padding hidden-xs hidden-sm hidden-md" style="display: none;">
                             <div class="">
@@ -399,7 +400,7 @@ Services</span></a>
                                                                     <br />
 
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>Epicor-Payroll-MEA"><span>Epicor Payroll MEA</span></a></li>
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>
+                                                                    <%--  <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>--%>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>ppa-power-plant-analytics">Power Plant Analytics </a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN – Strategic Sourcing Software</a></li>
 
@@ -554,7 +555,7 @@ Services</span></a>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input type="text" placeholder="*Your Email Address" id="txtEmail" class="write-to-us-input" />
-                                        <span class="validator" id="reqemail" hidden="hidden" style="font-size: 13px;">Enter Your Email Address</span> 
+                                        <span class="validator" id="reqemail" hidden="hidden" style="font-size: 13px;">Enter Your Email Address</span>
                                         <span class="validator" style="font-size: 13px;" id="valemail" hidden="hidden">Enter Valid Email Address</span>
                                         <span class="validator" style="font-size: 13px;" id="domainemail" hidden="hidden">Enter Valid Official Address</span>
                                     </div>
@@ -562,7 +563,7 @@ Services</span></a>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input type="text" placeholder="Your Mobile Number" id="txtPhone" class="write-to-us-input" />
-                                        <span class="validator" id="reqphone" hidden="hidden" style="font-size: 13px;">Enter Your Mobile Number</span> 
+                                        <span class="validator" id="reqphone" hidden="hidden" style="font-size: 13px;">Enter Your Mobile Number</span>
                                         <span style="font-size: 13px;" class="validator" id="valphone" hidden="hidden">Enter Valid Phone Number</span>
                                     </div>
                                 </div>
@@ -570,7 +571,7 @@ Services</span></a>
                                     <div class="col-md-12">
                                         <input type="text" placeholder="Your Company Name" id="txtCompanyname" class="write-to-us-input" />
                                         <span class="validator" id="reqCompanyname" hidden="hidden" style="font-size: 13px;">Enter Your Company Name</span>
-                                         <span style="font-size: 13px;" class="validator" id="valcompanyname" hidden="hidden">Enter Valid Company Name</span>
+                                        <span style="font-size: 13px;" class="validator" id="valcompanyname" hidden="hidden">Enter Valid Company Name</span>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -898,12 +899,12 @@ alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" cl
     $(document).ready(function () {
         $("#btnContactUs1").click(function () {
             //debugger;
-          
+
             var a = ContactUsValidation(); 1 == a && ($(this).button("loading"), save1())
         })
     });
 
-   
+
 
     function save1() {
         //debugger;

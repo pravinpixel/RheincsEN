@@ -226,7 +226,7 @@
                 <div class="col-md-4">
 
                     <div class="video_thumb_box">
-                        <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="MmXOpBXQdZM" data-videosite="youtube">
+                        <a href="#" data-toggle="modal" data-target="#myModal81" data-videoid="MmXOpBXQdZM" data-videosite="youtube">
                             <img src="https://img.youtube.com/vi/MmXOpBXQdZM/0.jpg" alt="RheinBrücke – Customer Reference by Greg Bryan" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
                             <div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
@@ -245,7 +245,7 @@
 
                 </div>
                 <!--- Modal For Sixth Video-->
-                <div class="modal fade" id="Div1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal fade" id="myModal81" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header pad-bottom21">

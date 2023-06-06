@@ -32,7 +32,7 @@
            </p>
            
             <div id="NewsImage" runat="server" style="display:none">
-            <img src="<%=rootpath %>Assets/images/NewsEvents/Image<%= NewsImageDetails %>" class="img-responsive center-block" alt="RheinBrücke Management Team getting the Stevie Award for Company of the year and Vetri Selvan awarded IT Executive of the year" />
+            <img src="<%=rootpath %>Assets/images/NewsEvents/Image/<%= NewsImageDetails %>" class="img-responsive center-block" alt="RheinBrücke Management Team getting the Stevie Award for Company of the year and Vetri Selvan awarded IT Executive of the year" />
             </div>
             <p><%= NewsEventDetail %></p>
         </div>

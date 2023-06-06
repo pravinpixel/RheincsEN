@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="EPC Projects, Plant Operations, Maintenance and Finance,Power Plant assets, data analytics, Operations management" />
     <meta name="Description" content="Maximize the ROI of your Power Plant by improving operational efficiencies using predictive analytics" />
+         <meta name="robots" content="noindex">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

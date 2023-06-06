@@ -304,6 +304,7 @@
     float: left;
     list-style: none;
     display: inline-block;
+    width:100%;
 }
 .ul-li ul, .ul-li-block ul {
     margin: 0px;
@@ -402,7 +403,7 @@
 }
 .info-content1{
     position:relative;
-    left: 18.5%;
+    left:50px;
 }
 .info-content2 {
     position: relative;

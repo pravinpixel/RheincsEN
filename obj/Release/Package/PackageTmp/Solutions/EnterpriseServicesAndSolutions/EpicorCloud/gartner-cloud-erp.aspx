@@ -4,6 +4,7 @@
 <meta name="keywords" content="cloud manufacturing erp, cloud manufacturing software, cloud erp small business, manufacturing erp, cloud erp, erp software providers, manufacturing erp software, cloud erp solutions, benefits of cloud erp, best cloud erp systems, cloud based erp for small business, cloud based erp systems for manufacturing, cloud erp providers, cloud erp for sme, cloud erp solutions for small business, cloud based erp benefits, cloud erp manufacturing software, why cloud based erp
 , retail erp, retail erp software, distribution erp, distribution erp software" />
     <meta name="Description" content="Epicor on the Cloud ERP system is robust, state-of-the-art with built-in analytics to facilitate better decision making and increased profitability. " />
+    <meta name="robots" content="noindex">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -203,7 +204,8 @@
          @media only screen and (max-width: 335px)
         {
         
-        }
+        }
+
 </style>
     
     <!-- Content Starts Here-->

@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
      <meta name="description" content="Designed by HR industry professionals, Epicor HCM is a comprehensive HRMS that helps you effectively manage your human resources from recruitment to retirement. It can be deployed in the cloud or on premises. With extensive ERP implementation skills and functional knowledge in the HR domain, RheinBruck helps our clients implement EPICOR HCM software successfully."/>
 <meta name="keywords" content="hcm software, software for hr and payroll, best hcm software, human capital management software vendors, performance management software, employee evaluation software, best hr software, talent management system, human capital management software, global hris systems,best hr systems, hr system implementation, epicor hcm software, hr software, hrms"/>
+     <meta name="robots" content="noindex">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

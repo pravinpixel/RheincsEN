@@ -73,7 +73,7 @@
                     <div class="video_thumb_box">
                         
                             <img src="https://img.youtube.com/vi/<%# System.Text.RegularExpressions.Regex.Split(Eval("WebinarURL").ToString(),"=")[1] %>/default.jpg" alt="<%# Eval("Title").ToString() %>" class="video_lightbox_auto_anchor_image ETvideo" />
-                          <div class="thumb_play thum_play_v2" id="vi<%# System.Text.RegularExpressions.Regex.Split(Eval("WebinarURL").ToString(),"=")[1] %>" hidden="hidden">
+                          <div class="thumb_play thum_play_v2" id="vi<%# System.Text.RegularExpressions.Regex.Split(Eval("WebinarURL").ToString(),"=")[1] %>" hidden="hidden" style="display:block !important;">
                                <a data-toggle="modal" data-target="#myModal<%# Eval("WebinarRecId").ToString() %>" data-videoid="<%# System.Text.RegularExpressions.Regex.Split(Eval("WebinarURL").ToString(),"=")[1] %>" data-videosite="youtube"><img src="../../../Assets/images/play.png" class="wpvl_playbutton" /></a> 
                             </div>
                         
@@ -81,14 +81,14 @@
                     </div>
 
                     <br />
-                    <p class="contentSmall">
+                    <p class="contentSmall" style="min-height:100px;">
                         <span class="video-thumbnail">Webinar Title: <span class="redColor"><%# Eval("Title").ToString() %></span>
                         </span>
                         <br />
                          <span class="video-thumbnail">Webinar Date: <span class="redColor"><%# string.Format("{0:dd/MMMM/yyyy}", Eval("WebinarDate")) %></span>
                         </span>
                         <br />
-                        <a data-toggle="modal" data-target="#myModal-recording" class="video-class readmore" data-videoid="<%# System.Text.RegularExpressions.Regex.Split(Eval("WebinarURL").ToString(),"=")[1] %>" data-videosite="youtube">Click here to play video</a>
+                        <a data-toggle="modal" data-target="#myModal<%# Eval("WebinarRecId").ToString() %>" class="video-class readmore" data-videoid="<%# System.Text.RegularExpressions.Regex.Split(Eval("WebinarURL").ToString(),"=")[1] %>" data-videosite="youtube">Click here to play video</a>
                        <%-- <a data-toggle="modal" data-target="#myModal<%# Eval("WebinarRecId").ToString() %>" data-videoid="<%# System.Text.RegularExpressions.Regex.Split(Eval("WebinarURL").ToString(),"=")[1] %>" data-videosite="youtube" class="video-class">Click to play video</a>--%>
                     </p>
 

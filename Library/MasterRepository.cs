@@ -38,7 +38,7 @@ namespace RheinBrucke.Library
             return saved;
 
         }
-        public bool SaveContactUS(string name, string email, string message,string phone,string Services)
+        public bool SaveContactUS(string name, string email, string message,string phone,string company,string Services)
         {
             bool saved = false;
 
@@ -52,6 +52,7 @@ namespace RheinBrucke.Library
                 row.Email = email;
                 row.Message = message;
                 row.Phone = phone;
+                row.Companyname = company;
                 row.Services = Services;
                 row.EmailTypeID = 2;
                 row.CreatedOn = DateTime.Now;

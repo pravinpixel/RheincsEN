@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="ERP solution, ERP implementation, ERP, Industry specific ERP, Epicor ERP, ERP for Construction Distribution, Warehouse Management, Inventory Management " />
     <meta name="description" content="RheinBrücke provides specific industry vertival ERP software from Epicor  for Distribution" />
+      <meta name="robots" content="noindex">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
