@@ -911,6 +911,7 @@ load_css_async("/Assets/css/OverSheet.css");
                                             <option value="3">EPICOR for Manufacturing</option>
                                            <option value="4">EPICOR for Retail</option>
                                             <option value="5">EPICOR for Cable Manufacturing</option>
+                                            <option value="19">EPICOR for Wire Rope Manufacturing</option>
                                             <option value="6">EPICOR for Distribution</option>
                                             <option value="7">EPICOR for Interior Design</option>
                                             <option value="8">EPICOR for EPC and Construction</option>
@@ -924,6 +925,7 @@ load_css_async("/Assets/css/OverSheet.css");
                                             <option value="16">CCT (Copy Company Tool)</option>
                                             <option value="17">SharePoint</option>
                                             <option value="18">Microsoft Technologies - .Net & SQL Server</option>
+                                           
                                         </select>
                                         <span class="validator" id="reqddlservices" hidden="hidden" style="font-size: 13px;">Select the Services</span>
                                     </div>

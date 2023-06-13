@@ -8,6 +8,16 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style>
+	.baner-btns{
+	display: inline-block;
+    background: #7b1314;
+    height: 42px; 
+    padding: 10px 16px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;font-weight:600;
+    text-decoration: none; }
+	.baner-btns:hover{color:#fff;}
         .related-links {
             margin: 0;
             font-size: 1.3em;
@@ -212,6 +222,7 @@
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
                                     <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
                                     <span class="rhein-banner-heading-black">Manage thousands of Sales SKUs easily and accurately and configure customer orders using the product configurator </span>
+                                   <br /> <a class="baner-btns" data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Book a Demo</a>
                                 </div>
                             </div>
                         </div>
@@ -221,17 +232,18 @@
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
                                     <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing </h1>
-                                    <span class="rhein-banner-heading-black">Improve supply chain coordination, save inventory carrying costs, and improve production efficiency with optimised production and materials planning</span>
+                                    <span class="rhein-banner-heading-black">Improve supply chain coordination, save inventory carrying costs, and improve production efficiency with optimised production and materials planning</span><br />
+									<a class="baner-btns" data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Book a Demo</a>
                                 </div>
-                            </div>
-                        </div>
+                            </div></div> 
                     </div>
                     <div class="item">
                         <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-3.jpg" alt="RheinBrücke offers a specific manufacturing solution set that is customized to geography." class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
                                     <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
-                                    <span class="rhein-banner-heading-black">Get production visibility and track the exact progress of executing customer orders with the manufacturing execution system</span>
+                                    <span class="rhein-banner-heading-black">Get production visibility and track the exact progress of executing customer orders with the manufacturing execution system</span><br />
+                                    <a class="baner-btns" data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Book a Demo</a>
                                 </div>
                             </div>
                         </div>
@@ -242,7 +254,8 @@
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
                                     <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
-                                    <span class="rhein-banner-heading-black">Record all the costs related to production with resource timesheets, integration to machine PLCs, and manufacturing execution system</span>
+                                    <span class="rhein-banner-heading-black">Record all the costs related to production with resource timesheets, integration to machine PLCs, and manufacturing execution system</span><br />
+                                    <a class="baner-btns" data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Book a Demo</a>
                                 </div>
                             </div>
                         </div>
@@ -253,6 +266,7 @@
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
                                     <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
                                     <span class="rhein-banner-heading-black">Avoid breakdowns and improve machine efficiency with a machine-integrated maintenance management system</span>
+                                   <br /> <a class="baner-btns" data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Book a Demo</a>
                                 </div>
                             </div>
                         </div>

@@ -221,15 +221,27 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                     <div class="clearfix">&nbsp;</div>
                     <div class="col-md-12">
                         <select id="DDLServices" name="DDLServices" class="dropdown" style="width: 100%; padding: 6px;">
-                            <option value="0">-- Select Any One --</option>
-                            <option value="1">Epicor</option>
-                            <option value="2">SAP</option>
-                            <option value="3">Epicor HCM</option>
-                            <option value="4">Epicor Payroll MEA</option>
-                            <option value="5">CCT (Copy Company Tool)</option>
-                            <option value="6">SharePoint</option>
-                            <option value="7">Microsoft Technologies - .Net & SQL Server</option>
-                            <option value="8">Epicor Support+ </option>
+                          <option value="0">-- Select Any One --</option>
+                                           <option value="0">-- Select Any One --</option>
+                                            <option value="1">Epicor</option>
+                                            <option value="2">ERP</option>
+                                            <option value="3">EPICOR for Manufacturing</option>
+                                           <option value="4">EPICOR for Retail</option>
+                                            <option value="5">EPICOR for Cable Manufacturing</option>
+                                            <option value="19">EPICOR for Wire Rope Manufacturing</option>
+                                            <option value="6">EPICOR for Distribution</option>
+                                            <option value="7">EPICOR for Interior Design</option>
+                                            <option value="8">EPICOR for EPC and Construction</option>
+                                           <option value="9"> EPICOR iScala for hospitality</option>
+                                           <option value="10"> RheinBrücke Power Plant Analytics</option>
+                                            <option value="11">Business Intelligence</option>
+                                            <option value="12">MeRLIN </option>
+                                            <option value="13">SAP</option>
+                                            <option value="14">Epicor HCM</option>
+                                            <option value="15">Epicpay Product</option>
+                                            <option value="16">CCT (Copy Company Tool)</option>
+                                            <option value="17">SharePoint</option>
+                                            <option value="18">Microsoft Technologies - .Net & SQL Server</option>
                         </select>
                         <span class="validator" id="reqDDlservices" hidden="hidden">Select the Services</span>
                     </div>

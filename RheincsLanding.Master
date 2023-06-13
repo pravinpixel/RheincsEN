@@ -500,6 +500,7 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
                                             <option value="3">EPICOR for Manufacturing</option>
                                            <option value="4">EPICOR for Retail</option>
                                             <option value="5">EPICOR for Cable Manufacturing</option>
+                                            <option value="19">EPICOR for Wire Rope Manufacturing</option>
                                             <option value="6">EPICOR for Distribution</option>
                                             <option value="7">EPICOR for Interior Design</option>
                                             <option value="8">EPICOR for EPC and Construction</option>
