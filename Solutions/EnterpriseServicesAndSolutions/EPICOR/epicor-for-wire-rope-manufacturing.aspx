@@ -285,8 +285,8 @@
                     The industry ERP solution on Epicor from provides an ideal solution for manufacturers that help automate and optimise their processes and resources and be more profitable. 
                 </div>
                 <h3 class="redColor">SPECIALIZED SOLUTIONS FOR WIRE ROPE MANUFACTURING</h3>
-                <div class="">
-                    <ul class="bulletContent-manufacturing">
+                <div style="text-align: justify">
+                    <ul class="bulletContent-manufacturing cstmzed-lst">
                         <li>Ability to manage thousands of sales SKUs using product configurator and parametrising the manufacturing and procurement process using the product configurator. </li>
                         <li>Configure the customer orders based on technical parameters to procure raw materials and carry out production processes in the ERP based on it.  </li>
                         <li>Manage the complexity of Make-to-Stock and Make-to-Order combinations during production planning and execution of the manufacturing process. This helps in inventory optimisation and improving capacity utilisation. </li>
@@ -967,6 +967,12 @@
 
     </div>
     <style type="text/css">
+	.cstmzed-lst li {
+    padding-left: 17px;
+    position: relative;
+    margin: 5px 0px;
+}
+	.cstmzed-lst li:before{position:absolute;left:0;top:0;}
         .panel-group .panel {
             border-radius: 0;
             box-shadow: none;
@@ -977,7 +983,7 @@
             padding: 0;
             border-radius: 0;
             color: #212121;
-            background-color: #FAFAFA;
+            background-color: #f1e8e8;
             border-color: #EEEEEE;
         }
 

@@ -951,7 +951,7 @@ load_css_async("/Assets/css/OverSheet.css");
                                 </div>
                                  <div class="row">
                                     <div class="col-md-12">
-                                        <input type="text" placeholder="Your Company Name" id="txtCompany" class="write-to-us-input" />
+                                        <input type="text" placeholder="*Your Company Name" id="txtCompany" class="write-to-us-input" />
                                           <span class="validator" id="reqcompanyName" hidden="hidden" style="font-size: 13px;">Enter Your Company name</span>
                                         <span style="font-size: 13px;" class="validator" id="valcompanyname" hidden="hidden">Enter Valid Company Name</span>
                                     </div>

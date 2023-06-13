@@ -500,7 +500,7 @@ var google_remarketing_only = false;
             padding: 0;
             border-radius: 0;
             color: #212121;
-            background-color: #FAFAFA;
+            background-color: #f1e8e8;
             border-color: #EEEEEE;
         }
 
