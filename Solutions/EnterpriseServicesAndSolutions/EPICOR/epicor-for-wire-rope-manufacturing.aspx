@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="Best ERP software for Wire Rope Manufacturing (Know more) | Epicor ERP | Wire Rope Manufacturing Software ERP| ERP Demo | Epicor ERP Implementation Partner in Middle East, UAE, Dubai | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/RheincsLanding.Master" AutoEventWireup="true" CodeBehind="epicor-for-wire-rope-manufacturing.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.Epicor_for_wire_rope_manufacturing" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="Epicor wire rope manufacturing software, wire rope manufacturing consulting firms, wire rope manufacturing erp solutions, wire rope manufacturing erp systems, erp for wire rope manufacturing industry, wire rope manufacturing software erp, epicor wire rope manufacturing erp software, epicor erp project implementation, customized epicor erp solutions and implementation, epicor platinum partners in germany netherlands europe india dubai uae middle east, epicor erp consultants, outsourcing epicor erp management, epicor erp consulting companies and firm in germany netherlands europe india dubai uae middle east , epicor erp consultants in germany netherlands europe india dubai uae middle east, epicor erp implementation partners" />
     <meta name="Description" content="Epicor Wire Rope Manufacturing software is a specialized solution for Wire Rope Manufacturing industry. Click here to know about Epicor Wire Rope Manufacturing ERP software. RheinBrücke IT consulting is the largest Epicor partner in EMEAI in Epicor ERP implementation. Contact us for the ERP Demo" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
@@ -203,62 +202,62 @@
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                     <li data-target="#myCarousel" data-slide-to="3"></li>
                     <li data-target="#myCarousel" data-slide-to="4"></li>
-                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <%--<li data-target="#myCarousel" data-slide-to="5"></li>--%>
                     <%--<li data-target="#myCarousel" data-slide-to="6"></li>--%>
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-1.png" alt="Epicor ERP addresses the unique challenges of manufacturing industry." class="img-responsive" /><div class="container">
-                            <!--  <div class="carousel-caption rhein-caption-text">
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
-                                  <h1 class="customh1">Epicor for Wire Rope Manufacturing</h1>
-                                    <span class="rhein-banner-heading-black">Boost efficiency with real-time, actionable visibility into plant and business operations.</span>
-                                </div>
-                            </div>-->
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-2.png" alt="With EPICOR ERP, manufacturers can achieve operational excellence with streamlined logistics & manufacturing process" class="img-responsive" /><div class="container">
-                            <!-- <div class="carousel-caption rhein-caption-text">
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
-                                    <h1 class="customh1">Epicor for Wire Rope Manufacturing </h1>
-                                   <span class="rhein-banner-heading-black">RheinBrücke provides ERP solutions to wire rope manufacturers that enables them to meet the needs of their stakeholders with the flexibility required for today’s ever changing markets.</span>
-                                </div>
-                            </div>-->
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-3.png" alt="RheinBrücke offers a specific manufacturing solution set that is customized to geography." class="img-responsive" /><div class="container">
+                        <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-1.jpg" alt="Epicor ERP addresses the unique challenges of manufacturing industry." class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
-                                    <!--<h1 class="customh1">Epicor for Wire Rope Manufacturing</h1>
-                                    <span class="rhein-banner-heading-black">With EPICOR ERP, wire rope manufacturers can integrate all their processes and data sources to leverage advance features which enables them to improve all the facets of their operations.</span>-->
+                                    <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
+                                    <span class="rhein-banner-heading-black">Manage thousands of Sales SKUs easily and accurately and configure customer orders using the product configurator </span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-4.png" alt="Epicor Erp pave the way for Manufacturers to streamline business processes" class="img-responsive" />
-                        <div class="container">
-                            <!--<div class="carousel-caption rhein-caption-text">
+                        <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-2.jpg" alt="With EPICOR ERP, manufacturers can achieve operational excellence with streamlined logistics & manufacturing process" class="img-responsive" /><div class="container">
+                            <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
-                                    <h1 class="customh1">Epicor for Wire Rope Manufacturing</h1>
-                                    <span class="rhein-banner-heading-black">Our solutions and templates provide the necessary flexibility, responding to individual, company specific conditions and processes in a detailed manner.</span>
+                                    <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing </h1>
+                                    <span class="rhein-banner-heading-black">Improve supply chain coordination, save inventory carrying costs, and improve production efficiency with optimised production and materials planning</span>
                                 </div>
-                            </div>-->
+                            </div>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-5.png" alt="EPICOR ERP helps to optimize lean manufacturing for smarter decisions and increase customer satisfaction" class="img-responsive" /><div class="container">
-                           <!--   <div class="carousel-caption rhein-caption-text">
+                        <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-3.jpg" alt="RheinBrücke offers a specific manufacturing solution set that is customized to geography." class="img-responsive" /><div class="container">
+                            <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
-                                  <h1 class="customh1">Epicor for Wire Rope Manufacturing</h1>
-                                    <span class="rhein-banner-heading-black">We specialize in solutions that are ideal from a broad range of sectors that allows you to train and support your business users around efficient processes and best practices.</span>
+                                    <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
+                                    <span class="rhein-banner-heading-black">Get production visibility and track the exact progress of executing customer orders with the manufacturing execution system</span>
                                 </div>
-                            </div>-->
+                            </div>
                         </div>
                     </div>
-                    
+                    <div class="item">
+                        <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-4.jpg" alt="Epicor Erp pave the way for Manufacturers to streamline business processes" class="img-responsive" />
+                        <div class="container">
+                            <div class="carousel-caption rhein-caption-text">
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
+                                    <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
+                                    <span class="rhein-banner-heading-black">Record all the costs related to production with resource timesheets, integration to machine PLCs, and manufacturing execution system</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-5.jpg" alt="EPICOR ERP helps to optimize lean manufacturing for smarter decisions and increase customer satisfaction" class="img-responsive" /><div class="container">
+                            <div class="carousel-caption rhein-caption-text">
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
+                                    <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
+                                    <span class="rhein-banner-heading-black">Avoid breakdowns and improve machine efficiency with a machine-integrated maintenance management system</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <%--                     <div class="item">
                         <img src="../../../Assets/LandingRheincs/Images/banner7.jpg" alt="Home-Banner" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">                               
@@ -280,22 +279,22 @@
             <div class="col-md-12 contentwithpadding">
                 <h3 class="redColor">EPICOR FOR WIRE ROPE MANUFACTURING - INTRODUCTION</h3>
                 <div class="mainContent-normal contentdiv" style="text-align: justify">
-                    Continuous improvement has become necessary in the global and highly competitive wire-rope manufacturing industry. Wire-rope manufacturers have to continuously find ways to reduce wastage, manage SKU complexity and improve the productivity of their resources to stay relevant and improve their bottom line.
+                    Continuous improvement has become necessary in the global and highly competitive manufacturing industry. Manufacturers have to continuously find ways to reduce wastage, manage SKU complexity and improve the productivity of their resources to stay relevant and improve their bottom line.
                 </div>
                 <div class="mainContent-normal contentdiv" style="text-align: justify">
-                    The wire-rope industry ERP solution on Epicor from provides an ideal solution for wire-rope manufacturers that help automate and optimise their processes and resources and be more profitable. 
+                    The industry ERP solution on Epicor from provides an ideal solution for manufacturers that help automate and optimise their processes and resources and be more profitable. 
                 </div>
                 <h3 class="redColor">SPECIALIZED SOLUTIONS FOR WIRE ROPE MANUFACTURING</h3>
-                <div class="withIcons">
-                    <ul class="bulletContent-manufacturing redColor">
-                        <li><b>Ability to manage thousands of sales SKUs</b> using product configurator and parametrising the manufacturing and procurement process using the product configurator. </li>
-                        <li><b>Configure the customer orders based on technical parameters</b> to procure raw materials and carry out production processes in the ERP based on it.  </li>
-                        <li><b>Manage the complexity of Make-to-Stock and Make-to-Order combinations</b> during production planning and execution of the manufacturing process. This helps in inventory optimisation and improving capacity utilisation. </li>
-                        <li><b>Integrate machine data with ERP's production process</b> to update production run-times and outputs. This improves the accuracy of recording production operations. </li>
-                        <li><b>Manufacturing Execution System with timesheet for resources</b> to record production activities and gain visibility of the production progress. </li>
-                        <li><b>Accurate calculation of Cost of Production</b> by capturing all the inputs such as raw material costs, labour costs, machine usage costs etc</li>
-                        <li><b>Integrate machine run-times and performance with ERP maintenance module</b> to optimise maintenance schedules and avoid breakdown. </li>
-                        <li><b>Invoice customers based on produced and shipped quantity</b> instead of order quantity. This helps improve customer relationships and speed up the payment collection process. </li>
+                <div class="">
+                    <ul class="bulletContent-manufacturing">
+                        <li>Ability to manage thousands of sales SKUs using product configurator and parametrising the manufacturing and procurement process using the product configurator. </li>
+                        <li>Configure the customer orders based on technical parameters to procure raw materials and carry out production processes in the ERP based on it.  </li>
+                        <li>Manage the complexity of Make-to-Stock and Make-to-Order combinations during production planning and execution of the manufacturing process. This helps in inventory optimisation and improving capacity utilisation. </li>
+                        <li>Integrate machine data with ERP's production process to update production run-times and outputs. This improves the accuracy of recording production operations. </li>
+                        <li>Manufacturing Execution System with timesheet for resources to record production activities and gain visibility of the production progress. </li>
+                        <li>Accurate calculation of Cost of Production by capturing all the inputs such as raw material costs, labour costs, machine usage costs etc</li>
+                        <li>Integrate machine run-times and performance with ERP maintenance module to optimise maintenance schedules and avoid breakdown. </li>
+                        <li>Invoice customers based on produced and shipped quantity instead of order quantity. This helps improve customer relationships and speed up the payment collection process. </li>
                     </ul>
                 </div>
                 <div class="clearfix">&nbsp;</div>
@@ -472,7 +471,7 @@
                 <ul>
                     <li>
                         <div class="redBullets"></div>
-                        <p class="bulletContent">Manage thousands of Sales SKUs easily and accurately and configure customer orders using the product configurator</p>
+                        <p class="bulletContent">Manage thousands of Sales SKUs easily and accurately and configure customer orders using the product configurator.</p>
                     </li>
                 </ul>
             </div>
@@ -488,7 +487,7 @@
                 <ul>
                     <li>
                         <div class="redBullets"></div>
-                        <p class="bulletContent">Record all the costs related to production with resource timesheets, integration to machine PLCs, and manufacturing execution system</p>
+                        <p class="bulletContent">Record all the costs related to production with resource timesheets, integration to machine PLCs, and manufacturing execution system.</p>
                     </li>
                 </ul>
             </div>
@@ -520,7 +519,7 @@
                 <ul>
                     <li>
                         <div class="redBullets"></div>
-                        <p class="bulletContent">Informed and proactive decision-making using advanced Analytics that give strategic and operational visibility of business operations</p>
+                        <p class="bulletContent">Informed and proactive decision-making using advanced Analytics that give strategic and operational visibility of business operations.</p>
                     </li>
                 </ul>
             </div>
@@ -537,7 +536,7 @@
                 <ul>
                     <li>
                         <div class="redBullets"></div>
-                        <p class="bulletContent">ERP implementation knowledge on Wire-Rope Manufacturing.</p>
+                        <p class="bulletContent">ERP implementation knowledge on Manufacturing.</p>
                     </li>
                 </ul>
             </div>
@@ -545,7 +544,7 @@
                 <ul>
                     <li>
                         <div class="redBullets"></div>
-                        <p class="bulletContent">Readily Built Template for Wire-Rope industry on Epicor Kinetic.</p>
+                        <p class="bulletContent">Readily Built Template for industry on Epicor Kinetic.</p>
                     </li>
                 </ul>
             </div>
@@ -595,288 +594,439 @@
 
     <div class="container contentwithpadding rheincs-container accor-dions">
         <h3 class="redColor">Frequently Asked Questions</h3>
-		
-		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
-        <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading1">
-                <h4 class="panel-title">
-                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                        <i class="more-less glyphicon glyphicon-plus"></i>
-                         What is the significance of an ERP software for wire rope manufacturers?
-                    </a>
-                </h4>
-            </div>
-            <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
-                <div class="panel-body">
-				<p>Wire-rope manufacturers have to continuously find ways to reduce wastage and improve the productivity of their resources to stay relevant and improve their bottom line.<br><br>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
-				An ERP for steel and wire rope manufacturing helps in management of multiple sales SKUs, product configuration, planning and managing supply chain operations, managing manufacturing execution and integrating customer, supply chain and finance operations.<br><br> 
-
-				This leads to cost savings, better productivity of the resources and optimisation of business operations leading to better bottom lines.<br><br> </p>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading1">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            What is the significance of an ERP software for wire rope manufacturers?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+                    <div class="panel-body">
+                        <p>
+                            Manufacturers have to continuously find ways to reduce wastage and improve the productivity of their resources to stay relevant and improve their bottom line.<br>
+                            <br>
+                            An ERP for steel and wire rope manufacturing helps in management of multiple sales SKUs, product configuration, planning and managing supply chain operations, managing manufacturing execution and integrating customer, supply chain and finance operations.<br>
+                            <br>
+                            This leads to cost savings, better productivity of the resources and optimisation of business operations leading to better bottom lines.<br>
+                            <br>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading2">
-                <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                        <i class="more-less glyphicon glyphicon-plus"></i>
-                        What are the benefits of using Epicor ERP system for steel wire rope manufacturers?
-                    </a>
-                </h4>
-            </div>
-            <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-                <div class="panel-body">
-        <p>The following are the top benefits of using an ERP system for steel wire rope manufacturing:</p>
-		<ul>
-		<li>Multiple sales SKU management</li>
-		<li>Product configurator for customer orders</li>
-		<li>Improved supply chain coordination for improving their bottom line. </li> 
-		<li>Optimized production and materials planning</li>
-		<li>Production visibility</li>
-		<li>Integration to machine PPLCs</li>
-		<li>Machine-integrated maintenance management system</li>
-		</ul>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading2">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            What are the benefits of using Epicor ERP system for steel wire rope manufacturers?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                    <div class="panel-body">
+                        <p>The following are the top benefits of using an ERP system for steel wire rope manufacturing:</p>
+                        <ul>
+                            <li>Multiple sales SKU management</li>
+                            <li>Product configurator for customer orders</li>
+                            <li>Improved supply chain coordination for improving their bottom line. </li>
+                            <li>Optimized production and materials planning</li>
+                            <li>Production visibility</li>
+                            <li>Integration to machine PPLCs</li>
+                            <li>Machine-integrated maintenance management system</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading3">
-                <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                        <i class="more-less glyphicon glyphicon-plus"></i>
-                       How does an ERP solution assist steel wire and cable manufacturer in SKU management?
-                    </a>
-                </h4>
-            </div>
-            <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                <div class="panel-body">
-					<p> In Wire Rope, and Cable Manufacturing Companies the raw materials used in production are not many. However, when it comes to sales SKUs, wire rope and cable manufacturers have to deal with a huge number of sales combinations.<br><br>
-
-					Every customer order of wire-rope manufacturing is different. The manufacturing of wire-rope depends on varying technical specifications of the customer. Based on these tech specifications, raw materials used and the processes of production differ.<br><br> 
-
-					With a sales product configurator, you can configure customer orders based on technical parameters. Based on the order configuration, you can automatically determine the raw materials BOM and production process for the order and carry out procurement & production processes in the ERP. This ensures accuracy and ease of execution of customer orders. Plus, it helps in minimizing the  – SKU inventory.<br><br>
-
-					Without an integrated sales product configurator in the cable and wire rope manufacturing ERP, multiple sales items and SKUs will be created leading to confusion, lack of traceability and difficulty in management of business functions. <br><br> </p>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading3">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            How does an ERP solution assist steel wire and cable manufacturer in SKU management?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                        <p>
+                            In Wire Rope, and Cable Manufacturing Companies the raw materials used in production are not many. However, when it comes to sales SKUs, wire rope and cable manufacturers have to deal with a huge number of sales combinations.<br>
+                            <br>
+                            Every customer order of manufacturing is different. The manufacturing of depends on varying technical specifications of the customer. Based on these tech specifications, raw materials used and the processes of production differ.<br>
+                            <br>
+                            With a sales product configurator, you can configure customer orders based on technical parameters. Based on the order configuration, you can automatically determine the raw materials BOM and production process for the order and carry out procurement & production processes in the ERP. This ensures accuracy and ease of execution of customer orders. Plus, it helps in minimizing the  – SKU inventory.<br>
+                            <br>
+                            Without an integrated sales product configurator in the cable and wire rope manufacturing ERP, multiple sales items and SKUs will be created leading to confusion, lack of traceability and difficulty in management of business functions.
+                            <br>
+                            <br>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading4">
-                <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                        <i class="more-less glyphicon glyphicon-plus"></i>
-                       How do wire rope manufacturing ERP solutions work?
-                    </a>
-                </h4>
-            </div>
-            <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
-                <div class="panel-body">
-				<p> <b>Managing Customised Sales Orders:</b><br>
-				A steel and wire rope manufacturing ERP starts with receiving sales orders from customers. Sales orders from customers typically have varying specifications depending on the projects they are involved in. An integrated sales configurator in the ERP helps capture these specifications from the customers and automatically configures the bill of materials and production operations based on the technical specifications.
-				<br><br> 
-				<b>Planning & Managing Combination of Make to Stock & Make to Order Production</b><br>
-				While the orders can vary in specifications, cable and wire rope manufacturing typically involves standard semi-finished goods that need further processing to produce customised products for the customer. A wire rope manufacturing ERP can plan and manage the supply chain and production operations of make-to-stock Semi-finished goods and customised orders of wire ropes and cables.
-				<br><br>
-				<b>Supplier Relationship Management to Manage Large Suppliers</b><br>
-				Wire and cable manufacturing companies often find themselves dealing with large suppliers of raw materials. With an ERP, a cable & wire rope enterprise can manage  supplier contracts and track supplier performance to manage supplier relationships more efficiently. 
-				<br><br>
-				<b>Manufacturing Execution System to Manage Production Operations</b><br>
-				With the right ERP, cable and wire rope manufacturers can integrate machines data with ERP's production process to update production run-times and outputs. This improves the accuracy of recording production operations. Further, the Manufacturing Execution System (MES) which generates a timesheet for resources, can help record production activities and get visibility of production progress. A good ERP also accurately calculates and provides visibility into the cost of production in real-time by capturing all the inputs such as raw materials costs, labour costs, machine usage costs etc.
-				<br><br>
-				<b>Managing Invoicing based on Shipped Quantity</b><br>
-				Due to the nature of cable and wire rope manufacturing, the produced and shipped quantities can vary slightly compared to ordered quantities. An ERP specifically built for cable and wire rope manufacturers has the capability to capture the dispatched quantity based on weighbridge integration and invoice customers based on the dispatched quantities. This ensures faster collection of account receivables and better customer relations.
-				<br><br>
-				<b>Integrated Financial Management</b><br>
-				A cable and wire rope manufacturing ERP also manages the finance operations of the business, such as general ledger operations, accounts receivables & payables, banking operations and fixed assets management. Apart from this, it also manages multi-company & multi-currency operations of the business. The financial management module of the ERP also integrates and automates the accounting of sales, supply chain and production operations of the business. Plus, it generates automated statutory compliance reports and the necessary analytics for the business.
-				<br><br>
-				</p>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading4">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            How do wire rope manufacturing ERP solutions work?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                    <div class="panel-body">
+                        <p>
+                            <b>Managing Customised Sales Orders:</b><br>
+                            A steel and wire rope manufacturing ERP starts with receiving sales orders from customers. Sales orders from customers typically have varying specifications depending on the projects they are involved in. An integrated sales configurator in the ERP helps capture these specifications from the customers and automatically configures the bill of materials and production operations based on the technical specifications.
+				<br>
+                            <br>
+                            <b>Planning & Managing Combination of Make to Stock & Make to Order Production</b><br>
+                            While the orders can vary in specifications, cable and wire rope manufacturing typically involves standard semi-finished goods that need further processing to produce customised products for the customer. A wire rope manufacturing ERP can plan and manage the supply chain and production operations of make-to-stock Semi-finished goods and customised orders of wire ropes and cables.
+				<br>
+                            <br>
+                            <b>Supplier Relationship Management to Manage Large Suppliers</b><br>
+                            Wire and cable manufacturing companies often find themselves dealing with large suppliers of raw materials. With an ERP, a cable & wire rope enterprise can manage  supplier contracts and track supplier performance to manage supplier relationships more efficiently. 
+				<br>
+                            <br>
+                            <b>Manufacturing Execution System to Manage Production Operations</b><br>
+                            With the right ERP, cable and wire rope manufacturers can integrate machines data with ERP's production process to update production run-times and outputs. This improves the accuracy of recording production operations. Further, the Manufacturing Execution System (MES) which generates a timesheet for resources, can help record production activities and get visibility of production progress. A good ERP also accurately calculates and provides visibility into the cost of production in real-time by capturing all the inputs such as raw materials costs, labour costs, machine usage costs etc.
+				<br>
+                            <br>
+                            <b>Managing Invoicing based on Shipped Quantity</b><br>
+                            Due to the nature of cable and wire rope manufacturing, the produced and shipped quantities can vary slightly compared to ordered quantities. An ERP specifically built for cable and wire rope manufacturers has the capability to capture the dispatched quantity based on weighbridge integration and invoice customers based on the dispatched quantities. This ensures faster collection of account receivables and better customer relations.
+				<br>
+                            <br>
+                            <b>Integrated Financial Management</b><br>
+                            A cable and wire rope manufacturing ERP also manages the finance operations of the business, such as general ledger operations, accounts receivables & payables, banking operations and fixed assets management. Apart from this, it also manages multi-company & multi-currency operations of the business. The financial management module of the ERP also integrates and automates the accounting of sales, supply chain and production operations of the business. Plus, it generates automated statutory compliance reports and the necessary analytics for the business.
+				<br>
+                            <br>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading5">
-                <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                        <i class="more-less glyphicon glyphicon-plus"></i>
-                       Which ERP is better: Odoo, Tally or Epicor for wire rope cable manufacturing?
-                    </a>
-                </h4>
-            </div>
-            <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
-                <div class="panel-body">
-       <p>Although all three ERPs have their unique advantages, Epicor ERP offers significantly more capabilities than Odoo & Tally - especially with the vertical solution from  RheinBrücke. Here is a quick comparison.</p>
-	   
-	   <table class="table table-bordered" border="0" cellspacing="0" cellpadding="0" width="608">
-  <tr>
-    <td width="297" valign="top"><p><strong>Capability</strong></p></td>
-    <td width="115" valign="top"><p><strong>Epicor </strong></p></td>
-    <td width="105" valign="top"><p><strong>Odoo</strong></p></td>
-    <td width="91" valign="top"><p><strong>Tally</strong></p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Managing Customised    Sales Orders with product configurator and automated BOM &amp; Routing</p></td>
-    <td width="115" valign="top"><p>Yes</p></td>
-    <td width="105" valign="top"><p>3rd party    add-on</p></td>
-    <td width="91" valign="top"><p>No</p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Production    &amp; Materials Planning for Both Make to Stock &amp; Make to Order Items</p></td>
-    <td width="115" valign="top"><p>Yes (from     RheinBrücke) </p></td>
-    <td width="105" valign="top"><p>Partially    available. 3rd party add-on </p></td>
-    <td width="91" valign="top"><p>No</p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Supplier Relationship    Management with Purchase Contracts &amp; Purchase Performance</p></td>
-    <td width="115" valign="top"><p>Yes</p></td>
-    <td width="105" valign="top"><p>Only    Purchase Contracts</p></td>
-    <td width="91" valign="top"><p>Only    Purchase Contracts</p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Ability to    integrated machine data with production operations</p></td>
-    <td width="115" valign="top"><p>Yes</p></td>
-    <td width="105" valign="top"><p>Partially    possible</p></td>
-    <td width="91" valign="top"><p>Not    possible</p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Production    Orders and Job management</p></td>
-    <td width="115" valign="top"><p>Yes</p></td>
-    <td width="105" valign="top"><p>Yes</p></td>
-    <td width="91" valign="top"><p>No</p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Manufacturing    execution system</p></td>
-    <td width="115" valign="top"><p>Yes</p></td>
-    <td width="105" valign="top"><p>Partial</p></td>
-    <td width="91" valign="top"><p>No</p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Capturing    cost of production</p></td>
-    <td width="115" valign="top"><p>Yes</p></td>
-    <td width="105" valign="top"><p>Partial </p></td>
-    <td width="91" valign="top"><p>No</p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Lot    tracking specific to wire-rope manufacturing</p></td>
-    <td width="115" valign="top"><p>Yes (from     RheinBrücke) </p></td>
-    <td width="105" valign="top"><p>No</p></td>
-    <td width="91" valign="top"><p>No</p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Managing    Invoices based on Shipped and Produced Quantities (Weight-bridge integration)</p></td>
-    <td width="115" valign="top"><p>Yes (from     RheinBrücke) </p></td>
-    <td width="105" valign="top"><p>To be    customised</p></td>
-    <td width="91" valign="top"><p>To be    customised </p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Plant    Maintenance</p></td>
-    <td width="115" valign="top"><p>Yes</p></td>
-    <td width="105" valign="top"><p>Yes</p></td>
-    <td width="91" valign="top"><p>No</p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Integrated    Financial Management</p></td>
-    <td width="115" valign="top"><p>Yes</p></td>
-    <td width="105" valign="top"><p>Yes</p></td>
-    <td width="91" valign="top"><p>Yes</p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Business    Analytics</p></td>
-    <td width="115" valign="top"><p>Yes</p></td>
-    <td width="105" valign="top"><p>Yes</p></td>
-    <td width="91" valign="top"><p>Partial</p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Cloud    Solution</p></td>
-    <td width="115" valign="top"><p>Yes</p></td>
-    <td width="105" valign="top"><p>Yes</p></td>
-    <td width="91" valign="top"><p>No</p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Robust    Partner Ecosystem</p></td>
-    <td width="115" valign="top"><p>Yes</p></td>
-    <td width="105" valign="top"><p>Yes</p></td>
-    <td width="91" valign="top"><p>Yes</p></td>
-  </tr>
-  <tr>
-    <td width="297" valign="top"><p>Support from Vendor</p></td>
-    <td width="115" valign="top"><p>Yes</p></td>
-    <td width="105" valign="top"><p>Yes</p></td>
-    <td width="91" valign="top"><p>No</p></td>
-  </tr>
-</table>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading5">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            Which ERP is better: Odoo, Tally or Epicor for wire rope cable manufacturing?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                    <div class="panel-body">
+                        <p>Although all three ERPs have their unique advantages, Epicor ERP offers significantly more capabilities than Odoo & Tally - especially with the vertical solution from  RheinBrücke. Here is a quick comparison.</p>
 
-<p>Plus, Epicor is also recognised as one of the top ERP solutions for Manufacturing Organizations by both Nucleus and Gartner and consistently features in their evaluations every year. <br><br>
+                        <table class="table table-bordered" border="0" cellspacing="0" cellpadding="0" width="608">
+                            <tr>
+                                <td width="297" valign="top" align="center">
+                                    <p><b>Capability</b></p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p><b>Epicor </b></p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p><b>Odoo</b></p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p><b>Tally</b></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Managing Customised    Sales Orders with product configurator and automated BOM &amp; Routing</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>3rd party    add-on</p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>No</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Production    &amp; Materials Planning for Both Make to Stock &amp; Make to Order Items</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes (from     RheinBrücke) </p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>Partially    available. 3rd party add-on </p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>No</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Supplier Relationship    Management with Purchase Contracts &amp; Purchase Performance</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>Only    Purchase Contracts</p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>Only    Purchase Contracts</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Ability to    integrated machine data with production operations</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>Partially    possible</p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>Not    possible</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Production    Orders and Job management</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>No</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Manufacturing    execution system</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>Partial</p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>No</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Capturing    cost of production</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>Partial </p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>No</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Lot    tracking specific to manufacturing</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes (from     RheinBrücke) </p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>No</p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>No</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Managing    Invoices based on Shipped and Produced Quantities (Weight-bridge integration)</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes (from     RheinBrücke) </p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>To be    customised</p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>To be    customised </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Plant    Maintenance</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>No</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Integrated    Financial Management</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Business    Analytics</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>Partial</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Cloud    Solution</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>No</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Robust    Partner Ecosystem</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="297" valign="top">
+                                    <p>Support from Vendor</p>
+                                </td>
+                                <td width="115" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="105" valign="top" align="center">
+                                    <p>Yes</p>
+                                </td>
+                                <td width="91" valign="top" align="center">
+                                    <p>No</p>
+                                </td>
+                            </tr>
+                        </table>
 
-And with  RheinBrücke, you have a Premium Partner of Epicor who has extensive experience implementing Epicor and a ready-made solution for cable & wire rope manufacturing industry.
-</p>
-	   
+                        <p>
+                            Plus, Epicor is also recognised as one of the top ERP solutions for Manufacturing Organizations by both Nucleus and Gartner and consistently features in their evaluations every year.
+                            <br>
+                            <br>
+                            And with  RheinBrücke, you have a Premium Partner of Epicor who has extensive experience implementing Epicor and a ready-made solution for cable & wire rope manufacturing industry.
+                        </p>
+
+                    </div>
                 </div>
             </div>
+
         </div>
 
-    </div> 
-	
     </div>
-	<style type="text/css">
-		.panel-group .panel {
-        border-radius: 0;
-        box-shadow: none;
-        border-color: #EEEEEE;
-    }
+    <style type="text/css">
+        .panel-group .panel {
+            border-radius: 0;
+            box-shadow: none;
+            border-color: #EEEEEE;
+        }
 
-    .panel-default > .panel-heading {
-        padding: 0;
-        border-radius: 0;
-        color: #212121;
-        background-color: #FAFAFA;
-        border-color: #EEEEEE;
-    }
-	
-	.panel-body{    line-height: 1.5em;
-    font-size: 1.3em;
-    color: #2f2f2f;}
+        .panel-default > .panel-heading {
+            padding: 0;
+            border-radius: 0;
+            color: #212121;
+            background-color: #FAFAFA;
+            border-color: #EEEEEE;
+        }
 
-    .panel-title {
-        font-size: 14px;
-    }
+        .panel-body {
+            line-height: 1.5em;
+            font-size: 1.3em;
+            color: #2f2f2f;
+        }
 
-    .panel-title > a {
-        display: block;
-        padding: 15px;
-        text-decoration: none; 
-    font-size: 16px;
-    font-weight: 700;
-    color: #7b1315 !important;
-    }
+        .panel-title {
+            font-size: 14px;
+        }
 
-    .more-less {
-        float: right;
-        color: #212121;
-    }
+            .panel-title > a {
+                display: block;
+                padding: 15px;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 700;
+                color: #7b1315 !important;
+            }
 
-    .panel-default > .panel-heading + .panel-collapse > .panel-body {
-        border-top-color: #EEEEEE;
-    }
-	
-	.panel-title > a i.glyphicon-plus:before{content:"\2212";}
-	.panel-title > a.collapsed i.glyphicon-plus:before{content:"\002b";}
-	</style>
-	<script>
-		function toggleIcon(e) {
-			$(e.target)
+        .more-less {
+            float: right;
+            color: #212121;
+        }
+
+        .panel-default > .panel-heading + .panel-collapse > .panel-body {
+            border-top-color: #EEEEEE;
+        }
+
+        .panel-title > a i.glyphicon-plus:before {
+            content: "\2212";
+        }
+
+        .panel-title > a.collapsed i.glyphicon-plus:before {
+            content: "\002b";
+        }
+    </style>
+    <script>
+        function toggleIcon(e) {
+            $(e.target)
 				.prev('.panel-heading')
 				.find(".more-less")
 				.toggleClass('glyphicon-plus glyphicon-minus');
-		}
-		$('.panel-group').on('hidden.bs.collapse', toggleIcon);
-		$('.panel-group').on('shown.bs.collapse', toggleIcon);
-	</script>
+        }
+        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+        $('.panel-group').on('shown.bs.collapse', toggleIcon);
+    </script>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="FooterScript" runat="server">
 </asp:Content>

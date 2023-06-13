@@ -12006,7 +12006,24 @@ h4 {
 
 .accor-dions .btn-link:hover{text-decoration:none;}
 
-
+.panel-body ul{padding:0px;margin-top:15px;}
+.panel-body ul li {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+.panel-body ul li:before {
+    position: absolute;
+    left: 3px;
+    top: 7px;
+    background: #7b1315;
+    height: 7px;
+    width: 7px;
+    content: "";
+    border-radius: 100%;
+}
 
 
 

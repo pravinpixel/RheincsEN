@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Construction Software | Engineering ERP Software | Procurement software|Epicor" Language="C#" MasterPageFile="~/RheincsLanding.Master" AutoEventWireup="true" CodeBehind="epicor-for-construction-and-EPC.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.Epicor_for_construction_and_EPC" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-   <meta name="keywords" content="ERP solution, ERP implementation, ERP, Industry specific ERP, Epicor ERP, ERP for Construction, ERP for Engineering, ERP for Procurement" />
+   <meta name="keywords" content="ERP for construction management, construction and epc solutions, engineering procurement and construction management, construction erp software, erp software for construction industry, construction and epc softwares, best erp software for construction industry, construction erp modules, best erp for construction, best construction erp software, erp for construction company" />
     <meta name="description" content="RheinBrücke provides specific industry vertival ERP software from Epicor  for Engineering, Procurement and Construction" /> 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
@@ -348,9 +348,211 @@ var google_remarketing_only = false;
                                  </li>
                         </ul>
                     </div>
-                <p class="padd-bottom-10"><a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a> when you’re ready to start, or simply have a few questions. We’re happy to help with your construction software goals and challenges.</p>
+                <p class="padd-bottom-10"><a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a> when you’re ready to start, or simply have a few questions. We’re happy to help with your construction software goals and challenges.</p><br><br>
          
             </div>
+			
+			
+	    <div class="accor-dions mb-30">
+        <h3 class="redColor">Frequently Asked Questions</h3>
+
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading1">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            Why should a company use Epicor ERP for construction management?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+                    <div class="panel-body">
+                        <p>
+                            An industry-specific solution based on EPICOR ERP, for construction and EPC businesses easily integrates with your existing IT systems.  It helps organizations optimize contract management, asset management, project estimation, budget planning, resource scheduling, inventory management and labour management. It simplifies the management of complex multi-level WBS giving you complete control over labour and resources as well as milestone-based billing. ERP for construction and EPC by RheinBrücke is a solution designed to manage every component of engineering procurement and construction management, from subcontractors to material outsourcing assignments. It also covers plant management, mobile asset management and field staff management.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading2">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            What is a construction ERP software?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                    <div class="panel-body">
+                        <p>An ERP software designed to assist companies in the construction industry in managing every aspect of business operations from pre-construction to post-completion is known as an ERP software for the construction industry. Construction and EPC software is specifically developed to handle the difficulties of the construction process, giving organizations valuable project insights. The best ERP software for the construction industry help in effectively managing finance, human resources, warehousing, planning, and other construction-related tasks through a central database to handle all operational, business, and project-based data.</p> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading3">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            What are some important construction ERP modules? 
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                        <p>
+						<b>Some of the key construction ERP modules to consider when selecting an ERP for your company are:</b><br>
+                         </p>    
+                        <ul>
+                            <li>Project & production management  </li>
+
+                            <li>Supply chain management  </li>
+
+                            <li>Inventory & asset management  </li>
+
+                            <li>Contract management  </li>
+
+                            <li>Revenue recognition management  </li>
+
+                            <li>Bid management  </li>
+
+                            <li>Customer relationship management (CRM) </li> 
+
+                            <li>Financial management & accounting  </li>
+
+                            <li>Performance management with analytics and reporting </li> 
+
+                            <li>Multi-level WBS management </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading4">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            What are the main advantages of using the best ERP for construction?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                    <div class="panel-body">
+                        <p>
+						<b>The advantages of using the best construction ERP software are:</b><br>
+                         </p>    
+                        <ul>
+                            <li>Data-Driven project planning </li> 
+
+                            <li>Accurate cost estimation and cost minimization </li> 
+
+                            <li>Project management  </li>
+
+                            <li>Workflow and process customizations  </li>
+
+                            <li>Improved communication and collaboration  </li>
+
+                            <li>Encouragement for innovation and growth </li> 
+
+                            <li>Site level profitability analysis </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading5">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            Is it worthwhile to invest in an ERP for a construction company?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                    <div class="panel-body">
+                        <p>Yes! Construction businesses that use enterprise resource planning (ERP) software to streamline their business processes have improved cost savings and enhanced workflow. </p> 
+
+                        <p>
+                            Compared to construction organizations that don't utilize ERP software, organizations that do are more productive, profitable, connected and structured in every phase of a project.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <style type="text/css">
+	.mb-30{margin-bottom:30px;}
+        .panel-group .panel {
+            border-radius: 0;
+            box-shadow: none;
+            border-color: #EEEEEE;
+        }
+
+        .panel-default > .panel-heading {
+            padding: 0;
+            border-radius: 0;
+            color: #212121;
+            background-color: #FAFAFA;
+            border-color: #EEEEEE;
+        }
+
+        .panel-body {
+            line-height: 1.5em;
+            font-size: 1.3em;
+            color: #2f2f2f;
+        }
+
+        .panel-title {
+            font-size: 14px;
+        }
+
+            .panel-title > a {
+                display: block;
+                padding: 15px;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 700;
+                color: #7b1315 !important;
+            }
+
+        .more-less {
+            float: right;
+            color: #212121;
+        }
+
+        .panel-default > .panel-heading + .panel-collapse > .panel-body {
+            border-top-color: #EEEEEE;
+        }
+
+        .panel-title > a i.glyphicon-plus:before {
+            content: "\2212";
+        }
+
+        .panel-title > a.collapsed i.glyphicon-plus:before {
+            content: "\002b";
+        }
+    </style>
+    <script>
+        function toggleIcon(e) {
+            $(e.target)
+				.prev('.panel-heading')
+				.find(".more-less")
+				.toggleClass('glyphicon-plus glyphicon-minus');
+        }
+        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+        $('.panel-group').on('shown.bs.collapse', toggleIcon);
+    </script>
+			
+			
+			
 <h3 class="redColor">TESTIMONIALS</h3>
                     <div class="col-md-12">
                         <!--Massimiliano customer reference -->
