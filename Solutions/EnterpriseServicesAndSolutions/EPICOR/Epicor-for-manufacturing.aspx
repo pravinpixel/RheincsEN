@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Epicor Erp | Manufacturing Software Erp | Epicor partner in dubai | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/RheincsLanding.Master" AutoEventWireup="true" CodeBehind="Epicor-for-manufacturing.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.Epicor_for_manufacturing" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
  <meta name="description" content="Epicor manufacturing software is a specialized solution for manufacturing industry. Click here to know about Epicor Manufacturing ERP software. RheinBrücke IT consulting is the largest Epicor partner in EMEAI in Epicor ERP implementation."/>
-<meta name="keywords" content="epicor manufacturing software, manufacturing erp systems,erp for manufacturing industry, manufacturing software erp,epicor manufacturing erp software, manufacturing solution, Manufacturing consulting firms, Discrete manufacturing erp solutions"/>
+<meta name="keywords" content="erp for manufacturing industry, manufacturing erp software, cloud based erp, erp solutions for manufacturing, epicor manufacturing erp software, best erp system for manufacturing, cloud ERP for discrete manufacturing, best erp for process manufacturing, erp solutions for manufacturing, erp for manufacturers"/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -400,6 +400,10 @@ var google_remarketing_only = false;
                 </div>
                       </div>
     </div>
+   
+	
+	
+	
                 <div class="container rheincs-container">
                     <div class="wrappernewbullet">
                         <div class="clearfix">&nbsp;</div>
@@ -440,6 +444,137 @@ var google_remarketing_only = false;
                 <p class="padd-bottom-10"><a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a> when you’re ready to start, or simply have a few questions. We’re happy to help with your manufacturing software goals and challenges.</p>
          
             </div>
+                 
+                    </div>
+   
+	    <div class="container contentwithpadding rheincs-container accor-dions">
+        <h3 class="redColor">Frequently Asked Questions</h3>
+
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading1">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            What is an ERP for manufacturing industry?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+                    <div class="panel-body">
+                        <p>
+                            A manufacturing ERP software is an integrated system to manage all business operations from the shop floor to the top floor. This includes resource management, production management, planning and scheduling, inventory level monitoring, reporting, sales and purchase management, accounting and finance etc. <br>
+                            <br>
+                            BI (Business intelligence) and IoT are integral to modern cloud-based ERP systems for manufacturing and they significantly enhance shop floor productivity. Cutting-edge IoT technologies monitor production processes and devices, and communicate warnings on challenges with any process, preventative maintenance, etc.  <br>
+                            <br>
+                            Firms of all sizes achieve more significant ROI using ERP solutions for manufacturing with a generic ERP.<br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading2">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            Why should I implement Epicor ERP for my manufacturing industry?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                    <div class="panel-body">
+                        <p>Epicor manufacturing ERP software is crucial for managing production processes for a variety of reasons:</p>
+                        <ul>
+                            <li>Best ERP systems for manufacturers especially suited for mid to large-sized enterprises, ranked in the Gartner Magic Quadrant and Nucleus Research SMB ERP Value Matrix. </li>
+                            <li>Designed and developed for private and public clouds.</li>
+                            <li>Seamless integrations with shop floor devices and IoT technologies to transport data directly into the system.</li>
+                            <li>Enhanced visibility and control.</li>
+                            <li>Complete solution to automate manufacturing business activities.</li>
+                            <li>Provides modules such as Configure to Order, Make to Order and Engineer to Order.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading3">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            What is discrete manufacturing?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                        <p>
+                            Discrete manufacturing is a type of manufacturing that includes assembling components and creating readily identifiable products that can be handled and counted.<br>
+                            <br>
+                            The raw materials needed to manufacture these items are the same from one job to the next. Production in this manufacturing method follows a path, like an assembly line, where it creates identical products.  <br>
+                            <br>
+                            ERP for discrete manufacturing is a template solution from RheinBrücke that is a ready-to-deploy cloud ERP for discrete manufacturing based on Epicor platform.<br>
+                            <br> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading4">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            What is process manufacturing?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                    <div class="panel-body">
+                        <p>
+                            Process manufacturing blends elements according to predetermined formulae or recipes and involves large quantities of raw materials being refined and processed for distribution. The end-products in process manufacturing are formulation-based, so the components cannot be removed once they are used to generate the final product.
+				<br>
+                            <br>
+                            ERP for process manufacturing, a template solution from RheinBrücke is the best ERP for the process manufacturing industry. Its design template addresses the recipe-based production needs of different processes used in standard or mixed-mode manufacturing industries like chemical, pharmaceutical, food and beverage, paints and coatings, etc.
+				<br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading5">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            Which companies need ERP solutions for manufacturing?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                    <div class="panel-body"> 
+					<p>
+                            Regardless of size (small, midsize, or large) or type (discrete or process manufacturing) - manufacturing companies face several challenges that vary by industry (for example, the manufacturing processes and requirements of food manufacturing are very different from those of the paint and adhesive industry). These challenges include complying with environmental and regulatory standards, handling inventory, quality, and traceability. Additionally, there is a need to focus on increasing productivity and efficiency. 
+				<br>
+                            <br>
+                           To effectively cope with these challenges, manufacturing organizations need an industry-specific ERP for manufacturers to assist them in meeting their most specialized and unique demands.
+				<br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>	
+	
+	
+                <div class="container rheincs-container"> 
+		
                     
 <h3 class="redColor">TESTIMONIALS</h3>
                     <div class="col-md-12">
@@ -577,6 +712,77 @@ var google_remarketing_only = false;
 
                 </div>
                 <!--EOF popup Syed -->
+				
+	 <style type="text/css">
+	.cstmzed-lst li {
+    padding-left: 17px;
+    position: relative;
+    margin: 5px 0px;
+}
+	.cstmzed-lst li:before{position:absolute;left:0;top:0;}
+        .panel-group .panel {
+            border-radius: 0;
+            box-shadow: none;
+            border-color: #EEEEEE;
+        }
+
+        .panel-default > .panel-heading {
+            padding: 0;
+            border-radius: 0;
+            color: #212121;
+            background-color: #f1e8e8;
+            border-color: #EEEEEE;
+        }
+
+        .panel-body {
+            line-height: 1.5em;
+            font-size: 1.3em;
+            color: #2f2f2f;
+        }
+
+        .panel-title {
+            font-size: 14px;
+        }
+
+            .panel-title > a {
+                display: block;
+                padding: 15px;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 700;
+                color: #7b1315 !important;
+            }
+
+        .more-less {
+            float: right;
+            color: #212121;
+        }
+
+        .panel-default > .panel-heading + .panel-collapse > .panel-body {
+            border-top-color: #EEEEEE;
+        }
+
+        .panel-title > a i.glyphicon-plus:before {
+            content: "\2212";
+        }
+
+        .panel-title > a.collapsed i.glyphicon-plus:before {
+            content: "\002b";
+        }
+    </style>
+    <script>
+        function toggleIcon(e) {
+            $(e.target)
+				.prev('.panel-heading')
+				.find(".more-less")
+				.toggleClass('glyphicon-plus glyphicon-minus');
+        }
+        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+        $('.panel-group').on('shown.bs.collapse', toggleIcon);
+    </script>			
+				
+				
+				
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="FooterScript" runat="server">
 </asp:Content>
