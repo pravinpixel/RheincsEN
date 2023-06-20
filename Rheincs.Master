@@ -671,7 +671,7 @@ load_css_async("/Assets/css/OverSheet.css");
                     <li><a href="<%=rootpath %>casestudies/CaseStudy" class="Level2small-menu ETMenu"><span>Case Studies</span></a></li>
                     <li><a href="<%=rootpath %>about-us/corporate-videos" class="Level2small-menu ETMenu"><span>Corporate Videos</span></a></li>
                     <li><a href="<%=rootpath %>our-history" class="Level2small-menu ETMenu"><span>Our History</span></a></li>
-                    <li><a href="<%=rootpath %>news-and-events" class="Level2small-menu ETMenu"><span>News and Events</span></a></li>
+                    <li><a href="<%=rootpath %>news-events" class="Level2small-menu ETMenu"><span>News and Events</span></a></li>
                      <li><a href="<%=rootpath %>resources/faq" class="Level2small-menu ETMenu"><span>FAQ</span></a></li>
                 </ul>
             </li>
@@ -831,7 +831,7 @@ load_css_async("/Assets/css/OverSheet.css");
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>casestudies/CaseStudy"><span>Case Studies</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/corporate-videos"><span>Corporate Videos</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>our-history"><span>Our History</span></a></li>
-                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>news-and-events"><span>News and Events</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>news-events"><span>News and Events</span></a></li>
                                                  <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/faq"><span>FAQ</span></a></li>
                                             </ul>
                                         </li>

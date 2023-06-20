@@ -192,8 +192,8 @@ namespace RheinBrucke
 
             //routes.MapPageRoute("our-history-detail", "our-history/{*ID}", "~/Newsandevents/NewsEventsDetail.aspx");
 
-            routes.MapPageRoute("news-and-events", "news-and-events", "~/NewsAndEvents/Newsandevents.aspx");
-            routes.MapPageRoute("news-and-events-detail", "news-and-events/{*ID}", "~/NewsAndEvents/NewsEventsDetails.aspx");
+           // routes.MapPageRoute("news-and-events", "news-and-events", "~/NewsAndEvents/Newsandevents.aspx");
+           // routes.MapPageRoute("news-and-events-detail", "news-and-events/{*ID}", "~/NewsAndEvents/NewsEventsDetails.aspx");
 
             //routes.MapPageRoute("sub-current-openings", "{*ID}", "~/Careers/CurrentOpenings/JobDescription.aspx");           
             routes.MapPageRoute("sub-current-openings", "careers/current-openings/{*ID}", "~/Careers/CurrentOpenings/JobDescription.aspx");

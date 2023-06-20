@@ -496,12 +496,12 @@ var google_remarketing_only = false;
             border-color: #EEEEEE;
         }
 
-        .panel-default > .panel-heading {
+          .panel-default > .panel-heading {
             padding: 0;
             border-radius: 0;
             color: #212121;
-            background-color: #f1e8e8;
-            border-color: #EEEEEE;
+           background-color: #ebebeb !important;
+            border-color: #c1c1c1;
         }
 
         .panel-body {
@@ -520,7 +520,7 @@ var google_remarketing_only = false;
                 text-decoration: none;
                 font-size: 16px;
                 font-weight: 700;
-                color: #7b1315 !important;
+                color: #000 !important;
             }
 
         .more-less {

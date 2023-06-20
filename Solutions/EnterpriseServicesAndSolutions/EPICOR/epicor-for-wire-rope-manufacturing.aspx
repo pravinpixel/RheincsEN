@@ -222,8 +222,10 @@
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
                                     <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
                                     <span class="rhein-banner-heading-black">Manage thousands of Sales SKUs easily and accurately and configure customer orders using the product configurator </span>
-                                   <br /> <a class="baner-btns" data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Book a Demo</a>
-                                </div>
+                                </div> 
+                                <div><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                                    <div class="rhein-banner-readmore-bg pull-right"><span class="rhein-banner-readmore-text">Book a Demo</span></div></div> 
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -997,8 +999,8 @@
             padding: 0;
             border-radius: 0;
             color: #212121;
-            background-color: #f1e8e8;
-            border-color: #EEEEEE;
+           background-color: #ebebeb !important;
+            border-color: #c1c1c1;
         }
 
         .panel-body {
@@ -1017,7 +1019,7 @@
                 text-decoration: none;
                 font-size: 16px;
                 font-weight: 700;
-                color: #7b1315 !important;
+                color: #000 !important;
             }
 
         .more-less {
