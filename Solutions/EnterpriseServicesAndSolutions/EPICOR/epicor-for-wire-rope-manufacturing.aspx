@@ -223,7 +223,7 @@
                                     <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
                                     <span class="rhein-banner-heading-black">Manage thousands of Sales SKUs easily and accurately and configure customer orders using the product configurator </span>
                                 </div> 
-                            </div>
+                            </div><br /><br />
                             <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text">Book a Demo</span></div> </a></div> 
                         </div>
@@ -235,7 +235,7 @@
                                     <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing </h1>
                                     <span class="rhein-banner-heading-black">Improve supply chain coordination, save inventory carrying costs, and improve production efficiency with optimised production and materials planning</span><br />
                                 </div>
-                            </div>
+                            </div><br /><br />
                               <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text">Book a Demo</span></div> </a></div> 
                                                                                                                                                                                                                                                                 </div> 
@@ -248,7 +248,7 @@
                                     <span class="rhein-banner-heading-black">Get production visibility and track the exact progress of executing customer orders with the manufacturing execution system</span><br />
                                    
                                 </div>
-                            </div>
+                            </div><br /><br />
                               <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text">Book a Demo</span></div> </a></div> 
                         </div>
@@ -262,7 +262,7 @@
                                     <span class="rhein-banner-heading-black">Record all the costs related to production with resource timesheets, integration to machine PLCs, and manufacturing execution system</span><br />
                                     
                                 </div>
-                            </div>
+                            </div><br /><br />
                               <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text">Book a Demo</span></div> </a></div> 
                         </div>
@@ -275,7 +275,7 @@
                                     <span class="rhein-banner-heading-black">Avoid breakdowns and improve machine efficiency with a machine-integrated maintenance management system</span>
                                   
                                 </div>
-                            </div>
+                            </div><br /><br />
                               <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text">Book a Demo</span></div> </a></div> 
                         </div>
