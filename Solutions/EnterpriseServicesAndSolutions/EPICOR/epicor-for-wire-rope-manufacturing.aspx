@@ -225,7 +225,7 @@
                                 </div> 
                             </div><br /><br />
                             <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
-                                    <div class=""><span class="rhein-banner-readmore-text">Book a Demo</span></div> </a></div> 
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
                     <div class="item">
@@ -237,7 +237,7 @@
                                 </div>
                             </div><br /><br />
                               <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
-                                    <div class=""><span class="rhein-banner-readmore-text">Book a Demo</span></div> </a></div> 
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                                                                                                                                                                                                                                                                 </div> 
                     </div>
                     <div class="item">
@@ -250,7 +250,7 @@
                                 </div>
                             </div><br /><br />
                               <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
-                                    <div class=""><span class="rhein-banner-readmore-text">Book a Demo</span></div> </a></div> 
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
                     <div class="item">
@@ -264,7 +264,7 @@
                                 </div>
                             </div><br /><br />
                               <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
-                                    <div class=""><span class="rhein-banner-readmore-text">Book a Demo</span></div> </a></div> 
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
                     <div class="item">
@@ -277,7 +277,7 @@
                                 </div>
                             </div><br /><br />
                               <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
-                                    <div class=""><span class="rhein-banner-readmore-text">Book a Demo</span></div> </a></div> 
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
 
