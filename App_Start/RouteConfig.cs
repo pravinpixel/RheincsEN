@@ -201,7 +201,7 @@ namespace RheinBrucke
             routes.MapPageRoute("partners", "partners", "~/partners.aspx");
 
             routes.MapPageRoute("epicmake", "services/cloud/our-industry-solutions/EPICMake", "~/IndustrySolutions/epicmake.aspx");
-            routes.MapPageRoute("epicdesign", "services/cloud/our-industry-solutions/EPICDesign", "~/IndustrySolutions/epicdesign.aspx");
+            //routes.MapPageRoute("epicdesign", "services/cloud/our-industry-solutions/EPICDesign", "~/IndustrySolutions/epicdesign.aspx");
         }
     }
 }
