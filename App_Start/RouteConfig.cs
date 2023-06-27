@@ -164,7 +164,7 @@ namespace RheinBrucke
             routes.MapPageRoute("Whitepapers", "whitePapers/whitepapers", "~/WhitePapers/WhitePapers.aspx");
             routes.MapPageRoute("Brochures", "brochure/brochures", "~/Brochure/Brochure.aspx");
             routes.MapPageRoute("FactSheets", "factsheets/factsheets", "~/FactSheets/FactSheets.aspx");
-            routes.MapPageRoute("CaseStudies", "CaseStudy", "https://casestudy.rheincs.com/");
+            routes.MapPageRoute("CaseStudies", "CaseStudy", "~/CaseStudies/CaseStudy.aspx");
             
 
             routes.MapPageRoute("sitemap", "sitemap", "~/sitemap.aspx");
