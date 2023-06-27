@@ -239,7 +239,7 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                                             <option value="13">SAP</option>
                                             <option value="14">Epicor HCM</option>
                                             <option value="15">Epicpay Product</option>
-                                            <option value="16">CCT (Copy Company Tool)</option>
+                                         <%--   <option value="16">CCT (Copy Company Tool)</option>--%>
                                             <option value="17">SharePoint</option>
                                             <option value="18">Microsoft Technologies - .Net & SQL Server</option>
                         </select>

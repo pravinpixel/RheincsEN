@@ -91,7 +91,7 @@
                         <ul>
                             <li><a href="<%=rootpath %>Solutions/EnterpriseServicesAndSolutions/SAP.aspx" class="Level3-menu ETMenu"><span>SAP</span></a></li>
                             <li><a href="<%=rootpath %>Solutions/EnterpriseServicesAndSolutions/Epicor/Epicor.aspx" class="Level3-menu ETMenu"><span>EPICOR</span></a></li>                           
-                            <li><a href="<%=rootpath %>rheinbrucke-solutions/epicor-iscala-hospitality-industry-software" class="Level3-menu ETMenu"><span>EPICOR Iscala for Hospitality Overview</span></a></li>
+                        <%--    <li><a href="<%=rootpath %>rheinbrucke-solutions/epicor-iscala-hospitality-industry-software" class="Level3-menu ETMenu"><span>EPICOR Iscala for Hospitality Overview</span></a></li>--%>
                         </ul>
                     </li>
                     <li><a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">IT Services & Solutions</span></a>
@@ -194,7 +194,7 @@
                                                                     <br />
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>Solutions/EnterpriseServicesAndSolutions/SAP.aspx">SAP</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>Solutions/EnterpriseServicesAndSolutions/Epicor/Epicor.aspx">EPICOR</a></li>
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-solutions/epicor-iscala-hospitality-industry-software">Epicor Iscala for Hospitality Overview</a></li>
+                                                                   <%-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-solutions/epicor-iscala-hospitality-industry-software">Epicor Iscala for Hospitality Overview</a></li>--%>
                                                                 </ul>
                                                             </div>
                                                             <div class="col-md-3 col-md-3V2">

@@ -236,7 +236,7 @@ ETMenu"><span>Enterprise</span></a></li>
                         <ul>
                             <li><a href="<%=rootpath %>Epicor-Payroll-MEA" class="Level3-menu ETMenu"><span>Epicor Payroll MEA</span></a></li>
                             <%--<li><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="Level3-menu ETMenu"><span>Copy Company Tool</span></a></li>--%>
-                            <li><a href="<%=rootpath %>ppa-power-plant-analytics" class="Level3-menu ETMenu"><span>Power Plant Analytics</span></a></li>
+                         <%--   <li><a href="<%=rootpath %>ppa-power-plant-analytics" class="Level3-menu ETMenu"><span>Power Plant Analytics</span></a></li>--%>
                             <li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software" class="Level3-menu ETMenu"><span>MeRLIN – Strategic Sourcing Software</span></a></li>
                         </ul>
                     </li>
@@ -253,24 +253,24 @@ Services</span></a>
                         <ul>
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="Level3-menu ETMenu"><span>SAP</span></a></li>
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud" class="Level3-menu ETMenu"><span>Epicor Cloud</span></a>
-                                <ul>
+                                <%--<ul>
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP" class="Level3-menu ETMenu"><span>Gartner Magic Quadrant for Cloud ERP</span></a></li>
-                                </ul>
+                                </ul>--%>
                             </li>
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="Level3-menu ETMenu"><span>EPICOR </span></a>
                                 <ul>
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing" class="Level3-menu ETMenu"><span>For Manufacturing</span></a></li>
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing" class="Level3-menu ETMenu"><span>For Cable Manufacturing</span></a></li>
-                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software" class="Level3-menu ETMenu"><span>For Distribution</span></a></li>
+                                   <%-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software" class="Level3-menu ETMenu"><span>For Distribution</span></a></li>--%>
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design" class="Level3-menu ETMenu"><span>For Interior Design</span></a></li>
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC" class="Level3-menu ETMenu"><span>For Construction & EPC</span></a></li>
-                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" class="Level3-menu ETMenu"><span>Epicor HCM</span></a></li>
-                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software" class="Level3-menu ETMenu"><span>Epicor Iscala for Hospitality</span></a></li>
+                                   <%-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" class="Level3-menu ETMenu"><span>Epicor HCM</span></a></li>--%>
+                                  <%--  <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software" class="Level3-menu ETMenu"><span>Epicor Iscala for Hospitality</span></a></li>--%>
 
                                 </ul>
                             </li>
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering" class="Level3-menu ETMenu"><span>Epicor Support+</span></a></li>
-                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-driven-BI-and-analytics" class="Level3-menu ETMenu"><span>Business-Driven BI and Analytics</span></a></li>
+                          <%--  <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-driven-BI-and-analytics" class="Level3-menu ETMenu"><span>Business-Driven BI and Analytics</span></a></li>--%>
                         </ul>
                     </li>
                     <li><a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">IT Services & Solutions</span></a>
@@ -297,10 +297,10 @@ Services</span></a>
                     <li><a href="<%=rootpath %>whitePapers/whitepapers" class="Level2small-menu ETMenu"><span>White Papers</span></a></li>
                     <li><a href="<%=rootpath %>brochure/brochures" class="Level2small-menu ETMenu"><span>Brochures</span></a></li>
                     <li><a href="<%=rootpath %>factsheets/factsheets" class="Level2small-menu ETMenu"><span>FactSheets</span></a></li>
-                    <li><a href="<%=rootpath %>casestudies/CaseStudy" class="Level2small-menu ETMenu"><span>Case Studies</span></a></li>
+                    <li><a href="https://casestudy.rheincs.com/" class="Level2small-menu ETMenu"><span>Case Studies</span></a></li>
                     <li><a href="<%=rootpath %>about-us/corporate-videos" class="Level2small-menu ETMenu"><span>Corporate Videos</span></a></li>
-                    <li><a href="<%=rootpath %>our-history" class="Level2small-menu ETMenu"><span>Our History</span></a></li>
-                    <li><a href="<%=rootpath %>news-and-events" class="Level2small-menu ETMenu"><span>News and Events</span></a></li>
+                   <%-- <li><a href="<%=rootpath %>our-history" class="Level2small-menu ETMenu"><span>Our History</span></a></li>--%>
+                    <li><a href="<%=rootpath %>news-events" class="Level2small-menu ETMenu"><span>News and Events</span></a></li>
                     <li><a href="<%=rootpath %>resources/faq" class="Level2small-menu ETMenu"><span>FAQ</span></a></li>
                 </ul>
             </li>
@@ -401,7 +401,7 @@ Services</span></a>
 
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>Epicor-Payroll-MEA"><span>Epicor Payroll MEA</span></a></li>
                                                                     <%--  <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>--%>
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>ppa-power-plant-analytics">Power Plant Analytics </a></li>
+                                                                    <%--<li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>ppa-power-plant-analytics">Power Plant Analytics </a></li>--%>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN – Strategic Sourcing Software</a></li>
 
                                                                 </ul>
@@ -421,24 +421,24 @@ Services</span></a>
                                                                     <br />
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">SAP</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud">Epicor Cloud</a>
-                                                                        <ul class="padd-top-3">
+                                                                      <%--  <ul class="padd-top-3">
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP">Gartner Magic Quadrant for Cloud ERP</a></li>
-                                                                        </ul>
+                                                                        </ul>--%>
                                                                     </li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">EPICOR </a>
                                                                         <ul class="padd-top-3">
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing">For Manufacturing</a></li>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing">For Cable Manufacturing</a></li>
-                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software">For Distribution</a></li>
+                                                                          <%--  <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software">For Distribution</a></li>--%>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design">For Interior Design</a></li>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC">For Construction & EPC</a></li>
-                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm">Epicor HCM</a></li>
-                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software">Epicor Iscala for Hospitality</a></li>
+                                                                           <%-- <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm">Epicor HCM</a></li>--%>
+                                                                        <%--    <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software">Epicor Iscala for Hospitality</a></li>--%>
 
                                                                         </ul>
                                                                     </li>
                                                                     <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
-                                                                    <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-driven-BI-and-analytics">Business-Driven BI and Analytics</a></li>
+                                                                   <%-- <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-driven-BI-and-analytics">Business-Driven BI and Analytics</a></li>--%>
 
                                                                 </ul>
                                                             </div>
@@ -473,10 +473,10 @@ Services</span></a>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>whitePapers/whitepapers"><span>White Papers</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>brochure/brochures"><span>Brochures</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>factsheets/factsheets"><span>FactSheets</span></a></li>
-                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>casestudies/CaseStudy"><span>Case Studies</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="https://casestudy.rheincs.com/"><span>Case Studies</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/corporate-videos"><span>Corporate Videos</span></a></li>
-                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>our-history"><span>Our History</span></a></li>
-                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>news-and-events"><span>News and Events</span></a></li>
+                                              <%--  <li class="menuname-small ETMenu"><a href="<%=rootpath %>our-history"><span>Our History</span></a></li>--%>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>news-events"><span>News and Events</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/faq"><span>FAQ</span></a></li>
                                             </ul>
                                         </li>
@@ -529,17 +529,17 @@ Services</span></a>
                                            <option value="4">EPICOR for Retail</option>
                                             <option value="5">EPICOR for Cable Manufacturing</option>
                                             <option value="19">EPICOR for Wire Rope Manufacturing</option>
-                                            <option value="6">EPICOR for Distribution</option>
+                                           <%-- <option value="6">EPICOR for Distribution</option>--%>
                                             <option value="7">EPICOR for Interior Design</option>
                                             <option value="8">EPICOR for EPC and Construction</option>
-                                           <option value="9"> EPICOR iScala for hospitality</option>
-                                           <option value="10"> RheinBrücke Power Plant Analytics</option>
+                                        <%--   <option value="9"> EPICOR iScala for hospitality</option>--%>
+                                          <%-- <option value="10"> RheinBrücke Power Plant Analytics</option>--%>
                                             <option value="11">Business Intelligence</option>
                                             <option value="12">MeRLIN </option>
                                             <option value="13">SAP</option>
-                                            <option value="14">Epicor HCM</option>
+                                          <%--  <option value="14">Epicor HCM</option>--%>
                                             <option value="15">Epicpay Product</option>
-                                            <option value="16">CCT (Copy Company Tool)</option>
+                                           <%-- <option value="16">CCT (Copy Company Tool)</option>--%>
                                             <option value="17">SharePoint</option>
                                             <option value="18">Microsoft Technologies - .Net & SQL Server</option>
                                         </select>
