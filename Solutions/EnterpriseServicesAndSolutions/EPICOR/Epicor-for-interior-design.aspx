@@ -588,6 +588,168 @@ COLLABORATION NETWORK</strong>
 
 					
                     </div>
+
+
+    <div class="container contentwithpadding rheincs-container accor-dions">
+        <h3 class="redColor">Frequently Asked Questions</h3>
+
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading1">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            What is an ERP for interior design? 
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+                    <div class="panel-body">
+                        <p>
+                           ERP for interior design is an ideal option for contractors and organisations in the interior design sector. An interior design ERP software integrates technology, intelligence and efficient methods to assist teams in handling several tasks and complicated projects simultaneously. Contractors can undertake a greater amount of complex work at the same time while keeping track of the quality of all projects.  <br />
+                            <br />
+                            It unifies and integrates key interior fit out company processes, enabling the organisation to finish projects efficiently. With such comprehensive evaluation tools businesses can easily manage workers, contractors, materials, machinery across projects. They can save time, optimise finances and taxation. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading2">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            What are the top features to look for in an ERP industry vertical software for interior designers? 
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                    <div class="panel-body">
+                        <p>An ERP solution for interior design includes a variety of features tailored to the unique needs of interior design businesses:</p>
+                        <ul>
+                            <li>Inventory Management </li>
+                            <li>Warehouse Management </li>
+                            <li>Project Management Software  </li>
+                            <li>Customer Relationship Management </li>
+                            <li>BI Report Generation </li>
+                            <li>Planning & Scheduling </li>
+                            <li>Payroll Solution </li>
+                            <li>Quality Management </li>
+                            <li>Contract Management </li>
+                            <li>Multi-Level Breakdown </li>
+                            <li>Real-Time Cost Capture </li>
+                            <li>Revenue Recognition </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading3">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            Why use interior design solutions? 
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                        <p>
+                           Making an investment in the best interior design ERP software may help you in: 
+                        </p>
+                        <ul>
+                            <li>Increasing efficiency with a built-in project management software </li>
+                            <li>Organising and monitoring all projects. </li>
+                            <li>Maintaining regular interactions with contractors, suppliers and vendors. </li>
+                            <li>Invoices and accounts management </li>
+                            <li>Processing change order requests. </li>
+                            <li>Maintaining and optimising inventory records across one or more sites. </li>
+                            <li>Comprehensive integration, drawing capture and enabling multiple quotations within a single project, all while maintaining a detailed history. </li>
+                            <li>Seamlessly integrating multiple billing options, including applications for payment and variations tracking.  </li>
+                            <li>Enhancing project efficiency by facilitating direct procurement and seamless receipt management within the project framework.   </li>
+                            <li>Granting control over detailed information and the ability to record or accumulate costs throughout Unlimited WBS levels.  </li>
+                            <li>Ensuring the availability of project operations and resources for effective planning and scheduling, with Project management seamlessly integrated into Epicor APS. </li>
+                            <li>Dashboards, KPIs and trackers for a comprehensive analysis and understanding of the project status.  </li>
+                            <li>Capturing all project costs offering real-time visibility and alerts. </li>
+                            <li>Ensuring consistent and demonstrable calculations, ensuring policy compliance through various revenue recognition methods</li>
+                            <li>Enabling cross-company and cross-department collaboration by consolidating social media and contextual information in a single tool. </li>
+                            <li>Comprehensive time and expense entry and approval ensuring accurate and timely compliance with recording policies and complete cost capture. </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading4">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                           What is the significance of project management software for interior designers? 
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                    <div class="panel-body">
+                        <p>
+                          Interior designers can use project management software to arrange and organise their ongoing projects. It helps in keeping track of the activities on a real-time basis to ensure that a project is finished on schedule and within budget.  It improves stakeholder communication and transparency thus ensuring the consistency of processes and quality of the deliverables.  
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading5">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                           Why should I use Epicor ERP system for interior design?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                    <div class="panel-body">
+                        <p>Epicor software industry template for interior design business has a variety of features that assist interior designers in managing duties and organising projects in stages: </p>
+
+                        <ul>
+                            <li>It offers interior design firms cost-effective project and business management options to help them manage and expand their operations. </li>
+                            <li>It assists in managing planning and scheduling, estimation, purchase orders, invoicing  and communication with clients. </li>
+                            <li>It minimises dependency on Excel, paperwork, or back-of-the-envelope analyses or estimations. </li>
+                            <li>You can have complete control over the projects by utilising an ideal suite for your business requirements. </li>
+                        </ul>
+
+                       
+
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading6">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                          What is the importance of ERP for furniture manufacturing? 
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                    <div class="panel-body">
+                        <p>
+                           With the growth of the furniture sector, the numerous design, style and pricing options that customers seek can lead to endless product combinations that are nearly impossible to manage manually.  A furniture manufacturing ERP software can make managing the nature of the furniture manufacturing process much simpler. <br /><br />
+                            Companies may benefit from furniture manufacturing software with strong Customer Relationship Management (CRM), product configuration, catalogue management and data management to stay agile while also reducing expenses.  
+                            <br /><br />
+                            A furniture ERP software provides increased visibility, real-time tracking of customer demands and industry raw material requirements, maintain vendor and staff requests and effectively manages the delivery of finished furniture. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
       <div class="clearfix">&nbsp;</div>
     <div class="col-md-12 rheincs-container">
     <h3 class="redColor">TESTIMONIALS</h3>
@@ -881,4 +1043,71 @@ COLLABORATION NETWORK</strong>
 
                         
                     </script>
+     <style type="text/css">
+	.cstmzed-lst li {
+    padding-left: 17px;
+    position: relative;
+    margin: 5px 0px;
+}
+	.cstmzed-lst li:before{position:absolute;left:0;top:0;}
+        .panel-group .panel {
+            border-radius: 0;
+            box-shadow: none;
+            border-color: #EEEEEE;
+        }
+
+        .panel-default > .panel-heading {
+            padding: 0;
+            border-radius: 0;
+            color: #212121;
+           background-color: #ebebeb !important;
+            border-color: #c1c1c1;
+        }
+
+        .panel-body {
+            line-height: 1.5em;
+            font-size: 1.3em;
+            color: #2f2f2f;
+        }
+
+        .panel-title {
+            font-size: 14px;
+        }
+
+            .panel-title > a {
+                display: block;
+                padding: 15px;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 700;
+                color: #000 !important;
+            }
+
+        .more-less {
+            float: right;
+            color: #212121;
+        }
+
+        .panel-default > .panel-heading + .panel-collapse > .panel-body {
+            border-top-color: #EEEEEE;
+        }
+
+        .panel-title > a i.glyphicon-plus:before {
+            content: "\2212";
+        }
+
+        .panel-title > a.collapsed i.glyphicon-plus:before {
+            content: "\002b";
+        }
+    </style>
+    <script>
+        function toggleIcon(e) {
+            $(e.target)
+				.prev('.panel-heading')
+				.find(".more-less")
+				.toggleClass('glyphicon-plus glyphicon-minus');
+        }
+        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+        $('.panel-group').on('shown.bs.collapse', toggleIcon);
+    </script>
 </asp:Content>

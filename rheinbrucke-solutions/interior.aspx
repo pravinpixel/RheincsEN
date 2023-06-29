@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Campaigns-inte.Master" AutoEventWireup="true" CodeBehind="interior.aspx.cs" Inherits="RheinBrucke.Assets2.rheinbrucke_solutions.hcm" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server"></asp:Content>
+<asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
+     <meta name="Keyword" content="erp for interior design, interior design project management software, interior design ERP System, project management software for interior designers, interior fit out companies, best interior design project management software, interior design solutions, project management software for interior designers, Epicor ERP system, software for interior design business, ERP for furniture manufacturing, furniture manufacturing ERP software, furniture manufacturing software " />
+</asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 <style>
