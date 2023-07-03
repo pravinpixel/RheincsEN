@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Enterprise(ERP) Solutions and Services | Better alternatives to SAP | ERP Comparison for SME's | Compare ERP Solutions like SAP Vs MS Dynamics Vs Oracle Cloud ERP Vs IFS Vs Infor Vs SAGE | SAP Vs Epicor ERP | Oracle Cloud ERP Vs Epicor | Epicor ERP Vs Infor | Epicor ERP Vs IFS | Epicor ERP Vs SAGE | Affordable and Best ERP's for SME's | Cloud based ERP's for SMB's | Best Cloud ERP in Middle East | ROI for an ERP Implementation | RheinBrücke IT Consulting | ERP Case Studies | ERP Whitepapers | ERP Factsheets | ERP Demo | ERP Implementation Partner in Middle east, UAE , Dubai | ERP Implementation Partner in Europe, Germany | Austria | Switzerland | Netherlands | ERP Systems like SAP | ERP Softwares like Epicor | Production Management Software | Supply Chain Management Solution | Planning and Scheduling Solution | Product Data Management System | Financial Management Solution | Service Management Software | Human Capital Management Solution | Customer Relationship Management System | Sales Management Software" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="ERP.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.ERP" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-     <meta name="keywords" content="erp project implementation, erp demo, customized erp solutions and implementation, erp support, erp strategy, erp integration, erp consultants, outsourcing erp management, erp consulting companies and firm in germany netherlands europe india dubai uae middle east , erp consultants in germany netherlands europe india dubai uae middle east, erp implementation partners, Enterprise(ERP) Solutions and Services, Better alternatives to SAP, ERP Comparison for SME's, Compare ERP Solutions like SAP Vs MS Dynamics Vs Oracle Cloud ERP Vs IFS Vs Infor Vs SAGE, SAP Vs Epicor ERP, Oracle Cloud ERP Vs Epicor ERP, Epicor ERP Vs Infor, Epicor ERP VS IFS, Epicor ERP Vs SAGE, Affordable and Best ERP's for SME's, Cloud based ERP's for SMB's, ROI for an ERP Implementation, RheinBrücke IT Consulting, ERP Case Studies, ERP Whitepapers, ERP Factsheets, ERP Demo, ERP Implementation Partner in Middle east, UAE , Dubai, ERP Implementation Partner in Europe, Germany | Austria | Switzerland | Netherlands, ERP Systems like SAP, ERP Softwares like Epicor, Production Management Software, Supply Chain Management Solution, Planning and Scheduling Solution, Product Data Management System, Financial Management Solution, Service Management Software, Human Capital Management Solution, Customer Relationship Management System, Sales Management Software" />
+    <meta name="keywords" content="erp project implementation, erp demo, customized erp solutions and implementation, erp support, erp strategy, erp integration, erp consultants, outsourcing erp management, erp consulting companies and firm in germany netherlands europe india dubai uae middle east , erp consultants in germany netherlands europe india dubai uae middle east, erp implementation partners, Enterprise(ERP) Solutions and Services, Better alternatives to SAP, ERP Comparison for SME's, Compare ERP Solutions like SAP Vs MS Dynamics Vs Oracle Cloud ERP Vs IFS Vs Infor Vs SAGE, SAP Vs Epicor ERP, Oracle Cloud ERP Vs Epicor ERP, Epicor ERP Vs Infor, Epicor ERP VS IFS, Epicor ERP Vs SAGE, Affordable and Best ERP's for SME's, Cloud based ERP's for SMB's, ROI for an ERP Implementation, RheinBrücke IT Consulting, ERP Case Studies, ERP Whitepapers, ERP Factsheets, ERP Demo, ERP Implementation Partner in Middle east, UAE , Dubai, ERP Implementation Partner in Europe, Germany | Austria | Switzerland | Netherlands, ERP Systems like SAP, ERP Softwares like Epicor, Production Management Software, Supply Chain Management Solution, Planning and Scheduling Solution, Product Data Management System, Financial Management Solution, Service Management Software, Human Capital Management Solution, Customer Relationship Management System, Sales Management Software" />
     <meta name="Description" content="RheinBrücke EPICOR platinum partner and SAP COIL partner. Our services include ERP product development support, implementation and support services. Contact us for the ERP Demo" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
@@ -9,34 +9,35 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style>
-        .marg-t36
-        {
-            margin-top:-36px;
+        .marg-t36 {
+            margin-top: -36px;
         }
-        .nopadding
-        {
-            padding-right:0px;
-            padding-left:0px;
+
+        .nopadding {
+            padding-right: 0px;
+            padding-left: 0px;
         }
-        .padd-top-20
-        {
-            padding-top:20px;
+
+        .padd-top-20 {
+            padding-top: 20px;
         }
-        .point-text{
-           color: #7b1315!important;
-           font-weight:700;
+
+        .point-text {
+            color: #7b1315 !important;
+            font-weight: 700;
         }
-        .link-text
-        {
-            text-decoration:underline;
-            font-weight:700;
+
+        .link-text {
+            text-decoration: underline;
+            font-weight: 700;
         }
-        .link-text:hover
-        {
-            text-decoration:underline;
-            font-weight:700;
-            color: #7b1315!important;
-        }
+
+            .link-text:hover {
+                text-decoration: underline;
+                font-weight: 700;
+                color: #7b1315 !important;
+            }
+
         .bg-img-erp {
             background-image: url(../../Assets/images/ERP.jpg);
             background-repeat: no-repeat;
@@ -161,7 +162,7 @@
             color: #fff;
             font-weight: bold;
         }
-   
+
         .bg-img-epicor-for-automotive {
             background-image: url(../../Assets/images/ERP-content-img.jpg);
         }
@@ -186,82 +187,79 @@
             </div>
         </div>
         <!--efo banner-->
-      
-            <!--Overview and form div-->
-            <div class="row">
-                <!--overview-->
-                <div class="clearfix">&nbsp;</div>
-                <div class="col-md-12 contentwithpadding rheincs-container">
-                    <h3 class="redColor">Why Do You Need an ERP System?</h3>
-                    <div class="mainContent-normal contentdiv" style="text-align: justify">
-                        ERP stands for Enterprise Resource Planning. Enterprise resource planning (ERP) is a business process management software that allows an organization to use a system of integrated application modules (ERP) to manage the business and automate many back office functions related to technology, services and human resources.
-                    </div>
-                    <div class="mainContent-normal contentdiv" style="text-align: justify">
-                        If you’re thinking Finance, Supply Chain Management, Human Resource Management, Payroll, Procurement or any other process, an Enterprise Resource Planning Software (ERP) helps integrate all of the above and much more.
-                    </div>
-                    <div class="mainContent-normal contentdiv" style="text-align: justify">
-                        The specific reasons companies invest in ERP solutions vary, but typically, process standardisation and automation leading to cost reductions and productivity enhancements top the list. A wide variety of customized ERP solutions and implementation exist in the marketplace. Most offer the same core functionality, while features and specific operations and ERP support differ.  An ERP system seeks to streamline business operations by integrating the data and refining the processes required to operate an organization. Many companies that implement an ERP system discover their company has many functional silos. In other words, very little integration exists from one department to the next.
-                    </div>
-                   <div class="mainContent-normal">  
+
+        <!--Overview and form div-->
+        <div class="row">
+            <!--overview-->
+            <div class="clearfix">&nbsp;</div>
+            <div class="col-md-12 contentwithpadding rheincs-container">
+                <h3 class="redColor">Why Do You Need an ERP System?</h3>
+                <div class="mainContent-normal contentdiv" style="text-align: justify">
+                    ERP stands for Enterprise Resource Planning. Enterprise resource planning (ERP) is a business process management software that allows an organization to use a system of integrated application modules (ERP) to manage the business and automate many back office functions related to technology, services and human resources.
+                </div>
+                <div class="mainContent-normal contentdiv" style="text-align: justify">
+                    If you’re thinking Finance, Supply Chain Management, Human Resource Management, Payroll, Procurement or any other process, an Enterprise Resource Planning Software (ERP) helps integrate all of the above and much more.
+                </div>
+                <div class="mainContent-normal contentdiv" style="text-align: justify">
+                    The specific reasons companies invest in ERP solutions vary, but typically, process standardisation and automation leading to cost reductions and productivity enhancements top the list. A wide variety of customized ERP solutions and implementation exist in the marketplace. Most offer the same core functionality, while features and specific operations and ERP support differ.  An ERP system seeks to streamline business operations by integrating the data and refining the processes required to operate an organization. Many companies that implement an ERP system discover their company has many functional silos. In other words, very little integration exists from one department to the next.
+                </div>
+                <div class="mainContent-normal">
                     <ul>
                         <li>
                             <i class="fa fa-fw fa-cogs redColor"></i>
                             <span class="point-text">ERP Helps Process Automation-</span>
-                             Helps manage important tasks on a daily basis across an organization  and reduces operating and overhead costs.
+                            Helps manage important tasks on a daily basis across an organization  and reduces operating and overhead costs.
                         </li>
-        </ul>
-        </div>
-                    <div class="mainContent-normal">  
+                    </ul>
+                </div>
+                <div class="mainContent-normal">
                     <ul>
                         <li>
                             <i class="fa fa-fw fa-cogs redColor"></i>
                             <span class="point-text">Less Errors, More Efficiency-</span>
-                             Achieves operational efficiency by getting rid of error-prone, manual processes.
+                            Achieves operational efficiency by getting rid of error-prone, manual processes.
                         </li>
-        </ul>
-        </div>
-                    <div class="mainContent-normal">  
+                    </ul>
+                </div>
+                <div class="mainContent-normal">
                     <ul>
                         <li>
                             <i class="fa fa-fw fa-cogs redColor"></i>
                             <span class="point-text">Better Communication, Higher Productivity-</span>
-                             Availability of real-time communication within an organization allows rapid responses and managed coordination.
+                            Availability of real-time communication within an organization allows rapid responses and managed coordination.
                         </li>
-        </ul>
-        </div>
-                    <div class="mainContent-normal">  
+                    </ul>
+                </div>
+                <div class="mainContent-normal">
                     <ul>
                         <li>
                             <i class="fa fa-fw fa-cogs redColor"></i>
                             <span class="point-text">Better Information Management-</span>
-                             Automatically processes transactions and generates reports making processes such as accounting more accurate, faster and smoother.
+                            Automatically processes transactions and generates reports making processes such as accounting more accurate, faster and smoother.
                         </li>
-        </ul>
-        </div>
-                    <div class="mainContent-normal">  
+                    </ul>
+                </div>
+                <div class="mainContent-normal">
                     <ul>
                         <li>
                             <i class="fa fa-fw fa-cogs redColor"></i>
                             <span class="point-text">Better Performance Management-</span>
-                             Empowers organizations to be more receptive to rapidly changing tactics to address new customer requirements as they emerge.
+                            Empowers organizations to be more receptive to rapidly changing tactics to address new customer requirements as they emerge.
                         </li>
-        </ul>
-        </div>
-                    <div class="mainContent-normal">  
+                    </ul>
+                </div>
+                <div class="mainContent-normal">
                     <ul>
                         <li>
                             <i class="fa fa-fw fa-cogs redColor"></i>
                             <span class="point-text">Simplified Compliance and Risk Management-</span>
-                             Enhanced reliability and accuracy improves overall financial management with less chance for errors. 
+                            Enhanced reliability and accuracy improves overall financial management with less chance for errors. 
                         </li>
-        </ul>
-        </div>
-                    
-                   
+                    </ul>
                 </div>
-
             </div>
-       
+        </div>
+
         <div class="contentwithpadding">
             <div class="wrappernewbullet main-container">
                 <h3 class="redColor head-font">What are the common modes of Enterprise Resource Planning or ERP deployments?</h3>
@@ -296,19 +294,19 @@
             </div>
 
         </div>
-       
+
         <div class="contentwithpadding">
             <div class="wrappernewbullet main-container">
                 <h3 class="redColor head-font">Industry specific ERP solutions</h3>
-               <div class="col-md-12 nopadding">
-                 <ul>
-                    <li>
-                        <span class="withIcons"><i class="fa fa-fw fa-cogs"></i></span>&nbsp;
+                <div class="col-md-12 nopadding">
+                    <ul>
+                        <li>
+                            <span class="withIcons"><i class="fa fa-fw fa-cogs"></i></span>&nbsp;
                         <span class="mainContent">ERP for Manufacturing</span>
-                    </li>
-                </ul>
-                   </div>
-            <%--    <div class="col-md-3 marg-t36">
+                        </li>
+                    </ul>
+                </div>
+                <%--    <div class="col-md-3 marg-t36">
                     <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor"><img src="../../Assets/images/epicorLogo.png" alt="Epicor" /></a>
 
                 </div>--%>
@@ -394,24 +392,26 @@
                 <div class="main-container">
                     <%--<p class="bulletContent-business">Click here to know more about RheinBrücke Enterprise Resource Planning (ERP) solution, Epicor for Retail.</p>--%>
                 </div>
-                <div class="main-container"><p class="redColor head-font" style="padding-left:24px;"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" style="color: #7b1315; text-decoration:underline">Click here to view RheinBrücke’s Epicor solution offerings and our ERP project implementation process.</a></p></div>
+                <div class="main-container">
+                    <p class="bulletContent-business"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="link-text">Click here to view RheinBrücke’s Epicor solution offerings and our ERP project implementation process.</a></p>
+                </div>
             </div>
 
         </div>
 
 
-         <div class="contentwithpadding">
+        <div class="contentwithpadding">
             <div class="wrappernewbullet main-container">
                 <h3 class="redColor head-font">Industry specific ERP solutions</h3>
-               <div class="col-md-12 nopadding">
-                 <ul>
-                    <li>
-                        <span class="withIcons"><i class="fa fa-fw fa-cogs"></i></span>&nbsp;
+                <div class="col-md-12 nopadding">
+                    <ul>
+                        <li>
+                            <span class="withIcons"><i class="fa fa-fw fa-cogs"></i></span>&nbsp;
                         <span class="mainContent">ERP for Manufacturing</span>
-                    </li>
-                </ul>
-                   </div>
-            <%--    <div class="col-md-3 marg-t36">
+                        </li>
+                    </ul>
+                </div>
+                <%--    <div class="col-md-3 marg-t36">
                     <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor"><img src="../../Assets/images/epicorLogo.png" alt="Epicor" /></a>
 
                 </div>--%>
@@ -419,295 +419,304 @@
                     <p class="bulletContent-business">Enterprise Resource Planning (ERP) for manufacturing provides an all-in-one ERP solution for your manufacturing needs. ERP help manufacturers organise production schedules, monitor stock levels, introduce automation into workflows and perform quality checks and controls.</p>
                 </div>
 
-         <div class="contentwithpadding">
-            <div class="wrappernewbullet main-container">
-                <h3 class="redColor head-font">SAP</h3>
-            </div>
-            <div class="bulletContent-business" style="text-align: justify">
-                We at RheinBrücke, provide ERP program and project management, technical consulting, development services, maintenance and support services as well as ready solutions to clients globally on <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="link-text" target="_blank">EPICOR</a> and <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="link-text" target="_blank">SAP</a>
-            </div>
-            <div class="mainContent-normal contentdiv main-container" style="text-align: justify">
-                RheinBrücke SAP services include:
-            </div>
-             <div class="col-md-9 main-container">
-            <div class="col-md-12">
-                <ul>
-                    <li>
-                        <div class="redBullets"></div>
-                        <p class="bulletContent">SAP Program and Project Management</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-12">
-                <ul>
-                    <li>
-                        <div class="redBullets"></div>
-                        <p class="bulletContent">SAP Value Engineering</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-12">
-                <ul>
-                    <li>
-                        <div class="redBullets"></div>
-                        <p class="bulletContent">Audit</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-12">
-                <ul>
-                    <li>
-                        <div class="redBullets"></div>
-                        <p class="bulletContent">ABAP Development Support</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-12">
-                <ul>
-                    <li>
-                        <div class="redBullets"></div>
-                        <p class="bulletContent">Basis Management Support Services</p>
-                    </li>
-                </ul>
-            </div>
-                 </div>
-             <div class="col-md-3 padd-top-20">
-                
-                 <div class="col-md-12"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap"><img src="../../Assets/images/sapLogo.png" alt="SAP" /></a></div>
-             </div>
-        </div>
-         <div class="clearfix"></div>
-        <div class="main-container"><p class="redColor head-font" style="padding-left:24px;"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" style="color: #7b1315; text-decoration:underline">Click here to view RheinBrücke’s SAP solution offerings and our ERP project implementation process.</a></p></div>
-        <div class="clearfix"></div>
-         
-            <div class="row paddingGreycontainer bg-img-epicor-for-automotive">
-                <div class="boldWhiteheading padding-epicor">
-                    <h4 class="management-font">The Benefits/Business value of Enterprise Resource Planning (ERP)</h4>
+                <div class="contentwithpadding">
+                    <div class="wrappernewbullet main-container">
+                        <h3 class="redColor head-font">SAP</h3>
+                    </div>
+                    <div class="bulletContent-business" style="text-align: justify">
+                        We at RheinBrücke, provide ERP program and project management, technical consulting, development services, maintenance and support services as well as ready solutions to clients globally on <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="link-text" target="_blank">EPICOR</a> and <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="link-text" target="_blank">SAP</a>
+                    </div>
+                    <div class="mainContent-normal contentdiv main-container" style="text-align: justify">
+                        RheinBrücke SAP services include:
+                    </div>
+                    <div class="col-md-9 main-container">
+                        <div class="col-md-12">
+                            <ul>
+                                <li>
+                                    <div class="redBullets"></div>
+                                    <p class="bulletContent">SAP Program and Project Management</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <ul>
+                                <li>
+                                    <div class="redBullets"></div>
+                                    <p class="bulletContent">SAP Value Engineering</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <ul>
+                                <li>
+                                    <div class="redBullets"></div>
+                                    <p class="bulletContent">Audit</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <ul>
+                                <li>
+                                    <div class="redBullets"></div>
+                                    <p class="bulletContent">ABAP Development Support</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <ul>
+                                <li>
+                                    <div class="redBullets"></div>
+                                    <p class="bulletContent">Basis Management Support Services</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 padd-top-20">
+
+                        <div class="col-md-12"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">
+                            <img src="../../Assets/images/sapLogo.png" alt="SAP" /></a></div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="main-container">
+                    <p  class="bulletContent-business"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="link-text">Click here to view RheinBrücke’s SAP solution offerings and our ERP project implementation process.</a></p>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="row paddingGreycontainer bg-img-epicor-for-automotive">
+                    <div class="boldWhiteheading padding-epicor">
+                        <h4 class="management-font">The Benefits/Business value of Enterprise Resource Planning (ERP)</h4>
+                    </div>
+
+
+                    <div class="row col-md-12 padding">
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <div class="redBullets-epicor-onbg"></div>
+                                    <div class="redColor-epicor bulletContent">
+                                        <strong>Efficiency </strong>
+                                    </div>
+                                    <p class="bulletContent-epicor padd-left-10">An ERP solution eliminates repetitive processes and greatly reduces the need to manually enter information</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <div class="redBullets-epicor-onbg"></div>
+                                    <div class="redColor-epicor bulletContent">
+                                        <strong>Forecasting </strong>
+                                    </div>
+                                    <p class="bulletContent-epicor padd-left-10">An ERP integration gives users, and especially managers, the tools they need to create more accurate forecasts.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <div class="redBullets-epicor-onbg"></div>
+                                    <div class="redColor-epicor bulletContent">
+                                        <strong>Collaboration </strong>
+                                    </div>
+                                    <p class="bulletContent-epicor padd-left-10">Centralized Information enables cross-departmental collaboration and eliminates a siloed business environment.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <div class="redBullets-epicor-onbg"></div>
+                                    <div class="redColor-epicor bulletContent">
+                                        <strong>Scalability</strong>
+                                    </div>
+                                    <p class="bulletContent-epicor padd-left-10">A structured ERP system allows for the easy addition of new users and functions to the existing system, making scalability easy.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <div class="row col-md-12 padding">
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <div class="redBullets-epicor-onbg"></div>
+                                    <div class="redColor-epicor bulletContent">
+                                        <strong>Data Integration</strong>
+                                    </div>
+                                    <p class="bulletContent-epicor padd-left-10">No more issues with data spread across separate databases; all information in an ERP solution is housed in a single location. </p>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <div class="redBullets-epicor-onbg"></div>
+                                    <div class="redColor-epicor bulletContent">
+                                        <strong>Streamlined Processes</strong>
+                                    </div>
+                                    <p class="bulletContent-epicor padd-left-10">The software automates business operations cross-departmentally, providing accurate, real-time information to everyone utilizing the solution.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <div class="redBullets-epicor-onbg"></div>
+                                    <div class="redColor-epicor bulletContent">
+                                        <strong>Mobility</strong>
+                                    </div>
+                                    <p class="bulletContent-epicor padd-left-10">An advantage of ERP solutions is having access to a centralized database from anywhere you work.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <div class="redBullets-epicor-onbg"></div>
+                                    <div class="redColor-epicor bulletContent">
+                                        <strong>Compliance</strong>
+                                    </div>
+                                    <p class="bulletContent-epicor padd-left-10">Powerful ERP solutions will keep track of regulations within the industry and monitor changes in compliance.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <div class="row col-md-12 padding">
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <div class="redBullets-epicor-onbg"></div>
+                                    <div class="redColor-epicor bulletContent">
+                                        <strong>Reporting</strong>
+                                    </div>
+                                    <p class="bulletContent-epicor padd-left-10">With improved reporting capabilities in an ERP solution, the company can respond to complex data requests more easily.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <div class="redBullets-epicor-onbg"></div>
+                                    <div class="redColor-epicor bulletContent">
+                                        <strong>Productivity</strong>
+                                    </div>
+                                    <p class="bulletContent-epicor padd-left-10">By automating redundant processes, users have more time to work on other pressing projects and tasks</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <div class="redBullets-epicor-onbg"></div>
+                                    <div class="redColor-epicor bulletContent">
+                                        <strong>Security</strong>
+                                    </div>
+                                    <p class="bulletContent-epicor padd-left-10">An ERP integration will improve the accuracy, consistency, and security of data, with the help of built-in resources and firewalls.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <div class="redBullets-epicor-onbg"></div>
+                                    <div class="redColor-epicor bulletContent">
+                                        <strong>Cost Savings</strong>
+                                    </div>
+                                    <p class="bulletContent-epicor padd-left-10">With one source of accurate, real-time information, ERP software reduces administrative and operations costs.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+
                 </div>
 
-
-                <div class="row col-md-12 padding">
-                    <div class="col-md-3">
-                        <ul>
-                            <li>
-                                <div class="redBullets-epicor-onbg"></div>
-                                <div class="redColor-epicor bulletContent">
-                                    <strong>Efficiency </strong>
-                                </div>
-                                <p class="bulletContent-epicor padd-left-10">An ERP solution eliminates repetitive processes and greatly reduces the need to manually enter information</p>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="col-md-3">
-                        <ul>
-                            <li>
-                                <div class="redBullets-epicor-onbg"></div>
-                                <div class="redColor-epicor bulletContent">
-                                    <strong>Forecasting </strong>
-                                </div>
-                                <p class="bulletContent-epicor padd-left-10">An ERP integration gives users, and especially managers, the tools they need to create more accurate forecasts.</p>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="col-md-3">
-                        <ul>
-                            <li>
-                                <div class="redBullets-epicor-onbg"></div>
-                                <div class="redColor-epicor bulletContent">
-                                    <strong>Collaboration </strong>
-                                </div>
-                                <p class="bulletContent-epicor padd-left-10">Centralized Information enables cross-departmental collaboration and eliminates a siloed business environment.</p>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                    <div class="col-md-3">
-                        <ul>
-                            <li>
-                                <div class="redBullets-epicor-onbg"></div>
-                                <div class="redColor-epicor bulletContent">
-                                    <strong>Scalability</strong>
-                                </div>
-                                <p class="bulletContent-epicor padd-left-10">A structured ERP system allows for the easy addition of new users and functions to the existing system, making scalability easy.</p>
-                            </li>
-                        </ul>
-
+                <div class="contentwithpadding">
+                    <div class="wrappernewbullet main-container">
+                        <h3 class="redColor">ERP Implementations for SME’s</h3>
+                        <div class="mainContent-normal contentdiv" style="text-align: justify">
+                            Small and medium-sized enterprises (SMEs) are increasingly implementing enterprise resource planning (ERP) systems. Rapid implementation time, emergence of cloud computing (with pay as you use option), minimum in-house skill set requirements, the possibility to become leaner and efficient, ERP support and maintenance are some of the benefits for SME’s to consider Enterprise Resource Planning as the solution for all their expanding business needs.
+                        </div>
+                        <div class="mainContent-normal contentdiv" style="text-align: justify">
+                            Here are some of the questions SME’s ask when considering an ERP solution:
+                        </div>
+                        <div class="col-md-12">
+                            <ul>
+                                <li>
+                                    <div class="redBullets"></div>
+                                    <p class="bulletContent">At what stage in the business do SME’s require an ERP solution?</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <ul>
+                                <li>
+                                    <div class="redBullets"></div>
+                                    <p class="bulletContent">How do you choose the right ERP software for your business?</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <ul>
+                                <li>
+                                    <div class="redBullets"></div>
+                                    <p class="bulletContent">How to choose the right ERP vendor?</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <ul>
+                                <li>
+                                    <div class="redBullets"></div>
+                                    <p class="bulletContent">What is the ROI on ERP implementations for SME’s?</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>
-                <div class="row col-md-12 padding">
-                    <div class="col-md-3">
-                        <ul>
-                            <li>
-                                <div class="redBullets-epicor-onbg"></div>
-                                <div class="redColor-epicor bulletContent">
-                                    <strong>Data Integration</strong>
-                                </div>
-                                <p class="bulletContent-epicor padd-left-10">No more issues with data spread across separate databases; all information in an ERP solution is housed in a single location. </p>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="col-md-3">
-                        <ul>
-                            <li>
-                                <div class="redBullets-epicor-onbg"></div>
-                                <div class="redColor-epicor bulletContent">
-                                    <strong>Streamlined Processes</strong>
-                                </div>
-                                <p class="bulletContent-epicor padd-left-10">The software automates business operations cross-departmentally, providing accurate, real-time information to everyone utilizing the solution.</p>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="col-md-3">
-                        <ul>
-                            <li>
-                                <div class="redBullets-epicor-onbg"></div>
-                                <div class="redColor-epicor bulletContent">
-                                    <strong>Mobility</strong>
-                                </div>
-                                <p class="bulletContent-epicor padd-left-10">An advantage of ERP solutions is having access to a centralized database from anywhere you work.</p>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                    <div class="col-md-3">
-                        <ul>
-                            <li>
-                                <div class="redBullets-epicor-onbg"></div>
-                                <div class="redColor-epicor bulletContent">
-                                    <strong>Compliance</strong>
-                                </div>
-                                <p class="bulletContent-epicor padd-left-10">Powerful ERP solutions will keep track of regulations within the industry and monitor changes in compliance.</p>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                </div>
-                <div class="row col-md-12 padding">
-                    <div class="col-md-3">
-                        <ul>
-                            <li>
-                                <div class="redBullets-epicor-onbg"></div>
-                                <div class="redColor-epicor bulletContent">
-                                    <strong>Reporting</strong>
-                                </div>
-                                <p class="bulletContent-epicor padd-left-10">With improved reporting capabilities in an ERP solution, the company can respond to complex data requests more easily.</p>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="col-md-3">
-                        <ul>
-                            <li>
-                                <div class="redBullets-epicor-onbg"></div>
-                                <div class="redColor-epicor bulletContent">
-                                    <strong>Productivity</strong>
-                                </div>
-                                <p class="bulletContent-epicor padd-left-10">By automating redundant processes, users have more time to work on other pressing projects and tasks</p>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="col-md-3">
-                        <ul>
-                            <li>
-                                <div class="redBullets-epicor-onbg"></div>
-                                <div class="redColor-epicor bulletContent">
-                                    <strong>Security</strong>
-                                </div>
-                                <p class="bulletContent-epicor padd-left-10">An ERP integration will improve the accuracy, consistency, and security of data, with the help of built-in resources and firewalls.</p>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                    <div class="col-md-3">
-                        <ul>
-                            <li>
-                                <div class="redBullets-epicor-onbg"></div>
-                                <div class="redColor-epicor bulletContent">
-                                    <strong>Cost Savings</strong>
-                                </div>
-                                <p class="bulletContent-epicor padd-left-10">With one source of accurate, real-time information, ERP software reduces administrative and operations costs.</p>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                </div>
-
-
-            </div>
-       
-         <div class="contentwithpadding">
-            <div class="wrappernewbullet main-container">
-                <h3 class="redColor">ERP Implementations for SME’s</h3>
-                <div class="mainContent-normal contentdiv" style="text-align: justify">
-                    Small and medium-sized enterprises (SMEs) are increasingly implementing enterprise resource planning (ERP) systems. Rapid implementation time, emergence of cloud computing (with pay as you use option), minimum in-house skill set requirements, the possibility to become leaner and efficient, ERP support and maintenance are some of the benefits for SME’s to consider Enterprise Resource Planning as the solution for all their expanding business needs.
-                </div>
-                <div class="mainContent-normal contentdiv" style="text-align: justify">
-                    Here are some of the questions SME’s ask when considering an ERP solution:
-                </div>
-                <div class="col-md-12">
-                    <ul>
-                        <li>
-                            <div class="redBullets"></div>
-                            <p class="bulletContent">At what stage in the business do SME’s require an ERP solution?</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-12">
-                    <ul>
-                        <li>
-                            <div class="redBullets"></div>
-                            <p class="bulletContent">How do you choose the right ERP software for your business?</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-12">
-                    <ul>
-                        <li>
-                            <div class="redBullets"></div>
-                            <p class="bulletContent">How to choose the right ERP vendor?</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-12">
-                    <ul>
-                        <li>
-                            <div class="redBullets"></div>
-                            <p class="bulletContent">What is the ROI on ERP implementations for SME’s?</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-        <div class="mainContent-normal contentdiv main-container" style="text-align: justify">
+                <div class="mainContent-normal contentdiv main-container" style="text-align: justify">
                     RheinBrücke aims to be a respected player in the Small and Medium Enterprise (SME) landscape, and to be the “Go-To-Company” for IT & ERP solutions in Continental Europe. RheinBrücke is an Epicor International Partner of the year twice in the last 3 years and also a platinum partner. We are also one of the few ISV Gold Partner in the world for Epicor because we have developed products on top of Epicor. We are also a SAP COIL Partner.
                 </div>
                 <div class="mainContent-normal contentdiv main-container" style="text-align: justify">
-                    The importance of ERP systems far outweighs the initial cost, time and effort involved in implementation if you choose the right solution. <a data-toggle="modal" style="font-weight:700" onclick="Clear()" class="link-text" data-target="#myModal-contactus">Talk to our experts</a> for more information on features and functions, implementation goals, and questions. With enough careful research and thoughtful consideration, you’ll find that an ERP software provides all the benefits listed above painting a picture for why ERP is important to a company.
+                    The importance of ERP systems far outweighs the initial cost, time and effort involved in implementation if you choose the right solution. <a data-toggle="modal" style="font-weight: 700" onclick="Clear()" class="link-text" data-target="#myModal-contactus">Talk to our experts</a> for more information on features and functions, implementation goals, and questions. With enough careful research and thoughtful consideration, you’ll find that an ERP software provides all the benefits listed above painting a picture for why ERP is important to a company.
                 </div>
-        <div class="contentwithpadding">
-           <p class="redColor head-font" style="text-align:center"><a data-toggle="modal" style="color: #7b1315; text-decoration:underline" onclick="Clear()" data-target="#myModal-contactus">Speak to our ERP consultants to answer all your questions</a></p>
-           </div> <br />
-       <div class="mainContent-normal contentdiv main-container" style="text-align: center">Click <a href="https://www.rheincs.com/solutions/consulting-and-advisory-solutions/program-and-project-management-services"><b><u>here</u></b></a> to know more about our ERP project implementation process.</div>
-     
-
-        <br />
-        <h3 class="redColor main-container">RELATED LINKS</h3>
-        <p class="related-links mainContent-normal contentdiv main-container">
-                     <b><a href="http://bit.ly/2UXXBH7">Download our Whitepaper to know the top ERP’s in the market today</a></b></p><br />
-     </div>
-        <!--eof overview and form div-->
+                <div class="contentwithpadding">
+                      
+                    <p class="bulletContent-business"><a data-toggle="modal" class="link-text" onclick="Clear()" data-target="#myModal-contactus">Speak to our ERP consultants to answer all your questions</a></p>
+                </div>
+                <br />
+                <div class="contentwithpadding">
+                      
+                    <p class="bulletContent-business">Click <a class="link-text"  href="https://www.rheincs.com/solutions/consulting-and-advisory-solutions/program-and-project-management-services"><b><u>here</u></b></a> to know more about our ERP project implementation process.</p>
+                </div>
+                
+                <br />
+                <h3 class="redColor main-container">RELATED LINKS</h3>
+                  <div class="contentwithpadding">
+                    <p class="bulletContent-business"><a class="link-text" href="http://view.rheincs.com/ERP-Guide-2023-Download-Whitepaper">Top 6 ERP systems for 2023 | 6 Best ERP software for your business | Top ERP vendors for 2023 | ERP guide 2023</a></p>
+                </p>
+                <br />
+            </div>
+            <!--eof overview and form div-->
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="FooterScript" runat="server">
 </asp:Content>
