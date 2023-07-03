@@ -209,6 +209,9 @@
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">EPICOR FOR INTERIOR DESIGN</h1><span class="rhein-banner-heading-black">Furnish your business with an Epicor ERP solution tailored for your Interior Design company
 Learn more about our solution</span></div>                               
                             </div>
+                            <br />
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
                     <div class="item">
@@ -216,6 +219,9 @@ Learn more about our solution</span></div>
                             <div class="carousel-caption rhein-caption-text">                               
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">EPICOR FOR INTERIOR DESIGN</h1><span class="rhein-banner-heading-black">An ERP solution that gives you full control and visibility over your design projects</span></div>                                
                             </div>
+                            <br /> 
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
                     <div class="item">
@@ -223,6 +229,9 @@ Learn more about our solution</span></div>
                             <div class="carousel-caption rhein-caption-text">                               
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">EPICOR FOR INTERIOR DESIGN</h1><span class="rhein-banner-heading-black">Our ERP solution's objective is to continue building your business performance through optimization of resources</span></div>                                
                             </div>
+                            <br /> 
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
                      <div class="item">
@@ -231,6 +240,9 @@ Learn more about our solution</span></div>
                             <div class="carousel-caption rhein-caption-text">                              
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">EPICOR FOR INTERIOR DESIGN</h1><span class="rhein-banner-heading-black">While you focus on creating distinctive spaces, let our ERP create inefficiency in your business</span></div>
                                </div>
+                             <br />
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
                      <div class="item">
@@ -238,6 +250,9 @@ Learn more about our solution</span></div>
                             <div class="carousel-caption rhein-caption-text">                               
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">EPICOR FOR INTERIOR DESIGN</h1><span class="rhein-banner-heading-black">Our ERP technology gives your vintage classic look a modern touch. Learn more about our solution</span></div>                                
                             </div>
+                           <br />
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
                    
