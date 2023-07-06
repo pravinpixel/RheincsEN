@@ -139,7 +139,7 @@
                 margin-left: 60px !important;
             }
         }
-
+       
         .customh1 {
             font-size: 20px !important;
             color: #fff;
@@ -170,6 +170,11 @@
                 font-size: 20px;
                 margin-bottom: 10px !important;
             }
+        }
+         @media (min-width: 1200px) {
+        .top-space {
+            top: 70% !important;
+        }
         }
     </style>
     <!-- Google Code for HCM &amp; Manufacturing Big 3 Conversion Page -->
@@ -223,8 +228,8 @@
                                     <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
                                     <span class="rhein-banner-heading-black">Manage thousands of Sales SKUs easily and accurately and configure customer orders using the product configurator </span>
                                 </div> 
-                            </div><br /><br />
-                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                            </div>
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
@@ -235,8 +240,8 @@
                                     <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing </h1>
                                     <span class="rhein-banner-heading-black">Improve supply chain coordination, save inventory carrying costs, and improve production efficiency with optimised production and materials planning</span><br />
                                 </div>
-                            </div><br /><br />
-                              <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                            </div>
+                              <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                                                                                                                                                                                                                                                                 </div> 
                     </div>
@@ -248,8 +253,8 @@
                                     <span class="rhein-banner-heading-black">Get production visibility and track the exact progress of executing customer orders with the manufacturing execution system</span><br />
                                    
                                 </div>
-                            </div><br /><br />
-                              <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                            </div>
+                              <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
@@ -262,8 +267,8 @@
                                     <span class="rhein-banner-heading-black">Record all the costs related to production with resource timesheets, integration to machine PLCs, and manufacturing execution system</span><br />
                                     
                                 </div>
-                            </div><br /><br />
-                              <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                            </div>
+                              <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
@@ -275,8 +280,8 @@
                                     <span class="rhein-banner-heading-black">Avoid breakdowns and improve machine efficiency with a machine-integrated maintenance management system</span>
                                   
                                 </div>
-                            </div><br /><br />
-                              <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                            </div>
+                              <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>

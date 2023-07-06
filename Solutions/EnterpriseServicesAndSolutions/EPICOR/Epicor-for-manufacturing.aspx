@@ -147,6 +147,11 @@
              margin-bottom:10px !important;
          }
         }
+        @media (min-width: 1200px) {
+        .top-space {
+            top: 75% !important;
+        }
+        }
     </style>
         <!-- Google Code for HCM &amp; Manufacturing Big 3 Conversion Page -->
 <script type="text/javascript">
@@ -198,8 +203,8 @@ var google_remarketing_only = false;
                             <div class="carousel-caption rhein-caption-text">                                
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">EPICOR MANUFACTURING ERP SOFTWARE</h1><span class="rhein-banner-heading-black">RheinBrücke provides ERP solutions to manufacturers that enables them to meet the needs of their stakeholders with the flexibility required for today’s ever changing markets.</span></div>                               
                             </div>
-                            <br /><br /> <br /><br />
-                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                          
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
@@ -208,8 +213,8 @@ var google_remarketing_only = false;
                             <div class="carousel-caption rhein-caption-text">                               
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">ERP FOR MANUFACTURING INDUSTRY</h1><span class="rhein-banner-heading-black">With EPICOR ERP, manufacturers can integrate all their processes and data sources to leverage advance features which enables them to improve all the facets of their operations.</span></div>                                
                             </div>
-                            <br /><br /> <br /><br />
-                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                           
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
@@ -218,8 +223,8 @@ var google_remarketing_only = false;
                             <div class="carousel-caption rhein-caption-text">                               
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">RHEINBRÜCKE EPICOR ERP SOLUTION</h1><span class="rhein-banner-heading-black">We specialize in manufacturing solutions that are ideal from a broad range of sectors that allows you to train and support your business users around efficient processes and best practices.</span></div>                                
                             </div>
-                            <br /><br /> <br /><br />
-                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                            
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
@@ -229,8 +234,8 @@ var google_remarketing_only = false;
                             <div class="carousel-caption rhein-caption-text">                              
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">EPICOR MANUFACTURING SOFTWARE</h1><span class="rhein-banner-heading-black">Epicor and RheinBrücke can help manufacturers to reach new, industry-leading levels of business performance.</span></div>
                                </div>
-                             <br /><br />  
-                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                             
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
@@ -239,8 +244,8 @@ var google_remarketing_only = false;
                             <div class="carousel-caption rhein-caption-text">                               
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">MANUFACTURING ERP SYSTEM</h1><span class="rhein-banner-heading-black">Our solutions and templates provide the necessary flexibility, responding to individual, company specific conditions and processes in a detailed manner.</span></div>                                
                             </div>
-                           <br /><br /> <br /><br />
-                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                            
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
@@ -249,8 +254,8 @@ var google_remarketing_only = false;
                             <div class="carousel-caption rhein-caption-text">                               
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">EPICOR ERP IMPLEMENTATION PARTNER IN DUBAI</h1><span class="rhein-banner-heading-black">With Epicor you can optimize lean manufacturing to focus on the key priorities to make smarter decisions and increase customer satisfaction.</span></div>                                
                             </div>
-                            <br /><br /> <br /><br />
-                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                           
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>

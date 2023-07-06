@@ -154,7 +154,7 @@ var google_remarketing_only = false;
                             <div class="carousel-caption rhein-caption-text">                                
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><span class="rhein-banner-heading-black">We understand the challenges of the EPC companies and have developed an industry-specific ERP solution that integrates seamlessly into your existing technology infrastructure.</span></div>                               
                             </div>
-                            <br /> 
+                             
                             <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
@@ -164,7 +164,7 @@ var google_remarketing_only = false;
                             <div class="carousel-caption rhein-caption-text">                               
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><span class="rhein-banner-heading-black">Epicor has all the solutions you need to differentiate your business and meet or exceed market demand.</span></div>                                
                             </div>
-                            <br /> 
+                             
                             <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
@@ -174,7 +174,7 @@ var google_remarketing_only = false;
                             <div class="carousel-caption rhein-caption-text">                               
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><span class="rhein-banner-heading-black">Epicor and RheinBrücke can help your company to reach new, industry-leading levels of business performance.</span></div>                                
                             </div>
-                            <br /> 
+                             
                             <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
