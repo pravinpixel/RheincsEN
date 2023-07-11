@@ -550,9 +550,9 @@ var google_remarketing_only = false;
             </div>
 			<h3 class="redColor">RELATED LINKS</h3>
         <p class="related-links">
-                     <b><a href="https://en.rheincs.comrheinbrucke-solutions/cable-manufacturing">ERP for Cable manufacturing industry (success story)</a></b></p><br />
+                     <b><a href="https://en.rheincs.com/rheinbrucke-solutions/cable-manufacturing">ERP for Cable manufacturing industry (success story)</a></b></p><br />
 					 <p  class="related-links">
-                     <b><a href="https://en.rheincs.comsolutions/erp-enterprise-solutions-and-services/epicor">Epicor ERP Project implementation </a></b></p><br />
+                     <b><a href="https://en.rheincs.com/solutions/erp-enterprise-solutions-and-services/epicor">Epicor ERP Project implementation </a></b></p><br />
         <p class="related-links">
                       <b><a href="https://rheincs.com/news-events/rheinbrucke-epicor-international-partner-of-the-year-2018">Epicor platinum partners Europe | Germany | Netherlands | MiddleEast | Dubai | UAE</a></b></p>
 
