@@ -603,7 +603,7 @@
                             <h3 class="Ubuntu">Epicor Human Capital Management</h3>
                             <p>Epicor HCM is designed by HR industry professionals. Epicor HCM provides the businesses with the tools they need to track data systematically rather than manually thus giving businesses more time to pursue their strategic objectives.</p>
                             <p class="learnmore-btn">
-                                <a href="https://www.rheincs.com/rheinbrucke-solutions/hcm" target="_blank" class="btn nwbtn2" role="button">Learn more</a>
+                                <a href="https://en.rheincs.comrheinbrucke-solutions/hcm" target="_blank" class="btn nwbtn2" role="button">Learn more</a>
                             </p>
                         </div>
                     </div>
@@ -615,7 +615,7 @@
                             <h3 class="Ubuntu">RheinBrücke EpicPay Payroll Solution</h3>
                             <p>EpicPay is integrated with Epicor to provide you a Flexible, Responsive, Multi-company solution. Our solution is Compliant with local Laws, secure, provides integration with GL, calculates Pay, Deductions, Taxes & Increments</p>
                             <p class="learnmore-btn">
-                                <a href="https://www.rheincs.com/epicpay-smart-payroll-solution" target="_blank" class="btn nwbtn2" role="button">Learn more</a>
+                                <a href="https://en.rheincs.comepicpay-smart-payroll-solution" target="_blank" class="btn nwbtn2" role="button">Learn more</a>
                             </p>
                         </div>
                     </div>
@@ -627,7 +627,7 @@
                             <h3 class="Ubuntu">RheinBrücke Copy Company Tool</h3>
                             <p>Use our EPICOR Copy Company Tool to rapidly create clones of the Epicor setup for your multi-location rollouts. Our tool is Fast, Zero Error, Cost Effective, Efficient and has an Audit Trial. </p>
                             <p class="learnmore-btn">
-                                <a href="https://www.rheincs.com/rheinbrucke-cct-copy-company-tool" class="btn nwbtn2" role="button">Learn more</a>
+                                <a href="https://en.rheincs.comrheinbrucke-cct-copy-company-tool" class="btn nwbtn2" role="button">Learn more</a>
                             </p>
                         </div>
                     </div>

@@ -706,7 +706,7 @@
                 <br />
                 <div class="contentwithpadding">
                       
-                    <p class="bulletContent-business">Click <a class="link-text"  href="https://www.rheincs.com/solutions/consulting-and-advisory-solutions/program-and-project-management-services"><b><u>here</u></b></a> to know more about our ERP project implementation process.</p>
+                    <p class="bulletContent-business">Click <a class="link-text"  href="https://en.rheincs.comsolutions/consulting-and-advisory-solutions/program-and-project-management-services"><b><u>here</u></b></a> to know more about our ERP project implementation process.</p>
                 </div>
                 
                 <br />

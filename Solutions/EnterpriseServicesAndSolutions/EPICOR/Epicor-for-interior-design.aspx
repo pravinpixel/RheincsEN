@@ -598,9 +598,9 @@ COLLABORATION NETWORK</strong>
                     </div>
                   <h3 class="redColor">RELATED LINKS</h3>
         <p>
-                     <b><a href="https://www.rheincs.com/rheinbrucke-solutions/interior-design">Interior design solutions (success story)</a></b></p><br />
+                     <b><a href="https://en.rheincs.comrheinbrucke-solutions/interior-design">Interior design solutions (success story)</a></b></p><br />
 					 <p>
-                     <b><a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/epicor">Epicor ERP Project implementation</a></b></p><br />
+                     <b><a href="https://en.rheincs.comsolutions/erp-enterprise-solutions-and-services/epicor">Epicor ERP Project implementation</a></b></p><br />
         <p>
                       <b><a href="https://rheincs.com/news-events/rheinbrucke-epicor-international-partner-of-the-year-2018">Epicor platinum partners Europe | Germany | Netherlands | MiddleEast | Dubai | UAE</a></b></p>
          
