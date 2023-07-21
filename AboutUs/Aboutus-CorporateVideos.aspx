@@ -371,6 +371,8 @@
         </div>
         <!--Eof Third Row-->
 
+         <div class="clearfix">&nbsp;</div>
+
           <!-- Fourth Row-->
         <div class="col-md-12">
             <div class="row padd-bottom-10">
