@@ -387,7 +387,7 @@
                     <br />
 
                     <p class="contentSmall">
-                        <span class="video-thumbnail">RheinBrucke – FLSmidth Testimonial Video | Mads Madsbjerg Hansen
+                        <span class="video-thumbnail">RheinBrucke – FLSmidth Testimonial | Mads Madsbjerg Hansen
                         </span>
                         <br />
                         <a href="#" data-toggle="modal" data-target="#myModal14" data-videoid="Y3Kc616jPU0" data-videosite="youtube" class="video-class">Click to play video</a>
