@@ -370,6 +370,55 @@
             </div>
         </div>
         <!--Eof Third Row-->
+
+          <!-- Fourth Row-->
+        <div class="col-md-12">
+            <div class="row padd-bottom-10">
+                  <div class="col-md-4">
+
+
+                    <div class="video_thumb_box">
+                        <a href="#" data-toggle="modal" data-target="#myModal14" data-videoid="Y3Kc616jPU0" data-videosite="youtube">
+                            <img src="https://img.youtube.com/vi/Y3Kc616jPU0/0.jpg" alt="FLSmidth: RheinBrücke IT Consulting and Epicor Customer Testimonial Video | Mads Madsbjerg Hansen" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                                <img src="../Assets/images/play.png" class="wpvl_playbutton" />
+                            </div>
+                        </a>
+                    </div>
+                    <br />
+
+                    <p class="contentSmall">
+                        <span class="video-thumbnail">FLSmidth: RheinBrücke IT Consulting and Epicor Customer Testimonial Video | Mads Madsbjerg Hansen
+                        </span>
+                        <br />
+                        <a href="#" data-toggle="modal" data-target="#myModal14" data-videoid="Y3Kc616jPU0" data-videosite="youtube" class="video-class">Click to play video</a>
+                    </p>
+
+                </div>
+
+
+                <!--- Modal For Fourth Video-->
+                <div class="modal fade" id="myModal14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header pad-bottom21">
+                                <button type="button" onclick="javascript:window.location.reload()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <embed src="https://www.youtube.com/v/Y3Kc616jPU0?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End of Modal For Fourth Video-->
+                <!-- Eof Fourth Video-->
+                  
+                <!-- End of Modal For Seventh Video-->
+                <!-- Eof Seventh Video-->
+
+            </div>
+        </div>
+        <!--Eof Fourth Row-->
     </div>
     <!--eof videos-->
     <div class="clearfix">&nbsp;</div>

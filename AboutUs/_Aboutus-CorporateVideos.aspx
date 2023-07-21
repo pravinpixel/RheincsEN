@@ -348,6 +348,36 @@
             </div>
         </div>
         <!--Eof Third Row-->
+
+        <!-- Fourth Row-->
+        <div class="col-md-12">
+            <div class="row padd-bottom-10">
+                  <div class="col-md-4">
+
+                    <div class="video_thumb_box">
+                        <a href="#" data-toggle="modal" data-target="#myModal10" data-videoid="Y3Kc616jPU0" data-videosite="youtube">
+                            <img src="https://img.youtube.com/vi/Y3Kc616jPU0/0.jpg" alt="RheinBrücke – Customer Reference by Harry Hezel" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                                <img src="../Assets/images/play.png" class="wpvl_playbutton" />
+                            </div>
+                        </a>
+                    </div>
+                    <br />
+
+                    <p class="contentSmall">
+                        <span class="video-thumbnail">RheinBrücke – Customer Reference by Harry Hezel
+                        </span>
+                        <br />
+                        <a href="#" data-toggle="modal" data-target="#myModal10" data-videoid="Y3Kc616jPU0" data-videosite="youtube" class="video-class">Click to play video</a>
+                    </p>
+
+                </div>
+                  
+                <!-- End of Modal For Seventh Video-->
+                <!-- Eof Seventh Video-->
+
+            </div>
+        </div>
+        <!--Eof Fourth Row-->
     </div>
     <!--eof videos-->
     <div class="clearfix">&nbsp;</div>
