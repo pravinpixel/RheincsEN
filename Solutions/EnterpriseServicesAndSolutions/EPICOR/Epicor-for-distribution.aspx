@@ -374,7 +374,7 @@
                 </div>
                 <div class="modal-body">
                     <p>
-                        <input type="text" placeholder="Your Company Name" id="textCompany" class="write-to-us-input" />
+                        <input type="text" placeholder="*Your Company Name" id="textCompany" class="write-to-us-input" />
                     </p>
                     <span class="validator" id="reqcompanyName" hidden="hidden" style="font-size: 13px;">Enter Your Company name</span>
                     <span style="font-size: 13px;" class="validator" id="valcompanyname" hidden="hidden">Enter Valid Company Name</span>

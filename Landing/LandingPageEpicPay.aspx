@@ -535,7 +535,7 @@ Manage Payroll with <br/><strong>Epicor Payroll MEA</strong> </h2>
                     </div>
                       <div class="modal-body">
                         <p>
-                            <input type="text" placeholder="Your Company Name" id="txtpeppartnercompany" class="write-to-us-input" />
+                            <input type="text" placeholder="*Your Company Name" id="txtpeppartnercompany" class="write-to-us-input" />
                         </p>
                         <span style="margin-top: 5px;" class="validator text-left" id="reqpeppartnercompany" hidden="hidden">Enter Your Company Name </span>
                     </div>
