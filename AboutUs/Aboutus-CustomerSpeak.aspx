@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="Aboutus-CustomerSpeak.aspx.cs" Inherits="RheinBrucke.AboutUs.Aboutus_CustomerSpeak" %>
+﻿<%@ Page Title="RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="Aboutus-CustomerSpeak.aspx.cs" Inherits="RheinBrucke.AboutUs.Aboutus_CustomerSpeak" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="Rheinbrucke client testimonials, rheinbrucke achievements, ERP Consulting, Enterprise IT services, technology consulting services, IT solutions, rheinbrucke’s successful project implementations, rheinbrucke’s successful erp Implementations" />
-    <meta name="Description" content="RheinBrücke leverages its strong technical skills to deliver value to your business. Here’s what our customers have to say about us." />
+    <meta name="Description" content="RheinBrücke leverages its strong technical skills to deliver value to your business. Here’s what our customers have to say about us" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

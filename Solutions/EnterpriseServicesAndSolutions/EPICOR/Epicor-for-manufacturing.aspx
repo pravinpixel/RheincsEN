@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Epicor Erp | Manufacturing Software Erp | Epicor partner in dubai | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/RheincsLanding.Master" AutoEventWireup="true" CodeBehind="Epicor-for-manufacturing.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.Epicor_for_manufacturing" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
- <meta name="description" content="Epicor manufacturing software is a specialized solution for manufacturing industry. Click here to know about Epicor Manufacturing ERP software. RheinBrücke IT consulting is the largest Epicor partner in EMEAI in Epicor ERP implementation."/>
+ <meta name="description" content="Epicor manufacturing software is a specialized solution for manufacturing industry. Click here to know about Epicor Manufacturing ERP software. RheinBrücke IT consulting is the largest Epicor partner in EMEAI in Epicor ERP implementation"/>
 <meta name="keywords" content="erp for manufacturing industry, manufacturing erp software, cloud based erp, erp solutions for manufacturing, epicor manufacturing erp software, best erp system for manufacturing, cloud ERP for discrete manufacturing, best erp for process manufacturing, erp solutions for manufacturing, erp for manufacturers"/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">

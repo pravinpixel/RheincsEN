@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Epicor ERP Support | Epicor Help Desk | Epicor Support+ | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/RheincsLanding.Master" AutoEventWireup="true" CodeBehind="RIC-Epicor-Support.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.RIC_Epicor_Support" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-     <meta name="keywords" content="Epicor ERP Support, ERP support, Epicor software support, Epicor help desk, Epicor support desk, Software support, Epicor HCM support, Epicor Payroll MEA support"/> 
+     <meta name="keywords" content="Epicor ERP Support, ERP support, Epicor software support, Epicor help desk, Epicor support desk, Software support, Epicor HCM support, Epicor Payroll MEA support."/> 
     <meta name="Description" content="Are you an Epicor customer looking for premium support? RheinBrücke’s support help desk provides 3 levels of support and maintenance plans catering to your needs."/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">

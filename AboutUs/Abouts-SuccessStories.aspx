@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Success Stories | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="Abouts-SuccessStories.aspx.cs" Inherits="RheinBrucke.AboutUs.Abouts_SuccessStories" %>
  <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="Rheinbrucke client testimonials, rheinbrucke achievements, ERP Consulting, Enterprise IT services, technology consulting services, IT solutions, rheinbrucke’s successful project implementations, rheinbrucke’s successful erp Implementations, enhance business efficiency, smooth business operations, optimum it solution, it solution that enables business growth"/>
+    <meta name="keywords" content=" Rheinbrucke client testimonials, rheinbrucke achievements, ERP Consulting, Enterprise IT services, technology consulting services, IT solutions, rheinbrucke’s successful project implementations, rheinbrucke’s successful erp Implementations, enhance business efficiency, smooth business operations, optimum it solution, it solution that enables business growth"/>
     <meta name="Description" content="RheinBrücke leverages its strong technical skills to deliver value to your business. Here are our successful project implementations." />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

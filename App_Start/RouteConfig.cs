@@ -73,7 +73,7 @@ namespace RheinBrucke
 
             routes.MapPageRoute("merry_christmas-and-happy_new_year-2018", "merry_christmas-and-happy_new_year-2018", "~/Merry_Christmas-and-Happy_New_Year-2018.aspx");
             routes.MapPageRoute("merry_christmas-and-happy_new_year-2019", "merry_christmas-and-happy_new_year-2019", "~/Merry_Christmas-and-Happy_New_Year-2019.aspx");
-            routes.MapPageRoute("RheinBrücke-at-GITEX-2017", "Events/RheinBrücke-at-GITEX-2017", "~/Events/RheinBrücke-at-GITEX-2017.aspx");
+            routes.MapPageRoute("RheinBrï¿½cke-at-GITEX-2017", "Events/RheinBrï¿½cke-at-GITEX-2017", "~/Events/RheinBrï¿½cke-at-GITEX-2017.aspx");
             routes.MapPageRoute("RheinKontakt-2019", "Events/RheinKontakt-2019", "~/Events/RheinKontakt-2019.aspx");
             routes.MapPageRoute("RheinKontakt2019", "Events/RheinKontakt2019", "~/Events/RheinKontakt-2019-arab.aspx");
             routes.MapPageRoute("RheinKontakt2019-Cloud", "Events/RheinKontakt2019-Cloud-and-SmartTechnologies", "~/Events/RheinKontakt-2019-arab-cloud.aspx");
@@ -85,7 +85,7 @@ namespace RheinBrucke
             routes.MapPageRoute("JobReport", "job-report", "~/Admin/JobReport.aspx");
             routes.MapPageRoute("ContactReport", "contact-report", "~/Admin/ConatctReport.aspx");
             routes.MapPageRoute("MailConfig", "mail-config", "~/Admin/MailConfig.aspx");
-            routes.MapPageRoute("LandingReport", "Landing-report", "~/Admin/LandingReport.aspx");
+            routes.MapPageRoute("LandingReport", "Landing-report", "~/Admin/LandingReport.aspx"); 
             routes.MapPageRoute("career-model", "careers/career-model", "~/Careers/CareerModel.aspx");
             routes.MapPageRoute("career_model", "career-model", "~/Careers/CareerModel.aspx");
             routes.MapPageRoute("ManageNewsandEvents", "Manage-News-and-Events", "~/Admin/NewsEvents.aspx");
@@ -93,7 +93,7 @@ namespace RheinBrucke
             routes.MapPageRoute("ManageWebinars", "Manage-Webinars", "~/Admin/Webinars.aspx");
             routes.MapPageRoute("ManageWebinarsRecordings", "Manage-Webinars-Recordings", "~/Admin/WebinarsRecordings.aspx");
             routes.MapPageRoute("AdminHome", "Admin-Home", "~/Admin/AdminHome.aspx");
-            routes.MapPageRoute("RheinBrücke-at-MENA-summit-2018", "Events/RheinBrücke-at-MENA-summit-2018", "~/Events/RheinBrücke-at-MENA-summit-2018.aspx");
+            routes.MapPageRoute("RheinBrï¿½cke-at-MENA-summit-2018", "Events/RheinBrï¿½cke-at-MENA-summit-2018", "~/Events/RheinBrï¿½cke-at-MENA-summit-2018.aspx");
             routes.MapPageRoute("Thankyou-MENA-summit", "Events/thankyou-MENA-summit", "~/Events/thankyou-MENA-summit.aspx");
 
             routes.MapPageRoute("epicor-erp", "epicor-erp", "~/Landing/ERPLanding.aspx");

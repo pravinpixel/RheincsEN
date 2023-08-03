@@ -1,5 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Campaigns.Master" AutoEventWireup="true" CodeBehind="epicor-for-construction-and-epc-overview.aspx.cs" Inherits="RheinBrucke.rheinbrucke_solutions.epicor_for_construction_and_epc_overview" %>
+﻿<%@ Page Title="Construction Software | Engineering ERP Software | Procurement software|Epicor" Language="C#" MasterPageFile="~/Campaigns.Master" AutoEventWireup="true" CodeBehind="epicor-for-construction-and-epc-overview.aspx.cs" Inherits="RheinBrucke.rheinbrucke_solutions.epicor_for_construction_and_epc_overview" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
+    <meta name="keywords" content="ERP for construction management, construction and epc solutions, engineering procurement and construction management, construction erp software, erp software for construction industry, construction and epc softwares, best erp software for construction industry, construction erp modules, best erp for construction, best construction erp software, erp for construction company."/>
+    <meta name="Description" content="RheinBrücke provides specific industry vertival ERP software from Epicor for Engineering, Procurement and Construction." />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     <style>
