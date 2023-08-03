@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="Contact Us | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="ContactUs.aspx.cs" Inherits="RheinBrucke.ContactUs" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="RheinBrücke Contact RheinBrücke IT Consulting Services" />
-    <meta name="Description" content="Contact RheinBrücke for our IT consulting services and technology solutions including Program and Project Management, ERP Solutions aligned to SAP, Microsoft SharePoint and EPICOR and Open Source Technology platforms." />
+    <meta name="keywords" content="Contact RheinBrücke for our IT consulting services and technology solutions including Program and Project Management, ERP Solutions aligned to SAP, Microsoft SharePoint and EPICOR and Open Source Technology platforms" />
+    <meta name="Description" content="RheinBrücke Contact RheinBrücke IT Consulting Services" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

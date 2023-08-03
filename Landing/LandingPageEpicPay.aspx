@@ -1,8 +1,8 @@
-﻿ <%@ Page Title="Are you looking for the best payroll software? [Click here to explore] | Payroll Software Dubai | Payroll HR System | Payroll Processing | Epicor Payroll MEA" Language="C#" MasterPageFile="~/LandingPageEpic.Master" AutoEventWireup="true" CodeBehind="LandingPageEpicPay.aspx.cs" Inherits="RheinBrucke.Landing.LandingPageEpicPay" %>
+﻿ <%@ Page Title="	Are you looking for the best payroll software? [Click here to explore] | Payroll Software Dubai | Payroll HR System | Payroll Processing | Epicor Payroll MEA" Language="C#" MasterPageFile="~/LandingPageEpic.Master" AutoEventWireup="true" CodeBehind="LandingPageEpicPay.aspx.cs" Inherits="RheinBrucke.Landing.LandingPageEpicPay" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="payroll software, easy payroll software, payroll processing software, best payroll software, payroll hr systems, payroll hr software, hrms dubai, payroll software features, Epicor ERP, epicor erp implementation partners" />
-    <meta name="Description" content="Best payroll software with Employee Self Service, customized to meet country-specific employee regulations for UAE, Bahrain, Oman, Kuwait, Saudi Arabia and Australia and seamlessly integrate with Epicor version 10 and above." />
+    <meta name="Description" content="Best payroll software with Employee Self Service, customized to meet country-specific employee regulations for UAE, Bahrain, Oman, Kuwait, Saudi Arabia and Australia and seamlessly integrate with Epicor version 10 and above" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     <title>Epicor Payroll MEA</title>

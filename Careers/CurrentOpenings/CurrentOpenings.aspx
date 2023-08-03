@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="IT consulting careers, IT consulting jobs, technology consulting jobs, job openings, ERP Jobs, Epicor Jobs, SAP Jobs" />
-    <meta name="Description" content="We offer global employment on a large variety of expertise. We operate in 4 continents and constantly look for new talent to strengthen our teams. " />
+    <meta name="Description" content="We offer global employment on a large variety of expertise. We operate in 4 continents and constantly look for new talent to strengthen our teams." />
     <%--<asp:ScriptManager ID="ScriptManager1" runat="server" />--%>
 </asp:Content>
 

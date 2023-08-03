@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Webinars |  RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="webinars-list.aspx.cs" Inherits="RheinBrucke.Resources.webinars.webinars_list" %>
+﻿<%@ Page Title="Webinars | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="webinars-list.aspx.cs" Inherits="RheinBrucke.Resources.webinars.webinars_list" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="Webinars" />

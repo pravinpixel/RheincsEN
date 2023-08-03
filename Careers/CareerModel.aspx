@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="Career model, IT consulting careers, IT consulting jobs, technology consulting jobs, job openings, ERP Jobs, openings at rheinbrucke, careers"/>
-    <meta name="Description" content="We offer a talent-based, delivery-oriented career model and a personally fulfilling career wherein every individual has a direct impact on our success." />
+    <meta name="Description" content="We offer a talent-based, delivery-oriented career model and a personally fulfilling career wherein every individual has a direct impact on our success" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

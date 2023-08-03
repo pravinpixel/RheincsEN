@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Resources: Brochures | RheinBrücke" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="brochure.aspx.cs" Inherits="RheinBrucke.Brochure.Brochure" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="ERP solution, ERP implementation, ERP, Strategic Sourcing, Epicor ERP, eProcurement" />
-    <meta name="description" content="Download collateral from RheinBrücke " />
+    <meta name="keywords" content="Download collateral from RheinBrücke" />
+    <meta name="description" content="ERP solution, ERP implementation, ERP, Strategic Sourcing, Epicor ERP, eProcurement" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

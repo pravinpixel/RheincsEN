@@ -1,8 +1,8 @@
-﻿<%@ Page Title="Open Source Technologies | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="OpenSourceTechnologies.aspx.cs" Inherits="RheinBrucke.Solutions.IPAndProductDevelopmentServices.OpenSourceTechnologies" %>
+﻿<%@ Page Title="Technology Support for Product Start Ups | RIC" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="OpenSourceTechnologies.aspx.cs" Inherits="RheinBrucke.Solutions.IPAndProductDevelopmentServices.OpenSourceTechnologies" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="open source, cms, application management services, open source project management, open source technology, system integration, application development and testing, migration and integration services, portals, content management systems" />
-    <meta name="Description" content="We deliver flexible IT solutions by using Open Source Technologies enabling our clients to deploy enterprise portals with ERP platforms to improve productivity " />
+    <meta name="keywords" content="product startups independent testing, it support for startups, starting a small business, technology support, technology advisory and implementation, consulting for startups, technology support for smes, it outsourcing, startup consulting, it support for small business, MVP creation, mock up, prototyping" />
+    <meta name="Description" content="RheinBrücke provides services ranging from Conceptualization, Elaboration, MVP Creation, Development and Transition for your startup" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

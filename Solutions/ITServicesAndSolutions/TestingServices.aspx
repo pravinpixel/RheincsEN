@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Testing Services |  RheinBrücke IT Consulting " Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="TestingServices.aspx.cs" Inherits="RheinBrucke.Solutions.ITServicesAndSolutions.TestingServices" %>
+﻿<%@ Page Title="Testing Services | RheinBrücke IT Consulting " Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="TestingServices.aspx.cs" Inherits="RheinBrucke.Solutions.ITServicesAndSolutions.TestingServices" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="software testing services and tools, black box testing, white box testing, structural testing, functional testing, performance testing, agile testing methodologies, testing strategy, test automation tools, test management methodologies and tools, quality testing services, Regression testing, performance testing, load testing, stress testing" />

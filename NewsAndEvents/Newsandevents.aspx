@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="News & Events | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="Newsandevents.aspx.cs" Inherits="RheinBrucke.NewsAndEvents.Newsandevents" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="RheinBrücke Newsroom, Newsroom, RheinBrücke News, RheinBrücke Events, Events, RheinBrücke News and Events, News and Events." />
-    <meta name="Description" content="The latest in news and events from RheinBrücke, giving you insights on the recent developments in our organization." />
+    <meta name="keywords" content="RheinBrücke Newsroom, Newsroom, RheinBrücke News, RheinBrücke Events, Events, RheinBrücke News and Events, News and Events" />
+    <meta name="Description" content="The latest in news and events from RheinBrücke, giving you insights on the recent developments in our organization" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">  

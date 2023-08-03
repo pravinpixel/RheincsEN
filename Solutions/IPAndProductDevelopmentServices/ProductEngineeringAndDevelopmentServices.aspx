@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Product Engineering & Development Services | RIC" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="ProductEngineeringAndDevelopmentServices.aspx.cs" Inherits="RheinBrucke.Solutions.IPAndProductDevelopmentServices.ProductEngineeringAndDevelopmentServices" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="product development, sdlc, product engineering, new product design and development, custom product development, opd outsourced product development, MVP project software prototyping and mock-up, software product maintenance and support, outsourcing software development, product development company "/>
+    <meta name="keywords" content="product development, sdlc, product engineering, new product design and development, custom product development, opd outsourced product development, MVP project software prototyping and mock-up, software product maintenance and support, outsourcing software development, product development company"/>
     <meta name="Description" content="RheinBrücke has experienced Project Managers that ensure your projects are delivered on time, within budget, with high quality standards & without disruptions." />
 </asp:Content>
 

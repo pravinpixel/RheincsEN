@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Corporate Videos | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="Aboutus-CorporateVideos.aspx.cs" Inherits="RheinBrucke.AboutUs.Aboutus_CorporateVideos" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="Corporate Videos, ERP Consulting, Enterprise IT services,  technology consulting services, solutions 
+    <meta name="keywords" content="Corporate Videos, ERP Consulting, Enterprise IT services,  technology consulting services, solutions
 " />
     <meta name="Description" content="RheinBrücke is an IT Consulting company that offers best in class service. View our videos to keep in touch with the latest updates, events & news about us." />
 </asp:Content>

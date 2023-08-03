@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Program & Project Management | RIC" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="ProgramAndProjectManagement.aspx.cs" Inherits="RheinBrucke.Solutions.ConsultingAndAdvisorySolutions.ProgramAndProjectManagement" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="software evaluation, program management, project management, pmp certified consultants, it project change management, strategy and project management, it project risk management, project management services and performance dashboard, successful project management, project governance"/>
+    <meta name="keywords" content=" software evaluation, program management, project management, pmp certified consultants, it project change management, strategy and project management, it project risk management, project management services and performance dashboard, successful project management, project governance"/>
     <meta name="Description" content="RheinBrücke has experienced Project Managers that ensure your projects are delivered on time, within budget, with high quality standards & without disruptions." />
 </asp:Content>
 
