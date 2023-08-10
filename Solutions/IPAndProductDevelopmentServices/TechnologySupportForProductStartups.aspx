@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="product startups independent testing, it support for startups, starting a small business, technology support, technology advisory and implementation, consulting for startups, technology support for smes, it outsourcing, startup consulting, it support for small business, MVP creation, mock up, prototyping"/>
-    <meta name="Description" content="RheinBrücke provides services ranging from Conceptualization, Elaboration, MVP Creation, Development and Transition for your startup. " />
+    <meta name="Description" content="RheinBrücke provides services ranging from Conceptualization, Elaboration, MVP Creation, Development and Transition for your startup." />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

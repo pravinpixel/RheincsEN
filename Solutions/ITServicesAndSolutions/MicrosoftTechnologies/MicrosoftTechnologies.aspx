@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Microsoft Technologies | RheinBrücke IT Consulting " Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="MicrosoftTechnologies.aspx.cs" Inherits="RheinBrucke.Solutions.ITServicesAndSolutions.MicrosoftTechnologies.MicrosoftTechnologies" %>
+﻿<%@ Page Title="	Microsoft Technologies | RheinBrücke IT Consulting " Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="MicrosoftTechnologies.aspx.cs" Inherits="RheinBrucke.Solutions.ITServicesAndSolutions.MicrosoftTechnologies.MicrosoftTechnologies" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="microsoft partners in india germany europe middle east dubai netherlands, microsoft sharepoint consultants, microsoft consulting companies, project management, microsoft sharepoint solutions and implementation, microsoft business intelligence bi solutions, bi tools and support, microsoft bi solutions and power bi, .net framework, sql server" />
