@@ -472,7 +472,7 @@ Their hard work &amp; efforts, as well as the willingness to accommodate to Mala
                             </div>
                             <div class="modal-body">
                                 <%--<iframe src="#" id="homeVideoIframe" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
-                                <embed src="#" id="homeVideoIframe" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
+                                <%--<embed src="#" id="homeVideoIframe" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>--%>
                             </div>
                         </div>
                     </div>
