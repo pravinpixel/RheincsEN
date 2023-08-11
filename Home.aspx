@@ -271,7 +271,7 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     </div>
                     <div class="modal-body">
-                        <iframe src="#" id="homeVideoIframe" style="width: 100%;" height="480" frameborder="no"></iframe>
+                        <!--<iframe src="#" id="homeVideoIframe" style="width: 100%;" height="480" frameborder="no"></iframe>-->
                     </div>
                 </div>
             </div>
