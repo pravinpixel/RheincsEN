@@ -11,6 +11,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml;
 using RheinBrucke.Data;
+using System.Net;
+
 namespace RheinBrucke.Library
 {
     public class MailComponent
@@ -48,7 +50,8 @@ namespace RheinBrucke.Library
             mailObj.MailFrom = _mailSettings.EmailId;
             System.Net.Mail.MailMessage message = new System.Net.Mail.MailMessage();
             //mailObj.MailFrom, mailObj.MailTo, mailObj.MailSubject, mailObj.MailBody
-          
+            System.Net.ServicePointManager.SecurityProtocol =
+           SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
             message.To.Add(new MailAddress(mailObj.MailTo, ""));
             message.From = new MailAddress(mailObj.MailFrom, "");
             message.Subject = mailObj.MailSubject;
