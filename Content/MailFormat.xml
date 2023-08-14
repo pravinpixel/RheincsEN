@@ -273,7 +273,7 @@ respect to other positions that become available in the future.</p>
         </tr>
         <tr align="left" style="background-color:#fff">
           <th style="width:100px" align="left">Company</th>
-          <td>@@Company</td>
+          <td>@@CompanyName</td>
         </tr>
         <tr align="left" style="background-color:#fff">
           <th align="left">Message:</th>
