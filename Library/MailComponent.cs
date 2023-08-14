@@ -120,9 +120,9 @@ namespace RheinBrucke.Library
                         int Port = _mailDetails.Port == null ? Convert.ToInt32("") : Convert.ToInt32(_mailDetails.Port);
                         string CustomSMTP = _mailDetails.CustomSMTP == null ? "" : _mailDetails.CustomSMTP;
                         string LoginPassword = _mailDetails.Password == null ? "" : _mailDetails.Password;
-
                         bool EnableSSL = _mailDetails.EnableSSL == true ? true : false;
-
+                        System.Net.ServicePointManager.SecurityProtocol =
+          SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
                         client = new System.Net.Mail.SmtpClient(CustomSMTP, Port);
                         client.EnableSsl = EnableSSL;
                         client.UseDefaultCredentials = false;

@@ -290,7 +290,9 @@
     </div>
     </div>--%>
      <!--Eof Gitex image-->
+     <script type="text/javascript" src="Assets/js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript">
+        
         $(document).ready(function () {
             var Count = 0;
             var URI = window.location.pathname;

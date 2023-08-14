@@ -6,175 +6,172 @@
     <title>RheinBrücke IT Consulting</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <!--leadfeeder code -->
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-w[l] = w[l] || []; w[l].push({
-'gtm.start':
-new Date().getTime(), event: 'gtm.js'
-}); var f = d.getElementsByTagName(s)[0],
-j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-})(window, document, 'script', 'dataLayer', 'GTM-WHPH6XN');</script>
+	<!--leadfeeder code -->
+	<!-- Google Tag Manager --> 
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WHPH6XN');</script>
+<!-- End Google Tag Manager -->
 
-    <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-2XTG321QD3"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-2XTG321QD3'); </script>
-    <!-- End Google Tag Manager -->
-
-    <!-- end of leadfeeder code -->
+	<!-- end of leadfeeder code -->
     <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
     <style>
-        ul.social_share_privacy_area li .info {
+	 ul.social_share_privacy_area li .info {
             display: none !important;
         }
-
         body {
             opacity: 0;
         }
-
-
-        .gitex-banner-container {
-            position: fixed;
-            background: rgba(0, 0, 0, 0.6);
-            top: 0px;
-            left: 0px;
-            z-index: 9999;
-            width: 100%;
-            height: 100%;
+		
+		
+		 .gitex-banner-container
+        {
+            position: fixed; 
+            background:rgba(0, 0, 0, 0.6); 
+            top:0px; 
+            left:0px; 
+            z-index:9999; 
+            width:100%; 
+            height:100%;
         }
-
-        .gitex-banner-img {
-            position: relative;
-            top: 30%;
-            left: 0%;
+        .gitex-banner-img
+        {
+            position:relative; top:30%; left:0%; 
         }
-
-        .gitex-banner-img-shadow {
-            border: 2px solid #999; /*box-shadow: 1px 1px 1px 1px #b72695;*/
+        .gitex-banner-img-shadow
+        {
+           border: 2px solid #999; /*box-shadow: 1px 1px 1px 1px #b72695;*/
         }
-
-        .gitex-img {
-            cursor: pointer;
+        .gitex-img
+        {
+            cursor:pointer;
         }
-
-        .close-button-position {
-            position: absolute;
-            background: #b72695;
-            border-radius: 12px;
-            height: 28px;
-            width: 26px;
-            padding: 3px;
-            top: -4%;
-            left: 71.3%;
-            cursor: pointer;
+        .close-button-position
+        {
+                position: absolute;
+                background: #b72695;
+                border-radius: 12px;
+                height: 28px;
+                width: 26px;
+                padding: 3px;
+                top: -4%;
+                left: 71.3%;
+                cursor:pointer;
         }
-
-        .close-icon-white {
-            color: #fff;
-            padding: 6px;
+        .close-icon-white
+        {
+            color:#fff;
+            padding:6px;
         }
-
-        @media (min-width: 348px) and (max-width: 620px) {
-            .close-button-position {
+        
+       @media (min-width: 348px) and (max-width: 620px) 
+        {
+         .close-button-position
+        {
+               
                 left: 74.3%;
-            }
         }
-
-        @media (min-width:621px) and (max-width: 640px) {
-            .close-button-position {
+        }
+        @media (min-width:621px) and (max-width: 640px) 
+        {
+        .close-button-position
+        {
+               
                 left: 68.3%;
-            }
         }
-
-        @media (min-width:641px) and (max-width: 768px) {
-            .close-button-position {
+        }
+        @media (min-width:641px) and (max-width: 768px) 
+        {
+        .close-button-position
+        {
+               
                 left: 88.3%;
-            }
         }
-
-        @media (min-width:769px) and (max-width: 1024px) {
-            .close-button-position {
+        }
+         @media (min-width:769px) and (max-width: 1024px) 
+        {
+        .close-button-position
+        {
+               
                 left: 78.3%;
-            }
         }
-
-        @media only screen and (max-width: 335px) {
-            .close-button-position {
+        }
+         @media only screen and (max-width: 335px)
+        {
+         .close-button-position
+        {
+                
                 left: 86.3%;
-            }
         }
-
-        .custom-form.modal-dialog button.close {
-            font-size: 16px;
-            color: #fff;
-            background: #EC1D23;
-            opacity: 1;
-            border-radius: 50%;
-            height: 30px;
-            width: 30px;
-            line-height: 30px;
-            z-index: 99;
-            position: absolute;
-            top: -10px;
-            right: -25px;
         }
-
-        .modal-dialog.custom-form.pop-ups {
-            width: 480px;
-            margin: 30px auto;
-        }
-
-        @media (max-width: 768px) {
-            .modal-dialog.custom-form.pop-ups {
-                width: 92%;
-                margin: 30px auto;
-            }
-        }
+	.custom-form.modal-dialog button.close {
+		font-size: 16px;
+		color: #fff;
+		background: #EC1D23;
+		opacity: 1;
+		border-radius: 50%;
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+		z-index: 99;
+		position: absolute;
+		top: -10px;
+		right: -25px;
+	}
+	.modal-dialog.custom-form.pop-ups {
+		width: 480px;
+		margin: 30px auto;
+	}
+	@media (max-width: 768px){
+	.modal-dialog.custom-form.pop-ups {
+		width: 92%;
+		margin: 30px auto;
+	}
+	}
     </style>
 
-    <script type="text/javascript">function load_css_async(filename) {
-if (document.createStyleSheet) document.createStyleSheet(filename);
-else {
-    var stylesheet = document.createElement('link');
-    stylesheet.href = filename;
-    stylesheet.rel = 'stylesheet';
-    stylesheet.type = 'text/css';
-    document.getElementsByTagName('head')[0].appendChild(stylesheet);
-}
-}</script>
-
+    <script type="text/javascript">function load_css_async(filename) {  if (document.createStyleSheet) document.createStyleSheet(filename);
+            else {
+                var stylesheet = document.createElement('link');
+                stylesheet.href = filename;
+                stylesheet.rel = 'stylesheet';
+                stylesheet.type = 'text/css';
+                document.getElementsByTagName('head')[0].appendChild(stylesheet);
+            } }</script>
+    
     <%=cssload %>
     <script>
-        load_css_async("/Assets/css/OverSheet.css");
-    </script>
+load_css_async("/Assets/css/OverSheet.css");
+</script>
     <%--
     <link href="https://en.rheincs.com/Assets/css/bxSlider.css" rel="stylesheet" />--%>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-
+  
     <%--
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cryptico/0.0.1343522940/cryptico.js" type="text/javascript" defer></script>
     <script type="text/javascript">eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP4UHwKu8YqmGPgLDRsc6xrv4Vobm6YtnrCyinDidcap+pCtd6DYJ1MUDlGKIbUCLo1/pIt1V8JGFq6Hm3TZpYKYjWTHmoS51k9nEynLL/tNaT6HnxtA=?5nlWqA30BgqEuIADjWNRHBYv2+VXMrzNy4Hh6m7SfYtMsCR0ll8pGr3+JnrfygdcVe3nijIj4F5gA4ClKimK+hRCRfT7t2GcWXSTMeLQNUUC/iWpYo00bhxQgMcR0tq18avJuhiDf7FLxp08hlqBN54cHPEI5WV30tnfjN/X+O+G5loZQEMZVZ/xpFpF9yeaHpO2tFc7SXH/dJOBSeHT3NMbTPjeBda9JGagnS1PT4E0RqhX2EGY6DoGzXLS4TcO8plIJAkGZv6SG67A+DClxD7vahP008EPpBBzCeVhBjEhnVq1TunPmaNFzEpgkSIlIyiIH2wtO94vyEOfqME0tQpJ+IPHAVvScp1lNyqeW1D4pGaPOys8F0uuqxL+4ZmX3HcLaUyONTWQ6EqEh/32qKeBkg7EqKdXMUIZ6LKw/8PFiRDY/EvUI7DtjAydShLe7AeKit1qhxImq4pU2hV6qw==', cryptico.generateRSAKey('45b2995aaef446a79ee7c81f9fe59fc1', 1024)).plaintext);</script>--%>
-    <script src='//cdn.freshmarketer.com/195245/632861.js'></script>
+<script src='//cdn.freshmarketer.com/195245/632861.js'></script>
 
-
-    <script> window.factors = window.factors || function () { this.q = []; var i = new CustomEvent("FACTORS_QUEUED_EVENT"), n = function (t, e) { this.q.push({ k: t, a: e }), window.dispatchEvent(i) }; return this.track = function (t, e, i) { n("track", arguments) }, this.init = function (t, e, i) { this.TOKEN = t, this.INIT_PARAMS = e, this.INIT_CALLBACK = i, window.dispatchEvent(new CustomEvent("FACTORS_INIT_EVENT")) }, this.reset = function () { n("reset", arguments) }, this.page = function (t, e) { n("page", arguments) }, this.updateEventProperties = function (t, e) { n("updateEventProperties", arguments) }, this.identify = function (t, e) { n("identify", arguments) }, this.addUserProperties = function (t) { n("addUserProperties", arguments) }, this.getUserId = function () { n("getUserId", arguments) }, this.call = function () { var t = { k: "", a: [] }; if (arguments && 1 <= arguments.length) { for (var e = 1; e < arguments.length; e++) t.a.push(arguments[e]); t.k = arguments[0] } this.q.push(t), window.dispatchEvent(i) }, this.init("yyq3qwq23c7r4rq7o5refttcg39ju39m"), this }(), function () { var t = document.createElement("script"); t.type = "text/javascript", t.src = "https://app.factors.ai/assets/v1/factors.js", t.async = !0, d = document.getElementsByTagName("script")[0], d.parentNode.insertBefore(t, d) }(); </script>
-
+  
+  <script> window.factors=window.factors||function(){this.q=[];var i=new CustomEvent("FACTORS_QUEUED_EVENT"),n=function(t,e){this.q.push({k:t,a:e}),window.dispatchEvent(i)};return this.track=function(t,e,i){n("track",arguments)},this.init=function(t,e,i){this.TOKEN=t,this.INIT_PARAMS=e,this.INIT_CALLBACK=i,window.dispatchEvent(new CustomEvent("FACTORS_INIT_EVENT"))},this.reset=function(){n("reset",arguments)},this.page=function(t,e){n("page",arguments)},this.updateEventProperties=function(t,e){n("updateEventProperties",arguments)},this.identify=function(t,e){n("identify",arguments)},this.addUserProperties=function(t){n("addUserProperties",arguments)},this.getUserId=function(){n("getUserId",arguments)},this.call=function(){var t={k:"",a:[]};if(arguments&&1<=arguments.length){for(var e=1;e<arguments.length;e++)t.a.push(arguments[e]);t.k=arguments[0]}this.q.push(t),window.dispatchEvent(i)},this.init("yyq3qwq23c7r4rq7o5refttcg39ju39m"),this}(),function(){var t=document.createElement("script");t.type="text/javascript",t.src="https://app.factors.ai/assets/v1/factors.js",t.async=!0,d=document.getElementsByTagName("script")[0],d.parentNode.insertBefore(t,d)}(); </script>
+  
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body class="cbp-spmenu-push">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHPH6XN"
+<!-- Google Tag Manager (noscript) --> 
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHPH6XN"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+<!-- End Google Tag Manager (noscript) -->
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2XTG321QD3"></script>
-    <script>   window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-2XTG321QD3'); </script>
+<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-2XTG321QD3"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-2XTG321QD3'); </script>
 
 
 
 
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -532,31 +529,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
     ]
   }
-    </script>
+</script>
     <a id="showLeft1" style="z-index: 1111;" class="slider-menu-icon mobilemenu mobilemenu-color-main-color-hover" href="#"><i class="fa fa-bars"></i></a>
     <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s2">
         <div class="pull-right closeicon" id="HideLeft1"><i class="fa fa-times"></i></div>
         <div class="mobilemenu-header">
-            <div class="header-search">
+			<div class="header-search">
                 <div class="col-md-3 no-padding  float-left">
                     <div class="col-md-6">
                         <!--class="mobile-multi-language">-->
-                        <div>
-                            <a href="http://de.rheincs.com" class="mobl-lang">DE</a>&nbsp;/&nbsp;<a href="https://en.rheincs.com" class="mobl-lang">EN | </a>
-                            <div id="blogid" style="display: inline-block;">
-                                <a style="color: white; font-size: 13px; font-family: 'Raleway';"
-                                    href="https://blog.rheincs.com">BLOG</a>
-                            </div>
-                        </div>
-
+                        <div ><a href="http://de.rheincs.com" class="mobl-lang">DE</a>&nbsp;/&nbsp;<a href="https://en.rheincs.com" class="mobl-lang">EN | </a><div id="blogid" style="display:inline-block;">
+                        <a style="color: white; font-size: 13px; font-family: 'Raleway';"
+                           href="https://blog.rheincs.com">BLOG</a>
+                    </div></div>
+                         
                     </div>
-                    <div style="display: none;" class="">
+                    <div style="display:none;" class="">
                         <div class="textSearchMobile">
                             <input type="text" class="Search-text-box" id="search-input-mobile" placeholder="SEARCH" onfocus="this.placeholder=''" onblur="this.placeholder='SEARCH'" /><i class="fa fa-search Searchicon mobilesearch-closeicon" id="mob-search"></i>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>            
         </div>
         <ul class="mobilmenu-ul">
             <li class="mobilemenu-level1"><a href="<%=rootpath %>" class="Level1-menu ETMenu"><span class="mobilemenu-border-bottom">Home</span></a></li>
@@ -567,7 +561,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <li><a href="<%=rootpath %>about-us/leadership" class="Level2small-menu ETMenu"><span>Leadership</span></a></li>
                     <li><a href="<%=rootpath %>about-us/customer-speak" class="Level2small-menu ETMenu"><span>Customer Speak</span></a></li>
                     <li><a href="<%=rootpath %>about-us/success-stories" class="Level2small-menu ETMenu"><span>Success Stories</span></a></li>
-
+                   
 
                 </ul>
             </li>
@@ -588,8 +582,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <ul>
 
                             <li><a href="<%=rootpath %>Epicor-Payroll-MEA" class="Level3-menu ETMenu"><span>Epicor-Payroll-MEA</span></a></li>
-                            <!--  <li><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="Level3-menu ETMenu"><span>Copy Company Tool</span></a></li>-->
-                            <!-- <li><a href="<%=rootpath %>ppa-power-plant-analytics" class="Level3-menu ETMenu"><span>Power Plant Analytics</span></a></li>-->
+                          <!--  <li><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="Level3-menu ETMenu"><span>Copy Company Tool</span></a></li>-->
+                           <!-- <li><a href="<%=rootpath %>ppa-power-plant-analytics" class="Level3-menu ETMenu"><span>Power Plant Analytics</span></a></li>-->
                             <li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software" class="Level3-menu ETMenu"><span>MeRLIN – Strategic Sourcing Software</span></a></li>
                         </ul>
                     </li>
@@ -605,25 +599,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Enterprise Solutions (ERP) & Services</span></a>
                         <ul>
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="Level3-menu ETMenu"><span>SAP</span></a></li>
-                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud" class="Level3-menu ETMenu"><span>Epicor Cloud</span></a>
+                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud" class="Level3-menu ETMenu"><span>Epicor Cloud</span></a>
                                 <!-- <ul>
                                      <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP" class="Level3-menu ETMenu"><span>Gartner Magic Quadrant for Cloud ERP</span></a></li></ul>-->
                             </li>
-                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="Level3-menu ETMenu"><span>EPICOR</span></a>
+							<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="Level3-menu ETMenu"><span>EPICOR</span></a>
 
-                                <ul>
-                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing" class="Level3-menu ETMenu"><span>For Manufacturing</span></a></li>
-                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing" class="Level3-menu ETMenu"><span>For Cable Manufacturing</span></a></li>
-                                       <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-wire-rope-manufacturing" class="Level3-menu ETMenu"><span>For Wire Rope Manufacturing</span></a></li>
-                                    <!--  <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software" class="Level3-menu ETMenu"><span>For Distribution</span></a></li>-->
-                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design" class="Level3-menu ETMenu"><span>For Interior Design</span></a></li>
-                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC" class="Level3-menu ETMenu"><span>For Construction & EPC</span></a></li>
-                                    <!-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" class="Level3-menu ETMenu"><span>Epicor HCM</span></a></li>-->
-                                    <!-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software" class="Level3-menu ETMenu"><span>Epicor Iscala for Hospitality</span></a></li>-->
-
-                                </ul>
+                                 <ul>
+                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing" class="Level3-menu ETMenu"><span>For Manufacturing</span></a></li>
+                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing" class="Level3-menu ETMenu"><span>For Cable Manufacturing</span></a></li>
+                                   <!--  <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software" class="Level3-menu ETMenu"><span>For Distribution</span></a></li>-->
+									 <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design" class="Level3-menu ETMenu"><span>For Interior Design</span></a></li>
+									 <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC" class="Level3-menu ETMenu"><span>For Construction & EPC</span></a></li>
+                                   <!-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" class="Level3-menu ETMenu"><span>Epicor HCM</span></a></li>-->
+				                   <!-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software" class="Level3-menu ETMenu"><span>Epicor Iscala for Hospitality</span></a></li>-->
+                               
+							   </ul>
                             </li>
-                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering" class="Level3-menu ETMenu"><span>Epicor Support+</span></a></li>
+							<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering" class="Level3-menu ETMenu"><span>Epicor Support+</span></a></li>
                             <!--<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi" class="Level3-menu ETMenu"><span>Business Intelligence</span></a></li>-->
                         </ul>
                     </li>
@@ -645,21 +638,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </li>
                 </ul>
             </li>
-            <li><a href="#" class="mobilemenu-level1 Level1-menu"><span class="mobilemenu-border-bottom">Resources</span></a>
+         <li><a href="#" class="mobilemenu-level1 Level1-menu"><span class="mobilemenu-border-bottom">Resources</span></a>
                 <ul>
-                    <li><a href="https://blog.rheincs.com" class="Level2small-menu ETMenu"><span>Blog</span></a></li>
-                    <li><a href="<%=rootpath %>resources/webinars/webinars-list" class="Level2small-menu ETMenu"><span>Webinars</span></a></li>
-                    <li><a href="<%=rootpath %>resources/webinars/webinars-recordings" class="Level2small-menu ETMenu"><span>Webinars Recordings</span></a></li>
+                     <li><a href="https://blog.rheincs.com" class="Level2small-menu ETMenu"><span>Blog</span></a></li>
+					 <li><a href="<%=rootpath %>resources/webinars/webinars-list" class="Level2small-menu ETMenu"><span>Webinars</span></a></li>
+					 <li><a href="<%=rootpath %>resources/webinars/webinars-recordings" class="Level2small-menu ETMenu"><span>Webinars Recordings</span></a></li>
                     <li><a href="<%=rootpath %>whitePapers/whitepapers" class="Level2small-menu ETMenu"><span>White Papers</span></a></li>
                     <li><a href="<%=rootpath %>brochure/brochures" class="Level2small-menu ETMenu"><span>Brochures</span></a></li>
-                    <li><a href="<%=rootpath %>Factsheets/Factsheets" class="Level2small-menu ETMenu"><span>Factsheets</span></a></li>
-                    <li><a href="https://casestudy.rheincs.com/" class="Level2small-menu ETMenu"><span>Case Studies</span></a></li>
+					 <li><a href="<%=rootpath %>Factsheets/Factsheets" class="Level2small-menu ETMenu"><span>Factsheets</span></a></li>
+                     <li><a href="https://casestudy.rheincs.com/" class="Level2small-menu ETMenu"><span>Case Studies</span></a></li>                              
                     <li><a href="<%=rootpath %>about-us/corporate-videos" class="Level2small-menu ETMenu"><span>Corporate Videos</span></a></li>
                     <li><a href="<%=rootpath %>news-events" class="Level2small-menu ETMenu"><span>News and Events</span></a></li>
-                    <li><a href="<%=rootpath %>resources/faq" class="Level2small-menu ETMenu"><span>FAQ</span></a></li>
+					<li><a href="<%=rootpath %>resources/faq" class="Level2small-menu ETMenu"><span>FAQ</span></a></li>
                 </ul>
             </li>
-            <li><a href="<%=rootpath %>partners" class="mobilemenu-level1 Level1-menu ETMenu"><span class="mobilemenu-border-bottom">Partners</span></a></li>
+			<li><a href="<%=rootpath %>partners" class="mobilemenu-level1 Level1-menu ETMenu"><span class="mobilemenu-border-bottom">Partners</span></a></li>
             <li>
                 <a href="#" class="mobilemenu-level1 Level1-menu"><span class="mobilemenu-border-bottom">Careers</span></a>
                 <ul>
@@ -675,10 +668,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 headertopnav hidden-xs hidden-sm" id="headsearch">
-                    <div class="header-search">
-                        <div class="col-md-3 pull-right no-padding hidden-xs hidden-sm hidden-md" style="width: 5%; padding-left: 30px !important; margin-top: 8px;">
+				 <div class="header-search">
+                        <div class="col-md-3 pull-right no-padding hidden-xs hidden-sm hidden-md" style="width: 5%;padding-left: 30px !important;margin-top: 8px;">
                             <a style="color: white; font-family: raleway !important; font-size: 13px;"
-                                href="https://blog.rheincs.com">BLOG</a>
+                               href="https://blog.rheincs.com">BLOG</a>
                         </div>
                         <div class="col-md-3 pull-right no-padding hidden-xs hidden-sm hidden-md" style="display: none;">
                             <div class="">
@@ -691,7 +684,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="col-md-3 pull-right no-padd-right hidden-xs hidden-sm">
                             <div class="pull-right multi-language"><a href="https://de.rheincs.com" class="white-color">DE</a>&nbsp;/&nbsp;<a href="https://en.rheincs.com" class="white-color">EN</a> | </div>
                         </div>
-                    </div>
+                    </div>                  
                 </div>
                 <div class="logo col-md-12 col-md-offset-0 navbar-static-top header-responsive-align header-box-shadow" id="nav">
                     <br />
@@ -713,7 +706,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/leadership">Leadership</a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/customer-speak">Customer Speak</a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/success-stories">Success Stories</a></li>
-
+                                              
 
 
                                             </ul>
@@ -737,8 +730,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                     <br />
 
                                                                     <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>Epicor-Payroll-MEA"><span>Epicor-Payroll-MEA</span></a></li>
-                                                                    <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>-->
-                                                                    <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>ppa-power-plant-analytics">Power Plant Analytics</a></li>-->
+                                                                   <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>-->
+                                                                   <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>ppa-power-plant-analytics">Power Plant Analytics</a></li>-->
                                                                     <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN – Strategic Sourcing Software</a></li>
                                                                 </ul>
                                                             </div>
@@ -757,29 +750,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                     <br />
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">SAP</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud">Epicor Cloud</a>
-                                                                        <!-- <ul class="padd-top-3">
+                                                                       <!-- <ul class="padd-top-3">
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP">Gartner Magic Quadrant for Cloud ERP</a></li>
                                                                             </ul>-->
                                                                     </li>
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">EPICOR</a>
-
-                                                                        <ul class="padd-top-3">
+																	<li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">EPICOR</a>
+ 
+                                                                         <ul class="padd-top-3">
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing">For Manufacturing</a></li>
-                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing">For Cable Manufacturing</a></li>
-                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-wire-rope-manufacturing">For Wire Rope Manufacturing</a></li>
-                                                                            <!-- <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software">For Distribution</a></li>-->
-                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design">For Interior Design</a></li>
+                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing">For Cable Manufacturing</a></li>
+																			<!-- <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software">For Distribution</a></li>-->
+																			 <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design">For Interior Design</a></li>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC">For Construction & EPC</a></li>
                                                                             <!--<li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm">Epicor HCM</a></li>-->
-                                                                            <!--<li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software">Epicor Iscala for Hospitality</a></li>-->
-
-                                                                        </ul>
-
+									                                         <!--<li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software">Epicor Iscala for Hospitality</a></li>-->
+                                                                        
+																		</ul> 
+                                                                      
                                                                     </li>
-                                                                    <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
-                                                                    <!--  <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi">Business Intelligence</a></li> -->
-
-                                                                </ul>
+																	<li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
+                                                                  <!--  <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi">Business Intelligence</a></li> -->
+                                                                  
+                                                                     </ul>
                                                             </div>
                                                             <div class="col-md-3 col-md-3V2">
                                                                 <ul>
@@ -804,21 +796,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="dropdown"><a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">Resources<span class="caret"></span></a>
+											<li class="dropdown"><a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">Resources<span class="caret"></span></a>
                                             <ul class="dropdown-menu" role="menu">
                                                 <li class="menuname-small ETMenu"><a href="https://blog.rheincs.com"><span>Blog</span></a></li>
-                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/webinars/webinars-list"><span>Webinars</span></a></li>
-                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/webinars/webinars-recordings"><span>Webinars Recordings</span></a></li>
+												 <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/webinars/webinars-list"><span>Webinars</span></a></li>
+												<li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/webinars/webinars-recordings"><span>Webinars Recordings</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>whitePapers/whitepapers"><span>White Papers</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>brochure/brochures"><span>Brochures</span></a></li>
-                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>Factsheets/Factsheets"><span>FactSheets</span></a></li>
-                                                <li class="menuname-small ETMenu"><a href="https://casestudy.rheincs.com/"><span>Case Studies</span></a></li>
+												<li class="menuname-small ETMenu"><a href="<%=rootpath %>Factsheets/Factsheets"><span>FactSheets</span></a></li>
+												<li class="menuname-small ETMenu"><a href="https://casestudy.rheincs.com/"><span>Case Studies</span></a></li>      
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/corporate-videos"><span>Corporate Videos</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>news-events"><span>News and Events</span></a></li>
-                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/faq"><span>FAQ</span></a></li>
+												<li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/faq"><span>FAQ</span></a></li>
                                             </ul>
                                         </li>
-                                        <li class="menuname ETMenu"><a href="<%=rootpath %>partners">Partners</a></li>
+										<li class="menuname ETMenu"><a href="<%=rootpath %>partners">Partners</a></li>
                                         <li class="dropdown">
                                             <a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">Careers <span class="caret"></span></a>
                                             <ul class="dropdown-menu" role="menu">
@@ -845,7 +837,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <a href="#" id="back_to_top" class="back-to-top-position-right"><i class="fa fa-angle-up"></i></a>
                 <div id="Contactfeedback" class="ETcallout"><a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a> </div>
                 <div id="socialicon">
-                    <!-- <ul>
+                   <!-- <ul>
                         <li class="hvr-wobble-to-top-right">
                             <a id="linkdin" href="#" target="_blank" title="LinkedIn">
                                 <img style="height: 35px; width: 35px;" src="https://en.rheincs.com/Assets/images/linkedin.png" />
@@ -868,7 +860,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </a>
                         </li>
                     </ul>-->
-                    <div data-social-share-privacy='true'>
+					<div data-social-share-privacy='true'>      
                     </div>
                 </div>
                 <div class="modal fade" id="myModal-contactus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -888,14 +880,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <p style="padding-top: 0%; padding-bottom: 9px;" class="formhead">Please fill in your details.</p>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <select id="ddlServices" class="dropdown" style="width: 100%; padding: 6px;">
+                                         <select id="ddlServices" class="dropdown" style="width: 100%; padding: 6px;">
                                             <option value="0">-- Select Any One --</option>
                                             <option value="1">Epicor</option>
                                             <option value="2">EPICOR for Manufacturing</option>
-                                            <option value="3">EPICOR for Cable Manufacturing</option>
+                                             <option value="3">EPICOR for Cable Manufacturing</option>
                                             <option value="4">EPICOR for EPC and Construction</option>
-                                            <option value="5">EPICOR iScala for hospitality</option>
-                                            <option value="6">RheinBrücke Power Plant Analytics</option>
+                                           <option value="5"> EPICOR iScala for hospitality</option>
+                                           <option value="6"> RheinBrücke Power Plant Analytics</option>
                                             <option value="7">Business Intelligence</option>
                                             <option value="8">MeRLIN </option>
                                             <option value="8">SAP</option>
@@ -917,9 +909,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input type="text" placeholder="*Your Email Address" id="txtEmail" class="write-to-us-input" />
-                                        <span class="validator" id="reqemail" hidden="hidden" style="font-size: 13px;">Enter Your Email Address</span>
-                                        <span class="validator" style="font-size: 13px;" id="valemail" hidden="hidden">Enter Valid Email Address</span>
-                                        <span class="validator" style="font-size: 13px;" id="domainemail" hidden="hidden">Enter Valid Official Address</span>
+                                        <span class="validator" id="reqemail" hidden="hidden" style="font-size: 13px;">Enter Your Email Address</span> 
+										<span class="validator" style="font-size: 13px;" id="valemail" hidden="hidden">Enter Valid Email Address</span>
+										<span class="validator" style="font-size: 13px;" id="domainemail" hidden="hidden">Enter Valid Official Address</span>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -928,11 +920,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <span class="validator" id="reqphone" hidden="hidden" style="font-size: 13px;">Enter Your Mobile Number</span> <span style="font-size: 13px;" class="validator" id="valphone" hidden="hidden">Enter Valid Phone Number</span>
                                     </div>
                                 </div>
-                                <div class="row">
+								  <div class="row">
                                     <div class="col-md-12">
                                         <input type="text" placeholder="*Your Company Name" id="txtCompanyname" class="write-to-us-input" />
                                         <span class="validator" id="reqCompanyname" hidden="hidden" style="font-size: 13px;">Enter Your Company Name</span>
-                                        <span style="font-size: 13px;" class="validator" id="valcompanyname" hidden="hidden">Enter Valid Company Name</span>
+                                         <span style="font-size: 13px;" class="validator" id="valcompanyname" hidden="hidden">Enter Valid Company Name</span>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -1090,7 +1082,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                     <p>
                                                         <input type="text" placeholder="*Your Email Address" id="txtCalloutEmail" class="write-to-us-input" />
                                                     </p>
-                                                    <span style="margin-top: 5px;" class="validator" id="reqCalloutemail" hidden="hidden">Enter Your Email Address</span> <span class="validator" id="valCalloutemail" hidden="hidden" style="margin-top: 2px;">Enter Valid Email Address</span>
+                                                    <span style="margin-top: 5px;" class="validator" id="reqCalloutemail" hidden="hidden">Enter Your Email Address</span> <span class="validator" id="valCalloutemail" hidden="hidden" style="margin-top:2px;">Enter Valid Email Address</span>
                                                 </div>
                                                 <div class="modal-body">
                                                     <p>
@@ -1115,7 +1107,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <li><a href="https://www.youtube.com/channel/UCuR25ldsvrd7yd5vkzqntAg" title="Youtube" target="_blank" aria-hidden="true" class="icon-youtube ETsocialicon"></a></li>
                                         <li class="social1">
                                             <a href="https://blog.rheincs.com" title="Blog" target="_blank" aria-hidden="true">
-                                                <img src="https://en.rheincs.com/Assets/images/b.png" style="margin-top: 13px; margin-left: 1px;" />
+                                                <img src="https://en.rheincs.com/Assets/images/b.png" style="margin-top: 13px;margin-left:1px;" />
                                             </a>
                                         </li>
                                     </ul>
@@ -1131,89 +1123,89 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="col-md-3">
                                 <%-- <div class="fBottom"><span class="border">Top Consultant 2014-2015</span></div><a href="/Newsandevents/NewsEventsDetail.aspx?ID=11"> <img src="https://en.rheincs.com/Assets/images/RheinBrücke-TopConsultant-Award.jpg" alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant" /></a>
                             </div>--%>
-                                <div class="col-md-10 nopadding awards-margin">
-                                    <div class="fBottom" style="text-align: center"><span class="border">Awards and Recognition</span></div>
-                                    <div id="myCarousel1" class="carousel slide" data-ride="carousel">
-                                        <%--<ol class="carousel-indicators1">
+                            <div class="col-md-10 nopadding awards-margin">
+                                <div class="fBottom" style="text-align: center"><span class="border">Awards and Recognition</span></div>
+                                <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                                    <%--<ol class="carousel-indicators1">
                                         <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
                                         <li data-target="#myCarousel1" data-slide-to="1"></li>
                                         <li data-target="#myCarousel1" data-slide-to="2"></li>
                                     </ol>--%>
-                                        <div class="carousel-inner" role="listbox" style="width: 200px; margin: auto;">
-                                            <%-- <div class="item active">
+                                    <div class="carousel-inner" role="listbox" style="width: 200px; margin: auto;">
+                                        <%-- <div class="item active">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-recognised-as-top-consultant-germany">
                                                 <img src="<%=rootpath %>Assets/images/RheinBrücke-TopConsultant-Award.jpg" alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>--%>
-                                            <div class="item active">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
-                                                    <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg" alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-
-                                            <div class="item ">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-epicor-international-partner-of-the-year">
-                                                    <img src="<%=rootpath %>Assets/images/Epicor-partner-2016.png" alt="RheinBrücke Epicor Internation Partner of the year 2016" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-                                            <div class="item">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/Vetri-IBA-silver-Stevies.png" alt="Vetri Maverick of the year" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-                                            <div class="item">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/Vetri-IBA-Stevies.png" alt="Vetri IT executive of the year" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-                                            <div class="item">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-                                            <div class="item">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/Support-IBA-Stevies.png" alt="Bronze Stevie IBA winner support department" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-                                            <div class="item ">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-                                            <div class="item">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/HR-IBA-Stevies.png" alt="Bronze Stevie IBA winner HR department" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-
-                                            <div class="item">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
-                                                    <img src="<%=rootpath %>Assets/images/executiveoftheyear.jpg" alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-
-
+                                        <div class="item active">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
+                                                <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg" alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
                                         </div>
-                                        <a class="left carousel-control" style="left: -31px; height: 30px; margin-top: 100px; font-size: 30px;"
-                                            href="#myCarousel1" role="button" data-slide="prev"><</a>
-                                        <a class="right carousel-control" href="#myCarousel1" style="left: auto; right: -17px; height: 30px; margin-top: 100px; font-size: 30px;"
-                                            role="button" data-slide="next">></a>
+
+                                        <div class="item ">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-epicor-international-partner-of-the-year">
+                                                <img src="<%=rootpath %>Assets/images/Epicor-partner-2016.png" alt="RheinBrücke Epicor Internation Partner of the year 2016" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/Vetri-IBA-silver-Stevies.png" alt="Vetri Maverick of the year" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/Vetri-IBA-Stevies.png" alt="Vetri IT executive of the year" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/Support-IBA-Stevies.png" alt="Bronze Stevie IBA winner support department" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item ">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
+                                                <img src="<%=rootpath %>Assets/images/HR-IBA-Stevies.png" alt="Bronze Stevie IBA winner HR department" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+
+                                        <div class="item">
+                                            <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
+                                                <img src="<%=rootpath %>Assets/images/executiveoftheyear.jpg" alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
+                                            </a>
+                                        </div>
+                                      
+
                                     </div>
+                                    <a class="left carousel-control" style="left: -31px; height: 30px; margin-top: 100px; font-size: 30px;"
+                                       href="#myCarousel1" role="button" data-slide="prev"><</a>
+                                    <a class="right carousel-control" href="#myCarousel1" style="left: auto; right: -17px; height: 30px; margin-top: 100px; font-size: 30px;"
+                                       role="button" data-slide="next">></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="bottomFooter">
-                            <div class="copy">
-                                <div class="pull-left leftF">© RheinBrücke IT Consulting GmbH - All Rights Reserved</div>
-                                <div class="pull-right rightF"><a href="<%=rootpath %>sitemap">Sitemap</a> |  <a href="<%=rootpath %>Impressum">Impressum</a> | <a href="<%=rootpath %>terms">Terms</a> | <a href="<%=rootpath %>privacy">Privacy</a></div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </footer>
                 </div>
+                <div class="bottomFooter">
+                    <div class="copy">
+                        <div class="pull-left leftF">© RheinBrücke IT Consulting GmbH - All Rights Reserved</div>
+                        <div class="pull-right rightF"><a href="<%=rootpath %>sitemap">Sitemap</a> |  <a href="<%=rootpath %>Impressum">Impressum</a> | <a href="<%=rootpath %>terms">Terms</a> | <a href="<%=rootpath %>privacy">Privacy</a></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                </footer>
             </div>
-        </form>
+    </div>
+    </form>
     </div>
 
 
@@ -1261,116 +1253,111 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>--%>
 
-
+	
     <%-- new script --%>
 
     <!-- Google Code for Remarketing Tag -->
     <script type="text/javascript">
-        var google_tag_params = {
-            dynx_itemid: '48550682',
+var google_tag_params = {
+dynx_itemid: '48550682',
 
-        };
+};
     </script>
     <script type="text/javascript">
-        /* <![CDATA[ */
-        var google_conversion_id = 955726328;
-        var google_custom_params = window.google_tag_params;
-        var google_remarketing_only = true;
-        /* ]]> */
+/* <![CDATA[ */
+var google_conversion_id = 955726328;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
     </script>
-
+    
     <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js" defer>
     </script>
-    <!--LeadSquared Tracking Code Start-->
+      <!--LeadSquared Tracking Code Start-->
     <script type="text/javascript" src="https://web.mxradon.com/t/Tracker.js" defer></script>
     <script type="text/javascript">
-        //pidTracker('17537');
-    </script>
+    //pidTracker('17537');
+</script>
     <!--LeadSquared Tracking Code End-->
 
     <!-- GOOGLE ANALYTICS CODE-->
     <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-61074754-1', 'auto');
-        ga('set', 'anonymizeIp', true);
-        ga('send', 'pageview');
+  ga('create', 'UA-61074754-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
     </script>
-    <!--END OF GOOGLE ANALYTICS CODE-->
+<!--END OF GOOGLE ANALYTICS CODE-->
 
     <script type='text/javascript'>
-        var _vwo_code = (function () {
-            var account_id = 292694,
-            settings_tolerance = 2000,
-            library_tolerance = 2500,
-            use_existing_jquery = false,
-            /* DO NOT EDIT BELOW THIS LINE */
-            f = false, d = document; return { use_existing_jquery: function () { return use_existing_jquery; }, library_tolerance: function () { return library_tolerance; }, finish: function () { if (!f) { f = true; var a = d.getElementById('_vis_opt_path_hides'); if (a) a.parentNode.removeChild(a); } }, finished: function () { return f; }, load: function (a) { var b = d.createElement('script'); b.src = a; b.type = 'text/javascript'; b.innerText; b.onerror = function () { _vwo_code.finish(); }; d.getElementsByTagName('head')[0].appendChild(b); }, init: function () { settings_timer = setTimeout('_vwo_code.finish()', settings_tolerance); var a = d.createElement('style'), b = 'body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}', h = d.getElementsByTagName('head')[0]; a.setAttribute('id', '_vis_opt_path_hides'); a.setAttribute('type', 'text/css'); if (a.styleSheet) a.styleSheet.cssText = b; else a.appendChild(d.createTextNode(b)); h.appendChild(a); this.load('//dev.visualwebsiteoptimizer.com/j.php?a=' + account_id + '&u=' + encodeURIComponent(d.URL) + '&r=' + Math.random()); return settings_timer; } };
-        }()); _vwo_settings_timer = _vwo_code.init();
+var _vwo_code=(function(){
+var account_id=292694,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
     </script>
     <noscript>
         <div style="display:inline;">
             <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955726328/?guid=ON&amp;script=0" />
         </div>
     </noscript>
-    <div id="myoffers" class="modal fade" role="dialog">
-        <div class="modal-dialog custom-form pop-ups">
-            <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times "></i></button>
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-body small">
-                    <a href="http://view.rheincs.com/Webinar-Top-ERP-Extensions-To-Improve-Your-IT-ROI?utm_source=Social_Media&utm_medium=Social_Media_RIC&utm_campaign=Webinar-Top-ERP-Extensions-To-Improve-Your-IT-ROI">
-                        <img src="https://en.rheincs.com/Assets/images/webinars/erp-extension.png" width="100%">
-                    </a>
-                </div>
-            </div>
-        </div>
+	<div id="myoffers" class="modal fade" role="dialog">
+	<div class="modal-dialog custom-form pop-ups">
+	<button type="button" class="close" data-dismiss="modal"><i class="fa fa-times "></i></button><!-- Modal content-->
+	<div class="modal-content">
+	<div class="modal-body small">   
+		<a href="http://view.rheincs.com/Webinar-Top-ERP-Extensions-To-Improve-Your-IT-ROI?utm_source=Social_Media&utm_medium=Social_Media_RIC&utm_campaign=Webinar-Top-ERP-Extensions-To-Improve-Your-IT-ROI"><img src="https://www.rheincs.com/Assets/images/webinars/erp-extension.png" width="100%"> </a>
+	</div>
     </div>
-
+	</div>
+	</div> 
+	
 </body>
-
+   
 <%: Scripts.Render("~/assets/jsmin")%>
 <asp:contentplaceholder runat="server" id="FooterScript" />
+  	
+<script type="text/javascript" src="https://en.rheincs.com/Assests/js/jquery-2.1.1.min.js"></script>
+<script src="https://en.rheincs.com/Assets/js/bxSlider.js" defer></script>
+<script type="text/javascript"> 
+	
+	
+	$(window).load(function(){
+   setTimeout(function(){
+      $('#myoffers').modal('hide');
+   }, 1000);
+});
 
-<script type="text/javascript" src="Assets/js/jquery-2.1.1.min.js"></script>
-<script src="Assets/js/bxSlider.js" defer></script>
+function closepop()
+{
+ $('#myoffers').modal('hide');
+} 
+	
+	</script>
 <script type="text/javascript">
-
-
-    $(window).load(function () {
-        setTimeout(function () {
-            $('#myoffers').modal('hide');
-        }, 1000);
-    });
-
-    function closepop() {
-        $('#myoffers').modal('hide');
-    }
-
-</script>
-<script type="text/javascript">
-    //function gitexlp()
+ //function gitexlp()
     //{
-    // window.open('https://en.rheincs.com/events/RheinBrücke-at-GITEX-2017', '_blank');
-    // }
-    // function closegitex()
+       // window.open('https://www.rheincs.com/events/RheinBrücke-at-GITEX-2017', '_blank');
+   // }
+   // function closegitex()
     //{
-    // $(".gitex-banner-container").css('display','none');
-    // }
+      // $(".gitex-banner-container").css('display','none');
+   // }
     //$(document).ready(function () {
-    // setTimeout(function () { $('html, body').scrollTop(0); }, 1000);
-    //$(".gitex-banner-container .gitex-banner-img").fadeIn();
-
-    // $(function () {
-    //  $(".gitex-banner-container").delay(10000).fadeOut('slow');
-    // });
-
-    // });
+       // setTimeout(function () { $('html, body').scrollTop(0); }, 1000);
+        //$(".gitex-banner-container .gitex-banner-img").fadeIn();
+        
+       // $(function () {
+          //  $(".gitex-banner-container").delay(10000).fadeOut('slow');
+       // });
+     
+   // });
     $(function () {
         $('#back_to_top').click(function () {
             $('html, body').animate({
@@ -1440,23 +1427,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     function DownloadClear() {
         $("#reqCalloutName,#reqCalloutMobNo,#reqCalloutemail,#valCalloutemail,#valCalloutMobNo").hide(); $("#txtCalloutName").val(""); $("#txtCalloutEmail,#txtCalloutMobNo").val("");
     }
-    //Sitemap
-    $(document).ready(function () {
-        $("a[href$='javascript:void(0)']").css("cursor", "default");
-        $("ul.sub-menu a[href$='javascript:void(0)']").hover(function () {
-            $(this).css("color", "#666")
-        });
+//Sitemap
+$(document).ready(function () {
+    $("a[href$='javascript:void(0)']").css("cursor", "default");
+    $("ul.sub-menu a[href$='javascript:void(0)']").hover(function () {
+        $(this).css("color", "#666")
     });
+});
 </script>
 <!-- Cookies Consent-->
-<script type="text/javascript" src="https://en.rheincs.com/Assets/js/cookiesconsenten.js" defer></script>
+	<script type="text/javascript" src="https://en.rheincs.com/Assets/js/cookiesconsenten.js" defer></script>
 
-<!--For 2 click solutions-->
+ <!--For 2 click solutions-->
 
 <script type="text/javascript" src="https://en.rheincs.com/Assets/2-click/javascripts/jquery.cookies.js" defer></script>
-<script type="application/x-social-share-privacy-settings">{"path_prefix":"https://en.rheincs.com/Assets/2-click/","layout":"box","services":{"buffer":{"status":false},"delicious":{"status":false},"fbshare":{"status":false},"disqus":{"status":false},"flattr":{"status":false},"hackernews":{"status":false},"mail":{"status":false},"pinterest":{"status":false},"reddit":{"status":false},"stumbleupon":{"status":false},"tumblr":{"status":false},"xing":{"status":false}}}</script>
-<script type="text/javascript">(function () { var s = document.createElement('script'); var t = document.getElementsByTagName('script')[0]; s.type = 'text/javascript'; s.async = true; s.src = 'https://en.rheincs.com/Assets/2-click/javascripts/jquery.socialshareprivacy.min.autoload.js'; t.parentNode.insertBefore(s, t); })();</script>
-<!--Start of Tawk.to Script-->
+<script type="application/x-social-share-privacy-settings">{"path_prefix":"https://www.rheincs.com/Assets/2-click/","layout":"box","services":{"buffer":{"status":false},"delicious":{"status":false},"fbshare":{"status":false},"disqus":{"status":false},"flattr":{"status":false},"hackernews":{"status":false},"mail":{"status":false},"pinterest":{"status":false},"reddit":{"status":false},"stumbleupon":{"status":false},"tumblr":{"status":false},"xing":{"status":false}}}</script>
+<script type="text/javascript">(function () {var s = document.createElement('script');var t = document.getElementsByTagName('script')[0];s.type = 'text/javascript';s.async = true;s.src = 'https://en.rheincs.com/Assets/2-click/javascripts/jquery.socialshareprivacy.min.autoload.js';t.parentNode.insertBefore(s, t);})();</script>
+ <!--Start of Tawk.to Script--> 
 <!--<script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -1472,7 +1459,7 @@ s0.parentNode.insertBefore(s1,s0);
 <script>
     window.__lc = window.__lc || {};
     window.__lc.license = 14850255;
-    ; (function (n, t, c) { function i(n) { return e._h ? e._h.apply(null, n) : e._q.push(n) } var e = { _q: [], _h: null, _v: "2.0", on: function () { i(["on", c.call(arguments)]) }, once: function () { i(["once", c.call(arguments)]) }, off: function () { i(["off", c.call(arguments)]) }, get: function () { if (!e._h) throw new Error("[LiveChatWidget] You can't use getters before load."); return i(["get", c.call(arguments)]) }, call: function () { i(["call", c.call(arguments)]) }, init: function () { var n = t.createElement("script"); n.async = !0, n.type = "text/javascript", n.src = "https://cdn.livechatinc.com/tracking.js", t.head.appendChild(n) } }; !n.__lc.asyncInit && e.init(), n.LiveChatWidget = n.LiveChatWidget || e }(window, document, [].slice))
+    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
 </script>
 <noscript><a href="https://www.livechat.com/chat-with/14850255/" rel="nofollow">Chat with us</a>, powered by <a href="#" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
 </html>
