@@ -327,7 +327,7 @@ namespace RheinBrucke.Library
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Phone", Phone);
-                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Company", Company);
+                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@CompanyName", Company);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Message", Message);
 
 
@@ -600,7 +600,7 @@ namespace RheinBrucke.Library
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@phone", phone);
-                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@company", company);
+                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@CompanyName", company);
 
 
                 sendMail(mailObj);
@@ -689,7 +689,7 @@ namespace RheinBrucke.Library
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@phone", phone);
-                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@company", company);
+                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@CompanyName", company);
 
 
                 sendMail(mailObj);
@@ -717,7 +717,7 @@ namespace RheinBrucke.Library
 
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
-                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Company", Company);
+                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@CompanyName", Company);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@phone", phone);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@description", description);
@@ -780,7 +780,7 @@ namespace RheinBrucke.Library
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Phone", Phone);
-                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@company", company);
+                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@CompanyName", company);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@role", role);
 
                 sendMail(mailObj);
@@ -811,7 +811,7 @@ namespace RheinBrucke.Library
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Phone", Phone);
-                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@company", company);
+                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@CompanyName", company);
                 sendMail(mailObj);
                 IsMailSend = true;
             }
@@ -840,7 +840,7 @@ namespace RheinBrucke.Library
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Phone", Phone);
-                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@company", company);
+                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@CompanyName", company);
                 sendMail(mailObj);
                 IsMailSend = true;
             }
@@ -1081,7 +1081,7 @@ namespace RheinBrucke.Library
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@phone", phone);
-                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@company", company);
+                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@CompanyName", company);
 
                 sendMail(mailObj);
                 IsMailSend = true;
@@ -1196,7 +1196,7 @@ namespace RheinBrucke.Library
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@phone", phone);
-                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@company", company);
+                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@CompanyName", company);
 
                 sendMail(mailObj);
                 IsMailSend = true;
@@ -2743,7 +2743,7 @@ namespace RheinBrucke.Library
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@FirstName", firstname);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", email);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Phone", phone);
-                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Company", companyname);
+                mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@CompanyName", companyname);
 
                 mailObj.MailTo = toaddress;
                 sendMail(mailObj);
