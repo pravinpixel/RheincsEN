@@ -29,8 +29,10 @@
         <div class="row">
             <div class="bg-img-epicor img-responsive ">
                 <h2 class="rhein-banner-heading-h2 inner-banner-text1 img-bottom">RheinBrücke</h2>
-                <p class="rhein-banner-heading-p inner-banner-text1 ">Uses the proven EPICOR Signature Methodology to help you achieve your business needs.</p>
+                <p class="rhein-banner-heading-p inner-banner-text1 ">Uses the proven EPICOR Signature Methodology to help you achieve your business needs.  <div class="text-center top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                                    <div class=""><span class="rhein-banner-readmore-text"><b style="background: #7b1314;padding: 10px;">Book a Demo</b></span></div> </a></div> </p>
             </div>
+
         </div>
         <!--efo banner-->
         <!-- Content-->

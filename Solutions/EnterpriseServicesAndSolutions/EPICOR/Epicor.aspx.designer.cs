@@ -10,7 +10,7 @@
 namespace RheinBrucke.Solutions.EnterpriseSolutionsAndSolutions.EPICOR {
     
     
-    public partial class Epicor_for_interior_design {
+    public partial class Epicor {
         
         /// <summary>
         /// hdfRootUrl control.

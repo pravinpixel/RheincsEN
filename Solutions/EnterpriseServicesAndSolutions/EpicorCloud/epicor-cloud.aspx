@@ -387,7 +387,10 @@ h4.panel-title{margin:10px 0px !important;}
         <!--banner-->
         <div class="row">
           
-            <div class="col-md-12 nopadding"><img src="../../../Assets/images/Epicor-cloud-banner-v2.jpg" class="img-responsive center-block" /><%--<a href="#form-div"><div class="cta-new1">Know More</div></a>--%></div>
+            <div class="col-md-12 nopadding"><img src="../../../Assets/images/Epicor-cloud-banner-v2.jpg" class="img-responsive center-block" /><%--<a href="#form-div"><div class="cta-new1">Know More</div></a>--%>
+                <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
+            </div>
            
         </div>
         <!--efo banner-->
