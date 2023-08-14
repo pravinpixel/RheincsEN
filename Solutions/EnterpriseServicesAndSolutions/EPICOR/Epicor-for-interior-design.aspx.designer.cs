@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RheinBrucke.Solutions.EnterpriseSolutionsAndSolutions.EPICOR {
+namespace RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR {
     
     
-    public partial class epicor_for_interior_design {
+    public partial class Epicor_for_interior_design {
         
         /// <summary>
         /// hdfRootUrl control.
