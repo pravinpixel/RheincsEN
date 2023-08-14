@@ -1438,6 +1438,7 @@ $(document).ready(function () {
         $(this).css("color", "#666")
     });
 });
+
 </script>
 <!-- Cookies Consent-->
 	<script type="text/javascript" src="https://en.rheincs.com/Assets/js/cookiesconsenten.js" defer></script>
