@@ -6,9 +6,8 @@
     <title>MeRLIN - Strategic Global Sourcing Simplified | Strategic Direct Sourcing Solution | Sourcing Process Automation | Supplier Relationship Management | Procurement and Supply Chain Solution for Spend Management | Better alternative to SAP Ariba | eProcurement System | Global Sourcing and RFQ Management | Perform Purchase Price Variance (PPV) analytics and Program life cycle performance analytics | Budget Planning with compliance and auditing | Data Driven Sourcing | Real time risk mitigation of suppliers | Improve Cost Savings and Enhanced ROI | Best Sourcing Solution for Large Enterprises | Top Procurement Software for OEM's | Best Supply Chain System for Manufacturing Companies</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <meta name="keywords" content="procurement, procurement solutions, procurement software, Strategic sourcing solution, Supplier Management Software, Procurement Software suite, Sourcing Process Automation, Supplier Relationship Management, Procurement and Supply Chain Solution for Spend Management, Better alternative to SAP Ariba, eProcurement System, Global Sourcing and RFQ Management, Perform Purchase Price Variance (PPV) analytics and Program life cycle performance analytics, Budget Planning with compliance and auditing, Data Driven Sourcing, Real time risk mitigation of suppliers, Improve Cost Savings and Enhanced ROI, Best Sourcing Solution for Large Enterprises, Top Procurement Software for OEM's, Best Supply Chain System for Manufacturing Companies, MeRLIN - Strategic Global Sourcing Simplified, Strategic Direct Sourcing Solution" />
-    <meta name="description" content="A Strategic Sourcing solution from RheinBrücke- We want to enable businesses with value optimization across the entire procurement functions" />
-    <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
+	<meta name="keywords" content="procurement, procurement solutions, procurement software, Strategic sourcing solution, Supplier Management Software, Procurement Software suite, Sourcing Process Automation, Supplier Relationship Management, Procurement and Supply Chain Solution for Spend Management, Better alternative to SAP Ariba, eProcurement System, Global Sourcing and RFQ Management, Perform Purchase Price Variance (PPV) analytics and Program life cycle performance analytics, Budget Planning with compliance and auditing, Data Driven Sourcing, Real time risk mitigation of suppliers, Improve Cost Savings and Enhanced ROI, Best Sourcing Solution for Large Enterprises, Top Procurement Software for OEM's, Best Supply Chain System for Manufacturing Companies, MeRLIN - Strategic Global Sourcing Simplified, Strategic Direct Sourcing Solution" />
+    <meta name="description" content="A Strategic Sourcing solution from RheinBrücke- We want to enable businesses with value optimization across the entire procurement functions" />    <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
     <link href="../Assets/EPC/css/Custom.css" rel="stylesheet" />
     <link href="../Assets2/hcm-assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../Assets/EPC/css/main.css" rel="stylesheet" />
@@ -35,13 +34,13 @@
 
    
 
-    <script src="../Assets2/hcm-assets/js/jquery.js"></script>        
-    <script src="../Assets2/hcm-assets/js/bootstrap.min.js"></script>
+    <script src="MeRLINWebsite/Js/jquery.min.js"></script>        
+    <script src="MeRLINWebsite/Js/bootstrap.min.js"></script>
     <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 
-    <script src="../Assets/EPC/js/main.js"></script>
-    <script src="../Assets/EPC/js/layout.min.js"></script>
-    <script src="../Assets/EPC/js/jquery.magnific-popup.min.js"></script>
+    <script src="MeRLINWebsite/Js/main.js"></script>
+    <script src="MeRLINWebsite/Js/layout.min.js"></script>
+    <script src="MeRLINWebsite/Js/jquery.magnific-popup.min.js"></script>
     <script src="MeRLINWebsite/Js/aos.js"></script>
     <script src="MeRLINWebsite/Js/main.js"></script>
    <script type="text/javascript">
@@ -89,7 +88,7 @@
       $(thisAlert).removeClass('alert-validate');
   }
   $(document).ready(function () {
-      var URI = window.location.pathname;
+  var URI = window.location.pathname;
       var url1 = window.location.href;
       var url12 = url1.split('/');
       var urlname = url12[1];
@@ -99,7 +98,6 @@
                 //window.location.href = "MeRLIN-strategic-sourcing-software";
             }
       var _rootUrl = $("#hdfRootUrl").val();
-
       $('#Submit').click(function () {
           if ($(name).val().trim() == '') {
               showValidate(name); return false;
@@ -115,10 +113,7 @@
               return false;
             
           }
-            if (!(grecaptcha && grecaptcha.getResponse().length > 0)) {
-                $('.showErrorMsg').text("Select captcha.");
-                return false;
-            }
+         
 
           var Data = {
               firstname: $('.validate-input input[name="name"]').val(),
@@ -140,7 +135,7 @@
                   if (response == "success") {
                       $('.validate-form').trigger("reset");
                       $('.success-msg').show();
-                  
+					  $('.has-val.input2 + .focus-input2::after').css("top","17px");
                       //window.location = "../rheinbrucke-solutions/thankyou";
                       // alert('yes');
                   }
@@ -173,15 +168,19 @@ win.scroll(function(event) {
 });
 
         </script>
-     <script type="text/javascript">
-         var onloadCallback = function () {
-             grecaptcha.render('g_captcha', {
-                 'sitekey': '6LcszzoUAAAAAOmren8WPjJrk6TZjXcZaKPcGrxT'
-             });
-         };
-    </script>
-     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
-    </script>
+		<!-- GOOGLE ANALYTICS CODE-->
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142458994-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-142458994-1');
+</script>
+
+
+<!--END OF GOOGLE ANALYTICS CODE-->
   <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
      <script type="text/javascript">
       pidTracker('17537');
@@ -202,10 +201,10 @@ win.scroll(function(event) {
                                 var logData = {
                                     Name: name,
                                     FormPID: data.PId,
-                                    Email: email,
+                                    Email: email1,
                                     Mobile: mobile,
                                     FormStatus: data.Status,
-                                    FormMsg: data.Message,
+									 FormMsg: data.Message,
                                     FormAction: data.FormAction,
                                     ServiceType: "MeRLINLanding"
                                 }
@@ -230,7 +229,7 @@ win.scroll(function(event) {
                                     Email: email,
                                     Mobile: mobile,
                                     FormStatus: data.Status,
-                                    FormMsg: data.Message,
+									 FormMsg: data.Message,
                                     FormAction: data.FormAction,
                                     ServiceType: "MeRLINLanding"
                                 }
