@@ -12370,7 +12370,7 @@ collapse:collapse;background-color: #ccc;border:6px solid #ccc; color:#2F2F3C; f
         </tr>
         <tr align="left" style="background-color:#fff">
           <th style="width:100px" align="left">Company</th>
-          <td>@@Company</td>
+          <td>@@CompanyName</td>
         </tr>
         <tr align="left" style="background-color:#fff">
           <th align="left">Email</th>
@@ -12440,7 +12440,7 @@ color:#ccc;">
                 </tr>
                 <tr align="left" style="background-color:#fff">
                   <th align="left">company</th>
-                  <td>@@company</td>
+                  <td>@@CompanyName</td>
                 </tr>
                 <tr align="left" style="background-color:#fff">
                   <th align="left">Designation</th>
@@ -12507,7 +12507,7 @@ color:#ccc;">
                 </tr>
                 <tr align="left" style="background-color:#fff">
                   <th align="left">company</th>
-                  <td>@@company</td>
+                  <td>@@CompanyName</td>
                 </tr>
               </table>
             </p>
