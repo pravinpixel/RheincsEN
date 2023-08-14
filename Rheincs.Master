@@ -1337,7 +1337,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <%: Scripts.Render("~/assets/jsmin")%>
 <asp:contentplaceholder runat="server" id="FooterScript" />
 
-<script type="text/javascript" src="https://en.rheincs.com/Assests/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="Assets/js/jquery-2.1.1.min.js"></script>
 <script src="https://en.rheincs.com/Assets/js/bxSlider.js" defer></script>
 <script type="text/javascript">
 
