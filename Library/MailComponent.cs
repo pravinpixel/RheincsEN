@@ -84,7 +84,6 @@ namespace RheinBrucke.Library
             }
 
             message.AlternateViews.Add(avHtml);
-
             message.IsBodyHtml = true;
 
             if (!string.IsNullOrEmpty(mailObj.MailCC))
@@ -108,7 +107,6 @@ namespace RheinBrucke.Library
                 {
                     string LoginName = _mailDetails.LoginName == null ? "" : _mailDetails.LoginName;
                     bool IsRelay = _mailDetails.Relay == true ? true : false;
-
                     System.Net.Mail.SmtpClient client = null;
                     if (IsRelay)
                     {
