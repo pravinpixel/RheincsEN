@@ -6,7 +6,7 @@
     <meta name="Description" content="RheinBrücke is an IT Consulting company that offers best in class service offered at globally competitive cost models. Our services and solutions include Program and Project Management, ERP Solutions aligned to SAP, Microsoft SharePoint, EPICOR and Open Source Technology Solutions" />
     <meta name="google-site-verification" content="wupPtb2f4IkwIZlJw_WfkxpZCBAcL70quHa_rVemK0U" />
 
-   <script type="application/ld+json">
+    <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "WebSite",
@@ -14,8 +14,8 @@
   "alternateName": "Rheincs",
   "url": "https://www.rheincs.com"
 }
-</script>
-<script type="application/ld+json">
+    </script>
+    <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Organization",
@@ -28,7 +28,7 @@
     "https://plus.google.com/108478282039113445071"
   ]
 }
-</script>
+    </script>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -43,7 +43,7 @@
                     <%--<li data-target="#myCarousel" data-slide-to="4"></li>--%>
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                    
+
                     <div class="item active">
                         <img src="Assets/images/banner-2.jpg" alt="Home-Banner" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
@@ -77,14 +77,15 @@
                             </div>
                         </div>
                     </div>
-                     <div class="item">
+                    <div class="item">
                         <img src="Assets/images/banner-5.jpg" alt="Home-Banner" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-banner-heading-bg pull-right"><span class="rhein-banner-heading">RheinBrücke</span></div>
                                 <div class="rhein-banner-heading-black-bg pull-right"><span class="rhein-banner-heading-black">Helping your enterprise migrate legacy and sunset technologies to newer platforms and solutions.</span></div>
                                 <a href="contact-us" class="ET-hbanner4">
                                     <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><span class="rhein-banner-readmore-text ">Read More</span></div>
-                                </a></div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -277,9 +278,19 @@
             </div>
         </div>
     </div>
+    <div id="myoffers" class="gitex-banner-container">
+        <div class="gitex-banner-img hidden-xs">
+            <a href="http://view.rheincs.com/Webinar-Field-Service-Automation-for-ERP">
+       <img src="Assets/images/MicrosoftTeams-image.png" class="img-responsive gitex-img gitex-banner-img-shadow center-block" />
+                </a>
+            <div class="close-button-position" style="background-color:#7b1314;" onclick="closegitex();"><span class="close-icon-white">X</span></div>
+        </div>
+         
+    </div>
+
     <!--Gitex image-->
-    
-   <%-- <div class="gitex-banner-container">
+
+     <%--<div class="gitex-banner-container">
         <div class="gitex-banner-img hidden-xs">
        <img src="Assets/images/Gitex-banner1.png" class="img-responsive gitex-img gitex-banner-img-shadow center-block" onclick="gitexlp();" />
             <div class="close-button-position" onclick="closegitex();"><span class="close-icon-white">X</span></div>
@@ -289,10 +300,10 @@
                 <div class="close-button-position" onclick="closegitex();"><span class="close-icon-white">X</span></div>
     </div>
     </div>--%>
-     <!--Eof Gitex image-->
-     <script type="text/javascript" src="Assets/js/jquery-2.1.1.min.js"></script>
+    <!--Eof Gitex image-->
+    <script type="text/javascript" src="Assets/js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript">
-        
+
         $(document).ready(function () {
             var Count = 0;
             var URI = window.location.pathname;
@@ -300,7 +311,22 @@
                 window.location.href = "MeRLIN-strategic-sourcing-software";
             }
         });
-        </script>
+
+         function closegitex()
+        {
+         $(".gitex-banner-container").css('display','none');
+         }
+        $(document).ready(function () {
+         setTimeout(function () { $('html, body').scrollTop(0); }, 1000);
+        $(".gitex-banner-container .gitex-banner-img").fadeIn();
+
+         $(function () {
+          $(".gitex-banner-container").delay(10000).fadeOut('slow');
+         });
+
+         });
+         
+    </script>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="FooterScript" runat="server">
     <script type="text/javascript">function autoPlayYouTubeModal() { var trigger = $("body").find('[data-toggle="modal"]'); trigger.click(function () { var theModal = $(this).data("target"), videoSRC = $(this).attr("data-videoid"), videoSRCauto = "https://www.youtube.com/embed/" + videoSRC + "?rel=0&amp;autoplay=0"; $(theModal + ' iframe').attr('src', videoSRCauto); $(theModal + ' button.close').click(function () { $(theModal + ' iframe').attr('src', videoSRC); }); }); } $(document).ready(function () { autoPlayYouTubeModal(); }); </script>
