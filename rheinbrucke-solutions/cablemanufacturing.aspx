@@ -615,7 +615,7 @@ var google_remarketing_only = false;
                                 <li><a href="javascript:void(0)" class="faiconcolor linkedin Share" title="Social Share"><i class="fa fa-share-alt-square" aria-hidden="true"></i></a></li>
                                 <ul class="social" style="display:none;">
                                     <li><a href="#" class="faiconcolor linkedin linkdin" target="_blank"><i class="fa-linkedin-square fa" aria-hidden="true"></i></a></li>
-                                    <li><a href="#" class="faiconcolor google-plus GPlus" target="_blank"><i class="fa-google-plus-square fa" aria-hidden="true"></i></a></li>
+                                    <%--<li><a href="#" class="faiconcolor google-plus GPlus" target="_blank"><i class="fa-google-plus-square fa" aria-hidden="true"></i></a></li>--%>
                                     <li><a target="_blank" href="#" id="" class="faiconcolor facebook-square facebook"><i class="fa-facebook-square fa" aria-hidden="true"></i></a></li>
                                     <li><a href="#" class="faiconcolor twitterPlus twitter" target="_blank"><i class="fa-twitter-square fa" aria-hidden="true"></i></a></li>
                                 </ul>
@@ -645,7 +645,7 @@ var google_remarketing_only = false;
                                 <li><a href="javascript:void(0)" class="faiconcolor linkedin Share" title="Social Share"><i class="fa fa-share-alt-square" aria-hidden="true"></i></a></li>
                                 <ul class="social" style="display:none;">
                                     <li><a href="#" class="faiconcolor linkedin linkdin" target="_blank"><i class="fa-linkedin-square fa" aria-hidden="true"></i></a></li>
-                                    <li><a href="#" class="faiconcolor google-plus GPlus" target="_blank"><i class="fa-google-plus-square fa" aria-hidden="true"></i></a></li>
+                                    <%--<li><a href="#" class="faiconcolor google-plus GPlus" target="_blank"><i class="fa-google-plus-square fa" aria-hidden="true"></i></a></li>--%>
                                     <li><a target="_blank" href="#" id="" class="faiconcolor facebook-square facebook"><i class="fa-facebook-square fa" aria-hidden="true"></i></a></li>
                                     <li><a href="#" class="faiconcolor twitterPlus twitter" target="_blank"><i class="fa-twitter-square fa" aria-hidden="true"></i></a></li>
                                 </ul>
@@ -686,7 +686,7 @@ var google_remarketing_only = false;
                                 <li><a href="javascript:void(0)" class="faiconcolor linkedin Share" title="Social Share"><i class="fa fa-share-alt-square" aria-hidden="true"></i></a></li>
                                 <ul class="social" style="display:none;">
                                     <li><a href="#" class="faiconcolor linkedin linkdin" target="_blank"><i class="fa-linkedin-square fa" aria-hidden="true"></i></a></li>
-                                    <li><a href="#" class="faiconcolor google-plus GPlus" target="_blank"><i class="fa-google-plus-square fa" aria-hidden="true"></i></a></li>
+                                    <%--<li><a href="#" class="faiconcolor google-plus GPlus" target="_blank"><i class="fa-google-plus-square fa" aria-hidden="true"></i></a></li>--%>
                                     <li><a target="_blank" href="#" id="" class="faiconcolor facebook-square facebook"><i class="fa-facebook-square fa" aria-hidden="true"></i></a></li>
                                     <li><a href="#" class="faiconcolor twitterPlus twitter" target="_blank"><i class="fa-twitter-square fa" aria-hidden="true"></i></a></li>
                                 </ul>
@@ -741,7 +741,7 @@ var google_remarketing_only = false;
                                 <li><a href="javascript:void(0)" class="faiconcolor linkedin Share" title="Social Share"><i class="fa fa-share-alt-square" aria-hidden="true"></i></a></li>
                                 <ul class="social" style="display:none;">
                                     <li><a href="#" class="faiconcolor linkedin linkdin" target="_blank"><i class="fa-linkedin-square fa" aria-hidden="true"></i></a></li>
-                                    <li><a href="#" class="faiconcolor google-plus GPlus" target="_blank"><i class="fa-google-plus-square fa" aria-hidden="true"></i></a></li>
+                                    <%--<li><a href="#" class="faiconcolor google-plus GPlus" target="_blank"><i class="fa-google-plus-square fa" aria-hidden="true"></i></a></li>--%>
                                     <li><a target="_blank" href="#" id="" class="faiconcolor facebook-square facebook"><i class="fa-facebook-square fa" aria-hidden="true"></i></a></li>
                                     <li><a href="#" class="faiconcolor twitterPlus twitter" target="_blank"><i class="fa-twitter-square fa" aria-hidden="true"></i></a></li>
                                 </ul>
@@ -808,7 +808,7 @@ var google_remarketing_only = false;
                                 <li><a href="javascript:void(0)" class="faiconcolor linkedin Share" title="Social Share"><i class="fa fa-share-alt-square" aria-hidden="true"></i></a></li>
                                 <ul class="social" style="display:none;">
                                     <li><a href="#" class="faiconcolor linkedin linkdin" target="_blank"><i class="fa-linkedin-square fa" aria-hidden="true"></i></a></li>
-                                    <li><a href="#" class="faiconcolor google-plus GPlus" target="_blank"><i class="fa-google-plus-square fa" aria-hidden="true"></i></a></li>
+                                    <%--<li><a href="#" class="faiconcolor google-plus GPlus" target="_blank"><i class="fa-google-plus-square fa" aria-hidden="true"></i></a></li>--%>
                                     <li><a target="_blank" href="#" id="" class="faiconcolor facebook-square facebook"><i class="fa-facebook-square fa" aria-hidden="true"></i></a></li>
                                     <li><a href="#" class="faiconcolor twitterPlus twitter" target="_blank"><i class="fa-twitter-square fa" aria-hidden="true"></i></a></li>
                                 </ul>

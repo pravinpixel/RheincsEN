@@ -438,7 +438,7 @@
 					<h3 class="footer-hdg">Keep Connected</h3>
 					<a href="https://www.facebook.com/RheinBrucke" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social font-colo"></i></a>
 	            <a href="https://twitter.com/RheinBruckeIT" target="_blank"><i id="social-tw" class="fa fa-twitter-square fa-3x social icon-tw"></i></a>
-	            <a href="https://plus.google.com/108478282039113445071" target="_blank"><i id="social-gp" class="fa fa-google-plus-square fa-3x social icon-gplus"></i></a>
+	            <%--<a href="https://plus.google.com/108478282039113445071" target="_blank"><i id="social-gp" class="fa fa-google-plus-square fa-3x social icon-gplus"></i></a>--%>
 	            <a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" target="_blank"><i id="social-em" class="fa fa-linkedin-square fa-3x social"></i></a>
 				</div>
         </div>
@@ -462,6 +462,7 @@
         </div>
 
 <%--        </section>--%>
-      
+      
+
 
 </asp:Content>

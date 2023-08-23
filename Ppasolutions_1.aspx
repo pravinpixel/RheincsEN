@@ -76,7 +76,7 @@
         <div class="phone">
             <i class="fa-facebook-square fa" aria-hidden="true"></i>
             <i class="fa-linkedin-square fa" aria-hidden="true"></i>
-            <i class="fa-google-plus-square fa" aria-hidden="true"></i>
+            <%--<i class="fa-google-plus-square fa" aria-hidden="true"></i>--%>
             <i class="fa-youtube-square fa" aria-hidden="true"></i>
             <i class="fa-twitter-square fa" aria-hidden="true"></i>
         </div>

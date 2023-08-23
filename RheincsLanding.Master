@@ -1093,7 +1093,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <div class="fBottom"><span class="border">Connect with us</span> </div>
                                     <ul class="social">
                                         <li><a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" title="LinkedIn" target="_blank" aria-hidden="true" class="icon-linkedin ETsocialicon"></a></li>
-                                        <li><a href="https://plus.google.com/108478282039113445071" title="Google-plus" target="_blank" aria-hidden="true" class="icon-google-plus ETsocialicon"></a></li>
+                                       <%-- <li><a href="https://plus.google.com/108478282039113445071" title="Google-plus" target="_blank" aria-hidden="true" class="icon-google-plus ETsocialicon"></a></li>--%>
                                         <li><a href="https://www.facebook.com/RheinBrucke" title="Facebook" target="_blank" aria-hidden="true" class="icon-facebook ETsocialicon"></a></li>
                                         <li><a href="https://twitter.com/RheinBruckeIT" title="Twitter" target="_blank" aria-hidden="true" class="icon-twitter ETsocialicon"></a></li>
                                         <li><a href="https://www.youtube.com/channel/UCuR25ldsvrd7yd5vkzqntAg" title="Youtube" target="_blank" aria-hidden="true" class="icon-youtube ETsocialicon"></a></li>

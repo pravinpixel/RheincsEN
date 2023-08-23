@@ -435,7 +435,8 @@
                                         <button class="button-alone disabled" type="submit" id="top-submit"onclick="onFormSubmitContact()">SUBMIT</button>
                                         <br/>
                                     </div>
-                                </div>
+                                </div>
+
               </form>
                         </div>
                     </div>
@@ -448,14 +449,15 @@
                 <p style="color:white;">© Copyright 2017 RheinBrücke IT Consulting | All Right Reserved.</p> <ul class="social_icon black top25 bottom20 list-inline" style="color:white;">
                             <li><a href="https://www.facebook.com/RheinBrucke" target="_blank"><i class="fa fa-facebook" style="color:white;"></i></a></li>
                             <li><a href="https://twitter.com/RheinBruckeIT" target="_blank"><i class="fa fa-twitter"style="color:white;"></i></a></li>
-                            <li><a href="https://plus.google.com/108478282039113445071" target="_blank"><i class="fa fa-google-plus"style="color:white;"></i></a></li>
+                            <%--<li><a href="https://plus.google.com/108478282039113445071" target="_blank"><i class="fa fa-google-plus"style="color:white;"></i></a></li>--%>
                             <li><a href="https://www.youtube.com/user/RheinbruckeIT" target="_blank"><i class="fa fa-youtube"style="color:white;"></i></a></li>
                             <li><a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" target="_blank"><i class="fa fa-linkedin"style="color:white;"></i></a></li>
 
                         </ul>
             </div>
             <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
-        </footer>    <div id="myModal" class="modal fade" role="dialog">
+        </footer>
+    <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
 
             <!-- Modal content-->
@@ -533,6 +535,7 @@
                     }
                 });
             });
-        </script>
+        </script>
+
 
 </asp:Content>

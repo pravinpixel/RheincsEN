@@ -613,7 +613,7 @@
                     <li><a href="https://www.facebook.com/RheinBrucke" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
                     <li><a href="https://twitter.com/RheinBruckeIT"><i class="fa fa-twitter-square"></i></a></li>
                     <li><a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-                    <li><a href="https://plus.google.com/108478282039113445071" target="_blank"><i class="fa fa-google-plus-square"></i></a></li>
+                    <%--<li><a href="https://plus.google.com/108478282039113445071" target="_blank"><i class="fa fa-google-plus-square"></i></a></li>--%>
                     <li><a href="https://www.youtube.com/channel/UCWczBR-4VLbNsoolMUkBL9g" target="_blank"><i class="fa fa-youtube-square"></i></a></li>
                     <li><a href="https://blog.rheincs.com" target="_blank"><i class="fa fa-rss-square"></i></a></li>
                 </ul> <!--/ .footer-social -->

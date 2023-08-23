@@ -81,7 +81,7 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
                     <ul class="nav navbar-nav header-social">
                          <li><a href="https://www.facebook.com/RheinBrucke" target="_blank"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://twitter.com/RheinBruckeIT" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://plus.google.com/108478282039113445071" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                        <%--<li><a href="https://plus.google.com/108478282039113445071" target="_blank"><i class="fa fa-google-plus"></i></a></li>--%>
                         <li><a href="https://www.youtube.com/channel/UCuR25ldsvrd7yd5vkzqntAg" target="_blank"><i class="fa fa-youtube"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         
@@ -109,7 +109,7 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
                     <ul class="social-icons">
                         <li><a href="https://www.facebook.com/RheinBrucke" target="_blank"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://twitter.com/RheinBruckeIT" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://plus.google.com/108478282039113445071" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                        <%--<li><a href="https://plus.google.com/108478282039113445071" target="_blank"><i class="fa fa-google-plus"></i></a></li>--%>
                         <li><a href="https://www.youtube.com/channel/UCuR25ldsvrd7yd5vkzqntAg" target="_blank"><i class="fa fa-youtube"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
@@ -123,7 +123,7 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
             <li><a href="#" class="twitter" target="_blank">Twitter <i class="fa fa-twitter"></i></a></li>
             <li><a href="#" class="facebook" target="_blank">Facebook <i class="fa fa-facebook"></i></a></li>
             <li><a href="#" class="linkedin" target="_blank">Linkedin <i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#" class="GPlus" target="_blank">Google Plus <i class="fa fa-google-plus"></i></a></li>
+            <%--<li><a href="#" class="GPlus" target="_blank">Google Plus <i class="fa fa-google-plus"></i></a></li>--%>
            
         </ul>
     </nav>
@@ -134,7 +134,7 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
                                      <li><a href="#" class="faiconcolor twitterPlus twitter" target="_blank"><i class="fa-twitter-square fa" aria-hidden="true"></i></a></li>
                                      <li><a target="_blank" href="#" id="" class="faiconcolor facebook-square facebook"><i class="fa-facebook-square fa" aria-hidden="true"></i></a></li>
                                     <li><a href="#" class="faiconcolor  link-col linkedin linkdin" target="_blank"><i class="fa-linkedin-square fa" aria-hidden="true"></i></a></li>
-                                    <li><a href="#" class="faiconcolor google-plus GPlus" target="_blank"><i class="fa-google-plus-square fa" aria-hidden="true"></i></a></li>
+                                    <%--<li><a href="#" class="faiconcolor google-plus GPlus" target="_blank"><i class="fa-google-plus-square fa" aria-hidden="true"></i></a></li>--%>
                                    
                                    
                                 </ul>

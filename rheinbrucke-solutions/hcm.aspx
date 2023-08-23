@@ -549,7 +549,7 @@
                 <ul class="social-icons">
                     <li><a href="https://www.facebook.com/RheinBrucke" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="https://twitter.com/RheinBruckeIT" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://plus.google.com/108478282039113445071" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                    <%--<li><a href="https://plus.google.com/108478282039113445071" target="_blank"><i class="fa fa-google-plus"></i></a></li>--%>
                     <li><a href="https://www.youtube.com/user/RheinbruckeIT" target="_blank"><i class="fa fa-youtube"></i></a></li>
                     <li><a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
@@ -562,9 +562,9 @@
         <li><a href="#" class="twitter" target="_blank">Twitter <i class="fa fa-twitter"></i></a></li>
         <li><a href="#"  class="facebook" target="_blank" >Facebook <i class="fa fa-facebook"></i></a></li>
         <li><a href="#" class="linkdin" target="_blank">Linkedin <i class="fa fa-linkedin"></i></a></li>
-        <li><a href="#" class="GPlus" target="_blank">Google Plus <i class="fa fa-google-plus"></i></a></li>
-       <%-- <li><a href="https://www.youtube.com/user/RheinbruckeIT">Youtube <i class="fa fa-youtube"></i></a></li>
-        <li><a href="https://blog.rheincs.com/">Blog <i class="fa fa-rss-square"></i></a></li>--%>
+        <%--<li><a href="#" class="GPlus" target="_blank">Google Plus <i class="fa fa-google-plus"></i></a></li>--%>
+        <li><a href="https://www.youtube.com/user/RheinbruckeIT">Youtube <i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://blog.rheincs.com/">Blog <i class="fa fa-rss-square"></i></a></li>
     </ul>
 </nav>
 
