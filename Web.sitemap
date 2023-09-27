@@ -50,7 +50,7 @@
           <!--<siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software" title="Epicor For Distribution" description="EpicorForDistribution" />-->
           <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design" title="Epicor For Interior Design" description="EpicorForInteriorDesign" />
           <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-epc" title="Epicor For Construction and EPC" description="EpicorForConstructionAndEPC" />
-          <!--<siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" title="Epicor HCM" description="EpicorHCM" />-->
+          <siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" title="Epicor HCM" description="EpicorHCM" />
          <!--<siteMapNode url="/solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software" title="Epicor iScala Hospitality Industry Software" description="Epicor iScala Hospitality Industry Software" />-->
         </siteMapNode>
           <!--<siteMapNode url="/solutions/erp-enterprise-solutions-and-services/business-driven-BI-and-analytics" title="Business-Driven BI and Analytics"  description="Business-Driven BI and Analytics" />-->

@@ -98,9 +98,9 @@
             <h1 class="redColor">Our Partners</h1>
             <%--<p>RheinBrücke is a two times winner of the Epicor International partner of the Year as well as a Microsoft Gold partner. Our award-winning products and services have been delivered to enterprises across 34 countries. We specialize in Epicor product development support, implementation & support services and customized industry-vertical pre-configured solutions for Epicor. Our channel partner network comprises of an ecosystem of trusted partners who help customers across industries and locations accelerate their journey to an Intelligent Enterprise using RheinBrücke’s innovative solutions based on Epicor ERP as well as RheinBrücke Enterprise Products.</p>--%>
           <p>RheinBrücke is a two times winner of the Epicor International partner of the Year as well as a Microsoft Gold partner. Our award-winning products and services have been delivered to enterprises across 34 countries. We specialize in Epicor product development support, implementation & support services and customized industry-vertical pre-configured solutions for Epicor. Our channel partner network comprises of an ecosystem of trusted partners who help customers across industries and locations accelerate their journey to an Intelligent Enterprise using RheinBrücke’s innovative solutions based on Epicor ERP as well as our own Enterprise Products like MeRLIN.</p>
-            <div class="row">
+            <%--<div class="row">
                 <div class="image-cont">
-                    <div class="col-lg-4">
+                   <div class="col-lg-4">
                         <div class="col-md-8 ht78 ht80 padl0">
                         <a href="http://www.abacusits.com/" target="_blank">
                             <img src="Assets/images/partners/abacus-partner.jpg" class="data-primelogo" alt="Abacus" /></a>
@@ -110,15 +110,15 @@
                         <h4>Abacus</h4>
                         <p class="partner-p">Partner Type: <span class="redColor">Diamond</span></p>
                         <p class="partner-desc">Abacus is a leading vendor of business management solutions since 2003. Their Solutions include Enterprise resource Planning (ERP), Human Resource Management (HRMS), Customer Relationship Management (CRM), Accounting Software, Small Business Solution & other best-of-breed software. Over the last decade, Abacus has built the reputation of delivering value to more than 700 customers across industries. Abacus being a process driven company, believes in a strong implementation methodology and people with successful experience is what differentiates us from the rest.</p>
-                    </div>
-                    <div class="col-lg-4">
+                    </div> 
+                   <div class="col-lg-4">
                         <div class="col-md-8 ht78 padl0"><a href="https://www.ajmanchamber.ae/en/" target="_blank">
                             <img src="Assets/images/partners/ajmanchamber-logo.png" alt="Moro" /></a></div>
                         <div class="clearfix"></div>
                         <h4>Ajman Coc</h4>
                         <p class="partner-p">Partner Type: <span class="redColor">Enabled/Supported by</span></p>
                         <p class="partner-desc">Ajman Chamber of Commerce and Industry was incorporated under an Ameri Decree issued by late H.H. Sheikh Rashid Bin Hmaid Bin Rashid Al Nu’aimi in 1977, stipulating that the chamber of commerce and industry shall be a legal entity with an independent financially.</p>
-                    </div>
+                    </div> 
                     <div class="col-lg-4">
                         <div class="col-md-8 ht78 padl0"><a href="https://dcxperts.com/" target="_blank">
                             <img src="Assets/images/partners/dcx_logo.png" alt="DCX" /></a></div>
@@ -126,13 +126,12 @@
                         <h4>Data Centre Xperts</h4>
                         <p class="partner-p">Partner Type: <span class="redColor">Silver/Gold</span></p>
                         <p class="partner-desc">Data Centre Xperts (DCX) is an APC Schneider-Electric Premier Partner based in the  United Arab Emirates (UAE, Dubai). The company established in 2012 and has a team of experts dedicated to helping clients maintain outstanding after sales services and support for all mission critical data centres and IT equipment rooms of any size around the clock.</p>
-                    </div>
-                    
+                    </div> 
 
 
                 </div>
-            </div>
-            <div class="row">
+            </div>--%>
+           <!-- <div class="row">
                 <div class="image-cont">
                     <div class="col-lg-4">
                         <div class="col-md-8 ht78 ht56 padl0"><a href="http://dataprime.com/" target="_blank">
@@ -162,16 +161,24 @@
                     </div>
                     
                 </div>
-            </div>
+            </div>-->
             <div class="row">
                 <div class="image-cont">
-                    <div class="col-lg-4">
+                   <!-- <div class="col-lg-4">
                         <div class="col-md-8 ht78 ht56 padl0"><a href="https://www.inserito.com/" target="_blank">
                             <img src="Assets/images/partners/inserito-logo.png" alt="Inserito" /></a></div>
                         <div class="clearfix"></div>
                         <h4>Inserito</h4>
                         <p class="partner-p">Partner Type: <span class="redColor">Diamond/Platinum</span></p>
                         <p class="partner-desc">We are in a constant process of evolution to bring you the most advanced level of technological solutions. We aim to affiliate our brand with corporate clientele who aspire to advance in their respective industries.</p>
+                    </div>-->
+                      <div class="col-lg-4">
+                        <div class="col-md-8 ht78 padl0"><a href="https://www.ajmanchamber.ae/en/" target="_blank">
+                            <img src="Assets/images/partners/ajmanchamber-logo.png" alt="Moro" /></a></div>
+                        <div class="clearfix"></div>
+                        <h4>Ajman Coc</h4>
+                        <p class="partner-p">Partner Type: <span class="redColor">Enabled/Supported by</span></p>
+                        <p class="partner-desc">Ajman Chamber of Commerce and Industry was incorporated under an Ameri Decree issued by late H.H. Sheikh Rashid Bin Hmaid Bin Rashid Al Nu’aimi in 1977, stipulating that the chamber of commerce and industry shall be a legal entity with an independent financially.</p>
                     </div>
                     <div class="col-lg-4">
                         <div class="col-md-8 ht78 ht56 padl0"><a href="https://www.morohub.com/" target="_blank">

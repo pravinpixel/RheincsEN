@@ -138,7 +138,7 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                         </ul>
 
                     </div>
-                    <div class="col-md-4">
+                  <%--  <div class="col-md-4">
                         <ul>
                             <li>
                                 <div class="contactus-map-icon">
@@ -156,17 +156,17 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                                 </p>
                             </li>
                         </ul>
-                    </div>
+                    </div>--%>
  <div class="col-md-4">
                         <ul>
                             <li>
                                 <div class="contactus-map-icon">
                                     <img src="Assets/images/location-icon.png" class="img-responsive" alt="Location Indiactor" />
                                 </div>
-                                <span class="redColor bulletContent">UAE- Office 2
+                                <span class="redColor bulletContent">UAE- Office 1
                                 </span>
                                 <p class="bulletContent">
-                                   RheinBrücke IT Consulting EMEA FZCO,<br />
+                                   RheinBrücke IT Consulting EMEA FZE,<br />
                                     2-234-235 – Techno Hub 2,<br />
                                     P.O Box : 342060<br />
                                     Dubai Silicon Oasis, Dubai<br />
@@ -179,16 +179,13 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
 
                     </div>
                   
-
-                </div>
-                <div class="row col-md-12 ">
-                      <div class="col-md-4">
+                     <div class="col-md-4">
                         <ul>
                             <li>
                                 <div class="contactus-map-icon">
                                     <img src="Assets/images/location-icon.png" class="img-responsive" alt="Location Indiactor" />
                                 </div>
-                                 <span class="redColor bulletContent">UAE- Office 3 
+                                 <span class="redColor bulletContent">UAE- Office 2 
                                 </span>
                                 <p class="bulletContent">
                                     RheinBrücke IT Consulting DMCC,<br />
@@ -205,7 +202,8 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                         </ul>
 
                     </div>
-                    </div>
+                </div>
+               
             </div>
             <!--locations-->
             <!--FORM-->
