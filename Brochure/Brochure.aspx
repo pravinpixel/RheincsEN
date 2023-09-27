@@ -42,7 +42,7 @@
                     <ItemTemplate>                     
                         <div class="col-md-3 col-xs-12 col-sm-6 success-padding-left padd-left-72">                          
                             <%# Eval("ImageURL") %>
-                            <p class="success-text1">
+                            <p class="success-text1" style="min-height: 40px;">
                                 <%# Eval("Description") %>
                             </p>
                             <a  style="color: #2f2f2f;" class="readmore" data-toggle="modal" data-target="#myModal-brochure" data-id="<%# Eval("Description") %>" data-value ="<%=rootpath %>Assets/images/Brochure/Thumbnail/<%# Eval("Thumbnail") %>">                        
