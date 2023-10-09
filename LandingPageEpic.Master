@@ -591,7 +591,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <li><a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Our Solutions</span></a>
                          <ul>
                              <li ><a href="<%=rootpath %>Epicor-Payroll-MEA" class="Level3-menu ETMenu"><span>Epicor-Payroll-MEA</span></a></li>
-                             <li ><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="Level3-menu ETMenu"> <span>CCT</span></a></li>
+                            <%-- <li ><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="Level3-menu ETMenu"> <span>CCT</span></a></li>--%>
                             <!-- <li ><a href="<%=rootpath %>ppa-power-plant-analytics" class="Level3-menu ETMenu">PPA</a></li> -->
                              <li ><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software" class="Level3-menu ETMenu">MeRLIN</a></li>                  
                         </ul>
@@ -748,7 +748,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                     <br />
                                                                    
                                                                       <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>Epicor-Payroll-MEA"><span>Epicor-Payroll-MEA</span></a></li>
-                                                                      <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>
+                                                                   <%--   <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>--%>
                                                                     <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>ppa-power-plant-analytics">Power Plant Analytics</a></li>  -->                                                          
                                                                     <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN – Strategic Sourcing Software</a></li> 
                                                                    
@@ -782,7 +782,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 																			 <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design">For Interior Design</a></li>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC">For Construction & EPC</a></li>
                                                                           <%--  <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm">Epicor HCM</a></li>--%>
-                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software">Epicor Iscala for Hospitality</a></li>
+                                                                         <%--   <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software">Epicor Iscala for Hospitality</a></li>--%>
                                                                         
 																		</ul> 
                                                                     </li>
@@ -875,14 +875,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             <option value="2">EPICOR for Manufacturing</option>
                                              <option value="3">EPICOR for Cable Manufacturing</option>
                                             <option value="4">EPICOR for EPC and Construction</option>
-                                           <option value="5"> EPICOR iScala for hospitality</option>
+                                          <%-- <option value="5"> EPICOR iScala for hospitality</option>--%>
                                            <option value="6"> RheinBrücke Power Plant Analytics</option>
                                             <option value="7">Business Intelligence</option>
                                             <option value="8">MeRLIN </option>
                                             <option value="9">SAP</option>
                                             <option value="10">Epicor HCM</option>
                                             <option value="11">Epicor-Payroll-MEA</option>
-                                            <option value="12">CCT (Copy Company Tool)</option>
+                                          <%--  <option value="12">CCT (Copy Company Tool)</option>--%>
                                             <option value="13">SharePoint</option>
                                             <option value="14">Microsoft Technologies - .Net & SQL Server</option>
                                         </select>

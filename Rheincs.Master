@@ -890,14 +890,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                              <option value="3">EPICOR for Cable Manufacturing</option>
                                               <option value="15">EPICOR for Wire Rope Manufacturing</option>
                                             <option value="4">EPICOR for EPC and Construction</option>
-                                           <option value="5"> EPICOR iScala for hospitality</option>
+                                       <%--    <option value="5"> EPICOR iScala for hospitality</option>--%>
                                            <option value="6"> RheinBrücke Power Plant Analytics</option>
                                             <option value="7">Business Intelligence</option>
                                             <option value="8">MeRLIN </option>
                                             <option value="8">SAP</option>
                                             <option value="10">Epicor HCM</option>
                                             <option value="11">Epicor-Payroll-MEA</option>
-                                            <option value="12">CCT (Copy Company Tool)</option>
+                                           <%-- <option value="12">CCT (Copy Company Tool)</option>--%>
                                             <option value="13">SharePoint</option>
                                             <option value="14">Microsoft Technologies - .Net & SQL Server</option>
                                         </select>
