@@ -8,7 +8,10 @@
   <style>
       .img-width img
       {
-          width:100%;
+          width:70%;
+      }
+      .search-panel .success-padding-left:nth-child(5){
+          float: right !important;
       }
   </style>
     <div class="container" id="container-top">
