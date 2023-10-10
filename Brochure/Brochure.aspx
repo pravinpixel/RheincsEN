@@ -40,7 +40,7 @@
             <div class="col-md-12 search-panel ">
                 <asp:Repeater ID="rptBrochure" runat="server">
                     <ItemTemplate>                     
-                        <div class="col-md-3 col-xs-12 col-sm-6 success-padding-left padd-left-72" style="white-space: pre-line;">                          
+                        <div class="col-md-3 col-xs-12 col-sm-6 success-padding-left padd-left-72">                          
                             <%# Eval("ImageURL") %>
                             <p class="success-text1" style="min-height: 40px;">
                                 <%# Eval("Description") %>
