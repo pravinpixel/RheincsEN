@@ -41,9 +41,6 @@
             </h5>
         </div>
      
-   
-
-
         <div class="clearfix">&nbsp;</div>
         <div class="row" id="filter-search">
             <div class="col-md-12 search-panel ">
