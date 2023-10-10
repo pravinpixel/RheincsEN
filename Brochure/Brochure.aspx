@@ -5,12 +5,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-      <style>
-        .success-padding-left img:nth-child(1)
-        {
-            width:100% !important;
-        }
-    </style>
+  
     <div class="container" id="container-top">
         <div class="row">
             <ul class="breadcrumb bread  hidden-xs hidden-sm">
@@ -46,7 +41,7 @@
             <div class="col-md-12 search-panel ">
                 <asp:Repeater ID="rptBrochure" runat="server">
                     <ItemTemplate>                     
-                        <div class="col-md-3 col-xs-12 col-sm-6 success-padding-left padd-left-72" style="float:right;">                          
+                        <div class="col-md-3 col-xs-12 col-sm-6 success-padding-left padd-left-72">                          
                             <%# Eval("ImageURL") %>
                             <p class="success-text1" style="min-height: 40px;">
                                 <%# Eval("Description") %>
