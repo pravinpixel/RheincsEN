@@ -6,7 +6,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
       <style>
-        .success-padding-left img
+        .success-padding-left img:nth-child(1)
         {
             width:100% !important;
         }
