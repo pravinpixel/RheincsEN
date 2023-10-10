@@ -5,6 +5,12 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+      <style>
+        .success-padding-left img
+        {
+            width:100% !important;
+        }
+    </style>
     <div class="container" id="container-top">
         <div class="row">
             <ul class="breadcrumb bread  hidden-xs hidden-sm">
