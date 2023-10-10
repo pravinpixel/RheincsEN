@@ -10,7 +10,7 @@
       {
           width:70%;
       }
-      .search-panel:nth-child(5){
+      .search-panel:nth-child(4){
           float: right !important;
       }
   </style>
