@@ -945,6 +945,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
+                                          <div class="clearfix"></div>
+                                        <span class="showErrorMsg" style="color: red"></span>
+                                        <div class="clearfix"></div>
                                         <div class="col-md-6 col-sm-6 captchadiv" style="height: 39px; margin-top: 4px;">
                                             <div id="g_captcha" style="transform: scale(0.65); -webkit-transform: scale(0.65); transform-origin: 0 0; -webkit-transform-origin: 0 0;"></div>
                                         </div>
