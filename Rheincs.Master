@@ -943,7 +943,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <span class="validator" id="reqMessage" hidden="hidden" style="font-size: 13px;">Enter Your Message</span>
                                     </div>
                                 </div>
-                                <div class="row">
+                              <%--  <div class="row">
                                     <div class="col-md-12">
                                           <div class="clearfix"></div>
                                         <span class="showErrorMsg" style="color: red"></span>
@@ -952,7 +952,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             <div id="g_captcha" style="transform: scale(0.65); -webkit-transform: scale(0.65); transform-origin: 0 0; -webkit-transform-origin: 0 0;"></div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>--%>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input type="button" id="btnContactUs" class="submit-button" data-loading-text="Submitting.." value="Submit" />
