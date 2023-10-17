@@ -10,6 +10,11 @@
       {
           width:70%;
       }
+      
+      .img-width
+      {
+          min-height:280px;
+      }
       .search-panel:nth-child(4){
           float: right !important;
       }
