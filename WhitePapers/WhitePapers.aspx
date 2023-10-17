@@ -4,6 +4,14 @@
     <meta name="description" content="Download research collateral from RheinBrucke" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <style>
+     
+      .img-width
+      {
+          min-height:280px;
+      }
+     
+  </style>
     <div class="container" id="container-top">
         <div class="row">
             <ul class="breadcrumb bread  hidden-xs hidden-sm">
@@ -33,7 +41,9 @@
                 <asp:Repeater ID="rptNewsEvents" runat="server">
                     <ItemTemplate>                     
                         <div class="col-md-3 col-xs-12 col-sm-6 success-padding-left padd-left-72">                          
+                           <div class="img-width">
                             <%# Eval("ImageURL") %>
+                                </div>
                             <p class="success-text1" style="min-height: 40px;">
                                 <%# Eval("Description") %>
                             </p>
