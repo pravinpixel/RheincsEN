@@ -1498,4 +1498,37 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
 </script>
+
+
+    <div class="modal fade" id="myModal-form-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            
+            <div class="modal-dialog" role="document">
+                <div class="modal-content mymodal-download">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>                       
+                    </div>
+                    <div class="modal-body testimonial-modal">                       
+                        <p>
+						 Congratulations to your team for successfully pulling off the “Automation of RMA” project using the “A-MAP Smart” mobile based application !  <br/>
+The legacy system was a laborious and time-consuming activity of data entry of the hundreds of Inspection entries, from the numerous Inspection sheets generated on a daily basis from the field, matching the claims against the supplied Sales orders and line details, entering all the warranty test information including customer purchasing & return data, creating disposition against the relevant warehouses and summarizing all the data for transfer to the sales teams for actual settlement of claims vide relevant sales orders.   
+ <br/>
+                            The genesis of the idea for Automation was the extreme stress, the whole activity created in the system and on the stake holders.  Building of a solution using the Gen1 of our WMS based mobile app was a masterstroke, as it gave us a solid platform to transform a highly understated tool which we had already developed to a genuine winner !  The seamless integration of the upgraded mobile app to our ERP was the real clincher. 
+ <br/>
+The very close co-ordination with the A-MAP QC/Technical team and working relentlessly through the various stages from process mapping to design, development, optimization, and multilevel trials over months, is a testament of the extreme level of customer centricity & dedication displayed by the RB team !  
+ <br/>
+The confidence gained through the successful roll out of this project makes us more ambitious to use the expertise of RB and A-MAP team’s ingenuity to create many more such path breaking projects in the near future. <br /><br />
+            <img class="testimonial-img img-circle" src="/Assets/images/Testimonial/Ramamurthy.jpeg" alt="Testimonial by Ramamurthy Rao " style="margin-right: 10px; float: left; width: 66px; height: 67px;" /><p class="testimonial-name">
+                Ramamurthy Rao <br /><span class="smaller">
+                    Head of R&D and QC <br />AL-MUQARRAM AUTO PARTS 
+                </span>
+            </p>
+                        </p>
+                        
+                    </div>
+                     
+                         
+                </div>
+            </div>
+                 
+        </div>
 </html>
