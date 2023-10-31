@@ -1500,8 +1500,7 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 
 
-    <div class="modal fade" id="myModal-form-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            
+    <div class="modal fade" id="myModal-form-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">            
             <div class="modal-dialog" role="document">
                 <div class="modal-content mymodal-download">
                     <div class="modal-header">
