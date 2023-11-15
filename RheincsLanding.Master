@@ -879,15 +879,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             <option value="1">Epicor</option>
                                             <option value="2">EPICOR for Manufacturing</option>
                                             <option value="3">EPICOR for Cable Manufacturing</option>
+                                            <option value="15">EPICOR for Wire Rope Manufacturing</option>
                                             <option value="4">EPICOR for EPC and Construction</option>
-                                         <%--  <option value="5"> EPICOR iScala for hospitality</option>--%>
-                                           <option value="6"> RheinBrücke Power Plant Analytics</option>
+                                            <%--    <option value="5"> EPICOR iScala for hospitality</option>--%>
+                                            <option value="6">RheinBrücke Power Plant Analytics</option>
                                             <option value="7">Business Intelligence</option>
                                             <option value="8">MeRLIN </option>
-                                            <option value="9">SAP</option>
+                                            <option value="8">SAP</option>
                                             <option value="10">Epicor HCM</option>
                                             <option value="11">Epicor-Payroll-MEA</option>
-                                           <%-- <option value="12">CCT (Copy Company Tool)</option>--%>
+                                            <%-- <option value="12">CCT (Copy Company Tool)</option>--%>
                                             <option value="13">SharePoint</option>
                                             <option value="14">Microsoft Technologies - .Net & SQL Server</option>
                                         </select>
@@ -903,9 +904,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input type="text" placeholder="*Your Email Address" id="txtEmail" class="write-to-us-input" />
-                                        <span class="validator" id="reqemail" hidden="hidden" style="font-size: 13px;">Enter Your Email Address</span> 
-										<span class="validator" style="font-size: 13px;" id="valemail" hidden="hidden">Enter Valid Email Address</span>
-										<span class="validator" style="font-size: 13px;" id="domainemail" hidden="hidden">Enter Valid Official Address</span>
+                                        <span class="validator" id="reqemail" hidden="hidden" style="font-size: 13px;">Enter Your Email Address</span>
+                                        <span class="validator" style="font-size: 13px;" id="valemail" hidden="hidden">Enter Valid Email Address</span>
+                                        <span class="validator" style="font-size: 13px;" id="domainemail" hidden="hidden">Enter Valid Official Address</span>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -914,17 +915,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <span class="validator" id="reqphone" hidden="hidden" style="font-size: 13px;">Enter Your Mobile Number</span> <span style="font-size: 13px;" class="validator" id="valphone" hidden="hidden">Enter Valid Phone Number</span>
                                     </div>
                                 </div>
-								  <div class="row">
+                                <div class="row">
                                     <div class="col-md-12">
                                         <input type="text" placeholder="*Your Company Name" id="txtCompanyname" class="write-to-us-input" />
                                         <span class="validator" id="reqCompanyname" hidden="hidden" style="font-size: 13px;">Enter Your Company Name</span>
-                                         <span style="font-size: 13px;" class="validator" id="valcompanyname" hidden="hidden">Enter Valid Company Name</span>
+                                        <span style="font-size: 13px;" class="validator" id="valcompanyname" hidden="hidden">Enter Valid Company Name</span>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <textarea cols="45" style="font-size: 13px;" rows="5" placeholder="*Your Message" id="txtMessage" class="write-to-us-input"></textarea>
                                         <span class="validator" id="reqMessage" hidden="hidden" style="font-size: 13px;">Enter Your Message</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="clearfix"></div>
+                                        <span class="showErrorMsg" style="color: red"></span>
+                                        <div class="clearfix"></div>
+                                        <div class="col-md-6 col-sm-6 captchadiv">
+                                            <div class="g-recaptcha" data-sitekey="6LcRmjsUAAAAADmNyyjwZNsWwnYTozrxIjSKcjGI"></div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -1236,7 +1247,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </form>
     </div>
  
-   
+   <script src='https://www.google.com/recaptcha/api.js'></script>
     <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
     </script>
     <noscript>

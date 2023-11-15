@@ -7,24 +7,25 @@
     <title>RheinBrücke IT Consulting</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-	<!--leadfeeder code -->
-	<!-- Google Tag Manager --> 
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <!--leadfeeder code -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WHPH6XN');</script>
-<!-- End Google Tag Manager -->
-	<!-- end of leadfeeder code -->
+    <!-- End Google Tag Manager -->
+    <!-- end of leadfeeder code -->
     <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
     <style>
-	 ul.social_share_privacy_area li .info {
+        ul.social_share_privacy_area li .info {
             display: none !important;
         }
-		.info
-	{
-	display:none;
-	}
+
+        .info {
+            display: none;
+        }
+
         li.hvr-wobble-to-top-right {
             display: inherit;
         }
@@ -32,30 +33,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         body {
             opacity: 0;
         }
-          body{
-        opacity: 1!important;
-    background: url(../Assets/images/RheinBrücke.jpg) center no-repeat fixed #f5f5f5 !important;
-    background-size: cover !important;
-    }
-.mega-dropdown-menu {
-    padding: 20px 15px 15px !important;
-    text-align: center !important;
-    width: 100% !important;
-}
-           #Contactfeedback {
-    height: 104px;
-    width: 104px;
-    position: fixed;
-    top: 12%!important;
-    right: 0;
-    z-index: 1060;
-    transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-    cursor: pointer;
-}
+
+        body {
+            opacity: 1 !important;
+            background: url(../Assets/images/RheinBrücke.jpg) center no-repeat fixed #f5f5f5 !important;
+            background-size: cover !important;
+        }
+
+        .mega-dropdown-menu {
+            padding: 20px 15px 15px !important;
+            text-align: center !important;
+            width: 100% !important;
+        }
+
+        #Contactfeedback {
+            height: 104px;
+            width: 104px;
+            position: fixed;
+            top: 12% !important;
+            right: 0;
+            z-index: 1060;
+            transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+            cursor: pointer;
+        }
+
         @media (max-width: 375px) {
             #slider3 .overview li {
                 float: left;
@@ -122,75 +127,77 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             -moz-osx-font-smoothing: grayscale;
             padding: 4px 0;
         }
-.form-control
-{
-height: 54px!important;
-}
-   .line-ht-13
-        {
-            line-height:13px !important;
+
+        .form-control {
+            height: 54px !important;
         }
-          .line-ht-18
-        {
-            line-height:18px !important;
+
+        .line-ht-13 {
+            line-height: 13px !important;
+        }
+
+        .line-ht-18 {
+            line-height: 18px !important;
         }
     </style>
 
-<script type='text/javascript'>
-var _vwo_code=(function(){
-var account_id=292694,
-settings_tolerance=2000,
-library_tolerance=2500,
-use_existing_jquery=false,
-/* DO NOT EDIT BELOW THIS LINE */
-f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+    <script type='text/javascript'>
+        var _vwo_code=(function(){
+            var account_id=292694,
+            settings_tolerance=2000,
+            library_tolerance=2500,
+            use_existing_jquery=false,
+            /* DO NOT EDIT BELOW THIS LINE */
+            f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
     </script>
     <noscript>
         <div style="display:inline;">
             <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955726328/?guid=ON&amp;script=0" />
         </div>
     </noscript>
-<!--LeadSquared Tracking Code Start-->
-<script type="text/javascript" src="https://web.mxradon.com/t/Tracker.js" defer></script>
-<script type="text/javascript">
-    //pidTracker('17537');
-</script>
-<!--LeadSquared Tracking Code End-->
-  <script type="text/javascript">function load_css_async(filename) {  if (document.createStyleSheet) document.createStyleSheet(filename);
-            else {
-                var stylesheet = document.createElement('link');
-                stylesheet.href = filename;
-                stylesheet.rel = 'stylesheet';
-                stylesheet.type = 'text/css';
-                document.getElementsByTagName('head')[0].appendChild(stylesheet);
-            } }</script>
+    <!--LeadSquared Tracking Code Start-->
+    <script type="text/javascript" src="https://web.mxradon.com/t/Tracker.js" defer></script>
+    <script type="text/javascript">
+        //pidTracker('17537');
+    </script>
+    <!--LeadSquared Tracking Code End-->
+    <script type="text/javascript">function load_css_async(filename) {  if (document.createStyleSheet) document.createStyleSheet(filename);
+else {
+    var stylesheet = document.createElement('link');
+    stylesheet.href = filename;
+    stylesheet.rel = 'stylesheet';
+    stylesheet.type = 'text/css';
+    document.getElementsByTagName('head')[0].appendChild(stylesheet);
+} }</script>
 
 
     <%=cssload %>
-<script>
-load_css_async("/Assets/css/OverSheet.css");
-</script>
-<script>
+    <script>
+        load_css_async("/Assets/css/OverSheet.css");
+    </script>
+    <script>
 
 
-  <script> window.factors=window.factors||function(){this.q=[];var i=new CustomEvent("FACTORS_QUEUED_EVENT"),n=function(t,e){this.q.push({k:t,a:e}),window.dispatchEvent(i)};return this.track=function(t,e,i){n("track",arguments)},this.init=function(t,e,i){this.TOKEN=t,this.INIT_PARAMS=e,this.INIT_CALLBACK=i,window.dispatchEvent(new CustomEvent("FACTORS_INIT_EVENT"))},this.reset=function(){n("reset",arguments)},this.page=function(t,e){n("page",arguments)},this.updateEventProperties=function(t,e){n("updateEventProperties",arguments)},this.identify=function(t,e){n("identify",arguments)},this.addUserProperties=function(t){n("addUserProperties",arguments)},this.getUserId=function(){n("getUserId",arguments)},this.call=function(){var t={k:"",a:[]};if(arguments&&1<=arguments.length){for(var e=1;e<arguments.length;e++)t.a.push(arguments[e]);t.k=arguments[0]}this.q.push(t),window.dispatchEvent(i)},this.init("yyq3qwq23c7r4rq7o5refttcg39ju39m"),this}(),function(){var t=document.createElement("script");t.type="text/javascript",t.src="https://app.factors.ai/assets/v1/factors.js",t.async=!0,d=document.getElementsByTagName("script")[0],d.parentNode.insertBefore(t,d)}(); </script>
+        <script> window.factors=window.factors||function(){this.q=[];var i=new CustomEvent("FACTORS_QUEUED_EVENT"),n=function(t,e){this.q.push({k:t,a:e}),window.dispatchEvent(i)};return this.track=function(t,e,i){n("track",arguments)},this.init=function(t,e,i){this.TOKEN=t,this.INIT_PARAMS=e,this.INIT_CALLBACK=i,window.dispatchEvent(new CustomEvent("FACTORS_INIT_EVENT"))},this.reset=function(){n("reset",arguments)},this.page=function(t,e){n("page",arguments)},this.updateEventProperties=function(t,e){n("updateEventProperties",arguments)},this.identify=function(t,e){n("identify",arguments)},this.addUserProperties=function(t){n("addUserProperties",arguments)},this.getUserId=function(){n("getUserId",arguments)},this.call=function(){var t={k:"",a:[]};if(arguments&&1<=arguments.length){for(var e=1;e<arguments.length;e++)t.a.push(arguments[e]);t.k=arguments[0]}this.q.push(t),window.dispatchEvent(i)},this.init("yyq3qwq23c7r4rq7o5refttcg39ju39m"),this}(),function(){var t=document.createElement("script");t.type="text/javascript",t.src="https://app.factors.ai/assets/v1/factors.js",t.async=!0,d=document.getElementsByTagName("script")[0],d.parentNode.insertBefore(t,d)}(); </script>
 
-</script>
+    </script>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) --> 
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHPH6XN"
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHPH6XN"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager (noscript) -->
 
-<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-2XTG321QD3"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-2XTG321QD3'); </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2XTG321QD3"></script>
+    <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-2XTG321QD3'); </script>
 
 
 
-<script type="application/ld+json">
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -548,12 +555,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
     ]
   }
-</script>
+    </script>
 
 
     <a id="showLeft1" style="z-index: 1111;" class="slider-menu-icon mobilemenu mobilemenu-color-main-color-hover" href="#"><i class="fa fa-bars"></i></a>
     <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s2">
-        
+
         <div class="pull-right closeicon" id="HideLeft1"><i class="fa fa-times"></i></div>
         <div class="mobilemenu-header">
             <div class="header-search">
@@ -576,7 +583,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <li><a href="<%=rootpath %>about-us/overview" class="Level2small-menu ETMenu"><span>Overview</span></a></li>
                     <li><a href="<%=rootpath %>about-us/leadership" class="Level2small-menu ETMenu"><span>Leadership</span></a></li>
                     <li><a href="<%=rootpath %>about-us/customer-speak" class="Level2small-menu ETMenu"><span>Customer Speak</span></a></li>
-                    <li><a href="<%=rootpath %>about-us/success-stories" class="Level2small-menu ETMenu"><span>Success Stories</span></a></li>                 
+                    <li><a href="<%=rootpath %>about-us/success-stories" class="Level2small-menu ETMenu"><span>Success Stories</span></a></li>
                 </ul>
             </li>
             <li><a href="#" class="mobilemenu-level1 Level1-menu ETMenu"><span class="mobilemenu-border-bottom">Solutions</span></a>
@@ -588,12 +595,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li><a href="<%=rootpath %>solutions/focused-solutions/enterprise" class="Level3-menu ETMenu"><span>Enterprise</span></a></li>
                         </ul>
                     </li>--%>
-                     <li><a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Our Solutions</span></a>
-                         <ul>
-                             <li ><a href="<%=rootpath %>Epicor-Payroll-MEA" class="Level3-menu ETMenu"><span>Epicor-Payroll-MEA</span></a></li>
+                    <li><a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Our Solutions</span></a>
+                        <ul>
+                            <li><a href="<%=rootpath %>Epicor-Payroll-MEA" class="Level3-menu ETMenu"><span>Epicor-Payroll-MEA</span></a></li>
                             <%-- <li ><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="Level3-menu ETMenu"> <span>CCT</span></a></li>--%>
                             <!-- <li ><a href="<%=rootpath %>ppa-power-plant-analytics" class="Level3-menu ETMenu">PPA</a></li> -->
-                             <li ><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software" class="Level3-menu ETMenu">MeRLIN</a></li>                  
+                            <li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software" class="Level3-menu ETMenu">MeRLIN</a></li>
                         </ul>
                     </li>
                     <li><a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Consulting & Advisory Services</span></a>
@@ -606,26 +613,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Enterprise Solutions (ERP) & Services</span></a>
                         <ul>
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="Level3-menu ETMenu"><span>SAP</span></a></li>
-							 <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud" class="Level3-menu ETMenu"><span>Epicor Cloud</span></a>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud" class="Level3-menu ETMenu"><span>Epicor Cloud</span></a>
                                 <!-- <ul>
                                      <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP" class="Level3-menu ETMenu"><span>Gartner Magic Quadrant for Cloud ERP</span></a></li></ul>-->
-                            </li>			
-						   <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="Level3-menu ETMenu"><span>EPICOR </span></a>
-
-                             <ul>
-                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing" class="Level3-menu ETMenu"><span>For Manufacturing</span></a></li>
-                                  <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing" class="Level3-menu ETMenu"><span>For Cable Manufacturing</span></a></li>
-                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-wire-rope-manufacturing" class="Level3-menu ETMenu"><span>For Wire Rope Manufacturing</span></a></li>
-								 <!-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software" class="Level3-menu ETMenu"><span>For Distribution</span></a></li>-->
-								  <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design" class="Level3-menu ETMenu"><span>For Interior Design</span></a></li>
-                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC" class="Level3-menu ETMenu"><span>For Construction & EPC</span></a></li>
-                                  <%--  <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" class="Level3-menu ETMenu"><span>Epicor HCM</span></a></li>--%>
-                                <!-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software" class="Level3-menu ETMenu"><span>Epicor Iscala for Hospitality</span></a></li>-->
-                               
-							   </ul>
                             </li>
-							<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering" class="Level3-menu ETMenu"><span>Epicor Support+</span></a></li>
-                        <%--<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi" class="Level3-menu ETMenu"><span>Business Intelligence</span></a></li>--%>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="Level3-menu ETMenu"><span>EPICOR </span></a>
+
+                                <ul>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing" class="Level3-menu ETMenu"><span>For Manufacturing</span></a></li>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing" class="Level3-menu ETMenu"><span>For Cable Manufacturing</span></a></li>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-wire-rope-manufacturing" class="Level3-menu ETMenu"><span>For Wire Rope Manufacturing</span></a></li>
+                                    <!-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software" class="Level3-menu ETMenu"><span>For Distribution</span></a></li>-->
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design" class="Level3-menu ETMenu"><span>For Interior Design</span></a></li>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC" class="Level3-menu ETMenu"><span>For Construction & EPC</span></a></li>
+                                    <%--  <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" class="Level3-menu ETMenu"><span>Epicor HCM</span></a></li>--%>
+                                    <!-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software" class="Level3-menu ETMenu"><span>Epicor Iscala for Hospitality</span></a></li>-->
+
+                                </ul>
+                            </li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering" class="Level3-menu ETMenu"><span>Epicor Support+</span></a></li>
+                            <%--<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi" class="Level3-menu ETMenu"><span>Business Intelligence</span></a></li>--%>
                         </ul>
                     </li>
                     <li><a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">IT Services & Solutions</span></a>
@@ -644,21 +651,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </li>
                 </ul>
             </li>
-          <li><a href="#" class="mobilemenu-level1 Level1-menu"><span class="mobilemenu-border-bottom">Resources</span></a>
+            <li><a href="#" class="mobilemenu-level1 Level1-menu"><span class="mobilemenu-border-bottom">Resources</span></a>
                 <ul>
-                     <li><a href="https://blog.rheincs.com" class="Level2small-menu ETMenu"><span>Blog</span></a></li>
-					 <li><a href="<%=rootpath %>resources/webinars/webinars-list" class="Level2small-menu ETMenu"><span>Webinars</span></a></li>
-					 <li><a href="<%=rootpath %>resources/webinars/webinars-recordings" class="Level2small-menu ETMenu"><span>Webinars Recordings</span></a></li>
+                    <li><a href="https://blog.rheincs.com" class="Level2small-menu ETMenu"><span>Blog</span></a></li>
+                    <li><a href="<%=rootpath %>resources/webinars/webinars-list" class="Level2small-menu ETMenu"><span>Webinars</span></a></li>
+                    <li><a href="<%=rootpath %>resources/webinars/webinars-recordings" class="Level2small-menu ETMenu"><span>Webinars Recordings</span></a></li>
                     <li><a href="<%=rootpath %>whitePapers/whitepapers" class="Level2small-menu ETMenu"><span>White Papers</span></a></li>
                     <li><a href="<%=rootpath %>brochure/brochures" class="Level2small-menu ETMenu"><span>Brochures</span></a></li>
-					 <li><a href="<%=rootpath %>Factsheets/Factsheets" class="Level2small-menu ETMenu"><span>Factsheets</span></a></li>
-                     <li><a href="https://casestudy.rheincs.com/" class="Level2small-menu ETMenu"><span>Case Studies</span></a></li> 
+                    <li><a href="<%=rootpath %>Factsheets/Factsheets" class="Level2small-menu ETMenu"><span>Factsheets</span></a></li>
+                    <li><a href="https://casestudy.rheincs.com/" class="Level2small-menu ETMenu"><span>Case Studies</span></a></li>
                     <li><a href="<%=rootpath %>about-us/corporate-videos" class="Level2small-menu ETMenu"><span>Corporate Videos</span></a></li>
                     <li><a href="<%=rootpath %>news-events" class="Level2small-menu ETMenu"><span>News and Events</span></a></li>
-					<li><a href="<%=rootpath %>resorces/faq" class="Level2small-menu ETMenu"><span>FAQ</span></a></li>
+                    <li><a href="<%=rootpath %>resorces/faq" class="Level2small-menu ETMenu"><span>FAQ</span></a></li>
                 </ul>
             </li>
-			<li><a href="<%=rootpath %>partners" class="mobilemenu-level1 Level1-menu ETMenu"><span class="mobilemenu-border-bottom">Partners</span></a></li>
+            <li><a href="<%=rootpath %>partners" class="mobilemenu-level1 Level1-menu ETMenu"><span class="mobilemenu-border-bottom">Partners</span></a></li>
             <li><a href="#" class="mobilemenu-level1 Level1-menu"><span class="mobilemenu-border-bottom">Careers</span></a>
                 <ul>
                     <li><a href="<%=rootpath %>careers/career-model" class="Level2small-menu ETMenu"><span>Career Model</span></a></li>
@@ -673,7 +680,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 headertopnav hidden-xs hidden-sm" id="headsearch">
-                    
+
                     <div class="header-search">
                         <div class="col-md-3 pull-right no-padding hidden-xs hidden-sm hidden-md">
                             <div class="">
@@ -688,7 +695,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
                 <div id="socialicon">
-                  <!--   <ul>
+                    <!--   <ul>
                         <li class="hvr-wobble-to-top-right">
                             <a id="linkdin" href="#" target="_blank" title="LinkedIn">
                                 <img style="height: 35px; width: 35px;" src="/Assets/images/linkedin.png" /></a>
@@ -707,7 +714,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <img style="height: 35px; width: 35px;" src="/Assets/images/google-plus.png" /></a>
                         </li>
                     </ul>-->
-					<div data-social-share-privacy='true'>      
+                    <div data-social-share-privacy='true'>
                     </div>
                 </div>
                 <div class="logo col-md-12 col-md-offset-0 navbar-static-top header-responsive-align header-box-shadow" id="nav">
@@ -727,7 +734,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/overview">Overview</a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/leadership">Leadership</a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/customer-speak">Customer Speak</a></li>
-                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/success-stories">Success Stories</a></li>                                            
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/success-stories">Success Stories</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown mega-dropdown active ETMenu"><a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">Solutions <span class="caret"></span></a>
@@ -743,15 +750,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/focused-solutions/mid-market-companies">Mid-Market Companies</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/focused-solutions/enterprise">Enterprise</a></li>
                                                                 </ul>--%>
-                                                                 <ul class="">
+                                                                <ul class="">
                                                                     <li class="menuname-small menuheading">Our Solutions</li>
                                                                     <br />
-                                                                   
-                                                                      <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>Epicor-Payroll-MEA"><span>Epicor-Payroll-MEA</span></a></li>
-                                                                   <%--   <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>--%>
-                                                                    <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>ppa-power-plant-analytics">Power Plant Analytics</a></li>  -->                                                          
-                                                                    <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN – Strategic Sourcing Software</a></li> 
-                                                                   
+
+                                                                    <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>Epicor-Payroll-MEA"><span>Epicor-Payroll-MEA</span></a></li>
+                                                                    <%--   <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>--%>
+                                                                    <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>ppa-power-plant-analytics">Power Plant Analytics</a></li>  -->
+                                                                    <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN – Strategic Sourcing Software</a></li>
+
                                                                 </ul>
                                                             </div>
                                                             <div class="col-md-3 col-md-3V2">
@@ -773,22 +780,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP">Gartner Magic Quadrant for Cloud ERP</a></li>
                                                                             </ul>-->
                                                                     </li>
-																	<li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">EPICOR </a>
-                                                                         <ul class="padd-top-3">
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">EPICOR </a>
+                                                                        <ul class="padd-top-3">
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing">For Manufacturing</a></li>
-                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing">For Cable Manufacturing</a></li>
-                                                                              <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-wire-rope-manufacturing">For Wire Rope Manufacturing</a></li>
-																			<!-- <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software">For Distribution</a></li>-->
-																			 <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design">For Interior Design</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing">For Cable Manufacturing</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-wire-rope-manufacturing">For Wire Rope Manufacturing</a></li>
+                                                                            <!-- <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software">For Distribution</a></li>-->
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design">For Interior Design</a></li>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC">For Construction & EPC</a></li>
-                                                                          <%--  <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm">Epicor HCM</a></li>--%>
-                                                                         <%--   <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software">Epicor Iscala for Hospitality</a></li>--%>
-                                                                        
-																		</ul> 
+                                                                            <%--  <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm">Epicor HCM</a></li>--%>
+                                                                            <%--   <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software">Epicor Iscala for Hospitality</a></li>--%>
+                                                                        </ul>
                                                                     </li>
-																	<li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
                                                                     <%--<li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi">Business Intelligence</a></li>--%>
-                                                                     
                                                                 </ul>
                                                             </div>
                                                             <div class="col-md-3 col-md-3V2">
@@ -814,21 +819,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 </div>
                                             </div>
                                         </li>
-                                         <li class="dropdown"><a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">Resources<span class="caret"></span></a>
+                                        <li class="dropdown"><a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">Resources<span class="caret"></span></a>
                                             <ul class="dropdown-menu" role="menu">
-                                               <li class="menuname-small ETMenu"><a href="https://blog.rheincs.com"><span>Blog</span></a></li>
-											    <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/webinars/webinars-list"><span>Webinars</span></a></li>
-											   <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/webinars/webinars-recordings"><span>Webinars Recordings</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="https://blog.rheincs.com"><span>Blog</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/webinars/webinars-list"><span>Webinars</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/webinars/webinars-recordings"><span>Webinars Recordings</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>whitePapers/whitepapers"><span>White Papers</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>brochure/brochures"><span>Brochures</span></a></li>
-													 <li class="menuname-small ETMenu"><a href="<%=rootpath %>Factsheets/Factsheets"><span>Factsheets</span></a></li>
-												<li class="menuname-small ETMenu"><a href="https://casestudy.rheincs.com/"><span>Case Studies</span></a></li>                                    
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>Factsheets/Factsheets"><span>Factsheets</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="https://casestudy.rheincs.com/"><span>Case Studies</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>about-us/corporate-videos"><span>Corporate Videos</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>news-events"><span>News and Events</span></a></li>
-												<li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/faq"><span>FAQ</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="<%=rootpath %>resources/faq"><span>FAQ</span></a></li>
                                             </ul>
                                         </li>
-										<li class="menuname ETMenu"><a href="<%=rootpath %>partners">Partners</a></li>
+                                        <li class="menuname ETMenu"><a href="<%=rootpath %>partners">Partners</a></li>
                                         <li class="dropdown"><a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">Careers <span class="caret"></span></a>
                                             <ul class="dropdown-menu" role="menu">
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>careers/career-model">Career Model</a></li>
@@ -851,8 +856,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="clearfix">&nbsp;</div>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
-            <div id="Contactfeedback" class="ETcallout"><a data-toggle="modal" data-target="#myModal-contactus">Contact Us</a> </div>
-      <div class="modal fade" id="myModal-contactus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div id="Contactfeedback" class="ETcallout"><a data-toggle="modal" data-target="#myModal-contactus">Contact Us</a> </div>
+                <div class="modal fade" id="myModal-contactus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header modal-header-bgcolor">
@@ -869,27 +874,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <p style="padding-top: 0%; padding-bottom: 9px;" class="formhead">Please fill in your details.</p>
                                 <div class="row">
                                     <div class="col-md-12">
-                                         <select id="ddlServices" class="dropdown" style="width: 100%; padding: 6px;">
+                                        <select id="ddlServices" class="dropdown" style="width: 100%; padding: 6px;">
                                             <option value="0">-- Select Any One --</option>
                                             <option value="1">Epicor</option>
                                             <option value="2">EPICOR for Manufacturing</option>
-                                             <option value="3">EPICOR for Cable Manufacturing</option>
+                                            <option value="3">EPICOR for Cable Manufacturing</option>
+                                            <option value="15">EPICOR for Wire Rope Manufacturing</option>
                                             <option value="4">EPICOR for EPC and Construction</option>
-                                          <%-- <option value="5"> EPICOR iScala for hospitality</option>--%>
-                                           <option value="6"> RheinBrücke Power Plant Analytics</option>
+                                            <%--    <option value="5"> EPICOR iScala for hospitality</option>--%>
+                                            <option value="6">RheinBrücke Power Plant Analytics</option>
                                             <option value="7">Business Intelligence</option>
                                             <option value="8">MeRLIN </option>
-                                            <option value="9">SAP</option>
+                                            <option value="8">SAP</option>
                                             <option value="10">Epicor HCM</option>
                                             <option value="11">Epicor-Payroll-MEA</option>
-                                          <%--  <option value="12">CCT (Copy Company Tool)</option>--%>
+                                            <%-- <option value="12">CCT (Copy Company Tool)</option>--%>
                                             <option value="13">SharePoint</option>
                                             <option value="14">Microsoft Technologies - .Net & SQL Server</option>
                                         </select>
                                         <span class="validator" id="reqddlservices" hidden="hidden" style="font-size: 13px;">Select the Services</span>
                                     </div>
                                 </div>
-                               
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input type="text" placeholder="*Your Name" id="txtName" class="write-to-us-input" />
@@ -899,21 +904,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input type="text" placeholder="*Your Email Address" id="txtEmail" class="write-to-us-input" />
-                                        <span class="validator" id="reqemail" hidden="hidden" style="font-size: 13px;">Enter Your Email Address</span> <span class="validator" style="font-size: 13px;" id="valemail" hidden="hidden">Enter Valid Email Address</span>
+                                        <span class="validator" id="reqemail" hidden="hidden" style="font-size: 13px;">Enter Your Email Address</span>
+                                        <span class="validator" style="font-size: 13px;" id="valemail" hidden="hidden">Enter Valid Email Address</span>
+                                        <span class="validator" style="font-size: 13px;" id="domainemail" hidden="hidden">Enter Valid Official Address</span>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input type="text" placeholder="Your Mobile Number" id="txtPhone" class="write-to-us-input" />
                                         <span class="validator" id="reqphone" hidden="hidden" style="font-size: 13px;">Enter Your Mobile Number</span> <span style="font-size: 13px;" class="validator" id="valphone" hidden="hidden">Enter Valid Phone Number</span>
-										<span class="validator" style="font-size: 13px;" id="domainemail" hidden="hidden">Enter Valid Official Address</span>
                                     </div>
                                 </div>
-								  <div class="row">
+                                <div class="row">
                                     <div class="col-md-12">
                                         <input type="text" placeholder="*Your Company Name" id="txtCompanyname" class="write-to-us-input" />
                                         <span class="validator" id="reqCompanyname" hidden="hidden" style="font-size: 13px;">Enter Your Company Name</span>
-                                         <span style="font-size: 13px;" class="validator" id="valcompanyname" hidden="hidden">Enter Valid Company Name</span>
+                                        <span style="font-size: 13px;" class="validator" id="valcompanyname" hidden="hidden">Enter Valid Company Name</span>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -924,7 +930,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <input type="button" id="btnContactUs1" class="submit-button" data-loading-text="Submitting.." value="Submit" />
+                                        <div class="clearfix"></div>
+                                        <span class="showErrorMsg" style="color: red"></span>
+                                        <div class="clearfix"></div>
+                                        <div class="col-md-6 col-sm-6 captchadiv">
+                                            <div class="g-recaptcha" data-sitekey="6LcRmjsUAAAAADmNyyjwZNsWwnYTozrxIjSKcjGI"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="button" id="btnContactUs" class="submit-button" data-loading-text="Submitting.." value="Submit" />
                                     </div>
                                 </div>
                             </div>
@@ -1035,7 +1051,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <p>EPICOR Partner Enablement Program</p>
                                     </span>
                                 </div>
-                                <a data-toggle="modal"  class="ETdownload" data-target="#myModal-pepdownload">
+                                <a data-toggle="modal" class="ETdownload" data-target="#myModal-pepdownload">
                                     <div class="fBottom"><span class="telephone download">Download PDF</span></div>
                                 </a>
                                 <div class="modal fade" id="myModal-pepdownload" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -1062,7 +1078,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <p>
                                                     <input type="text" placeholder="*Your Email Address" id="txtCalloutEmail" class="write-to-us-input" />
                                                 </p>
-                                                <span style="margin-top: 5px;" class="validator" id="reqCalloutemail" hidden="hidden">Enter Your Email Address</span> <span class="validator" id="valCalloutemail" hidden="hidden" style="margin-top:2px;">Enter Valid Email Address</span>
+                                                <span style="margin-top: 5px;" class="validator" id="reqCalloutemail" hidden="hidden">Enter Your Email Address</span> <span class="validator" id="valCalloutemail" hidden="hidden" style="margin-top: 2px;">Enter Valid Email Address</span>
                                             </div>
                                             <div class="modal-body">
                                                 <p>
@@ -1150,12 +1166,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
                                                 <img src="<%=rootpath %>Assets/images/executiveoftheyear.jpg" alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
                                             </a>
-                                        </div>                                
+                                        </div>
                                     </div>
                                     <a class="left carousel-control" style="left: -31px; height: 30px; margin-top: 100px; font-size: 30px;"
-                                       href="#myCarousel1" role="button" data-slide="prev"><</a>
+                                        href="#myCarousel1" role="button" data-slide="prev"><</a>
                                     <a class="right carousel-control" href="#myCarousel1" style="left: auto; right: -17px; height: 30px; margin-top: 100px; font-size: 30px;"
-                                       role="button" data-slide="next">></a>
+                                        role="button" data-slide="next">></a>
                                 </div>
                             </div>
                         </div>
@@ -1171,23 +1187,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </form>
     </div>
-<!-- GOOGLE ANALYTICS CODE-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!-- GOOGLE ANALYTICS CODE-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-61074754-1', 'auto');
-  ga('set', 'anonymizeIp', true);
-  ga('send', 'pageview');
+        ga('create', 'UA-61074754-1', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview');
 
     </script>
-<!--END OF GOOGLE ANALYTICS CODE-->
+    <!--END OF GOOGLE ANALYTICS CODE-->
 </body>
 
 <%: Scripts.Render("~/assets/jsmin")%>
-    <asp:contentplaceholder runat="server" id="FooterScript" />
+<asp:contentplaceholder runat="server" id="FooterScript" />
 <script src="/Assets/js/bxSlider.js" defer></script>
 <script type="text/javascript">
     $(document).ready(function () {
@@ -1295,9 +1311,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             }
         }
         //if (mobno == '') {
-            //$("#reqpeppartnermobno").show();
-            //response = 0;
-       // }
+        //$("#reqpeppartnermobno").show();
+        //response = 0;
+        // }
         if (mobno != '' && mobno.length < 10) {
             $("#valpeppartnermobno").show();
             response = 0;
@@ -1345,15 +1361,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     function DownpepClear() {
         clear(); $("#successmessagee").hide();
     }
-    </script>
-	<!-- Cookies Consent-->
-	<script type="text/javascript" src="https://en.rheincs.com/Assets/js/cookiesconsenten.js" defer></script>
+</script>
+<!-- Cookies Consent-->
+<script type="text/javascript" src="https://en.rheincs.com/Assets/js/cookiesconsenten.js" defer></script>
 <!--For 2 click solutions-->
 
 <script type="text/javascript" src="https://en.rheincs.com/Assets/2-click/javascripts/jquery.cookies.js" defer></script>
 <script type="application/x-social-share-privacy-settings">{"path_prefix":"https://www.rheincs.com/Assets/2-click/","layout":"box","services":{"buffer":{"status":false},"delicious":{"status":false},"fbshare":{"status":false},"disqus":{"status":false},"flattr":{"status":false},"hackernews":{"status":false},"mail":{"status":false},"pinterest":{"status":false},"reddit":{"status":false},"stumbleupon":{"status":false},"tumblr":{"status":false},"xing":{"status":false}}}</script>
 <script type="text/javascript">(function () {var s = document.createElement('script');var t = document.getElementsByTagName('script')[0];s.type = 'text/javascript';s.async = true;s.src = 'https://en.rheincs.com/Assets/2-click/javascripts/jquery.socialshareprivacy.min.autoload.js';t.parentNode.insertBefore(s, t);})();</script>
-<!--Start of Tawk.to Script--> 
+<!--Start of Tawk.to Script-->
 <!--<script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){

@@ -5,6 +5,183 @@
     <meta name="Description" content="Our Application Maintenance and support services provide a flexible high impact and cost effective delivery model for full life cycle application management" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <style>
+        .baner-btns {
+            display: inline-block;
+            background: #7b1314;
+            height: 42px;
+            padding: 10px 16px;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+            .baner-btns:hover {
+                color: #fff;
+            }
+
+        .related-links {
+            margin: 0;
+            font-size: 1.3em;
+            line-height: 1.5em;
+        }
+
+        .padd-bot-40p {
+            padding-bottom: 40px !important;
+            margin-bottom: 15px;
+        }
+
+        .btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+            color: #7b1314 !important;
+            background-color: #fff !important;
+            border-color: #DDDDDD !important;
+        }
+
+        h2 {
+            font-size: 27px;
+        }
+
+        .write-to-us-input {
+            font-size: 12px;
+        }
+
+        .mainContent-normal-manufacturing {
+            font-size: 17px;
+            line-height: 1.5em;
+            color: #2f2f2f;
+        }
+
+        .redBullets-manufacturing > i {
+            font-size: 24px;
+            height: 64px;
+            line-height: 64px;
+            text-align: center;
+            width: 64px;
+            border-radius: 100%;
+            color: #7B1315;
+            box-shadow: inset 0 0 0 1px #d7d7d7;
+            -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
+            transition: background-color 400ms,background-color 400ms;
+            position: absolute;
+            top: .5em;
+            left: 0;
+        }
+
+            .redBullets-manufacturing > i:after {
+                content: "";
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: 50%;
+                margin-top: -10px;
+                right: -10px;
+                border: 4px solid #fff;
+                border-radius: 20px;
+                background: #7B1315;
+            }
+
+            .redBullets-manufacturing > i:hover {
+                background-color: #7B1315;
+                box-shadow: inset 0 0 0 1px #d7d7d7;
+                -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
+                transition: background-color 400ms,background-color 400ms;
+                border-radius: 100%;
+                color: #fff;
+            }
+
+        .bulletContent-manufacturing {
+            margin-left: -4px;
+            font-size: 14px;
+        }
+
+        .bulletContent-manufacturing-title {
+            margin-left: 60px;
+            font-size: 16px;
+        }
+
+        .bulletContent-manufacturing li:before {
+            content: "\2713";
+            color: #2f2f2f;
+            padding-right: 10px;
+        }
+
+        .fm-ul {
+            margin-left: 45px;
+            margin-bottom: 2px;
+        }
+
+        .padd-bottom-20 {
+            padding-bottom: 20px;
+        }
+
+        .fmsecond-ul {
+            margin-left: 0px !important;
+        }
+
+        @media (max-width: 991px) and (min-width: 768px) {
+            .fmsecond-ul {
+                margin-left: 60px !important;
+            }
+        }
+
+        @media (max-width: 767px) and (min-width: 640px) {
+            .fmsecond-ul {
+                margin-left: 60px !important;
+            }
+        }
+
+        @media (max-width: 639px) and (min-width: 480px) {
+            .fmsecond-ul {
+                margin-left: 60px !important;
+            }
+        }
+
+        @media (max-width: 479px) and (min-width: 320px) {
+            .fmsecond-ul {
+                margin-left: 60px !important;
+            }
+        }
+
+        .customh1 {
+            font-size: 20px !important;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .paddingGreycontainer {
+            padding: 40px !important;
+        }
+
+        @media(max-width:786px) {
+            .paddingGreycontainer {
+                padding: 20px !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .rhein-caption-text {
+                line-height: 16px;
+                top: 26px;
+            }
+
+            .customh1 {
+                font-size: 13px !important;
+            }
+
+            h3 {
+                font-size: 20px;
+                margin-bottom: 10px !important;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .top-space {
+                top: 70% !important;
+            }
+        }
+    </style>
     <input type="hidden" id="hdfRootUrl" value="<%=rootpath %>" />
     <div class="container" id="container-top">
         <div class="row">
@@ -23,9 +200,9 @@
         <div class="row wrappernew main-container">
             <h1 class="redColor heading-sharepoint">AMS–Application Maintenance & Support
             </h1>
-        
 
-        <div class="row padd-bottom-10 padd-left-17 mainContent-normal">
+
+            <%--<div class="row padd-bottom-10 padd-left-17 mainContent-normal">
             <p>
                 RheinBrücke offers Application Maintenance services on a global delivery model, such as:
             </p>
@@ -75,62 +252,123 @@
             <h1 class="redColor heading-sharepoint">DBA support
 
             </h1>
-        </div>
-        <div class="row main-container mainContent-normal">
-            <p class="padd-bottom-10">
-                We completely understand rationalizing the portfolio of Applications by plotting the client’s application landscape against a business process heat map. Redundant applications can be decommissioned, based on our recommendation to an enterprise with regards to consolidation and enhancing applications. These recommendations are seamlessly integrated with an analysis of underlying software and hardware infrastructure that help arrive at a more streamlined Software License Management.
-            </p>
-            <p class="padd-bottom-10">
-                Our clients are assisted with developing a transparent governance process, enabling applications to be transitioned seamlessly into Application and Production support, to be decommissioned. This releases underlying software (license) and hardware (server) infrastructure.
-            </p>
-            <p class="padd-bottom-10">
+        </div>--%>
+            <div class="row main-container">
+                <p class="padd-bottom-10">
+                    RheinBrücke IT Consulting (RIC) offers a myriad range of services such as ERP solutions and services, Software Development, Maintenance and Support, Project Management, Cloud and IT Infrastructure Support, Helpdesk with Managed Services, Business Intelligence, Data Warehousing and Data Analytics, etc. With our robust ITIL based approach and extensive global experience, we provide a unique proposition in providing strategic value and best in class services to prospective clients.  
+                </p>
+                <p class="padd-bottom-10">
+                    RIC’s support services is cost effective and optimizes IT functions. Some of the industries that have benefited from RIC’s services are Manufacturing, Supply Chain, EPC, Oil and Gas, Pharma, Retail and Distribution Enterprises. Our range of services and solutions can vary from Program and Project Management to ERP Solutions aligned with SAP and EPICOR, Microsoft Solutions, Cloud and Mobility to Open Source Technology Solutions. We are also premium partner of EPICOR and a Microsoft Gold Competency partner for multiple competencies including Software Development and Data Analytics.  
+                </p>
+                <%--  <p class="padd-bottom-10">
                 RheinBrücke provides SLA based application support services based on the ITIL framework. Our support personnel and robust process allow for a smooth transition of application support in optimum timelines and serve to stabilize services during the initial stages of steady state. Timely intervention and a strict focus on continuous improvement along with preventive maintenance ensures the delight of business users.
             </p>
+                --%>
+                <div class="col-md-12">
+                    <h3 class="redColor">Services Provided: </h3>
+                    <div style="text-align: justify">
+                        <ul class="bulletContent-manufacturing cstmzed-lst">
+                            <li>ERP Support – SAP, EPICOR  </li>
+                            <li>Software Development, Support and Maintenance  </li>
+                            <li>Business Intelligence and Data Analytics   </li>
+                            <li>Dedicated support specialist for all IT Service Management with 24X7 support system in place   </li>
+                            <li>Security and IT Governance </li>
+                            <li>Cloud and Infrastructure Management Services </li>
+                            <li>Helpdesk with Managed Services  </li>
+                            <li>POC Development and Outsourced Product Development </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <h3 class="redColor">Benefits of having RIC as a service partner:  </h3>
+                    <div style="text-align: justify">
+                        <ul class="bulletContent-manufacturing cstmzed-lst">
+                            <li>Global best practice know-how  </li>
+                            <li>Global reach with customers across 42 countries </li>
+                            <li>Process-driven, but with the right cultural sensitivity   </li>
+                            <li>Delivery innovation    </li>
+                            <li>Highest Customer Satisfaction </li>
+                            <li>SLA driven Customer-centric approach </li>
+                            <li>Ease of Scalability with our “Right-Shoring” approach  </li>
+                            <li>Leadership team with several decades of experience in setting up and managing large global service delivery organisations   </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <h1 class="redColor">DBA Support </h1>
+                    <p class="padd-bottom-10">
+                        We completely understand rationalizing the portfolio of Applications by plotting the client’s application landscape against a business process heat map. Redundant applications can be decommissioned, based on our recommendation to an enterprise with regards to consolidation and enhancing applications. These recommendations are seamlessly integrated with an analysis of underlying software and hardware infrastructure that help arrive at a more streamlined Software License Management.  
+                    </p>
+                    <p class="padd-bottom-10">
+                        Our clients are assisted with developing a transparent governance process, enabling applications to be transitioned seamlessly into Application and Production support, to be decommissioned. This releases underlying software (license) and hardware (server) infrastructure. 
+                    </p>
+                    <p class="padd-bottom-10">
+                        RheinBrücke provides SLA based application support services based on the ITIL framework. Our support personnel and robust process allow for a smooth transition of application support in optimum timelines and serve to stabilize services during the initial stages of steady state. Timely intervention and a strict focus on continuous improvement along with preventive maintenance ensures the delight of business users. 
+                    </p>
+                </div>
 
+                <div class="col-md-12">
+                    <h3 class="redColor">Our Methodology:  </h3>
+                    <p class="padd-bottom-10">
+                        Our methodology is based on the ITIL framework and ensures that the KPIs agreed with the clients are adhered to and the SLAs are monitored, tracked and met consistently. 
+                    </p>
+                    <div style="text-align: justify">
+                        <ul class="bulletContent-manufacturing cstmzed-lst">
+                            <li>Scientific application analysis framework which ensures the solution-framework caters to your specific requirement. </li>
+                            <li>An intensive due diligence to validate assumptions made as part of application analysis and solution development. </li>
+                            <li>Rigorous and intensive sessions of orientation to ensure that the team is equipped for transition.    </li>
+                            <li>Process convergence to align RIC’s process with the clients. </li>
+                            <li>Scientifically modelled transition approach with minimal service disruption.  </li>
+                            <li>Implementation of continuous improvement initiatives like Benchmarking, Customer</li>
+                            <li>Satisfaction Surveys, Process Automation, Root Cause Analysis, driven by a Six-Sigma Approach. </li>
 
-            <p class="padd-top-20 redColor"><a data-toggle="modal" data-target="#myModal-contact" class="redColor ETAMS"><b><span class="bulcolor">For more information on our Application Maintenance & Support services,</span> please click here.</b></a></p>
-            <div class="modal fade" id="myModal-contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content mymodal-download">
-                        <div class="modal-header modal-header-bgcolor">
-                            <button type="button" class="close closev2" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title app-title-modal redColor">Download RheinBrücke’s Application Maintenance & Support services document.</h4>
-                        </div>
-                        <div class="col-md-12 padd-top">
-                            <div class="form-group">
-                                <label class="success" id="divsuccessmessage" hidden="hidden">Thank you for submitting your details. You will receive an email shortly with a link to download RheinBrücke’s Application Maintenance & Support services document.</label>
+                        </ul>
+                    </div>
+                    <p class="padd-bottom-10">With customers across 42 countries, we deeply understand your cultural industry specific needs. Some of our renowned clients include FLSmidth, Visteon, ZF-TRW, Novartis, and EPICOR Corporation to name a few. </p>
+                </div>
+                <p class="padd-top-20 redColor"><a data-toggle="modal" data-target="#myModal-contact" class="redColor ETAMS"><b><span class="bulcolor">For more information on our Application Maintenance & Support services,</span> please click here.</b></a></p>
+                <div class="modal fade" id="myModal-contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content mymodal-download">
+                            <div class="modal-header modal-header-bgcolor">
+                                <button type="button" class="close closev2" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title app-title-modal redColor">Download RheinBrücke’s Application Maintenance & Support services document.</h4>
                             </div>
-                        </div>
-                        <div class="modal-body">
-                            <p class="formhead">Please fill in your details to download RheinBrücke’s Application Maintenance & Support services document.</p>
-                            <p>
-                                <input type="text" placeholder="*Your Name" id="txtAMSName" class="write-to-us-input" />
-                            </p>
-                            <span style="margin-top: 5px;" class="validator" id="reqAMSName" hidden="hidden">Enter Your Name</span>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                <input type="text" placeholder="*Your Email Address" id="txtAMSEmail" class="write-to-us-input" />
-                            </p>
-                            <span style="margin-top: 5px;" class="validator" id="reqAMSemail" hidden="hidden">Enter Your Email Address</span>
-                            <span style="margin-top: 5px;" class="validator" id="valAMSemail" hidden="hidden">Enter Valid Email Address</span>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                <input type="text" placeholder="Your Mobile Number" id="txtAMSMobNo" class="write-to-us-input" />
-                            </p>
-                            <span style="margin-top: 5px;" class="validator" id="reqAMSMobno" hidden="hidden">Enter Your Mobile Number</span>
-                            <span style="margin-top: 5px;" class="validator" id="valAMSMobNo" hidden="hidden">Enter Valid Mobile Number</span>
-                        </div>
-                        <div class="clearfix">&nbsp;</div>
-                        <div class="modal-body">
-                            <input type="button" id="btnAMS" class="submit-button" data-loading-text="Submitting.." value="Submit" />
+                            <div class="col-md-12 padd-top">
+                                <div class="form-group">
+                                    <label class="success" id="divsuccessmessage" hidden="hidden">Thank you for submitting your details. You will receive an email shortly with a link to download RheinBrücke’s Application Maintenance & Support services document.</label>
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <p class="formhead">Please fill in your details to download RheinBrücke’s Application Maintenance & Support services document.</p>
+                                <p>
+                                    <input type="text" placeholder="*Your Name" id="txtAMSName" class="write-to-us-input" />
+                                </p>
+                                <span style="margin-top: 5px;" class="validator" id="reqAMSName" hidden="hidden">Enter Your Name</span>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <input type="text" placeholder="*Your Email Address" id="txtAMSEmail" class="write-to-us-input" />
+                                </p>
+                                <span style="margin-top: 5px;" class="validator" id="reqAMSemail" hidden="hidden">Enter Your Email Address</span>
+                                <span style="margin-top: 5px;" class="validator" id="valAMSemail" hidden="hidden">Enter Valid Email Address</span>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <input type="text" placeholder="Your Mobile Number" id="txtAMSMobNo" class="write-to-us-input" />
+                                </p>
+                                <span style="margin-top: 5px;" class="validator" id="reqAMSMobno" hidden="hidden">Enter Your Mobile Number</span>
+                                <span style="margin-top: 5px;" class="validator" id="valAMSMobNo" hidden="hidden">Enter Valid Mobile Number</span>
+                            </div>
+                            <div class="clearfix">&nbsp;</div>
+                            <div class="modal-body">
+                                <input type="button" id="btnAMS" class="submit-button" data-loading-text="Submitting.." value="Submit" />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="FooterScript" runat="server">
     <script type="text/javascript">
