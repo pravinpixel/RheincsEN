@@ -101,7 +101,7 @@
             <div class="module">
             <div id="About">
             <div class="container about">
-            <p>RheinBrücke’s MeRLIN is a Strategic Direct Sourcing Solution that offers seamlessly integrated sourcing process automation along with Supplier Relationship Management and planning functions augmented by Advanced Analytics. It plays a key role in enhancing collaboration between Buyers and Suppliers through an intuitive platform.</p>
+            <p>MeRLIN is a Strategic Direct Sourcing Solution that offers seamlessly integrated sourcing process automation along with Supplier Relationship Management and planning functions augmented by Advanced Analytics. It plays a key role in enhancing collaboration between Buyers and Suppliers through an intuitive platform.</p>
             </div>
         </div></div>
       

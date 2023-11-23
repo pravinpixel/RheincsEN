@@ -366,7 +366,8 @@ h4.panel-title{margin:10px 0px !important;}
 .cookies td.cktd
 {
     width:74%;
-}*/
+}*/
+
          </style>
     
     <!-- Content Starts Here-->
@@ -447,6 +448,13 @@ h4.panel-title{margin:10px 0px !important;}
                         <span style="margin-top: 5px;" class="validator" id="reqmobileno1" hidden="hidden">Enter Your Mobile Number</span>
                         <span style="margin-top: 5px;" class="validator" id="Validationmobileno1" hidden="hidden">Enter valid phone number</span>
                     </div>
+              <div class="clearfix"></div>
+                <div class="col-md-12">
+                                           
+                                            <div class="col-md-6 col-sm-6 captchadiv" style="height: 59px; margin-top: 4px;">
+                                                <div id="g_captcha" style="transform: scale(0.65); -webkit-transform: scale(0.65); transform-origin: 0 0; -webkit-transform-origin: 0 0;"></div>
+                                            </div>
+                                                  </div>
                 </div>
          <div class="clearfix"></div>
          <span class="showErrorMsg" style="color: red; margin-left:3px;"></span>
@@ -820,6 +828,13 @@ h4.panel-title{margin:10px 0px !important;}
                     </div>
                 </div>
          <div class="clearfix"></div>
+                <div class="col-md-12">
+                                           
+                                            <div class="col-md-6 col-sm-6 captchadiv" style="height: 59px; margin-top: 4px;">
+                                                <div id="g_captcha1" style="transform: scale(0.65); -webkit-transform: scale(0.65); transform-origin: 0 0; -webkit-transform-origin: 0 0;"></div>
+                                            </div>
+                                                  </div>
+         <div class="clearfix"></div>
          <span class="showErrorMsg" style="color: red; margin-left:3px;"></span>
          <div class="clearfix">&nbsp;</div>
          <div class="col-md-12" style="margin-left:3px">
@@ -984,6 +999,10 @@ h4.panel-title{margin:10px 0px !important;}
                     response = 0;
                 }
             }
+            if (!(grecaptcha && grecaptcha.getResponse().length > 0)) {
+                $('.showErrorMsg').text("Select captcha.");
+                response = 0;
+            }
             //if (mobileno == '') {
             //    $("#reqmobileno").show();
             //    response = 0;
@@ -1027,6 +1046,10 @@ h4.panel-title{margin:10px 0px !important;}
                     $("#valContactemail1").show();
                     response = 0;
                 }
+            }
+            if (!(grecaptcha && grecaptcha.getResponse().length > 0)) {
+                $('.showErrorMsg').text("Select captcha.");
+                response = 0;
             }
             //if (mobileno == '') {
             //    $("#reqmobileno").show();
@@ -1455,5 +1478,17 @@ h4.panel-title{margin:10px 0px !important;}
 
 
         };
+    </script>
+        <script type="text/javascript">
+      var onloadCallback = function() {
+          grecaptcha.render('g_captcha', {
+              'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
+          });
+          grecaptcha.render('g_captcha1', {
+              'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
+          });
+      };
+    </script>
+     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
     </script>
 </asp:Content>
