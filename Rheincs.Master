@@ -944,7 +944,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-9">
                                         <div class="clearfix"></div>
                                         <span class="showErrorMsg" style="color: red"></span>
                                         <div class="clearfix"></div>
@@ -953,12 +953,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             <!--6LcRmjsUAAAAADmNyyjwZNsWwnYTozrxIjSKcjGI-->
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
+                                     <div class="col-md-3" style="vertical-align:middle;margin-top: 15px;">
                                         <input type="button" id="btnContactUs" class="submit-button" data-loading-text="Submitting.." value="Submit" />
                                     </div>
                                 </div>
+                               
                             </div>
                         </div>
                     </div>
