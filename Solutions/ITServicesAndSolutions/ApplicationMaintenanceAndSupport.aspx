@@ -255,10 +255,10 @@
         </div>--%>
             <div class="row main-container">
                 <p class="padd-bottom-10">
-                    RheinBrücke IT Consulting (RIC) offers a myriad range of services such as ERP solutions and services, Software Development, Maintenance and Support, Project Management, Cloud and IT Infrastructure Support, Helpdesk with Managed Services, Business Intelligence, Data Warehousing and Data Analytics, etc. With our robust ITIL based approach and extensive global experience, we provide a unique proposition in providing strategic value and best in class services to prospective clients.  
+                    RheinBrücke IT Consulting (RIC) offers a range of services such as ERP solutions and services, Software Development, Maintenance and Support, Project Management, Cloud and IT Infrastructure Support, Helpdesk with Managed Services, Business Intelligence, Data Warehousing and Data Analytics, etc. With our robust ITIL based approach and extensive global experience, we provide a unique proposition in providing strategic value and best in class services to prospective clients.    
                 </p>
                 <p class="padd-bottom-10">
-                    RIC’s support services is cost effective and optimizes IT functions. Some of the industries that have benefited from RIC’s services are Manufacturing, Supply Chain, EPC, Oil and Gas, Pharma, Retail and Distribution Enterprises. Our range of services and solutions can vary from Program and Project Management to ERP Solutions aligned with SAP and EPICOR, Microsoft Solutions, Cloud and Mobility to Open Source Technology Solutions. We are also premium partner of EPICOR and a Microsoft Gold Competency partner for multiple competencies including Software Development and Data Analytics.  
+                   RIC’s support services are cost effective and optimizes IT functions. Some of the industries that have benefited from RIC’s services are Manufacturing, Supply Chain, EPC, Oil and Gas, Pharma, Retail and Distribution Enterprises. Our range of services and solutions can vary from Program and Project Management to ERP Solutions aligned with SAP, Microsoft Dynamics and EPICOR, Microsoft Solutions, Cloud and Mobility to Open Source Technology Solutions. We are also premium partner of EPICOR and a Microsoft Gold Competency partner for multiple competencies including Software Development and Data Analytics.    
                 </p>
                 <%--  <p class="padd-bottom-10">
                 RheinBrücke provides SLA based application support services based on the ITIL framework. Our support personnel and robust process allow for a smooth transition of application support in optimum timelines and serve to stabilize services during the initial stages of steady state. Timely intervention and a strict focus on continuous improvement along with preventive maintenance ensures the delight of business users.
@@ -268,10 +268,10 @@
                     <h3 class="redColor">Services Provided: </h3>
                     <div style="text-align: justify">
                         <ul class="bulletContent-manufacturing cstmzed-lst">
-                            <li>ERP Support – SAP, EPICOR  </li>
+                            <li>ERP Support – SAP, EPICOR, Microsoft Dynamics </li>
                             <li>Software Development, Support and Maintenance  </li>
-                            <li>Business Intelligence and Data Analytics   </li>
-                            <li>Dedicated support specialist for all IT Service Management with 24X7 support system in place   </li>
+                            <li>Business Intelligence and Data Analytics, DBA Support</li>
+                            <li>Dedicated support specialists for 24X7 helpdesk and IT service management </li>
                             <li>Security and IT Governance </li>
                             <li>Cloud and Infrastructure Management Services </li>
                             <li>Helpdesk with Managed Services  </li>
@@ -283,11 +283,11 @@
                     <h3 class="redColor">Benefits of having RIC as a service partner:  </h3>
                     <div style="text-align: justify">
                         <ul class="bulletContent-manufacturing cstmzed-lst">
-                            <li>Global best practice know-how  </li>
+                            <li>International best practice know-how </li>
                             <li>Global reach with customers across 42 countries </li>
                             <li>Process-driven, but with the right cultural sensitivity   </li>
                             <li>Delivery innovation    </li>
-                            <li>Highest Customer Satisfaction </li>
+                            <li>Highest end user satisfaction  </li>
                             <li>SLA driven Customer-centric approach </li>
                             <li>Ease of Scalability with our “Right-Shoring” approach  </li>
                             <li>Leadership team with several decades of experience in setting up and managing large global service delivery organisations   </li>

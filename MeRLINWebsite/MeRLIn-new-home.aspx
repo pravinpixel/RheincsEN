@@ -225,16 +225,10 @@
                                                             </div>
        </div>
         <div class="row hidden-sm hidden-xs">
-         <div class="col-md-5 aos-init aos-animate animate-1" data-aos="fade-right">
-            <img class="img-responsive" src="MeRLINWebsite/images/lhs-info.png" />
+         <div class="col-md-12">
+            <img class="img-responsive" src="MeRLINWebsite/images/MeRLIN-Sourcing-Solution-Infographics.png" />
          </div>
-           
-                <div class="col-md-2 aos-init aos-animate animate-3" data-aos="fade-up" style="
-"> <img class="img-responsive bridge-logo" src="MeRLINWebsite/images/MeRLIN-logo.svg" /></div>
-                <div class="col-md-5 aos-init aos-animate animate-2" data-aos="fade-left">
-                <img class="img-responsive" src="MeRLINWebsite/images/rhs-info.png" />
-                    </div>
-           
+        
         </div>
         <div class="row hidden-md hidden-lg">
              <div class="text-center">
