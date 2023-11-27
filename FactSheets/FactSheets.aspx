@@ -93,6 +93,15 @@
                         <span style="margin-top: 5px;" class="validator text-left" id="reqtextmobile" hidden="hidden">Enter Your Mobile Number </span>
                         <span style="margin-top: 5px;" class="validator text-left" id="valtextmobile" hidden="hidden">Enter Valid Mobile Number</span>
                     </div>
+                     <div class="modal-body">
+
+                        <div class="clearfix"></div>
+                        <span class="showErrorMsg" style="color: red"></span>
+                        <div class="clearfix"></div>
+                        <div class="g-recaptcha" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn"></div>
+
+
+                    </div>
                     <div class="clearfix">&nbsp;</div>
                     <div class="modal-body">
                         <input type="button" id="btnepicor" class="submit-button" data-loading-text="Submitting.." value="Submit" />
@@ -122,6 +131,15 @@
     </div>
 </asp:Content>
  <asp:Content ID="Content3" ContentPlaceHolderID="FooterScript" runat="server">
+            <script type="text/javascript">
+      var onloadCallback = function() {
+          grecaptcha.render('g_captcha', {
+              'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
+        });
+      };
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
+    </script>
         <script>
             var description, thumbnail;
             $(document).ready(function ()
@@ -160,6 +178,7 @@
                 var email = $('#textemail').val();
                 var mobno = $('#textmobile').val();
                 var response = 1;
+                $('.showErrorMsg').text("");
                 $("#reqtextepicornameval").hide();
                 $("#reqtextcompany").hide();
                 $("#reqtextemailval,#reqtextmobile").hide();
@@ -195,6 +214,10 @@
                 //}
                 if (mobno != '' && mobno.length < 10) {
                     $("#valtextmobile").show();
+                    response = 0;
+                }
+                if (!(grecaptcha && grecaptcha.getResponse().length > 0)) {
+                    $('.showErrorMsg').text("Select captcha.");
                     response = 0;
                 }
                 return response;

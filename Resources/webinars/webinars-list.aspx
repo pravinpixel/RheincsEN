@@ -275,10 +275,20 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-9">
+                                        <div class="clearfix"></div>
+                                        <span class="showErrorMsg" style="color: red"></span>
+                                        <div class="clearfix"></div>
+                                        <div class="col-md-6 col-sm-6 captchadiv">
+                                            <div class="g-recaptcha" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn"></div>
+                                            <!--6LcRmjsUAAAAADmNyyjwZNsWwnYTozrxIjSKcjGI-->
+                                        </div>
+                                    </div>
+                                     <div class="col-md-3" style="vertical-align:middle;margin-top: 15px;">
                                         <input type="button" id="btnWebinar" class="submit-button" data-loading-text="Submitting.." value="Submit" />
                                     </div>
                                 </div>
+                             
                             </div>
                         </div>
                     </div>
@@ -348,6 +358,12 @@
                     return false;
                     flagiscala = false;
                 }
+
+                if (!(grecaptcha && grecaptcha.getResponse().length > 0)) {
+                    $('.showErrorMsg').text("Select captcha.");
+                    return false;
+                    flagiscala = false;
+                }
                 email1 = $('#txtwEmail').val();
                 mobile = $('#txtwPhone').val();
                 name = $('#txtwName').val();
@@ -395,6 +411,16 @@
             nonSelectedText: 'Select options'
         });
     </script>
+      <script type="text/javascript">
+      var onloadCallback = function() {
+          grecaptcha.render('g_captcha', {
+              'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
+        });
+      };
+    </script>
+     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
+    </script>
+	<script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
        <%--Lead square implementation--%>
 <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
 

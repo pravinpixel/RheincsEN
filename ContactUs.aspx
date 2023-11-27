@@ -325,7 +325,7 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
             var services = $('#DDLServices').val();
             var companyname = $('#txtCompanyNmae').val();
             var mobileno = $('#txtmobileno').val();
-            
+            $('.showErrorMsg').text("");
             var response = 1;
             $("#valContactemail,#reqmobileno,#Validationmobileno,#reqCompanyNmae").hide();
             $("#reqDDlservices").hide();

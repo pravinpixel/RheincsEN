@@ -202,11 +202,20 @@
                             <textarea cols="45" rows="5" style="height: 90px; font-size: 13px;" placeholder="Covering Letter Message" id="txtApplyMessage" class="write-to-us-input" name="cover-letter"></textarea>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <input type="button" id="btnApply" class="submit-button" value="Submit" />
-                        </div>
-                    </div>
+                  <div class="row">
+                                <div class="col-md-9">
+                                    <div class="clearfix"></div>
+                                    <span class="showErrorMsg" style="color: red"></span>
+                                    <div class="clearfix"></div>
+                                    <div class="col-md-6 col-sm-6 captchadiv">
+                                        <div class="g-recaptcha" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn"></div>
+                                        <!--6LcRmjsUAAAAADmNyyjwZNsWwnYTozrxIjSKcjGI-->
+                                    </div>
+                                </div>
+                                <div class="col-md-3" style="vertical-align: middle; margin-top: 15px;">
+                                    <input type="button" id="btnApply" class="submit-button" value="Submit" />
+                                </div>
+                            </div>
                 </div>
             </div>
         </div>
@@ -230,7 +239,7 @@
                 var txtApplyMessage = $('#txtApplyMessage').val();
                 var txtMobNo = $('#txtMobNo').val();
                 var response = 1;
-
+                $('.showErrorMsg').text("");
                 $('#successmessageapply,#Errormessageapply').hide('slow');
                 $("#reqApplyName,#reqCurrOpen,#reqMobNo,#val10digitMobNo").hide();
                 $("#reqApplyemail").hide();
@@ -266,6 +275,10 @@
                 }
                 if (txtAttachCV == '') {
                     $("#reqCV").show();
+                    response = 0;
+                }
+                if (!(grecaptcha && grecaptcha.getResponse().length > 0)) {
+                    $('.showErrorMsg').text("Select captcha.");
                     response = 0;
                 }
                 return response;
@@ -341,6 +354,7 @@
             $("#reqApplyemail").hide();
             $("#valApplyemail").hide();
             $("#reqCV").hide();
+            $(".showErrorMsg").hide();
         }
     </script>
 
@@ -448,4 +462,13 @@
 
                         
                     </script>
+       <script type="text/javascript">
+      var onloadCallback = function() {
+          grecaptcha.render('g_captcha', {
+              'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
+        });
+      };
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
+    </script>
 </asp:Content>

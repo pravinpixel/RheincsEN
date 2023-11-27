@@ -1,17 +1,15 @@
 ﻿<%@ Page Title="Resources: Whitepaper | RheinBrücke" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="WhitePapers.aspx.cs" Inherits="RheinBrucke.WhitePapers.WhitePapers" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="ERP solution, ERP implementation, ERP, Strategic Sourcing, Epicor ERP" />
     <meta name="description" content="Download research collateral from RheinBrucke" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <style>
-     
-      .img-width
-      {
-          min-height:280px;
-      }
-     
-  </style>
+    <style>
+        .img-width {
+            min-height: 280px;
+        }
+    </style>
     <div class="container" id="container-top">
         <div class="row">
             <ul class="breadcrumb bread  hidden-xs hidden-sm">
@@ -39,15 +37,15 @@
         <div class="row" id="filter-search">
             <div class="col-md-12 search-panel ">
                 <asp:Repeater ID="rptNewsEvents" runat="server">
-                    <ItemTemplate>                     
-                        <div class="col-md-3 col-xs-12 col-sm-6 success-padding-left padd-left-72">                          
-                           <div class="img-width">
-                            <%# Eval("ImageURL") %>
-                                </div>
+                    <ItemTemplate>
+                        <div class="col-md-3 col-xs-12 col-sm-6 success-padding-left padd-left-72">
+                            <div class="img-width">
+                                <%# Eval("ImageURL") %>
+                            </div>
                             <p class="success-text1" style="min-height: 40px;">
                                 <%# Eval("Description") %>
                             </p>
-                              <a  style="color: #2f2f2f;" class="readmore" data-toggle="modal" data-target="#myModal-whitepaper" data-id="<%# Eval("Description") %>" data-value ="<%=rootpath %>Assets/images/WhitePapers/Thumbnail/<%# Eval("Thumbnail") %>">                                              
+                            <a style="color: #2f2f2f;" class="readmore" data-toggle="modal" data-target="#myModal-whitepaper" data-id="<%# Eval("Description") %>" data-value="<%=rootpath %>Assets/images/WhitePapers/Thumbnail/<%# Eval("Thumbnail") %>">
                                 <img style="margin-right: 15px;" src="<%=rootpath %>Assets/images/readmore.png" alt="RheinCS">read more &gt;</a>
                         </div>
                     </ItemTemplate>
@@ -55,9 +53,9 @@
             </div>
 
         </div>
-        
-         <div class="modal fade" id="myModal-whitepaper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            
+
+        <div class="modal fade" id="myModal-whitepaper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
             <div class="modal-dialog" role="document">
                 <div class="modal-content mymodal-download">
                     <div class="modal-header modal-header-bgcolor">
@@ -69,45 +67,54 @@
                             <label class="success" id="successmsg" hidden="hidden">Thank you for submitting your details.</label>
                         </div>
                     </div>
-                    
+
                     <div class="modal-body">
                         <p class="formhead text-left">Please fill in your details</p>
                         <p>
-                             <input type="hidden" id="hdfRootUrl" value="<%=rootpath %>"/>
-                           
-                            <input type="text" placeholder="*Your Name" id="textepicor" class="write-to-us-input" name="whitepaper-name"/>
+                            <input type="hidden" id="hdfRootUrl" value="<%=rootpath %>" />
+
+                            <input type="text" placeholder="*Your Name" id="textepicor" class="write-to-us-input" name="whitepaper-name" />
                         </p>
                         <span style="margin-top: 5px;" class="validator text-left" id="reqtextepicornameval" hidden="hidden">Enter Your Name</span>
                     </div>
-                     <div class="modal-body">
+                    <div class="modal-body">
                         <p>
-                            <input type="text" placeholder="*Company Name" id="textcompany" class="write-to-us-input" name="whitepaper-company"/>
+                            <input type="text" placeholder="*Company Name" id="textcompany" class="write-to-us-input" name="whitepaper-company" />
                         </p>
                         <span style="margin-top: 5px;" class="validator text-left" id="reqtextcompany" hidden="hidden">Enter Your Company Name</span>
-                        
+
                     </div>
                     <div class="modal-body">
                         <p>
-                            <input type="text" placeholder="*Your Email Address" id="textemail" class="write-to-us-input" name="whitepaper-email"/>
+                            <input type="text" placeholder="*Your Email Address" id="textemail" class="write-to-us-input" name="whitepaper-email" />
                         </p>
                         <span style="margin-top: 5px;" class="validator text-left" id="reqtextemailval" hidden="hidden">Enter Your Work Email Address</span>
-                        <span  style="margin-top: 5px;" class="validator text-left" id="valtextemail" hidden="hidden">Enter Valid Email Address</span>
+                        <span style="margin-top: 5px;" class="validator text-left" id="valtextemail" hidden="hidden">Enter Valid Email Address</span>
                     </div>
                     <div class="modal-body">
                         <p>
-                            <input type="number" placeholder="Your Mobile Number " id="textmobile" class="write-to-us-input" name="whitepaper-phone"/>
+                            <input type="number" placeholder="Your Mobile Number " id="textmobile" class="write-to-us-input" name="whitepaper-phone" />
                         </p>
                         <span style="margin-top: 5px;" class="validator text-left" id="reqtextmobile" hidden="hidden">Enter Your Mobile Number </span>
                         <span style="margin-top: 5px;" class="validator text-left" id="valtextmobile" hidden="hidden">Enter Valid Mobile Number</span>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="clearfix"></div>
+                        <span class="showErrorMsg" style="color: red"></span>
+                        <div class="clearfix"></div>
+                        <div class="g-recaptcha" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn"></div>
+
+
                     </div>
                     <div class="clearfix">&nbsp;</div>
                     <div class="modal-body">
                         <input type="button" id="btnepicor" class="submit-button" data-loading-text="Submitting.." value="Submit" />
                     </div>
-                         
+
                 </div>
             </div>
-                 
+
         </div>
 
         <style>
@@ -125,11 +132,22 @@
                 width: 19%;
                 border-radius: 25px;
             }
-        </style>  
+        </style>
     </div>
 </asp:Content>
- <asp:Content ID="Content3" ContentPlaceHolderID="FooterScript" runat="server">
-        <script>
+<asp:Content ID="Content3" ContentPlaceHolderID="FooterScript" runat="server">
+    <script type="text/javascript">
+      var onloadCallback = function() {
+          grecaptcha.render('g_captcha', {
+              'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
+        });
+      };
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
+    </script>
+
+    <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
+    <script>
             var description, thumbnail;
             $(document).ready(function ()
             {
@@ -167,6 +185,7 @@
                 var email = $('#textemail').val();
                 var mobno = $('#textmobile').val();
                 var response = 1;
+                $('.showErrorMsg').text("");
                 $("#reqtextepicornameval").hide();
                 $("#reqtextcompany").hide();
                 $("#reqtextemailval,#reqtextmobile").hide();
@@ -188,6 +207,7 @@
                         $("#valtextemail").show();
                         response = 0;
                     }
+                
 
                     var email = $('#textemail').val();
                     var a = email.split('@');
@@ -204,6 +224,10 @@
                     $("#valtextmobile").show();
                     response = 0;
                 }
+                 if (!(grecaptcha && grecaptcha.getResponse().length > 0)) {
+                        $('.showErrorMsg').text("Select captcha.");
+                        response = 0;
+                   }
                 return response;
             }
 
@@ -246,11 +270,11 @@
 
             }
 
-        </script>
-      <%--Lead square implementation--%>
-<script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
+    </script>
+    <%--Lead square implementation--%>
+    <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
 
-                    <script type="text/javascript">                         
+    <script type="text/javascript">                         
                         function saveleadwhitepaper() {
                            
                             var fieldMapping = {
@@ -319,7 +343,7 @@
                             onError: onError,       //optional
                             });
 };
-  </script>
-     <%--eof Lead square implementation--%>
+    </script>
+    <%--eof Lead square implementation--%>
 </asp:Content>
 

@@ -251,7 +251,7 @@
             <%--<p class="padd-top-20"><a href="mailto:careers@rheincs.com?subject=Application" class="submit-button ETapplynow white-color" style="padding:10px" title="Application">Apply now</a></p>
             <p class="padd-top-20"><a href="mailto:careers@rheincs.com?subject=Application" class="currentopenings-mail-text ETapplynow">careers@rheincs.com</a></p>--%>
 
-            <p class="padd-top-20"><a id="btnclear" data-toggle="modal" class="submit-button ETapplynow white-color" style="padding: 10px" title="Application" onclick="CurrOpClear()"  data-target="#myModal-Apply">Apply now</a></p>
+            <p class="padd-top-20"><a id="btnclear" data-toggle="modal" class="submit-button ETapplynow white-color" style="padding: 10px" title="Application" onclick="CurrOpClear()" data-target="#myModal-Apply">Apply now</a></p>
             <p class="padd-top-20"><a href="mailto:careers@rheincs.com?subject=Application" class="currentopenings-mail-text ETapplynow">careers@rheincs.com</a></p>
 
             <div class="modal fade" id="myModal-Apply" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -292,7 +292,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <input type="text" placeholder="Your Mobile Number" id="txtMobNo" class="write-to-us-input" name="candidate-mobile"  />
+                                    <input type="text" placeholder="Your Mobile Number" id="txtMobNo" class="write-to-us-input" name="candidate-mobile" />
                                     <span class="validator" id="reqMobNo" hidden="hidden" style="font-size: 13px;">Enter Your Mobile Number</span><span class="validator" id="val10digitMobNo" hidden="hidden" style="font-size: 13px;">Enter Valid Mobile Number</span>
                                 </div>
                             </div>
@@ -308,8 +308,17 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-2">
-                                    <input type="button" id="btnApply"  class="submit-button" value="Submit" />
+                                <div class="col-md-9">
+                                    <div class="clearfix"></div>
+                                    <span class="showErrorMsg" style="color: red"></span>
+                                    <div class="clearfix"></div>
+                                    <div class="col-md-6 col-sm-6 captchadiv">
+                                        <div class="g-recaptcha" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn"></div>
+                                        <!--6LcRmjsUAAAAADmNyyjwZNsWwnYTozrxIjSKcjGI-->
+                                    </div>
+                                </div>
+                                <div class="col-md-3" style="vertical-align: middle; margin-top: 15px;">
+                                    <input type="button" id="btnApply" class="submit-button" value="Submit" />
                                 </div>
                             </div>
                         </div>
@@ -328,7 +337,7 @@
                 if (r == 1) {
                     $("#btnApply").val("Submitting..");
                     mailsend();
-					 onFormSubmit();
+                    onFormSubmit();
                 }
             });
 
@@ -376,6 +385,10 @@
                 }
                 if (txtAttachCV == '') {
                     $("#reqCV").show();
+                    response = 0;
+                }
+                if (!(grecaptcha && grecaptcha.getResponse().length > 0)) {
+                    $('.showErrorMsg').text("Select captcha.");
                     response = 0;
                 }
                 return response;
@@ -448,111 +461,120 @@
             $("#valApplyemail").hide();
             $("#reqCV").hide();
         }
-        
+
     </script>
-	
-     <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
 
-                    <script type="text/javascript">
-                            
+    <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
 
-			
-                        function onFormSubmit() {
-
-			var checks = new Array();
-
-                           
-
-
-                            var fieldMapping = {
-                                MXHOrgCode: "17537",
-                       MXHLandingPageId: "cc2cad1c-1f7d-11e7-a02b-22000b10e324",
-                                MXHAsc: "",
-
-				
-								mx_Selectyourjon:"selected-job",
-                                FirstName: "candidate-name",
-									  EmailAddress: "candidate-email",
-                                  Phone: "candidate-mobile",
-                                 mx_Your_Message:"cover-letter",
-                                                             
-
-
-                            };
-
-                            var onSuccess = function (data) {                   
-                           data = $.parseJSON(data)
-                                var logData = {
-                                    Name: $('#txtApplyName').val(),
-                                    FormPID: data.PId,
-                                    Email: $('#txtApplyEmail').val(),
-                                    Mobile: $('#txtMobNo').val(),
-                                    FormStatus: data.Status,
-                                    FormMsg: data.Message,
-                                    FormAction: data.FormAction,
-                                    ServiceType: "Current Openings"
-                                }
-                                $.ajax({
-                                    type: "POST",
-                                    url: "/" + "api/Admin/LeadSquaredLog",
-                                    data: JSON.stringify(logData),
-                                    contentType: "application/json; charset=utf-8",
-                                    dataType: "json",
-                                    failure: function (response) {
-                                        alert(response.d);
-                                    }
-
-                                });                              
-                                console.log(data);
-					
-	
-                            }
-
-                            var onError = function (data) {                 
-
-                                data = $.parseJSON(data)
-                                var logData = {
-                                    Name: $('#txtApplyName').val(),
-                                    FormPID: data.PId,
-                                    Email: $('#txtApplyEmail').val(),
-                                    Mobile: $('#txtMobNo').val(),
-                                    FormStatus: data.Status,
-                                    FormMsg: data.Message,
-                                    FormAction: data.FormAction,
-                                    ServiceType: "Current Openings"
-                                }
-                                $.ajax({
-                                    type: "POST",
-                                    url: "/" + "api/Admin/LeadSquaredLog",
-                                    data: JSON.stringify(logData),
-                                    contentType: "application/json; charset=utf-8",
-                                    dataType: "json",
-                                    failure: function (response) {
-                                        alert(response.d);
-                                    }
-
-                                });
-                                console.log(data);
-
-
-                            }
+    <script type="text/javascript">
 
 
 
-                            new LSQForm().captureLead(fieldMapping, "form1",
+        function onFormSubmit() {
 
-                            {
+            var checks = new Array();
 
-                            onSuccess: onSuccess,   //optional
 
-                            onError: onError,       //optional
 
-                            });
-			
-				
 
-};
+            var fieldMapping = {
+                MXHOrgCode: "17537",
+                MXHLandingPageId: "cc2cad1c-1f7d-11e7-a02b-22000b10e324",
+                MXHAsc: "",
 
-                        
-                    </script>
+
+                mx_Selectyourjon: "selected-job",
+                FirstName: "candidate-name",
+                EmailAddress: "candidate-email",
+                Phone: "candidate-mobile",
+                mx_Your_Message: "cover-letter",
+
+
+
+            };
+
+            var onSuccess = function (data) {
+                data = $.parseJSON(data)
+                var logData = {
+                    Name: $('#txtApplyName').val(),
+                    FormPID: data.PId,
+                    Email: $('#txtApplyEmail').val(),
+                    Mobile: $('#txtMobNo').val(),
+                    FormStatus: data.Status,
+                    FormMsg: data.Message,
+                    FormAction: data.FormAction,
+                    ServiceType: "Current Openings"
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "/" + "api/Admin/LeadSquaredLog",
+                    data: JSON.stringify(logData),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    failure: function (response) {
+                        alert(response.d);
+                    }
+
+                });
+                console.log(data);
+
+
+            }
+
+            var onError = function (data) {
+
+                data = $.parseJSON(data)
+                var logData = {
+                    Name: $('#txtApplyName').val(),
+                    FormPID: data.PId,
+                    Email: $('#txtApplyEmail').val(),
+                    Mobile: $('#txtMobNo').val(),
+                    FormStatus: data.Status,
+                    FormMsg: data.Message,
+                    FormAction: data.FormAction,
+                    ServiceType: "Current Openings"
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "/" + "api/Admin/LeadSquaredLog",
+                    data: JSON.stringify(logData),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    failure: function (response) {
+                        alert(response.d);
+                    }
+
+                });
+                console.log(data);
+
+
+            }
+
+
+
+            new LSQForm().captureLead(fieldMapping, "form1",
+
+            {
+
+                onSuccess: onSuccess,   //optional
+
+                onError: onError,       //optional
+
+            });
+
+
+
+        };
+
+
+    </script>
+           <script type="text/javascript">
+      var onloadCallback = function() {
+          grecaptcha.render('g_captcha', {
+              'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
+        });
+      };
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
+    </script>
 </asp:Content>
