@@ -372,6 +372,9 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                 $('.showErrorMsg').text("Select captcha.");
                 response = 0;
             }
+            else {
+                $('.showErrorMsg').text("");
+            }
             return response;
         }
 

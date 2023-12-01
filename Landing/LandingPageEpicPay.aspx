@@ -674,6 +674,9 @@ Manage Payroll with
                     $('.showErrorMsg').text("Select captcha.");
                     return false;
                 }
+                else {
+                    $('.showErrorMsg').text("");
+                }
                 var email = $('.txtEmail').val();
                 var a = email.split('@');
                 if (a[1].toLowerCase() == 'gmail.com' || a[1].toLowerCase() == 'live.com' || a[1].toLowerCase() == 'live.in' || a[1].toLowerCase() == 'outlook.com' || a[1].toLowerCase() == 'yahoo.com' || a[1].toLowerCase() == 'zoho.com' || a[1].toLowerCase() == 'yandex.com' || a[1].toLowerCase() == 'aol.com' || a[1].toLowerCase() == 'mail.com' || a[1].toLowerCase() == 'inbox.com') {
