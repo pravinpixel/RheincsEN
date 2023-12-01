@@ -294,19 +294,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-12">
-                    <h1 class="redColor">DBA Support </h1>
-                    <p class="padd-bottom-10">
-                        We completely understand rationalizing the portfolio of Applications by plotting the client’s application landscape against a business process heat map. Redundant applications can be decommissioned, based on our recommendation to an enterprise with regards to consolidation and enhancing applications. These recommendations are seamlessly integrated with an analysis of underlying software and hardware infrastructure that help arrive at a more streamlined Software License Management.  
-                    </p>
-                    <p class="padd-bottom-10">
-                        Our clients are assisted with developing a transparent governance process, enabling applications to be transitioned seamlessly into Application and Production support, to be decommissioned. This releases underlying software (license) and hardware (server) infrastructure. 
-                    </p>
-                    <p class="padd-bottom-10">
-                        RheinBrücke provides SLA based application support services based on the ITIL framework. Our support personnel and robust process allow for a smooth transition of application support in optimum timelines and serve to stabilize services during the initial stages of steady state. Timely intervention and a strict focus on continuous improvement along with preventive maintenance ensures the delight of business users. 
-                    </p>
-                </div>
-
+                
                 <div class="col-md-12">
                     <h3 class="redColor">Our Methodology:  </h3>
                     <p class="padd-bottom-10">
@@ -360,6 +348,15 @@
                                 <span style="margin-top: 5px;" class="validator" id="reqAMSMobno" hidden="hidden">Enter Your Mobile Number</span>
                                 <span style="margin-top: 5px;" class="validator" id="valAMSMobNo" hidden="hidden">Enter Valid Mobile Number</span>
                             </div>
+                             <div class="modal-body">
+
+                        <div class="clearfix"></div>
+                        <span class="showErrorMsg" style="color: red"></span>
+                        <div class="clearfix"></div>
+                        <div class="g-recaptcha" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn"></div>
+
+
+                    </div>
                             <div class="clearfix">&nbsp;</div>
                             <div class="modal-body">
                                 <input type="button" id="btnAMS" class="submit-button" data-loading-text="Submitting.." value="Submit" />
@@ -371,6 +368,10 @@
         </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="FooterScript" runat="server">
+       <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
+    </script>
+	<script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
+
     <script type="text/javascript">
         $(document).ready(function () {
             $('#btnAMS').click(function () {
@@ -409,6 +410,13 @@
             if (!IsEmail(email)) {
                 $("#valAMSemail").show();
                 response = 0;
+            }
+            if (!(grecaptcha && grecaptcha.getResponse().length > 0)) {
+                $('.showErrorMsg').text("Select captcha.");
+                response = 0;
+            }
+            else {
+                $('.showErrorMsg').text("");
             }
             //if (mobno == '') {
             //    $("#reqAMSMobno").show();
