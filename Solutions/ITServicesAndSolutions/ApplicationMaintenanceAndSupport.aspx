@@ -295,7 +295,7 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <h1 class="redColor">DBA Support </h1>
+                    <%--<h1 class="redColor">DBA Support </h1>--%>
                     <p class="padd-bottom-10">
                         Our clients are assisted with developing a transparent governance process, enabling applications to be transitioned seamlessly into Application and Production support, to be decommissioned. This releases underlying software (license) and hardware (server) infrastructure. 
                     </p>
