@@ -294,7 +294,15 @@
                         </ul>
                     </div>
                 </div>
-                
+                <div class="col-md-12">
+                    <h1 class="redColor">DBA Support </h1>
+                    <p class="padd-bottom-10">
+                        Our clients are assisted with developing a transparent governance process, enabling applications to be transitioned seamlessly into Application and Production support, to be decommissioned. This releases underlying software (license) and hardware (server) infrastructure. 
+                    </p>
+                    <p class="padd-bottom-10">
+                        RheinBrücke provides SLA based application support services based on the ITIL framework. Our support personnel and robust process allow for a smooth transition of application support in optimum timelines and serve to stabilize services during the initial stages of steady state. Timely intervention and a strict focus on continuous improvement along with preventive maintenance ensures the delight of business users. 
+                    </p>
+                </div>
                 <div class="col-md-12">
                     <h3 class="redColor">Our Methodology:  </h3>
                     <p class="padd-bottom-10">
