@@ -906,7 +906,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             <%-- <option value="12">CCT (Copy Company Tool)</option>--%>
                                             <option value="13">SharePoint</option>
                                             <option value="14">Microsoft Technologies - .Net & SQL Server</option>
-                                            <option value="15">IT Support</option>
+                                            <option value="15">Application Maintenance & Support</option>
                                         </select>
                                         <span class="validator" id="reqddlservices" hidden="hidden" style="font-size: 13px;">Select the Services</span>
                                     </div>
