@@ -273,9 +273,10 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                 <div class="clearfix"></div>
                 <span class="showErrorMsg" style="color: red"></span>
                 <div class="clearfix"></div>
-                <div class="col-md-6 col-sm-6 captchadiv" style="height: 39px;margin-top: 4px;">
+                <div class="col-md-6 col-sm-6 captchadiv" style="height: 55px;margin-top: 4px;">
                         <div id="g_captcha" style="transform:scale(0.65);-webkit-transform:scale(0.65);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>     
                 </div>
+                 <div class="clearfix"></div>
                 <div class="col-md-12">
                     <input type="button" id="btnContact" class="submit-button" data-loading-text="Submitting.." value="Submit" />
                 </div>
