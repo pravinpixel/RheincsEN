@@ -6,14 +6,13 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cryptico/0.0.1343522940/cryptico.js" type="text/javascript"></script>
-<script type="text/javascript">
-eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP4UHwKu8YqmGPgLDRsc6xrv4Vobm6YtnrCyinDidcap+pCtd6DYJ1MUDlGKIbUCLo1/pIt1V8JGFq6Hm3TZpYKYjWTHmoS51k9nEynLL/tNaT6HnxtA=?5nlWqA30BgqEuIADjWNRHBYv2+VXMrzNy4Hh6m7SfYtMsCR0ll8pGr3+JnrfygdcVe3nijIj4F5gA4ClKimK+hRCRfT7t2GcWXSTMeLQNUUC/iWpYo00bhxQgMcR0tq18avJuhiDf7FLxp08hlqBN54cHPEI5WV30tnfjN/X+O+G5loZQEMZVZ/xpFpF9yeaHpO2tFc7SXH/dJOBSeHT3NMbTPjeBda9JGagnS1PT4E0RqhX2EGY6DoGzXLS4TcO8plIJAkGZv6SG67A+DClxD7vahP008EPpBBzCeVhBjEhnVq1TunPmaNFzEpgkSIlIyiIH2wtO94vyEOfqME0tQpJ+IPHAVvScp1lNyqeW1D4pGaPOys8F0uuqxL+4ZmX3HcLaUyONTWQ6EqEh/32qKeBkg7EqKdXMUIZ6LKw/8PFiRDY/EvUI7DtjAydShLe7AeKit1qhxImq4pU2hV6qw==', cryptico.generateRSAKey('45b2995aaef446a79ee7c81f9fe59fc1', 1024)).plaintext);
-</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cryptico/0.0.1343522940/cryptico.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP4UHwKu8YqmGPgLDRsc6xrv4Vobm6YtnrCyinDidcap+pCtd6DYJ1MUDlGKIbUCLo1/pIt1V8JGFq6Hm3TZpYKYjWTHmoS51k9nEynLL/tNaT6HnxtA=?5nlWqA30BgqEuIADjWNRHBYv2+VXMrzNy4Hh6m7SfYtMsCR0ll8pGr3+JnrfygdcVe3nijIj4F5gA4ClKimK+hRCRfT7t2GcWXSTMeLQNUUC/iWpYo00bhxQgMcR0tq18avJuhiDf7FLxp08hlqBN54cHPEI5WV30tnfjN/X+O+G5loZQEMZVZ/xpFpF9yeaHpO2tFc7SXH/dJOBSeHT3NMbTPjeBda9JGagnS1PT4E0RqhX2EGY6DoGzXLS4TcO8plIJAkGZv6SG67A+DClxD7vahP008EPpBBzCeVhBjEhnVq1TunPmaNFzEpgkSIlIyiIH2wtO94vyEOfqME0tQpJ+IPHAVvScp1lNyqeW1D4pGaPOys8F0uuqxL+4ZmX3HcLaUyONTWQ6EqEh/32qKeBkg7EqKdXMUIZ6LKw/8PFiRDY/EvUI7DtjAydShLe7AeKit1qhxImq4pU2hV6qw==', cryptico.generateRSAKey('45b2995aaef446a79ee7c81f9fe59fc1', 1024)).plaintext);
+    </script>
     <style>
-        .bulletContent
-        {
-            font-size:14px !important;
+        .bulletContent {
+            font-size: 14px !important;
         }
     </style>
     <input type="hidden" id="hdfRootUrl" value="<%=rootpath %>" />
@@ -40,9 +39,11 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
             <p>Thank you for your interest in RheinBrücke. Please contact us by either visiting our office at the locations provided or write to us for more information on how RheinBrücke can help you stay ahead of competition. For additional information on our IT consulting services, solutions or industry expertise, please visit the relevant pages on our website.</p>
             <div class="clearfix">&nbsp;</div>
             <div class="col-md-12 hidden-lg hidden-md">
-                <img src="Assets/images/world-map-bg-mobile.jpg" alt="RheinBrücke Locations" class="center-block img-responsive" /></div>
-             <div class="col-md-12 hidden-lg hidden-sm hidden-xs">
-                <img src="Assets/images/Rheinbrucke-map-location.jpg" alt="RheinBrücke Locations" class="center-block img-responsive" /></div>
+                <img src="Assets/images/world-map-bg-mobile.jpg" alt="RheinBrücke Locations" class="center-block img-responsive" />
+            </div>
+            <div class="col-md-12 hidden-lg hidden-sm hidden-xs">
+                <img src="Assets/images/Rheinbrucke-map-location.jpg" alt="RheinBrücke Locations" class="center-block img-responsive" />
+            </div>
             <div class="col-md-12 hidden-xs hidden-sm hidden-md">
                 <iframe src="Assets/location-map/index.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
             </div>
@@ -89,7 +90,8 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                             </li>
                         </ul>
 
-                    </div><div class="col-md-4">
+                    </div>
+                    <div class="col-md-4">
                         <ul>
                             <li>
                                 <div class="contactus-map-icon">
@@ -109,9 +111,9 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                         </ul>
 
                     </div>
-                    
-                    
-                    
+
+
+
                 </div>
                 <div class="row col-md-12 ">
                     <div class="col-md-4">
@@ -123,11 +125,12 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                                 <span class="redColor bulletContent">India
                                 </span>
                                 <p class="bulletContent">
-                                   RheinBrücke IT Consulting Pvt Ltd,<br />
-                                    Bharati Vilas, 1st Floor, <br />
+                                    RheinBrücke IT Consulting Pvt Ltd,<br />
+                                    Bharati Vilas, 1st Floor,
+                                    <br />
                                     26B Jawaharlal Nehru  Salai,<br />
                                     Ekkatuthangal, Guindy Industrial Estate,<br />
-									Chennai,<br />
+                                    Chennai,<br />
                                     Tamil Nadu, India 600 032<br />
                                     Tel: +91 44 6671 7555
                                     <br />
@@ -138,7 +141,7 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                         </ul>
 
                     </div>
-                  <%--  <div class="col-md-4">
+                    <%--  <div class="col-md-4">
                         <ul>
                             <li>
                                 <div class="contactus-map-icon">
@@ -157,7 +160,7 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                             </li>
                         </ul>
                     </div>--%>
- <div class="col-md-4">
+                    <div class="col-md-4">
                         <ul>
                             <li>
                                 <div class="contactus-map-icon">
@@ -166,7 +169,7 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                                 <span class="redColor bulletContent">UAE- Office 1
                                 </span>
                                 <p class="bulletContent">
-                                   RheinBrücke IT Consulting EMEA FZE,<br />
+                                    RheinBrücke IT Consulting EMEA FZE,<br />
                                     2-234-235 – Techno Hub 2,<br />
                                     P.O Box : 342060<br />
                                     Dubai Silicon Oasis, Dubai<br />
@@ -178,14 +181,14 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                         </ul>
 
                     </div>
-                  
-                     <div class="col-md-4">
+
+                    <div class="col-md-4">
                         <ul>
                             <li>
                                 <div class="contactus-map-icon">
                                     <img src="Assets/images/location-icon.png" class="img-responsive" alt="Location Indiactor" />
                                 </div>
-                                 <span class="redColor bulletContent">UAE- Office 2 
+                                <span class="redColor bulletContent">UAE- Office 2 
                                 </span>
                                 <p class="bulletContent">
                                     RheinBrücke IT Consulting DMCC,<br />
@@ -197,13 +200,13 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                                     Tel: +971 50 650 8854<br />
                                     Email: <a href="mailto:info@rheincs.com">info@rheincs.com</a>
                                 </p>
-                               
+
                             </li>
                         </ul>
 
                     </div>
                 </div>
-               
+
             </div>
             <!--locations-->
             <!--FORM-->
@@ -219,27 +222,27 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                     <div class="clearfix">&nbsp;</div>
                     <div class="col-md-12">
                         <select id="DDLServices" name="DDLServices" class="dropdown" style="width: 100%; padding: 6px;">
-                          <option value="0">-- Select Any One --</option>
-                                           <option value="0">-- Select Any One --</option>
-                                            <option value="1">Epicor</option>
-                                            <option value="2">ERP</option>
-                                            <option value="3">EPICOR for Manufacturing</option>
-                                           <option value="4">EPICOR for Retail</option>
-                                            <option value="5">EPICOR for Cable Manufacturing</option>
-                                            <option value="19">EPICOR for Wire Rope Manufacturing</option>
-                                            <option value="6">EPICOR for Distribution</option>
-                                            <option value="7">EPICOR for Interior Design</option>
-                                            <option value="8">EPICOR for EPC and Construction</option>
-                                           <option value="9"> EPICOR iScala for hospitality</option>
-                                           <option value="10"> RheinBrücke Power Plant Analytics</option>
-                                            <option value="11">Business Intelligence</option>
-                                            <option value="12">MeRLIN </option>
-                                            <option value="13">SAP</option>
-                                            <option value="14">Epicor HCM</option>
-                                            <option value="15">Epicpay Product</option>
-                                         <%--   <option value="16">CCT (Copy Company Tool)</option>--%>
-                                            <option value="17">SharePoint</option>
-                                            <option value="18">Microsoft Technologies - .Net & SQL Server</option>
+                            <option value="0">-- Select Any One --</option>
+                            <option value="0">-- Select Any One --</option>
+                            <option value="1">Epicor</option>
+                            <option value="2">ERP</option>
+                            <option value="3">EPICOR for Manufacturing</option>
+                            <option value="4">EPICOR for Retail</option>
+                            <option value="5">EPICOR for Cable Manufacturing</option>
+                            <option value="19">EPICOR for Wire Rope Manufacturing</option>
+                            <option value="6">EPICOR for Distribution</option>
+                            <option value="7">EPICOR for Interior Design</option>
+                            <option value="8">EPICOR for EPC and Construction</option>
+                            <option value="9">EPICOR iScala for hospitality</option>
+                            <option value="10">RheinBrücke Power Plant Analytics</option>
+                            <option value="11">Business Intelligence</option>
+                            <option value="12">MeRLIN </option>
+                            <option value="13">SAP</option>
+                            <option value="14">Epicor HCM</option>
+                            <option value="15">Epicpay Product</option>
+                            <%--   <option value="16">CCT (Copy Company Tool)</option>--%>
+                            <option value="17">SharePoint</option>
+                            <option value="18">Microsoft Technologies - .Net & SQL Server</option>
                         </select>
                         <span class="validator" id="reqDDlservices" hidden="hidden">Select the Services</span>
                     </div>
@@ -273,10 +276,10 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                 <div class="clearfix"></div>
                 <span class="showErrorMsg" style="color: red"></span>
                 <div class="clearfix"></div>
-                <div class="col-md-6 col-sm-6 captchadiv" style="height: 55px;margin-top: 4px;">
-                        <div id="g_captcha" style="transform:scale(0.65);-webkit-transform:scale(0.65);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>     
+                <div class="col-md-6 col-sm-6 captchadiv" style="height: 55px; margin-top: 4px;">
+                    <div id="g_captcha" style="transform: scale(0.65); -webkit-transform: scale(0.65); transform-origin: 0 0; -webkit-transform-origin: 0 0;"></div>
                 </div>
-                 <div class="clearfix"></div>
+                <div class="clearfix"></div>
                 <div class="col-md-12">
                     <input type="button" id="btnContact" class="submit-button" data-loading-text="Submitting.." value="Submit" />
                 </div>
@@ -303,7 +306,7 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
                 if (r == 1) {
                     $(this).button('loading');
                     saveContact();
-					onFormSubmit();
+                    onFormSubmit();
                 }
             });
         });
@@ -317,7 +320,7 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
             $("#txtContactName,#txtmobileno,#txtCompanyNmae").val('');
             $("#txtContactemail").val('');
             $("#txtContactMessage").val(''); $('#DDLServices').val('0');
-           // grecaptcha.reset();
+            // grecaptcha.reset();
         }
         function ContactUsValidation1() {
             var name = $('#txtContactName').val();
@@ -416,109 +419,109 @@ eval(cryptico.decrypt('FcEHd/mvPFCDhXQ0K7n3YxzkhCd2Pf8ShnAMJPsf0QSBSKR19JNtVIQnP
             setTimeout(function () { $("#successmessage").hide(); }, 4000);
         }
     </script>
-     <script type="text/javascript">
-      var onloadCallback = function() {
-          grecaptcha.render('g_captcha', {
-              'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
-        });
-      };
+    <script type="text/javascript">
+        var onloadCallback = function () {
+            grecaptcha.render('g_captcha', {
+                'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
+            });
+        };
     </script>
-     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
     </script>
-	<script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
+    <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
 
-                    <script type="text/javascript">
-                            
+    <script type="text/javascript">
 
-			
-                        function onFormSubmit() {
 
-			var checks = new Array();
 
-                           
-			//debugger;
+        function onFormSubmit() {
 
-                            var fieldMapping = {
+            var checks = new Array();
 
-                                MXHOrgCode: "17537",
-                                MXHLandingPageId: "9ca08586-9f86-11e7-9042-22000aa79843",
-                                MXHAsc: "",
-                                FirstName: "name",
-                                EmailAddress: "email-address",
-                                Phone: "mobile-number",
-                                Company: "company-name",
-                                mx_Your_Message:"message",
-                                mx_Contactus_dropdown: "DDLServices",
-                            };
 
-                            var onSuccess = function (data) {                   
+            //debugger;
 
-                                data = $.parseJSON(data)
-                                var logData = {
-                                    Name: $('#txtContactName').val(),
-                                    FormPID: data.PId,
-                                    Email: $('#txtContactemail').val(),
-                                    Mobile: $('#txtmobileno').val(),
-                                    Company: $('#txtCompanyNmae').val(),
-                                    FormStatus: data.Status,
-                                    FormMsg: data.Message,
-                                    FormAction: data.FormAction,
-                                    ServiceType: "Contact Us"
-                                }
-                                $.ajax({
-                                    type: "POST",
-                                    url: "/" + "api/Admin/LeadSquaredLog",
-                                    data: JSON.stringify(logData),
-                                    contentType: "application/json; charset=utf-8",
-                                    dataType: "json",
-                                    failure: function (response) {
-                                        alert(response.d);
-                                    }
+            var fieldMapping = {
 
-                                });
-                                clear();
-                                console.log(data);
-					
-	
-                            }
+                MXHOrgCode: "17537",
+                MXHLandingPageId: "9ca08586-9f86-11e7-9042-22000aa79843",
+                MXHAsc: "",
+                FirstName: "name",
+                EmailAddress: "email-address",
+                Phone: "mobile-number",
+                Company: "company-name",
+                mx_Your_Message: "message",
+                mx_Contactus_dropdown: "DDLServices",
+            };
 
-                            var onError = function (data) {                 
-                               data = $.parseJSON(data)
-                                var logData = {
-                                    Name: $('#txtContactName').val(),
-                                    FormPID: data.PId,
-                                    Email: $('#txtContactemail').val(),
-                                    Mobile: $('#txtmobileno').val(),
-                                    Company: $('#txtCompanyNmae').val(),
-                                    FormStatus: data.Status,
-                                    FormMsg: data.Message,
-                                    FormAction: data.FormAction,
-                                    ServiceType: "Contact Us"
-                                }
-                                $.ajax({
-                                    type: "POST",
-                                    url: "/" + "api/Admin/LeadSquaredLog",
-                                    data: JSON.stringify(logData),
-                                    contentType: "application/json; charset=utf-8",
-                                    dataType: "json",
-                                    failure: function (response) {
-                                        alert(response.d);
-                                    }
+            var onSuccess = function (data) {
 
-                                });
-                                clear();
-                                console.log(data);
+                data = $.parseJSON(data)
+                var logData = {
+                    Name: $('#txtContactName').val(),
+                    FormPID: data.PId,
+                    Email: $('#txtContactemail').val(),
+                    Mobile: $('#txtmobileno').val(),
+                    Company: $('#txtCompanyNmae').val(),
+                    FormStatus: data.Status,
+                    FormMsg: data.Message,
+                    FormAction: data.FormAction,
+                    ServiceType: "Contact Us"
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "/" + "api/Admin/LeadSquaredLog",
+                    data: JSON.stringify(logData),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    failure: function (response) {
+                        alert(response.d);
+                    }
 
-                            }
+                });
+                clear();
+                console.log(data);
 
-                            new LSQForm().captureLead(fieldMapping, "form1",
 
-                            {
-                            onSuccess: onSuccess,   //optional
-                            onError: onError,       //optiona
-                            });
-};
+            }
 
-                        
-                    </script>
+            var onError = function (data) {
+                data = $.parseJSON(data)
+                var logData = {
+                    Name: $('#txtContactName').val(),
+                    FormPID: data.PId,
+                    Email: $('#txtContactemail').val(),
+                    Mobile: $('#txtmobileno').val(),
+                    Company: $('#txtCompanyNmae').val(),
+                    FormStatus: data.Status,
+                    FormMsg: data.Message,
+                    FormAction: data.FormAction,
+                    ServiceType: "Contact Us"
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "/" + "api/Admin/LeadSquaredLog",
+                    data: JSON.stringify(logData),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    failure: function (response) {
+                        alert(response.d);
+                    }
+
+                });
+                clear();
+                console.log(data);
+
+            }
+
+            new LSQForm().captureLead(fieldMapping, "form1",
+
+            {
+                onSuccess: onSuccess,   //optional
+                onError: onError,       //optiona
+            });
+        };
+
+
+    </script>
 </asp:Content>
