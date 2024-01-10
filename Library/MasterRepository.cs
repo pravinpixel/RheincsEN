@@ -135,6 +135,7 @@ namespace RheinBrucke.Library
                 row.Email = email;
                 row.EmailTypeID = 5;
                 row.Phone = phone;
+                row.ContactUsUrl = "AMS";
                 row.CreatedOn = DateTime.Now;
                 context.EmailRequests.Add(row);
                 context.SaveChanges();
@@ -160,6 +161,7 @@ namespace RheinBrucke.Library
                 row.Email = email;
                 row.Companyname = company;
                 row.EmailTypeID = 4;
+                row.ContactUsUrl = "PEP";
                 row.CreatedOn = DateTime.Now;
                 context.EmailRequests.Add(row);
                 context.SaveChanges();
@@ -209,6 +211,7 @@ namespace RheinBrucke.Library
                 row.Phone = phone;
                 row.Email = email;
                 row.EmailTypeID = 3;
+                row.ContactUsUrl = "Epicpay";
                 row.CreatedOn = DateTime.Now;
                 context.EmailRequests.Add(row);
                 context.SaveChanges();

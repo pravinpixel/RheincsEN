@@ -275,15 +275,35 @@
                 <div class="col-md-12">
                     <h3 class="redColor">Services Provided: </h3>
                     <div style="text-align: justify">
-                        <ul class="bulletContent-manufacturing cstmzed-lst">
-                            <li>ERP Support – SAP, EPICOR, Microsoft Dynamics </li>
-                            <li>Software Development, Support and Maintenance  </li>
-                            <li>Business Intelligence and Data Analytics, DBA Support</li>
-                            <li>Dedicated support specialists for 24X7 helpdesk and IT service management </li>
-                            <li>Security and IT Governance </li>
-                            <li>Cloud and Infrastructure Management Services </li>
-                            <li>Helpdesk with Managed Services  </li>
-                            <li>POC Development and Outsourced Product Development </li>
+                        <ul class="bulletContent-manufacturing cstmzed-lst"><span><b>IP and Product Development Services </b></span>
+                            <li>Proof of Concept Development  </li>
+                            <li>New Product Design and Development  </li>
+                            <li>Product Engineering and Development </li>
+                            <li>Platform Migration  </li>
+                            <li>Maintenance and Support  </li>
+                            <li>Independent Product Testing  </li>
+                            <li>Product Release and License Management  </li>
+                        </ul>
+                         <ul class="bulletContent-manufacturing cstmzed-lst"><span><b>Enterprise Solutions and Services </b></span>
+                            <li>Custom Development and Integration  </li>
+                            <li>Implementation, Rollout and Support   </li>
+                            <li>Performance Tuning and BI Analytics  </li>
+                            <li>Version Upgrade   </li>
+                            <li>Preconfigured Industry Solutions   </li>
+                            <li>Product Audit and Recovery  </li>
+                        </ul>
+                           <ul class="bulletContent-manufacturing cstmzed-lst"><span><b>IT Surround Solution and Services </b></span>
+                            <li>Application Development Maintenance and Support </li>
+                            <li>Portals and Collaborations   </li>
+                            <li>Product Testing as a Service  </li>
+                            <li>SharePoint and .NET upgrades   </li>
+                        </ul>
+                         <ul class="bulletContent-manufacturing cstmzed-lst"><span><b>Consulting and Advisory Services </b></span>
+                            <li>Program / Project Management  </li>
+                            <li>IT Cost Optimization   </li>
+                            <li>IT Outsourcing Services  </li>
+                            <li>IT Due Diligence    </li>
+                             <li>Project Audit and Turnaround </li>
                         </ul>
                     </div>
                 </div>
