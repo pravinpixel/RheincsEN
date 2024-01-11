@@ -195,12 +195,9 @@
             <div class="bg-img-ms-application img-responsive ">
                 <h2 class="rhein-banner-heading-h2 inner-banner-text1 img-bottom">RheinBrücke</h2>
                 <p class="rhein-banner-heading-p inner-banner-text1 ">Our structured, SLA driven process ensures that you get a 100% hassle free Application Maintenance & Support experience.</p>
-                 <div  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="rhein-banner-readmore-bg pull-right" style="background: #7b1314;
-    position: relative;
-    right: 45%;
-    padding: 5px !important;
-    height: auto;
-"><span class="rhein-banner-readmore-text">Schedule a Call</span></div>
+                <div data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="rhein-banner-readmore-bg pull-right" style="background: #7b1314; position: relative; right: 45%; padding: 5px !important; height: auto;">
+                    <span class="rhein-banner-readmore-text">Schedule a Call</span>
+                </div>
 
 
             </div>
@@ -275,38 +272,19 @@
                 <div class="col-md-12">
                     <h3 class="redColor">Services Provided: </h3>
                     <div style="text-align: justify">
-                        <ul class="bulletContent-manufacturing cstmzed-lst"><span><b>IP and Product Development Services </b></span>
-                            <li>Proof of Concept Development  </li>
-                            <li>New Product Design and Development  </li>
-                            <li>Product Engineering and Development </li>
-                            <li>Platform Migration  </li>
-                            <li>Maintenance and Support  </li>
-                            <li>Independent Product Testing  </li>
-                            <li>Product Release and License Management  </li>
-                        </ul>
-                         <ul class="bulletContent-manufacturing cstmzed-lst"><span><b>Enterprise Solutions and Services </b></span>
-                            <li>Custom Development and Integration  </li>
-                            <li>Implementation, Rollout and Support   </li>
-                            <li>Performance Tuning and BI Analytics  </li>
-                            <li>Version Upgrade   </li>
-                            <li>Preconfigured Industry Solutions   </li>
-                            <li>Product Audit and Recovery  </li>
-                        </ul>
-                           <ul class="bulletContent-manufacturing cstmzed-lst"><span><b>IT Surround Solution and Services </b></span>
-                            <li>Application Development Maintenance and Support </li>
-                            <li>Portals and Collaborations   </li>
-                            <li>Product Testing as a Service  </li>
-                            <li>SharePoint and .NET upgrades   </li>
-                        </ul>
-                         <ul class="bulletContent-manufacturing cstmzed-lst"><span><b>Consulting and Advisory Services </b></span>
-                            <li>Program / Project Management  </li>
-                            <li>IT Cost Optimization   </li>
-                            <li>IT Outsourcing Services  </li>
-                            <li>IT Due Diligence    </li>
-                             <li>Project Audit and Turnaround </li>
+                        <ul class="bulletContent-manufacturing cstmzed-lst">
+                            <li>ERP Support – SAP, EPICOR, Microsoft Dynamics </li>
+                            <li>Software Development, Support and Maintenance  </li>
+                            <li>Business Intelligence and Data Analytics, DBA Support</li>
+                            <li>Dedicated support specialists for 24X7 helpdesk and IT service management </li>
+                            <li>Security and IT Governance </li>
+                            <li>Cloud and Infrastructure Management Services </li>
+                            <li>Helpdesk with Managed Services  </li>
+                            <li>POC Development and Outsourced Product Development </li>
                         </ul>
                     </div>
                 </div>
+
                 <div class="col-md-12">
                     <h3 class="redColor">Benefits of having RIC as a service partner:  </h3>
                     <div style="text-align: justify">
@@ -350,7 +328,7 @@
                     </div>
                     <p class="padd-bottom-10">With customers across 42 countries, we deeply understand your cultural industry specific needs. Some of our renowned clients include FLSmidth, Visteon, ZF-TRW, Novartis, and EPICOR Corporation to name a few. </p>
                 </div>
-                <p class="padd-top-20 redColor"><a data-toggle="modal" data-target="#myModal-contact" class="redColor ETAMS"><b><span class="bulcolor">For more information on our Application Maintenance & Support services,</span> please click here.</b></a></p>
+
                 <div class="modal fade" id="myModal-contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content mymodal-download">
@@ -384,15 +362,15 @@
                                 <span style="margin-top: 5px;" class="validator" id="reqAMSMobno" hidden="hidden">Enter Your Mobile Number</span>
                                 <span style="margin-top: 5px;" class="validator" id="valAMSMobNo" hidden="hidden">Enter Valid Mobile Number</span>
                             </div>
-                             <div class="modal-body">
+                            <div class="modal-body">
 
-                        <div class="clearfix"></div>
-                        <span class="showErrorMsg" style="color: red"></span>
-                        <div class="clearfix"></div>
-                        <div class="g-recaptcha" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn"></div>
+                                <div class="clearfix"></div>
+                                <span class="showErrorMsg" style="color: red"></span>
+                                <div class="clearfix"></div>
+                                <div class="g-recaptcha" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn"></div>
 
 
-                    </div>
+                            </div>
                             <div class="clearfix">&nbsp;</div>
                             <div class="modal-body">
                                 <input type="button" id="btnAMS" class="submit-button" data-loading-text="Submitting.." value="Submit" />
@@ -400,13 +378,64 @@
                         </div>
                     </div>
                 </div>
+
+
+                <div class="col-md-12">
+                    <h3 class="redColor">Services Provided: </h3>
+                    <div class="col-md-4" style="text-align: justify">
+                        <ul class="bulletContent-manufacturing cstmzed-lst">
+                            <span><b>IP and Product Development Services </b></span>
+                            <li>Proof of Concept Development  </li>
+                            <li>New Product Design and Development  </li>
+                            <li>Product Engineering and Development </li>
+                            <li>Platform Migration  </li>
+                            <li>Maintenance and Support  </li>
+                            <li>Independent Product Testing  </li>
+                            <li>Product Release and License Management  </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4" style="text-align: justify">
+                        <ul class="bulletContent-manufacturing cstmzed-lst">
+                            <span><b>Enterprise Solutions and Services </b></span>
+                            <li>Custom Development and Integration  </li>
+                            <li>Implementation, Rollout and Support   </li>
+                            <li>Performance Tuning and BI Analytics  </li>
+                            <li>Version Upgrade   </li>
+                            <li>Preconfigured Industry Solutions   </li>
+                            <li>Product Audit and Recovery  </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4" style="text-align: justify">
+                        <ul class="bulletContent-manufacturing cstmzed-lst">
+                            <span><b>IT Surround Solution and Services </b></span>
+                            <li>Application Development Maintenance and Support </li>
+                            <li>Portals and Collaborations   </li>
+                            <li>Product Testing as a Service  </li>
+                            <li>SharePoint and .NET upgrades   </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-md-12" style="text-align: justify">
+                    <ul class="bulletContent-manufacturing cstmzed-lst">
+                        <span><b>Consulting and Advisory Services </b></span>
+                        <li>Program / Project Management  </li>
+                        <li>IT Cost Optimization   </li>
+                        <li>IT Outsourcing Services  </li>
+                        <li>IT Due Diligence    </li>
+                        <li>Project Audit and Turnaround </li>
+                    </ul>
+                </div>
+
+                <p class="padd-top-20 redColor"><a data-toggle="modal" data-target="#myModal-contact" class="redColor ETAMS"><b><span class="bulcolor">For more information on our Application Maintenance & Support services,</span> please click here.</b></a></p>
             </div>
         </div>
+    </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="FooterScript" runat="server">
-       <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
     </script>
-	<script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
+    <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function () {
