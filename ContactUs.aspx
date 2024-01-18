@@ -81,8 +81,8 @@
                                 </span>
                                 <p class="bulletContent">
                                     RheinBrücke IT Consulting GmbH,<br />
-                                    Kranhaus 1, Im Zollhafen 18,<br />
-                                    50678 Köln, Germany<br />
+                                    Ruhrallee 9,<br />
+                                    Germany<br />
                                     Tel: +49 (0) 221 650 60 608<br />
                                     Fax: +49 (0) 221 650 60 500<br />
                                     Email: <a href="mailto:info@rheincs.com">info@rheincs.com</a>
