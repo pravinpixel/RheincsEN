@@ -81,6 +81,7 @@
                                 </span>
                                 <p class="bulletContent">
                                     RheinBrücke IT Consulting GmbH,<br />
+                                    44139 Dortmund,<br />
                                     Ruhrallee 9,<br />
                                     Germany<br />
                                     Tel: +49 (0) 221 650 60 608<br />
