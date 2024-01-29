@@ -645,9 +645,7 @@ Manage Payroll with
         $(document).ready(function () {
             var URI = window.location.pathname;
             var lurl = URI.toLowerCase();
-            if (lurl == "/epicpay-smart-payroll-solution") {
-                window.location.href = "Epicor-Payroll-MEA";
-            }
+            
             var _rootUrl = $("#hdfRootUrl").val();
             $('.btndownlaodBrochure').click(function () {
                 if ($('.txtFirstName').val() == '') {

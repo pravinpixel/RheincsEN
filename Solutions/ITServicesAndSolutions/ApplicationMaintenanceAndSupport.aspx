@@ -5,7 +5,22 @@
     <meta name="Description" content="Our Application Maintenance and support services provide a flexible high impact and cost effective delivery model for full life cycle application management" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <link href="../Assets/css/bootstrap-min.css" rel="stylesheet" />
+    <link href="../Assets/css/LandingStyleSheet.css" rel="stylesheet" />
+    <link href="../Assets/css/media-q.css" rel="stylesheet" />
+
     <style>
+        table.frm-tbl td a {
+            padding: 12px 0px;
+            background: #595353;
+            text-align: center;
+            width: 100%;
+            display: block;
+            color: #fff;
+            /* font-family: Arial; */
+            margin: 0px 0px;
+        }
+
         .baner-btns {
             display: inline-block;
             background: #7b1314;
@@ -270,36 +285,110 @@
             </p>
                 --%>
                 <div class="col-md-12">
-                    <h3 class="redColor">Services Provided: </h3>
-                    <div style="text-align: justify">
-                        <ul class="bulletContent-manufacturing cstmzed-lst">
-                            <li>ERP Support – SAP, EPICOR, Microsoft Dynamics </li>
-                            <li>Software Development, Support and Maintenance  </li>
-                            <li>Business Intelligence and Data Analytics, DBA Support</li>
-                            <li>Dedicated support specialists for 24X7 helpdesk and IT service management </li>
-                            <li>Security and IT Governance </li>
-                            <li>Cloud and Infrastructure Management Services </li>
-                            <li>Helpdesk with Managed Services  </li>
-                            <li>POC Development and Outsourced Product Development </li>
-                        </ul>
+                    <div class="col-md-7">
+                        <h3 class="redColor">Services Provided: </h3>
+                        <div style="text-align: justify">
+                            <ul class="bulletContent-manufacturing cstmzed-lst">
+                                <li>ERP Support – SAP, EPICOR, Microsoft Dynamics </li>
+                                <li>Software Development, Support and Maintenance  </li>
+                                <li>Business Intelligence and Data Analytics, DBA Support</li>
+                                <li>Dedicated support specialists for 24X7 helpdesk and IT service management </li>
+                                <li>Security and IT Governance </li>
+                                <li>Cloud and Infrastructure Management Services </li>
+                                <li>Helpdesk with Managed Services  </li>
+                                <li>POC Development and Outsourced Product Development </li>
+                            </ul>
+                        </div>
+
+                        <h3 class="redColor">Benefits of having RIC as a service partner:  </h3>
+                        <div style="text-align: justify">
+                            <ul class="bulletContent-manufacturing cstmzed-lst">
+                                <li>International best practice know-how </li>
+                                <li>Global reach with customers across 42 countries </li>
+                                <li>Process-driven, but with the right cultural sensitivity   </li>
+                                <li>Delivery innovation    </li>
+                                <li>Highest end user satisfaction  </li>
+                                <li>SLA driven Customer-centric approach </li>
+                                <li>Ease of Scalability with our “Right-Shoring” approach  </li>
+                                <li>Leadership team with several decades of experience in setting up and managing large global service delivery organisations   </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-5 " style="position: relative; background-color: #e7e7e7;">
+                        <div class="form-div-epicor hidden-sm hidden-xs " id="social-float">
+                            <table class="frm-tbl">
+                                <tr>
+                                    <td align="center">
+                                        <img style="margin-top: -18px;" src="/landing/images/pdf-circle.png" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="50px">
+                                        <p style="color: #6d6d6d; margin-left: 0px; font-size: 13px !important; margin-top: 10px;">
+                                          Download RheinBrücke’s Application Maintenance & Support services document.
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-addon">
+                                                    <img src="/Landing/Images/name.png" />
+                                                </div>
+                                                <input type="text" class="form-control txtFirstName" placeholder="Full Name" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-addon">
+                                                    <img src="/Landing/Images/phone.png" />
+                                                </div>
+                                                <input type="text" class="form-control txtPhone" placeholder="Phone" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-addon">
+                                                    <img src="/Landing/Images/mail.png" />
+                                                </div>
+                                                <input type="text" class="form-control txtEmail" placeholder="Work E-mail" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-addon">
+                                                    <img src="/Landing/Images/office.png" />
+                                                </div>
+                                                <input type="text" class="form-control txtCompany" placeholder="Company" />
+                                            </div>
+                                        </div>
+
+                                    </td>
+                                </tr>
+                              
+                                <tr>
+                                    <td>
+                                        <a href="#" id="btnpdf" class="btndownlaodBrochure">Download Brochure</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 6px;"><span class="showErrorMsg1" style="color: red"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="margin-top: 4px; margin-bottom: 18px; color: #676767; font-size: 11px !important;">
+                                            Your privacy is important to us.
+                                        We'll never share your information.
+                                        </p>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-md-12">
-                    <h3 class="redColor">Benefits of having RIC as a service partner:  </h3>
-                    <div style="text-align: justify">
-                        <ul class="bulletContent-manufacturing cstmzed-lst">
-                            <li>International best practice know-how </li>
-                            <li>Global reach with customers across 42 countries </li>
-                            <li>Process-driven, but with the right cultural sensitivity   </li>
-                            <li>Delivery innovation    </li>
-                            <li>Highest end user satisfaction  </li>
-                            <li>SLA driven Customer-centric approach </li>
-                            <li>Ease of Scalability with our “Right-Shoring” approach  </li>
-                            <li>Leadership team with several decades of experience in setting up and managing large global service delivery organisations   </li>
-                        </ul>
-                    </div>
-                </div>
                 <div class="col-md-12">
                     <%--<h1 class="redColor">DBA Support </h1>--%>
                     <p class="padd-bottom-10">
@@ -367,7 +456,9 @@
                                 <div class="clearfix"></div>
                                 <span class="showErrorMsg" style="color: red"></span>
                                 <div class="clearfix"></div>
-                                <div class="g-recaptcha" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn"></div>
+                                 <div class="col-md-6 col-sm-6 captchadiv" style="height: 55px; margin-top: 4px;">
+                    <div id="g_captcha" style="transform: scale(0.65); -webkit-transform: scale(0.65); transform-origin: 0 0; -webkit-transform-origin: 0 0;"></div>
+                </div>
 
 
                             </div>
@@ -436,7 +527,15 @@
     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
     </script>
     <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
-
+    <script type="text/javascript">
+        var onloadCallback = function () {
+            grecaptcha.render('g_captcha', {
+                'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
+            });            
+        };
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
+    </script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('#btnAMS').click(function () {
@@ -476,12 +575,12 @@
                 $("#valAMSemail").show();
                 response = 0;
             }
-            if (!(grecaptcha && grecaptcha.getResponse().length > 0)) {
+            if (!(g_captcha && g_captcha.getResponse().length > 0)) {
                 $('.showErrorMsg').text("Select captcha.");
-                response = 0;
+                return false;
             }
             else {
-                $('.showErrorMsg').text("");
+                $('.showErrorMsg1').text("");
             }
             //if (mobno == '') {
             //    $("#reqAMSMobno").show();
@@ -524,5 +623,87 @@
             $('#btnAMS').button('reset');
             clear();
         }
+    </script>
+    <script type="text/javascript">
+        function IsEmailValid(a) {
+            if ("" == a) return !0; var e = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            return e.test(a)
+        }
+        $(document).ready(function () {
+            var URI = window.location.pathname;
+            var lurl = URI.toLowerCase();
+           
+            var _rootUrl = $("#hdfRootUrl").val();
+            $('.btndownlaodBrochure').click(function () {
+                if ($('.txtFirstName').val() == '') {
+                    $('.showErrorMsg1').text("Ensure name!."); $('.txtFirstName').focus(); return false;
+                }
+                //if ($('.txtPhone').val() == '') {
+                //    $('.showErrorMsg').text("Ensure phone number!."); $('.txtPhone').focus(); return false;
+                //}
+                if ($('.txtPhone').val() != '' && $('.txtPhone').val().length < 10) {
+                    $('.showErrorMsg1').text("Ensure phone number!."); $('.txtPhone').focus(); return false;
+                }
+                if ($('.txtEmail').val() == '') {
+                    $('.showErrorMsg1').text("Ensure work email!."); $('.txtEmail').focus(); return false;
+                }
+                if ($('.txtEmail').val() != '') {
+                    if (!IsEmailValid($('.txtEmail').val())) {
+                        $('.showErrorMsg1').text("Ensure work email!."); $('.txtEmail').focus(); return false;
+                    }
+                }
+                if ($('.txtCompany').val() == '') {
+                    $('.showErrorMsg1').text("Ensure Company!."); $('.txtCompany').focus(); return false;
+                }
+                //if (!(g_captcha && g_captcha.getResponse().length > 0)) {
+                //    $('.showErrorMsg1').text("Select captcha.");
+                //    return false;
+                //}
+                //else {
+                //    $('.showErrorMsg1').text("");
+                //}
+                var email = $('.txtEmail').val();
+                var a = email.split('@');
+                if (a[1].toLowerCase() == 'gmail.com' || a[1].toLowerCase() == 'live.com' || a[1].toLowerCase() == 'live.in' || a[1].toLowerCase() == 'outlook.com' || a[1].toLowerCase() == 'yahoo.com' || a[1].toLowerCase() == 'zoho.com' || a[1].toLowerCase() == 'yandex.com' || a[1].toLowerCase() == 'aol.com' || a[1].toLowerCase() == 'mail.com' || a[1].toLowerCase() == 'inbox.com') {
+                    $('.showErrorMsg1').text("Please provide us with your work e-mail and not your personal e-mail!."); $('.txtEmail').focus(); return false;
+                }
+
+                var Data = {
+                    name: $('.txtFirstName').val(),
+                    email: $('.txtEmail').val(),
+                    phone: $('.txtPhone').val(),
+                    company: $('.txtCompany').val(),
+                    Services: "ADMS"
+                };
+
+                $.ajax({
+                    type: "POST",
+                    url: _rootUrl + "api/ContactUs/UpdateContactUs",
+                    data: JSON.stringify(Data),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        if (response == "success") {
+                            $('a#btnpdf').attr({
+                                target: '_blank',
+                                href: '/Assets2/BIRheincs-assets/pdf/TransformingHRMadeEasy-version3.pdf'
+                            });
+                            $('.showErrorMsg1').text('Mail has been sent successfully!');
+                            setTimeout(function () {
+                                $('.showErrorMsg1').text('');
+                                $('.txtFirstName,.txtEmail,.txtPhone,.txtCompany').val('');
+                            }, 5000);
+                        }
+                    },
+                    failure: function (response) {
+                        alert(response.d);
+                    }
+                });
+                
+            });
+
+            
+        });
+         
     </script>
 </asp:Content>
