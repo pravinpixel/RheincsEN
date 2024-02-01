@@ -84,7 +84,7 @@
                                     44139 Dortmund,<br />
                                     Ruhrallee 9,<br />
                                     Germany<br />
-                                    Tel: +49 (0) 221 650 60 608<br />
+                                    Tel: +49 231 292 95619<br />
                                     Fax: +49 (0) 221 650 60 500<br />
                                     Email: <a href="mailto:info@rheincs.com">info@rheincs.com</a>
                                 </p>
