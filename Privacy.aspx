@@ -881,9 +881,17 @@ You can change your privacy settings on Twitter in the Account Settings at<a tar
 
  
 <h3 class="redColor">Leadfeeder </h3>
+             <p>
+                FactorsAI</p>
 
-<p>Leadfeeder is a website visitor tracking software. The software shows RIC what prospects and customers do on our website so that we can increase our marketing ROI and generate more sales.</p>
-<p>Leadfeeder stores the data for 180 days. Please visit<a target="_blank" href="https://www.leadfeeder.com/"> https://www.leadfeeder.com/ </a>for more details about Leadfeeder.</p>
+<p>
+FactorsAI is a website visitor tracking software. The software shows RIC what prospects and customers do on our website so that we can increase our marketing ROI and generate more sales.
+
+FactorsAI stores the data for 180 days. Please visit https://www.factors.ai/
+             </p>
+
+<%--<p>Leadfeeder is a website visitor tracking software. The software shows RIC what prospects and customers do on our website so that we can increase our marketing ROI and generate more sales.</p>
+<p>Leadfeeder stores the data for 180 days. Please visit<a target="_blank" href="https://www.leadfeeder.com/"> https://www.leadfeeder.com/ </a>for more details about Leadfeeder.</p>--%>
 
 <h3 class="redColor">How to disable cookies</h3>
 <p>You may be able to configure your browser or our website, our application or our service to restrict the use of cookies or block all cookies as desired; however, disabling cookies may limit the full use of certain portions of our websites, applications or services. For more information about cookies and how to adjust your browser settings to delete, accept, or decline cookies, visit:<a target="_blank" href="http://www.allaboutcookies.org/ge/"> http://www.allaboutcookies.org/ge/ </a>.</p>

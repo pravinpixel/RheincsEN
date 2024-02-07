@@ -154,7 +154,7 @@ namespace RheinBrucke
             routes.MapPageRoute("microsoft-bi-solutions", "solutions/it-services-and-solutions/microsoft-technologies/microsoft-bi-solutions", "~/Solutions/ITServicesAndSolutions/MicrosoftTechnologies/InsightsAndAnalysis.aspx");
             routes.MapPageRoute("cloud-and-azure", "solutions/it-services-and-solutions/microsoft-technologies/cloud-and-azure", "~/Solutions/ITServicesAndSolutions/MicrosoftTechnologies/CloudAndAzure.aspx");
             routes.MapPageRoute("application-development", "solutions/it-services-and-solutions/microsoft-technologies/application-development-maintenance-services", "~/Solutions/ITServicesAndSolutions/MicrosoftTechnologies/ApplicationDevelopmentAndMaintenanceServices.aspx");
-            routes.MapPageRoute("application-maintenance-and-support", "solutions/it-services-and-solutions/microsoft-technologies/application-maintenance-and-support", "~/Solutions/ITServicesAndSolutions/ApplicationMaintenanceAndSupport.aspx");
+            routes.MapPageRoute("application-maintenance-and-support", "solutions/it-services-and-solutions/application-maintenance-and-support", "~/Solutions/ITServicesAndSolutions/ApplicationMaintenanceAndSupport.aspx");
             routes.MapPageRoute("testing-services", "solutions/it-services-and-solutions/microsoft-technologies/testing-services", "~/Solutions/ITServicesAndSolutions/TestingServices.aspx");
 
             routes.MapPageRoute("small-businesses", "solutions/focused-solutions/small-businesses", "~/Solutions/FocusedSolutions/SmallBusiness.aspx");

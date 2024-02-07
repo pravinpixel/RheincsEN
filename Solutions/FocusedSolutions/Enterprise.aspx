@@ -125,7 +125,7 @@
                         <div class="withIcons">
                             <ul>
                                 <li>
-                                    <i class="fa fa-fw fa-lightbulb-o bottom-icons"></i>&nbsp;<a href="../../solutions/it-services-and-solutions/microsoft-technologies/application-maintenance-and-support" class="ETenterprise  bulcolor text-left">Application Maintenance & <span class="padd-3">Support</span></a>
+                                    <i class="fa fa-fw fa-lightbulb-o bottom-icons"></i>&nbsp;<a href="../../solutions/it-services-and-solutions/application-maintenance-and-support" class="ETenterprise  bulcolor text-left">Application Maintenance & <span class="padd-3">Support</span></a>
                                 </li>
                             </ul>
                         </div>
