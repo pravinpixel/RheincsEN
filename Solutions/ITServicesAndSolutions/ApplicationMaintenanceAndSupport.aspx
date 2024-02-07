@@ -370,7 +370,8 @@
                               
                                 <tr>
                                     <td>
-                                        <a href="#" id="btnpdf" class="submit-button">Download Brochure</a>
+                                        <a href="#" id="btnpdf" class="submit-button">Submit</a>
+                                          <a target="_blank" href="../../Assets2/BIRheincs-assets/pdf/RIC-Brochure-ADMS.pdf" id="btndownload"  class="submit-button">Download Brochure</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -581,7 +582,7 @@
                 return false;
             }
             else {
-                $('.showErrorMsg1').text("");
+                $('.showErrorMsg').text("");
             }
             //if (mobno == '') {
             //    $("#reqAMSMobno").show();
@@ -626,16 +627,22 @@
         }
     </script>
     <script type="text/javascript">
+
+        $(function () {
+            $('#btnpdf').show();
+            $('#btndownload').hide();
+        });
         function IsEmailValid(a) {
             if ("" == a) return !0; var e = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             return e.test(a)
         }
         $(document).ready(function () {
+         
             var URI = window.location.pathname;
             var lurl = URI.toLowerCase();
            
             var _rootUrl = $("#hdfRootUrl").val();
-            $('.btndownlaodBrochure').click(function () {
+            $('#btnpdf').click(function () {
                 if ($('.txtFirstName').val() == '') {
                     $('.showErrorMsg1').text("Ensure name!."); $('.txtFirstName').focus(); return false;
                 }
@@ -685,15 +692,14 @@
                     dataType: "json",
                     success: function (response) {
                         if (response == "success") {
-                            $('a#btnpdf').attr({
-                                target: '_blank',
-                                href: '/Assets2/BIRheincs-assets/pdf/RIC-Brochure-ADMS.pdf'
-                            });
-                            $('a#btnpdf').find('a').trigger('click');
+                            $('#btnpdf').hide();
+                            $('#btndownload').show();
                             $('.showErrorMsg1').text('Mail has been sent successfully!');
                             setTimeout(function () {
                                 $('.showErrorMsg1').text('');
                                 $('.txtFirstName,.txtEmail,.txtPhone,.txtCompany').val('');
+                                $('#btnpdf').show();
+                                $('#btndownload').hide();
                             }, 5000);
                         }
                     },
