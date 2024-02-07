@@ -866,9 +866,9 @@ We retain your personal information for the entire duration of our business rela
 <h3 class="redColor">Twitter</h3>
 <p>These features are available through Twitter Inc., 1355 Market Street, Suite 900, San Francisco, CA 94103, USA. By using Twitter and the "Re-Tweet" function, the websites you visit are linked to your Twitter account and shared with other users. This data is also transmitted to Twitter. We point out that we as the provider of the pages are not aware of the content of the transmitted data and their use by Twitter. For more information, see the Twitter Privacy Policy at <a target="_blank" href="http://twitter.com/privacy">http://twitter.com/privacy</a>.<br />
 You can change your privacy settings on Twitter in the Account Settings at<a target="_blank" href="http://twitter.com/account/settings"> http://twitter.com/account/settings. </a> </p>
-<h3 class="redColor">Google +1</h3>
+<%--<h3 class="redColor">Google +1</h3>
 <p>Collect and share information: The Google +1 button allows you to post information worldwide. The Google + 1 button will help you and others to get personalized content from Google and our partners. Google stores both the information that you have + 1'd for a content and information about the page that you viewed when you clicked +1. Your + 1's may appear as clues along with your profile name and photo in Google services, such as in search results or in your Google profile, or elsewhere on websites and ads on the web. Google records information about your + 1 activity to improve Google's services to you and others. To use the Google + 1 button, you need a globally visible, public Google profile that must contain at least the name chosen for the profile. This name will be used in all Google services. In some cases, this name may also replace a different name you used when sharing content through your Google Account. The identity of your Google Profile may be displayed to users who know your email address or have other identifying information from you.</p>
-<p>Use of the information collected: In addition to the uses outlined above, the information you provide will be used in accordance with the applicable Google privacy policy. Google may publish summarized statistics about users' + 1 activity or share it with users and partners, such as publishers, advertisers, or affiliate websites.</p>
+<p>Use of the information collected: In addition to the uses outlined above, the information you provide will be used in accordance with the applicable Google privacy policy. Google may publish summarized statistics about users' + 1 activity or share it with users and partners, such as publishers, advertisers, or affiliate websites.</p>--%>
 <h3 class="redColor">LinkedIn</h3>
 <p>The provider is LinkedIn Corporation, 2029 Stierlin Court, Mountain View, CA 94043, United States. Each time you visit one of our pages that contains LinkedIn features, it will connect to LinkedIn servers. LinkedIn is informed that you have visited our website with your IP address. If you click LinkedIn's "Recommend Button" and are logged in to your LinkedIn account, LinkedIn will be able to associate your visit to our website with you and your user account. We point out that we as the provider of the pages have no knowledge of the content of the transmitted data and their use by LinkedIn.</p>
 <p>For more information, see the LinkedIn privacy statement at:<a target="_blank" href="https://www.linkedin.com/legal/privacy-policy"> https://www.linkedin.com/legal/privacy-policy </a>.</p>
@@ -880,10 +880,7 @@ You can change your privacy settings on Twitter in the Account Settings at<a tar
 <p>We use LeadSquared to design our landing pages. In our landing pages, we use form submissions to get the viewers name, contact number and work email address. All these details will be stored in  LeadSquared and will be used by Sales representatives for marketing activities. The sales representatives use this tool for updating any activity with respect to the lead. Please <a target="_blank" href="https://www.leadsquared.com/gdpr/dpa-for-signature/">click here</a> to view DPA for more information regarding LeadSquared. </p>
 
  
-<h3 class="redColor">Leadfeeder </h3>
-             <p>
-                FactorsAI</p>
-
+<h3 class="redColor">FactorsAI </h3>
 <p>
 FactorsAI is a website visitor tracking software. The software shows RIC what prospects and customers do on our website so that we can increase our marketing ROI and generate more sales.
 

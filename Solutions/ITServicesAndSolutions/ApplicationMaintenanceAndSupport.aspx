@@ -274,18 +274,19 @@
             </h1>
         </div>--%>
             <div class="row main-container">
-                <p class="padd-bottom-10">
-                    RheinBrücke IT Consulting (RIC) offers a range of services such as ERP solutions and services, Software Development, Maintenance and Support, Project Management, Cloud and IT Infrastructure Support, Helpdesk with Managed Services, Business Intelligence, Data Warehousing and Data Analytics, etc. With our robust ITIL based approach and extensive global experience, we provide a unique proposition in providing strategic value and best in class services to prospective clients.    
-                </p>
-                <p class="padd-bottom-10">
-                    RIC’s support services are cost effective and optimizes IT functions. Some of the industries that have benefited from RIC’s services are Manufacturing, Supply Chain, EPC, Oil and Gas, Pharma, Retail and Distribution Enterprises. Our range of services and solutions can vary from Program and Project Management to ERP Solutions aligned with SAP, Microsoft Dynamics and EPICOR, Microsoft Solutions, Cloud and Mobility to Open Source Technology Solutions. We are also premium partner of EPICOR and a Microsoft Gold Competency partner for multiple competencies including Software Development and Data Analytics.    
-                </p>
+               
                 <%--  <p class="padd-bottom-10">
                 RheinBrücke provides SLA based application support services based on the ITIL framework. Our support personnel and robust process allow for a smooth transition of application support in optimum timelines and serve to stabilize services during the initial stages of steady state. Timely intervention and a strict focus on continuous improvement along with preventive maintenance ensures the delight of business users.
             </p>
                 --%>
                 <div class="col-md-12">
-                    <div class="col-md-7">
+                    <div class="col-md-8">
+                         <p class="padd-bottom-10">
+                    RheinBrücke IT Consulting (RIC) offers a range of services such as ERP solutions and services, Software Development, Maintenance and Support, Project Management, Cloud and IT Infrastructure Support, Helpdesk with Managed Services, Business Intelligence, Data Warehousing and Data Analytics, etc. With our robust ITIL based approach and extensive global experience, we provide a unique proposition in providing strategic value and best in class services to prospective clients.    
+                </p>
+                <p class="padd-bottom-10">
+                    RIC’s support services are cost effective and optimizes IT functions. Some of the industries that have benefited from RIC’s services are Manufacturing, Supply Chain, EPC, Oil and Gas, Pharma, Retail and Distribution Enterprises. Our range of services and solutions can vary from Program and Project Management to ERP Solutions aligned with SAP, Microsoft Dynamics and EPICOR, Microsoft Solutions, Cloud and Mobility to Open Source Technology Solutions. We are also premium partner of EPICOR and a Microsoft Gold Competency partner for multiple competencies including Software Development and Data Analytics.    
+                </p>
                         <h3 class="redColor">Services Provided: </h3>
                         <div style="text-align: justify">
                             <ul class="bulletContent-manufacturing cstmzed-lst">
@@ -314,7 +315,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-5 " style="position: relative; background-color: #e7e7e7;">
+                    <div class="col-md-4 " style="position: relative; background-color: #e7e7e7;">
                         <div class="form-div-epicor hidden-sm hidden-xs " id="social-float">
                             <table class="frm-tbl">
                                 <tr>
@@ -369,7 +370,7 @@
                               
                                 <tr>
                                     <td>
-                                        <a href="#" id="btnpdf" class="btndownlaodBrochure">Download Brochure</a>
+                                        <a href="#" id="btnpdf" class="submit-button">Download Brochure</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -686,8 +687,9 @@
                         if (response == "success") {
                             $('a#btnpdf').attr({
                                 target: '_blank',
-                                href: '/Assets2/BIRheincs-assets/pdf/TransformingHRMadeEasy-version3.pdf'
+                                href: '/Assets2/BIRheincs-assets/pdf/RIC-Brochure-ADMS.pdf'
                             });
+                            $('a#btnpdf').find('a').trigger('click');
                             $('.showErrorMsg1').text('Mail has been sent successfully!');
                             setTimeout(function () {
                                 $('.showErrorMsg1').text('');
