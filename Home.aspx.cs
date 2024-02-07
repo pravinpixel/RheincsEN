@@ -64,7 +64,7 @@ namespace RheinBrucke
                             Console.WriteLine("country",country.Country.IsoCode.ToUpper());
                             if (country.Country.IsoCode.ToUpper() == "IN" || country.Country.IsoCode.ToUpper() == "US" || country.Country.IsoCode.ToUpper() == "AU" || country.Country.IsoCode.ToUpper() == "CA" || country.Country.IsoCode.ToUpper() == "IE" || country.Country.IsoCode.ToUpper() == "NZ" || country.Country.IsoCode.ToUpper() == "GB")
                             {
-                              //  Response.Redirect("https://www.rheincs.com/");
+                                Response.Redirect("https://www.rheincs.com/");
                             }
                             else
                             {

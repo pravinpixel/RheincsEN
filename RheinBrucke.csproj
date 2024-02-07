@@ -4828,7 +4828,7 @@
     <Content Include="analytics.ashx" />
     <Content Include="packages\AjaxControlToolkit.17.1.1.0\AjaxControlToolkit.17.1.1.0.nupkg" />
     <Content Include="packages\AjaxControlToolkit.17.1.1.0\Content\Web.config.transform" />
-    <Content Include="packages\AjaxMin.5.14.5506.26202\AjaxMin.5.14.5506.26202.nupkg" /> 
+    <Content Include="packages\AjaxMin.5.14.5506.26202\AjaxMin.5.14.5506.26202.nupkg" />
     <Content Include="packages\AjaxMin.5.14.5506.26202\tools\net35\AjaxMin.targets" />
     <Content Include="packages\AjaxMin.5.14.5506.26202\tools\net40\AjaxMin.targets" />
     <Content Include="packages\Antlr.3.5.0.2\Antlr.3.5.0.2.nupkg" />
