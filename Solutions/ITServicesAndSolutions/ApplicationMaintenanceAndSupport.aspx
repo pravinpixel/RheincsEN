@@ -371,7 +371,7 @@
                                 <tr>
                                     <td>
                                         <a href="#" id="btnpdf" class="submit-button">Submit</a>
-                                          <a target="_blank" href="../../Assets2/BIRheincs-assets/pdf/RIC-Brochure-ADMS.pdf" id="btndownload"  class="submit-button">Download Brochure</a>
+                                          <a target="_blank" href="../Assets2/BIRheincs-assets/pdf/RIC-Brochure-ADMS.pdf" id="btndownload"  class="submit-button">Download Brochure</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -694,13 +694,13 @@
                         if (response == "success") {
                             $('#btnpdf').hide();
                             $('#btndownload').show();
-                            $('.showErrorMsg1').text('Mail has been sent successfully!');
+                            $('.showErrorMsg1').text('Click the above button to download the brochure!');
                             setTimeout(function () {
                                 $('.showErrorMsg1').text('');
                                 $('.txtFirstName,.txtEmail,.txtPhone,.txtCompany').val('');
                                 $('#btnpdf').show();
                                 $('#btndownload').hide();
-                            }, 5000);
+                            }, 50000);
                         }
                     },
                     failure: function (response) {
