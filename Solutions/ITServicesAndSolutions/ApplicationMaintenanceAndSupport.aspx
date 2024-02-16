@@ -371,7 +371,7 @@
                                 <tr>
                                     <td>
                                         <a href="#" id="btnpdf" class="submit-button">Submit</a>
-                                          <a target="_blank" href="../Assets2/BIRheincs-assets/pdf/RIC-Brochure-ADMS.pdf" id="btndownload"  class="submit-button">Download Brochure</a>
+                                          <a target="_blank" href="https://www.rheincs.com/Assets2/BIRheincs-assets/pdf/RIC-Brochure-ADMS.pdf" id="btndownload"  class="submit-button">Download Brochure</a>
                                     </td>
                                 </tr>
                                 <tr>
