@@ -629,9 +629,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <li>
                         <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">IT Services & Solutions</span></a>
                         <ul>
-                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies" class="Level3-menu ETMenu"><span>Microsoft Technologies</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions" class="Level3-menu ETMenu"><span>Microsoft Technologies</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support" class="Level3-menu ETMenu"><span>Application Maintenance & Support</span></a></li>
-                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies/testing-services" class="Level3-menu ETMenu"><span>Testing Services</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services" class="Level3-menu ETMenu"><span>Testing Services</span></a></li>
                         </ul>
                     </li>
                     <li>
@@ -786,9 +786,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                 <ul>
                                                                     <li class="menuname-small menuheading">IT Services & Solutions</li>
                                                                     <br />
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions">Microsoft Technologies</a></li>
                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">Application Maintenance & Support</a></li>
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies/testing-services">Testing Services</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing Services</a></li>
                                                                 </ul>
                                                             </div>
                                                             <div class="col-md-3 col-md-3V2">

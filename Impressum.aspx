@@ -32,7 +32,7 @@ Mobil +49 173 88 16 765<br />
 Mail info@rheincs.com</p>
 
 
-    <p>HRB 80619</p>
+    <p>HR B 35850</p>
 <p>Umsatzsteueridentifikationsnummer DE293866616
 </p>
 </div>
