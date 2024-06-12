@@ -1,8 +1,7 @@
-﻿<%@ Page Title="Career Model | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="CareerModel.aspx.cs" Inherits="RheinBrucke.Careers.CareerModel" %>
-
+﻿<%@ Page Title="Forge Your Career Path with RheinBrücke: Discover Our Career Model" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="CareerModel.aspx.cs" Inherits="RheinBrucke.Careers.CareerModel" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="Career model, IT consulting careers, IT consulting jobs, technology consulting jobs, job openings, ERP Jobs, openings at rheinbrucke, careers"/>
-    <meta name="Description" content="We offer a talent-based, delivery-oriented career model and a personally fulfilling career wherein every individual has a direct impact on our success" />
+<meta name="keywords" content="Career model, IT consulting careers, IT consulting jobs, technology consulting jobs, job openings, ERP Jobs, openings at rheinbrucke, careers"/>
+<meta name="Description" content="Explore the opportunities and growth potential within RheinBrücke's career model. Elevate your career with us and unlock your full potential." />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

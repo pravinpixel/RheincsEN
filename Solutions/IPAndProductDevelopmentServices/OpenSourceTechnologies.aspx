@@ -1,8 +1,8 @@
-﻿<%@ Page Title="Technology Support for Product Start Ups | RIC" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="OpenSourceTechnologies.aspx.cs" Inherits="RheinBrucke.Solutions.IPAndProductDevelopmentServices.OpenSourceTechnologies" %>
+﻿<%@ Page Title="Embrace Innovation: Open Source Technologies Leading the Way" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="OpenSourceTechnologies.aspx.cs" Inherits="RheinBrucke.Solutions.IPAndProductDevelopmentServices.OpenSourceTechnologies" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="product startups independent testing, it support for startups, starting a small business, technology support, technology advisory and implementation, consulting for startups, technology support for smes, it outsourcing, startup consulting, it support for small business, MVP creation, mock up, prototyping" />
-    <meta name="Description" content="RheinBrücke provides services ranging from Conceptualization, Elaboration, MVP Creation, Development and Transition for your startup" />
+    <meta name="Description" content="Discover the power of open source technologies driving innovation across industries. Explore the possibilities and unlock new horizons with open source solutions." />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

@@ -1,9 +1,12 @@
-﻿<%@ Page Title="SAP | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="SAP.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.SAP" %>
+﻿<%@ Page Title="SAP Application Management and Support services by RheinBrücke Experts" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="SAP.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.SAP" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="epicor erp project implementation, erp demo, customized epicor erp solutions and implementation, epicor erp support, epicor erp strategy, epicor platinum partners in germany netherlands europe india dubai uae middle east, epicor erp integration, epicor erp consultants, outsourcing epicor erp management, epicor erp consulting companies and firm in germany netherlands europe india dubai uae middle east , epicor erp consultants in germany netherlands europe india dubai uae middle east, epicor erp implementation partners, RheinBrücke IT Consulting,Epicor ERP Implementation Partner in Middle East, UAE , Dubai,Epicor ERP Implementation Partner in Europe, Germany | Austria | Switzerland | Netherlands,ERP Systems like SAP, ERP Softwares like Epicor, Epicor is better alternative to SAP for SME's, ERP Comparison for SME's, Compare ERP Solutions like SAP Vs MS Dynamics Vs Oracle Cloud ERP Vs IFS Vs Infor Vs SAGE, SAP Vs Epicor ERP, Oracle Cloud ERP Vs Epicor ERP, Epicor ERP Vs Infor, Epicor ERP VS IFS, Epicor ERP Vs SAGE, Affordable and Best ERP's for SME's, Cloud based ERP's for SMB's, Best Cloud ERP in the Middle East, Epicor ERP Case Studies, Epicor ERP Whitepapers, Epicor ERP Factsheets, Epicor ERP Demo, ROI for an Epicor ERP Implementation, Epicor Production Management Software, Epicor Supply Chain Management Solution, Epicor Planning and Scheduling Solution, Epicor Product Data Management System, Epicor Financial Management Solution, Epicor Service Management Software, Epicor Human Capital Management Solution, Epicor Customer Relationship Management System, Epicor Sales Management Software, Best Cloud ERP Provider in Middel East, Why Epicor?, Why RheinBrücke?"/>
-    <meta name="Description" content="RheinBrücke EPICOR platinum partner. Our services includes EPICOR product development support, implementation and support services. Contact us for the ERP Demo" />
+    <meta name="Description" content="RheinBrücke experts provide SAP application support and management. Effortless solutions for your business." />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<style type="text/css">
+h2{font-weight: 600;}
+</style>
      <div class="container" id="container-top">
          <div class="row">
              <ul class="breadcrumb bread hidden-xs hidden-sm">
@@ -22,7 +25,7 @@
             </div>
 
 <div class="wrappernewbullet main-container">
-            <h1 class="redColor">SAP</h1>
+            <h1 class="redColor">SAP Application Management and Support services by RheinBrücke Experts</h1>
 <p>Implementation of an ERP solution to manage the various processes within an organisation and provide a real-time view of the business is becoming widespread and is no longer restricted to very large enterprises. Every aspect of an ERP strategy from product selection to implementation to ongoing support will have a very significant business impact and needs to be managed very carefully. Enterprises distinguish an ERP implementation based on:</p><br />   
 
     <div class="col-lg-12">
@@ -79,7 +82,7 @@
 
 
 <div class="wrappernew main-container">
-            <h4 class="redColor head-font">SAP Program and Project Management</h4>
+            <h3 class="redColor head-font">SAP Program and Project Management</h3>
     </div>
 <%--<div class="mainContent-normal">--%>
 <ul>
@@ -156,7 +159,7 @@
 <p class="bulletContent-business ">Our experience with optimizing budget, time, resources and quality control protocols across global, complex, multi-phase SAP implementations ensures that your SAP program goals are met on-time and on-budget. </p>
          </div>
 <div class="wrappernew main-container">
-            <h4 class="redColor head-font">SAP Value Engineering</h4><br />
+            <h3 class="redColor head-font">SAP Value Engineering</h3><br />
 <p>RheinBrücke offers SAP Value Engineering to our clients, with the primary goal of process improvement. We prescribe a structured methodology and toolset to build your SAP business case and deployment strategy, and to identify process improvement opportunities and best practices. As the end result our clients benefit from accelerated ROI, lowered TCO and a dramatic improvement in the performance of your SAP solution.</p>
    
 <ul>
@@ -250,7 +253,7 @@
 
    
 <div class="wrappernew main-container">
-            <h4 class="redColor head-font">ABAP Development Support</h4>
+            <h3 class="redColor head-font">ABAP Development Support</h3>
     </div>
     <div class="wrappernew main-container">
 <p>RheinBrücke is the preferred partner for organisations when it comes to cost effective SAP customization and extensions. It’s our blend of vast business process experience and deep rooted SAP expertise that is leveraged with our flexible onsite, offsite, and offshore delivery model. In order to meet our clients’ specific expectations, we prepare dedicated, non-standard solutions based on SAP tools. Within development works, we prepare SAP solutions to enhance the standard functionality of the SAP system, as well as preparing new applications that are specific for the client’s industry requirements. Based on our extensive SAP expertise and to satisfy client specific needs, we provide unique, non-standard solutions based on SAP tools. We develop new applications as per client industry requirements and progressive solutions to boost the standard functionality of the SAP system. RheinBrücke implements development projects founded on a sound methodology that includes:</p>
@@ -309,7 +312,7 @@
  <!--text on bg-->
         <div class="row paddingGreycontainer bg-img15">
             <div class="boldWhiteheading padding-epicor">
-                        <h4 class="management-font"> THE TECHNICAL SCOPE OF OUR ABAP DEVELOPMENT SERVICES INCLUDES:</h4>
+                        <h2 class="management-font"> THE TECHNICAL SCOPE OF OUR ABAP DEVELOPMENT SERVICES INCLUDES:</h2>
                     </div>
 
                     <div class="row col-md-12 col-sm-12 padding sap-margin">
@@ -492,7 +495,7 @@
         <!--Eof text on bg-->
 
 <div class="wrappernew main-container">
-            <h4 class="redColor head-font">Basis Management Support Services </h4>
+            <h3 class="redColor head-font">Basis Management Support Services </h3>
     </div>
             <div class="wrappernew main-container">
 <p>RheinBrücke collaborates with you to determine the appropriate SAP management partnership. Our approach varies from a full SAP Basis Management where clients may not require SAP technical staff, to a blended methodology where on-shore and off-shore teams with defined responsibilities manage tasks. Our SAP experts could supplement your in-house SAP team, helping you to focus on your core business. A sophisticated and highly functional system like SAP requires expert management, which we provide, to ensure continuous and smooth business operations.</p>
@@ -501,7 +504,7 @@
       <!--text on bg-->
         <div class="row paddingGreycontainer bg-img16">
             <div class="boldWhiteheading padding-epicor">
-                        <h4 class="management-font"> PROVIDE THE FOLLOWING SERVICES:</h4>
+                        <h2 class="management-font"> PROVIDE THE FOLLOWING SERVICES:</h2>
                     </div>
 
                     <div class="row col-md-12 padding col-sm-12  sap-margin">

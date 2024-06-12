@@ -18,7 +18,7 @@
         <!--banner-->
         <div class="row">
             <div class="bg-img2 img-responsive">
-                <h1 class="rhein-banner-heading-h2 inner-banner-text1 img-bottom">RheinBrücke</h1>
+                <h1 class="rhein-banner-heading-h2 inner-banner-text1 img-bottom">RheinBrücke : Leadership</h1>
                 <p class="rhein-banner-heading-p inner-banner-text1 ">The technical expertise and passion of our leadership team enables you to achieve tangible organizational goals.</p>
             </div>
         </div>

@@ -108,7 +108,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
             <div class="row visible-xs visible-sm">
 
                 <div class="col-md-12">
-                    <img class="img-responsive" src="/Landing/Images/Epicor-2 banner.jpg" />
+                    <img class="img-responsive" src="/Landing/Images/Epicor-2 banner.jpg" alt="Leverage the Benefits of Epicor 10 banner" />
                 </div>
             </div>
             <div class="row">
@@ -116,22 +116,23 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                     <div style="padding-left: 15px; padding-top: 10px;" class="hidden-xs hidden-sm">
                         <div class="row">
                             <div class="col-md-3">
-                                <img class="img-responsive" src="/Landing/Images/upgrade-hand.png" />
+                                <img class="img-responsive" src="/Landing/Images/upgrade-hand.png" alt="Leverage the Benefits of Epicor" />
                             </div>
                             <div class="col-md-9">
-                                <h2 style="color: #fff; line-height: 37px !important;">Leverage the Benefits of Epicor 10
+                                <h1 style="color: #fff; margin-top: 0px;">Maximize Your Business Potential with Epicor 10</h1>
+                                <h2 style="color: #fff; line-height: 37px !important; margin-top: 10px;">Leverage the Benefits of Epicor 10
                                 </h2>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <img class="img-responsive" src="/Landing/Images/epicorbanner-icon.png" />
+                                <img class="img-responsive" src="/Landing/Images/epicorbanner-icon.png" alt="" />
                             </div>
                         </div>
                         <%--<table cellpadding="0" cellspacing="0">
                             <tr>
                                 <td>
-                                    <img class="img-responsive" src="/Landing/Images/upgrade-hand.png" /></td>
+                                    <img class="img-responsive" src="/Landing/Images/upgrade-hand.png" alt="" /></td>
                                 <td style="display: list-item !important;flex:inherit;">
                                     <h1>Streamline and<br />
                                         Manage Payroll (EPIC PAY)
@@ -140,7 +141,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                                 </td>
                             </tr>
                         </table>--%>
-                        <%--<img class="img-responsive ban-img-inner" src="/Landing/Images/Epicor-2-inner.jpg" />--%>
+                        <%--<img class="img-responsive ban-img-inner" src="/Landing/Images/Epicor-2-inner.jpg" alt="" />--%>
                     </div>
                     <%-- <div class="visible-xs visible-sm">
                         <br />
@@ -153,7 +154,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                         <table class="frm-tbl-epicor">
                             <tr>
                                 <td align="center">
-                                    <img style="margin-top: -35px;" src="/Landing/Images/pdf-circle.png" />
+                                    <img style="margin-top: -35px;" src="/Landing/Images/pdf-circle.png" alt="PDF Circle" />
                                 </td>
                             </tr>
                             <tr>
@@ -169,7 +170,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                                     <div class="form-group">
                                         <div class="input-group">
                                             <div class="input-group-addon">
-                                                <img src="/Landing/Images/name.png" />
+                                                <img src="/Landing/Images/name.png" alt="Avatar Logo" />
                                             </div>
                                             <input type="text" class="form-control" id="txtFirstName" placeholder="Full name" />
                                         </div>
@@ -178,7 +179,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                                     <div class="form-group">
                                         <div class="input-group">
                                             <div class="input-group-addon">
-                                                <img src="/Landing/Images/phone.png" />
+                                                <img src="/Landing/Images/phone.png" alt="Phone Logo" />
                                             </div>
                                             <input type="text" class="form-control" id="txtPhone" placeholder="Phone" />
                                         </div>
@@ -186,7 +187,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                                     <div class="form-group">
                                         <div class="input-group">
                                             <div class="input-group-addon">
-                                                <img src="/Landing/Images/mail.png" />
+                                                <img src="/Landing/Images/mail.png" alt="Mail Logo" />
                                             </div>
                                             <input type="text" class="form-control" id="txtEmail" placeholder="Work E-mail" />
                                         </div>
@@ -245,7 +246,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                 </div>
                 <div align="center" class="col-md-5">
                     <!--<br /><br /><br /><br /><br /><br />
-                    <img class="img-responsive" src="img/grow-biz-epicor.png" />-->
+                    <img class="img-responsive" src="img/grow-biz-epicor.png" alt="" />-->
                 </div>
             </div>
             <!--Separator-->
@@ -266,7 +267,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                         <table class="info-tbl" style="align-items: center !important;" align="center" cellpadding="0" cellspacing="0">
                             <tr>
                                 <td align="center" style="">
-                                    <img class="hvr-grow-rotate" src="/Landing/Images/why-upgrade-circle.png" />
+                                    <img class="hvr-grow-rotate" src="/Landing/Images/why-upgrade-circle.png" alt="Advantages Epicor ERP 10" />
                                 </td>
                             </tr>
                             <tr>
@@ -290,7 +291,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                                                         <table class="inf-icon-tbl" cellpadding="0" cellspacing="0">
                                                             <tr>
                                                                 <td>
-                                                                    <img src="/Landing/Images/ic-1.png" />
+                                                                    <img src="/Landing/Images/ic-1.png" alt="Pre-Packaged Components" />
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -307,21 +308,21 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                                                 </div>
                                             </td>
                                             <td class="hidden-sm" align="center" style="width: 80px;">
-                                                <img src="/Landing/Images/black-line.png" />
+                                                <img src="/Landing/Images/black-line.png" alt="Black Line" />
                                             </td>
                                             <td class="visible-sm" align="center" style="width: 80px;">
-                                                <img src="/Landing/Images/black-line-small.png" />
+                                                <img src="/Landing/Images/black-line-small.png" alt="Black Line Small" />
                                             </td>
                                             <td align="center" valign="middle" style="width: 195px;">
 
-                                                <img src="/Landing/Images/icons-top.png" />
+                                                <img src="/Landing/Images/icons-top.png" alt="" />
 
                                             </td>
                                             <td class="hidden-sm" align="center" style="width: 80px;">
-                                                <img src="/Landing/Images/black-line.png" />
+                                                <img src="/Landing/Images/black-line.png" alt="" />
                                             </td>
                                             <td class="visible-sm" align="center" style="width: 80px;">
-                                                <img src="/Landing/Images/black-line-small.png" />
+                                                <img src="/Landing/Images/black-line-small.png" alt="" />
                                             </td>
                                             <td style="width: 195px;">
                                                 <div align="center" class="box-div hvr-round-corners">
@@ -329,7 +330,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                                                         <table class="inf-icon-tbl" cellpadding="0" cellspacing="0">
                                                             <tr>
                                                                 <td>
-                                                                    <img src="/Landing/Images/ic-2.png" />
+                                                                    <img src="/Landing/Images/ic-2.png"  alt="Embedded Training Programs"/>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -362,7 +363,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                                                         <table class="inf-icon-tbl" cellpadding="0" cellspacing="0">
                                                             <tr>
                                                                 <td>
-                                                                    <img src="Landing/Images/ic-3.png" />
+                                                                    <img src="Landing/Images/ic-3.png" alt="Extended Support" />
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -379,20 +380,20 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                                                 </div>
                                             </td>
                                             <td class="hidden-sm" align="center" style="width: 80px;">
-                                                <img src="/Landing/Images/black-line.png" />
+                                                <img src="/Landing/Images/black-line.png" alt="" />
                                             </td>
                                             <td class="visible-sm" align="center" style="width: 80px;">
-                                                <img src="/Landing/Images/black-line-small.png" />
+                                                <img src="/Landing/Images/black-line-small.png" alt="" />
                                             </td>
 
                                             <td align="center" valign="middle" style="width: 195px;">
-                                                <img src="/Landing/Images/icons-bottom.png" />
+                                                <img src="/Landing/Images/icons-bottom.png" alt="" />
                                             </td>
                                             <td class="hidden-sm" align="center" style="width: 80px;">
-                                                <img src="/Landing/Images/black-line.png" />
+                                                <img src="/Landing/Images/black-line.png" alt="" />
                                             </td>
                                             <td class="visible-sm" align="center" style="width: 80px;">
-                                                <img src="/Landing/Images/black-line-small.png" />
+                                                <img src="/Landing/Images/black-line-small.png" alt="" />
                                             </td>
 
                                             <td style="width: 195px;">
@@ -401,7 +402,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                                                         <table class="inf-icon-tbl" cellpadding="0" cellspacing="0">
                                                             <tr>
                                                                 <td>
-                                                                    <img src="/Landing/Images/ic-4.png" />
+                                                                    <img src="/Landing/Images/ic-4.png" alt="Mobility Components" />
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -448,12 +449,12 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                     </div>
                     <div class="col-md-12 visible-xs">
                         <div aling="center" class="xs-div-info">
-                            <img src="/Landing/Images/why-upgrade-circle.png" />
+                            <img src="/Landing/Images/why-upgrade-circle.png" alt="" />
                         </div>
                         <div aling="center" class="xs-div-info">
                             <div align="center" class="box-div-s">
                                 <br />
-                                <img src="/Landing/Images/ic-1.png" /><br />
+                                <img src="/Landing/Images/ic-1.png" alt="Pre-Packaged Components" /><br />
                                 <a href="#PrepackageComp">Pre-packaged components
                                 </a>
                             </div>
@@ -461,7 +462,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                         <div aling="center" class="xs-div-info">
                             <div align="center" class="box-div-s">
                                 <br />
-                                <img src="/Landing/Images/ic-2.png" />
+                                <img src="/Landing/Images/ic-2.png"  alt="Embedded Training Programs"/>
                                 <a href="#Embedded">Embedded Training Programs
                                 </a>
                             </div>
@@ -469,7 +470,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                         <div aling="center" class="xs-div-info">
                             <div align="center" class="box-div-s">
                                 <br />
-                                <img src="/Landing/Images/ic-3.png" />
+                                <img src="/Landing/Images/ic-3.png" alt="Extended Support" />
                                 <a href="#Extended">Extended Support
                                 </a>
                             </div>
@@ -477,7 +478,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
                         <div aling="center" class="xs-div-info">
                             <div align="center" class="box-div-s">
                                 <br />
-                                <img src="/Landing/Images/ic-4.png" />
+                                <img src="/Landing/Images/ic-4.png" alt="Mobility Components" />
                                 <a href="#Mobility">Mobility Components
                                 </a>
                             </div>
@@ -496,7 +497,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
             <!--Separator-->
             <div class="row">
                 <div align="center" class="col-md-12">
-                    <!--<img class="img-responsive" src="img/epicpay-circle.jpg" />-->
+                    <!--<img class="img-responsive" src="img/epicpay-circle.jpg" alt="Best Payroll Management Software" />-->
                 </div>
             </div>
             <%--  <div class="row">
@@ -525,14 +526,14 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
             <div id="PrepackageComp" class="row">
                 <div class="col-md-6">
                     <h4 class="icons-heading" style="color: #651a1a">
-                        <img src="/Landing/Images/ic-1.png" />Pre-packaged components</h4>
+                        <img src="/Landing/Images/ic-1.png"  alt="Pre-Packaged Components"/>Pre-packaged components</h4>
                     <p>
                         From the rich experience of more than 200 person years in Epicor ERP, our consultants have derived pre-canned reports, dashboards and fully automated workflow engines. These components are exceptional fit for business akin with discrete manufacturing.
                     </p>
                 </div>
                 <div id="Embedded" class="col-md-6">
                     <h4 class="icons-heading" style="color: #651a1a">
-                        <img src="/Landing/Images/ic-2.png" />Embedded Training Programs</h4>
+                        <img src="/Landing/Images/ic-2.png" alt="Embedded Training Programs" />Embedded Training Programs</h4>
                     <p>
                         RheinBrücke has well-structured partner enablement and client enablement training programs. We have been providing several partner enablement program across Europe and GCC countries for various Epicor partners and customers successfully. These training programs will provide self-sufficiency to end users and system administrators
                     </p>
@@ -541,7 +542,7 @@ src="https://www.facebook.com/tr?id=1067340079979764&ev=PageView&noscript=1"
             <div id="Extended" class="row">
                 <div class="col-md-6">
                     <h4 class="icons-heading" style="color: #651a1a">
-                        <img src="Landing/Images/ic-3.png" />Extended Support</h4>
+                        <img src="Landing/Images/ic-3.png" alt="Extended Support" />Extended Support</h4>
                     <p>
                         RheinBrücke provides a comprehensive help desk support that covers L1 and L1 for Epicor ERP Version10. This help desk enable customers to reach out to our competent support professional.  We provide multi-channel approach and integrated tools & systems such as tele-phone, email, portal, chat, social media etc.. to  reach our support team.
 We have a very clear SLA and OLA driven systems in place to provide world-class support to end customers.,
@@ -549,7 +550,7 @@ We have a very clear SLA and OLA driven systems in place to provide world-class 
                 </div>
                 <div id="Mobility" class="col-md-6">
                     <h4 class="icons-heading" style="color: #651a1a">
-                        <img src="/Landing/Images/ic-4.png" />Mobility Components</h4>
+                        <img src="/Landing/Images/ic-4.png" alt="Mobility Components" />Mobility Components</h4>
                     <p>
                         We at RheinBrücke, believe innovation using intersection of cutting edge technology and business. As result, our product development team has evolved specialized mobile based tools for oil field services extension, time & expense management systems etc..  
                     </p>

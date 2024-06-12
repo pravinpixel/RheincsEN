@@ -1,8 +1,8 @@
-﻿<%@ Page Title="Current Openings | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="CurrentOpenings.aspx.cs" Inherits="RheinBrucke.Careers.CurrentOpenings.CurrentOpenings" %>
+﻿<%@ Page Title="Discover Opportunities: Current Openings at RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="CurrentOpenings.aspx.cs" Inherits="RheinBrucke.Careers.CurrentOpenings.CurrentOpenings" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="IT consulting careers, IT consulting jobs, technology consulting jobs, job openings, ERP Jobs, Epicor Jobs, SAP Jobs" />
-    <meta name="Description" content="We offer global employment on a large variety of expertise. We operate in 4 continents and constantly look for new talent to strengthen our teams." />
+    <meta name="Description" content="Explore current job openings at RheinBrücke IT Consulting and take the next step towards an exciting career in IT" />
     <%--<asp:ScriptManager ID="ScriptManager1" runat="server" />--%>
 </asp:Content>
 
@@ -133,6 +133,8 @@
                 <li><a href="#" class="redColor">Careers<span> » </span></a></li>
                 <li class="redColor">Current Openings</li>
             </ul>
+			
+			<h1 class="text-center" style="padding-bottom: 20px;">RheinBrücke's current openings</h1>
         </div>
         <div class="row">
             <div class="bg-currentopenings img-responsive ">

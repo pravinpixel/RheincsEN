@@ -68,7 +68,7 @@ namespace RheinBrucke
                             }
                             else
                             {
-                                Response.Redirect("https://de.rheincs.com/");
+                              //  Response.Redirect("https://de.rheincs.com/");
                             }
                         }
                     }

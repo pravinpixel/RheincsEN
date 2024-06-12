@@ -1,8 +1,7 @@
-﻿<%@ Page Title="News & Events | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="News-and-events.aspx.cs" Inherits="RheinBrucke.NewsAndEvents.News_and_events" %>
-
+﻿<%@ Page Title="Your ERP Implementation Partner: Stay Updated with News, Events & Our History" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="News-and-events.aspx.cs" Inherits="RheinBrucke.NewsAndEvents.News_and_events" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="RheinBrücke Newsroom, Newsroom, RheinBrücke News, RheinBrücke Events, Events, RheinBrücke News and Events, News and Events" />
-    <meta name="Description" content="The latest in news and events from RheinBrücke, giving you insights on the recent developments in our organization" />
+<meta name="keywords" content="RheinBrücke Newsroom, Newsroom, RheinBrücke News, RheinBrücke Events, Events, RheinBrücke News and Events, News and Events" />
+<meta name="Description" content="Discover the latest news and events from your trusted ERP implementation partner. Explore our rich history and learn why businesses choose us for seamless solutions" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

@@ -1,8 +1,7 @@
-﻿<%@ Page Title="Webinar Recordings | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="webinars-recordings.aspx.cs" Inherits="RheinBrucke.Resources.webinars.webinars_recordings" %>
-
+﻿<%@ Page Title="Expert ERP Implementation Partner Webinar Recordings | RheinBrücke" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="webinars-recordings.aspx.cs" Inherits="RheinBrucke.Resources.webinars.webinars_recordings" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="" />
-    <meta name="Description" content="" />
+<meta name="keywords" content="" />
+<meta name="Description" content="Access expert ERP webinar recordings. Learn strategies, best practices, & insights to optimize your system & drive growth. Explore now!" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style>
@@ -46,6 +45,7 @@
             </ul>
         </div>
         <div class="row main-container marg20">
+            <h1>Explore Our Webinar Archives</h1>
             <h5 class="deco-header">
                 <span class="redBottom">Webinar Recordings</span>
                 

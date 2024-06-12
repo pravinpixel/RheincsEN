@@ -18,12 +18,12 @@ namespace RheinBrucke.Data
         public string Name { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
-        public string Companyname { get; set; }
         public string Message { get; set; }
         public Nullable<int> EmailTypeID { get; set; }
         public Nullable<System.DateTime> CreatedOn { get; set; }
         public string ContactUsUrl { get; set; }
         public string Services { get; set; }
+        public string Companyname { get; set; }
     
         public virtual EmailType EmailType { get; set; }
         public virtual EmailType EmailType1 { get; set; }

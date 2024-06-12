@@ -1,8 +1,7 @@
-﻿<%@ Page Title="Webinars | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="webinars-list.aspx.cs" Inherits="RheinBrucke.Resources.webinars.webinars_list" %>
-
+﻿<%@ Page Title="Explore Cloud ERP Solutions | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="webinars-list.aspx.cs" Inherits="RheinBrucke.Resources.webinars.webinars_list" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="Webinars" />
-    <meta name="Description" content="RheinBrücke’s Webinars" />
+<meta name="keywords" content="Webinars" />
+<meta name="Description" content="Unlock the power of cloud ERP solutions with RheinBrücke IT Consulting. Find the perfect solution for your business needs and stay updated with our webinar calendar." />
     <link rel="stylesheet" href="style-webinar.css" />
      <link href="../../Assets/Iscala/css/multiselect.css" rel="stylesheet" />
     <style>

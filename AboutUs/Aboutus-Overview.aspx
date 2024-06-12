@@ -5,6 +5,9 @@
     <meta name="Description" content="We are a European company offering IT consulting, SAP, Microsoft SharePoint, EPICOR technology & outsourcing solutions with a strong focus on the SME Market" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<style type="text/css">
+.pad-bot-10{padding-bottom: 10px;}
+</style>
      <div class="container" id="container-top">
          <div class="row">
              <ul class="breadcrumb bread hidden-xs hidden-sm">
@@ -23,8 +26,8 @@
               
       
                 <div class="wrappernew main-container">
-                    <h1 class="redColor">About Us</h1>
-
+                    <h1 class="redColor">About RheinBrücke</h1>
+					<h2 class="pad-bot-10">RheinBrücke : ERP Implementation Partner Overview</h2>
                     <p>The river Rhine is one of longest in Europe flowing through six countries: Switzerland, Principality of Liechtenstein, Austria, Germany, France and the Netherlands before flowing into the North Sea at Rotterdam. It runs over 1,232 km from its source in the Swiss Alps, in Switzerland.</p>
 
                     <p>RheinBrücke – our name and our company logo reflects our vision, passion and our aspiration to be a respected player in the “SME Market”, and to be the “Go-To-Company” for IT & ERP solutions in Continental Europe. The Six dots represent the six countries that the river Rhine flows through. The Seventh dot represents the Bridge: Connectivity, a means to overcome barriers; a solid structure.</p>

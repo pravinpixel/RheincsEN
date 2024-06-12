@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"  xml:lang="en">
 <head runat="server">
     <title></title>
      <script src="../Assets/js/jquery-2.1.1.min.js"></script>

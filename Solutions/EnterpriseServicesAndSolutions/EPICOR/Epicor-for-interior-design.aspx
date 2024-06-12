@@ -1,6 +1,6 @@
-﻿<%@ Page Title="Best ERP software for Interior design industry in EMEA region (know more) | Top ERP systems for Fit out and furniture company | ERP Demo | Epicor ERP Implementation partners in Middle East, UAE, Dubai | Epicor ERP Project Implementation vendors in Europe, Germany, Netherlands, Austria, Switzerland | RheinBrücke IT Consulting | ERP case studies for interior design companies like Bond Interiors and Gemaco Interiors"  MasterPageFile="~/RheincsLanding.Master"  Language="C#"  CodeBehind="epicor-for-interior-design.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.Epicor_for_interior_design" %>
+﻿<%@ Page Title="Best interior design project management software | RheinBrücke"  MasterPageFile="~/RheincsLanding.Master"  Language="C#"  CodeBehind="epicor-for-interior-design.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.Epicor_for_interior_design" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
- <meta name="description" content="Epicor ERP for Interior Design is a specialized software solution for Interior Design industry. It helps them manage purchase orders, invoicing, planning & scheduling, estimations and client interactions. Click here to know more about Modules like Project Management for Interior Design. RheinBrücke IT consulting is the largest Epicor partner in EMEA in Epicor ERP implementation. Contact us for the ERP Demo"/>
+ <meta name="description" content="Streamline design projects using RheinBrücke’s interior software. Effortless solutions for creative professionals."/>
 <meta name="keywords" content="ERP for interior design, Project Management software for interior designers, Interior design Solutions, best interior design software companies, ERP case studies for interior design companies like Bond Interiors and Gemaco Interiors, erp demo, epicor erp project implementation, customized epicor erp solutions and implementation, epicor erp support, epicor erp strategy, epicor platinum partners in germany netherlands europe india dubai uae middle east, epicor erp integration, epicor erp consultants, outsourcing epicor erp management, epicor erp consulting companies and firm in germany netherlands europe india dubai uae middle east , epicor erp consultants in germany netherlands europe india dubai uae middle east, epicor erp implementation partners."/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
@@ -15,17 +15,14 @@
             padding-left:0px !important;
             padding-bottom: 15px;
         }
-        .padd-left-50
-        {
+        .padd-left-50{
             padding-left:70px;
         }
-        .height-class
-        {
+        .height-class{
             margin-bottom:0px !important;
             margin-top: 25px;
         }
-        .redBottomInterior
-        {
+        .redBottomInterior{
     border-bottom: 2px solid transparent;
     padding-bottom: 28px;
     margin-bottom: -1px;
@@ -44,6 +41,7 @@
 }
      
         h2 {
+		font-weight: 600;
     font-size: 27px;
 }
         .write-to-us-input
@@ -211,7 +209,7 @@
                     <div class="item active">
                         <img src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-Design-Banner-1.jpg" alt="Epicor for Interior Design" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">                                
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">EPICOR FOR INTERIOR DESIGN</h1><span class="rhein-banner-heading-black">Furnish your business with an Epicor ERP solution tailored for your Interior Design company
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">EPICOR FOR INTERIOR DESIGN</div><span class="rhein-banner-heading-black">Furnish your business with an Epicor ERP solution tailored for your Interior Design company
 Learn more about our solution</span></div>                               
                             </div>
                             <br />
@@ -222,7 +220,7 @@ Learn more about our solution</span></div>
                     <div class="item">
                         <img src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-Design-Banner-2.jpg" alt="Epicor for Interior Design" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">                               
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">EPICOR FOR INTERIOR DESIGN</h1><span class="rhein-banner-heading-black">An ERP solution that gives you full control and visibility over your design projects</span></div>                                
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">EPICOR FOR INTERIOR DESIGN</div><span class="rhein-banner-heading-black">An ERP solution that gives you full control and visibility over your design projects</span></div>                                
                             </div>
                             <br /> 
                             <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
@@ -232,7 +230,7 @@ Learn more about our solution</span></div>
                     <div class="item">
                         <img src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-Design-Banner-3.jpg" alt="Epicor for Interior Design" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">                               
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">EPICOR FOR INTERIOR DESIGN</h1><span class="rhein-banner-heading-black">Our ERP solution's objective is to continue building your business performance through optimization of resources</span></div>                                
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">EPICOR FOR INTERIOR DESIGN</div><span class="rhein-banner-heading-black">Our ERP solution's objective is to continue building your business performance through optimization of resources</span></div>                                
                             </div>
                             <br /> 
                             <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
@@ -243,7 +241,7 @@ Learn more about our solution</span></div>
                         <img src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-Design-Banner-4.jpg" alt="Epicor for Interior Design" class="img-responsive" />
                          <div class="container">
                             <div class="carousel-caption rhein-caption-text">                              
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">EPICOR FOR INTERIOR DESIGN</h1><span class="rhein-banner-heading-black">While you focus on creating distinctive spaces, let our ERP create inefficiency in your business</span></div>
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">EPICOR FOR INTERIOR DESIGN</div><span class="rhein-banner-heading-black">While you focus on creating distinctive spaces, let our ERP create inefficiency in your business</span></div>
                                </div>
                              <br />
                             <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
@@ -253,7 +251,7 @@ Learn more about our solution</span></div>
                      <div class="item">
                        <img src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-Design-Banner-5.jpg" alt="Epicor for Interior Design" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">                               
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">EPICOR FOR INTERIOR DESIGN</h1><span class="rhein-banner-heading-black">Our ERP technology gives your vintage classic look a modern touch. Learn more about our solution</span></div>                                
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">EPICOR FOR INTERIOR DESIGN</div><span class="rhein-banner-heading-black">Our ERP technology gives your vintage classic look a modern touch. Learn more about our solution</span></div>                                
                             </div>
                            <br />
                             <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
@@ -271,10 +269,14 @@ Learn more about our solution</span></div>
     <!--Overview and form div-->
      <div class="row">
          <!--overview--><div class="clearfix">&nbsp;</div>
+		 
          <div class="col-md-12 contentwithpadding">
-             
+             <div class="col-md-12 padd-left-0">
+				<h1>Best Interior Design Project Management Software</h1>
+			 </div>
              <div class="col-md-6 padd-left-0">
-               <div class="col-md-12 padd-left-0"> <h3 class="redColor padd-head-align">EPICOR ERP FOR INTERIOR DESIGN SOFTWARE</h3></div>
+               <div class="col-md-12 padd-left-0">
+			   <h2 class="redColor padd-head-align">EPICOR ERP FOR INTERIOR DESIGN SOFTWARE</h2></div>
             <div class="col-md-12">
                 <ul>
                     <li>
@@ -311,7 +313,7 @@ Learn more about our solution</span></div>
         </div>
          
              <div class="col-md-6 mainContent-normal contentdiv padd-left-50">
-                 <img class="img-responsive" src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-design-overview.png" />
+                 <img class="img-responsive" src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-design-overview.png" alt="Epicor ERP for Interior Design Software" />
              </div>
             
              <div class="clearfix">&nbsp;</div>
@@ -322,7 +324,7 @@ Learn more about our solution</span></div>
     <!--eof overview and form div-->
     </div>  
     <div class="rheincs-container">  
-     <div class="col-md-12 padd-left-0"><h3 class="redColor">MODULES</h3></div>
+     <div class="col-md-12 padd-left-0"><h2 class="redColor">MODULES</h2></div>
                     <div class="withIcons">                        
                         <div class="mainContent-normal-manufacturing">ERP for interior design solutions  encompasses various features specifically suiting the niche requirements of Interior design firms, which are not only powerful but also flexible. Go ahead and deliver the best to your clients, and plan your business expansions, profitably. </div>                       
                     </div> 
@@ -408,7 +410,7 @@ Learn more about our solution</span></div>
     <!--Features-->
    
         <div class="col-md-12 contentwithpadding rheincs-container">
-             <h3 class="redColor height-class">FEATURES</h3>
+             <h2 class="redColor height-class">FEATURES</h2>
          </div>
     <div class="clearfix">&nbsp;</div>
     <!--Features Content Container-->
@@ -560,7 +562,7 @@ COLLABORATION NETWORK</strong>
     <div class="clearfix">&nbsp;</div>
                 <div class="col-md-12 contentwithpadding rheincs-container">
                     <div class="wrappernewbullet">
-                    <h3 class="redColor">OTHER SERVICES</h3>
+                    <h2 class="redColor">OTHER SERVICES</h2>
                   <%--  <p class="padd-bottom-10"><b>Strengthening Families </b></p>--%>
                     <div class="col-md-12">
                         <ul>
@@ -596,7 +598,7 @@ COLLABORATION NETWORK</strong>
                    Wanted to know why an ERP is important to your organisation? <a data-toggle="modal" data-target="#myModal-epicor" onclick="DownepicorClear()" class="mailid-epicor redColor">Click here</a> to have the ERP Demo!
                 </p><br />
                     </div>
-                  <h3 class="redColor">RELATED LINKS</h3>
+                  <h2 class="redColor">RELATED LINKS</h2>
         <p>
                      <b><a href="https://en.rheincs.com/rheinbrucke-solutions/interior-design">Interior design solutions (success story)</a></b></p><br />
 					 <p>
@@ -611,18 +613,18 @@ COLLABORATION NETWORK</strong>
 
 
     <div class="container contentwithpadding rheincs-container accor-dions">
-        <h3 class="redColor">Frequently Asked Questions</h3>
+        <h2 class="redColor">Frequently Asked Questions</h2>
 
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="heading1">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
                             <i class="more-less glyphicon glyphicon-plus"></i>
                             What is an ERP for interior design? 
                         </a>
-                    </h4>
+                    </h3>
                 </div>
                 <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
                     <div class="panel-body">
@@ -637,12 +639,12 @@ COLLABORATION NETWORK</strong>
 
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="heading2">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
                             <i class="more-less glyphicon glyphicon-plus"></i>
                             What are the top features to look for in an ERP industry vertical software for interior designers? 
                         </a>
-                    </h4>
+                    </h3>
                 </div>
                 <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
                     <div class="panel-body">
@@ -667,12 +669,12 @@ COLLABORATION NETWORK</strong>
 
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="heading3">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
                             <i class="more-less glyphicon glyphicon-plus"></i>
                             Why use interior design solutions? 
                         </a>
-                    </h4>
+                    </h3>
                 </div>
                 <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                     <div class="panel-body">
@@ -704,12 +706,12 @@ COLLABORATION NETWORK</strong>
 
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="heading4">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
                             <i class="more-less glyphicon glyphicon-plus"></i>
                            What is the significance of project management software for interior designers? 
                         </a>
-                    </h4>
+                    </h3>
                 </div>
                 <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
                     <div class="panel-body">
@@ -722,12 +724,12 @@ COLLABORATION NETWORK</strong>
 
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="heading5">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
                             <i class="more-less glyphicon glyphicon-plus"></i>
                            Why should I use Epicor ERP system for interior design?
                         </a>
-                    </h4>
+                    </h3>
                 </div>
                 <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
                     <div class="panel-body">
@@ -747,12 +749,12 @@ COLLABORATION NETWORK</strong>
             </div>
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="heading6">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
                             <i class="more-less glyphicon glyphicon-plus"></i>
                           What is the importance of ERP for furniture manufacturing? 
                         </a>
-                    </h4>
+                    </h3>
                 </div>
                 <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
                     <div class="panel-body">
@@ -772,7 +774,7 @@ COLLABORATION NETWORK</strong>
 
       <div class="clearfix">&nbsp;</div>
     <div class="col-md-12 rheincs-container">
-    <h3 class="redColor">TESTIMONIALS</h3>
+    <h2 class="redColor">TESTIMONIALS</h2>
                     <div class="col-md-12">
                         <!--Mr. Chris Gilbert customer reference -->
                         <div class="col-md-4 marg-10">

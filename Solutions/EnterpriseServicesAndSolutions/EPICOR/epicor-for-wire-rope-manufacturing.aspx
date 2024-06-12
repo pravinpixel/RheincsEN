@@ -1,10 +1,10 @@
-﻿<%@ Page Title="Best ERP software for Wire Rope Manufacturing (Know more) | Epicor ERP | Wire Rope Manufacturing Software ERP| ERP Demo | Epicor ERP Implementation Partner in Middle East, UAE, Dubai | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/RheincsLanding.Master" AutoEventWireup="true" CodeBehind="epicor-for-wire-rope-manufacturing.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.Epicor_for_wire_rope_manufacturing" %>
-
+﻿<%@ Page Title="RheinBrücke Epicor: Optimize Your Wire Rope Manufacturing" Language="C#" MasterPageFile="~/RheincsLanding.Master" AutoEventWireup="true" CodeBehind="epicor-for-wire-rope-manufacturing.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.Epicor_for_wire_rope_manufacturing" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="ERP software for Steel wire rope manufacturers, Cloud ERP solutions for Steel wire rope, Steel wire rope manufacturing erp solutions, manufacturing resource planning for steel wire rope SKU Management, ERP system for steel wire rope manufacturers"/>
-<meta name="Description" content="Epicor Wire Rope Manufacturing software is a specialized solution for Wire Rope Manufacturing industry. Click here to know about Epicor Wire Rope Manufacturing ERP software. RheinBrücke IT consulting is the largest Epicor partner in EMEAI in Epicor ERP implementation. Contact us for the ERP Demo" />
+<meta name="keywords" content="ERP software for Steel wire rope manufacturers, Cloud ERP solutions for Steel wire rope, Steel wire rope manufacturing erp solutions, manufacturing resource planning for steel wire rope SKU Management, ERP system for steel wire rope manufacturers"/>
+<meta name="Description" content="Optimize wire rope manufacturing with RheinBrücke’s Epicor solutions. Enhance productivity and quality." />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+    
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -37,6 +37,7 @@
         }
 
         h2 {
+			font-weight: 600;
             font-size: 27px;
         }
 
@@ -226,7 +227,7 @@
                         <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-1.jpg" alt="Epicor ERP addresses the unique challenges of manufacturing industry." class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
-                                    <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
+                                    <div class="customh1">Epicor ERP for Wire Rope Manufacturing</div>
                                     <span class="rhein-banner-heading-black">Manage thousands of Sales SKUs easily and accurately and configure customer orders using the product configurator </span>
                                 </div> 
                             </div>
@@ -238,7 +239,7 @@
                         <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-2.jpg" alt="With EPICOR ERP, manufacturers can achieve operational excellence with streamlined logistics & manufacturing process" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
-                                    <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing </h1>
+                                    <div class="customh1">Epicor ERP for Wire Rope Manufacturing </div>
                                     <span class="rhein-banner-heading-black">Improve supply chain coordination, save inventory carrying costs, and improve production efficiency with optimised production and materials planning</span><br />
                                 </div>
                             </div>
@@ -250,7 +251,7 @@
                         <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-3.jpg" alt="RheinBrücke offers a specific manufacturing solution set that is customized to geography." class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
-                                    <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
+                                    <div class="customh1">Epicor ERP for Wire Rope Manufacturing</div>
                                     <span class="rhein-banner-heading-black">Get production visibility and track the exact progress of executing customer orders with the manufacturing execution system</span><br />
                                    
                                 </div>
@@ -264,7 +265,7 @@
                         <div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
-                                    <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
+                                    <div class="customh1">Epicor ERP for Wire Rope Manufacturing</div>
                                     <span class="rhein-banner-heading-black">Record all the costs related to production with resource timesheets, integration to machine PLCs, and manufacturing execution system</span><br />
                                     
                                 </div>
@@ -277,7 +278,7 @@
                         <img src="../../../Assets/images/SEO-page-images/rope-manufacturing/sl-image-5.jpg" alt="EPICOR ERP helps to optimize lean manufacturing for smarter decisions and increase customer satisfaction" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
-                                    <h1 class="customh1">Epicor ERP for Wire Rope Manufacturing</h1>
+                                    <div class="customh1">Epicor ERP for Wire Rope Manufacturing</div>
                                     <span class="rhein-banner-heading-black">Avoid breakdowns and improve machine efficiency with a machine-integrated maintenance management system</span>
                                   
                                 </div>
@@ -306,14 +307,15 @@
             <!--overview-->
             <div class="clearfix">&nbsp;</div>
             <div class="col-md-12 contentwithpadding">
-                <h3 class="redColor">EPICOR FOR WIRE ROPE MANUFACTURING - INTRODUCTION</h3>
+				<h1>Best Epicor ERP for Wire Rope Manufacturing</h1>
+                <h2 class="redColor">EPICOR FOR WIRE ROPE MANUFACTURING - INTRODUCTION</h2>
                 <div class="mainContent-normal contentdiv" style="text-align: justify">
                     Continuous improvement has become necessary in the global and highly competitive manufacturing industry. Manufacturers have to continuously find ways to reduce wastage, manage SKU complexity and improve the productivity of their resources to stay relevant and improve their bottom line.
                 </div>
                 <div class="mainContent-normal contentdiv" style="text-align: justify">
                     The industry ERP solution on Epicor from provides an ideal solution for manufacturers that help automate and optimise their processes and resources and be more profitable. 
                 </div>
-                <h3 class="redColor">SPECIALIZED SOLUTIONS FOR WIRE ROPE MANUFACTURING</h3>
+                <h2 class="redColor">SPECIALIZED SOLUTIONS FOR WIRE ROPE MANUFACTURING</h2>
                 <div style="text-align: justify">
                     <ul class="bulletContent-manufacturing cstmzed-lst">
                         <li>Ability to manage thousands of sales SKUs using product configurator and parametrising the manufacturing and procurement process using the product configurator. </li>
@@ -494,7 +496,7 @@
     </div>
     <div class="container contentwithpadding rheincs-container">
         <div class="wrappernewbullet">
-            <h3 class="redColor">SOLUTION BENEFITS</h3>
+            <h2 class="redColor">SOLUTION BENEFITS</h2>
             <%--  <p class="padd-bottom-10"><b>Strengthening Families </b></p>--%>
             <div class="col-md-12">
                 <ul>
@@ -559,7 +561,7 @@
 
     <div class="container contentwithpadding rheincs-container">
         <div class="wrappernewbullet">
-            <h3 class="redColor">RHEINBRÜCKE ADVANTAGE</h3>
+            <h2 class="redColor">RHEINBRÜCKE ADVANTAGE</h2>
             <%--  <p class="padd-bottom-10"><b>Strengthening Families </b></p>--%>
             <div class="col-md-12">
                 <ul>
@@ -622,18 +624,18 @@
     </div>
 
     <div class="container contentwithpadding rheincs-container accor-dions">
-        <h3 class="redColor">Frequently Asked Questions</h3>
+        <h2 class="redColor">Frequently Asked Questions</h2>
 
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="heading1">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
                             <i class="more-less glyphicon glyphicon-plus"></i>
                             What is the significance of an ERP software for wire rope manufacturers?
                         </a>
-                    </h4>
+                    </h3>
                 </div>
                 <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
                     <div class="panel-body">
@@ -651,12 +653,12 @@
 
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="heading2">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
                             <i class="more-less glyphicon glyphicon-plus"></i>
                             What are the benefits of using Epicor ERP system for steel wire rope manufacturers?
                         </a>
-                    </h4>
+                    </h3>
                 </div>
                 <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
                     <div class="panel-body">
@@ -676,12 +678,12 @@
 
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="heading3">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
                             <i class="more-less glyphicon glyphicon-plus"></i>
                             How does an ERP solution assist steel wire and cable manufacturer in SKU management?
                         </a>
-                    </h4>
+                    </h3>
                 </div>
                 <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                     <div class="panel-body">
@@ -702,12 +704,12 @@
 
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="heading4">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
                             <i class="more-less glyphicon glyphicon-plus"></i>
                             How do wire rope manufacturing ERP solutions work?
                         </a>
-                    </h4>
+                    </h3>
                 </div>
                 <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
                     <div class="panel-body">
@@ -743,12 +745,12 @@
 
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="heading5">
-                    <h4 class="panel-title">
+                    <h3 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
                             <i class="more-less glyphicon glyphicon-plus"></i>
                             Which ERP is better: Odoo, Tally or Epicor for wire rope cable manufacturing?
                         </a>
-                    </h4>
+                    </h3>
                 </div>
                 <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
                     <div class="panel-body">

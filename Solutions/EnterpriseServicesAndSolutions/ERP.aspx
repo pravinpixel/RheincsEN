@@ -182,6 +182,7 @@
         <!--banner-->
         <div class="row">
             <div class="bg-img-erp img-responsive ">
+                <h1 class="rhein-banner-heading-h2 inner-banner-text1 img-bottom">Why Do You Need an ERP System?</h1>
                 <h2 class="rhein-banner-heading-h2 inner-banner-text1 img-bottom">RheinBrücke</h2>
                 <p class="rhein-banner-heading-p inner-banner-text1 ">Increase efficiency, streamline processes and promote a culture of collaboration in the organization with Enterprise Resource Planning.</p>
             </div>
@@ -193,7 +194,7 @@
             <!--overview-->
             <div class="clearfix">&nbsp;</div>
             <div class="col-md-12 contentwithpadding rheincs-container">
-                <h3 class="redColor">Why Do You Need an ERP System?</h3>
+                <!-- h3 class="redColor">Why Do You Need an ERP System?</h3 -->
                 <div class="mainContent-normal contentdiv" style="text-align: justify">
                     ERP stands for Enterprise Resource Planning. Enterprise resource planning (ERP) is a business process management software that allows an organization to use a system of integrated application modules (ERP) to manage the business and automate many back office functions related to technology, services and human resources.
                 </div>

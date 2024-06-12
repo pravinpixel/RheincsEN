@@ -8,6 +8,7 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style>
+        h1, h2{font-weight: 600;}
         .submit-button
         {
             width:160px !important;
@@ -211,7 +212,7 @@
                         <img src="../../../Assets/images/retail-bnr-1.jpg" alt="The RheinBrücke Retail-FMCG Solution" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
-                                    <h3 class="customh1">The RheinBrücke Retail-FMCG Solution</h3>
+                                    <div class="customh1">The RheinBrücke Retail-FMCG Solution</div>
                                     <span class="rhein-banner-heading-black">A robust end-to-end retail solution that enhances productivity, optimizes your customer lifecycle and sales pipeline</span></div>
                             </div>
                         </div>
@@ -220,7 +221,7 @@
                         <img src="../../../Assets/images/retail-bnr-2.jpg" alt="The RheinBrücke Retail-FMCG Solution" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
-                                    <h3 class="customh1">The RheinBrücke Retail-FMCG Solution</h3>
+                                    <div class="customh1">The RheinBrücke Retail-FMCG Solution</div>
                                     <span class="rhein-banner-heading-black">Simplify Business with an Effective Counter Sales Solution</span></div>
                             </div>
                         </div>
@@ -229,7 +230,7 @@
                         <img src="../../../Assets/images/retail-bnr-3.jpg" alt="The RheinBrücke Retail-FMCG Solution" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
-                                    <h3 class="customh1">The RheinBrücke Retail-FMCG Solution</h3>
+                                    <div class="customh1">The RheinBrücke Retail-FMCG Solution</div>
                                     <span class="rhein-banner-heading-black">Epicor ERP with Integrated POS – The Key to More Efficient Sales</span></div>
                             </div>
                         </div>
@@ -250,7 +251,7 @@
 
                 <div class="col-md-12 padd-left-0">
                     <div class="col-md-12 padd-left-0">
-                     <div class="col-xs-6 col-md-10 nopadding"> <h3 class="redColor padd-head-align">The RheinBrücke Retail-FMCG Solution</h3></div>
+                     <div class="col-xs-6 col-md-10 nopadding"> <h1 class="redColor padd-head-align">The RheinBrücke Retail-FMCG Solution</h1></div>
                         <div class="col-xs-6 col-md-2 nopadding">
                             <img src="../../../Assets/images/wondersoft-logo.png" alt="WonderSoft" class="img-responsive" style="background-color:#1a70b9;" /></div>
                     </div>
@@ -332,7 +333,7 @@
     <!--Features-->
 
     <div class="col-md-12 contentwithpadding rheincs-container">
-        <h3 class="redColor height-class">Some of the Benefits include:</h3>
+        <h2 class="redColor height-class">Some of the Benefits include:</h2>
    
     <div class="clearfix">&nbsp;</div>
     <div class="col-md-12">
@@ -386,7 +387,7 @@
          </div>
      <div class="col-md-12 contentwithpadding rheincs-container">
         <div class="wrappernewbullet">
-            <h3 class="redColor">Business Impact:</h3>
+            <h2 class="redColor">Business Impact:</h2>
            <div class="clearfix">&nbsp;</div>
             <div class="col-md-12">
                 <ul>

@@ -98,7 +98,7 @@ namespace RheinBrucke
 
             routes.MapPageRoute("epicor-erp", "epicor-erp", "~/Landing/ERPLanding.aspx");
             routes.MapPageRoute("epicpay-smart-payroll-solution", "epicpay-smart-payroll-solution", "~/Landing/LandingPageEpicPay.aspx");
-            routes.MapPageRoute("Epicor-Payroll-MEA", "Epicor-Payroll-MEA", "~/Landing/LandingPageEpicPay.aspx");
+            routes.MapPageRoute("Epicor-Payroll-MEA", "Epicor-Payroll-MEA", "~/Landing/EpicPay.aspx");
             routes.MapPageRoute("ppa-power-plant-analytics", "ppa-power-plant-analytics", "~/Landing/PPALanding.aspx");
             routes.MapPageRoute("our-solution-ppa", "our-solution-ppa", "~/Landing/PPALanding.aspx");
             routes.MapPageRoute("epicor-erp-upgrade", "epicor-erp-upgrade", "~/Landing/LandingPageEpicor.aspx");
@@ -156,7 +156,8 @@ namespace RheinBrucke
             routes.MapPageRoute("application-development", "solutions/it-services-and-solutions/microsoft-technologies/application-development-maintenance-services", "~/Solutions/ITServicesAndSolutions/MicrosoftTechnologies/ApplicationDevelopmentAndMaintenanceServices.aspx");
             routes.MapPageRoute("application-maintenance-and-support", "solutions/it-services-and-solutions/application-maintenance-and-support", "~/Solutions/ITServicesAndSolutions/ApplicationMaintenanceAndSupport.aspx");
             routes.MapPageRoute("testing-services", "solutions/it-services-and-solutions/testing-services", "~/Solutions/ITServicesAndSolutions/TestingServices.aspx");
-
+            routes.MapPageRoute("microsoft-dynamics", "solutions/it-services-and-solutions/microsoft-dynamics", "~/Solutions/ITServicesAndSolutions/MicrosoftDynamics.aspx");
+            
             routes.MapPageRoute("small-businesses", "solutions/focused-solutions/small-businesses", "~/Solutions/FocusedSolutions/SmallBusiness.aspx");
             routes.MapPageRoute("mid-market-companies", "solutions/focused-solutions/mid-market-companies", "~/Solutions/FocusedSolutions/MidMarketCompanies.aspx");
             routes.MapPageRoute("enterprise", "solutions/focused-solutions/enterprise", "~/Solutions/FocusedSolutions/Enterprise.aspx");

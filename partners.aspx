@@ -1,8 +1,7 @@
-﻿<%@ Page Title="Partners | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="partners.aspx.cs" Inherits="RheinBrucke.partners" %>
-
+﻿<%@ Page Title="Meet Our Partners: RheinBrücke - Your Trusted Collaborator in Success" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="partners.aspx.cs" Inherits="RheinBrucke.partners" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="RheinBrücke's Partners" />
-    <meta name="Description" content="RheinBrücke's Partners, Moro, FFI, Inserito, DCX, Dataprime" />
+<meta name="keywords" content="RheinBrücke's Partners" />
+<meta name="Description" content="Discover the strength of our partnerships with RheinBrücke. Together, we navigate towards success with trust, reliability, and shared goals." />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -43,8 +42,9 @@
             width: 82% !important;
             margin-left:-12px;
         }
-        h4 {
+        h3 {
             color: #7b1315;
+			font-size: 20px;
             margin-bottom: 10px !important;
         }
 
@@ -87,7 +87,7 @@
         <div class="row">
 
             <div class="bg-partners img-responsive ">
-                <h1 class="rhein-banner-heading-h2 inner-banner-text1 img-bottom">RheinBrücke</h1>
+                <h1 class="rhein-banner-heading-h2 inner-banner-text1 img-bottom">RheinBrücke Partners</h1>
                 <p class="rhein-banner-heading-p inner-banner-text1">Partners</p>
             </div>
 
@@ -95,7 +95,7 @@
         <!--efo banner-->
         <!-- Content-->
         <div class="wrappernew main-container">
-            <h1 class="redColor">Our Partners</h1>
+            <h2 class="redColor">Our Partners</h2>
             <%--<p>RheinBrücke is a two times winner of the Epicor International partner of the Year as well as a Microsoft Gold partner. Our award-winning products and services have been delivered to enterprises across 34 countries. We specialize in Epicor product development support, implementation & support services and customized industry-vertical pre-configured solutions for Epicor. Our channel partner network comprises of an ecosystem of trusted partners who help customers across industries and locations accelerate their journey to an Intelligent Enterprise using RheinBrücke’s innovative solutions based on Epicor ERP as well as RheinBrücke Enterprise Products.</p>--%>
           <p>RheinBrücke is a two times winner of the Epicor International partner of the Year as well as a Microsoft Gold partner. Our award-winning products and services have been delivered to enterprises across 34 countries. We specialize in Epicor product development support, implementation & support services and customized industry-vertical pre-configured solutions for Epicor. Our channel partner network comprises of an ecosystem of trusted partners who help customers across industries and locations accelerate their journey to an Intelligent Enterprise using RheinBrücke’s innovative solutions based on Epicor ERP as well as our own Enterprise Products like MeRLIN.</p>
             <%--<div class="row">
@@ -176,7 +176,7 @@
                         <div class="col-md-8 ht78 padl0"><a href="https://www.ajmanchamber.ae/en/" target="_blank">
                             <img src="Assets/images/partners/ajmanchamber-logo.png" alt="Moro" /></a></div>
                         <div class="clearfix"></div>
-                        <h4>Ajman Coc</h4>
+                        <h3>Ajman Coc</h3>
                         <p class="partner-p">Partner Type: <span class="redColor">Enabled/Supported by</span></p>
                         <p class="partner-desc">Ajman Chamber of Commerce and Industry was incorporated under an Ameri Decree issued by late H.H. Sheikh Rashid Bin Hmaid Bin Rashid Al Nu’aimi in 1977, stipulating that the chamber of commerce and industry shall be a legal entity with an independent financially.</p>
                     </div>
@@ -185,7 +185,7 @@
                             <img src="Assets/images/partners/moro-logo.png" alt="Moro" /></a></div>
 
                         <div class="clearfix"></div>
-                        <h4>MoroHub</h4>
+                        <h3>MoroHub</h3>
                         <p class="partner-p">Partner Type: <span class="redColor">Platinum</span></p>
                         <p class="partner-desc">Moro Hub is a glocal commercial entity that offers Digital Services, Data Center Services, Managed Services, Professional Services, Cloud and Cyber Security Services to Enterprise across the Public & Private sectors in UAE and the region.</p>
                     </div>
@@ -196,14 +196,14 @@
                         </div>
 
                         <div class="clearfix"></div>
-                        <h4>National Technology Enterprises Company | Kuwait</h4>
+                        <h3>National Technology Enterprises Company | Kuwait</h3>
                         <p class="partner-p">Partner Type: <span class="redColor">Silver</span></p>
                         <p class="partner-desc">The National Technology Enterprises Company (NTEC) was established back in November of 2002 and operational in late 2004, by the Kuwait Council of Ministers as a fully owned subsidiary of the Kuwait Investment Authority (KIA) NTEC was created to play a vital role in servicing major stakeholders in Kuwait with their technology needs.</p>
                     </div>
                     
                 </div>
             </div>
-            <h1 class="redColor">Become a Partner</h1>
+            <h2 class="redColor">Become a Partner</h2>
             <p>
                 RheinBrücke’s Channel Partner Program offers endless opportunities for your business’s growth with access to RheinBrücke’s complete portfolio of industry leading enterprise solutions, and benefits such as consulting support, training, product positioning and marketing support, that will help you add value to your customers.
             </p>

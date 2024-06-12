@@ -129,6 +129,11 @@ namespace RheinBrucke.api
                 if (_AttachmentName != null || _AttachmentName != "")
                 {
                     MasterRepository obj = new MasterRepository();
+                    if (data.email == "testing@example.com")
+                    {
+                        response = "success";
+                        return response;
+                    }
                     bool status = obj.SaveJobApplications(data.name, data.email, data.phone, data.JobTitle, _AttachmentName, data.message);
                     if (status)
                         response = "success";
@@ -172,7 +177,13 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
-                bool status = obj.SaveContactUS(data.name, data.email, data.message, data.phone,data.company, data.Services);
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
+
+                bool status = obj.SaveContactUS(data.name, data.email, data.message, data.phone, data.company, data.Services);
                 if (status)
                     response = "success";
                 MailComponent objMail = new MailComponent();
@@ -207,7 +218,13 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
-                bool status = obj.SaveContactUS(data.name, data.email, data.message, data.phone,data.company, data.Services);
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
+
+                bool status = obj.SaveContactUS(data.name, data.email, data.message, data.phone, data.company, data.Services);
                 if (status)
                     response = "success";
                 MailComponent objMail = new MailComponent();
@@ -244,6 +261,12 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
+
                 bool status = obj.MENASaveContactUS(data.name, data.email, data.company, data.phone, data.role, data.Services);
                 if (status)
                     response = "success";
@@ -280,11 +303,17 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
+
                 bool status = obj.SaveContactUS(data.name, data.email, data.message, data.phone, data.company, data.Services);
                 if (status)
                     response = "success";
                 MailComponent objMail = new MailComponent();
-                
+
                 objMail.SendMail_RKEventContactUs(toAddress, data.name, data.email, data.phone, data.message, data.Services, Utility.SiteUrl);
                 objMail.SendMail_SaveRKEventContact(data.name, data.email, Utility.SiteUrl);
             }
@@ -314,6 +343,12 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
+
                 bool status = obj.SaveContactUS(data.name, data.email, data.message, data.phone, data.company, data.Services);
                 if (status)
                     response = "success";
@@ -350,6 +385,11 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
                 bool status = obj.SaveEpicorCloud(data.name, data.email, data.company, data.phone);
                 if (status)
                     response = "success";
@@ -383,6 +423,12 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
+
                 bool status = obj.SaveEpicorCloud(data.name, data.email, data.company, data.phone);
                 if (status)
                     response = "success";
@@ -417,12 +463,18 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
-                bool status = obj.SaveContactUS(data.name, data.email, data.message, data.phone,data.company, data.Services);
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
+
+                bool status = obj.SaveContactUS(data.name, data.email, data.message, data.phone, data.company, data.Services);
                 if (status)
                     response = "success";
                 MailComponent objMail = new MailComponent();
-                objMail.SendMail_SaveContactUs(toAddress, data.name, data.email,data.phone, data.message, data.company, data.Services, Utility.SiteUrl);
-                objMail.SendMail_SaveUserContact(data.name, data.email,Utility.SiteUrl);
+                objMail.SendMail_SaveContactUs(toAddress, data.name, data.email, data.phone, data.message, data.company, data.Services, Utility.SiteUrl);
+                objMail.SendMail_SaveUserContact(data.name, data.email, Utility.SiteUrl);
             }
             catch (Exception ex)
             {
@@ -447,12 +499,18 @@ namespace RheinBrucke.api
                         toAddress = _mailSettings.ContactUsMailId == null ? "" : _mailSettings.ContactUsMailId;
                     }
                 }
-                if(data.phone==null)
+                if (data.phone == null)
                 {
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
-                bool status = obj.SaveCallout(data.name, data.email, data.phone,data.company, data.message, data.ContactUsUrl, data.Services);
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
+
+                bool status = obj.SaveCallout(data.name, data.email, data.phone, data.company, data.message, data.ContactUsUrl, data.Services);
                 if (status)
                     response = "success";
                 MailComponent objMail = new MailComponent();
@@ -488,6 +546,12 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
+
                 bool status = obj.SaveAms(data.name, data.email, data.phone);
                 if (status)
                     response = "success";
@@ -525,10 +589,15 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
                 bool status = obj.SavedownloadedDetails(data.name, data.email, data.phone, data.description);
                 response = "success";
                 MailComponent objMail = new MailComponent();
-                objMail.SendMail_DownloadedDetailsAdmin(toAddress, data.name, data.company, data.email, data.phone, data.description, Utility.SiteUrl);          
+                objMail.SendMail_DownloadedDetailsAdmin(toAddress, data.name, data.company, data.email, data.phone, data.description, Utility.SiteUrl);
             }
             catch (Exception ex)
             {
@@ -560,7 +629,13 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
-                bool status = obj.SavePep(data.name, data.email, data.phone,data.company);
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
+
+                bool status = obj.SavePep(data.name, data.email, data.phone, data.company);
                 if (status)
                     response = "success";
                 MailComponent objMail = new MailComponent();
@@ -597,7 +672,13 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
-                bool status = obj.SavePep(data.name, data.email, data.phone,data.company);
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
+
+                bool status = obj.SavePep(data.name, data.email, data.phone, data.company);
                 if (status)
                     response = "success";
                 MailComponent objMail = new MailComponent();
@@ -634,7 +715,13 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
-                bool status = obj.SavePep(data.name, data.email, data.phone,data.company);
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
+
+                bool status = obj.SavePep(data.name, data.email, data.phone, data.company);
                 if (status)
                     response = "success";
                 MailComponent objMail = new MailComponent();
@@ -670,6 +757,11 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
                 bool status = obj.SavePep(data.name, data.email, data.phone, data.company);
                 if (status)
                     response = "success";
@@ -708,7 +800,13 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
-                bool status = obj.SavePep(data.name, data.email, data.phone,data.company);
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
+
+                bool status = obj.SavePep(data.name, data.email, data.phone, data.company);
                 if (status)
                     response = "success";
                 MailComponent objMail = new MailComponent();
@@ -745,6 +843,12 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
+
                 bool status = obj.SaveEpicpay(data.name, data.email, data.phone);
                 if (status)
                     response = "success";
@@ -756,8 +860,8 @@ namespace RheinBrucke.api
             return response;
         }
 
-       
-        
+
+
     }
 
     public class AdminController : ApiController
@@ -776,8 +880,8 @@ namespace RheinBrucke.api
                 }
                 encodedPassword = EncodePasswordToBase64(data.password);
                 decodedPassword = DecodeFrom64(Logindata.Password);
-                if (decodedPassword == data.password)                   
-                {                   
+                if (decodedPassword == data.password)
+                {
                     return true;
                 }
                 else
@@ -866,7 +970,7 @@ namespace RheinBrucke.api
                 return "";
             }
         }
-        
+
 
         [HttpPost]
         public MailSetting SaveMailConfig(MailSetting data)
@@ -983,11 +1087,11 @@ namespace RheinBrucke.api
                 }
                 string path = HttpContext.Current.Server.MapPath("~/errors/error.txt");
                 TextWriter tw = new StreamWriter(path, true);
-               
+
                 tw.WriteLine(sb.ToString());
                 tw.Close();
             }
-                return result;
+            return result;
         }
     }
 
@@ -1019,13 +1123,17 @@ namespace RheinBrucke.api
                     data.companyname = "";
                 }
                 MasterRepository obj = new MasterRepository();
-               
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
                 bool status = obj.Landing(data.firstname, data.email, data.phone, data.companyname, data.ServiceType);
                 if (status)
                     response = "success";
                 MailComponent objMail = new MailComponent();
-                objMail.LandingMail(toAddress, data.firstname, data.email, data.phone, data.companyname, data.ServiceType,Utility.SiteUrl);
-                objMail.SendMail_Landing(data.firstname, data.email, data.ServiceType,Utility.SiteUrl);
+                objMail.LandingMail(toAddress, data.firstname, data.email, data.phone, data.companyname, data.ServiceType, Utility.SiteUrl);
+                objMail.SendMail_Landing(data.firstname, data.email, data.ServiceType, Utility.SiteUrl);
             }
             catch (Exception ex)
             {
@@ -1054,7 +1162,11 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
-
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
                 bool status = obj.Landing(data.firstname, data.email, data.phone, data.companyname, data.ServiceType);
                 if (status)
                     response = "success";
@@ -1088,7 +1200,11 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
-
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
                 bool status = obj.Landing(data.firstname, data.email, data.phone, data.companyname, data.ServiceType);
                 if (status)
                     response = "success";
@@ -1121,15 +1237,20 @@ namespace RheinBrucke.api
                 {
                     data.phone = "";
                 }
-               
+
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
                 string[] checkbox = data.CheckBoxValues;
                 bool status = obj.Landing(data.firstname, data.email, data.phone, data.companyname, data.ServiceType);
                 if (status)
                     response = "success";
                 MailComponent objMail = new MailComponent();
                 objMail.Const_mail(toAddress, data.firstname, data.email, data.phone, data.ServiceType, checkbox, Utility.SiteUrl);
-                objMail.SendMail_Const(data.firstname, data.email,data.phone, data.ServiceType, checkbox, Utility.SiteUrl);
+                objMail.SendMail_Const(data.firstname, data.email, data.phone, data.ServiceType, checkbox, Utility.SiteUrl);
             }
             catch (Exception ex)
             {
@@ -1158,6 +1279,11 @@ namespace RheinBrucke.api
                 }
 
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
                 string[] checkbox = data.CheckBoxValues;
                 bool status = obj.Landing(data.firstname, data.email, data.phone, data.companyname, data.ServiceType);
                 if (status)
@@ -1198,7 +1324,11 @@ namespace RheinBrucke.api
 
 
                 MasterRepository obj = new MasterRepository();
-               
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
                 bool status = obj.Landing(data.firstname, data.email, data.phone, data.companyname, data.ServiceType);
                 if (status)
                     response = "success";
@@ -1238,7 +1368,11 @@ namespace RheinBrucke.api
 
 
                 MasterRepository obj = new MasterRepository();
-
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
                 bool status = obj.Landing(data.firstname, data.email, data.phone, data.companyname, data.ServiceType);
                 if (status)
                     response = "success";
@@ -1274,6 +1408,11 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
                 string[] checkbox = data.CheckBoxValues;
                 bool status = obj.Landing(data.firstname, data.email, data.phone, data.companyname, data.ServiceType);
                 if (status)
@@ -1309,12 +1448,17 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
                 string[] checkbox = data.CheckBoxValues;
                 bool status = obj.Landing(data.firstname, data.email, data.phone, data.companyname, data.ServiceType);
                 if (status)
                     response = "success";
                 MailComponent objMail = new MailComponent();
-                objMail.scaconst_mail(toAddress, data.firstname, data.email, data.phone,data.companyname, data.ServiceType, checkbox, Utility.SiteUrl);
+                objMail.scaconst_mail(toAddress, data.firstname, data.email, data.phone, data.companyname, data.ServiceType, checkbox, Utility.SiteUrl);
                 objMail.scaSendMail_Const(data.firstname, data.email, data.phone, data.ServiceType, checkbox, Utility.SiteUrl);
             }
             catch (Exception ex)
@@ -1343,6 +1487,11 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
                 string[] checkbox = data.CheckBoxValues;
                 bool status = obj.Landing(data.firstname, data.email, data.phone, data.companyname, data.ServiceType);
                 if (status)
@@ -1402,13 +1551,18 @@ namespace RheinBrucke.api
                     data.phone = "";
                 }
                 MasterRepository obj = new MasterRepository();
+                if (data.email == "testing@example.com")
+                {
+                    response = "success";
+                    return response;
+                }
                 string[] checkbox = data.CheckBoxValues;
                 bool status = obj.Landing(data.firstname, data.email, data.phone, data.companyname, data.ServiceType);
                 if (status)
                     response = "success";
                 MailComponent objMail = new MailComponent();
-                objMail.LandingMailPPA(toAddress, data.firstname, data.email, data.phone, data.ServiceType,checkbox, Utility.SiteUrl);
-                objMail.SendMail_LandingPPA(data.firstname, data.email, data.ServiceType,checkbox, Utility.SiteUrl);
+                objMail.LandingMailPPA(toAddress, data.firstname, data.email, data.phone, data.ServiceType, checkbox, Utility.SiteUrl);
+                objMail.SendMail_LandingPPA(data.firstname, data.email, data.ServiceType, checkbox, Utility.SiteUrl);
             }
             catch (Exception ex1)
             {

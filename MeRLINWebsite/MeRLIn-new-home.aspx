@@ -1,11 +1,16 @@
-﻿<%@ Page Title="MeRLIN - Strategic Global Sourcing Simplified | Strategic Direct Sourcing Solution | Sourcing Process Automation | Supplier Relationship Management | Procurement and Supply Chain Solution for Spend Management | Better alternative to SAP Ariba | eProcurement System | Global Sourcing and RFQ Management | Perform Purchase Price Variance (PPV) analytics and Program life cycle performance analytics | Budget Planning with compliance and auditing | Data Driven Sourcing | Real time risk mitigation of suppliers | Improve Cost Savings and Enhanced ROI | Best Sourcing Solution for Large Enterprises | Top Procurement Software for OEM's | Best Supply Chain System for Manufacturing Companies" Language="C#" MasterPageFile="~/MeRLINWebsite/MeRLIN-new.Master" AutoEventWireup="true" CodeBehind="MeRLIn-new-home.aspx.cs" Inherits="RheinBrucke.MeRLINWebsite.MeRLIn_new_home" %>
+﻿<%@ Page Title="Elevate Your Sourcing Strategy with MeRLIN: The Ultimate Solution" Language="C#" MasterPageFile="~/MeRLINWebsite/MeRLIN-new.Master" AutoEventWireup="true" CodeBehind="MeRLIn-new-home.aspx.cs" Inherits="RheinBrucke.MeRLINWebsite.MeRLIn_new_home" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="procurement, procurement solutions, procurement software, Strategic sourcing solution, Supplier Management Software, Procurement Software suite, Sourcing Process Automation, Supplier Relationship Management, Procurement and Supply Chain Solution for Spend Management, Better alternative to SAP Ariba, eProcurement System, Global Sourcing and RFQ Management, Perform Purchase Price Variance (PPV) analytics and Program life cycle performance analytics, Budget Planning with compliance and auditing, Data Driven Sourcing, Real time risk mitigation of suppliers, Improve Cost Savings and Enhanced ROI, Best Sourcing Solution for Large Enterprises, Top Procurement Software for OEM&#39;s, Best Supply Chain System for Manufacturing Companies, MeRLIN - Strategic Global Sourcing Simplified, Strategic Direct Sourcing Solution" />
-    <meta name="Description" content="A Strategic Sourcing solution from RheinBrücke- We want to enable businesses with value optimization across the entire procurement functions" />
+<meta name="keywords" content="procurement, procurement solutions, procurement software, Strategic sourcing solution, Supplier Management Software, Procurement Software suite, Sourcing Process Automation, Supplier Relationship Management, Procurement and Supply Chain Solution for Spend Management, Better alternative to SAP Ariba, eProcurement System, Global Sourcing and RFQ Management, Perform Purchase Price Variance (PPV) analytics and Program life cycle performance analytics, Budget Planning with compliance and auditing, Data Driven Sourcing, Real time risk mitigation of suppliers, Improve Cost Savings and Enhanced ROI, Best Sourcing Solution for Large Enterprises, Top Procurement Software for OEM&#39;s, Best Supply Chain System for Manufacturing Companies, MeRLIN - Strategic Global Sourcing Simplified, Strategic Direct Sourcing Solution" />
+<meta name="Description" content="Discover the power of MeRLIN for strategic direct sourcing. Streamline your process and boost efficiency today!" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<style type="text/css">
+h2.hdg-h1{font-size:36px;}
+.custom-li li{font-size:18px; padding:0px 0px 15px 20px; position: relative; list-style: none;}
+.custom-li li:before{position: absolute; left: 0px; top: 9px; width: 7px; height: 7px; content:""; border-radius: 10px; background:#4b93af;}
+</style>
     <header class="header navbar-fixed-top top-nav-collapse">
             <!-- Navbar -->
             <nav class="navbar" role="navigation">
@@ -48,8 +53,8 @@
    <!--========== SLIDER ==========-->
        
                <div id="home">
-                    <img class="hidden-sm hidden-xs" src="MeRLINWebsite/images/merlin_new_banner.png" style="width:100%"/>
-                   <img class="hidden-md hidden-lg banner-mobile-ls" src="MeRLINWebsite/images/merlin_new_banner.png" style="width:100%"/>
+                    <img class="hidden-sm hidden-xs" src="MeRLINWebsite/images/merlin_new_banner.png" alt="Strategic Direct Sourcing Solution" style="width:100%"/>
+                   <img class="hidden-md hidden-lg banner-mobile-ls" src="MeRLINWebsite/images/merlin_new_banner.png" alt="Strategic Direct Sourcing Solution" style="width:100%"/>
     <!-- Indicators -->
     <%--<ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -118,8 +123,8 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="aos-init aos-animate benefit-div" data-aos="zoom-in-up">
-                    <div class="text-center"><img src="MeRLINWebsite/images/supplier-relationship.png" class="icon-hdg" /></div>
-                                    <h1 class="what-h1">Supplier Relationship</h1>
+                    <div class="text-center"><img src="MeRLINWebsite/images/supplier-relationship.png" alt="Supplier Relationship Management" class="icon-hdg" /></div>
+                                    <h3 class="what-h1">Supplier Relationship</h3>
                    <ul class="custom-li">
                        <li>
                            Manage Supplier life cycle from onboarding, scaling up/down their scope of supply, rating and maintaining their performance and removal from supply chain through configurable approvals
@@ -133,8 +138,8 @@
             </div>
             <div class="col-md-4 min-width-35">
                 <div class="aos-init aos-animate benefit-div" data-aos="zoom-in-up">
-                    <div class="text-center"><img src="MeRLINWebsite/images/eprocurement.png" class="icon-hdg" /></div>
-                                    <h1 class="what-h1">eProcurement</h1>
+                    <div class="text-center"><img src="MeRLINWebsite/images/eprocurement.png" alt="eProcurement" class="icon-hdg" /></div>
+                                    <h3 class="what-h1">eProcurement</h3>
                      <ul class="custom-li">
               <li>Discover existence of item prices by searching across the Global Sourcing Database and locate similar items by matching attributes</li>
 <li>Float online global RFQs for items across multiple commodities to chosen global suppliers, receive online responses, compare responses and make awards.</li>
@@ -146,8 +151,8 @@
                 </div></div>
            <div class="col-md-4 min-width-31">
                 <div class="aos-init aos-animate benefit-div" data-aos="zoom-in-up">
-                   <div class="text-center"> <img src="MeRLINWebsite/images/eprocurement2.png" class="icon-hdg" /></div>
-                                    <h1 class="what-h1">Analytics</h1>
+                   <div class="text-center"> <img src="MeRLINWebsite/images/eprocurement2.png" alt="Analytics" class="icon-hdg" /></div>
+                                    <h3 class="what-h1">Analytics</h3>
                      <ul class="custom-li custom-li-auto">
                   <li> Perform Purchase Price Variance (PPV) analytics and Program life cycle performance analytics out of the box</li>
                          <li>
@@ -167,8 +172,8 @@
             <div class="clearfix"></div>
             <div class="col-md-4">
                 <div class="aos-init aos-animate benefit-div" data-aos="zoom-in-up">
-                   <div class="text-center"> <img src="MeRLINWebsite/images/analytics.png" class="icon-hdg" /></div>
-                                    <h1 class="what-h1">Budgeting & Planning</h1>
+                   <div class="text-center"> <img src="MeRLINWebsite/images/analytics.png" alt="Budgeting & Planning" class="icon-hdg" /></div>
+                                    <h3 class="what-h1">Budgeting & Planning</h3>
                      <ul class="custom-li">
                 <li>Collate and Maintain Budget data across geographies and categories</li>
 <li>Compare Budget vs Actual spend, discover Savings</li>
@@ -181,8 +186,8 @@
             </div>
             <div class="col-md-4">
                 <div class="aos-init aos-animate benefit-div" data-aos="zoom-in-up">
-                   <div class="text-center"> <img src="MeRLINWebsite/images/Master-Data-Handling.png" class="icon-hdg" /></div>
-                                    <h1 class="what-h1">Master Data Handling</h1>
+                   <div class="text-center"> <img src="MeRLINWebsite/images/Master-Data-Handling.png" alt="Data Handling" class="icon-hdg" /></div>
+                                    <h3 class="what-h1">Master Data Handling</h3>
                      <ul class="custom-li custom-li-auto">
                 <li>	Create a single source of truth by collating disparate data spread across global locations</li>
 <li>Take advantage of global competition, mitigate risks and run global sourcing programs</li>
@@ -196,8 +201,8 @@
             
             <div class="col-md-4">
                 <div class="aos-init aos-animate benefit-div" data-aos="zoom-in-up">
-                   <div class="text-center"> <img src="MeRLINWebsite/images/Compliance-and-Auditing.png" class="icon-hdg" /></div>
-                                    <h1 class="what-h1">Compliance and Auditing</h1>
+                   <div class="text-center"> <img src="MeRLINWebsite/images/Compliance-and-Auditing.png" alt="Compliance and Auditing" class="icon-hdg" /></div>
+                                    <h3 class="what-h1">Compliance and Auditing</h3>
                      <ul class="custom-li custom-li-auto">
                  <li>Every data change is auditable by default. Configure subsets of data to be audited and generate audit reports  </li>
 <li>Configure, create and manage roles across the enterprise </li>
@@ -220,24 +225,24 @@
     <!--infograph content -->
     <div id="infograph" class="top-70">
     <div class="container">
-       <div class="aos-init bt-70 aos-animate" data-aos="zoom-out-up"><div class="text-center"><h1 class="hdg-h1">Why MeRLIN?</h1>
+       <div class="aos-init bt-70 aos-animate" data-aos="zoom-out-up"><div class="text-center"><h2 class="hdg-h1">Why MeRLIN?</h2>
             <p class="layout-p what-p">MeRLIN provides the strategic platform that enables value optimization through greater levels of automation, big data utilization and the use of analytical tools, to transcend from a tactical focus of the sourcing function to one of value- driven strategy.</p>
                                                             </div>
        </div>
         <div class="row hidden-sm hidden-xs">
          <div class="col-md-12">
-            <img class="img-responsive" src="MeRLINWebsite/images/MeRLIN-Sourcing-Solution-Infographics.png" />
+            <img class="img-responsive" src="MeRLINWebsite/images/MeRLIN-Sourcing-Solution-Infographics.png" alt="Best Strategic Direct Sourcing Solution" />
          </div>
         
         </div>
         <div class="row hidden-md hidden-lg">
              <div class="text-center">
-            <img class="mob-img" src="MeRLINWebsite/images/lhs-info-mob.png" />
+            <img class="mob-img" src="MeRLINWebsite/images/lhs-info-mob.png" alt="Sourcing Challenges" />
                  </div>
             <div class="text-center">
-            <img style="width: 150px;" src="MeRLINWebsite/images/MeRLIN-logo.svg" /></div>
+            <img style="width: 150px;" src="MeRLINWebsite/images/MeRLIN-logo.svg" alt="MeRLIN Logo" /></div>
               <div class="text-center">
-            <img class="mob-img" src="MeRLINWebsite/images/rhs-info-mob.png" />
+            <img class="mob-img" src="MeRLINWebsite/images/rhs-info-mob.png" alt="Sourcing Needs" />
                   </div>
         </div>
     </div>
@@ -248,37 +253,37 @@
 
        <div id="benefit" class="top-70">
     <div class="container">
-       <div class="aos-init aos-animate bt-70" data-aos="zoom-out-up"><div class="text-center"><h1 class="hdg-h1">Who will benefit from MeRLIN?</h1>
+       <div class="aos-init aos-animate bt-70" data-aos="zoom-out-up"><div class="text-center"><h2 class="hdg-h1">Who will benefit from MeRLIN?</h2>
           
                                                             </div>
        </div>
         <div class="row">
             <div class="col-md-6 aos-init aos-animate benefit-div" data-aos="fade-right">
-                <div class="col-md-3"><div class="text-center"><img src="MeRLINWebsite/images/TAT.png" class="icon-benefit" /></div></div>
+                <div class="col-md-3"><div class="text-center"><img src="MeRLINWebsite/images/TAT.png" alt="Shorter Turn Arounds" class="icon-benefit" /></div></div>
                 <div class="col-md-9">
-                    <h1 class="desc-h1">Quick Turn Arounds</h1>
+                    <h3 class="desc-h1">Quick Turn Arounds</h3>
                                     <p class="layout-p">Enterprises that frequently need to respond to customer RFIs with competitive pricing and other terms can use MeRLIN’s online quote eSourcing function to aggregate Supplier quotes providing rapid response to customer RFIs while minimizing manual errors</p></div>
    
             </div>
             <div class="col-md-6 aos-init aos-animate benefit-div" data-aos="fade-left">
            
-                    <div class="col-md-3"><div class="text-center"><img src="MeRLINWebsite/images/largebuysmallbuy.png" class="icon-benefit" /></div></div>
+                    <div class="col-md-3"><div class="text-center"><img src="MeRLINWebsite/images/largebuysmallbuy.png" alt="Large Buy vs Build" class="icon-benefit" /></div></div>
                                 <div class="col-md-9">   
-                                    <h1 class="desc-h1">Large Buy vs Build</h1> 
+                                    <h3 class="desc-h1">Large Buy vs Build</h3> 
                                     <p class="layout-p">Enterprises whose bottom line will have significant impact based on savings from sourcing functions will be able to leverage MeRLIN’s powerful analytics to drive cost savings.</p></div>
                                
             </div>  </div>
           <div class="row">    <div class="col-md-6 aos-init aos-animate benefit-div" data-aos="fade-right">
-                <div class="col-md-3"><div class="text-center"> <img src="MeRLINWebsite/images/Disparate-Sourcing.png" class="icon-benefit" /> </div></div>
+                <div class="col-md-3"><div class="text-center"> <img src="MeRLINWebsite/images/Disparate-Sourcing.png" alt="Disparate Sourcing" class="icon-benefit" /> </div></div>
                                   <div class="col-md-9">   
-                                      <h1 class="desc-h1">Global Sourcing</h1>
+                                      <h3 class="desc-h1">Global Sourcing</h3>
                                     <p class="layout-p">Global Manufacturing Enterprises that have large number of global suppliers supplying to multiple manufacturing locations and involving global sourcing with multi-currency programs will reap significant benefits.</p>
                                 </div>
             </div>
             <div class="col-md-6 aos-init aos-animate benefit-div" data-aos="fade-left">
-                <div class="col-md-3"><div class="text-center"><img src="MeRLINWebsite/images/datadrivensourcing.png" class="icon-benefit" /></div></div>
+                <div class="col-md-3"><div class="text-center"><img src="MeRLINWebsite/images/datadrivensourcing.png" alt="Data Driven Sourcing" class="icon-benefit" /></div></div>
                                   <div class="col-md-9">  
-                                      <h1 class="desc-h1">Data driven Sourcing</h1>  
+                                      <h3 class="desc-h1">Data driven Sourcing</h3>  
                                     <p class="layout-p">Data driven sourcing behaviour coupled with democratized data access will empower sourcing leaders to be agile in decision making while remaining fully compliant with prevailing regulations</p>
                                 </div>
             </div>  </div>
@@ -291,51 +296,51 @@
         <!-- tangible -->
      <div id="tangible-benefit" class="top-70">
     <div class="container">
-       <div class="aos-init aos-animate bt-70" data-aos="zoom-out-up"><div class="text-center"><h1 class="hdg-h1">What are the tangible benefits?</h1>
+       <div class="aos-init aos-animate bt-70" data-aos="zoom-out-up"><div class="text-center"><h2 class="hdg-h1">What are the tangible benefits?</h2>
           
                                                             </div>
        </div>
         <div class="row">
             <div class="col-md-6 aos-init aos-animate benefit-div" data-aos="fade-right">
-                <div class="col-md-3"><div class="text-center"><img src="MeRLINWebsite/images/TAT.png" class="icon-benefit" /></div></div>
+                <div class="col-md-3"><div class="text-center"><img src="MeRLINWebsite/images/TAT.png" alt="" class="icon-benefit" /></div></div>
                 <div class="col-md-9">
-                    <h1 class="desc-h1">Shorter Turn Arounds</h1>
+                    <h3 class="desc-h1">Shorter Turn Arounds</h3>
                                     <p class="layout-p">Respond faster to customer RFIs and improve top line by discovering existing prices in the system or getting quicker quotes via a fully online eSourcing module</p></div>
    
             </div>
             <div class="col-md-6 aos-init aos-animate benefit-div" data-aos="fade-left">
            
-                    <div class="col-md-3"><div class="text-center"><img src="MeRLINWebsite/images/spend.png" class="icon-benefit" /></div></div>
+                    <div class="col-md-3"><div class="text-center"><img src="MeRLINWebsite/images/spend.png" alt="Cost Savings" class="icon-benefit" /></div></div>
                                 <div class="col-md-9">   
-                                    <h1 class="desc-h1">Improved Cost Savings</h1> 
+                                    <h3 class="desc-h1">Improved Cost Savings</h3> 
                                     <p class="layout-p">Rationalize suppliers and items by discovering spend and savings patterns across categories, suppliers and regions at the lowest possible granularity using MeRLIN’s powerful Spend Analytics</p></div>
                                
             </div> </div>
           <div class="row">  <div class="col-md-6 aos-init aos-animate benefit-div" data-aos="fade-right">
-                <div class="col-md-3"><div class="text-center"> <img src="MeRLINWebsite/images/online.png" class="icon-benefit" /> </div></div>
+                <div class="col-md-3"><div class="text-center"> <img src="MeRLINWebsite/images/online.png" alt="Global Sourcing" class="icon-benefit" /> </div></div>
                                   <div class="col-md-9">   
-                                      <h1 class="desc-h1">Expanded Global Sourcing</h1>
+                                      <h3 class="desc-h1">Expanded Global Sourcing</h3>
                                     <p class="layout-p">Improve Supplier competitiveness by taking advantage of global sourcing using MeRLIN’s data aggregation</p>
                                 </div>
             </div>
             <div class="col-md-6 aos-init aos-animate benefit-div" data-aos="fade-left">
-                <div class="col-md-3"><div class="text-center"><img src="MeRLINWebsite/images/suppliers.png" class="icon-benefit" /></div></div>
+                <div class="col-md-3"><div class="text-center"><img src="MeRLINWebsite/images/suppliers.png" alt="Supplier Relationship" class="icon-benefit" /></div></div>
                                   <div class="col-md-9">  
-                                      <h1 class="desc-h1">Focused Supplier Relationship </h1>  
+                                      <h3 class="desc-h1">Focused Supplier Relationship </h3>  
                                     <p class="layout-p">Focus more on nurturing and growing strategic suppliers to improve sourcing efficiency, quality and delivery using real-time Supplier data</p>
                                 </div>
             </div></div>
        <div class="row">  <div class="col-md-6 aos-init aos-animate benefit-div" data-aos="fade-right">
-                <div class="col-md-3"><div class="text-center"> <img src="MeRLINWebsite/images/Risk-Mitigation.png" class="icon-benefit" /> </div></div>
+                <div class="col-md-3"><div class="text-center"> <img src="MeRLINWebsite/images/Risk-Mitigation.png" alt="Risk Mitigation" class="icon-benefit" /> </div></div>
                                   <div class="col-md-9">   
-                                      <h1 class="desc-h1">Risk Mitigation</h1>
+                                      <h3 class="desc-h1">Risk Mitigation</h3>
                                     <p class="layout-p">Mitigate the risk of dependency on a few select suppliers through real-time analysis of commodity contribution, quality ratings etc. at supplier and supplier group levels as well as commodity category levels</p>
                                 </div>
             </div>
             <div class="col-md-6 aos-init aos-animate benefit-div" data-aos="fade-left">
-                <div class="col-md-3"><div class="text-center"><img src="MeRLINWebsite/images/Enhanced-RoI.png" class="icon-benefit" /></div></div>
+                <div class="col-md-3"><div class="text-center"><img src="MeRLINWebsite/images/Enhanced-RoI.png" alt="Enhanced RoI" class="icon-benefit" /></div></div>
                                   <div class="col-md-9">  
-                                      <h1 class="desc-h1">Enhanced RoI</h1>  
+                                      <h3 class="desc-h1">Enhanced RoI</h3>  
                                     <p class="layout-p">MeRLIN’s shorter implementation time and out-of-the-box availability of features enable faster delivery of business benefits resulting in in accelerated return on investment</p>
                                 </div>
             </div></div>     

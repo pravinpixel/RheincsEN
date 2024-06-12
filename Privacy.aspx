@@ -4,6 +4,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style>
+	h2{font-weight: 600; font-size: 26px;
+	}
 .cookies {
     
     border-collapse: collapse;
@@ -39,18 +41,18 @@
              </ul>
          </div>
         <div class="row">
-            <div class="bg-img7  img-responsive">
-              
+            <div class="bg-img7  img-responsive" style="display: flex; align-items: center; justify-content: center;">
+              <h1 class="rhein-banner-heading-h2 inner-banner-text1 img-bottom" style="padding-bottom: 0px;">Rheincs's Privacy Policy</h1>
             </div>
             </div>
          <div class="wrappernew main-container">
-            <h3 class="redColor">Privacy and Cookies</h3>
+            <h2 class="redColor">Privacy and Cookies</h2>
             <p>Please read this privacy policy, which describes the collection, use, disclosure, retention and protection of your personal information carefully. </p>
             <p>This website is administered by RheinBrücke IT Consulting B.V. As administrator of this website RheinBrücke IT Consulting B.V. gathers, analyses and processes information regarding the visitors and usage of this website for its general business purposes and for the development of web statistics as described below.</p>
              <p>This Privacy Policy applies to all websites, applications and services referred to in this Privacy Policy. If you provide us with your personal information as described in the section "How we obtain information", you agree that we: (a) fulfil our contractual obligations to you; (b) in accordance with our legitimate interests (e.g. for internal administrative purposes, data analysis, back-up and benchmarking (see the section "How we use your information" for more details), direct marketing or for the purpose of clarifying or preventing crime) or (c) in accordance with your consent, which you may revoke, collect, store and use at any time as described in this Privacy Policy.</p>
-            <h3 class="redColor">Who we are</h3>
+            <h2 class="redColor">Who we are</h2>
              <p>This Privacy Policy applies to all products, applications and services offered by RheinBrücke IT Consulting B.V. (Sales tax identification number DE293866616 and registered office in Stationsplein 8K NL-6221BT, Maastricht, Netherlands), and excludes all product applications or services that are subject to separate privacy policies that are independent of this Privacy Policy.</p>
-            <h3 class="redColor">How we obtain information</h3>
+            <h2 class="redColor">How we obtain information</h2>
              <p>
                  To the extent permitted under applicable law, we collect information about you and any other party about whom you provide us with information as soon as you:
              </p>
@@ -103,11 +105,11 @@ The lawfulness of the processing is regulated in Art. 6 DSGVO and Art. 9 GDPR.
 If the legal basis is based on the consent (Article 6 (1) (a)) or on the legitimate interest (Article 6 (1) (f)), Revocation of consent (Article 7 (3)) can be actioned. 
 
              </p>            
-             <h3 class="redColor">Provide personal information about others to us</h3>
+             <h2 class="redColor">Provide personal information about others to us</h2>
              <p>
                  If you provide us with personal information about others, you are responsible for ensuring that you comply with all applicable duties and regulations in accordance with applicable privacy laws and seek the necessary consent. To the extent required by applicable data protection laws, you must ensure that you have provided the necessary notices and have obtained the express consent of the persons to disclose the information to us and have been told how to collect, use and retain their personal data, or you must inform these persons about our privacy policy.
              </p>
-             <h3 class="redColor">How we use your information</h3>
+             <h2 class="redColor">How we use your information</h2>
              <p>
                  We use your information in accordance with applicable law to:
              </p>
@@ -272,7 +274,7 @@ If necessary, we will monitor and record our communications with you, including 
                             </li>
                         </ul>
 </div>
-<h3 class="redColor">Data analysis and benchmarking</h3>
+<h2 class="redColor">Data analysis and benchmarking</h2>
              <p>
                  We use information generated and stored during your use of our services for legitimate business purposes to provide you with the best possible service and / or solutions and the best possible user experience. These purposes include:
              </p>
@@ -317,7 +319,7 @@ However you should note that any objection to the processing, may affect our abi
                                  </li>
                         </ul>
 </div>
-    <h3 class="redColor">Sharing your information</h3>
+    <h2 class="redColor">Sharing your information</h2>
             <p class="bulletContent">We share your information:  </p>
                    
              <div class="col-md-12">
@@ -440,15 +442,15 @@ However you should note that any objection to the processing, may affect our abi
                                    </li>
                         </ul>
 </div>
-<h3 class="redColor">Marketing</h3>
+<h2 class="redColor">Marketing</h2>
             <p>From time to time we will use your information to contact you, so that we can provide you with more accurate information about those of our applications, products and services that we believe may be of interest to you. </p>
              <p>We may also share the information we collect about you with carefully selected companies so that they (or we) can contact you to provide you with information about products or services that we believe might be of interest to you. </p>
              <p>We or these companies can contact you either by phone, SMS, e-mail or by post. You have the right at any time to ask us to refrain from further contact for marketing purposes. You may also request at any time that we no longer disclose your information to the third parties referred to in this paragraph.</p>
              <p>You can also unsubscribe from email marketing through the links in the emails we send you.</p>
-<h3 class="redColor">Third-party advertising platforms</h3>
+<h2 class="redColor">Third-party advertising platforms</h2>
 <p>When you reply to posts posted on third-party platforms (such as Facebook, Google, and Twitter), we may share your information with these third-party providers to help you with targeted advertising / content based on your profile. Your data will be used by third-party platform providers to identify your account and send you advertising. You can use the privacy settings on the third-party platform to control what advertising you want to receive; for more information, contact the third-party help / support centre.</p>
 
-<h3 class="redColor">Your information and your rights</h3>
+<h2 class="redColor">Your information and your rights</h2>
              <p>
                  If you are a resident of the EEA or any other jurisdiction with similar privacy laws, under certain circumstances you have the following rights:
              </p>
@@ -566,24 +568,24 @@ We retain your personal information for the entire duration of our business rela
                                    </li>
                         </ul>
 </div>
-<h3 class="redColor">Modification of this Privacy Policy</h3>
+<h2 class="redColor">Modification of this Privacy Policy</h2>
 <p>We may update this privacy policy from time to time. However, this does not restrict your rights under this Privacy Policy. The updated privacy policy is always posted on our website. Please read this when you are on the website (with "last updated" we indicate when we last changed this privacy policy).</p>
 
-<h3 class="redColor">Backup and storage of information</h3>
+<h2 class="redColor">Backup and storage of information</h2>
 <p>Your information is safe as we take reasonable technical and organizational measures to prevent unauthorized access or processing of your personal information, including accidental loss, damage, or accidental destruction. We will do our best to protect your personal information, but we cannot guarantee that the security of your information relating to our website, our applications or services or other websites, applications and services via an Internet connection or otherwise similar connection are transmitted, one hundred percent guaranteed. </p>
 <p>If you suspect that your information has been misused by unauthorized persons, please contact our Data protection officers Varun Dhamodharan at Varun.dhamodharan@rheincs.com or Data Protection Officer c / o activeMind Management and Technology Consulting AG, rheincs@activemind.defor any data protection-related e-mails. Your message will only be visible to the data protection officers.</p>
 
-<h3 class="redColor">Transfers outside the European Economic Area</h3>
+<h2 class="redColor">Transfers outside the European Economic Area</h2>
 <p>Personal data in the European Union are protected by data protection laws; however, the same protection is not guaranteed in all countries.</p>
 <p>Our website and some of our applications or services or parts thereof may be hosted in the United States or elsewhere outside the EEA (this includes all EU countries plus Norway, Iceland and Liechtenstein) ("EEA"). This means that we may transfer any information transmitted by you via the Website, the Application or the Service to a country outside the EEA or the United States. If you send us an e-mail, it will also be stored on our e-mail servers hosted in the United States.</p>
 <p>We may use service providers outside the EEA to help us provide our websites, applications and services to you (e.g., platform and payment providers who help us deliver our applications and services or advertisements or make payments). This means that we may transfer your data to service providers outside the EEA for the purpose of providing our applications, advertisements and services.</p>
 <p>We take reasonable steps to ensure that your information transmitted via our service and hosting providers to countries outside the EEA is protected by the use of control and security measures in accordance with appropriate data protection laws and regulations. </p>
 <p>By using our website, products or services, or by interacting with us as described in this Privacy Policy, you consent to the transfer of your information outside the EEA for the purposes set out in this Privacy Policy. If you do not consent to the transfer of your data to areas outside the EEA, please do not use our website, applications and services.</p>
-<h3 class="redColor">Other websites and social media</h3>
+<h2 class="redColor">Other websites and social media</h2>
 <p>If you follow a link from our website, our application or our service to another page or to another service, this privacy policy is no longer valid. We are not responsible for the handling of information by third-party websites or third-party services, and we therefore recommend that you read the privacy notices that refer to these websites or services.</p>
 <p>Our sites, applications or services may allow you to share information with social media providers. These social media providers may automatically provide us with access to certain of your personal information (for example, content that you have viewed). You should manage your privacy settings within your own account (s) so that you control which personal information we have access to.</p>
 
-<h3 class="redColor">Cookies, analysis and data traffic</h3>
+<h2 class="redColor">Cookies, analysis and data traffic</h2>
 <p>Cookies are small text files that are transmitted by our websites, applications or services and stored on your device. We use cookies to provide you with personalized service and to improve our websites, applications and services for you.</p>
 <p>Our cookies can either be used as session cookies (temporary cookies that identify you as a user and track your history within our websites, applications or services while your browser is open or until you close your session) or as persistent cookies (cookies that use our websites, applications or services allow us to "remember" who you are and what your preferences are within our websites, applications or services, and that remain on your computer or device, even after you close your browser or session).</p>
 <p>If you do not want to store cookies in your browser, you can do so by selecting the appropriate browser setting. You can deactivate the saving of cookies under Extras / Internet options in your browser, restrict them to certain websites or set your browser to notify you when a cookie is sent. Please note, however, that in this case you will have to reckon with a limited representation of the online offers and limited user guidance. You can also delete cookies at any time. In this case, the information stored therein will be removed from your device.</p>
@@ -839,23 +841,23 @@ We retain your personal information for the entire duration of our business rela
             <p> Please visit<a target="_blank" href="https://www.cookiebot.com/en/cookie-declaration/"> https://www.cookiebot.com/en/cookie-declaration/ </a>for more information on the cookies used.</p>
 <p>If you do not want to store cookies in your browser, you can do so by selecting the appropriate browser setting. You can deactivate the saving of cookies under Extras / Internet options in your browser, restrict them to certain websites or set your browser to notify you when a cookie is sent. Please note, however, that in this case you will have to reckon with a limited representation of the online offers and limited user guidance. You can also delete cookies at any time. In this case, the information stored therein will be removed from your device.</p>
 
-<h3 class="redColor">Web beacons and parameter tracking</h3>
+<h2 class="redColor">Web beacons and parameter tracking</h2>
 <p>We use cookies and similar software known as web beacons, to track those users who have accessed our website after clicking on one of our advertisements on another website or in emails, and for details about products or services. These web beacons collect limited information. It is not possible to prevent the use of web beacons. However, since web beacons are used in conjunction with cookies, you can effectively disable them by adjusting your browser settings to generally restrict or block cookies.</p>
 
-<h3 class="redColor">IP address and traffic data</h3>
+<h2 class="redColor">IP address and traffic data</h2>
 
 <p>We retain a record of traffic data automatically logged by our servers, including your Internet Protocol (IP) address, device information, the websites you visited before our websites, and the website you visit after you leave our website. We also collect some website, application and service statistics such as access rates, page views and page views. We are unable to identify individuals based on data or website traffic statistics.</p>
-<h3 class="redColor">Tools</h3>
+<h2 class="redColor">Tools</h2>
 <p><u>We use the following tools that use cookies on our website:</u></p>
-<h3 class="redColor">Google Analytics</h3>
+<h2 class="redColor">Google Analytics</h2>
 <p>Google Analytics uses "cookies" to see how users' websites, applications or services are used. The information generated by cookies to learn more about your use of the websites, applications or services (including your IP address) will be transmitted to Google and stored by Google on servers in the United States. Google uses this information to analyse your behaviour on the websites, applications and services, providing reports on operator website activity and other services related to website activity and internet usage. </p>
 <p>Google may transfer this information to third parties if required by law or if third parties process the data on behalf of Google. Google will not associate your IP address with other data stored by Google. You can refuse the use of cookies by making the appropriate settings in your browser or within your application. Please note, however, that in such a case, not all features of this website may be available to you. By using our websites, applications and services, you also consent to Google's use of your personal information in the manner and for the purposes described above. For more information, see "How Google uses data when you use our partners' sites or apps" (data usage by Google when using our affiliate pages or apps), www.google.com/policies/privacy/partners/, or under a different URL, sometimes called Google.  www.google.com/policies/privacy/partners/ , or any other URL.</p>
 <p>You can prevent the collection by Google Analytics by clicking on the following link:<a target="_blank" href="http://tools.google.com/dlpage/gaoptout"> http://tools.google.com/dlpage/gaoptout </a></p>
-<h3 class="redColor">Google Tag Manager</h3>
+<h2 class="redColor">Google Tag Manager</h2>
 <p>This website uses Google Tag Manager. This service allows website tags to be managed through a single interface. Google Tool Manager only implements tags. This means: no cookies are used and no personal data is collected. Google Tool Manager triggers other tags, which may collect data. However, Google Tag Manager does not access this data. If deactivated at the domain or cookie level, it will remain in effect for all tracking tags as far as they are implemented with the Google Tag Manager.</p>
 
 
-<h3 class="redColor">Facebook plugins (like button)</h3>
+<h2 class="redColor">Facebook plugins (like button)</h2>
 <p>Facebook, provider Facebook Inc., 1 Hacker Way, Menlo Park, California 94025, USA, also uses cookies. The Facebook plugins can be recognized by the Facebook logo or the "Like-Button" ("Like") on our site. An overview of the Facebook plugins can be found here: http://developers.facebook.com/docs/plugins/ .</p>
 <p>When you visit our pages, the plugin establishes a direct connection between your browser and the Facebook server. Facebook receives the information that you have visited our site with your IP address. If you click on the Facebook "Like-Button" while you are logged into your Facebook account, you can link the contents of our pages to your Facebook profile. As a result, Facebook can assign the visit to our pages to your user account. We point out that we as the provider of the pages are not aware of the content of the data transmitted and their use by Facebook. For more information, see the Facebook Privacy Policy at http://www.facebook.com/policy.php .</p>
 <p>If you do not wish Facebook to associate your visit to our pages with your Facebook user account, please log out of your Facebook user account.</p>
@@ -863,24 +865,24 @@ We retain your personal information for the entire duration of our business rela
 <p>We can exchange information such as technical identifiers from your registration information on our website or our CRM system with trusted advertising partners. This will link your devices and / or environments and offer you a seamless user experience with the devices and environments you use. For more details on these linking capabilities, please refer to the privacy policy that you will find in the aforementioned platforms or the explanations below. Facebook Connect Privacy Policy: <br />
 <a target="_blank" href="https://en-us.facebook.com/policy.php">https://en-us.facebook.com/policy.php </a> <br />
 <a target="_blank" href="https://www.mein-datenschutzbeauftragter.de">https://www.mein-datenschutzbeauftragter.de</a><br /></p>
-<h3 class="redColor">Twitter</h3>
+<h2 class="redColor">Twitter</h2>
 <p>These features are available through Twitter Inc., 1355 Market Street, Suite 900, San Francisco, CA 94103, USA. By using Twitter and the "Re-Tweet" function, the websites you visit are linked to your Twitter account and shared with other users. This data is also transmitted to Twitter. We point out that we as the provider of the pages are not aware of the content of the transmitted data and their use by Twitter. For more information, see the Twitter Privacy Policy at <a target="_blank" href="http://twitter.com/privacy">http://twitter.com/privacy</a>.<br />
 You can change your privacy settings on Twitter in the Account Settings at<a target="_blank" href="http://twitter.com/account/settings"> http://twitter.com/account/settings. </a> </p>
-<%--<h3 class="redColor">Google +1</h3>
+<%--<h2 class="redColor">Google +1</h2>
 <p>Collect and share information: The Google +1 button allows you to post information worldwide. The Google + 1 button will help you and others to get personalized content from Google and our partners. Google stores both the information that you have + 1'd for a content and information about the page that you viewed when you clicked +1. Your + 1's may appear as clues along with your profile name and photo in Google services, such as in search results or in your Google profile, or elsewhere on websites and ads on the web. Google records information about your + 1 activity to improve Google's services to you and others. To use the Google + 1 button, you need a globally visible, public Google profile that must contain at least the name chosen for the profile. This name will be used in all Google services. In some cases, this name may also replace a different name you used when sharing content through your Google Account. The identity of your Google Profile may be displayed to users who know your email address or have other identifying information from you.</p>
 <p>Use of the information collected: In addition to the uses outlined above, the information you provide will be used in accordance with the applicable Google privacy policy. Google may publish summarized statistics about users' + 1 activity or share it with users and partners, such as publishers, advertisers, or affiliate websites.</p>--%>
-<h3 class="redColor">LinkedIn</h3>
+<h2 class="redColor">LinkedIn</h2>
 <p>The provider is LinkedIn Corporation, 2029 Stierlin Court, Mountain View, CA 94043, United States. Each time you visit one of our pages that contains LinkedIn features, it will connect to LinkedIn servers. LinkedIn is informed that you have visited our website with your IP address. If you click LinkedIn's "Recommend Button" and are logged in to your LinkedIn account, LinkedIn will be able to associate your visit to our website with you and your user account. We point out that we as the provider of the pages have no knowledge of the content of the transmitted data and their use by LinkedIn.</p>
 <p>For more information, see the LinkedIn privacy statement at:<a target="_blank" href="https://www.linkedin.com/legal/privacy-policy"> https://www.linkedin.com/legal/privacy-policy </a>.</p>
-<h3 class="redColor">XING</h3>
+<h2 class="redColor">XING</h2>
 <p>The provider is the XING AG, Dammtorstraße 29-32, 20354 Hamburg, Germany. Each time you visit one of our sites that contains XING features, it will connect to XING servers. A storage of personal data is not done to our knowledge. In particular, no IP addresses are stored or the usage behaviour is evaluated.</p>
 <p>Further information on data protection and the XING Share button can be found in XING's privacy policy at<a target="_blank" href="https://www.xing.com/app/share"> https://www.xing.com/app/share </a>.</p>
-<h3 class="redColor">LeadSquared </h3>
+<h2 class="redColor">LeadSquared </h2>
 
 <p>We use LeadSquared to design our landing pages. In our landing pages, we use form submissions to get the viewers name, contact number and work email address. All these details will be stored in  LeadSquared and will be used by Sales representatives for marketing activities. The sales representatives use this tool for updating any activity with respect to the lead. Please <a target="_blank" href="https://www.leadsquared.com/gdpr/dpa-for-signature/">click here</a> to view DPA for more information regarding LeadSquared. </p>
 
  
-<h3 class="redColor">FactorsAI </h3>
+<h2 class="redColor">FactorsAI </h2>
 <p>
 FactorsAI is a website visitor tracking software. The software shows RIC what prospects and customers do on our website so that we can increase our marketing ROI and generate more sales.
 
@@ -890,9 +892,9 @@ FactorsAI stores the data for 180 days. Please visit https://www.factors.ai/
 <%--<p>Leadfeeder is a website visitor tracking software. The software shows RIC what prospects and customers do on our website so that we can increase our marketing ROI and generate more sales.</p>
 <p>Leadfeeder stores the data for 180 days. Please visit<a target="_blank" href="https://www.leadfeeder.com/"> https://www.leadfeeder.com/ </a>for more details about Leadfeeder.</p>--%>
 
-<h3 class="redColor">How to disable cookies</h3>
+<h2 class="redColor">How to disable cookies</h2>
 <p>You may be able to configure your browser or our website, our application or our service to restrict the use of cookies or block all cookies as desired; however, disabling cookies may limit the full use of certain portions of our websites, applications or services. For more information about cookies and how to adjust your browser settings to delete, accept, or decline cookies, visit:<a target="_blank" href="http://www.allaboutcookies.org/ge/"> http://www.allaboutcookies.org/ge/ </a>.</p>
-<h3 class="redColor">Deleting cookies</h3>
+<h2 class="redColor">Deleting cookies</h2>
 <p>You can use your browser settings to delete individual cookies or the entire cookie portfolio. In addition, you will receive information and instructions on how to delete these cookies or block their storage in advance. Depending on the provider of your browser, you will find the necessary information under the following links:</p>
 <p>Mozilla Firefox:<a target="_blank" href="https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen"> https://support.mozilla.org/de/kb/cookies-loeschen-data-from-websites- </a></p>
 
@@ -906,7 +908,7 @@ FactorsAI stores the data for 180 days. Please visit https://www.factors.ai/
 
 <p>In addition, you can prevent the loading of so-called scripts by default. NoScript allows JavaScript, Java and other plugins to run only on trusted domains of your choice. Information and instructions on how to edit this function can be obtained from the provider of your browser (eg for Mozilla Firefox: https://addons.mozilla.org/en/firefox/addon/noscript/ ). </p>
 
-<h3 class="redColor">Further information</h3>
+<h2 class="redColor">Further information</h2>
 <p>The Legal basis: The legal basis for these processing is your consent, Art. 6 lit. a DSGVO (EU General Data Protection Regulation).</p>
 <p>The data you enter will be stored for the purpose of individual communication with you.</p>
 <p>The processing of the data entered into the contact form is based on a legitimate interest (Art. 6 (1) (f) GDPR).</p>
@@ -915,7 +917,7 @@ FactorsAI stores the data for 180 days. Please visit https://www.factors.ai/
 
 
 
-<h3 class="redColor">Which data protection rights do you have?</h3>
+<h2 class="redColor">Which data protection rights do you have?</h2>
 
 <p>16 DSGVO, the right to cancellation under Art. 17 GDPR, the right to restriction of processing under Art. 18 GDPR, the right of opposition 21 DSGVO and the right to data portability under Art. 20 GDPR.</p>
 <p>With regard to the right to information and the right to erase, the restrictions under §§ 34 and 35 BDSG apply.</p>

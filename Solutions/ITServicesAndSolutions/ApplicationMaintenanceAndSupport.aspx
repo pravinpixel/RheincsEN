@@ -337,7 +337,7 @@
                                                 <div class="input-group-addon">
                                                     <img src="/Landing/Images/name.png" />
                                                 </div>
-                                                <input type="text" class="form-control txtFirstName" placeholder="Full Name" />
+                                                <input type="text" class="form-control txtFirstName" placeholder="Full Name" name="first_name" />
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -345,7 +345,7 @@
                                                 <div class="input-group-addon">
                                                     <img src="/Landing/Images/phone.png" />
                                                 </div>
-                                                <input type="text" class="form-control txtPhone" placeholder="Phone" />
+                                                <input type="text" class="form-control txtPhone" placeholder="Phone" name="mobile_number" />
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -353,7 +353,7 @@
                                                 <div class="input-group-addon">
                                                     <img src="/Landing/Images/mail.png" />
                                                 </div>
-                                                <input type="text" class="form-control txtEmail" placeholder="Work E-mail" />
+                                                <input type="text" class="form-control txtEmail" placeholder="Work E-mail" name="email_address"/>
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -361,7 +361,7 @@
                                                 <div class="input-group-addon">
                                                     <img src="/Landing/Images/office.png" />
                                                 </div>
-                                                <input type="text" class="form-control txtCompany" placeholder="Company" />
+                                                <input type="text" class="form-control txtCompany" placeholder="Company" name="company_name"/>
                                             </div>
                                         </div>
 
@@ -625,6 +625,100 @@
             $('#btnAMS').button('reset');
             clear();
         }
+
+        function onFormSubmit1() {
+
+            var checks = new Array();
+
+
+            //debugger;
+
+            var fieldMapping = {
+                MXHOrgCode: "17537",
+                MXHLandingPageId: "2c6af5fc-762c-11e9-9a7b-0288bc426570",
+                MXHAsc: "",
+                FirstName: "first_name",
+                Company: "company_name",
+                EmailAddress: "email_address",
+                Phone: "mobile_number",
+
+            };
+            var onSuccess = function (data) {
+
+                data = $.parseJSON(data)
+                var logData = {
+                    Name: $('#txtFirstName').val(),
+                    FormPID: data.PId,
+                    Email: $('#txtEmail').val(),
+                    Mobile: $('#txtPhone').val(),
+                    Company: $('#txtCompany').val(),
+                    FormStatus: data.Status,
+                    FormMsg: data.Message,
+                    FormAction: data.FormAction,
+                    ServiceType: "ADMS"
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "/" + "api/Admin/LeadSquaredLog",
+                    data: JSON.stringify(logData),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    failure: function (response) {
+                        alert(response.d);
+                    }
+
+                });
+                clear();
+                console.log(data);
+
+
+            }
+
+            var onError = function (data) {
+
+
+                data = $.parseJSON(data)
+                var logData = {
+                    Name: $('#txtFirstName').val(),
+                    FormPID: data.PId,
+                    Email: $('#txtEmail').val(),
+                    Mobile: $('#txtPhone').val(),
+                    Company: $('#txtCompany').val(),
+                    FormStatus: data.Status,
+                    FormMsg: data.Message,
+                    FormAction: data.FormAction,
+                    ServiceType: "Contact Us"
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "/" + "api/Admin/LeadSquaredLog",
+                    data: JSON.stringify(logData),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    failure: function (response) {
+                        alert(response.d);
+                    }
+
+                });
+                clear();
+                console.log(data);
+
+            }
+
+
+
+            new LSQForm().captureLead(fieldMapping, "form1",
+
+            {
+
+                onSuccess: onSuccess,   //optional
+                onError: onError,       //optional
+
+            });
+
+
+
+        };
     </script>
     <script type="text/javascript">
 
@@ -692,6 +786,7 @@
                     dataType: "json",
                     success: function (response) {
                         if (response == "success") {
+                            onFormSubmit1();
                             $('#btnpdf').hide();
                             $('#btndownload').show();
                             $('.showErrorMsg1').text('Click the above button to download the brochure!');

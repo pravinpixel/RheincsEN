@@ -1,7 +1,7 @@
-﻿<%@ Page Title="Best ERP software for Cable Manufacturing (Know more) | Epicor ERP | Cable Manufacturing Software ERP| ERP Demo | Epicor ERP Implementation Partner in Middle East, UAE, Dubai | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/RheincsLanding.Master" AutoEventWireup="true" CodeBehind="Epicor-for-cable-manufacturing.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.Epicor_for_cable_manufacturing" %>
+﻿<%@ Page Title="Boost Cable Manufacturing with RheinBrücke’s ERP Software" Language="C#" MasterPageFile="~/RheincsLanding.Master" AutoEventWireup="true" CodeBehind="Epicor-for-cable-manufacturing.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.Epicor_for_cable_manufacturing" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-     <meta name="keywords" content="Epicor cable manufacturing software, cable manufacturing consulting firms, cable manufacturing erp solutions, cable manufacturing erp systems, erp for cable manufacturing industry, cable manufacturing software erp, epicor cable manufacturing erp software, epicor erp project implementation, customized epicor erp solutions and implementation, epicor platinum partners in germany netherlands europe india dubai uae middle east, epicor erp consultants, outsourcing epicor erp management, epicor erp consulting companies and firm in germany netherlands europe india dubai uae middle east , epicor erp consultants in germany netherlands europe india dubai uae middle east, epicor erp implementation partners"/> 
-    <meta name="Description" content="Epicor Cable Manufacturing software is a specialized solution for Cable Manufacturing industry. Click here to know about Epicor Cable Manufacturing ERP software. RheinBrücke IT consulting is the largest Epicor partner in EMEAI in Epicor ERP implementation. Contact us for the ERP Demo"/>
+<meta name="keywords" content="Epicor cable manufacturing software, cable manufacturing consulting firms, cable manufacturing erp solutions, cable manufacturing erp systems, erp for cable manufacturing industry, cable manufacturing software erp, epicor cable manufacturing erp software, epicor erp project implementation, customized epicor erp solutions and implementation, epicor platinum partners in germany netherlands europe india dubai uae middle east, epicor erp consultants, outsourcing epicor erp management, epicor erp consulting companies and firm in germany netherlands europe india dubai uae middle east , epicor erp consultants in germany netherlands europe india dubai uae middle east, epicor erp implementation partners"/> 
+<meta name="Description" content="Boost cable manufacturing with RheinBrücke’s ERP software. Streamline processes and achieve excellence."/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -26,7 +26,7 @@
     border-color: #DDDDDD !important;
 }
      
-        h2 {
+        h2 { font-weight: 600;
     font-size: 27px;
 }
         .write-to-us-input
@@ -209,17 +209,18 @@ var google_remarketing_only = false;
                     <div class="item active">
                         <img src="../../../Assets/images/SEO-page-images/Cable-manufacturing/banner12.jpg"" alt="Epicor ERP addresses the unique challenges of manufacturing industry." class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">                                
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">Epicor for Cable Manufacturing</h1><span class="rhein-banner-heading-black">Boost efficiency with real-time, actionable visibility into plant and business operations.</span></div>                               
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">Epicor for Cable Manufacturing</div><span class="rhein-banner-heading-black">Boost efficiency with real-time, actionable visibility into plant and business operations.</span></div>                               
                             </div>
                              
-                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right">
+                                <a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
                                     <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
                         </div>
                     </div>
                     <div class="item">
                         <img src="../../../Assets/images/SEO-page-images/Cable-manufacturing/CM_bnr_2.jpg" alt="With EPICOR ERP, manufacturers can achieve operational excellence with streamlined logistics & manufacturing process" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">                               
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">Epicor for Cable Manufacturing </h1><span class="rhein-banner-heading-black">RheinBrücke provides ERP solutions to cable manufacturers that enables them to meet the needs of their stakeholders with the flexibility required for today’s ever changing markets.</span></div>                                
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">Epicor for Cable Manufacturing </div><span class="rhein-banner-heading-black">RheinBrücke provides ERP solutions to cable manufacturers that enables them to meet the needs of their stakeholders with the flexibility required for today’s ever changing markets.</span></div>                                
                             </div>
                              
                             <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
@@ -229,7 +230,7 @@ var google_remarketing_only = false;
                     <div class="item">
                         <img src="../../../Assets/images/SEO-page-images/Cable-manufacturing/banner4.jpg" alt="RheinBrücke offers a specific manufacturing solution set that is customized to geography." class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">                               
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">Epicor for Cable Manufacturing</h1><span class="rhein-banner-heading-black">With EPICOR ERP, cable manufacturers can integrate all their processes and data sources to leverage advance features which enables them to improve all the facets of their operations.</span></div>                                
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">Epicor for Cable Manufacturing</div><span class="rhein-banner-heading-black">With EPICOR ERP, cable manufacturers can integrate all their processes and data sources to leverage advance features which enables them to improve all the facets of their operations.</span></div>                                
                             </div>
                              
                             <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
@@ -240,7 +241,7 @@ var google_remarketing_only = false;
                         <img src="../../../Assets/images/SEO-page-images/Cable-manufacturing/CM_bnr_4.jpg" alt="Epicor Erp pave the way for Manufacturers to streamline business processes" class="img-responsive" />
                          <div class="container">
                             <div class="carousel-caption rhein-caption-text">                              
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">Epicor for Cable Manufacturing</h1><span class="rhein-banner-heading-black">Our solutions and templates provide the necessary flexibility, responding to individual, company specific conditions and processes in a detailed manner.</span></div>
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">Epicor for Cable Manufacturing</div><span class="rhein-banner-heading-black">Our solutions and templates provide the necessary flexibility, responding to individual, company specific conditions and processes in a detailed manner.</span></div>
                                </div>
                               
                             <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
@@ -250,7 +251,7 @@ var google_remarketing_only = false;
                      <div class="item">
                        <img src="../../../Assets/images/SEO-page-images/Cable-manufacturing/banner5.jpg" alt="EPICOR ERP helps to optimize lean manufacturing for smarter decisions and increase customer satisfaction" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">                               
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">Epicor for Cable Manufacturing</h1><span class="rhein-banner-heading-black">We specialize in solutions that are ideal from a broad range of sectors that allows you to train and support your business users around efficient processes and best practices.</span></div>                                
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">Epicor for Cable Manufacturing</div><span class="rhein-banner-heading-black">We specialize in solutions that are ideal from a broad range of sectors that allows you to train and support your business users around efficient processes and best practices.</span></div>                                
                             </div>
                             
                             <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
@@ -260,7 +261,7 @@ var google_remarketing_only = false;
                      <div class="item">
                         <img src="../../../Assets/images/SEO-page-images/Cable-manufacturing/CM_bnr_6.jpg" alt="RheinBrücke IT consulting is the largest Epicor partner in dubai, UAE, Oman, Bahrain, Kuwait, middle east for Epicor ERP implementation." class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">                               
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><h1 class="customh1">Epicor for Cable Manufacturing</h1><span class="rhein-banner-heading-black">RheinBrücke believes that a successful ERP implementation is very crucial as it impacts almost every aspect of your cable manufacturing business. Here’s how we help our clients to thrive in competitive markets.</span></div>                                
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">Epicor for Cable Manufacturing</div><span class="rhein-banner-heading-black">RheinBrücke believes that a successful ERP implementation is very crucial as it impacts almost every aspect of your cable manufacturing business. Here’s how we help our clients to thrive in competitive markets.</span></div>                                
                             </div>
                               
                             <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
@@ -285,11 +286,12 @@ var google_remarketing_only = false;
      <div class="row">
          <!--overview--><div class="clearfix">&nbsp;</div>
          <div class="col-md-12 contentwithpadding">
-             <h3 class="redColor">EPICOR FOR CABLE MANUFACTURING - OVERVIEW</h3>
+			 <h1>Best ERP software for Cable Manufacturing</h1>
+             <h2 class="redColor">EPICOR FOR CABLE MANUFACTURING - OVERVIEW</h2>
              <div class="mainContent-normal contentdiv" style="text-align:justify">
                                              Cable Manufacturers face constant pressure to produce a top quality product on time, every time. Economic fluctuations, skills shortages, governance and compliance mandates add to the complexities that cable manufacturers face every day. Striving to reduce costs and increase profitability while remaining competitive is no easy task. Leveraging EPICOR, we enable our customers to meet these needs and have the ability to anticipate the future needs of today's agile cable manufacturing environments. Epicor ERP enables the complete cable manufacturing process in addition to automating all the core functions of the organization. It further helps to integrate production with an inbuilt quality control solution at each stage of the cable manufacturing process; including inbound inspection, throughout cable manufacturing and shipping. Our implementation would take you far ahead of the competition.
                  </div>
-             <h3 class="redColor">SPECIALIZED SOLUTIONS FOR CABLE MANUFACTURING</h3>
+             <h2 class="redColor">SPECIALIZED SOLUTIONS FOR CABLE MANUFACTURING</h2>
                     <div class="withIcons">                        
                         <div class="mainContent-normal-manufacturing">We offer a specific solution set that is customized to geography pertaining to cable manufacturing.</div>
                         <ul class="bulletContent-manufacturing redColor">
@@ -454,7 +456,7 @@ var google_remarketing_only = false;
     </div>
                 <div class="container contentwithpadding rheincs-container">
                     <div class="wrappernewbullet">
-                    <h3 class="redColor">RHEINBRÜCKE ADVANTAGE</h3>
+                    <h2 class="redColor">RHEINBRÜCKE ADVANTAGE</h2>
                   <%--  <p class="padd-bottom-10"><b>Strengthening Families </b></p>--%>
                     <div class="col-md-12">
                         <ul>
@@ -548,7 +550,7 @@ var google_remarketing_only = false;
                 <p class="padd-bottom-10"><a data-toggle="modal" style="color:#7b1315;" onclick="Clear()" data-target="#myModal-contactus"><u>Contact Us</u></a> when you’re ready to start, or simply have a few questions. We’re happy to help with your cable manufacturing software goals and challenges.</p> 
          
             </div>
-			<h3 class="redColor">RELATED LINKS</h3>
+			<h2 class="redColor">RELATED LINKS</h2>
         <p class="related-links">
                      <b><a href="https://en.rheincs.com/rheinbrucke-solutions/cable-manufacturing">ERP for Cable manufacturing industry (success story)</a></b></p><br />
 					 <p  class="related-links">

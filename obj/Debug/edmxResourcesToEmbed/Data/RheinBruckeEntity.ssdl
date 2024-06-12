@@ -36,6 +36,7 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.CaseStudies' does not have a pri
     <Property Name="Name" Type="nvarchar" MaxLength="50" />
     <Property Name="Email" Type="nvarchar" MaxLength="50" />
     <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companyname" Type="nvarchar(max)" />
     <Property Name="Message" Type="nvarchar(max)" />
     <Property Name="EmailTypeID" Type="int" />
     <Property Name="CreatedOn" Type="datetime" />
@@ -125,6 +126,7 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.FactSheet' does not have a prima
     <Property Name="Email" Type="nvarchar" MaxLength="255" />
     <Property Name="Mobile" Type="nvarchar" MaxLength="255" />
     <Property Name="ServiceType" Type="nvarchar(max)" />
+    <Property Name="Company" Type="nvarchar(max)" />
   </EntityType>
   <EntityType Name="MailSettings">
     <Key>

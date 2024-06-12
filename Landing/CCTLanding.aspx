@@ -342,7 +342,7 @@
         <div class="banner-w-cct">
             <%--<div class="row visible-xs visible-sm">
                 <div class="col-md-12">
-                    <img class="img-responsive" src="/Landing/Images/cct-banner.jpg" />
+                    <img class="img-responsive" src="/Landing/Images/cct-banner.jpg" alt="" />
                 </div>
             </div>--%>
             <div class="row">
@@ -379,7 +379,7 @@
                     <p class="para">The Epicor–CCT (Copy Company Tool) completes the entire task of configuration migration in an automated (hence error free) environment within few minutes. This unique tool is currently the only such solution available for the Epicor ERP platform.</p>
 
                     
-                     <img class="img-responsive" src="/Landing/Images/cct-img.jpg" />
+                     <img class="img-responsive" src="/Landing/Images/cct-img.jpg" alt="Configuration Settings" />
                     <h5 style="font-weight: 500; max-width: 300px; text-align: center; line-height: 22px;">
                         <strong>Configuration settings from the parent company are transferred to the company's subsidiaries at the click of a button
                             <br />
@@ -409,7 +409,7 @@
                         <table class="frm-tbl">
                             <tr>
                                 <td align="center">
-                                    <img style="margin-top: -35px;" src="/Landing/Images/pdf-circle.png" />
+                                    <img style="margin-top: -35px;" src="/Landing/Images/pdf-circle.png" alt="" />
                                 </td>
                             </tr>
                             <tr>
@@ -425,7 +425,7 @@
                                     <div class="form-group">
                                         <div class="input-group">
                                             <div class="input-group-addon">
-                                                <img src="/Landing/Images/name.png" />
+                                                <img src="/Landing/Images/name.png" alt="Name" />
                                             </div>
                                             <input type="text" class="form-control" id="txtName2" placeholder="Full name" />
                                         </div>
@@ -434,7 +434,7 @@
                                     <div class="form-group">
                                         <div class="input-group">
                                             <div class="input-group-addon">
-                                                <img src="/Landing/Images/phone.png" />
+                                                <img src="/Landing/Images/phone.png" alt="Phone" />
                                             </div>
                                             <input type="text" class="form-control" id="txtPhone2" placeholder="Phone" />
                                         </div>
@@ -442,7 +442,7 @@
                                     <div class="form-group">
                                         <div class="input-group">
                                             <div class="input-group-addon">
-                                                <img src="/Landing/Images/mail.png" />
+                                                <img src="/Landing/Images/mail.png" alt="Mail" />
                                             </div>
                                             <input type="text" class="form-control" id="txtEmail2" placeholder="Work E-mail" />
                                         </div>
@@ -450,7 +450,7 @@
                                      <div class="form-group">
                                                 <div class="input-group">
                                                     <div class="input-group-addon">
-                                                        <img src="/Landing/Images/office.png" />
+                                                        <img src="/Landing/Images/office.png" alt="Office" />
                                                     </div>
                                                     <input type="text" class="form-control" id="txtCompany2" placeholder="Company" />
                                                 </div>
@@ -521,11 +521,11 @@
 
                         <tr>
                             <td align="right" valign="middle">
-                                <span>Time consuming</span><img style="" src="/Landing/Images/arrow.png" />
+                                <span>Time consuming</span><img style="" src="/Landing/Images/arrow.png" alt="Arrow"/>
                             </td>
                             <td style="width: 25px;"></td>
                             <td valign="middle" style="border-left: 2px #651a1a solid; padding: 20px 0px;">
-                                <img style="margin-left: -25px;" src="/Landing/Images/cct-1.png" />
+                                <img style="margin-left: -25px;" src="/Landing/Images/cct-1.png" alt="Fast Time Management" />
                                 <span>Fast</span>
                             </td>
                         </tr>
@@ -533,11 +533,11 @@
                         <tr>
                             <td align="right" valign="middle">
                                 <span>Error-prone </span>
-                                <img style="" src="/Landing/Images/arrow.png" />
+                                <img style="" src="/Landing/Images/arrow.png" alt="Arrow" />
                             </td>
                             <td style="width: 25px;"></td>
                             <td valign="middle" style="border-left: 2px #651a1a solid; padding: 20px 0px;">
-                                <img style="margin-left: -25px;" src="/Landing/Images/cct-2.png" />
+                                <img style="margin-left: -25px;" src="/Landing/Images/cct-2.png" alt="Zero Error Margin" />
                                 <span>Zero error margin</span>
                             </td>
                         </tr>
@@ -545,11 +545,11 @@
                         <tr>
                             <td align="right" valign="middle">
                                 <span>Cost intensive </span>
-                                <img style="" src="/Landing/Images/arrow.png" />
+                                <img style="" src="/Landing/Images/arrow.png" alt="Arrow" />
                             </td>
                             <td style="width: 25px;"></td>
                             <td valign="middle" style="border-left: 2px #651a1a solid; padding: 20px 0px;">
-                                <img style="margin-left: -25px;" src="/Landing/Images/cct-3.png" />
+                                <img style="margin-left: -25px;" src="/Landing/Images/cct-3.png" alt="Cost Effective" />
                                 <span>Cost effective</span>
                             </td>
                         </tr>
@@ -557,11 +557,11 @@
                         <tr>
                             <td align="right" valign="middle">
                                 <span>Inefficient </span>
-                                <img style="" src="/Landing/Images/arrow.png" />
+                                <img style="" src="/Landing/Images/arrow.png" alt="Arrow" />
                             </td>
                             <td style="width: 25px;"></td>
                             <td valign="middle" style="border-left: 2px #651a1a solid; padding: 20px 0px;">
-                                <img style="margin-left: -25px;" src="/Landing/Images/cct-4.png" />
+                                <img style="margin-left: -25px;" src="/Landing/Images/cct-4.png" alt="Efficient" />
                                 <span>Efficient</span>
                             </td>
                         </tr>
@@ -570,11 +570,11 @@
                                 <span style="text-align: right; display: -webkit-inline-box; margin-right: 15px;">Configuration generation
                                     is not possible
                                 </span>
-                                <img style="" src="/Landing/Images/arrow.png" />
+                                <img style="" src="/Landing/Images/arrow.png" alt="Arrow" />
                             </td>
                             <td style="width: 25px;"></td>
                             <td valign="middle" style="border-left: 2px #651a1a solid; padding: 20px 0px;">
-                                <img style="margin-left: -25px;" src="/Landing/Images/cct-6.png" />
+                                <img style="margin-left: -25px;" src="/Landing/Images/cct-6.png" alt="Configuration Generation" />
                                 <span style="text-align: left; display: -webkit-inline-box;">Configuration
                                     <br />
                                     generation enabled

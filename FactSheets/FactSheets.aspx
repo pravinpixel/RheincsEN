@@ -1,8 +1,7 @@
-﻿<%@ Page Title="Resources: Factsheets | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="FactSheets.aspx.cs" Inherits="RheinBrucke.FactSheets.FactSheets" %>
-
+﻿<%@ Page Title="RheinBrücke IT Consulting: In-Depth Factsheets" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="FactSheets.aspx.cs" Inherits="RheinBrucke.FactSheets.FactSheets" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-  <meta name="keywords" content="ERP solution, ERP implementation, ERP, Strategic Sourcing, Epicor ERP, eProcurement" />
-   <meta name="Description" content="Download research collateral from RheinBrücke" />
+<meta name="keywords" content="ERP solution, ERP implementation, ERP, Strategic Sourcing, Epicor ERP, eProcurement" />
+<meta name="Description" content="Unlock the full potential of your business operations with our comprehensive ERP implementation services. Factsheets can optimize your processes and drive growth." />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -15,6 +14,7 @@
             </ul>
         </div>
         <div class="row main-container marg20">
+			<h1>Epicor Factsheets: ERP, HCM, iScala, Manufacturing</h1>
             <h5 class="deco-header">
                 <span class="redBottom">FACTSHEETS</span><asp:DropDownList ID="drpFactSheets" runat="server" CssClass="dropdownBtn" OnSelectedIndexChanged="drpFactSheets_SelectedIndexChanged" AutoPostBack="True">
                     <asp:ListItem>All</asp:ListItem>

@@ -1,7 +1,7 @@
-﻿<%@ Page Title="Construction Software | Engineering ERP Software | Procurement software|Epicor" Language="C#" MasterPageFile="~/RheincsLanding.Master" AutoEventWireup="true" CodeBehind="epicor-for-construction-and-EPC.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.Epicor_for_construction_and_EPC" %>
+﻿<%@ Page Title="RheinBrücke: Efficient ERP software for EPC and Construction Companies" Language="C#" MasterPageFile="~/RheincsLanding.Master" AutoEventWireup="true" CodeBehind="epicor-for-construction-and-EPC.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.Epicor_for_construction_and_EPC" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-   <meta name="keywords" content="ERP for construction management, construction and epc solutions, engineering procurement and construction management, construction erp software, erp software for construction industry, construction and epc softwares, best erp software for construction industry, construction erp modules, best erp for construction, best construction erp software, erp for construction company" />
-    <meta name="description" content="RheinBrücke provides specific industry vertical ERP software from Epicor for Engineering, Procurement and Construction" /> 
+<meta name="keywords" content="ERP for construction management, construction and epc solutions, engineering procurement and construction management, construction erp software, erp software for construction industry, construction and epc softwares, best erp software for construction industry, construction erp modules, best erp for construction, best construction erp software, erp for construction company" />
+<meta name="description" content="Efficient ERP solutions for EPC and construction companies by RheinBrücke. Enhance project management." /> 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -14,6 +14,7 @@
     border-color: #DDDDDD !important;
 }
         h2 {
+            font-weight: 600;
     font-size: 27px;
 }
         .write-to-us-input
@@ -191,11 +192,12 @@ var google_remarketing_only = false;
      <div class="row">
          <!--overview--><div class="clearfix">&nbsp;</div>
          <div class="col-md-12 contentwithpadding">
-             <h3 class="redColor">EPICOR FOR CONSTRUCTION AND EPC OVERVIEW</h3>
+            <h1>ERP Software for epc and construction Industry</h1>
+             <h2 class="redColor">EPICOR FOR CONSTRUCTION AND EPC OVERVIEW</h2>
              <div class="mainContent-normal contentdiv" style="text-align:justify">
                  Construction and EPC industry faces challenges such as providing accurate bids & cost estimation, effectively managing complex projects, change orders and billing. Going beyond traditional project-based ERP, Epicor offers comprehensive project management with multilevel work breakdown structures, robust resource scheduling and effective contract management. It also supports efficient bid management through embedded customer relationship management (CRM) capabilities with visibility of historical bids. It provides complete visibility of project based resources including assets, inventory, materials and labour and enables accurate and timely billing of project costs through seamless collection of time, material, and expense transactions. Strong and flexible revenue recognition including profitability tracking and margin control is a key feature. Improve reliability and reduce equipment costs with our comprehensive asset management function.
                  </div>
-             <h3 class="redColor">ENHANCED CAPABILITIES</h3>
+             <h2 class="redColor">ENHANCED CAPABILITIES</h2>
                     <div class="withIcons">                        
                         <div class="mainContent-normal-manufacturing">Epicor is a market leader in construction ERP solutions with the following enhanced capabilities:</div>
                     </div>
@@ -322,7 +324,7 @@ var google_remarketing_only = false;
                 <div class="container contentwithpadding rheincs-container">
                     <div class="wrappernewbullet">
                         <div class="clearfix">&nbsp;</div>
-                    <h3 class="redColor">RHEINBRÜCKE ADVANTAGE</h3>
+                    <h2 class="redColor">RHEINBRÜCKE ADVANTAGE</h2>
                      <p>RheinBrücke has taken best practices and standardized processes in the Construction and EPC industry from our experience of multiple ERP implementations, to help soothe the wounds of the construction industry.</p>
                     <p class="padd-bottom-10"><b>With our Epicor implementation, you can</b></p>
                     <div class="col-md-12">
@@ -363,7 +365,7 @@ var google_remarketing_only = false;
 			
 			
 	    <div class="accor-dions mb-30">
-        <h3 class="redColor">Frequently Asked Questions</h3>
+        <h2 class="redColor">Frequently Asked Questions</h2>
 
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
@@ -562,7 +564,7 @@ var google_remarketing_only = false;
 			
 			
 			
-<h3 class="redColor">TESTIMONIALS</h3>
+<h2 class="redColor">TESTIMONIALS</h2>
                     <div class="col-md-12">
                         <!--Massimiliano customer reference -->
                         <div class="col-md-12 marg-10">

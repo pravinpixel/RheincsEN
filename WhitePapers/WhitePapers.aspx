@@ -1,8 +1,7 @@
-﻿<%@ Page Title="Resources: Whitepaper | RheinBrücke" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="WhitePapers.aspx.cs" Inherits="RheinBrucke.WhitePapers.WhitePapers" %>
-
+﻿<%@ Page Title="Expert ERP Implementation Partner White Papers | RheinBrücke" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="WhitePapers.aspx.cs" Inherits="RheinBrucke.WhitePapers.WhitePapers" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="ERP solution, ERP implementation, ERP, Strategic Sourcing, Epicor ERP" />
-    <meta name="description" content="Download research collateral from RheinBrucke" />
+<meta name="keywords" content="ERP solution, ERP implementation, ERP, Strategic Sourcing, Epicor ERP" />
+<meta name="description" content="Explore our ERP implementation services and access our informative factsheets for valuable insights and guidance on optimizing your business processes" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style>
@@ -19,6 +18,7 @@
             </ul>
         </div>
         <div class="row main-container marg20">
+			<h1>Insightful Whitepapers from RheinBrücke</h1>
             <h5 class="deco-header">
                 <span class="redBottom">WHITE PAPERS</span><asp:DropDownList ID="drpWhitePapers" runat="server" CssClass="dropdownBtn" OnSelectedIndexChanged="drpWhitePapers_SelectedIndexChanged" AutoPostBack="True">
                     <asp:ListItem>All</asp:ListItem>

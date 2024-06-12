@@ -4,6 +4,7 @@
     <EntitySetMapping Name="EmailRequests">
       <EntityTypeMapping TypeName="RheinBruckeDevModel.EmailRequest">
         <MappingFragment StoreEntitySet="EmailRequest">
+          <ScalarProperty Name="Companyname" ColumnName="Companyname" />
           <ScalarProperty Name="Services" ColumnName="Services" />
           <ScalarProperty Name="ContactUsUrl" ColumnName="ContactUsUrl" />
           <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
@@ -213,6 +214,7 @@
     <EntitySetMapping Name="LeadSquareLogs">
       <EntityTypeMapping TypeName="RheinBruckeDevModel.LeadSquareLog">
         <MappingFragment StoreEntitySet="LeadSquareLog">
+          <ScalarProperty Name="Company" ColumnName="Company" />
           <ScalarProperty Name="FormAction" ColumnName="FormAction" />
           <ScalarProperty Name="ServiceType" ColumnName="ServiceType" />
           <ScalarProperty Name="Mobile" ColumnName="Mobile" />

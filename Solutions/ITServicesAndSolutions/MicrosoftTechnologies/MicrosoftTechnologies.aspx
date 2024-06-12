@@ -56,10 +56,10 @@
                     <div class="flip-container" style="margin: 75px">
                         <div class="image">
                             <a href="../../../solutions/it-services-and-solutions/microsoft-technologies/consulting">
-                                <img src="../../../Assets/images/ms-Consulting.png" class="back" />
+                                <img src="../../../Assets/images/ms-Consulting.png" alt="" class="back" />
                             </a>
                             <a href="../../../solutions/it-services-and-solutions/microsoft-technologies/consulting">
-                                <img src="../../../Assets/images/ms-ConsultingMouseHover.png" class="front" />
+                                <img src="../../../Assets/images/ms-ConsultingMouseHover.png" alt="Cloud and Azure" class="front" />
                             </a>
                         </div>
                     </div>
@@ -68,10 +68,10 @@
                     <div class="flip-container" style="margin: 75px">
                         <div class="image">
                             <a href="../../../solutions/it-services-and-solutions/microsoft-technologies/sharepoint">
-                                <img src="../../../Assets/images/ms-SharePoint.png" class="back" />
+                                <img src="../../../Assets/images/ms-SharePoint.png" alt="MicroSoft BI Solution" class="back" />
                             </a>
                             <a href="../../../solutions/it-services-and-solutions/microsoft-technologies/sharepoint">
-                                <img src="../../../Assets/images/ms-SharePointMouseHover.png" class="front" />
+                                <img src="../../../Assets/images/ms-SharePointMouseHover.png" alt="Sharepointmousehover Logo" class="front" />
                             </a>
                         </div>
                     </div>
@@ -80,10 +80,10 @@
                     <div class="flip-container" style="margin: 75px">
                         <div class="image">
                             <a href="../../../solutions/it-services-and-solutions/microsoft-technologies/microsoft-bi-solutions">
-                                <img src="../../../Assets/images/ms-InsightAndAnalysis.png" class="back" />
+                                <img src="../../../Assets/images/ms-InsightAndAnalysis.png" alt="" class="back" />
                             </a>
                             <a href="../../../solutions/it-services-and-solutions/microsoft-technologies/microsoft-bi-solutions">
-                                <img src="../../../Assets/images/ms-InsightAndAnalysisMouseHover.png" class="front" />
+                                <img src="../../../Assets/images/ms-InsightAndAnalysisMouseHover.png" alt="Consulting" class="front" />
                             </a>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                                 <img src="../../../Assets/images/ms-CloudAndAzure.png" class="back" />
                             </a>
                             <a href="../../../solutions/it-services-and-solutions/microsoft-technologies/cloud-and-azure">
-                                <img src="../../../Assets/images/ms-CloudAndAzureMouseHover.png" class="front" />
+                                <img src="../../../Assets/images/ms-CloudAndAzureMouseHover.png" alt="App ln Develop Mousehover" class="front" />
                             </a>
                         </div>
                     </div>
@@ -104,10 +104,10 @@
                     <div class="flip-container" style="margin: 75px">
                         <div class="image">
                             <a href="../../../solutions/it-services-and-solutions/microsoft-technologies/application-development-maintenance-services">
-                                <img src="../../../Assets/images/ms-ApplnDevelopment.png" class="back" />
+                                <img src="../../../Assets/images/ms-ApplnDevelopment.png" alt="Kraft Heinz Logo" class="back" />
                             </a>
                             <a href="../../../solutions/it-services-and-solutions/microsoft-technologies/application-development-maintenance-services">
-                                <img src="../../../Assets/images/ms-ApplnDevelopMouseHover.png" class="front" />
+                                <img src="../../../Assets/images/ms-ApplnDevelopMouseHover.png" alt="Application Development" class="front" />
                             </a>
                         </div>
                     </div>

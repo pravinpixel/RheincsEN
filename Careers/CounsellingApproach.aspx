@@ -1,8 +1,7 @@
-﻿<%@ Page Title="Mentoring Approach | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="CounsellingApproach.aspx.cs" Inherits="RheinBrucke.Careers.CounsellingApproach" %>
-
+﻿<%@ Page Title="Unlock Growth with RheinBrücke: Our Empowering Mentoring Approach" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="CounsellingApproach.aspx.cs" Inherits="RheinBrucke.Careers.CounsellingApproach" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="Description" content="Our counselling approach ensures our employees are evolving towards their development goals and are able to master day-to-day challenges" />
-    <meta name="keywords" content="Counselling employees, mentoring, training and development, mentor, upgrading skills, career development." />
+<meta name="Description" content="Discover how RheinBrücke's mentoring approach fosters growth and development, empowering individuals to reach their full potential in the IT field" />
+<meta name="keywords" content="Counselling employees, mentoring, training and development, mentor, upgrading skills, career development." />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

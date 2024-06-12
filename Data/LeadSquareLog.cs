@@ -21,8 +21,8 @@ namespace RheinBrucke.Data
         public string Name { get; set; }
         public string Email { get; set; }
         public string Mobile { get; set; }
-        public string Company { get; set; }
         public string ServiceType { get; set; }
         public string FormAction { get; set; }
+        public string Company { get; set; }
     }
 }

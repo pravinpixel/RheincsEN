@@ -16,8 +16,8 @@
             </div>
             </div>
         <div class="wrappernew main-container">
-            <h3 class="redColor"> Terms of Use</h3>
-<p>RheinBrücke IT Consulting B.V. (“RheinBrücke”) operates each website (“Site”) that links to these Terms of Use to provide online access to information about RheinBrücke and the products, services, and opportunities we provide.</p>
+            <h1>Understanding Our Terms of Use</h1>
+<p><br/>RheinBrücke IT Consulting B.V. (“RheinBrücke”) operates each website (“Site”) that links to these Terms of Use to provide online access to information about RheinBrücke and the products, services, and opportunities we provide.</p>
 </div>
 <div class="wrappernew main-container">
     <p><b>By accessing and using the Site, you agree to these Terms of Use.</b></p>

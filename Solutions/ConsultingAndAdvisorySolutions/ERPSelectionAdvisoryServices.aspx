@@ -1,7 +1,7 @@
-﻿<%@ Page Title="ERP Selection Advisory Services | RIC" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="ERPSelectionAdvisoryServices.aspx.cs" Inherits="RheinBrucke.Solutions.ConsultingAndAdvisorySolutions.ERPSelectionAdvisoryServices" %>
+﻿<%@ Page Title="ERP implementation services: Master Your Project Management" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="ERPSelectionAdvisoryServices.aspx.cs" Inherits="RheinBrucke.Solutions.ConsultingAndAdvisorySolutions.ERPSelectionAdvisoryServices" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="erp solutions, erp implementation, business advisory services, technology consulting services, erp consulting services, erp vendors, it advisory services, benefits of erp, erp strategy, erp evaluation"/>
-    <meta name="Description" content="RheinBrücke helps you select an ERP solution for your enterprise, giving organizations the confidence that their investment is spent on the right ERP solutions" />
+    <meta name="Description" content="Efficiently master ERP implementation services with RheinBrücke. Seamlessly integrate and enhance project management." />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

@@ -41,6 +41,7 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.CaseStudies' does not have a pri
           <Property Name="Name" Type="nvarchar" MaxLength="50" />
           <Property Name="Email" Type="nvarchar" MaxLength="50" />
           <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+          <Property Name="Companyname" Type="nvarchar(max)" />
           <Property Name="Message" Type="nvarchar(max)" />
           <Property Name="EmailTypeID" Type="int" />
           <Property Name="CreatedOn" Type="datetime" />
@@ -130,6 +131,7 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.FactSheet' does not have a prima
           <Property Name="Email" Type="nvarchar" MaxLength="255" />
           <Property Name="Mobile" Type="nvarchar" MaxLength="255" />
           <Property Name="ServiceType" Type="nvarchar(max)" />
+          <Property Name="Company" Type="nvarchar(max)" />
         </EntityType>
         <EntityType Name="MailSettings">
           <Key>
@@ -436,6 +438,7 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.WhitePapers' does not have a pri
           <NavigationProperty Name="EmailType" Relationship="RheinBruckeDevModel.FK__EmailRequ__Email__15502E78" FromRole="EmailRequest" ToRole="EmailType" />
           <NavigationProperty Name="EmailType1" Relationship="RheinBruckeDevModel.FK__EmailRequ__Email__300424B4" FromRole="EmailRequest" ToRole="EmailType" />
           <NavigationProperty Name="EmailType2" Relationship="RheinBruckeDevModel.FK__EmailRequ__Email__35BCFE0A" FromRole="EmailRequest" ToRole="EmailType" />
+          <Property Name="Companyname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="EmailType">
           <Key>
@@ -670,12 +673,13 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.WhitePapers' does not have a pri
           <Property Name="Mobile" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
           <Property Name="ServiceType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="FormAction" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Company" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="WebinarsList">
           <Key>
             <PropertyRef Name="WebinarId" />
           </Key>
-          <Property Name="WebinarId" Type="Int32" Nullable="false" />
+          <Property Name="WebinarId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="TakeAway" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -683,7 +687,7 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.WhitePapers' does not have a pri
           <Property Name="WebinarDate" Type="DateTime" Precision="3" />
           <Property Name="Speaker1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Speaker1Designation" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
-          <Property Name="Speaker2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Speaker2" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Speaker2Designation" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
           <Property Name="Speaker3" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
           <Property Name="Speaker3Designation" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
@@ -723,6 +727,7 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.WhitePapers' does not have a pri
           <EntitySetMapping Name="EmailRequests">
             <EntityTypeMapping TypeName="RheinBruckeDevModel.EmailRequest">
               <MappingFragment StoreEntitySet="EmailRequest">
+                <ScalarProperty Name="Companyname" ColumnName="Companyname" />
                 <ScalarProperty Name="Services" ColumnName="Services" />
                 <ScalarProperty Name="ContactUsUrl" ColumnName="ContactUsUrl" />
                 <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
@@ -932,6 +937,7 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.WhitePapers' does not have a pri
           <EntitySetMapping Name="LeadSquareLogs">
             <EntityTypeMapping TypeName="RheinBruckeDevModel.LeadSquareLog">
               <MappingFragment StoreEntitySet="LeadSquareLog">
+                <ScalarProperty Name="Company" ColumnName="Company" />
                 <ScalarProperty Name="FormAction" ColumnName="FormAction" />
                 <ScalarProperty Name="ServiceType" ColumnName="ServiceType" />
                 <ScalarProperty Name="Mobile" ColumnName="Mobile" />

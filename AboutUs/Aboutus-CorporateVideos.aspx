@@ -1,9 +1,7 @@
-﻿<%@ Page Title="Corporate Videos | RheinBrücke IT Consulting" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="Aboutus-CorporateVideos.aspx.cs" Inherits="RheinBrucke.AboutUs.Aboutus_CorporateVideos" %>
-
+﻿<%@ Page Title="Expert ERP Implementation Services & Corporate Videos" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="Aboutus-CorporateVideos.aspx.cs" Inherits="RheinBrucke.AboutUs.Aboutus_CorporateVideos" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="Corporate Videos, ERP Consulting, Enterprise IT services,  technology consulting services, solutions
-" />
-    <meta name="Description" content="RheinBrücke is an IT Consulting company that offers best in class service. View our videos to keep in touch with the latest updates, events & news about us." />
+<meta name="keywords" content="Corporate Videos, ERP Consulting, Enterprise IT services,  technology consulting services, solutions" />
+<meta name="Description" content="Elevate your corporate image with engaging and impactful videos tailored to your brand. Discover how we can transform your operations and boost your corporate presence today!" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container" id="container-top">
@@ -16,6 +14,7 @@
             </ul>
         </div>
         <div class="row main-container marg20">
+			<h1>Corporate videos from RheinCS</h1>
             <h5 class="deco-header">
                 <span class="redBottom">CORPORATE VIDEOS</span></h5>
         </div>
@@ -31,7 +30,7 @@
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal7" data-videoid="IDrR7hiizhI" data-videosite="youtube">
                             <img src="https://img.youtube.com/vi/IDrR7hiizhI/default.jpg" alt="RheinBrücke Corporate Video" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
-                                <img src="../Assets/images/play.png" class="wpvl_playbutton" />
+                                <img src="../Assets/images/play.png" alt="Play Logo" class="wpvl_playbutton" />
                             </div>
                         </a>
 

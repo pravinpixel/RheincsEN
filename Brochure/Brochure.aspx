@@ -1,7 +1,7 @@
-﻿<%@ Page Title="Resources: Brochures | RheinBrücke" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="brochure.aspx.cs" Inherits="RheinBrucke.Brochure.Brochure" %>
+﻿<%@ Page Title="RheinBrücke Brochures: Key ERP Solutions & Services" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="brochure.aspx.cs" Inherits="RheinBrucke.Brochure.Brochure" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="Download collateral from RheinBrücke" />
-    <meta name="description" content="ERP solution, ERP implementation, ERP, Strategic Sourcing, Epicor ERP, eProcurement" />
+<meta name="keywords" content="Download collateral from RheinBrücke" />
+<meta name="description" content="Discover comprehensive ERP implementation services tailored to your business needs. our solutions optimize processes, enhance productivity, for your organization." />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -28,6 +28,7 @@
             </ul>
         </div>
         <div class="row main-container marg20">
+			<h1>Brochures: Epicor Solutions for Various Industries</h1>
             <h5 class="deco-header">
                 <span class="redBottom">BROCHURES</span><asp:DropDownList ID="drpBrochure" runat="server" CssClass="dropdownBtn" OnSelectedIndexChanged="drpBrochure_SelectedIndexChanged" AutoPostBack="True">
                     <asp:ListItem>All</asp:ListItem>

@@ -27,6 +27,7 @@
     <UseGlobalApplicationHostFile />
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
     <Use64BitIISExpress />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -36,6 +37,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -44,6 +46,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AjaxControlToolkit">
@@ -184,7 +187,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Net.Http">
@@ -215,7 +217,6 @@
       <HintPath>packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -225,6 +226,7 @@
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="WebGrease">
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
     </Reference>
@@ -2198,6 +2200,7 @@
     <Content Include="CaseStudies\CaseStudy.aspx" />
     <Content Include="IndustrySolutions\epicDesign.aspx" />
     <Content Include="IndustrySolutions\epicMake.aspx" />
+    <Content Include="Landing\EpicPay.aspx" />
     <Content Include="MeRLINWebsite\images\merlin_new_banner.png" />
     <Content Include="partners.aspx" />
     <Content Include="EpicorBrochure\Fabian-Ringel\css\jquery.ui.css" />
@@ -4683,6 +4686,7 @@
     <Content Include="Solutions\IPAndProductDevelopmentServices\ProductEngineeringAndDevelopmentServices.aspx" />
     <Content Include="Solutions\IPAndProductDevelopmentServices\TechnologySupportForProductStartups.aspx" />
     <Content Include="Solutions\ITServicesAndSolutions\ApplicationMaintenanceAndSupport.aspx" />
+    <Content Include="Solutions\ITServicesAndSolutions\MicrosoftDynamics.aspx" />
     <Content Include="Solutions\ITServicesAndSolutions\MicrosoftTechnologies\ApplicationDevelopmentAndMaintenanceServices.aspx" />
     <Content Include="Solutions\ITServicesAndSolutions\MicrosoftTechnologies\CloudAndAzure.aspx" />
     <Content Include="Solutions\ITServicesAndSolutions\MicrosoftTechnologies\Consulting.aspx" />
@@ -6217,6 +6221,12 @@
     <Compile Include="CaseStudies\CaseStudy.aspx.designer.cs">
       <DependentUpon>CaseStudy.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Data\WebinarsList.cs">
+      <DependentUpon>RheinBruckeEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\WebinarsRecording.cs">
+      <DependentUpon>RheinBruckeEntity.tt</DependentUpon>
+    </Compile>
     <Compile Include="IndustrySolutions\epicDesign.aspx.cs">
       <DependentUpon>epicDesign.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -6230,6 +6240,13 @@
     </Compile>
     <Compile Include="IndustrySolutions\epicMake.aspx.designer.cs">
       <DependentUpon>epicMake.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Landing\EpicPay.aspx.cs">
+      <DependentUpon>EpicPay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Landing\EpicPay.aspx.designer.cs">
+      <DependentUpon>EpicPay.aspx</DependentUpon>
     </Compile>
     <Compile Include="partners.aspx.cs">
       <DependentUpon>partners.aspx</DependentUpon>
@@ -6254,12 +6271,6 @@
       <DependentUpon>RheinBruckeEntity.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\UserRole.cs">
-      <DependentUpon>RheinBruckeEntity.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\WebinarsList.cs">
-      <DependentUpon>RheinBruckeEntity.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\WebinarsRecording.cs">
       <DependentUpon>RheinBruckeEntity.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\WhitePaper.cs">
@@ -7298,6 +7309,13 @@
     </Compile>
     <Compile Include="Solutions\ITServicesAndSolutions\ApplicationMaintenanceAndSupport.aspx.designer.cs">
       <DependentUpon>ApplicationMaintenanceAndSupport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Solutions\ITServicesAndSolutions\MicrosoftDynamics.aspx.cs">
+      <DependentUpon>MicrosoftDynamics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Solutions\ITServicesAndSolutions\MicrosoftDynamics.aspx.designer.cs">
+      <DependentUpon>MicrosoftDynamics.aspx</DependentUpon>
     </Compile>
     <Compile Include="Solutions\ITServicesAndSolutions\MicrosoftTechnologies\ApplicationDevelopmentAndMaintenanceServices.aspx.cs">
       <DependentUpon>ApplicationDevelopmentAndMaintenanceServices.aspx</DependentUpon>
