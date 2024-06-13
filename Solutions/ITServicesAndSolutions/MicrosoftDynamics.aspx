@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Are you looking for the best payroll software? [Click here to explore] | Payroll Software Dubai | Payroll HR System | Payroll Processing | Epicor Payroll MEA"
-    Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="MicrosoftDynamics.aspx.cs" Inherits="RheinBrucke.Solutions.ITServicesAndSolutions.MicrosoftDynamics" %>
+    Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="MicrosoftDynamics.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.MicrosoftDynamics" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="it governance, outsourced it services, it outsourcing, it strategy, it cost optimization, it portfolio management, business strategy, technology consulting firms, business it management, it due diligence" />

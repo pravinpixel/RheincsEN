@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace RheinBrucke.Solutions.ITServicesAndSolutions
+namespace RheinBrucke.Solutions.EnterpriseServicesAndSolutions
 {
     public partial class MicrosoftDynamics : System.Web.UI.Page
     {

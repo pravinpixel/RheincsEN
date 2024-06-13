@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RheinBrucke.Solutions.ITServicesAndSolutions
+namespace RheinBrucke.Solutions.EnterpriseServicesAndSolutions
 {
 
 
