@@ -1115,7 +1115,7 @@
                             <h1>Unleash your business<br>
                                 Potential with Your<br>
                                 Trusted Microsoft Partner</h1>
-                            <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Book a Demo </a>
+                            <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us </a>
                         </div>
                     </div>
                 </div>
