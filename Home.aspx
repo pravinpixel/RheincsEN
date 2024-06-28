@@ -33,7 +33,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
  <style>
- iframe
+ .youtube-video iframe
  {
 	width:100% !important;
  }
@@ -200,7 +200,7 @@
                             <div class="modal-header pad-bottom21">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                             </div>
-                            <div class="modal-body">
+                            <div class="modal-body youtube-video">
                                 <%--<iframe src="https://www.youtube.com/embed/IDrR7hiizhI?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
                                 <embed src="https://www.youtube.com/v/IDrR7hiizhI?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
                             </div>
@@ -239,7 +239,7 @@
                             <div class="modal-header pad-bottom21">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                             </div>
-                            <div class="modal-body">
+                            <div class="modal-body youtube-video">
                                 <%--<iframe src="https://www.youtube.com/embed/MmXOpBXQdZM?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
                                 <embed src="https://www.youtube.com/v/MmXOpBXQdZM?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
                             </div>
@@ -312,7 +312,7 @@
                             <div class="modal-header pad-bottom21">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                             </div>
-                            <div class="modal-body">
+                            <div class="modal-body youtube-video">
                                 <%--<iframe src="https://www.youtube.com/embed/B-XFRUeSlUs?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
                                 <embed src="https://www.youtube.com/v/B-XFRUeSlUs?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
                             </div>
@@ -350,7 +350,7 @@
                             <div class="modal-header pad-bottom21">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                             </div>
-                            <div class="modal-body">
+                            <div class="modal-body youtube-video">
                                 <%--<iframe src="https://www.youtube.com/embed/yvtX2yqWxVg?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
                                 <embed src="https://www.youtube.com/v/yvtX2yqWxVg?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
                             </div>
@@ -389,7 +389,7 @@
                             <div class="modal-header pad-bottom21">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                             </div>
-                            <div class="modal-body">
+                            <div class="modal-body  youtube-video">
                                 <%--<iframe src="https://www.youtube.com/embed/MmXOpBXQdZM?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
                                 <embed src="https://www.youtube.com/v/MmXOpBXQdZM?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
                             </div>
@@ -415,7 +415,7 @@
                             <div class="modal-header pad-bottom21">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                             </div>
-                            <div class="modal-body" id="yt-player">
+                            <div class="modal-body  youtube-video" id="yt-player">
                                 <%--<iframe src="https://www.youtube.com/embed/TIIjLQps44U?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
                                 <embed src="https://www.youtube.com/v/TIIjLQps44U?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
                             </div>
