@@ -5,7 +5,12 @@
     <meta name="keywords" content="SAP, Microsoft, SharePoint, EPICOR, SAP Implementation, SAP Support, Microsoft BI, Microsoft Gold Partner, SAP Consulting, SharePoint Consulting, ERP Consulting, Enterprise IT services, Technology consulting services, IT solutions, Digital Transformation Partner in EMEA region, Best Epicor ERP Implementation partner of the year,Largest Epicor Parter in EMEA region,Epicor On the Cloud Distributor for Middle East, Epicor ERP Implementation Partner in Middle East, UAE, Dubai, Epicor ERP Project Implementation vendors in Europe, Germany, Netherlands, Austria, Switzerland, Best Cloud ERP Provider in Middel East, Best ERP Case Studies, Best Digtal Transformation Case Studies, What is ROI for a software implementation? , Strategic Sourcing Solutions Provider, Why Epicor, Why RheinBrücke, RheinBrücke IT Consulting" />
     <meta name="Description" content="RheinBrücke: Your trusted partner for seamless Cloud ERP implementation. Unlock efficiency and elevate your business." />
     <meta name="google-site-verification" content="wupPtb2f4IkwIZlJw_WfkxpZCBAcL70quHa_rVemK0U" />
-
+ <style>
+ iframe
+ {
+ width:100% !important;
+ }
+ </style>
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
