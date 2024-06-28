@@ -1,6 +1,10 @@
 ﻿info {
   display: none;
 }
+.youtube-video iframe
+ {
+	width:100% !important;
+ }
 .padd-left-head {
   padding-left: 25px;
 }
