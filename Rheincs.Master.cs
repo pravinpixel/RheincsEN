@@ -8,6 +8,7 @@ using System.Web.Services;
 using RheinBrucke.Library;
 using System.Web.Configuration;
 using RheinBrucke.Data;
+using System.Web.UI.HtmlControls;
 
 namespace RheinBrucke
 {
@@ -18,7 +19,6 @@ namespace RheinBrucke
         public string cssload = "";
         protected void Page_Load(object sender, EventArgs e)
         {
-            
             rootpath = Page.ResolveUrl("~/");
             if (Request.Browser.IsMobileDevice)
             {
@@ -37,7 +37,7 @@ namespace RheinBrucke
                 //rptTestimonial.DataBind();
             }
         }
-
+        
         //public List<Testimonial> GetTestimonial()
         //{
         //    List<Testimonial> result = null;
@@ -48,14 +48,14 @@ namespace RheinBrucke
         //    //        result = context.Testimonials.Where(e => e.Status == true).OrderByDescending(e => e.TestimonialID).ToList<Testimonial>();
         //    //    }
 
-               
+
         //    //}
         //    //catch  
         //    //{
 
-                
+
         //    //}
-             
+
         //    /return result.ToList();
         //}
 
