@@ -608,10 +608,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <div class="clearfix"></div>
                                         <span class="showErrorMsg" style="color: red"></span>
                                         <div class="clearfix"></div>
-                                        <div class="col-md-6 col-sm-6 captchadiv">
-                                            <div class="g-recaptcha" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn"></div>
-                                            <!--6LcRmjsUAAAAADmNyyjwZNsWwnYTozrxIjSKcjGI-->
-                                        </div>
+                                       <div class="col-md-6 col-sm-6 captchadiv" style="height: 55px; margin-top: 4px;">
+                    <div id="g_captcha" style="transform: scale(0.65); -webkit-transform: scale(0.65); transform-origin: 0 0; -webkit-transform-origin: 0 0;"></div>
+                </div>
                                     </div>
                                     <div class="col-md-3" style="vertical-align: middle; margin-top: 15px;">
                                         <input type="button" id="btnContactUs" class="submit-button" data-loading-text="Submitting.." value="Submit" />
@@ -1149,13 +1148,13 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 <noscript><a href="https://www.livechat.com/chat-with/14850255/" rel="nofollow">Chat with us</a>, powered by <a href="#" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
 
-<%--<script type="text/javascript">
+<script type="text/javascript">
     var onloadCallback = function () {
         grecaptcha.render('g_captcha', {
             'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
         });
     };
-</script>--%>
+</script>
 <%--<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
 </script>--%>
 <script src='https://www.google.com/recaptcha/api.js'></script>
