@@ -31,7 +31,7 @@
     <!-- end of leadfeeder code -->
     <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
     <style>
-         * {
+         body,html {
             font-family: Raleway !important;
         }
         ul.social_share_privacy_area li .info {
