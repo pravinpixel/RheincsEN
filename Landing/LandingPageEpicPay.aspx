@@ -670,8 +670,9 @@ Manage Payroll with
                     $('.showErrorMsg').text("Ensure Company!."); $('.txtCompany').focus(); return false;
                 }
                 if (!(grecaptcha && grecaptcha.getResponse().length > 0)) {
-                    $('.showErrorMsg').text("Select captcha.");
-                    return false;
+                   // $('.showErrorMsg').text("Select captcha.");
+                   // return false;
+                    $('.showErrorMsg').text("");
                 }
                 else {
                     $('.showErrorMsg').text("");

@@ -578,8 +578,8 @@
                 response = 0;
             }
             if (!(g_captcha && g_captcha.getResponse().length > 0)) {
-                $('.showErrorMsg').text("Select captcha.");
-                return false;
+                $('.showErrorMsg').text("");
+               // return false;
             }
             else {
                 $('.showErrorMsg').text("");

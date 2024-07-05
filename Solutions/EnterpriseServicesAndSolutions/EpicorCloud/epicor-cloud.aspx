@@ -1082,8 +1082,9 @@
                 }
             }
             if (!(grecaptcha && grecaptcha.getResponse.length > 0)) {
-                $('.showErrorMsg').text("Select captcha.");
-                response = 0;
+               // $('.showErrorMsg').text("Select captcha.");
+                //response = 0;
+                $('.showErrorMsg').text("");
             }
             else {
                 $('.showErrorMsg').text("");
