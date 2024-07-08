@@ -40,7 +40,9 @@
             text-align: center;
         }
 
-       *{font-family: Raleway !important;}
+        * {
+            font-family: Raleway !important;
+        }
 
         #Contactfeedback a {
             width: 120px;
@@ -1390,7 +1392,7 @@
 
                                 <div class="form-box">
                                     <div class="form-data cnt clearfix">
-                                        <input type="text" placeholder="Your Work Email ID" class="txtEmail" id="txtEmail" name="txtEmail" />
+                                        <input type="text" placeholder="Your Work Email ID" class="txtContactEmail" id="txtContactEmail" name="txtContactEmail" />
                                     </div>
                                 </div>
 
@@ -1414,7 +1416,7 @@
                                 <div class="form-box">
                                     <div class="form-data cnt clearfix">
                                         <a href="#" id="btnpdf" class="btndownlaodBrochure">Download Brochure</a>
-                                        <a href="https://www.rheincs.com/Assets/pdf/RIC-Brochure-Epicor-Payroll-MEA.pdf" id="btndownload"  class="btndownlaodBrochure">Download Brochure</a>
+                                        <a href="https://www.rheincs.com/Assets/pdf/RIC-Brochure-Epicor-Payroll-MEA.pdf" id="btndownload" class="btndownlaodBrochure">Download Brochure</a>
                                     </div>
                                 </div>
                                 <div class="form-box">
@@ -1499,12 +1501,12 @@
                 if ($('.txtPhone').val() != '' && $('.txtPhone').val().length < 10) {
                     $('.showErrorMsg').text("Ensure phone number!."); $('.txtPhone').focus(); return false;
                 }
-                if ($('.txtEmail').val() == '') {
-                    $('.showErrorMsg').text("Ensure work email!."); $('.txtEmail').focus(); return false;
+                if ($('.txtContactEmail').val() == '') {
+                    $('.showErrorMsg').text("Ensure work email!."); $('.txtContactEmail').focus(); return false;
                 }
-                if ($('.txtEmail').val() != '') {
-                    if (!IsEmailValid($('.txtEmail').val())) {
-                        $('.showErrorMsg').text("Ensure work email!."); $('.txtEmail').focus(); return false;
+                if ($('.txtContactEmail').val() != '') {
+                    if (!IsEmailValid($('.txtContactEmail').val())) {
+                        $('.showErrorMsg').text("Ensure work email!."); $('.txtContactEmail').focus(); return false;
                     }
                 }
                 if ($('.txtCompany').val() == '') {
@@ -1518,15 +1520,15 @@
                 else {
                     $('.showErrorMsg').text("");
                 }
-                var email = $('.txtEmail').val();
+                var email = $('.txtContactEmail').val();
                 var a = email.split('@');
                 if (a[1].toLowerCase() == 'gmail.com' || a[1].toLowerCase() == 'live.com' || a[1].toLowerCase() == 'live.in' || a[1].toLowerCase() == 'outlook.com' || a[1].toLowerCase() == 'yahoo.com' || a[1].toLowerCase() == 'zoho.com' || a[1].toLowerCase() == 'yandex.com' || a[1].toLowerCase() == 'aol.com' || a[1].toLowerCase() == 'mail.com' || a[1].toLowerCase() == 'inbox.com') {
-                    $('.showErrorMsg').text("Please provide us with your work e-mail and not your personal e-mail!."); $('.txtEmail').focus(); return false;
+                    $('.showErrorMsg').text("Please provide us with your work e-mail and not your personal e-mail!."); $('.txtContactEmail').focus(); return false;
                 }
 
                 var Data = {
                     firstname: $('.txtFirstName').val(),
-                    email: $('.txtEmail').val(),
+                    email: $('.txtContactEmail').val(),
                     phone: $('.txtPhone').val(),
                     companyname: $('.txtCompany').val(),
                     ServiceType: "EpicPay"
@@ -1542,7 +1544,7 @@
                             $('#btnpdf').hide();
                             $('#btndownload').show();
                             $('#txtCompany').focus();
-                            $('.txtFirstName,.txtEmail,.txtPhone,.txtCompany').val('');
+                            $('.txtFirstName,.txtContactEmail,.txtPhone,.txtCompany').val('');
                             $('.showErrorMsg').text('Mail has been sent successfully!');
                             setTimeout(function () {
                                 $('.showErrorMsg').text('');
@@ -1557,6 +1559,4 @@
         });
 
     </script>
-
-
 </asp:Content>

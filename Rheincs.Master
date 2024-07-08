@@ -550,22 +550,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <select id="ddlServices" class="dropdown" style="width: 100%; padding: 6px;">
                                             <option value="0">-- Select Any One --</option>
                                             <option value="1">Epicor</option>
-                                            <option value="2">EPICOR for Manufacturing</option>
-                                            <option value="3">EPICOR for Cable Manufacturing</option>
-                                            <option value="15">EPICOR for Wire Rope Manufacturing</option>
-                                            <option value="4">EPICOR for EPC and Construction</option>
-                                            <%--    <option value="5"> EPICOR iScala for hospitality</option>--%>
-                                            <option value="6">RheinBrücke Power Plant Analytics</option>
-                                            <option value="7">Business Intelligence</option>
-                                            <option value="8">MeRLIN </option>
-                                            <option value="8">SAP</option>
-                                            <option value="10">Epicor HCM</option>
-                                            <option value="11">Epicor-Payroll-MEA</option>
-                                            <%-- <option value="12">CCT (Copy Company Tool)</option>--%>
-                                            <option value="13">SharePoint</option>
-                                            <option value="14">Microsoft Technologies - .Net & SQL Server</option>
-                                            <option value="15">Application Maintenance & Support</option>
-                                               <option value="16">Microsoft Dynamics</option>
+                                            <option value="2">ERP</option>
+                                            <option value="3">EPICOR for Manufacturing</option>
+                                            <option value="4">EPICOR for Retail</option>
+                                            <option value="5">EPICOR for Cable Manufacturing</option>
+                                            <option value="6">EPICOR for Distribution</option>
+                                            <option value="7">EPICOR for Interior Design</option>
+                                            <option value="8">EPICOR for EPC and Construction</option>
+                                            <option value="9">EPICOR iScala for hospitality</option>
+                                            <option value="19">EPICOR for Wire Rope Manufacturing</option>
+                                            <option value="20">EPICOR-Payroll-MEA</option>
+                                            <option value="10">RheinBrücke Power Plant Analytics</option>
+                                            <option value="11">Business Intelligence</option>
+                                            <option value="12">MeRLIN </option>
+                                            <option value="13">SAP</option>
+                                            <option value="14">Epicor HCM</option>
+                                            <option value="15">Epicpay Product</option>
+                                            <option value="16">CCT (Copy Company Tool)</option>
+                                            <option value="17">SharePoint</option>
+                                            <option value="18">Microsoft Technologies - .Net & SQL Server</option>
+                                                 <option value="21">Application Maintenance & Support</option>
+                                               <option value="22">Microsoft Dynamics</option>
                                         </select>
                                         <span class="validator" id="reqddlservices" hidden="hidden" style="font-size: 13px;">Select the Services</span>
                                     </div>
@@ -578,7 +583,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <input type="text" placeholder="*Your Email Address" id="txtEmail" class="write-to-us-input" />
+                                        <input type="text"  onkeypress="return checkdomainemail();" placeholder="*Your official Email Address" id="txtEmail" class="write-to-us-input" />
                                         <span class="validator" id="reqemail" hidden="hidden" style="font-size: 13px;">Enter Your Email Address</span>
                                         <span class="validator" style="font-size: 13px;" id="valemail" hidden="hidden">Enter Valid Email Address</span>
                                         <span class="validator" style="font-size: 13px;" id="domainemail" hidden="hidden">Enter Valid Official Address</span>
@@ -603,16 +608,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <span class="validator" id="reqMessage" hidden="hidden" style="font-size: 13px;">Enter Your Message</span>
                                     </div>
                                 </div>
-                                <div class="row">
+                                 <div class="row">
                                     <div class="col-md-9">
                                         <div class="clearfix"></div>
                                         <span class="showErrorMsg" style="color: red"></span>
                                         <div class="clearfix"></div>
-                                       <div class="col-md-6 col-sm-6 captchadiv" style="height: 55px; margin-top: 4px;">
-                    <div id="g_captcha" style="transform: scale(0.65); -webkit-transform: scale(0.65); transform-origin: 0 0; -webkit-transform-origin: 0 0;"></div>
-                </div>
+                                        <div class="col-md-6 col-sm-6 captchadiv">
+                                            <div class="g-recaptcha" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn"></div>
+                                        </div>
                                     </div>
-                                    <div class="col-md-3" style="vertical-align: middle; margin-top: 15px;">
+                            
+                                    <div class="col-md-3">
                                         <input type="button" id="btnContactUs" class="submit-button" data-loading-text="Submitting.." value="Submit" />
                                     </div>
                                 </div>

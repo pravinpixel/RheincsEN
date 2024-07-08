@@ -7,9 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RheinBrucke.Landing {
-    
-    
-    public partial class EpicPay {
+namespace RheinBrucke.Landing
+{
+
+
+    public partial class EpicPay
+    {
     }
 }

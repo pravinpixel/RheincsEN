@@ -353,7 +353,7 @@
                                                 <div class="input-group-addon">
                                                     <img src="/Landing/Images/mail.png" />
                                                 </div>
-                                                <input type="text" class="form-control txtEmail" placeholder="Work E-mail" name="email_address"/>
+                                                <input type="text" class="form-control txtContactEmail" placeholder="Work E-mail" name="email_address"/>
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -577,13 +577,13 @@
                 $("#valAMSemail").show();
                 response = 0;
             }
-            if (!(g_captcha && g_captcha.getResponse().length > 0)) {
-                $('.showErrorMsg').text("");
-               // return false;
-            }
-            else {
-                $('.showErrorMsg').text("");
-            }
+            //if (!(g_captcha && g_captcha.getResponse().length > 0)) {
+            //    $('.showErrorMsg').text("");
+            //   // return false;
+            //}
+            //else {
+            //    $('.showErrorMsg').text("");
+            //}
             //if (mobno == '') {
             //    $("#reqAMSMobno").show();
             //    response = 0;
@@ -649,7 +649,7 @@
                 var logData = {
                     Name: $('#txtFirstName').val(),
                     FormPID: data.PId,
-                    Email: $('#txtEmail').val(),
+                    Email: $('#txtContactEmail').val(),
                     Mobile: $('#txtPhone').val(),
                     Company: $('#txtCompany').val(),
                     FormStatus: data.Status,
@@ -681,7 +681,7 @@
                 var logData = {
                     Name: $('#txtFirstName').val(),
                     FormPID: data.PId,
-                    Email: $('#txtEmail').val(),
+                    Email: $('#txtContactEmail').val(),
                     Mobile: $('#txtPhone').val(),
                     Company: $('#txtCompany').val(),
                     FormStatus: data.Status,
@@ -746,12 +746,12 @@
                 if ($('.txtPhone').val() != '' && $('.txtPhone').val().length < 10) {
                     $('.showErrorMsg1').text("Ensure phone number!."); $('.txtPhone').focus(); return false;
                 }
-                if ($('.txtEmail').val() == '') {
-                    $('.showErrorMsg1').text("Ensure work email!."); $('.txtEmail').focus(); return false;
+                if ($('.txtContactEmail').val() == '') {
+                    $('.showErrorMsg1').text("Ensure work email!."); $('.txtContactEmail').focus(); return false;
                 }
-                if ($('.txtEmail').val() != '') {
-                    if (!IsEmailValid($('.txtEmail').val())) {
-                        $('.showErrorMsg1').text("Ensure work email!."); $('.txtEmail').focus(); return false;
+                if ($('.txtContactEmail').val() != '') {
+                    if (!IsEmailValid($('.txtContactEmail').val())) {
+                        $('.showErrorMsg1').text("Ensure work email!."); $('.txtContactEmail').focus(); return false;
                     }
                 }
                 if ($('.txtCompany').val() == '') {
@@ -764,15 +764,15 @@
                 //else {
                 //    $('.showErrorMsg1').text("");
                 //}
-                var email = $('.txtEmail').val();
+                var email = $('.txtContactEmail').val();
                 var a = email.split('@');
                 if (a[1].toLowerCase() == 'gmail.com' || a[1].toLowerCase() == 'live.com' || a[1].toLowerCase() == 'live.in' || a[1].toLowerCase() == 'outlook.com' || a[1].toLowerCase() == 'yahoo.com' || a[1].toLowerCase() == 'zoho.com' || a[1].toLowerCase() == 'yandex.com' || a[1].toLowerCase() == 'aol.com' || a[1].toLowerCase() == 'mail.com' || a[1].toLowerCase() == 'inbox.com') {
-                    $('.showErrorMsg1').text("Please provide us with your work e-mail and not your personal e-mail!."); $('.txtEmail').focus(); return false;
+                    $('.showErrorMsg1').text("Please provide us with your work e-mail and not your personal e-mail!."); $('.txtContactEmail').focus(); return false;
                 }
 
                 var Data = {
                     name: $('.txtFirstName').val(),
-                    email: $('.txtEmail').val(),
+                    email: $('.txtContactEmail').val(),
                     phone: $('.txtPhone').val(),
                     company: $('.txtCompany').val(),
                     Services: "ADMS"
@@ -792,7 +792,7 @@
                             $('.showErrorMsg1').text('Click the above button to download the brochure!');
                             setTimeout(function () {
                                 $('.showErrorMsg1').text('');
-                                $('.txtFirstName,.txtEmail,.txtPhone,.txtCompany').val('');
+                                $('.txtFirstName,.txtContactEmail,.txtPhone,.txtCompany').val('');
                                 $('#btnpdf').show();
                                 $('#btndownload').hide();
                             }, 50000);

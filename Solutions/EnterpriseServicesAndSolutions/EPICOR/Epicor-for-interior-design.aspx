@@ -846,10 +846,10 @@ COLLABORATION NETWORK</strong>
                     </div>
                     <div class="modal-body">
                         <p>
-                            <input type="text" placeholder="*Your Email Address" id="textemail" class="write-to-us-input" name="email-address"/>
+                            <input type="text" placeholder="*Your Email Address" id="textcontactemail" class="write-to-us-input" name="email-address"/>
                         </p>
-                        <span style="margin-top: 5px;" class="validator text-left" id="reqtextemailval" hidden="hidden">Enter Your Email Address</span>
-                        <span  style="margin-top: 5px;" class="validator text-left" id="valtextemail" hidden="hidden">Enter Valid Email Address</span>
+                        <span style="margin-top: 5px;" class="validator text-left" id="reqtextcontactemailval" hidden="hidden">Enter Your Email Address</span>
+                        <span  style="margin-top: 5px;" class="validator text-left" id="valtextcontactemail" hidden="hidden">Enter Valid Email Address</span>
                     </div>
                     <div class="modal-body">
                         <p>
@@ -889,32 +889,32 @@ COLLABORATION NETWORK</strong>
         });
         function clearepicor() {
             $("#reqtextepicornameval").hide();
-            $("#reqtextemailval,#reqtextmobile").hide();
-            $("#valtextemail,#valtextmobile").hide();
+            $("#reqtextcontactemailval,#reqtextmobile").hide();
+            $("#valtextcontactemail,#valtextmobile").hide();
             $("#textepicor,#textmobile").val('');
-            $("#textemail").val('');
+            $("#textcontactemail").val('');
         }
         function PartnerEpicorValidation() {
             var name = $('#textepicor').val();
-            var email = $('#textemail').val();
+            var email = $('#textcontactemail').val();
             var mobno = $('#textmobile').val();
             var response = 1;
 
             $("#reqtextepicornameval").hide();
-            $("#reqtextemailval,#reqtextmobile").hide();           
-            $("#valtextemail,#valtextmobile").hide();
+            $("#reqtextcontactemailval,#reqtextmobile").hide();           
+            $("#valtextcontactemail,#valtextmobile").hide();
 
             if (name == '') {
                 $("#reqtextepicornameval").show();
                 response = 0;
             }
             if (email == '') {
-                $("#reqtextemailval").show();
+                $("#reqtextcontactemailval").show();
                 response = 0;
             }
             else {
                 if (!IsEmail(email)) {
-                    $("#valtextemail").show();
+                    $("#valtextcontactemail").show();
                     response = 0;
                 }
             }
@@ -940,7 +940,7 @@ COLLABORATION NETWORK</strong>
             
             var user = {
                 name: $('#textepicor').val(),
-                email: $('#textemail').val(),
+                email: $('#textcontactemail').val(),
                 phone: $('#textmobile').val(),
                
             };
@@ -996,7 +996,7 @@ COLLABORATION NETWORK</strong>
                                var logData = {
                                    Name: $('#textepicor').val(), 
                                    FormPID: data.PId,
-                                   Email: $('#textemail').val(),
+                                   Email: $('#textcontactemail').val(),
                                    Mobile:$('#textmobile').val(),
                                    FormStatus: data.Status,
                                    FormMsg: data.Message,
@@ -1026,7 +1026,7 @@ COLLABORATION NETWORK</strong>
                                var logData = {
                                    Name: $('#textepicor').val(), 
                                    FormPID: data.PId,
-                                   Email: $('#textemail').val(),
+                                   Email: $('#textcontactemail').val(),
                                    Mobile:$('#textmobile').val(),
                                    FormStatus: data.Status,
                                    FormMsg: data.Message,
