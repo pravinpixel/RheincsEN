@@ -27,12 +27,12 @@ namespace RheinBrucke
             //routeTemplate: "api/{controller}/{id}",
             //defaults: new { id = System.Web.Http.RouteParameter.Optional }
             //);
-            
+
             GlobalConfiguration.Configuration.Formatters.XmlFormatter.SupportedMediaTypes.Clear();
 
         }
 
-      
+
         public override void Init()
         {
             this.PostAuthenticateRequest += MvcApplication_PostAuthenticateRequest;
@@ -53,10 +53,24 @@ namespace RheinBrucke
         protected void Application_BeginRequest(object sender, EventArgs e)
         {
             HttpContext context = HttpContext.Current;
+
+            if (!context.Request.IsSecureConnection)
+            {
+                // Redirect to HTTPS version of the current URL
+                string newUrl = "https://" + Request.Url.Host + Request.RawUrl;
+                Response.Redirect(newUrl, true);
+            }
+            string url = context.Request.Url.ToString();
+            if (url.EndsWith("/Home", StringComparison.OrdinalIgnoreCase))
+            {
+                string redirectUrl = url.Substring(0, url.Length - 5); // Remove "/Home"
+                context.Response.Redirect(redirectUrl, true);
+            }
+            // Compression logic (GZip)
             context.Response.Filter = new GZipStream(context.Response.Filter, CompressionMode.Compress);
-            HttpContext.Current.Response.AppendHeader("Content-encoding", "gzip");
-            HttpContext.Current.Response.Cache.VaryByHeaders["Accept-encoding"] = true;
-                        
+            context.Response.AppendHeader("Content-encoding", "gzip");
+            context.Response.Cache.VaryByHeaders["Accept-encoding"] = true;
+
         }
 
         protected void Application_AuthenticateRequest(object sender, EventArgs e)
