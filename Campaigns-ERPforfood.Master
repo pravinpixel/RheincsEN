@@ -115,9 +115,9 @@
                     flag = false;
                 }
                 if (!(grecaptcha && grecaptcha.getResponse().length > 0)) {
-                    $('.showErrorMsg').text("Select captcha.");
-                    return false;
-                    flag = false;
+                    $('.showErrorMsg').text("");
+                   // return false;
+                   // flag = false;
                 }
                 // eof email validation 
                 //leadsquared integration
@@ -235,7 +235,7 @@
         });
 
        
-        </script>
+    </script>
      <!--EOF Form Validation-->
       <%--Lead square implementation--%>
 <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>

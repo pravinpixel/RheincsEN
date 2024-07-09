@@ -20,7 +20,7 @@
         <EntityTypeShape EntityType="RheinBruckeDevModel.CaseStudy" Width="1.5" PointX="9.375" PointY="9.75" />
         <EntityTypeShape EntityType="RheinBruckeDevModel.WhitePaper" Width="1.5" PointX="10.375" PointY="0.75" />
         <EntityTypeShape EntityType="RheinBruckeDevModel.UserRole" Width="1.5" PointX="0.75" PointY="10.75" />
-        <EntityTypeShape EntityType="RheinBruckeDevModel.RICNew" Width="1.5" PointX="11.375" PointY="8.75" />
+        <EntityTypeShape EntityType="RheinBruckeDevModel.RICNew" PointX="11.375" PointY="8.75" Width="1.5" />
         <EntityTypeShape EntityType="RheinBruckeDevModel.FactSheet" PointX="3.375" PointY="11.75" Width="1.5" />
         <EntityTypeShape EntityType="RheinBruckeDevModel.LeadSquareLog" Width="1.5" PointX="10.375" PointY="4.75" />
         <EntityTypeShape EntityType="RheinBruckeDevModel.WebinarsList" Width="1.5" PointX="12.75" PointY="0.75" />

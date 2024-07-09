@@ -345,7 +345,7 @@
                                                 <div class="input-group-addon">
                                                     <img src="/Landing/Images/phone.png" />
                                                 </div>
-                                                <input type="text" class="form-control txtPhone" placeholder="Phone" name="mobile_number" />
+                                                <input type="text" class="form-control txtContactPhone" placeholder="Phone" name="mobile_number" />
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -536,8 +536,7 @@
             });            
         };
     </script>
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
-    </script>
+    
     <script type="text/javascript">
         $(document).ready(function () {
             $('#btnAMS').click(function () {
@@ -650,7 +649,7 @@
                     Name: $('#txtFirstName').val(),
                     FormPID: data.PId,
                     Email: $('#txtContactEmail').val(),
-                    Mobile: $('#txtPhone').val(),
+                    Mobile: $('#txtContactPhone').val(),
                     Company: $('#txtCompany').val(),
                     FormStatus: data.Status,
                     FormMsg: data.Message,
@@ -682,7 +681,7 @@
                     Name: $('#txtFirstName').val(),
                     FormPID: data.PId,
                     Email: $('#txtContactEmail').val(),
-                    Mobile: $('#txtPhone').val(),
+                    Mobile: $('#txtContactPhone').val(),
                     Company: $('#txtCompany').val(),
                     FormStatus: data.Status,
                     FormMsg: data.Message,
@@ -740,11 +739,11 @@
                 if ($('.txtFirstName').val() == '') {
                     $('.showErrorMsg1').text("Ensure name!."); $('.txtFirstName').focus(); return false;
                 }
-                //if ($('.txtPhone').val() == '') {
-                //    $('.showErrorMsg').text("Ensure phone number!."); $('.txtPhone').focus(); return false;
+                //if ($('.txtContactPhone').val() == '') {
+                //    $('.showErrorMsg').text("Ensure phone number!."); $('.txtContactPhone').focus(); return false;
                 //}
-                if ($('.txtPhone').val() != '' && $('.txtPhone').val().length < 10) {
-                    $('.showErrorMsg1').text("Ensure phone number!."); $('.txtPhone').focus(); return false;
+                if ($('.txtContactPhone').val() != '' && $('.txtContactPhone').val().length < 10) {
+                    $('.showErrorMsg1').text("Ensure phone number!."); $('.txtContactPhone').focus(); return false;
                 }
                 if ($('.txtContactEmail').val() == '') {
                     $('.showErrorMsg1').text("Ensure work email!."); $('.txtContactEmail').focus(); return false;
@@ -773,7 +772,7 @@
                 var Data = {
                     name: $('.txtFirstName').val(),
                     email: $('.txtContactEmail').val(),
-                    phone: $('.txtPhone').val(),
+                    phone: $('.txtContactPhone').val(),
                     company: $('.txtCompany').val(),
                     Services: "ADMS"
                 };
@@ -792,7 +791,7 @@
                             $('.showErrorMsg1').text('Click the above button to download the brochure!');
                             setTimeout(function () {
                                 $('.showErrorMsg1').text('');
-                                $('.txtFirstName,.txtContactEmail,.txtPhone,.txtCompany').val('');
+                                $('.txtFirstName,.txtContactEmail,.txtContactPhone,.txtCompany').val('');
                                 $('#btnpdf').show();
                                 $('#btndownload').hide();
                             }, 50000);
