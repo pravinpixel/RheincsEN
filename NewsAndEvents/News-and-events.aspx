@@ -6,8 +6,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    
-  
-<div class="container" id="container-top">
+    <div class="container" id="container-top">
         <div class="row">
             <ul class="breadcrumb bread  hidden-xs hidden-sm">
                 <li><a href="<%= rootpath%>" class="redColor">Home <span>» </span></a></li>
@@ -53,7 +52,7 @@
                                                                 <%# string.Format("{0:MMMM, yyyy}", Eval("NewsEventsDate"))%>
                                                             </div>
                                                             <div style="padding-top: 10px;">
-                                                                <a style="color: #2f2f2f;" href="<%=rootpath %>our-history/<%# Eval("UrlDetails") %>">
+                                                                <a style="color: #2f2f2f;" href="<%=rootpath %>news-events/<%# Eval("UrlDetails") %>">
                                                                     <img style="margin-right: 15px;" src="<%=rootpath %>Assets/images/readmore.png" alt="RheinCS">read more &gt;</a>
                                                             </div>
                                                         </div>
@@ -81,7 +80,7 @@
                                                                 <%# string.Format("{0:MMMM, yyyy}", Eval("NewsEventsDate"))%>
                                                             </div>
                                                             <div style="padding-top: 10px;">
-                                                                <a class="ETnews" style="color: #2f2f2f;" href="<%=rootpath %>our-history/<%# Eval("UrlDetails") %>">
+                                                                <a class="ETnews" style="color: #2f2f2f;" href="<%=rootpath %>news-events/<%# Eval("UrlDetails") %>">
                                                                     <%--<a class="ETnews" style="color: #2f2f2f;" href="<%=rootpath %>Newsandevents/NewsEventsDetail.aspx?ID=<%# Eval("NewsAndEventsID") %>">--%>
                                                                     <img style="margin-right: 15px;" src="<%=rootpath %>Assets/images/readmore.png" alt="RheinCS">read more &gt;</a>
                                                             </div>
