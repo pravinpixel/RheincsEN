@@ -596,8 +596,11 @@ var google_remarketing_only = false;
         </div>
 
     </div>	
-	
-	
+	 <div class="container rheincs-container"> 
+	 <div class="boldBlackheading padding">
+                        <p> We would be happy to connect with you on how our ERP can help your organization. Get in touch with us at <a style="color:#7b1315;"><u>info@rheincs.com</u></a> </p><br />
+         </div>
+                    </div>
                 <div class="container rheincs-container"> 
 		
                     

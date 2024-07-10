@@ -1,13 +1,13 @@
 ﻿<%@ Page Title="Your ERP Implementation Partner: Stay Updated with News, Events & Our History" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="News-and-events.aspx.cs" Inherits="RheinBrucke.NewsAndEvents.News_and_events" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-<meta name="keywords" content="RheinBrücke Newsroom, Newsroom, RheinBrücke News, RheinBrücke Events, Events, RheinBrücke News and Events, News and Events" />
-<meta name="Description" content="Discover the latest news and events from your trusted ERP implementation partner. Explore our rich history and learn why businesses choose us for seamless solutions" />
+    <meta name="keywords" content="RheinBrücke Newsroom, Newsroom, RheinBrücke News, RheinBrücke Events, Events, RheinBrücke News and Events, News and Events" />
+    <meta name="Description" content="Discover the latest news and events from your trusted ERP implementation partner. Explore our rich history and learn why businesses choose us for seamless solutions" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   
-  
-<div class="container" id="container-top">
+
+    <div class="container" id="container-top">
         <div class="row">
             <ul class="breadcrumb bread  hidden-xs hidden-sm">
                 <li><a href="<%= rootpath%>" class="redColor">Home <span>» </span></a></li>
@@ -53,7 +53,7 @@
                                                                 <%# string.Format("{0:MMMM, yyyy}", Eval("NewsEventsDate"))%>
                                                             </div>
                                                             <div style="padding-top: 10px;">
-                                                                <a style="color: #2f2f2f;" href="<%=rootpath %>our-history/<%# Eval("UrlDetails") %>">
+                                                                <a style="color: #2f2f2f;" href="<%=rootpath %>news-events/<%# Eval("UrlDetails") %>">
                                                                     <img style="margin-right: 15px;" src="<%=rootpath %>Assets/images/readmore.png" alt="RheinCS">read more &gt;</a>
                                                             </div>
                                                         </div>
@@ -81,7 +81,7 @@
                                                                 <%# string.Format("{0:MMMM, yyyy}", Eval("NewsEventsDate"))%>
                                                             </div>
                                                             <div style="padding-top: 10px;">
-                                                                <a class="ETnews" style="color: #2f2f2f;" href="<%=rootpath %>our-history/<%# Eval("UrlDetails") %>">
+                                                                <a class="ETnews" style="color: #2f2f2f;" href="<%=rootpath %>news-events/<%# Eval("UrlDetails") %>">
                                                                     <%--<a class="ETnews" style="color: #2f2f2f;" href="<%=rootpath %>Newsandevents/NewsEventsDetail.aspx?ID=<%# Eval("NewsAndEventsID") %>">--%>
                                                                     <img style="margin-right: 15px;" src="<%=rootpath %>Assets/images/readmore.png" alt="RheinCS">read more &gt;</a>
                                                             </div>
@@ -144,7 +144,7 @@
     </div>
     <div class="clearfix">&nbsp;</div>
     <div class="clearfix">&nbsp;</div>
-   <%-- <script src="../Assets/js/jquery-1.8.2.min.js"></script>
+    <%-- <script src="../Assets/js/jquery-1.8.2.min.js"></script>
      <script>
         $(document).ready(function () {
             var URI = window.location.pathname;

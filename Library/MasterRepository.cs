@@ -78,7 +78,7 @@ namespace RheinBrucke.Library
                 row = new EmailRequest();
                 row.Name = name;
                 row.Email = email;
-                row.Message = company;
+               // row.Company = company;
                 row.Phone = phone;
                 row.Phone = role;
                 row.Services = Services;
@@ -159,7 +159,7 @@ namespace RheinBrucke.Library
                 row.Name = name;
                 row.Phone = phone;
                 row.Email = email;
-                row.Companyname = company;
+               row.Companyname = company;
                 row.EmailTypeID = 4;
                 row.ContactUsUrl = "PEP";
                 row.CreatedOn = DateTime.Now;
