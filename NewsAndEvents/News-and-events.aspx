@@ -1,11 +1,12 @@
 ﻿<%@ Page Title="Your ERP Implementation Partner: Stay Updated with News, Events & Our History" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="News-and-events.aspx.cs" Inherits="RheinBrucke.NewsAndEvents.News_and_events" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-<meta name="keywords" content="RheinBrücke Newsroom, Newsroom, RheinBrücke News, RheinBrücke Events, Events, RheinBrücke News and Events, News and Events" />
-<meta name="Description" content="Discover the latest news and events from your trusted ERP implementation partner. Explore our rich history and learn why businesses choose us for seamless solutions" />
+    <meta name="keywords" content="RheinBrücke Newsroom, Newsroom, RheinBrücke News, RheinBrücke Events, Events, RheinBrücke News and Events, News and Events" />
+    <meta name="Description" content="Discover the latest news and events from your trusted ERP implementation partner. Explore our rich history and learn why businesses choose us for seamless solutions" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   
+
     <div class="container" id="container-top">
         <div class="row">
             <ul class="breadcrumb bread  hidden-xs hidden-sm">
@@ -143,7 +144,7 @@
     </div>
     <div class="clearfix">&nbsp;</div>
     <div class="clearfix">&nbsp;</div>
-   <%-- <script src="../Assets/js/jquery-1.8.2.min.js"></script>
+    <%-- <script src="../Assets/js/jquery-1.8.2.min.js"></script>
      <script>
         $(document).ready(function () {
             var URI = window.location.pathname;

@@ -724,7 +724,7 @@ Services</span></a>
                                     </div>
                                 </div>
                                 <br />
-                                <div class="fBottom"><span class="border">Connect with us</span> </div>
+                                <div class="fBottom"><span class="border"><a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" style="color: white;">Connect with us</a></span> </div>
                                 <ul class="social">
                                     <li><a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" title="LinkedIn" target="_blank" aria-hidden="true" class="icon-linkedin ETsocialicon"></a></li>
                                     <li><a href="https://plus.google.com/108478282039113445071" title="Google-plus" target="_blank" aria-hidden="true" class="icon-google-plus ETsocialicon"></a></li>
