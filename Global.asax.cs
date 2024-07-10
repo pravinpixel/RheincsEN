@@ -54,11 +54,15 @@ namespace RheinBrucke
         {
             HttpContext context = HttpContext.Current;
 
-            if (!context.Request.IsSecureConnection)
+            if (!Request.IsSecureConnection)
             {
-                // Redirect to HTTPS version of the current URL
-                string newUrl = "https://" + Request.Url.Host + Request.RawUrl;
-                Response.Redirect(newUrl, true);
+                HttpRequest request = HttpContext.Current.Request;
+                string urlcheck = request.Url.ToString().ToLowerInvariant();
+                if (urlcheck.StartsWith("http:"))
+                {
+                    string newUrl = "https://" + request.Url.Host + request.RawUrl;
+                    Response.Redirect(newUrl, true);
+                }
             }
             string url = context.Request.Url.ToString();
             if (url.EndsWith("/Home", StringComparison.OrdinalIgnoreCase))
@@ -66,6 +70,24 @@ namespace RheinBrucke
                 string redirectUrl = url.Substring(0, url.Length - 5); // Remove "/Home"
                 context.Response.Redirect(redirectUrl, true);
             }
+            // if (url.EndsWith("/Home.aspx", StringComparison.OrdinalIgnoreCase))
+            // {
+            //     string redirectUrl = url.Substring(0, url.Length - 10); // Remove "/Home"
+            //     context.Response.Redirect(redirectUrl, true);
+            // }
+
+            string url2 = context.Request.Url.ToString().ToLower();
+
+            // Check if the URL matches any of the specified patterns
+            // if (url2.StartsWith("http://rheincs.com") ||
+            //     url2.StartsWith("https://rheincs.com") ||
+            //     url2.StartsWith("http://en.rheincs.com") ||
+            //     url2.StartsWith("https://en.rheincs.com"))
+            // {
+            //     // Redirect to https://www.rheincs.com
+            //     string redirectUrl = "https://www.rheincs.com" + context.Request.Url.PathAndQuery;
+            //     context.Response.Redirect(redirectUrl, true);
+            // }
             // Compression logic (GZip)
             context.Response.Filter = new GZipStream(context.Response.Filter, CompressionMode.Compress);
             context.Response.AppendHeader("Content-encoding", "gzip");
