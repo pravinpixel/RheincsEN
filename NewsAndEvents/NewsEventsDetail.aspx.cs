@@ -40,6 +40,7 @@ namespace RheinBrucke.NewsAndEvents
               
                 DateTime newsdate = Convert.ToDateTime(getNewsEventsDetail.NewsEventsDate);
 
+                Page.Title = getNewsEventsDetail.Title;
 
                 NewsEventsTitle = getNewsEventsDetail.Title;
                 NewsEventMetaTagKeyword = getNewsEventsDetail.MetaTagKeyword;
@@ -53,6 +54,20 @@ namespace RheinBrucke.NewsAndEvents
                     NewsImage.Style["display"] = "block";
                 }
             }
+        }
+
+        protected override void OnLoadComplete(EventArgs e)
+        {
+            // Set the page's title, if necessary
+            if (string.IsNullOrEmpty(Page.Title) || Page.Title == "RheinBrücke IT Consulting")
+            {
+                // Determine the filename for this page
+                string fileName = System.IO.Path.GetFileNameWithoutExtension(Request.PhysicalPath);
+
+                Page.Title = fileName;
+            }
+
+            base.OnLoadComplete(e);
         }
     }
 }
