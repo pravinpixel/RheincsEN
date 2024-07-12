@@ -1,9 +1,9 @@
-﻿<%@ Page Title="Are you looking for the best payroll software? [Click here to explore] | Payroll Software Dubai | Payroll HR System | Payroll Processing | Epicor Payroll MEA"
+﻿<%@ Page Title="Microsoft Dynamics ERP Solutions - Streamline Your Business | RheinBrücke"
     Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="MicrosoftDynamics.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.MicrosoftDynamics" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-    <meta name="keywords" content="it governance, outsourced it services, it outsourcing, it strategy, it cost optimization, it portfolio management, business strategy, technology consulting firms, business it management, it due diligence" />
-    <meta name="Description" content="Best payroll software with Employee Self Service, customized to meet country-specific employee regulations for UAE, Bahrain, Oman, Kuwait, Saudi Arabia and Australia and seamlessly integrate with Epicor version 10 and above" />
+    <meta name="keywords" content="ms dynamics erp solution" />
+    <meta name="Description" content="Discover the power of Microsoft Dynamics ERP Solutions with Rheincs. Enhance efficiency, drive growth, and transform your business operations with our expert implementation and support services." />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <title>Epicor Payroll MEA</title>
