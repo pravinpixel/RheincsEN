@@ -107,7 +107,7 @@
 
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal18" data-videoid="t5b2gIdhyo" data-videosite="youtube">
-                            <img src="http://img.youtube.com/vi/-t5b2gIdhyo/0.jpg" alt="RheinBrücke – Pinnacle Awards of Excellence 2016" class="video_lightbox_auto_anchor_image" alt="" /><div class="thumb_play">
+                            <img src="https://img.youtube.com/vi/-t5b2gIdhyo/0.jpg" alt="RheinBrücke – Pinnacle Awards of Excellence 2016" class="video_lightbox_auto_anchor_image" alt="" /><div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton">
                             </div>
                         </a>
