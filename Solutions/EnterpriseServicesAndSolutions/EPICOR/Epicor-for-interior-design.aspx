@@ -1,200 +1,203 @@
-﻿<%@ Page Title="Best interior design project management software | RheinBrücke"  MasterPageFile="~/RheincsLanding.Master"  Language="C#"  CodeBehind="epicor-for-interior-design.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.Epicor_for_interior_design" %>
+﻿<%@ Page Title="Best interior design project management software | RheinBrücke" MasterPageFile="~/RheincsLanding.Master" Language="C#" CodeBehind="epicor-for-interior-design.aspx.cs" Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR.Epicor_for_interior_design" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
- <meta name="description" content="Streamline design projects using RheinBrücke’s interior software. Effortless solutions for creative professionals."/>
-<meta name="keywords" content="ERP for interior design, Project Management software for interior designers, Interior design Solutions, best interior design software companies, ERP case studies for interior design companies like Bond Interiors and Gemaco Interiors, erp demo, epicor erp project implementation, customized epicor erp solutions and implementation, epicor erp support, epicor erp strategy, epicor platinum partners in germany netherlands europe india dubai uae middle east, epicor erp integration, epicor erp consultants, outsourcing epicor erp management, epicor erp consulting companies and firm in germany netherlands europe india dubai uae middle east , epicor erp consultants in germany netherlands europe india dubai uae middle east, epicor erp implementation partners."/>
+    <meta name="description" content="Streamline design projects using RheinBrücke’s interior software. Effortless solutions for creative professionals." />
+    <meta name="keywords" content="ERP for interior design, Project Management software for interior designers, Interior design Solutions, best interior design software companies, ERP case studies for interior design companies like Bond Interiors and Gemaco Interiors, erp demo, epicor erp project implementation, customized epicor erp solutions and implementation, epicor erp support, epicor erp strategy, epicor platinum partners in germany netherlands europe india dubai uae middle east, epicor erp integration, epicor erp consultants, outsourcing epicor erp management, epicor erp consulting companies and firm in germany netherlands europe india dubai uae middle east , epicor erp consultants in germany netherlands europe india dubai uae middle east, epicor erp implementation partners." />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style>
-        .padd-left-0
-        {
-            padding-left:0px !important;
+        .padd-left-0 {
+            padding-left: 0px !important;
         }
-        .padd-head-align{
-            padding-left:0px !important;
+
+        .padd-head-align {
+            padding-left: 0px !important;
             padding-bottom: 15px;
         }
-        .padd-left-50{
-            padding-left:70px;
+
+        .padd-left-50 {
+            padding-left: 70px;
         }
-        .height-class{
-            margin-bottom:0px !important;
+
+        .height-class {
+            margin-bottom: 0px !important;
             margin-top: 25px;
         }
-        .redBottomInterior{
-    border-bottom: 2px solid transparent;
-    padding-bottom: 28px;
-    margin-bottom: -1px;
-    border-color: #7b1315!important;
-    font-weight: 400;
-    font-size: 12px;
-    font-family: sans-serif;
-    color: #2f2f2f;
-    padding-top: 14px;
+
+        .redBottomInterior {
+            border-bottom: 2px solid transparent;
+            padding-bottom: 28px;
+            margin-bottom: -1px;
+            border-color: #7b1315 !important;
+            font-weight: 400;
+            font-size: 12px;
+            font-family: sans-serif;
+            color: #2f2f2f;
+            padding-top: 14px;
         }
-        .btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary
-        {
-    color: #7b1314 !important;
-    background-color: #fff !important;
-    border-color: #DDDDDD !important;
-}
-     
+
+        .btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+            color: #7b1314 !important;
+            background-color: #fff !important;
+            border-color: #DDDDDD !important;
+        }
+
         h2 {
-		font-weight: 600;
-    font-size: 27px;
-}
-        .write-to-us-input
-        {
-            font-size:12px;
+            font-weight: 600;
+            font-size: 27px;
         }
-        .mainContent-normal-manufacturing
-        {
-                font-size:17px;
-                line-height: 1.5em;
-                color: #2f2f2f;
+
+        .write-to-us-input {
+            font-size: 12px;
         }
-        .redBullets-manufacturing >i
-        {
-            
-    font-size: 24px;
-    height: 64px;
-    line-height: 64px;
-    text-align: center;
-    width: 64px;
-    border-radius: 100%;
-    color: #7B1315;
-    box-shadow: inset 0 0 0 1px #d7d7d7;
-    -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
-    transition: background-color 400ms,background-color 400ms;
-    position: absolute;
-    top: .5em;
-    left: 0;
+
+        .mainContent-normal-manufacturing {
+            font-size: 17px;
+            line-height: 1.5em;
+            color: #2f2f2f;
         }
-       .redBullets-manufacturing >i:after {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 50%;
-    margin-top: -10px;
-    right: -10px;
-    border: 4px solid #fff;
-    border-radius: 20px;
-    background: #7B1315;
-}
-       .redBullets-manufacturing >i:hover
-       {
-           background-color:#7B1315;
-          box-shadow: inset 0 0 0 1px #d7d7d7;
-    -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
-    transition: background-color 400ms,background-color 400ms;
-           border-radius: 100%;
-           color:#fff;
-       }
+
+        .redBullets-manufacturing > i {
+            font-size: 24px;
+            height: 64px;
+            line-height: 64px;
+            text-align: center;
+            width: 64px;
+            border-radius: 100%;
+            color: #7B1315;
+            box-shadow: inset 0 0 0 1px #d7d7d7;
+            -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
+            transition: background-color 400ms,background-color 400ms;
+            position: absolute;
+            top: .5em;
+            left: 0;
+        }
+
+            .redBullets-manufacturing > i:after {
+                content: "";
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: 50%;
+                margin-top: -10px;
+                right: -10px;
+                border: 4px solid #fff;
+                border-radius: 20px;
+                background: #7B1315;
+            }
+
+            .redBullets-manufacturing > i:hover {
+                background-color: #7B1315;
+                box-shadow: inset 0 0 0 1px #d7d7d7;
+                -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
+                transition: background-color 400ms,background-color 400ms;
+                border-radius: 100%;
+                color: #fff;
+            }
+
         .bulletContent-manufacturing {
-         margin-left: 60px;
-         font-size:14px;
-        }
-        .bulletContent-manufacturing-title
-        {
             margin-left: 60px;
-            font-size:16px;
+            font-size: 14px;
         }
+
+        .bulletContent-manufacturing-title {
+            margin-left: 60px;
+            font-size: 16px;
+        }
+
         .bulletContent-manufacturing li:before {
             content: "\2713";
             color: #2f2f2f;
             padding-right: 10px;
         }
-        .fm-ul
-        {
-        margin-left: 45px;
-        margin-bottom: 2px;
+
+        .fm-ul {
+            margin-left: 45px;
+            margin-bottom: 2px;
         }
-        .padd-bottom-20
-        {
-            padding-bottom:20px;
+
+        .padd-bottom-20 {
+            padding-bottom: 20px;
         }
-.fmsecond-ul
-{
-    margin-left:0px !important;
-}
-@media (max-width: 991px) and (min-width: 768px)
-{
-    .fmsecond-ul
-{
-    margin-left:60px !important;
-}
-}
-@media (max-width: 767px) and (min-width: 640px)
-{
-.fmsecond-ul
-{
-    margin-left:60px !important;
-}
-}
-@media (max-width: 639px) and (min-width: 480px)
-{
-.fmsecond-ul
-{
-    margin-left:60px !important;
-}
-}
-@media (max-width: 479px) and (min-width: 320px)
-{
-.fmsecond-ul
-{
-    margin-left:60px !important;
-}
-}
-.customh1
-{
-    font-size: 20px !important;
-    color: #fff;
-    font-weight: bold;
-}
-.bg-img-epicor-for-automotive
-{
-    background-image: url(../../../Assets/images/SEO-page-images/InteriorDesign/InteriorDesignContentBanner.jpg);
-   background-color: rgba(0, 0, 0, 0.68);
-}
-.left-5
-{
-    padding-left:5px;
-}
+
+        .fmsecond-ul {
+            margin-left: 0px !important;
+        }
+
+        @media (max-width: 991px) and (min-width: 768px) {
+            .fmsecond-ul {
+                margin-left: 60px !important;
+            }
+        }
+
+        @media (max-width: 767px) and (min-width: 640px) {
+            .fmsecond-ul {
+                margin-left: 60px !important;
+            }
+        }
+
+        @media (max-width: 639px) and (min-width: 480px) {
+            .fmsecond-ul {
+                margin-left: 60px !important;
+            }
+        }
+
+        @media (max-width: 479px) and (min-width: 320px) {
+            .fmsecond-ul {
+                margin-left: 60px !important;
+            }
+        }
+
+        .customh1 {
+            font-size: 20px !important;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .bg-img-epicor-for-automotive {
+            background-image: url(../../../Assets/images/SEO-page-images/InteriorDesign/InteriorDesignContentBanner.jpg);
+            background-color: rgba(0, 0, 0, 0.68);
+        }
+
+        .left-5 {
+            padding-left: 5px;
+        }
+
         @media (max-width: 480px) {
             .customh1 {
-                font-size:13px !important;
+                font-size: 13px !important;
             }
-             h3
-         {
-             font-size:20px;
-             margin-bottom:10px !important;
-         }
-        }
-         @media (min-width: 1200px) {
-        .top-space {
-            top: 65% !important;
-        }
+
+            h3 {
+                font-size: 20px;
+                margin-bottom: 10px !important;
+            }
         }
 
+        @media (min-width: 1200px) {
+            .top-space {
+                top: 65% !important;
+            }
+        }
     </style>
-        <!-- Google Code for HCM &amp; Manufacturing Big 3 Conversion Page -->
+    <!-- Google Code for HCM &amp; Manufacturing Big 3 Conversion Page -->
 
     <!-- Content Starts Here-->
-     <div class="container" id="container-top">
-         <!--Breadcrumb row-->
-         <div class="row">            
+    <div class="container" id="container-top">
+        <!--Breadcrumb row-->
+        <div class="row">
             <ul class="breadcrumb bread hidden-xs hidden-sm">
-                <li><a href="<%=rootpath%>" class="redColor" >Home <span>» </span></a></li>
+                <li><a href="<%=rootpath%>" class="redColor">Home <span>» </span></a></li>
                 <li><a href="#" class="redColor">Solutions<span> » </span></a></li>
                 <li><a href="#" class="redColor">Enterprise Solutions (ERP) &amp; Services<span> » </span></a></li>
                 <li><a href="#" class="redColor">RheinBrücke EPICOR ERP Implementation Services<span> » </span></a></li>
                 <li><a href="#" class="redColor">Epicor For Interior Design</a></li>
-            </ul>       
-         </div>
-         <!--Eof Breadcrumb row-->
-         <!-- Slider Starts here-->
+            </ul>
+        </div>
+        <!--Eof Breadcrumb row-->
+        <!-- Slider Starts here-->
         <div class="row">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators hidden-xs hidden-sm">
@@ -202,231 +205,262 @@
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                     <li data-target="#myCarousel" data-slide-to="3"></li>
-                     <li data-target="#myCarousel" data-slide-to="4"></li>
-                    
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+
                 </ol>
-                <div class="carousel-inner" role="listbox">                  
+                <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <img src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-Design-Banner-1.jpg" alt="Epicor for Interior Design" class="img-responsive" /><div class="container">
-                            <div class="carousel-caption rhein-caption-text">                                
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">EPICOR FOR INTERIOR DESIGN</div><span class="rhein-banner-heading-black">Furnish your business with an Epicor ERP solution tailored for your Interior Design company
-Learn more about our solution</span></div>                               
+                            <div class="carousel-caption rhein-caption-text">
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
+                                    <div class="customh1">EPICOR FOR INTERIOR DESIGN</div>
+                                    <span class="rhein-banner-heading-black">Furnish your business with an Epicor ERP solution tailored for your Interior Design company
+Learn more about our solution</span>
+                                </div>
                             </div>
                             <br />
-                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
-                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space">
+                                <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-Design-Banner-2.jpg" alt="Epicor for Interior Design" class="img-responsive" /><div class="container">
-                            <div class="carousel-caption rhein-caption-text">                               
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">EPICOR FOR INTERIOR DESIGN</div><span class="rhein-banner-heading-black">An ERP solution that gives you full control and visibility over your design projects</span></div>                                
+                            <div class="carousel-caption rhein-caption-text">
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
+                                    <div class="customh1">EPICOR FOR INTERIOR DESIGN</div>
+                                    <span class="rhein-banner-heading-black">An ERP solution that gives you full control and visibility over your design projects</span></div>
                             </div>
-                            <br /> 
-                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
-                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
+                            <br />
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space">
+                                <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="item">
                         <img src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-Design-Banner-3.jpg" alt="Epicor for Interior Design" class="img-responsive" /><div class="container">
-                            <div class="carousel-caption rhein-caption-text">                               
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">EPICOR FOR INTERIOR DESIGN</div><span class="rhein-banner-heading-black">Our ERP solution's objective is to continue building your business performance through optimization of resources</span></div>                                
+                            <div class="carousel-caption rhein-caption-text">
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
+                                    <div class="customh1">EPICOR FOR INTERIOR DESIGN</div>
+                                    <span class="rhein-banner-heading-black">Our ERP solution's objective is to continue building your business performance through optimization of resources</span></div>
                             </div>
-                            <br /> 
-                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
-                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
+                            <br />
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space">
+                                <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                     <div class="item">
+                    <div class="item">
                         <img src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-Design-Banner-4.jpg" alt="Epicor for Interior Design" class="img-responsive" />
-                         <div class="container">
-                            <div class="carousel-caption rhein-caption-text">                              
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">EPICOR FOR INTERIOR DESIGN</div><span class="rhein-banner-heading-black">While you focus on creating distinctive spaces, let our ERP create inefficiency in your business</span></div>
-                               </div>
-                             <br />
-                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
-                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
-                        </div>
-                    </div>
-                     <div class="item">
-                       <img src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-Design-Banner-5.jpg" alt="Epicor for Interior Design" class="img-responsive" /><div class="container">
-                            <div class="carousel-caption rhein-caption-text">                               
-                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">EPICOR FOR INTERIOR DESIGN</div><span class="rhein-banner-heading-black">Our ERP technology gives your vintage classic look a modern touch. Learn more about our solution</span></div>                                
+                        <div class="container">
+                            <div class="carousel-caption rhein-caption-text">
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
+                                    <div class="customh1">EPICOR FOR INTERIOR DESIGN</div>
+                                    <span class="rhein-banner-heading-black">While you focus on creating distinctive spaces, let our ERP create inefficiency in your business</span></div>
                             </div>
-                           <br />
-                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space"><a  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
-                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div> </a></div> 
+                            <br />
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space">
+                                <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                   
+                    <div class="item">
+                        <img src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-Design-Banner-5.jpg" alt="Epicor for Interior Design" class="img-responsive" /><div class="container">
+                            <div class="carousel-caption rhein-caption-text">
+                                <div class="rhein-manufacturing-banner-heading-black-bg pull-right">
+                                    <div class="customh1">EPICOR FOR INTERIOR DESIGN</div>
+                                    <span class="rhein-banner-heading-black">Our ERP technology gives your vintage classic look a modern touch. Learn more about our solution</span></div>
+                            </div>
+                            <br />
+                            <div class="rhein-banner-readmore-bg banner-5-readmore pull-right top-space">
+                                <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="ET-hbanner2">
+                                    <div class=""><span class="rhein-banner-readmore-text"><b>Book a Demo</b></span></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <%-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span aria-hidden="true"></span><span class="sr-only">Next</span></a>--%>
             </div>
-               </div>
-         </div>
-          <!-- Slider Ends here-->  
+        </div>
+    </div>
+    <!-- Slider Ends here-->
     <div class="rheincs-container">
-    <!--Overview and form div-->
-     <div class="row">
-         <!--overview--><div class="clearfix">&nbsp;</div>
-		 
-         <div class="col-md-12 contentwithpadding">
-             <div class="col-md-12 padd-left-0">
-				<h1>Best Interior Design Project Management Software</h1>
-			 </div>
-             <div class="col-md-6 padd-left-0">
-               <div class="col-md-12 padd-left-0">
-			   <h2 class="redColor padd-head-align">EPICOR ERP FOR INTERIOR DESIGN SOFTWARE</h2></div>
-            <div class="col-md-12">
-                <ul>
-                    <li>
-                        <div class="redBullets"></div>
-                        <p class="bulletContent">RheinBrücke provides interior design firms with affordable project and business management solutions to help them run and grow their businesses.</p>
-                    </li>
-                </ul>
+        <!--Overview and form div-->
+        <div class="row">
+            <!--overview-->
+            <div class="clearfix">&nbsp;</div>
+
+            <div class="col-md-12 contentwithpadding">
+                <div class="col-md-12 padd-left-0">
+                    <h1>Best Interior Design Project Management Software</h1>
+                </div>
+                <div class="col-md-6 padd-left-0">
+                    <div class="col-md-12 padd-left-0">
+                        <h2 class="redColor padd-head-align">EPICOR ERP FOR INTERIOR DESIGN SOFTWARE</h2>
+                    </div>
+                    <div class="col-md-12">
+                        <ul>
+                            <li>
+                                <div class="redBullets"></div>
+                                <p class="bulletContent">RheinBrücke provides interior design firms with affordable project and business management solutions to help them run and grow their businesses.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <ul>
+                            <li>
+                                <div class="redBullets"></div>
+                                <p class="bulletContent">It helps them manage purchase orders, invoicing, planning & scheduling, estimations and client interactions.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <ul>
+                            <li>
+                                <div class="redBullets"></div>
+                                <p class="bulletContent">No more excel, no more paper work and no more back of the envelope breakdowns or estimations. </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <ul>
+                            <li>
+                                <div class="redBullets"></div>
+                                <p class="bulletContent">They can have full control over their projects by using a suite that best fits their business.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mainContent-normal contentdiv padd-left-50">
+                    <img class="img-responsive" src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-design-overview.png" alt="Epicor ERP for Interior Design Software" />
+                </div>
+
+                <div class="clearfix">&nbsp;</div>
             </div>
-            <div class="col-md-12">
-                <ul>
-                    <li>
-                        <div class="redBullets"></div>
-                        <p class="bulletContent">It helps them manage purchase orders, invoicing, planning & scheduling, estimations and client interactions.</p>
-                    </li>
-                </ul>
-            </div>
-        <div class="col-md-12">
-                <ul>
-                    <li>
-                        <div class="redBullets"></div>
-                        <p class="bulletContent"> No more excel, no more paper work and no more back of the envelope breakdowns or estimations. </p>
-                    </li>
-                </ul>
-            </div>
-        <div class="col-md-12">
-                <ul>
-                    <li>
-                        <div class="redBullets"></div>
-                        <p class="bulletContent">They can have full control over their projects by using a suite that best fits their business.</p>
-                    </li>
-                </ul>
-            </div>
-       
+            <!--eof overview-->
+
         </div>
-         
-             <div class="col-md-6 mainContent-normal contentdiv padd-left-50">
-                 <img class="img-responsive" src="../../../Assets/images/SEO-page-images/InteriorDesign/Interior-design-overview.png" alt="Epicor ERP for Interior Design Software" />
-             </div>
-            
-             <div class="clearfix">&nbsp;</div>
-         </div>
-         <!--eof overview-->
-      
-     </div>
-    <!--eof overview and form div-->
-    </div>  
-    <div class="rheincs-container">  
-     <div class="col-md-12 padd-left-0"><h2 class="redColor">MODULES</h2></div>
-                    <div class="withIcons">                        
-                        <div class="mainContent-normal-manufacturing">ERP for interior design solutions  encompasses various features specifically suiting the niche requirements of Interior design firms, which are not only powerful but also flexible. Go ahead and deliver the best to your clients, and plan your business expansions, profitably. </div>                       
-                    </div> 
+        <!--eof overview and form div-->
+    </div>
+    <div class="rheincs-container">
+        <div class="col-md-12 padd-left-0">
+            <h2 class="redColor">MODULES</h2>
+        </div>
+        <div class="withIcons">
+            <div class="mainContent-normal-manufacturing">ERP for interior design solutions  encompasses various features specifically suiting the niche requirements of Interior design firms, which are not only powerful but also flexible. Go ahead and deliver the best to your clients, and plan your business expansions, profitably. </div>
+        </div>
         <div class="clearfix">&nbsp;</div>
-        </div>
-                <div class="container">
+    </div>
+    <div class="container">
 
-                <div class="row paddingGreycontainer bgcol">
+        <div class="row paddingGreycontainer bgcol">
 
-                    <div class="boldBlackheading padding">
-                        <p><b>The suite includes the following modules</b></p><br />
+            <div class="boldBlackheading padding">
+                <p><b>The suite includes the following modules</b></p>
+                <br />
+            </div>
+
+            <div class="row col-md-12 padding">
+                <div class="col-md-4 padd-bottom-20">
+
+                    <div class="redBullets"></div>
+                    <div class="bulletContent">
+                        <b>Inventory Management</b>
                     </div>
 
-                    <div class="row col-md-12 padding">
-                        <div class="col-md-4 padd-bottom-20">                           
-                           
-                            <div class="redBullets"> </div>
-                             <div class="bulletContent">
-                                <b>Inventory Management</b></div>
-                                   
-                                  
-                        </div>
-                      <div class="col-md-4 padd-bottom-20">                           
-                                   <div class="redBullets"> </div>
-                             <div class="bulletContent">
-                                <b>Warehouse Management</b>
-                                
-                        </div>
-                          </div>
-                        <div class="col-md-4 padd-bottom-20">                           
-                                     <div class="redBullets"> </div>
-                             <div class="bulletContent">
-                                <b>Project Management</b>
-                                
-                        </div>
+
+                </div>
+                <div class="col-md-4 padd-bottom-20">
+                    <div class="redBullets"></div>
+                    <div class="bulletContent">
+                        <b>Warehouse Management</b>
+
                     </div>
-                    
-                       <div class="col-md-4 padd-bottom-20">                           
-                                     <div class="redBullets"> </div>
-                             <div class="bulletContent">
-                               <b>Customer Relationship Management</b>
-                                    </div>
-                                
-                        </div>
-                         <div class="col-md-4 padd-bottom-20">                           
-                                     <div class="redBullets"> </div>
-                             <div class="bulletContent">
-                               <b>BI Report Generation</b>
-                                    </div>
-                                
-                        </div>
-                        
-                     <div class="col-md-4 padd-bottom-20">                           
-                                     <div class="redBullets"> </div>
-                             <div class="bulletContent">
-                               <b>Planning & Scheduling</b>
-                                    </div>
-                                
-                        </div>
-                         <div class="col-md-4 padd-bottom-20">                           
-                                     <div class="redBullets"> </div>
-                             <div class="bulletContent">
-                               <b>Payroll Solution</b>
-                                    </div>
-                                
-                        </div>
-                         <div class="col-md-4 padd-bottom-20">                           
-                                     <div class="redBullets"> </div>
-                             <div class="bulletContent">
-                               <b>Quality Management</b>
-                                    </div>
-                                
-                        </div>
-                     <div class="clearfix">&nbsp;</div>
-                    <%--<div class="boldBlackheading padding">
+                </div>
+                <div class="col-md-4 padd-bottom-20">
+                    <div class="redBullets"></div>
+                    <div class="bulletContent">
+                        <b>Project Management</b>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 padd-bottom-20">
+                    <div class="redBullets"></div>
+                    <div class="bulletContent">
+                        <b>Customer Relationship Management</b>
+                    </div>
+
+                </div>
+                <div class="col-md-4 padd-bottom-20">
+                    <div class="redBullets"></div>
+                    <div class="bulletContent">
+                        <b>BI Report Generation</b>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 padd-bottom-20">
+                    <div class="redBullets"></div>
+                    <div class="bulletContent">
+                        <b>Planning & Scheduling</b>
+                    </div>
+
+                </div>
+                <div class="col-md-4 padd-bottom-20">
+                    <div class="redBullets"></div>
+                    <div class="bulletContent">
+                        <b>Payroll Solution</b>
+                    </div>
+
+                </div>
+                <div class="col-md-4 padd-bottom-20">
+                    <div class="redBullets"></div>
+                    <div class="bulletContent">
+                        <b>Quality Management</b>
+                    </div>
+
+                </div>
+                <div class="clearfix">&nbsp;</div>
+                <%--<div class="boldBlackheading padding">
                         <p><b>To know more download our Brochure by submitting the above form</b></p>
                     </div>--%>
-                </div>
-                    
-                      </div>
-                   
+            </div>
+
+        </div>
+
     </div>
     <!--Features-->
-   
-        <div class="col-md-12 contentwithpadding rheincs-container">
-             <h2 class="redColor height-class">FEATURES</h2>
-         </div>
+
+    <div class="col-md-12 contentwithpadding rheincs-container">
+        <h2 class="redColor height-class">FEATURES</h2>
+    </div>
     <div class="clearfix">&nbsp;</div>
     <!--Features Content Container-->
     <div class="container">
-            <div class="row paddingGreycontainer bg-img-epicor-for-automotive">
-           
+        <div class="row paddingGreycontainer bg-img-epicor-for-automotive">
 
-            
-<div class="row col-md-12 padding">
+
+
+            <div class="row col-md-12 padding">
                 <div class="col-md-3">
                     <ul>
                         <li>
                             <div class="redBullets-epicor-onbg"></div>
                             <div class="redColor-epicor bulletContent">
-                                <strong>
-INTEGRATED BID MANAGEMENT </strong>
+                                <strong>INTEGRATED BID MANAGEMENT </strong>
                             </div>
                             <p class="bulletContent-epicor padd-left-10">Fully integrated bid management with complete history, ability to capture drawings and specifications, multiple quotations tied to a single project</p>
                         </li>
@@ -472,7 +506,7 @@ INTEGRATED BID MANAGEMENT </strong>
                 </div>
 
             </div>
-<div class="row col-md-12 padding">
+            <div class="row col-md-12 padding">
                 <div class="col-md-3">
                     <ul>
                         <li>
@@ -524,14 +558,13 @@ INTEGRATED BID MANAGEMENT </strong>
                 </div>
 
             </div>
-                <div class="row col-md-12 padding">
+            <div class="row col-md-12 padding">
                 <div class="col-md-3">
                     <ul>
                         <li>
                             <div class="redBullets-epicor-onbg"></div>
                             <div class="redColor-epicor bulletContent">
-                                <strong>
-COLLABORATION NETWORK</strong>
+                                <strong>COLLABORATION NETWORK</strong>
                             </div>
                             <p class="bulletContent-epicor padd-left-10">Allows cross-company/cross-departmental collaboration bringing social - media and contextual info together in a single tool </p>
                         </li>
@@ -550,66 +583,72 @@ COLLABORATION NETWORK</strong>
                     </ul>
 
                 </div>
-             
+
 
             </div>
-            
+
 
         </div>
-             </div>
+    </div>
     <!-- EOF Features Conten Container-->
     <!--EOF Features-->
     <div class="clearfix">&nbsp;</div>
-                <div class="col-md-12 contentwithpadding rheincs-container">
-                    <div class="wrappernewbullet">
-                    <h2 class="redColor">OTHER SERVICES</h2>
-                  <%--  <p class="padd-bottom-10"><b>Strengthening Families </b></p>--%>
-                    <div class="col-md-12">
-                        <ul>
-                            <li>
-                                <div class="redBullets"></div>
-                                <p class="mainContent  main-container">Epicor Human Capital Management</p>
-                                <p class="mainContent-normal padd-bottom-10 main-container">Epicor HCM is designed by HR industry professionals. Epicor HCM provides the businesses with the tools they need to track data systematically rather than manually thus giving businesses more time to pursue their strategic objectives.</p>
-                                <p class="mainContent  main-container redColor"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" class="redColor">Learn More</a></p>
-                                   </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12">
-                        <ul>
-                            <li>
-                                <div class="redBullets"></div>
-                                 <p class="mainContent  main-container">Epicor Payroll MEA</p>
-                                <p class="mainContent-normal padd-bottom-10 main-container">Epicor Payroll MEA maintains employee payroll information that is seamlessly integrated with Epicor ERP. It has the ability to manage multiple payroll classes such as salaried employees, contract employees,consultants, etc., and map them to the payroll employee module.</p>
-                            <p class="mainContent  main-container redColor"><a href="<%=rootpath %>Epicor-Payroll-MEA" class="redColor">Learn More</a></p>   
-                            </li>
-                        </ul>
-                    </div>
-                     <div class="col-md-12">
-                        <ul>
-                            <li>
-                                <div class="redBullets"></div>
-                                <p class="mainContent  main-container">RheinBrücke Copy Company Tool</p>
-                                <p class="mainContent-normal padd-bottom-10 main-container">Use our EPICOR Copy Company Tool to rapidly create clones of the Epicor setup for your multi-location rollouts. Our tool is Fast, Zero Error, Cost Effective, Efficient and has an Audit Trial.</p>
-                                <p class="mainContent  main-container redColor"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="redColor">Learn More</a></p>
-                                 </li>
-                        </ul>
-                         
-                         <p style="padding-left:5px;">
-                   Wanted to know why an ERP is important to your organisation? <a data-toggle="modal" data-target="#myModal-epicor" onclick="DownepicorClear()" class="mailid-epicor redColor">Click here</a> to have the ERP Demo!
-                </p><br />
-                    </div>
-                  <h2 class="redColor">RELATED LINKS</h2>
-        <p>
-                     <b><a href="https://en.rheincs.com/rheinbrucke-solutions/interior-design">Interior design solutions (success story)</a></b></p><br />
-					 <p>
-                     <b><a href="https://en.rheincs.com/solutions/erp-enterprise-solutions-and-services/epicor">Epicor ERP Project implementation</a></b></p><br />
-        <p>
-                      <b><a href="https://rheincs.com/news-events/rheinbrucke-epicor-international-partner-of-the-year-2018">Epicor platinum partners Europe | Germany | Netherlands | MiddleEast | Dubai | UAE</a></b></p>
-         
+    <div class="col-md-12 contentwithpadding rheincs-container">
+        <div class="wrappernewbullet">
+            <h2 class="redColor">OTHER SERVICES</h2>
+            <%--  <p class="padd-bottom-10"><b>Strengthening Families </b></p>--%>
+            <div class="col-md-12">
+                <ul>
+                    <li>
+                        <div class="redBullets"></div>
+                        <p class="mainContent  main-container">Epicor Human Capital Management</p>
+                        <p class="mainContent-normal padd-bottom-10 main-container">Epicor HCM is designed by HR industry professionals. Epicor HCM provides the businesses with the tools they need to track data systematically rather than manually thus giving businesses more time to pursue their strategic objectives.</p>
+                        <p class="mainContent  main-container redColor"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" class="redColor">Learn More</a></p>
+                    </li>
+                </ul>
             </div>
+            <div class="col-md-12">
+                <ul>
+                    <li>
+                        <div class="redBullets"></div>
+                        <p class="mainContent  main-container">Epicor Payroll MEA</p>
+                        <p class="mainContent-normal padd-bottom-10 main-container">Epicor Payroll MEA maintains employee payroll information that is seamlessly integrated with Epicor ERP. It has the ability to manage multiple payroll classes such as salaried employees, contract employees,consultants, etc., and map them to the payroll employee module.</p>
+                        <p class="mainContent  main-container redColor"><a href="<%=rootpath %>Epicor-Payroll-MEA" class="redColor">Learn More</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-12">
+                <ul>
+                    <li>
+                        <div class="redBullets"></div>
+                        <p class="mainContent  main-container">RheinBrücke Copy Company Tool</p>
+                        <p class="mainContent-normal padd-bottom-10 main-container">Use our EPICOR Copy Company Tool to rapidly create clones of the Epicor setup for your multi-location rollouts. Our tool is Fast, Zero Error, Cost Effective, Efficient and has an Audit Trial.</p>
+                        <p class="mainContent  main-container redColor"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="redColor">Learn More</a></p>
+                    </li>
+                </ul>
 
-					
-                    </div>
+                <p style="padding-left: 5px;">
+                    Wanted to know why an ERP is important to your organisation? <a data-toggle="modal" data-target="#myModal-epicor" onclick="DownepicorClear()" class="mailid-epicor redColor">Click here</a> to have the ERP Demo!
+                </p>
+                <br />
+            </div>
+            <h2 class="redColor">RELATED LINKS</h2>
+            <p>
+                <b><a href="https://en.rheincs.com/rheinbrucke-solutions/interior-design">Interior design solutions (success story)</a></b>
+            </p>
+            <br />
+            <p>
+                <b><a href="https://en.rheincs.com/solutions/erp-enterprise-solutions-and-services/epicor">Epicor ERP Project implementation</a></b>
+            </p>
+            <br />
+            <p>
+                <b><a href="https://rheincs.com/news-events/rheinbrucke-epicor-international-partner-of-the-year-2018">Epicor platinum partners Europe | Germany | Netherlands | MiddleEast | Dubai | UAE</a></b>
+            </p>
+
+        </div>
+
+
+    </div>
 
 
     <div class="container contentwithpadding rheincs-container accor-dions">
@@ -629,7 +668,8 @@ COLLABORATION NETWORK</strong>
                 <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
                     <div class="panel-body">
                         <p>
-                           ERP for interior design is an ideal option for contractors and organisations in the interior design sector. An interior design ERP software integrates technology, intelligence and efficient methods to assist teams in handling several tasks and complicated projects simultaneously. Contractors can undertake a greater amount of complex work at the same time while keeping track of the quality of all projects.  <br />
+                            ERP for interior design is an ideal option for contractors and organisations in the interior design sector. An interior design ERP software integrates technology, intelligence and efficient methods to assist teams in handling several tasks and complicated projects simultaneously. Contractors can undertake a greater amount of complex work at the same time while keeping track of the quality of all projects. 
+                            <br />
                             <br />
                             It unifies and integrates key interior fit out company processes, enabling the organisation to finish projects efficiently. With such comprehensive evaluation tools businesses can easily manage workers, contractors, materials, machinery across projects. They can save time, optimise finances and taxation. 
                         </p>
@@ -679,7 +719,7 @@ COLLABORATION NETWORK</strong>
                 <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                     <div class="panel-body">
                         <p>
-                           Making an investment in the best interior design ERP software may help you in: 
+                            Making an investment in the best interior design ERP software may help you in: 
                         </p>
                         <ul>
                             <li>Increasing efficiency with a built-in project management software </li>
@@ -709,14 +749,14 @@ COLLABORATION NETWORK</strong>
                     <h3 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
                             <i class="more-less glyphicon glyphicon-plus"></i>
-                           What is the significance of project management software for interior designers? 
+                            What is the significance of project management software for interior designers? 
                         </a>
                     </h3>
                 </div>
                 <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
                     <div class="panel-body">
                         <p>
-                          Interior designers can use project management software to arrange and organise their ongoing projects. It helps in keeping track of the activities on a real-time basis to ensure that a project is finished on schedule and within budget.  It improves stakeholder communication and transparency thus ensuring the consistency of processes and quality of the deliverables.  
+                            Interior designers can use project management software to arrange and organise their ongoing projects. It helps in keeping track of the activities on a real-time basis to ensure that a project is finished on schedule and within budget.  It improves stakeholder communication and transparency thus ensuring the consistency of processes and quality of the deliverables.  
                         </p>
                     </div>
                 </div>
@@ -727,7 +767,7 @@ COLLABORATION NETWORK</strong>
                     <h3 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
                             <i class="more-less glyphicon glyphicon-plus"></i>
-                           Why should I use Epicor ERP system for interior design?
+                            Why should I use Epicor ERP system for interior design?
                         </a>
                     </h3>
                 </div>
@@ -742,7 +782,7 @@ COLLABORATION NETWORK</strong>
                             <li>You can have complete control over the projects by utilising an ideal suite for your business requirements. </li>
                         </ul>
 
-                       
+
 
                     </div>
                 </div>
@@ -752,16 +792,19 @@ COLLABORATION NETWORK</strong>
                     <h3 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
                             <i class="more-less glyphicon glyphicon-plus"></i>
-                          What is the importance of ERP for furniture manufacturing? 
+                            What is the importance of ERP for furniture manufacturing? 
                         </a>
                     </h3>
                 </div>
                 <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
                     <div class="panel-body">
                         <p>
-                           With the growth of the furniture sector, the numerous design, style and pricing options that customers seek can lead to endless product combinations that are nearly impossible to manage manually.  A furniture manufacturing ERP software can make managing the nature of the furniture manufacturing process much simpler. <br /><br />
+                            With the growth of the furniture sector, the numerous design, style and pricing options that customers seek can lead to endless product combinations that are nearly impossible to manage manually.  A furniture manufacturing ERP software can make managing the nature of the furniture manufacturing process much simpler.
+                            <br />
+                            <br />
                             Companies may benefit from furniture manufacturing software with strong Customer Relationship Management (CRM), product configuration, catalogue management and data management to stay agile while also reducing expenses.  
-                            <br /><br />
+                            <br />
+                            <br />
                             A furniture ERP software provides increased visibility, real-time tracking of customer demands and industry raw material requirements, maintain vendor and staff requests and effectively manages the delivery of finished furniture. 
                         </p>
                     </div>
@@ -772,105 +815,106 @@ COLLABORATION NETWORK</strong>
     </div>
 
 
-      <div class="clearfix">&nbsp;</div>
+    <div class="clearfix">&nbsp;</div>
     <div class="col-md-12 rheincs-container">
-    <h2 class="redColor">TESTIMONIALS</h2>
-                    <div class="col-md-12">
-                        <!--Mr. Chris Gilbert customer reference -->
-                        <div class="col-md-4 marg-10">
-                            
-                            <div class="col-md-10 padd-left-0">
-                                <div class="deco-header2">
-                                    <p class="redBottomInterior"><span class="bgcol1">Mr. Chris Gilbert |</span> <span class="redColor">CEO at Gemaco Interiors </span></p>
-                                </div>
-                            </div>
-                            <div class="row col-md-12 padd-top-20">
-                                <p class="ldr-marg text-justify">As a leading company in our industry with an intense focus on addressing client’s needs, we understand the importance and need for improving process efficiencies through technology. RheinBrücke demonstrated great technical and functional depth in implementing Epicor ERP for our industry. We are happy to have chosen RheinBrücke &amp; Epicor ERP to automate our operations enabling us to focus on more strategic initiatives.</p>
-                            </div>
-                        </div>
-                        <!--EOF Mr. Chris Gilbert customer reference -->
-                        <!-- Vinoth customer reference -->
-                        <div class="col-md-4 marg-10 height">
-                           
-                            <div class="col-md-10 padd-left-0">
-                                <div class="deco-header2">
-                                    <p class="redBottom1 height" style="padding-bottom: 13px !important;">
-                                        <span class="bgcol1">Mr. Vinoth K |</span> <span class="redColor">Finance Manager at Gemaco Interiors </span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row col-md-12 padd-top-20">
-                                <p class="ldr-marg text-justify">Too much time and effort was getting consumed in managing operational needs. EpicPay implementation will streamline HR and Payroll operations – We look forward to business and cost control (Eg: Estimates Vs Budgets Vs Actuals) benefits by implementing Epicor ERP 10.</p>
+        <h2 class="redColor">TESTIMONIALS</h2>
+        <div class="col-md-12">
+            <!--Mr. Chris Gilbert customer reference -->
+            <div class="col-md-4 marg-10">
 
-                            </div>
-                        </div>
-                        <!--EOF Vinoth customer reference -->
-                        <!-- Jonathon customer reference -->                    
-                        <div class="col-md-4 marg-10">
-                           
-                            <div class="col-md-10 padd-left-0">
-                                <div class="deco-header2">
-                                    <p class="redBottom1 height" style="padding-bottom: 14px !important;">
-                                        <span class="bgcol1">Mr. Jonathon O’Connor |</span>
-                                        <span class="redColor">General Manager at Gemaco Interiors</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row col-md-12 padd-top-20">
-                                <p class="ldr-marg text-justify">RheinBrücke’s Epicor ERP implementation expertise will help us to improve our operational efficiency and provide us clear operational visibilities. We are greatly impressed by the professional attitude shown by the RheinBrücke team. We look forward to reaping the business benefits after the post go-live leveraging their post go-live support model.</p>
-                            </div>
-                        </div>
-                          <!--EOF Jonathon customer reference -->
-                    </div></div>
+                <div class="col-md-10 padd-left-0">
+                    <div class="deco-header2">
+                        <p class="redBottomInterior"><span class="bgcol1">Mr. Chris Gilbert |</span> <span class="redColor">CEO at Gemaco Interiors </span></p>
+                    </div>
+                </div>
+                <div class="row col-md-12 padd-top-20">
+                    <p class="ldr-marg text-justify">As a leading company in our industry with an intense focus on addressing client’s needs, we understand the importance and need for improving process efficiencies through technology. RheinBrücke demonstrated great technical and functional depth in implementing Epicor ERP for our industry. We are happy to have chosen RheinBrücke &amp; Epicor ERP to automate our operations enabling us to focus on more strategic initiatives.</p>
+                </div>
+            </div>
+            <!--EOF Mr. Chris Gilbert customer reference -->
+            <!-- Vinoth customer reference -->
+            <div class="col-md-4 marg-10 height">
+
+                <div class="col-md-10 padd-left-0">
+                    <div class="deco-header2">
+                        <p class="redBottom1 height" style="padding-bottom: 13px !important;">
+                            <span class="bgcol1">Mr. Vinoth K |</span> <span class="redColor">Finance Manager at Gemaco Interiors </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row col-md-12 padd-top-20">
+                    <p class="ldr-marg text-justify">Too much time and effort was getting consumed in managing operational needs. EpicPay implementation will streamline HR and Payroll operations – We look forward to business and cost control (Eg: Estimates Vs Budgets Vs Actuals) benefits by implementing Epicor ERP 10.</p>
+
+                </div>
+            </div>
+            <!--EOF Vinoth customer reference -->
+            <!-- Jonathon customer reference -->
+            <div class="col-md-4 marg-10">
+
+                <div class="col-md-10 padd-left-0">
+                    <div class="deco-header2">
+                        <p class="redBottom1 height" style="padding-bottom: 14px !important;">
+                            <span class="bgcol1">Mr. Jonathon O’Connor |</span>
+                            <span class="redColor">General Manager at Gemaco Interiors</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row col-md-12 padd-top-20">
+                    <p class="ldr-marg text-justify">RheinBrücke’s Epicor ERP implementation expertise will help us to improve our operational efficiency and provide us clear operational visibilities. We are greatly impressed by the professional attitude shown by the RheinBrücke team. We look forward to reaping the business benefits after the post go-live leveraging their post go-live support model.</p>
+                </div>
+            </div>
+            <!--EOF Jonathon customer reference -->
+        </div>
+    </div>
     <!-- Content Ends Here-->
-     <div class="clearfix"></div>
-     <div class="modal fade" id="myModal-epicor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content mymodal-download">
-                    <div class="modal-header modal-header-bgcolor">
-                        <button type="button" class="close closev2" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title redColor">Request for RheinBrücke’s EPICOR ERP - DEMO </h4>
+    <div class="clearfix"></div>
+    <div class="modal fade" id="myModal-epicor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content mymodal-download">
+                <div class="modal-header modal-header-bgcolor">
+                    <button type="button" class="close closev2" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title redColor">Request for RheinBrücke’s EPICOR ERP - DEMO </h4>
+                </div>
+                <div class="col-md-12 padd-top">
+                    <div class="form-group">
+                        <label class="success" id="successmsg" hidden="hidden">Thank you for submitting your details. You will receive an email shortly with the details for ERP demo.</label>
                     </div>
-                    <div class="col-md-12 padd-top">
-                        <div class="form-group">
-                            <label class="success" id="successmsg" hidden="hidden">Thank you for submitting your details. You will receive an email shortly with the details for ERP demo.</label>
-                        </div>
-                    </div>
-                    <div class="modal-body">
-                        <p class="formhead text-left">Please fill in your details for requesting RheinBrücke’s EPICOR ERP - Demo</p>
-                        <p>
-                             <input type="hidden" id="hdfRootUrl" value="<%=rootpath %>" runat="server" />
-                            <input type="text" placeholder="*Your Name" id="textepicor" class="write-to-us-input" name="your-name"/>
-                        </p>
-                        <span style="margin-top: 5px;" class="validator text-left" id="reqtextepicornameval" hidden="hidden">Enter Your Name</span>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            <input type="text" placeholder="*Your Email Address" id="textcontactemail" class="write-to-us-input" name="email-address"/>
-                        </p>
-                        <span style="margin-top: 5px;" class="validator text-left" id="reqtextcontactemailval" hidden="hidden">Enter Your Email Address</span>
-                        <span  style="margin-top: 5px;" class="validator text-left" id="valtextcontactemail" hidden="hidden">Enter Valid Email Address</span>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            <input type="number" placeholder="*Your Mobile Number " id="textmobile" class="write-to-us-input" name="phone-number"/>
-                        </p>
-                        <span style="margin-top: 5px;" class="validator text-left" id="reqtextmobile" hidden="hidden">Enter Your Mobile Number </span>
-                        <span style="margin-top: 5px;" class="validator text-left" id="valtextmobile" hidden="hidden">Enter Valid Mobile Number</span>
-                    </div>
-                    <div class="clearfix">&nbsp;</div>
-                    <div class="modal-body">
-                        <input type="button" id="btnepicor" class="submit-button " data-loading-text="Submitting.." value="Submit" />
-                    </div>
+                </div>
+                <div class="modal-body">
+                    <p class="formhead text-left">Please fill in your details for requesting RheinBrücke’s EPICOR ERP - Demo</p>
+                    <p>
+                        <input type="hidden" id="hdfRootUrl" value="<%=rootpath %>" runat="server" />
+                        <input type="text" placeholder="*Your Name" id="textepicor" class="write-to-us-input" name="your-name" />
+                    </p>
+                    <span style="margin-top: 5px;" class="validator text-left" id="reqtextepicornameval" hidden="hidden">Enter Your Name</span>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <input type="text" placeholder="*Your Email Address" id="textcontactemail" class="write-to-us-input" name="email-address" />
+                    </p>
+                    <span style="margin-top: 5px;" class="validator text-left" id="reqtextcontactemailval" hidden="hidden">Enter Your Email Address</span>
+                    <span style="margin-top: 5px;" class="validator text-left" id="valtextcontactemail" hidden="hidden">Enter Valid Email Address</span>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <input type="number" placeholder="*Your Mobile Number " id="textmobile" class="write-to-us-input" name="phone-number" />
+                    </p>
+                    <span style="margin-top: 5px;" class="validator text-left" id="reqtextmobile" hidden="hidden">Enter Your Mobile Number </span>
+                    <span style="margin-top: 5px;" class="validator text-left" id="valtextmobile" hidden="hidden">Enter Valid Mobile Number</span>
+                </div>
+                <div class="clearfix">&nbsp;</div>
+                <div class="modal-body">
+                    <input type="button" id="btnepicor" class="submit-button " data-loading-text="Submitting.." value="Submit" />
                 </div>
             </div>
         </div>
+    </div>
     <br />
-  
+
     <style>
         a.mailid-epicor.redColor {
-    text-decoration: underline;
-}
+            text-decoration: underline;
+        }
     </style>
 
 </asp:Content>
@@ -901,7 +945,7 @@ COLLABORATION NETWORK</strong>
             var response = 1;
 
             $("#reqtextepicornameval").hide();
-            $("#reqtextcontactemailval,#reqtextmobile").hide();           
+            $("#reqtextcontactemailval,#reqtextmobile").hide();
             $("#valtextcontactemail,#valtextmobile").hide();
 
             if (name == '') {
@@ -937,18 +981,18 @@ COLLABORATION NETWORK</strong>
         }
         function saveepicor() {
             var _rootUrl = $("#hdfRootUrl").val();
-            
+
             var user = {
                 name: $('#textepicor').val(),
                 email: $('#textcontactemail').val(),
                 phone: $('#textmobile').val(),
-               
+
             };
-            
+
             debugger;
             $.ajax({
                 type: "POST",
-                url: "/" + "api/ContactUs/UpdateEpicor",               
+                url: "/" + "api/ContactUs/UpdateEpicor",
                 data: JSON.stringify(user),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
@@ -956,7 +1000,7 @@ COLLABORATION NETWORK</strong>
                 failure: function (response) {
                     alert(response.d);
                 }
-               
+
             });
             debugger;
         }
@@ -974,104 +1018,110 @@ COLLABORATION NETWORK</strong>
 
     <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
 
-                    <script type="text/javascript">
-                            
-
-			
-                        function onFormSubmit() {
-			            var checks = new Array();
-                            var fieldMapping = {
-                                MXHOrgCode: "17537",
-                                MXHLandingPageId: "84445337-2358-11e7-a02b-22000b10e324",
-                                MXHAsc: "",
-                                FirstName: "your-name",
-					            EmailAddress: "email-address",
-                                Phone: "phone-number",                       
-                            };
-                            console.log(response);
-                            var onSuccess = function (data) {
-                                debugger;
-                             
-                            data = $.parseJSON(data);                           
-                               var logData = {
-                                   Name: $('#textepicor').val(), 
-                                   FormPID: data.PId,
-                                   Email: $('#textcontactemail').val(),
-                                   Mobile:$('#textmobile').val(),
-                                   FormStatus: data.Status,
-                                   FormMsg: data.Message,
-                                   FormAction: data.FormAction,
-								    ServiceType: "Epicor"
-                               }
-                               $.ajax({
-                                   type: "POST",
-                                   url: "/" + "api/Admin/LeadSquaredLog",
-                                   data: JSON.stringify(logData),
-                                   contentType: "application/json; charset=utf-8",
-                                   dataType: "json",                                   
-                                   failure: function (response) {
-                                       alert(response.d);
-                                   }
-
-                               });
-                               clearepicor();
-					
-	
-                            }
-
-                            var onError = function (data) {
-                                //alert(response);
-
-                            data = $.parseJSON(data);                           
-                               var logData = {
-                                   Name: $('#textepicor').val(), 
-                                   FormPID: data.PId,
-                                   Email: $('#textcontactemail').val(),
-                                   Mobile:$('#textmobile').val(),
-                                   FormStatus: data.Status,
-                                   FormMsg: data.Message,
-                                   FormAction: data.FormAction,
-								    ServiceType: "Epicor"
-                               }
-                               $.ajax({
-                                   type: "POST",
-                                   url: "/" + "api/Admin/LeadSquaredLog",
-                                   data: JSON.stringify(logData),
-                                   contentType: "application/json; charset=utf-8",
-                                   dataType: "json",                                   
-                                   failure: function (response) {
-                                       alert(response.d);
-                                   }
-
-                               });
-                               clearepicor();
-
-                            }
+    <script type="text/javascript">
 
 
 
-                            new LSQForm().captureLead(fieldMapping, "form1",
+        function onFormSubmit() {
+            var checks = new Array();
+            var fieldMapping = {
+                MXHOrgCode: "17537",
+                MXHLandingPageId: "84445337-2358-11e7-a02b-22000b10e324",
+                MXHAsc: "",
+                FirstName: "your-name",
+                EmailAddress: "email-address",
+                Phone: "phone-number",
+            };
+            console.log(response);
+            var onSuccess = function (data) {
+                debugger;
 
-                            {
+                data = $.parseJSON(data);
+                var logData = {
+                    Name: $('#textepicor').val(),
+                    FormPID: data.PId,
+                    Email: $('#textcontactemail').val(),
+                    Mobile: $('#textmobile').val(),
+                    FormStatus: data.Status,
+                    FormMsg: data.Message,
+                    FormAction: data.FormAction,
+                    ServiceType: "Epicor"
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "/" + "api/Admin/LeadSquaredLog",
+                    data: JSON.stringify(logData),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    failure: function (response) {
+                        alert(response.d);
+                    }
 
-                            onSuccess: onSuccess,   //optional
-                            onError: onError,       //optional
+                });
+                clearepicor();
 
-                            });
-			
-				
 
-};
+            }
 
-                        
-                    </script>
-     <style type="text/css">
-	.cstmzed-lst li {
-    padding-left: 17px;
-    position: relative;
-    margin: 5px 0px;
-}
-	.cstmzed-lst li:before{position:absolute;left:0;top:0;}
+            var onError = function (data) {
+                //alert(response);
+
+                data = $.parseJSON(data);
+                var logData = {
+                    Name: $('#textepicor').val(),
+                    FormPID: data.PId,
+                    Email: $('#textcontactemail').val(),
+                    Mobile: $('#textmobile').val(),
+                    FormStatus: data.Status,
+                    FormMsg: data.Message,
+                    FormAction: data.FormAction,
+                    ServiceType: "Epicor"
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "/" + "api/Admin/LeadSquaredLog",
+                    data: JSON.stringify(logData),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    failure: function (response) {
+                        alert(response.d);
+                    }
+
+                });
+                clearepicor();
+
+            }
+
+
+
+            new LSQForm().captureLead(fieldMapping, "form1",
+
+                {
+
+                    onSuccess: onSuccess,   //optional
+                    onError: onError,       //optional
+
+                });
+
+
+
+        };
+
+
+    </script>
+    <style type="text/css">
+        .cstmzed-lst li {
+            padding-left: 17px;
+            position: relative;
+            margin: 5px 0px;
+        }
+
+            .cstmzed-lst li:before {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
         .panel-group .panel {
             border-radius: 0;
             box-shadow: none;
@@ -1082,7 +1132,7 @@ COLLABORATION NETWORK</strong>
             padding: 0;
             border-radius: 0;
             color: #212121;
-           background-color: #ebebeb !important;
+            background-color: #ebebeb !important;
             border-color: #c1c1c1;
         }
 
@@ -1125,9 +1175,9 @@ COLLABORATION NETWORK</strong>
     <script>
         function toggleIcon(e) {
             $(e.target)
-				.prev('.panel-heading')
-				.find(".more-less")
-				.toggleClass('glyphicon-plus glyphicon-minus');
+                .prev('.panel-heading')
+                .find(".more-less")
+                .toggleClass('glyphicon-plus glyphicon-minus');
         }
         $('.panel-group').on('hidden.bs.collapse', toggleIcon);
         $('.panel-group').on('shown.bs.collapse', toggleIcon);

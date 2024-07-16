@@ -828,7 +828,7 @@
         <!--Form-->
         <div class="col-md-12 padd-top" style="margin-left: 3px">
             <div class="form-group">
-                <label class="success" id="successmessage" hidden="hidden">Thank you for contacting RheinBrücke. We will get back to you soon.</label>
+                <label class="success" id="successmessage3" hidden="hidden">Thank you for contacting RheinBrücke. We will get back to you soon.</label>
             </div>
         </div>
         <div class="col-md-4 nopadding" style="margin-left: 3px">
@@ -866,7 +866,7 @@
         <span class="showErrorMsg1" style="color: red; margin-left: 3px;"></span>
         <div class="clearfix">&nbsp;</div>
         <div class="col-md-12" style="margin-left: 3px">
-            <input type="button" id="btnContact" class="submit-button" data-loading-text="Submitting.." value="Submit" />
+            <input type="button" id="btnContact3" class="submit-button" data-loading-text="Submitting.." value="Submit" />
         </div>
         <div class="clearfix">&nbsp;</div>
 
@@ -947,12 +947,12 @@
         (function (l) { var i, s = { touchend: function () { } }; for (i in s) l.addEventListener(i, s) })(document); // sticky hover fix in iOS 
         //form validation 
         $(document).ready(function () {
-            $('#btnContact').click(function () {
+            $('#btnContact3').click(function () {
                 var r = ContactUsValidation1();
                 if (r == 1) {
 
                     $(this).button('loading');
-                    saveContact();
+                    saveContact3();
                     onFormSubmit();
                 }
             });
@@ -1152,7 +1152,7 @@
             return regex.test(email);
         }
 
-        function saveContact() {
+        function saveContact3() {
             //debugger;
             var _rootUrl = $("#hdfRootUrl").val();
             var data = {
@@ -1169,7 +1169,7 @@
                 data: JSON.stringify(data),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
-                success: success,
+                success: success3,
                 failure: function (response) {
                     alert(response.d);
                 }
@@ -1227,11 +1227,11 @@
             //clear();
             setTimeout(function () { $("#successmessage1").hide(); }, 40000);
         }
-        function success(response) {
-            $("#successmessage").show();
-            $('#btnContact').button('reset');
+        function success3(response) {
+            $("#successmessage3").show();
+            $('#btnContact3').button('reset');
             //clear();
-            setTimeout(function () { $("#successmessage").hide(); }, 40000);
+            setTimeout(function () { $("#successmessage3").hide(); }, 40000);
         }
         function success2(response) {
             $("#successmessage2").show();
@@ -1279,8 +1279,13 @@
                     dataType: "json",
                     failure: function (response) {
                         alert(response.d);
+                    },
+                    success: function (response) {
+                            $('.showErrorMsg').text('Mail has been sent successfully!');
+                            setTimeout(function () {
+                                $('.showErrorMsg').text('');
+                            }, 5000);
                     }
-
                 });
                 clear();
                 console.log(data);
