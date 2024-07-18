@@ -1295,7 +1295,6 @@
 
             var onError = function (data) {
 
-
                 data = $.parseJSON(data)
                 var logData = {
                     Name: $('#txtContactName').val(),

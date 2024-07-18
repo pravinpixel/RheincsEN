@@ -143,7 +143,6 @@
                                     8K NL-6221BT,<br />
                                     Maastricht, Netherlands<br />
                                     Tel: +31 (0) 43 799 9102<br />
-                                    Fax: +31 (0) 43 799 9333<br />
                                     Email: <a href="mailto:info@rheincs.com">info@rheincs.com</a>
                                 </p>
                             </li>
@@ -163,7 +162,6 @@
                                     Ruhrallee 9,<br />
                                     Germany<br />
                                     Tel: +49 231 292 95619<br />
-                                    Fax: +49 (0) 221 650 60 500<br />
                                     Email: <a href="mailto:info@rheincs.com">info@rheincs.com</a>
                                 </p>
                             </li>
