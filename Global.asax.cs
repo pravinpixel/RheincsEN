@@ -54,29 +54,29 @@ namespace RheinBrucke
         {
             HttpContext context = HttpContext.Current;
 
-            if (!Request.IsSecureConnection)
-            {
-                HttpRequest request = HttpContext.Current.Request;
-                string urlcheck = request.Url.ToString().ToLowerInvariant();
-                if (urlcheck.StartsWith("http:"))
-                {
-                    string newUrl = "https://" + request.Url.Host + request.RawUrl;
-                    Response.Redirect(newUrl, true);
-                }
-            }
-            string url = context.Request.Url.ToString();
-            if (url.EndsWith("/Home", StringComparison.OrdinalIgnoreCase))
-            {
-                string redirectUrl = url.Substring(0, url.Length - 5); // Remove "/Home"
-                context.Response.Redirect(redirectUrl, true);
-            }
+            // if (!Request.IsSecureConnection)
+            // {
+            //     HttpRequest request = HttpContext.Current.Request;
+            //     string urlcheck = request.Url.ToString().ToLowerInvariant();
+            //     if (urlcheck.StartsWith("http:"))
+            //     {
+            //         string newUrl = "https://" + request.Url.Host + request.RawUrl;
+            //         Response.Redirect(newUrl, true);
+            //     }
+            // }
+            // string url = context.Request.Url.ToString();
+            // if (url.EndsWith("/Home", StringComparison.OrdinalIgnoreCase))
+            // {
+            //     string redirectUrl = url.Substring(0, url.Length - 5); // Remove "/Home"
+            //     context.Response.Redirect(redirectUrl, true);
+            // }
             // if (url.EndsWith("/Home.aspx", StringComparison.OrdinalIgnoreCase))
             // {
             //     string redirectUrl = url.Substring(0, url.Length - 10); // Remove "/Home"
             //     context.Response.Redirect(redirectUrl, true);
             // }
 
-            string url2 = context.Request.Url.ToString().ToLower();
+            // string url2 = context.Request.Url.ToString().ToLower();
 
             // Check if the URL matches any of the specified patterns
             // if (url2.StartsWith("http://rheincs.com") ||
