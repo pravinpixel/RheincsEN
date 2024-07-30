@@ -52,12 +52,13 @@ namespace RheinBrucke
 
         protected void Application_BeginRequest(object sender, EventArgs e)
         {
-            HttpContext context = HttpContext.Current;
+             HttpContext context = HttpContext.Current;
 
             if (!context.Request.IsSecureConnection)
             {
                 // Redirect to HTTPS version of the current URL
-                string newUrl = "https://" + Request.Url.Host + Request.RawUrl;
+                //string newUrl = "https://" + Request.Url.Host + Request.RawUrl;
+                string newUrl = "http://" + Request.Url.Host + Request.RawUrl;
                 Response.Redirect(newUrl, true);
             }
             string url = context.Request.Url.ToString();
@@ -71,6 +72,16 @@ namespace RheinBrucke
             context.Response.AppendHeader("Content-encoding", "gzip");
             context.Response.Cache.VaryByHeaders["Accept-encoding"] = true;
 
+            if (url.EndsWith("/Home", StringComparison.OrdinalIgnoreCase))
+            {
+                string redirectUrl = url.Substring(0, url.Length - 5); // Remove "/Home"
+                context.Response.Redirect(redirectUrl, true);
+            }
+            if (url.EndsWith("/Home.aspx", StringComparison.OrdinalIgnoreCase))
+            {
+                string redirectUrl = url.Substring(0, url.Length - 10); // Remove "/Home"
+                context.Response.Redirect(redirectUrl, true);
+            }
         }
 
         protected void Application_AuthenticateRequest(object sender, EventArgs e)

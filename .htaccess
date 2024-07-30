@@ -3,6 +3,6 @@ AddType video/ogg ogv
 AddType video/webm webm
 AddType video/x-flv flv
 SetEnvIfNoCase Request_URI \.(ogv|mp4|m4v|f4v|f4p|webm|flv)$ no-gzip dont-vary
-RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteEngine On
+#RewriteCond %{HTTPS} off
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

@@ -42,6 +42,12 @@ namespace RheinBrucke
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Request.Url.AbsolutePath.Equals("/home.aspx", StringComparison.OrdinalIgnoreCase))
+                if (!string.IsNullOrEmpty(Request.QueryString.ToString()))
+                {
+                    Response.Redirect("~/");
+                }
+
 
             try
             {
@@ -61,14 +67,14 @@ namespace RheinBrucke
                             myCookie.Value = now.ToString();
                             myCookie.Expires = now.AddMinutes(20);
                             Response.Cookies.Add(myCookie);
-                            Console.WriteLine("country",country.Country.IsoCode.ToUpper());
+                            Console.WriteLine("country", country.Country.IsoCode.ToUpper());
                             if (country.Country.IsoCode.ToUpper() == "IN" || country.Country.IsoCode.ToUpper() == "US" || country.Country.IsoCode.ToUpper() == "AU" || country.Country.IsoCode.ToUpper() == "CA" || country.Country.IsoCode.ToUpper() == "IE" || country.Country.IsoCode.ToUpper() == "NZ" || country.Country.IsoCode.ToUpper() == "GB")
                             {
-                               // Response.Redirect("https://www.rheincs.com/");
+                                // Response.Redirect("https://www.rheincs.com/");
                             }
                             else
                             {
-                              //  Response.Redirect("https://de.rheincs.com/");
+                                //  Response.Redirect("https://de.rheincs.com/");
                             }
                         }
                     }

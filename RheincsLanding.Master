@@ -616,6 +616,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <ul>
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="Level3-menu ETMenu"><span>SAP</span></a></li>
                              <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics" class="Level3-menu ETMenu"><span>Microsoft Dynamics</span></a></li>
+                               <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm" class="Level3-menu ETMenu"><span>Sugar CRM</span></a></li>
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="Level3-menu ETMenu"><span>EPICOR</span></a>
                                 <ul>
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud" class="Level3-menu ETMenu"><span>Epicor Cloud</span></a>
@@ -769,6 +770,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                     <br />
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">SAP</a></li>
                                                                       <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics">Microsoft Dynamics</a></li>
+                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">Sugar CRM</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">EPICOR</a>
                                                                         <ul class="padd-top-3">
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud">Epicor Cloud</a>
@@ -926,6 +928,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                             <option value="18">Microsoft Technologies - .Net & SQL Server</option>
                                                  <option value="21">Application Maintenance & Support</option>
                                                <option value="22">Microsoft Dynamics</option>
+                                               <option value="23">Sugar CRM</option>
                                         </select>
                                         <span class="validator" id="reqddlservices" hidden="hidden" style="font-size: 13px;">Select the Services</span>
                                     </div>

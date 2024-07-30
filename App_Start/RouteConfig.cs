@@ -148,6 +148,7 @@ namespace RheinBrucke
             routes.MapPageRoute("epicor-Support-offering", "solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering", "~/Solutions/EnterpriseServicesAndSolutions/EPICOR/RIC-Epicor-Support.aspx");
             routes.MapPageRoute("distribution-industry-software", "solutions/erp-enterprise-solutions-and-services/Epicor/distribution-industry-software", "~/Solutions/EnterpriseServicesAndSolutions/EPICOR/Epicor-for-distribution.aspx");
             routes.MapPageRoute("microsoft-dynamics", "solutions/erp-enterprise-solutions-and-services/ms-dynamics", "~/Solutions/ITServicesAndSolutions/MicrosoftDynamics.aspx");
+            routes.MapPageRoute("sugar-crm", "solutions/erp-enterprise-solutions-and-services/sugar-crm", "~/Solutions/ITServicesAndSolutions/SugarCRM.aspx");
 
             routes.MapPageRoute("microsoft-technologies", "solutions/it-services-and-solutions/microsoft-technologies", "~/Solutions/ITServicesAndSolutions/MicrosoftTechnologies/MicrosoftTechnologies.aspx");
             routes.MapPageRoute("consulting", "solutions/it-services-and-solutions/microsoft-technologies/consulting", "~/Solutions/ITServicesAndSolutions/MicrosoftTechnologies/Consulting.aspx");
