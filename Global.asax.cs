@@ -64,17 +64,17 @@ namespace RheinBrucke
             //         Response.Redirect(newUrl, true);
             //     }
             // }
-            // string url = context.Request.Url.ToString();
-            // if (url.EndsWith("/Home", StringComparison.OrdinalIgnoreCase))
-            // {
-            //     string redirectUrl = url.Substring(0, url.Length - 5); // Remove "/Home"
-            //     context.Response.Redirect(redirectUrl, true);
-            // }
-            // if (url.EndsWith("/Home.aspx", StringComparison.OrdinalIgnoreCase))
-            // {
-            //     string redirectUrl = url.Substring(0, url.Length - 10); // Remove "/Home"
-            //     context.Response.Redirect(redirectUrl, true);
-            // }
+            string url = context.Request.Url.ToString();
+            if (url.EndsWith("/Home", StringComparison.OrdinalIgnoreCase))
+            {
+                string redirectUrl = url.Substring(0, url.Length - 5); // Remove "/Home"
+                context.Response.Redirect(redirectUrl, true);
+            }
+            if (url.EndsWith("/Home.aspx", StringComparison.OrdinalIgnoreCase))
+            {
+                string redirectUrl = url.Substring(0, url.Length - 10); // Remove "/Home"
+                context.Response.Redirect(redirectUrl, true);
+            }
 
             // string url2 = context.Request.Url.ToString().ToLower();
 
