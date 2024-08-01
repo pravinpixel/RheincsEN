@@ -54,28 +54,33 @@ namespace RheinBrucke
         {
             HttpContext context = HttpContext.Current;
 
-            // if (!Request.IsSecureConnection)
-            // {
-            //     HttpRequest request = HttpContext.Current.Request;
-            //     string urlcheck = request.Url.ToString().ToLowerInvariant();
-            //     if (urlcheck.StartsWith("http:"))
-            //     {
-            //         string newUrl = "https://" + request.Url.Host + request.RawUrl;
-            //         Response.Redirect(newUrl, true);
-            //     }
-            // }
             string url = context.Request.Url.ToString();
+            Console.WriteLine(context.Request.Url.ToString());
             if (url.EndsWith("/Home", StringComparison.OrdinalIgnoreCase))
             {
-                string redirectUrl = url.Substring(0, url.Length - 5); // Remove "/Home"
+                string redirectUrl = url.Substring(0, url.Length - 5);
                 context.Response.Redirect(redirectUrl, true);
             }
-            if (url.EndsWith("/Home.aspx", StringComparison.OrdinalIgnoreCase))
+            // if (url.EndsWith("/Home.aspx", StringComparison.OrdinalIgnoreCase))
+            // {
+            //     string redirectUrl = url.Substring(0, url.Length - 10);
+            //     context.Response.Redirect(redirectUrl, true);
+            // }
+            // if (url.EndsWith("/Impressum.aspx", StringComparison.OrdinalIgnoreCase))
+            // {
+            //     string redirectUrl = url.Substring(0, url.Length - 5);
+            //     context.Response.Redirect(redirectUrl, true);
+            // }
+            // if (url.EndsWith("/corporate-videos.aspx", StringComparison.OrdinalIgnoreCase))
+            // {
+            //     string redirectUrl = url.Substring(0, url.Length - 5);
+            //     context.Response.Redirect(redirectUrl, true);
+            // }
+            if (url.EndsWith(".aspx", StringComparison.OrdinalIgnoreCase))
             {
-                string redirectUrl = url.Substring(0, url.Length - 10); // Remove "/Home"
+                string redirectUrl = url.Substring(0, url.Length - 5);
                 context.Response.Redirect(redirectUrl, true);
             }
-
             // string url2 = context.Request.Url.ToString().ToLower();
 
             // Check if the URL matches any of the specified patterns
@@ -94,7 +99,6 @@ namespace RheinBrucke
             context.Response.Cache.VaryByHeaders["Accept-encoding"] = true;
 
         }
-
         protected void Application_AuthenticateRequest(object sender, EventArgs e)
         {
 

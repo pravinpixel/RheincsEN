@@ -12,6 +12,10 @@ namespace RheinBrucke.Solutions.ITServicesAndSolutions
         public string rootpath = "";
         protected void Page_Load(object sender, EventArgs e)
         {
+            // if (!string.IsNullOrEmpty(Request.QueryString.ToString()))
+            // {
+                //  Response.Redirect("~/solutions/it-services-and-solutions/testing-services");
+            // }
             if (!Page.IsPostBack)
             {
                 rootpath = Page.ResolveUrl("~/");

@@ -13,6 +13,11 @@ namespace RheinBrucke.Solutions.ConsultingAndAdvisorySolutions
         protected void Page_Load(object sender, EventArgs e)
         {
             rootpath = Page.ResolveUrl("~/");
+
+            if (!string.IsNullOrEmpty(Request.QueryString.ToString()))
+            {
+                Response.Redirect("~/solutions/consulting-and-advisory-solutions/erp-selection-advisory-solutions");
+            }
         }
     }
 }

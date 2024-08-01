@@ -12,6 +12,10 @@ namespace RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR
         public string rootpath = "";
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!string.IsNullOrEmpty(Request.QueryString.ToString()))
+            {
+                Response.Redirect("~/solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing");
+            }
             if (!Page.IsPostBack)
             {
                 rootpath = Page.ResolveUrl("~/");

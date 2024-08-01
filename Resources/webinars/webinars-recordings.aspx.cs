@@ -13,6 +13,10 @@ namespace RheinBrucke.Resources.webinars
         public string rootpath = "";
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!string.IsNullOrEmpty(Request.QueryString.ToString()))
+            {
+                Response.Redirect("~/resources/webinars/webinars-recordings");
+            }
             if (!Page.IsPostBack)
             {
                 rootpath = Page.ResolveUrl("~/");
