@@ -114,7 +114,6 @@ ul.key-features {
             border-radius: 8px;
             font-size: 16px;
             transition: all 500ms ease-in-out;
-            border: 2px solid #bdbdbd;
             height: 65px;
             padding: 20px 10px;
             margin-bottom: 25px;

@@ -318,10 +318,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveContactUs", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", Services);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
@@ -350,10 +358,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveEpicorCloud", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Company", CompanyName);
@@ -381,10 +397,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveEpicorRetail", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Company", CompanyName);
@@ -413,10 +437,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveUserContact", MailXML);
 
                 mailObj.MailTo = Email;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -443,10 +475,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveUserRetail", MailXML);
 
                 mailObj.MailTo = Email;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -473,10 +513,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveCalloutAdmin", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", Services);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
@@ -504,10 +552,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveUserCallout", MailXML);
 
                 mailObj.MailTo = Email;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -534,10 +590,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveAMSAdmin", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -561,10 +625,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveAMSUser", MailXML);
 
                 mailObj.MailTo = Email;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -592,10 +664,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SavePEPAdmin", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -622,10 +702,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SavePEPUser", MailXML);
 
                 mailObj.MailTo = Email;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -652,10 +740,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveEpicorAdmin", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -681,10 +777,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveDistributionAdmin", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -711,10 +815,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("DownloadedDetailsAdmin", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Company", Company);
@@ -740,10 +852,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveEventContactUs", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", Services);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
@@ -771,10 +891,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveMENAEventContactUs", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", Services);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
@@ -802,10 +930,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveKonkatEventContactUs", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", Services);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
@@ -831,10 +967,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveKonkatEventContactUs", MailXML);
 
                 mailObj.MailTo = "shriya@gecmediagroup.com";
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", Services);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
@@ -860,10 +1004,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveUserEventContact", MailXML);
 
                 mailObj.MailTo = Email;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -890,10 +1042,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveUserMENAEventContact", MailXML);
 
                 mailObj.MailTo = Email;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -920,10 +1080,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveKontaktEvent", MailXML);
 
                 mailObj.MailTo = Email;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -950,10 +1118,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveUserFBContact", MailXML);
 
                 mailObj.MailTo = Email;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -981,10 +1157,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveFBContactUs", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", Services);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
@@ -1013,10 +1197,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveEpicorUser", MailXML);
 
                 mailObj.MailTo = Email;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -1043,10 +1235,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveDistributionUser", MailXML);
 
                 mailObj.MailTo = Email;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -1073,10 +1273,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveshareptAdmin", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -1102,10 +1310,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveshareptUser", MailXML);
 
                 mailObj.MailTo = Email;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -1131,10 +1347,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveshareptAdmin", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -1159,10 +1383,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveEpicPayUser", MailXML);
 
                 mailObj.MailTo = Email;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -1188,10 +1420,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveEpicPaylandingAdmin", MailXML);
 
                 mailObj.MailTo = ToAddress;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -1217,10 +1457,18 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveEpipaylandingUser", MailXML);
 
                 mailObj.MailTo = Email;
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -1260,6 +1508,7 @@ namespace RheinBrucke.Library
                 }
                 mailObj = setMailContent("JobApply", MailXML);
                 mailObj.MailTo = _JobMailId;
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj.MailSubject = Regex.Replace(mailObj.MailSubject, "@@Name", Name);
                 mailObj.MailSubject = Regex.Replace(mailObj.MailSubject, "@@JobTitle", JobTitle);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@JobTitle", JobTitle);
@@ -1304,8 +1553,15 @@ namespace RheinBrucke.Library
                                
                 mailObj = setMailContent("SaveUserContact1", MailXML);
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
                 mailObj.MailTo = Email;
-
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
@@ -1870,9 +2126,16 @@ namespace RheinBrucke.Library
                         }
 
                     }
-               
 
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj.MailTo = email;
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", firstname);
@@ -2334,6 +2597,17 @@ namespace RheinBrucke.Library
                    
                             mailObj = setMailContent("Saveofs", MailXML);
                 }
+
+
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
+
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", serviceType);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@FirstName", firstname);
@@ -2370,6 +2644,17 @@ namespace RheinBrucke.Library
 
                 Options = Options.TrimEnd(',');
                 mailObj = setMailContent("SaveWebinarAdmin", MailXML);
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
+
+
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
+
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", serviceType);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@FirstName", firstname);
@@ -2396,7 +2681,7 @@ namespace RheinBrucke.Library
             {
                 string MailXML = string.Concat(siteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
-
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 string Options = string.Empty;
                 for (int i = 0; i < CheckboxOptions.Length; i++)
                 {
@@ -2406,6 +2691,16 @@ namespace RheinBrucke.Library
                 string[] strArray = Options.Split(',');
                 mailObj = setMailContentIscala("SaveLandingWebinar", MailXML, CheckboxOptions);
                 mailObj.MailTo = email;
+
+
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
+
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", firstname);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Options", Options);
@@ -2441,7 +2736,17 @@ namespace RheinBrucke.Library
                     mailObj = setMailContent("SaveLandingMerlin", MailXML);
                 }
 
-              
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
+
+
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
+
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", serviceType);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@FirstName", firstname);
@@ -2469,7 +2774,7 @@ namespace RheinBrucke.Library
             {
                 string MailXML = string.Concat(siteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
-
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 string Options = string.Empty;
                 for (int i = 0; i < CheckboxOptions.Length; i++)
                 {
@@ -2525,7 +2830,15 @@ namespace RheinBrucke.Library
                     }
 
                 }
-               
+
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
+
                 mailObj.MailTo = email;
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", firstname);
@@ -2555,7 +2868,7 @@ namespace RheinBrucke.Library
 
                 string MailXML = string.Concat(siteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
-
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 string Options = string.Empty;
 
                 for (int i = 0; i < CheckboxOptions.Length; i++)
@@ -2613,8 +2926,15 @@ namespace RheinBrucke.Library
 
                 }
 
-              
 
+
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
 
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", serviceType);
@@ -2656,6 +2976,17 @@ namespace RheinBrucke.Library
                 }
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
+
+
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
+
                 mailObj = setMailContent("MailConfig", MailXML);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailTo = _JobMailId;
@@ -2736,6 +3067,24 @@ namespace RheinBrucke.Library
                 {
                     mailObj = setMailContent("SaveMeRLINFactsheet", MailXML);
                 }
+                              
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
+
+
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
 
 
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
@@ -2804,7 +3153,16 @@ namespace RheinBrucke.Library
                 {
                     mailObj = setMailContent("LandingMeRLINFactsheet", MailXML);
                 }
-               
+                
+
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj.MailTo = Email;
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
@@ -2856,6 +3214,17 @@ namespace RheinBrucke.Library
                 }
 
                 Options = Options.TrimEnd(',');
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
+
+
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
+
 
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", servicetype);
@@ -2938,7 +3307,14 @@ namespace RheinBrucke.Library
 
                 }
 
-
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj.MailTo = Email;
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
@@ -2976,8 +3352,19 @@ namespace RheinBrucke.Library
                         toaddress = _mailSettings.LandingMailId == null ? "" : _mailSettings.LandingMailId;
                     }
                 }
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveERPCAMPAIGN", MailXML);
                 mailObj.MailTo = toaddress;
+
+
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
+
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", servicetype);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@FirstName", Name);
@@ -3004,9 +3391,19 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("ERPCAMPAIGN", MailXML);
 
                 mailObj.MailTo = Email;
+
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
+
 
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
@@ -3032,10 +3429,20 @@ namespace RheinBrucke.Library
             {
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 //Constants.Appconfiguration["SaveContactUs"]
                 mailObj = setMailContent("LandingPageMeRLIN", MailXML);
 
                 mailObj.MailTo = Email;
+
+
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
 
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);
@@ -3065,9 +3472,16 @@ namespace RheinBrucke.Library
                 string Options = string.Empty;
 
 
-               
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
+
                 mailObj = setMailContent("SaveKontaktEventAdmin", MailXML);
-              
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", serviceType);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@FirstName", firstname);
@@ -3098,9 +3512,16 @@ namespace RheinBrucke.Library
                 string Options = string.Empty;
 
 
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
 
                 mailObj = setMailContent("SaveKontaktEventAdmin", MailXML);
-
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Services", serviceType);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@FirstName", firstname);
@@ -3128,9 +3549,19 @@ namespace RheinBrucke.Library
                 string MailXML = string.Concat(SiteUrl, WebConfigurationManager.AppSettings["MailFormatXML"]);
                 MailEntity mailObj = new MailEntity();
                 //Constants.Appconfiguration["SaveContactUs"]
+                mailObj.MailBody = mailObj.MailBody ?? string.Empty;
                 mailObj = setMailContent("SaveKontaktEvent", MailXML);
 
                 mailObj.MailTo = Email;
+
+
+                if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
+                {
+                    string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
+                    imagePath = imagePath + @"\Assets\images\RheinBrücke-logo.jpg";
+                    LinkedResource pic1 = new LinkedResource(imagePath, MediaTypeNames.Image.Jpeg);
+                    pic1.ContentId = "Pic1";
+                }
 
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Image", "cid:Pic1");
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Name", Name);

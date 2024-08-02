@@ -244,3 +244,15 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+obj/Debug/RheinBrucke.csproj.FileListAbsolute.txt
+/obj/Debug
+obj/Debug/DesignTimeResolveAssemblyReferences.cache
+obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+obj/Debug/edmxResourcesToEmbed/Data/RheinBruckeEntity.csdl
+obj/Debug/edmxResourcesToEmbed/Data/RheinBruckeEntity.ssdl
+obj/Debug/RheinBrucke.csproj.CoreCompileInputs.cache
+obj/Debug/RheinBrucke.csproj.FileListAbsolute.txt
+obj/Debug/RheinBrucke.dll
+obj/Debug/RheinBrucke.pdb

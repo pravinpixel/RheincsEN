@@ -1867,6 +1867,7 @@
                     dataType: "json",
                     success: function (response) {
                         if (response == "success") {
+                            onFormSubmit();
                             $('#txtCompany').focus();
                             $('.txtFirstName,.txtContactEmail,.txtPhone,.txtCompany').val('');
                             $('.showErrorMsg').text('Mail has been sent successfully!');
@@ -1881,6 +1882,105 @@
         });
 
     </script>
+    <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
 
+    <script type="text/javascript">
+
+
+
+        function onFormSubmit() {
+
+            var checks = new Array();
+
+
+            //debugger;
+
+            var fieldMapping = {
+
+                MXHOrgCode: "17537",
+                MXHLandingPageId: "9ca08586-9f86-11e7-9042-22000aa79843",
+                MXHAsc: "",
+                FirstName: "name",
+                EmailAddress: "email-address",
+                Phone: "mobile-number",
+                Company: "company-name",
+                mx_Your_Message: "message",
+                mx_Contactus_dropdown: "MicrosoftDynamics",
+            };
+
+            var onSuccess = function (data) {
+                data = $.parseJSON(data)
+                var logData = {
+                    Name: $('#txtFirstName').val(),
+                    FormPID: data.PId,
+                    Email: $('#txtContactEmail').val(),
+                    Mobile: $('#txtPhone').val(),
+                    Company: $('#txtCompany').val(),
+                    FormStatus: data.Status,
+                    FormMsg: data.Message,
+                    FormAction: data.FormAction,
+                    ServiceType: "MicrosoftDynamics"
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "/" + "api/Admin/LeadSquaredLog",
+                    data: JSON.stringify(logData),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    failure: function (response) {
+                        alert(response.d);
+                    },
+                    success: function (response) {
+                    }
+
+                });
+                clear();
+                console.log(data);
+
+
+            }
+
+            var onError = function (data) {
+                data = $.parseJSON(data)
+                var logData = {
+                    Name: $('#txtFirstName').val(),
+                    FormPID: data.PId,
+                    Email: $('#txtContactEmail').val(),
+                    Mobile: $('#txtPhone').val(),
+                    Company: $('#txtCompany').val(),
+                    FormStatus: data.Status,
+                    FormMsg: data.Message,
+                    FormAction: data.FormAction,
+                    ServiceType: "MicrosoftDynamics"
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "/" + "api/Admin/LeadSquaredLog",
+                    data: JSON.stringify(logData),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    failure: function (response) {
+                        alert(response.d);
+                    },
+                    success: function (response) {
+                        alert('LeadSquared Updated');
+                    }
+
+                });
+                clear();
+                console.log(data);
+
+            }
+
+            new LSQForm().captureLead(fieldMapping, "form1",
+
+                {
+                    onSuccess: onSuccess,   //optional
+                    onError: onError,       //optiona
+                });
+        };
+
+
+    </script>
 
 </asp:Content>
