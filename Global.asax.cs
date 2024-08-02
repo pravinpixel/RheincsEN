@@ -1,6 +1,7 @@
 ﻿using RheinBrucke.Library;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO.Compression;
 using System.Linq;
 using System.Net.Http.Formatting;
@@ -55,7 +56,7 @@ namespace RheinBrucke
             HttpContext context = HttpContext.Current;
 
             string url = context.Request.Url.ToString();
-            Console.WriteLine(context.Request.Url.ToString());
+            Debug.WriteLine("request",context.Request.Url.ToString(),"uu");
             if (url.EndsWith("/Home", StringComparison.OrdinalIgnoreCase))
             {
                 string redirectUrl = url.Substring(0, url.Length - 5);
@@ -81,6 +82,29 @@ namespace RheinBrucke
                 string redirectUrl = url.Substring(0, url.Length - 5);
                 context.Response.Redirect(redirectUrl, true);
             }
+
+
+
+            // if (context.Request.Url != null)
+            // {
+            //     string regular = context.Request.Url.AbsoluteUri;
+            //     Debug.WriteLine("yy",context.Request.Url.AbsoluteUri);
+            //     Uri uri = new Uri(regular);
+            //     string scheme = uri.Scheme; 
+            //     string authority = uri.Authority; 
+            //     string pathAndQuery = uri.PathAndQuery; 
+
+            //     string correctedPath = pathAndQuery.Replace("//", "/");
+
+            //     string newUrl = $"{scheme}://{authority}{correctedPath}";
+
+            //     if (newUrl != regular)
+            //     {
+            //         context.Response.Redirect(newUrl, true);
+            //     }
+            // }
+
+
             // string url2 = context.Request.Url.ToString().ToLower();
 
             // Check if the URL matches any of the specified patterns
