@@ -13,6 +13,10 @@ namespace RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EPICOR
         protected void Page_Load(object sender, EventArgs e)
         {
             rootpath = Page.ResolveUrl("~/");
+            if (!string.IsNullOrEmpty(Request.QueryString.ToString()))
+            {
+                Response.Redirect("~/solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering");
+            }
         }
     }
 }

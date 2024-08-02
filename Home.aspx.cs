@@ -42,13 +42,10 @@ namespace RheinBrucke
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Request.Url.AbsolutePath.Equals("/home.aspx", StringComparison.OrdinalIgnoreCase))
-                if (!string.IsNullOrEmpty(Request.QueryString.ToString()))
-                {
-                    Response.Redirect("~/");
-                }
-
-
+            if (!string.IsNullOrEmpty(Request.QueryString.ToString()))
+            {
+                Response.Redirect("~/");
+            }
             try
             {
 

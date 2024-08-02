@@ -1,6 +1,7 @@
 ﻿using RheinBrucke.Library;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO.Compression;
 using System.Linq;
 using System.Net.Http.Formatting;
@@ -54,19 +55,68 @@ namespace RheinBrucke
         {
              HttpContext context = HttpContext.Current;
 
-            if (!context.Request.IsSecureConnection)
-            {
-                // Redirect to HTTPS version of the current URL
-                //string newUrl = "https://" + Request.Url.Host + Request.RawUrl;
-                string newUrl = "http://" + Request.Url.Host + Request.RawUrl;
-                Response.Redirect(newUrl, true);
-            }
             string url = context.Request.Url.ToString();
+            Debug.WriteLine("request",context.Request.Url.ToString(),"uu");
             if (url.EndsWith("/Home", StringComparison.OrdinalIgnoreCase))
             {
-                string redirectUrl = url.Substring(0, url.Length - 5); // Remove "/Home"
+                string redirectUrl = url.Substring(0, url.Length - 5);
                 context.Response.Redirect(redirectUrl, true);
             }
+            // if (url.EndsWith("/Home.aspx", StringComparison.OrdinalIgnoreCase))
+            // {
+            //     string redirectUrl = url.Substring(0, url.Length - 10);
+            //     context.Response.Redirect(redirectUrl, true);
+            // }
+            // if (url.EndsWith("/Impressum.aspx", StringComparison.OrdinalIgnoreCase))
+            // {
+            //     string redirectUrl = url.Substring(0, url.Length - 5);
+            //     context.Response.Redirect(redirectUrl, true);
+            // }
+            // if (url.EndsWith("/corporate-videos.aspx", StringComparison.OrdinalIgnoreCase))
+            // {
+            //     string redirectUrl = url.Substring(0, url.Length - 5);
+            //     context.Response.Redirect(redirectUrl, true);
+            // }
+            if (url.EndsWith(".aspx", StringComparison.OrdinalIgnoreCase))
+            {
+                string redirectUrl = url.Substring(0, url.Length - 5);
+                context.Response.Redirect(redirectUrl, true);
+            }
+
+
+
+            // if (context.Request.Url != null)
+            // {
+            //     string regular = context.Request.Url.AbsoluteUri;
+            //     Debug.WriteLine("yy",context.Request.Url.AbsoluteUri);
+            //     Uri uri = new Uri(regular);
+            //     string scheme = uri.Scheme; 
+            //     string authority = uri.Authority; 
+            //     string pathAndQuery = uri.PathAndQuery; 
+
+            //     string correctedPath = pathAndQuery.Replace("//", "/");
+
+            //     string newUrl = $"{scheme}://{authority}{correctedPath}";
+
+            //     if (newUrl != regular)
+            //     {
+            //         context.Response.Redirect(newUrl, true);
+            //     }
+            // }
+
+
+            // string url2 = context.Request.Url.ToString().ToLower();
+
+            // Check if the URL matches any of the specified patterns
+            // if (url2.StartsWith("http://rheincs.com") ||
+            //     url2.StartsWith("https://rheincs.com") ||
+            //     url2.StartsWith("http://en.rheincs.com") ||
+            //     url2.StartsWith("https://en.rheincs.com"))
+            // {
+            //     // Redirect to https://www.rheincs.com
+            //     string redirectUrl = "https://www.rheincs.com" + context.Request.Url.PathAndQuery;
+            //     context.Response.Redirect(redirectUrl, true);
+            // }
             // Compression logic (GZip)
             context.Response.Filter = new GZipStream(context.Response.Filter, CompressionMode.Compress);
             context.Response.AppendHeader("Content-encoding", "gzip");
@@ -83,7 +133,6 @@ namespace RheinBrucke
                 context.Response.Redirect(redirectUrl, true);
             }
         }
-
         protected void Application_AuthenticateRequest(object sender, EventArgs e)
         {
 

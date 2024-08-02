@@ -20,6 +20,10 @@ namespace RheinBrucke.WhitePapers
             {
                            
             }
+            if (!string.IsNullOrEmpty(Request.QueryString.ToString()))
+            {
+                Response.Redirect("~/whitePapers/whitepapers");
+            }
             LoadWhitePapers();
         }
 

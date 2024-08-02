@@ -16,6 +16,10 @@ namespace RheinBrucke.Solutions.EnterpriseServicesAndSolutions.EpicorCloud
             {
                 rootpath = Page.ResolveUrl("~/");
             }
+            if (!string.IsNullOrEmpty(Request.QueryString.ToString()))
+            {
+                Response.Redirect("~/solutions/erp-enterprise-solutions-and-services/epicor-cloud");
+            }
 
         }
     }
