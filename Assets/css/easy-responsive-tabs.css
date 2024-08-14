@@ -12,6 +12,32 @@ p {
   padding: 0px;
 }
 
+.resp-tabs-list li.resp-tab-active {
+position:relative;
+color:#7E2442;	
+font-size:24px;
+  transition: all 0.3s ease;
+}
+
+
+.resp-tabs-list li.resp-tab-active::before {
+  position: absolute;
+
+  content: "";
+
+  left: 0;
+
+  bottom: -1px;
+
+  width: 100%;
+
+  background-color: #7E2442;
+
+  height: 5px;
+
+}
+	
+	
 .resp-tabs-list li {
   font-weight: 600;
   font-size: 13px;
@@ -21,6 +47,8 @@ p {
   list-style: none;
   cursor: pointer;
   float: left;
+  font-size:20px;
+  transition: all 0.3s ease;
 }
 
 .resp-tabs-container {
@@ -37,14 +65,17 @@ h2.resp-accordion {
 
 .resp-tab-content {
   display: none;
-  padding: 0px 55px;
+  padding: 0px 25px;
 }
+.resp-tab-content {position:relative;padding-top: 20px !important;}
+.resp-tab-content:before{position:absolute;content:"";left:0;top:0;width:100%;background-color:#707070;height:1px;}
+
 
 .resp-tab-active {
-  border: 1px solid #c1c1c1;
+  border: 0px;
   border-bottom: none;
   margin-bottom: -1px !important;
-  padding: 12px 14px 14px 14px !important;
+  padding: 12px 20px 14px 14px !important;
 }
 
 .resp-tab-active {
@@ -55,7 +86,7 @@ h2.resp-accordion {
 .resp-content-active,
 .resp-accordion-active { display: block; }
 
-.resp-tab-content { border: 1px solid #c1c1c1; }
+.resp-tab-content { border: 0px; }
 
 h2.resp-accordion {
   font-size: 13px;
@@ -187,4 +218,12 @@ h2.resp-accordion { display: block;  font-size: 20px;
 .resp-accordion-closed { display: none !important; }
 
 .resp-vtabs .resp-tab-content:last-child { border-bottom: 1px solid #c1c1c1 !important; }
+
+.ms_section::before{display:none;}
+
+.ms_section{padding-top:0px !important;}
+
+h2.resp-accordion{border-top: 1px solid #c1c1c1 !important;}
+
+
 }

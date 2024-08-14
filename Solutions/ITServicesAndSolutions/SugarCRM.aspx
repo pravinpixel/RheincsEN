@@ -81,6 +81,8 @@ ul.key-features {
 	.prixing {
   margin-bottom: 15px;
 }
+
+.mt-mrgn{margin-top:70px;}
 	
 	.prixing h2.common-topic{font-weight: 600;
   font-size: 20px !important;
@@ -1008,6 +1010,7 @@ ul.key-features {
         }
 
         @media (max-width:590px) {
+		.mt-mrgn{margin-top:0px;}
             h2 {
                 padding-bottom: 0;
             }
@@ -1241,7 +1244,7 @@ ul.key-features {
                     <!-- <h2 class="common-topic">Integrated HCM and Payroll MEA
                     </h2> -->
                     <p class="common-para">
-                        As a SugarCRM partner, RheinBrücke leverages our extensive enterprise IT implementation and domain expertise, offering our customers a comprehensive solution to streamline their business processes. We also have deep Enterprise Integration expertise that enables optimal use of your existing IT investments, while adopting the best in class capabilities of Sugar CRM.               
+                        RheinBrücke leverages our extensive enterprise IT implementation and domain expertise, offering our customers a comprehensive solution to streamline their business processes. We also have deep Enterprise Integration expertise that enables optimal use of your existing IT investments, while adopting the best in class capabilities of Sugar CRM.               
                     </p>
                 </div>
             </div>
@@ -1292,7 +1295,7 @@ ul.key-features {
                         <div class="row grid_card">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12 nopadding">
                                 <div class="box-icns">
-                                    <ul>
+                                    <ul class="mt-mrgn">
                                         <li>
                                             <div class="icn-circle">
                                                 <img src="../../../Assets/images/crm-1.png" class="img-responsive center-block" />
@@ -1565,22 +1568,19 @@ ul.key-features {
                         <div class="row">
                             <div class="col-lg-7 col-md-7 col-sm-12 col-12">
 							<div class="prixing">
-							<h2 class="common-topic small_heading">
-							<span class="numerical"> 1 </span> Scalability</h2>
+							<h2 class="common-topic small_heading"> Scalability </h2>
                                 <p class="common-para wid-6">
                                     SugarCRM is scalable to accommodate growing business needs. Whether you’re a small startup or a large enterprise, SugarCRM can scale with your business, adapting to changing requirements and increasing user demands.
 								</p>
 							</div>
 							<div class="prixing">
-							<h2 class="common-topic small_heading">
-							<span class="numerical"> 2 </span> User-Friendly Interface</h2>
+							<h2 class="common-topic small_heading"> User-Friendly Interface</h2>
                                 <p class="common-para wid-6">
                                     With an intuitive and user-friendly interface, SugarCRM ensures quick adoption and minimal training for your team. Users can navigate the platform effortlessly, maximizing productivity and minimizing downtime.
 								</p>
 							</div> 
 							<div class="prixing">
-							<h2 class="common-topic small_heading">
-							<span class="numerical"> 3 </span> Data Security</h2>
+							<h2 class="common-topic small_heading"> Data Security</h2>
                                 <p class="common-para wid-6">
                                     Protect sensitive customer data with SugarCRM’s robust security features. From role-based access controls to data encryption and regular security updates, SugarCRM prioritizes data protection to safeguard your business and customer information.
 								</p>
@@ -1591,15 +1591,13 @@ ul.key-features {
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                                							<div class="prixing">
-							<h2 class="common-topic small_heading">
-							<span class="numerical"> 4 </span> Analytics and Reporting</h2>
+							<h2 class="common-topic small_heading"> Analytics and Reporting</h2>
                                 <p class="common-para wid-6">
                                     Gain actionable insights with SugarCRM’s advanced analytics and reporting capabilities. Track key performance indicators, measure campaign effectiveness, and identify trends to make informed business decisions and drive growth.
 								</p>
 							</div>
                                							<div class="prixing">
-							<h2 class="common-topic small_heading">
-							<span class="numerical"> 5 </span> Customer Experience Focus </h2>
+							<h2 class="common-topic small_heading"> Customer Experience Focus </h2>
                                 <p class="common-para wid-6">
                                     By centralizing customer data and automating processes, SugarCRM enhances the overall customer experience. Deliver personalized interactions, respond to inquiries promptly, and build stronger relationships that foster customer loyalty and retention.
 								</p>
@@ -1930,7 +1928,7 @@ ul.key-features {
 <script>
 $(document).ready(function () {
 $('#verticalTab').easyResponsiveTabs({
-type: 'vertical',
+type: 'horizontal',
 width: 'auto',
 fit: true
 });
