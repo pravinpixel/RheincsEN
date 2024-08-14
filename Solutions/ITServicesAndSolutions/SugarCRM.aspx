@@ -6,90 +6,139 @@
     <meta name="Description" content="Discover the power of Microsoft Dynamics ERP Solutions with Rheincs. Enhance efficiency, drive growth, and transform your business operations with our expert implementation and support services." />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <title>Epicor Payroll MEA</title>
+    <title>Sugar CRM</title>
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
     <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
     <link href="../Assets/css/bootstrap-min.css" rel="stylesheet" />
     <link href="../Assets/css/LandingStyleSheet.css" rel="stylesheet" />
     <link href="../Assets/css/media-q.css" rel="stylesheet" />
-	<link rel="stylesheet" href="/Assets/css/easy-responsive-tabs.css">
-	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/Assets/css/easy-responsive-tabs.css">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <%--  <script src="../Assets/js/jquery-2.1.1.min.js"></script>--%>
     <style>
+        ul.key-features {
+            padding: 0px;
+            margin: 0px;
+        }
 
-ul.key-features{padding:0px;margin:0px;}
-ul.key-features li {
-  position: relative;
-  width: 45%;
-  display: inline-block;
-  margin-bottom: 35px;
-  font-size: 17px !important;
-  line-height: 27px;
-  color: #2F2F2F;
-  padding-left: 55px;
-}
-ul.key-features li span {
-  position: absolute;
-  padding: 10px;
-  border: 1px solid #000;
-  height: 45px;
-  width: 45px;
-  left: 0;
-  border-radius: 100%;
-  top: -10px;
-}
+            ul.key-features li {
+                position: relative;
+                width: 45%;
+                display: inline-block;
+                margin-bottom: 35px;
+                font-size: 17px !important;
+                line-height: 27px;
+                color: #2F2F2F;
+                padding-left: 55px;
+            }
 
-ul.key-features li span img {
-  position: absolute;
-  top: 9px;
-  left: 9px;
-}
+                ul.key-features li span {
+                    position: absolute;
+                    padding: 10px;
+                    border: 1px solid #000;
+                    height: 45px;
+                    width: 45px;
+                    left: 0;
+                    border-radius: 100%;
+                    top: -10px;
+                }
 
-.demo h1{margin:0 0 25px;}
-.demo h3{margin:10px 0;}
-pre{background-color:#FFF;}
-@media only screen and (max-width:780px){
-.resp-tab-content { 
-  padding: 10px 30px;
-}
-ul.key-features li{width:100%;}
-ul.key-features { 
-  margin-top: 30px;
-}
-.demo{margin:5% 0;width:100%;}
-.how-use{display:none;float:left;width:300px;}
-}
-#tabInfo{display:none;}	
-	
-	.bxslider{display:none;}
-	
-	.mt-5{margin-top:50px;}
-	
-	 span.numerical {
-  height: 40px;
-  width: 40px;
-  background-color: #7E2442;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  border-radius: 100%;
-  line-height: 34px;
-  color: #fff;
-  margin-right: 10px;
-}
-	.prixing {
-  margin-bottom: 15px;
-}
+                    ul.key-features li span img {
+                        position: absolute;
+                        top: 9px;
+                        left: 9px;
+                    }
 
-.mt-mrgn{margin-top:70px;}
-	
-	.prixing h2.common-topic{font-weight: 600;
-  font-size: 20px !important;
-  color: #7E2442;font-family: Raleway !important;}
-	h2.common-topic.bene-mb-5{margin-bottom:10px !important;}
-	.wid-8{width:80%;}
-	.mb-3{margin-bottom:20px;}
+        .demo h1 {
+            margin: 0 0 25px;
+        }
+
+        .demo h3 {
+            margin: 10px 0;
+        }
+
+        pre {
+            background-color: #FFF;
+        }
+
+        @media only screen and (max-width:780px) {
+            .resp-tab-content {
+                padding: 10px 30px;
+            }
+
+            ul.key-features li {
+                width: 100%;
+            }
+
+            ul.key-features {
+                margin-top: 30px;
+            }
+
+            .demo {
+                margin: 5% 0;
+                width: 100%;
+            }
+
+            .how-use {
+                display: none;
+                float: left;
+                width: 300px;
+            }
+        }
+
+        #tabInfo {
+            display: none;
+        }
+
+        .bxslider {
+            display: none;
+        }
+
+        .mt-5 {
+            margin-top: 50px;
+        }
+
+        span.numerical {
+            height: 40px;
+            width: 40px;
+            background-color: #7E2442;
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            border-radius: 100%;
+            line-height: 34px;
+            color: #fff;
+            margin-right: 10px;
+        }
+
+        .prixing {
+            margin-bottom: 15px;
+        }
+
+        .mt-mrgn {
+            margin-top: 70px;
+        }
+
+        .prixing h2.common-topic {
+            font-weight: 600;
+            font-size: 20px !important;
+            color: #7E2442;
+            font-family: Raleway !important;
+        }
+
+        h2.common-topic.bene-mb-5 {
+            margin-bottom: 10px !important;
+        }
+
+        .wid-8 {
+            width: 80%;
+        }
+
+        .mb-3 {
+            margin-bottom: 20px;
+        }
+
         .partners {
             display: flex;
             flex-wrap: wrap;
@@ -102,10 +151,15 @@ ul.key-features {
             background: #7b1314;
             transition: all 500ms ease-in-out;
         }
-		
-		.sugar-crm .ms_section.align-items-center.sugar-crm{margin:0px;padding:0px 15px;}
 
-		.sugar-crm .section-layer{padding: 30px 45px;}
+        .sugar-crm .ms_section.align-items-center.sugar-crm {
+            margin: 0px;
+            padding: 0px 15px;
+        }
+
+        .sugar-crm .section-layer {
+            padding: 30px 45px;
+        }
 
         .form-data.cnt a.btndownlaodBrochure {
             background: #7E2442;
@@ -151,8 +205,10 @@ ul.key-features {
             position: fixed;
             top: 80%;
         }
-		
-		.curve img{border-radius:8px;}
+
+        .curve img {
+            border-radius: 8px;
+        }
 
         .socials {
             position: fixed;
@@ -688,24 +744,26 @@ ul.key-features {
             outline: none !important;
             box-shadow: none !important;
         }
-		
-		.sugar-crm .box-icns ul li h3{margin-bottom:10px;}
 
-            .form-data.cnt input[type="submit"] {
-                background: #7E2442;
-                border: medium none;
-                color: #fff;
-                text-transform: uppercase;
-                width: 100%;
-                border-radius: 8px;
-                font-size: 16px;
+        .sugar-crm .box-icns ul li h3 {
+            margin-bottom: 10px;
+        }
+
+        .form-data.cnt input[type="submit"] {
+            background: #7E2442;
+            border: medium none;
+            color: #fff;
+            text-transform: uppercase;
+            width: 100%;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 500ms ease-in-out;
+        }
+
+            .form-data.cnt input[type="submit"]:hover {
+                background: #7b1314;
                 transition: all 500ms ease-in-out;
             }
-
-                .form-data.cnt input[type="submit"]:hover {
-                    background: #7b1314;
-                    transition: all 500ms ease-in-out;
-                }
 
         span.book-form {
             font-size: 22px;
@@ -763,12 +821,12 @@ ul.key-features {
         }
 
         .ms_section .image {
-            width: 100%; 
+            width: 100%;
             background: #F2EDED;
-            border-radius:8px;
+            border-radius: 8px;
             height: fit-content;
-            margin-left:20px;
-            margin-top:20px;
+            margin-left: 20px;
+            margin-top: 20px;
         }
 
         .side_heading {
@@ -1010,7 +1068,10 @@ ul.key-features {
         }
 
         @media (max-width:590px) {
-		.mt-mrgn{margin-top:0px;}
+            .mt-mrgn {
+                margin-top: 0px;
+            }
+
             h2 {
                 padding-bottom: 0;
             }
@@ -1195,9 +1256,9 @@ ul.key-features {
                     <!-- <img src="../../../Assets/images/epicor-pay.jpg" class="img-responsive center-block" /><%--<a href="#form-div"><div class="cta-new1">Know More</div></a>--%> -->
                     <div class="banner-liners">
                         <div class="container lines">
-                            <h1>SugarCRM<br>
-                                Transform Customer<br>
-								Relationships</h1>
+                            <h1>SugarCRM<br />
+                                Transform Customer<br />
+                                Relationships</h1>
                             <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us </a>
                         </div>
                     </div>
@@ -1220,22 +1281,22 @@ ul.key-features {
                     </p>
                 </div>
             </div>
-			
-			
 
-                <div class="row ms_section align-items-center sugar-crm"> 
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12"> 
-                        <p class="common-para">SugarCRM provides a comprehensive suite of tools to manage sales, marketing, and customer support processes. With its powerful features and customisable options, SugarCRM enables organisations to streamline sales, marketing, and customer service processes, ultimately driving growth and enhancing customer satisfaction.</p>
 
+
+            <div class="row ms_section align-items-center sugar-crm">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                    <p class="common-para">SugarCRM provides a comprehensive suite of tools to manage sales, marketing, and customer support processes. With its powerful features and customisable options, SugarCRM enables organisations to streamline sales, marketing, and customer service processes, ultimately driving growth and enhancing customer satisfaction.</p>
+
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="curve">
+                        <img src="../../../Assets/images/sugar-crm-1.jpg" class="img-responsive center-block" />
                     </div>
+                </div>
 
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                        <div class="curve">
-                            <img src="../../../Assets/images/sugar-crm-1.jpg" class="img-responsive center-block" />
-                        </div>
-                    </div>
-
-                </div> 
+            </div>
             <!--Eof Breadcrumb row-->
 
             <!--Breadcrumb row-->
@@ -1258,7 +1319,9 @@ ul.key-features {
                 <div class="section-layer pt-0">
                     <h2 class="common-topic">Why SugarCRM</h2>
                     <p class="common-para">
-                       As organisations strive to deliver personalised experiences and gain actionable insights from customer data, the demand for robust CRM platforms continues to grow. Amidst this evolving landscape, SugarCRM stands out as a leading provider, empowering businesses to optimise sales, marketing, and service operations while adapting seamlessly to diverse business needs and scaling for future growth.<br><br> Key features of SugarCRM are:
+                        As organisations strive to deliver personalised experiences and gain actionable insights from customer data, the demand for robust CRM platforms continues to grow. Amidst this evolving landscape, SugarCRM stands out as a leading provider, empowering businesses to optimise sales, marketing, and service operations while adapting seamlessly to diverse business needs and scaling for future growth.<br>
+                        <br>
+                        Key features of SugarCRM are:
                     </p>
                 </div>
             </div>
@@ -1426,10 +1489,10 @@ ul.key-features {
                                                 <img src="../../../Assets/images/crm-7.png" class="img-responsive center-block" />
                                             </div>
                                             <div class="icn_content">
-                                            <h3>Integration Capabilities</h3>
-                                            <span>Integrate SugarCRM with other essential business applications and systems seamlessly. Whether it’s ERP systems, e-commerce platforms, or third-party analytics tools, SugarCRM’s open architecture supports easy integration to streamline data flow and enhance overall business efficiency.</span>
-                                      </div>
-                                        </li> 
+                                                <h3>Integration Capabilities</h3>
+                                                <span>Integrate SugarCRM with other essential business applications and systems seamlessly. Whether it’s ERP systems, e-commerce platforms, or third-party analytics tools, SugarCRM’s open architecture supports easy integration to streamline data flow and enhance overall business efficiency.</span>
+                                            </div>
+                                        </li>
 
                                     </ul>
                                 </div>
@@ -1438,118 +1501,145 @@ ul.key-features {
                     </div>
 
                 </div>
-				
-            <div class="row">
-                <div class="pt-0 mt-5">
-                    <h2 class="common-topic">Core Offerings</h2>
-                    <p class="common-para">
-                       SugarCRM's core offerings revolve around its comprehensive Customer Relationship Management (CRM) solutions. These offerings are designed to help businesses manage and optimize their interactions with customers across various stages of the customer lifecycle. <br><br> The core offerings include:
-                    </p>
+
+                <div class="row">
+                    <div class="pt-0 mt-5">
+                        <h2 class="common-topic">Core Offerings</h2>
+                        <p class="common-para">
+                            SugarCRM's core offerings revolve around its comprehensive Customer Relationship Management (CRM) solutions. These offerings are designed to help businesses manage and optimize their interactions with customers across various stages of the customer lifecycle.
+                            <br>
+                            <br>
+                            The core offerings include:
+                        </p>
+                    </div>
                 </div>
-            </div>				
 
                 <div class="row">
                     <div class="col-lg-12 nopadding">
 
-<div class="demo"> 
-<br>
-<div id="verticalTab">
-<ul class="resp-tabs-list">
-<li>Sugar Sell</li>
-<li>Sugar Market</li>
-<li>Sugar Serve</li> 
-</ul>
-<div class="resp-tabs-container">
+                        <div class="demo">
+                            <br>
+                            <div id="verticalTab">
+                                <ul class="resp-tabs-list">
+                                    <li>Sugar Sell</li>
+                                    <li>Sugar Market</li>
+                                    <li>Sugar Serve</li>
+                                </ul>
+                                <div class="resp-tabs-container">
 
-<div>
-<div class="row ms_section align-items-center">
-<div class="col-lg-7 col-md-7 col-sm-12 col-12 nopadding">
-<h2 class="common-topic small_heading">Sugar Sell</h2>
-<p class="common-para">Sugar Sell is SugarCRM’s core CRM platform tailored primarily for sales teams. It provides tools and features to manage leads, opportunities, accounts, and contacts effectively.<br><br> Key features include</p><br>
-</div>
-<div class="col-lg-5 col-md-5 col-sm-12 col-12">
-<div class="image">
-<img src="../../../Assets/images/sugar-crm-2.jpg" class="img-responsive center-block">
-</div>
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
-<ul class="key-features">
-<li><span><img src="../../../Assets/images/crm-cell-4.png" class=""></span> Pipeline Management </li>
-<li><span><img src="../../../Assets/images/crm-cell-3.png" class=""></span> Workflow automation </li>
-<li><span><img src="../../../Assets/images/crm-cell-2.png" class=""></span> Sales Forecasting </li>
-<li><span><img src="../../../Assets/images/crm-cell-5.png" class=""></span> Reporting/analytics </li>
-<li><span><img src="../../../Assets/images/crm-cell-1.png" class=""></span> Email Integration </li>
-</ul> 
-<p class="common-para">Sugar Sell aims to streamline the sales process, improve team collaboration, and ultimately boost sales performance through data-driven insights and efficient workflows.</p>
-</div>
-</div>
-</div>
+                                    <div>
+                                        <div class="row ms_section align-items-center">
+                                            <div class="col-lg-7 col-md-7 col-sm-12 col-12 nopadding">
+                                                <h2 class="common-topic small_heading">Sugar Sell</h2>
+                                                <p class="common-para">Sugar Sell is SugarCRM’s core CRM platform tailored primarily for sales teams. It provides tools and features to manage leads, opportunities, accounts, and contacts effectively.<br>
+                                                    <br>
+                                                    Key features include</p>
+                                                <br>
+                                            </div>
+                                            <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+                                                <div class="image">
+                                                    <img src="../../../Assets/images/sugar-crm-2.jpg" class="img-responsive center-block">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+                                                <ul class="key-features">
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-cell-4.png" class=""></span> Pipeline Management </li>
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-cell-3.png" class=""></span> Workflow automation </li>
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-cell-2.png" class=""></span> Sales Forecasting </li>
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-cell-5.png" class=""></span> Reporting/analytics </li>
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-cell-1.png" class=""></span> Email Integration </li>
+                                                </ul>
+                                                <p class="common-para">Sugar Sell aims to streamline the sales process, improve team collaboration, and ultimately boost sales performance through data-driven insights and efficient workflows.</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-<div>
-<div class="row ms_section align-items-center">
-<div class="col-lg-7 col-md-7 col-sm-12 col-12 nopadding">
-<h2 class="common-topic small_heading">Sugar Market</h2>
-<p class="common-para">Sugar Market is SugarCRM’s marketing automation solution. It allows businesses to automate marketing campaigns, nurture leads, and measure marketing ROI effectively.<br><br> Key features of Sugar Market include</p><br>
-</div>
-<div class="col-lg-5 col-md-5 col-sm-12 col-12">
-<div class="image">
-<img src="../../../Assets/images/sugar-crm-3.jpg" class="img-responsive center-block">
-</div>
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
-<ul class="key-features">
-<li><span><img src="../../../Assets/images/crm-market-1.png" class=""></span> Email Marketing </li>
-<li><span><img src="../../../Assets/images/crm-market-2.png" class=""></span> Social Media Integration </li>
-<li><span><img src="../../../Assets/images/crm-market-3.png" class=""></span> Lead Scoring </li>
-<li><span><img src="../../../Assets/images/crm-market-4.png" class=""></span> Marketing Analytics</li>
-<li><span><img src="../../../Assets/images/crm-market-5.png" class=""></span> Campaign Management</li>
-</ul> 
-<p class="common-para">Sugar Market helps businesses attract prospects, engage with customers across multiple channels, and drive revenue growth through targeted marketing strategies.</p>
-</div>
-</div>
-</div>
+                                    <div>
+                                        <div class="row ms_section align-items-center">
+                                            <div class="col-lg-7 col-md-7 col-sm-12 col-12 nopadding">
+                                                <h2 class="common-topic small_heading">Sugar Market</h2>
+                                                <p class="common-para">Sugar Market is SugarCRM’s marketing automation solution. It allows businesses to automate marketing campaigns, nurture leads, and measure marketing ROI effectively.<br>
+                                                    <br>
+                                                    Key features of Sugar Market include</p>
+                                                <br>
+                                            </div>
+                                            <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+                                                <div class="image">
+                                                    <img src="../../../Assets/images/sugar-crm-3.jpg" class="img-responsive center-block">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+                                                <ul class="key-features">
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-market-1.png" class=""></span> Email Marketing </li>
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-market-2.png" class=""></span> Social Media Integration </li>
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-market-3.png" class=""></span> Lead Scoring </li>
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-market-4.png" class=""></span> Marketing Analytics</li>
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-market-5.png" class=""></span> Campaign Management</li>
+                                                </ul>
+                                                <p class="common-para">Sugar Market helps businesses attract prospects, engage with customers across multiple channels, and drive revenue growth through targeted marketing strategies.</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-<div>
-<div class="row ms_section align-items-center">
-<div class="col-lg-7 col-md-7 col-sm-12 col-12 nopadding">
-<h2 class="common-topic small_heading">Sugar Serve</h2>
-<p class="common-para">Sugar Serve is SugarCRM’s customer service and support solution, focusing on delivering exceptional customer experiences. It enables businesses to manage customer inquiries, support cases, and service requests efficiently.<br><br> Key features of Sugar Market include</p><br>
-</div>
-<div class="col-lg-5 col-md-5 col-sm-12 col-12">
-<div class="image">
-<img src="../../../Assets/images/sugar-crm-4.jpg" class="img-responsive center-block">
-</div>
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
-<ul class="key-features">
-<li><span><img src="../../../Assets/images/crm-serve-1.png" class=""></span> Case Management </li>
-<li><span><img src="../../../Assets/images/crm-serve-2.png" class=""></span> Self-Service Portals </li>
-<li><span><img src="../../../Assets/images/crm-serve-3.png" class=""></span> Knowledge Base Management </li> 
-<li><span><img src="../../../Assets/images/crm-serve-4.png" class=""></span> Customer Service Analytics </li>
-<li><span><img src="../../../Assets/images/crm-serve-5.png" class=""></span> Service Level Agreement (SLA) Tracking </li>
-</ul> 
-<p class="common-para">Sugar Serve aims to improve customer satisfaction by empowering service teams with the tools they need to resolve issues promptly and deliver personalized support.</p>
-</div>
-</div>
-</div>
+                                    <div>
+                                        <div class="row ms_section align-items-center">
+                                            <div class="col-lg-7 col-md-7 col-sm-12 col-12 nopadding">
+                                                <h2 class="common-topic small_heading">Sugar Serve</h2>
+                                                <p class="common-para">Sugar Serve is SugarCRM’s customer service and support solution, focusing on delivering exceptional customer experiences. It enables businesses to manage customer inquiries, support cases, and service requests efficiently.<br>
+                                                    <br>
+                                                    Key features of Sugar Market include</p>
+                                                <br>
+                                            </div>
+                                            <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+                                                <div class="image">
+                                                    <img src="../../../Assets/images/sugar-crm-4.jpg" class="img-responsive center-block">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+                                                <ul class="key-features">
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-serve-1.png" class=""></span> Case Management </li>
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-serve-2.png" class=""></span> Self-Service Portals </li>
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-serve-3.png" class=""></span> Knowledge Base Management </li>
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-serve-4.png" class=""></span> Customer Service Analytics </li>
+                                                    <li><span>
+                                                        <img src="../../../Assets/images/crm-serve-5.png" class=""></span> Service Level Agreement (SLA) Tracking </li>
+                                                </ul>
+                                                <p class="common-para">Sugar Serve aims to improve customer satisfaction by empowering service teams with the tools they need to resolve issues promptly and deliver personalized support.</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
- 
-</div>
-</div>
 
-<br />
-<div style="height: 30px; clear: both"></div>
-</div>	
-					
-</div>
-</div>
+                                </div>
+                            </div>
 
-</div>
-<!--Eof Breadcrumb row-->
+                            <br />
+                            <div style="height: 30px; clear: both"></div>
+                        </div>
 
-</div>
+                    </div>
+                </div>
 
-<div class="col-md-12 nopadding set-6">
+            </div>
+            <!--Eof Breadcrumb row-->
+
+        </div>
+
+        <div class="col-md-12 nopadding set-6">
 
             <!--Breadcrumb row-->
             <div class="section-layer ">
@@ -1560,51 +1650,51 @@ ul.key-features {
 
                         <h2 class="common-topic bene-mb-5">Benefits of SugarCRM
                         </h2>
-						
+
 
 
                     </div>
 
-                        <div class="row">
-                            <div class="col-lg-7 col-md-7 col-sm-12 col-12">
-							<div class="prixing">
-							<h2 class="common-topic small_heading"> Scalability </h2>
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+                            <div class="prixing">
+                                <h2 class="common-topic small_heading">Scalability </h2>
                                 <p class="common-para wid-6">
                                     SugarCRM is scalable to accommodate growing business needs. Whether you’re a small startup or a large enterprise, SugarCRM can scale with your business, adapting to changing requirements and increasing user demands.
-								</p>
-							</div>
-							<div class="prixing">
-							<h2 class="common-topic small_heading"> User-Friendly Interface</h2>
+                                </p>
+                            </div>
+                            <div class="prixing">
+                                <h2 class="common-topic small_heading">User-Friendly Interface</h2>
                                 <p class="common-para wid-6">
                                     With an intuitive and user-friendly interface, SugarCRM ensures quick adoption and minimal training for your team. Users can navigate the platform effortlessly, maximizing productivity and minimizing downtime.
-								</p>
-							</div> 
-							<div class="prixing">
-							<h2 class="common-topic small_heading"> Data Security</h2>
+                                </p>
+                            </div>
+                            <div class="prixing">
+                                <h2 class="common-topic small_heading">Data Security</h2>
                                 <p class="common-para wid-6">
                                     Protect sensitive customer data with SugarCRM’s robust security features. From role-based access controls to data encryption and regular security updates, SugarCRM prioritizes data protection to safeguard your business and customer information.
-								</p>
-							</div> 
+                                </p>
                             </div>
-                            <div class="col-lg-5 col-md-5 col-sm-8 col-10">
-                                <img src="../../../Assets/images/bene-crm.jpg" class="img-responsive center-block" />
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                               							<div class="prixing">
-							<h2 class="common-topic small_heading"> Analytics and Reporting</h2>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-8 col-10">
+                            <img src="../../../Assets/images/bene-crm.jpg" class="img-responsive center-block" />
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="prixing">
+                                <h2 class="common-topic small_heading">Analytics and Reporting</h2>
                                 <p class="common-para wid-6">
                                     Gain actionable insights with SugarCRM’s advanced analytics and reporting capabilities. Track key performance indicators, measure campaign effectiveness, and identify trends to make informed business decisions and drive growth.
-								</p>
-							</div>
-                               							<div class="prixing">
-							<h2 class="common-topic small_heading"> Customer Experience Focus </h2>
+                                </p>
+                            </div>
+                            <div class="prixing">
+                                <h2 class="common-topic small_heading">Customer Experience Focus </h2>
                                 <p class="common-para wid-6">
                                     By centralizing customer data and automating processes, SugarCRM enhances the overall customer experience. Deliver personalized interactions, respond to inquiries promptly, and build stronger relationships that foster customer loyalty and retention.
-								</p>
-							</div>
+                                </p>
                             </div>
-
                         </div>
+
+                    </div>
 
                 </div>
 
@@ -1622,7 +1712,9 @@ ul.key-features {
                     <div class="col-lg-12 nopadding">
                         <h2 class="common-topic">RheinBrücke Advantage</h2>
                         <p class="common-para">
-                            At RheinBrücke, we prioritize building lasting partnerships with our clients as your CRM solution provider. Our goal is to serve as your trusted advisor and seamlessly integrate into your team. Through collaborative efforts, we aim to fully understand your unique business goals and address any challenges you face.<br><br> Here are the key advantages of choosing us as your CRM solution provider:                       
+                            At RheinBrücke, we prioritize building lasting partnerships with our clients as your CRM solution provider. Our goal is to serve as your trusted advisor and seamlessly integrate into your team. Through collaborative efforts, we aim to fully understand your unique business goals and address any challenges you face.<br>
+                            <br>
+                            Here are the key advantages of choosing us as your CRM solution provider:                       
                         </p>
                     </div>
                     <div class="col-lg-12 nopadding">
@@ -1630,14 +1722,14 @@ ul.key-features {
                             <img src="../../../Assets/images/rheinbruke-advantage.jpg" class="img-responsive center-block" alt="Finance,Project Operations,Supply Chain Management,Customer Service,Field Service,Marketing,Sales,Human Resources" />
                         </div>
                     </div>
-					
 
-        <div class="col-md-12 nopadding set-3">
 
-            <!--Breadcrumb row-->
-            <div class="section-layer pb-0 pt-0">
+                    <div class="col-md-12 nopadding set-3">
 
-                <!-- <div class="row mb-50">
+                        <!--Breadcrumb row-->
+                        <div class="section-layer pb-0 pt-0">
+
+                            <!-- <div class="row mb-50">
                     <div class="col-lg-12 nopadding">
                         <h2 class="common-topic">Main Features
                         </h2>
@@ -1656,95 +1748,96 @@ ul.key-features {
 
                 </div> -->
 
-                <div class="row">
-                    <div class="col-lg-12 nopadding">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="box-icns">
-                                    <ul class="services">
-                                        <li>
-                                            <div class="icn-circle">
-                                                <img src="../../../Assets/images/crm-7.png" class="img-responsive center-block" />
-                                            </div>
-                                            <div class="icn_content">
-                                                <h3>Expertise in Integration Services</h3>
-                                                <span>RheinBrücke excels in integrating complex enterprise software solutions across various platforms and systems. With deep technical knowledge and experience, RheinBrücke ensures seamless connectivity and interoperability between software applications, enabling businesses to streamline workflows, enhance data accuracy, and optimize operational efficiency through integrated solutions.</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="icn-circle">
-                                                <img src="../../../Assets/images/crm-6.png" class="img-responsive center-block" />
-                                            </div>
-                                            <div class="icn_content">
-                                                <h3>Customization Capabilities</h3>
-                                                <span>RheinBrücke specialises in customising software solutions to meet specific business requirements and industry needs. Whether adapting CRM functionalities to align with unique business processes or enhancing ERP systems to support industry-specific workflows, RheinBrücke’s customisation capabilities empower businesses to maximise the value of their software investments..</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="icn-circle">
-                                                <img src="../../../Assets/images/crm-8.png" class="img-responsive center-block" />
-                                            </div>
-                                            <div class="icn_content">
-                                                <h3>Industry-Specific Solutions</h3>
-                                                <span>RheinBrücke offers industry-specific solutions to meet the various challenges and requirements of diverse sectors. By combining domain expertise with technological proficiency, RheinBrücke delivers specialised software configurations and enhancements that address specific industry regulations, operational complexities, and customer expectations.</span>
-                                            </div>
-                                        </li>
+                            <div class="row">
+                                <div class="col-lg-12 nopadding">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="box-icns">
+                                                <ul class="services">
+                                                    <li>
+                                                        <div class="icn-circle">
+                                                            <img src="../../../Assets/images/crm-7.png" class="img-responsive center-block" />
+                                                        </div>
+                                                        <div class="icn_content">
+                                                            <h3>Expertise in Integration Services</h3>
+                                                            <span>RheinBrücke excels in integrating complex enterprise software solutions across various platforms and systems. With deep technical knowledge and experience, RheinBrücke ensures seamless connectivity and interoperability between software applications, enabling businesses to streamline workflows, enhance data accuracy, and optimize operational efficiency through integrated solutions.</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="icn-circle">
+                                                            <img src="../../../Assets/images/crm-6.png" class="img-responsive center-block" />
+                                                        </div>
+                                                        <div class="icn_content">
+                                                            <h3>Customization Capabilities</h3>
+                                                            <span>RheinBrücke specialises in customising software solutions to meet specific business requirements and industry needs. Whether adapting CRM functionalities to align with unique business processes or enhancing ERP systems to support industry-specific workflows, RheinBrücke’s customisation capabilities empower businesses to maximise the value of their software investments..</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="icn-circle">
+                                                            <img src="../../../Assets/images/crm-8.png" class="img-responsive center-block" />
+                                                        </div>
+                                                        <div class="icn_content">
+                                                            <h3>Industry-Specific Solutions</h3>
+                                                            <span>RheinBrücke offers industry-specific solutions to meet the various challenges and requirements of diverse sectors. By combining domain expertise with technological proficiency, RheinBrücke delivers specialised software configurations and enhancements that address specific industry regulations, operational complexities, and customer expectations.</span>
+                                                        </div>
+                                                    </li>
 
-                                        <li>
-                                            <div class="icn-circle">
-                                                <img src="../../../Assets/images/crm-9.png" class="img-responsive center-block" />
-                                            </div>
-                                            <div class="icn_content">
-                                                <h3>Strategic Partnerships and Alliances</h3>
-                                                <span>RheinBrücke cultivates strategic partnerships with leading technology providers, enhancing its ability to deliver comprehensive solutions that integrate seamlessly with best-in-class software platforms. Collaborating with industry leaders like Epicor, Microsoft and SAP expanding RheinBrücke’s solution portfolio and enabling businesses to leverage cutting-edge technologies for competitive advantage.</span>
-                                            </div>
-                                        </li>
+                                                    <li>
+                                                        <div class="icn-circle">
+                                                            <img src="../../../Assets/images/crm-9.png" class="img-responsive center-block" />
+                                                        </div>
+                                                        <div class="icn_content">
+                                                            <h3>Strategic Partnerships and Alliances</h3>
+                                                            <span>RheinBrücke cultivates strategic partnerships with leading technology providers, enhancing its ability to deliver comprehensive solutions that integrate seamlessly with best-in-class software platforms. Collaborating with industry leaders like Epicor, Microsoft and SAP expanding RheinBrücke’s solution portfolio and enabling businesses to leverage cutting-edge technologies for competitive advantage.</span>
+                                                        </div>
+                                                    </li>
 
-                                        <li>
-                                            <div class="icn-circle">
-                                                <img src="../../../Assets/images/crm-10.png" class="img-responsive center-block" />
-                                            </div>
-                                            <div class="icn_content">
-                                                <h3>Commitment to Customer Success</h3>
-                                                <span>By adopting a customer-centric approach, RheinBrücke ensures that solutions are aligned with business objectives, deliver measurable results, and exceed expectations. This commitment to customer success fosters long-term partnerships built on trust, transparency, and mutual growth.</span>
-                                            </div>
-                                        </li>
+                                                    <li>
+                                                        <div class="icn-circle">
+                                                            <img src="../../../Assets/images/crm-10.png" class="img-responsive center-block" />
+                                                        </div>
+                                                        <div class="icn_content">
+                                                            <h3>Commitment to Customer Success</h3>
+                                                            <span>By adopting a customer-centric approach, RheinBrücke ensures that solutions are aligned with business objectives, deliver measurable results, and exceed expectations. This commitment to customer success fosters long-term partnerships built on trust, transparency, and mutual growth.</span>
+                                                        </div>
+                                                    </li>
 
 
-                                    </ul>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
+
                             </div>
 
                         </div>
+                        <!--Eof Breadcrumb row-->
+
+
                     </div>
-
-                </div>
-
-            </div>
-            <!--Eof Breadcrumb row-->
-
-
-        </div> 
                 </div>
             </div>
             <!--Eof Breadcrumb row-->
 
-        </div>  
+        </div>
 
         <div class="col-md-12 nopadding set-6">
 
             <!--Breadcrumb row-->
             <div class="section-layer">
                 <div class="row form_section">
-				
+
                     <div class="col-lg-12 col-md-12 co-sm-12 col-12 nopadding">
                         <h2 class="common-topic pb-20 text-center">Contact Us!</h2>
-                        <h4 class="text-center mb-3">Ready to elevate your customer relationships and drive growth with us? Contact us today and discover<br> how our powerful CRM solutions can transform your business.</h4>
-						</div>
-						
-						</div>
+                        <h4 class="text-center mb-3">Ready to elevate your customer relationships and drive growth with us? Contact us today and discover<br>
+                            how our powerful CRM solutions can transform your business.</h4>
+                    </div>
+
+                </div>
                 <div class="row form_section">
-						
+
                     <div class="col-lg-6 col-md-8 co-sm-10 col-12  nopadding">
                         <form name="form" method="post" action="#" id="form3">
 
@@ -1838,7 +1931,7 @@ ul.key-features {
 </asp:Content>
 
 <asp:Content ID="Content4" ContentPlaceHolderID="FooterScript" runat="server">
-<script src="/Assets/js/easy-responsive-tabs.js"></script>
+    <script src="/Assets/js/easy-responsive-tabs.js"></script>
 
     <script type="text/javascript">
 
@@ -1848,10 +1941,10 @@ ul.key-features {
             });
         };
     </script>
-	
+
     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
     </script>
-	
+
     <script type="text/javascript">
         function IsEmailValid(a) {
             if ("" == a) return !0; var e = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
@@ -1923,16 +2016,16 @@ ul.key-features {
 
         });
 
-    </script> 
-	
-<script>
-$(document).ready(function () {
-$('#verticalTab').easyResponsiveTabs({
-type: 'horizontal',
-width: 'auto',
-fit: true
-});
-});
-</script> 
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#verticalTab').easyResponsiveTabs({
+                type: 'horizontal',
+                width: 'auto',
+                fit: true
+            });
+        });
+    </script>
 
 </asp:Content>
