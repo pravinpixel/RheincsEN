@@ -47,48 +47,52 @@
                     <li data-target="#myCarousel" data-slide-to="3"></li>
                     <%--<li data-target="#myCarousel" data-slide-to="4"></li>--%>
                 </ol>
-                <div class="carousel-inner" role="listbox">
-
-                    <div class="item active">
-                        <img src="Assets/images/banner-2.jpg" alt="Home-Banner" class="img-responsive" /><div class="container">
+                <div class="carousel-inner" role="listbox" aria-label="carousel-inner">
+ 
+                    <div class="item active"role="option" aria-selected="true" aria-roledescription="slide">
+                        <img src="Assets/images/banner-2.jpg" alt="Home-Banner2" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-banner-heading-bg pull-right"><span class="rhein-banner-heading">RheinBrücke</span></div>
                                 <div class="rhein-banner-heading-black-bg pull-right"><span class="rhein-banner-heading-black">Enabling businesses to overcome obstacles and navigate uncharted waters.</span></div>
-                                <a href="solutions/focused-solutions/mid-market-companies" class="ET-hbanner1">
-                                    <div class="rhein-banner-readmore-bg pull-right"><span class="rhein-banner-readmore-text">Read More</span></div>
+                                <a href="solutions/focused-solutions/mid-market-companies" title="more1" class="ET-hbanner1"
+                                 aria-label="Enabling businesses to overcome obstacles and navigate uncharted waters">
+                                    <div class="rhein-banner-readmore-bg pull-right">
+                                    <span class="rhein-banner-readmore-text">Read More...</span></div>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <img src="Assets/images/banner-3.jpg" alt="Home-Banner" class="img-responsive" /><div class="container">
+                    <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
+                        <img src="Assets/images/banner-3.jpg" alt="Home-Banner3" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-banner-heading-bg pull-right"><span class="rhein-banner-heading">RheinBrücke</span></div>
                                 <div class="rhein-banner-heading-black-bg pull-right"><span class="rhein-banner-heading-black">Enabling businesses to stay ahead in a fast paced world of opportunity.</span></div>
-                                <a href="solutions/focused-solutions/enterprise" class="ET-hbanner2">
-                                    <div class="rhein-banner-readmore-bg pull-right"><span class="rhein-banner-readmore-text">Read More</span></div>
+                                <a href="solutions/focused-solutions/enterprise" class="ET-hbanner2" title="more2"
+                                 aria-label="Enabling businesses to stay ahead in a fast paced world of opportunity">
+                                    <div class="rhein-banner-readmore-bg pull-right">
+                                    <span class="rhein-banner-readmore-text">Read More...</span></div>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <img src="Assets/images/banner-4.jpg" alt="Home-Banner" class="img-responsive" /><div class="container">
+                    <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
+                        <img src="Assets/images/banner-4.jpg" alt="Home-Banner4" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <img src="Assets/images/ms-gold-silver-logo.jpg" class="banner-ms-logo img-responsive hidden-xs" alt="gold-silver-logo" /><div class="rhein-banner-heading-bg pull-right"><span class="rhein-banner-heading">RheinBrücke</span></div>
                                 <div class="rhein-banner-heading-black-bg pull-right"><span class="rhein-banner-heading-black">Building ERP Surround Intranet Portals on SharePoint,integrating SAP and Microsoft BI for a seamless information exchange and collaboration within your enterprise.</span></div>
-                                <a href="solutions/it-services-and-solutions/microsoft-technologies" class="ET-hbanner3">
-                                    <div id="bannerAlign" class="rhein-banner-readmore-bg4 pull-right"><span class="rhein-banner-readmore-text ">Read More</span></div>
+                                <a href="solutions/it-services-and-solutions/microsoft-technologies" class="ET-hbanner3" title="more3" aria-label="read">
+                                    <div id="bannerAlign" class="rhein-banner-readmore-bg4 pull-right"><span class="rhein-banner-readmore-text ">Read More...</span></div>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <img src="Assets/images/banner-5.jpg" alt="Home-Banner" class="img-responsive" /><div class="container">
+                    <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
+                        <img src="Assets/images/banner-5.jpg" alt="Home-Banner5" class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-banner-heading-bg pull-right"><span class="rhein-banner-heading">RheinBrücke</span></div>
                                 <div class="rhein-banner-heading-black-bg pull-right"><span class="rhein-banner-heading-black">Helping your enterprise migrate legacy and sunset technologies to newer platforms and solutions.</span></div>
-                                <a href="contact-us" class="ET-hbanner4">
-                                    <div class="rhein-banner-readmore-bg banner-5-readmore pull-right"><span class="rhein-banner-readmore-text ">Read More</span></div>
+                                <a href="contact-us" class="ET-hbanner4" title="more4" aria-label="read">
+                                    <div class="rhein-banner-readmore-bg banner-5-readmore pull-right" ><span class="rhein-banner-readmore-text ">Read More...</span></div>
                                 </a>
                             </div>
                         </div>
@@ -108,7 +112,7 @@
             </div>
         </div>
         <div class="row main-container marg20">
-            <h5 class="deco-header"><span class="redBottom">OUR SERVICES INCLUDE</span></h5>
+            <h1 class="deco-header" style="font-size: 1.167em !important;"><span class="redBottom">OUR SERVICES INCLUDE</span></h1>
             <div class="marg20"></div>
             <div class="col-md-12">
                 <a href="solutions/consulting-and-advisory-solutions/erp-selection-advisory-solutions">
@@ -176,7 +180,7 @@
                         <div class="video_thumb_box">
                             <a href="#" data-toggle="modal" data-target="#myModal7" data-videoid="IDrR7hiizhI" data-videosite="youtube">
                                 <img src="https://img.youtube.com/vi/IDrR7hiizhI/default.jpg" alt="RheinBrücke Corporate Video" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
-                                    <img src="../Assets/images/play.png" class="wpvl_playbutton" />
+                                    <img src="../Assets/images/play.png" class="wpvl_playbutton" alt="play"/>
                                 </div>
                             </a>
 
@@ -187,7 +191,7 @@
                             <span class="video-thumbnail">RheinBrucke IT Consulting – Corporate video
                             </span>
                             <br />
-                            <a data-toggle="modal" data-target="#myModal7" data-videoid="IDrR7hiizhI" data-videosite="youtube" class="video-class">Click to play video</a>
+                            <a href="#"  data-toggle="modal" data-target="#myModal7" data-videoid="IDrR7hiizhI" data-videosite="youtube" class="video-class">Click to play video</a>
                         </p>
 
                     </div>
@@ -216,7 +220,7 @@
                             <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="Fh6P6teEH3c" data-videosite="youtube">
                                 <img src="https://img.youtube.com/vi/Fh6P6teEH3c/0.jpg" alt="RheinBrücke IT Consulting gewinnt bei den German Stevie Awards 2015" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
                                 <div class="thumb_play">
-                                    <img src="../Assets/images/play.png" class="wpvl_playbutton" />
+                                    <img src="../Assets/images/play.png" class="wpvl_playbutton" alt="play"/>
                                 </div>
                             </a>
                         </div>
@@ -254,7 +258,7 @@
                         <div class="video_thumb_box">
                             <a href="#" data-toggle="modal" data-target="#myModal18" data-videoid="C6sDlZCKIA4" data-videosite="youtube">
                                 <img src="https://img.youtube.com/vi/-t5b2gIdhyo/hqdefault.jpg" alt="RheinBrücke – Pinnacle Awards of Excellence 2016" class="video_lightbox_auto_anchor_image" alt="" /><div class="thumb_play">
-                                    <img src="../Assets/images/play.png" class="wpvl_playbutton">
+                                    <img src="../Assets/images/play.png" class="wpvl_playbutton" alt="play">
                                 </div>
                             </a>
                         </div>
@@ -289,7 +293,7 @@
                         <div class="video_thumb_box">
                             <a href="#" data-toggle="modal" data-target="#myModal10" data-videoid="B-XFRUeSlUs" data-videosite="youtube">
                                 <img src="https://img.youtube.com/vi/B-XFRUeSlUs/0.jpg" alt="RheinBrücke – Customer Reference by Martin Peters" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
-                                    <img src="../Assets/images/play.png" class="wpvl_playbutton" />
+                                    <img src="../Assets/images/play.png" class="wpvl_playbutton" alt="play"/>
                                 </div>
                             </a>
                         </div>
@@ -326,8 +330,8 @@
 
                         <div class="video_thumb_box">
                             <a href="#" data-toggle="modal" data-target="#myModal11" data-videoid="yvtX2yqWxVg" data-videosite="youtube">
-                                <img src="https://img.youtube.com/vi/yvtX2yqWxVg/0.jpg" alt="RheinBrücke – Customer Reference by Dr. Schrettl" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
-                                    <img src="../Assets/images/play.png" class="wpvl_playbutton" />
+                                <img src="https://img.youtube.com/vi/yvtX2yqWxVg/0.jpg" alt="RheinBrücke - Customer Reference by Dr. Schrettl" class="video_lightbox_auto_anchor_image ETvideo" /><div class="thumb_play">
+                                    <img src="../Assets/images/play.png" class="wpvl_playbutton" alt="play"/>
                                 </div>
                             </a>
                         </div>
@@ -364,9 +368,9 @@
 
                         <div class="video_thumb_box">
                             <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="MmXOpBXQdZM" data-videosite="youtube">
-                                <img src="https://img.youtube.com/vi/MmXOpBXQdZM/0.jpg" alt="RheinBrücke – Customer Reference by Greg Bryan" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
+                                <img src="https://img.youtube.com/vi/MmXOpBXQdZM/0.jpg" alt="RheinBrücke – Customer Reference by Greg Bryan" class="video_lightbox_auto_anchor_image ETvideo" />
                                 <div class="thumb_play">
-                                    <img src="../Assets/images/play.png" class="wpvl_playbutton" />
+                                    <img src="../Assets/images/play.png" class="wpvl_playbutton" alt="play" />
                                 </div>
                             </a>
                         </div>

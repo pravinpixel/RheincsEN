@@ -6,7 +6,7 @@
 <head id="Head1" runat="server">
     <title>RheinBrücke IT Consulting</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
     <script type="text/javascript" src="https://stg.rheincs.net/2-click/javascripts/jquery.min.js"></script>
     <script type="text/javascript" src="https://stg.rheincs.net/2-click/javascripts/jquery.cookies.js"></script>
@@ -332,20 +332,20 @@ Services</span></a>
                     <%--<ul>
                         <li class="hvr-wobble-to-top-right">
                             <a id="linkdin" href="#" target="_blank" title="LinkedIn">
-                                <img style="height: 35px; width: 35px;" src="/Assets/images/linkedin.png" /></a>
+                                <img style="height: 35px; width: 35px;" src="/Assets/images/linkedin.png" alt="a" /></a>
                         </li>
                         <li class="hvr-wobble-to-top-right">
                             <a id="facebook" href="#" target="_blank" title="Facebook">
-                                <img style="height: 35px; width: 35px;" src="/Assets/images/facebook.png" /></a>
+                                <img style="height: 35px; width: 35px;" src="/Assets/images/facebook.png" alt="a" /></a>
                         </li>
 
                         <li class="hvr-wobble-to-top-right">
                             <a id="twitter" href="#" target="_blank" title="Twitter">
-                                <img style="height: 35px; width: 35px;" src="/Assets/images/twitter.png" /></a>
+                                <img style="height: 35px; width: 35px;" src="/Assets/images/twitter.png" alt="a"  /></a>
                         </li>
                         <li class="hvr-wobble-to-top-right">
                             <a id="GPlus" href="#" target="_blank" title="Google-plus">
-                                <img style="height: 35px; width: 35px;" src="/Assets/images/google-plus.png" /></a>
+                                <img style="height: 35px; width: 35px;" src="/Assets/images/google-plus.png" alt="a"  /></a>
                         </li>
                     </ul>--%>
                 </div>
@@ -490,7 +490,7 @@ Services</span></a>
             <div class="row">
                 <div class="clearfix">&nbsp;</div>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
-                <div id="Contactfeedback" class="ETcallout"><a data-toggle="modal" data-target="#myModal-contactus">Contact Us</a> </div>
+                <div id="Contactfeedback" class="ETcallout"><a href=""  data-toggle="modal" data-target="#myModal-contactus">Contact Us</a> </div>
                 <div class="modal fade" id="myModal-contactus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -583,79 +583,79 @@ Services</span></a>
                     <div style="max-width: 1024px !important; margin: auto;">
                         <ul class="bxslider">
                             <li>
-                                <img src="Assets/images/national-gas.jpg" class="hvr-bounce-out" title="National Gas" />
+                                <img src="Assets/images/national-gas.jpg" class="hvr-bounce-out" title="National Gas"  alt="national-gas"/>
                             </li>
                             <li>
-                                <img src="Assets/images/trw.jpg" class="hvr-bounce-out" title="TRW-Automotive" />
+                                <img src="Assets/images/trw.jpg" class="hvr-bounce-out" title="TRW-Automotive" alt="trw"/>
                             </li>
                             <li>
-                                <img src="Assets/images/sandoz.jpg" class="hvr-bounce-out" title="Sandoz Pharmaceuticals " />
+                                <img src="Assets/images/sandoz.jpg" class="hvr-bounce-out" title="Sandoz Pharmaceuticals "  alt="sandoz"/>
                             </li>
                             <li>
-                                <img src="Assets/images/pertro-masilla.jpg" class="hvr-bounce-out" title="Petro Masila" />
+                                <img src="Assets/images/pertro-masilla.jpg" class="hvr-bounce-out" title="Petro Masila" alt="pertro-masilla" />
                             </li>
                             <li>
-                                <img src="Assets/images/rsp-consultojg.jpg" class="hvr-bounce-out" title="RSP Consultants" />
+                                <img src="Assets/images/rsp-consultojg.jpg" class="hvr-bounce-out" title="RSP Consultants" alt="rsp-consultojg" />
                             </li>
                             <li>
-                                <img src="Assets/images/kemppi.jpg" class="hvr-bounce-out" title="Kemppi" />
+                                <img src="Assets/images/kemppi.jpg" class="hvr-bounce-out" title="Kemppi" alt="kemppi" />
                             </li>
                             <li>
-                                <img src="Assets/images/rederal.jpg" class="hvr-bounce-out" title="Federal Mogul" />
+                                <img src="Assets/images/rederal.jpg" class="hvr-bounce-out" title="Federal Mogul" alt="rederal" />
                             </li>
                             <li>
-                                <img src="Assets/images/saudi-american-glass.jpg" class="hvr-bounce-out" title="SAR-Saudi American Glass" />
+                                <img src="Assets/images/saudi-american-glass.jpg" class="hvr-bounce-out" title="SAR-Saudi American Glass"  alt="saudi-american-glass"/>
                             </li>
                             <li>
-                                <img src="Assets/images/ray.jpg" class="hvr-bounce-out" title="Ray International" />
+                                <img src="Assets/images/ray.jpg" class="hvr-bounce-out" title="Ray International"  alt="ray"/>
                             </li>
                             <li>
-                                <img src="Assets/images/msd.jpg" class="hvr-bounce-out" title="Msd" />
+                                <img src="Assets/images/msd.jpg" class="hvr-bounce-out" title="Msd" alt="msd"/>
                             </li>
                             <li>
-                                <img src="Assets/images/belcan.jpg" class="hvr-bounce-out" title="Belcan" />
+                                <img src="Assets/images/belcan.jpg" class="hvr-bounce-out" title="Belcan" alt="belcan" />
                             </li>
                             <li>
-                                <img src="Assets/images/flsmidh.jpg" class="hvr-bounce-out" title="Flsmidth" />
+                                <img src="Assets/images/flsmidh.jpg" class="hvr-bounce-out" title="Flsmidth" alt="flsmidh" />
                             </li>
                             <li>
-                                <img src="Assets/images/kone.jpg" class="hvr-bounce-out" title="Kone" />
+                                <img src="Assets/images/kone.jpg" class="hvr-bounce-out" title="Kone"  alt="kone"/>
                             </li>
                             <li>
-                                <img src="Assets/images/kern.jpg" class="hvr-bounce-out" title="Kern" />
+                                <img src="Assets/images/kern.jpg" class="hvr-bounce-out" title="Kern"  alt="kern"/>
                             </li>
                             <li>
-                                <img src="Assets/images/cash-fire.jpg" class="hvr-bounce-out" title="Cease-fire" />
+                                <img src="Assets/images/cash-fire.jpg" class="hvr-bounce-out" title="Cease-fire"  alt="cash-fire"/>
                             </li>
                             <li>
-                                <img src="Assets/images/sembcorp.jpg" class="hvr-bounce-out" title="Sembcorp" />
+                                <img src="Assets/images/sembcorp.jpg" class="hvr-bounce-out" title="Sembcorp" alt="sembcorp" />
                             </li>
                             <li>
-                                <img src="Assets/images/kraft-heinz.jpg" class="hvr-bounce-out" title="Heinz" />
+                                <img src="Assets/images/kraft-heinz.jpg" class="hvr-bounce-out" title="Heinz"  alt="kraft-heinz"/>
                             </li>
                             <li>
-                                <img src="Assets/images/stahl.jpg" class="hvr-bounce-out" title="Stahil" />
+                                <img src="Assets/images/stahl.jpg" class="hvr-bounce-out" title="Stahil"  alt="stahl"/>
                             </li>
                             <li>
-                                <img src="Assets/images/amazon.jpg" class="hvr-bounce-out" title="Amazon" />
+                                <img src="Assets/images/amazon.jpg" class="hvr-bounce-out" title="Amazon"  alt="amazon"/>
                             </li>
                             <li>
-                                <img src="Assets/images/alcon.jpg" class="hvr-bounce-out" title="Alcon" />
+                                <img src="Assets/images/alcon.jpg" class="hvr-bounce-out" title="Alcon"  alt="alcon"/>
                             </li>
                             <li>
-                                <img src="Assets/images/pradeep-metals.jpg" class="hvr-bounce-out" title="Pradeep-Metals" />
+                                <img src="Assets/images/pradeep-metals.jpg" class="hvr-bounce-out" title="Pradeep-Metals" alt="pradeep-metals" />
                             </li>
                             <li>
-                                <img src="Assets/images/euronics.jpg" class="hvr-bounce-out" title="Euronics" />
+                                <img src="Assets/images/euronics.jpg" class="hvr-bounce-out" title="Euronics" alt="euronics" />
                             </li>
                             <li>
-                                <img src="Assets/images/arabian-industries.jpg" class="hvr-bounce-out" title="Arabian-Industries" />
+                                <img src="Assets/images/arabian-industries.jpg" class="hvr-bounce-out" title="Arabian-Industries"  alt="arabian-industries"/>
                             </li>
                             <li>
-                                <img src="Assets/images/arabi-enertech.jpg" class="hvr-bounce-out" title="Arabi-Enertech" />
+                                <img src="Assets/images/arabi-enertech.jpg" class="hvr-bounce-out" title="Arabi-Enertech" alt="arabi-enertech" />
                             </li>
                             <li>
-                                <img src="Assets/images/novartis.jpg" class="hvr-bounce-out" title="Novartis" />
+                                <img src="Assets/images/novartis.jpg" class="hvr-bounce-out" title="Novartis" alt="novartis" />
                             </li>
                         </ul>
                     </div>
@@ -726,7 +726,7 @@ Services</span></a>
                                     </div>
                                 </div>
                                 <br />
-                                <div class="fBottom"><span class="border"><a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" style="color: white;">Connect with us</a></span> </div>
+                                <div class="fBottom"><span class="border"><a href="" data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" style="color: white;">Connect with us</a></span> </div>
                                 <ul class="social">
                                     <li><a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" title="LinkedIn" target="_blank" aria-hidden="true" class="icon-linkedin ETsocialicon"></a></li>
                                     <li><a href="https://plus.google.com/108478282039113445071" title="Google-plus" target="_blank" aria-hidden="true" class="icon-google-plus ETsocialicon"></a></li>
@@ -751,54 +751,54 @@ alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" cl
                                         <li data-target="#myCarousel1" data-slide-to="2"></li>
                                     </ol>--%>
                                     <div class="carousel-inner" role="listbox" style="width: 200px; margin: auto;">
-                                        <%-- <div class="item active">
+                                        <%-- <div class="item active" >
                                             <a href="<%=rootpath %>news-events/rheinbrucke-recognised-as-top-consultant-germany">
                                                 <img src="<%=rootpath %>Assets/images/RheinBrücke-TopConsultant-Award.jpg" alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>--%>
-                                        <div class="item active">
+                                        <div class="item active"  role="option" aria-selected="true" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
                                                 <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg" alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
 
-                                        <div class="item ">
+                                        <div class="item "  role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-epicor-international-partner-of-the-year">
                                                 <img src="<%=rootpath %>Assets/images/Epicor-partner-2016.png" alt="RheinBrücke Epicor Internation Partner of the year 2016" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
-                                        <div class="item">
+                                        <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
                                                 <img src="<%=rootpath %>Assets/images/Vetri-IBA-silver-Stevies.png" alt="Vetri Maverick of the year" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
-                                        <div class="item">
+                                        <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
                                                 <img src="<%=rootpath %>Assets/images/Vetri-IBA-Stevies.png" alt="Vetri IT executive of the year" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
-                                        <div class="item">
+                                        <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
                                                 <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
-                                        <div class="item">
+                                        <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
                                                 <img src="<%=rootpath %>Assets/images/Support-IBA-Stevies.png" alt="Bronze Stevie IBA winner support department" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
-                                        <div class="item ">
+                                        <div class="item " role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
                                                 <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
-                                        <div class="item">
+                                        <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
                                                 <img src="<%=rootpath %>Assets/images/HR-IBA-Stevies.png" alt="Bronze Stevie IBA winner HR department" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
 
-                                        <div class="item">
+                                        <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
                                                 <img src="<%=rootpath %>Assets/images/executiveoftheyear.jpg" alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
                                             </a>

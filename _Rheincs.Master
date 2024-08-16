@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en"  xml:lang="en">
 <head id="Head1" runat="server"><title>RheinBrücke IT Consulting</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
     <style>
         body {
@@ -244,7 +244,7 @@
                 <div class="clearfix">&nbsp;</div>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
                 <a href="#" id="back_to_top" class="back-to-top-position-right"><i class="fa fa-angle-up"></i></a>
-                <div id="Contactfeedback" class="ETcallout"><a data-toggle="modal" data-target="#myModal-contactus">Contact Us</a> </div>
+                <div id="Contactfeedback" class="ETcallout"><a href=""  data-toggle="modal" data-target="#myModal-contactus">Contact Us</a> </div>
                 <div class="modal fade" id="myModal-contactus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -431,12 +431,12 @@
                     <button type="button" class="close close-popup" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
                     <div class="col-md-12 popup-logo-design">
                         <div class="col-md-6 ">
-                            <img src="/../../Assets/images/RB_Logo_rgb.png" class="popup-width" />
+                            <img src="/../../Assets/images/RB_Logo_rgb.png" class="popup-width" alt="RB_Logo_rgb"/>
                         </div>
                     </div>
                     <div class="col-md-12 popup-design">
                         <div class="col-md-2 ">
-                            <img src="/../../Assets/images/head_IBALogo.gif" class="popup-width1" />
+                            <img src="/../../Assets/images/head_IBALogo.gif" class="popup-width1" alt="head_IBALogo"/>
                         </div>
                     </div>
                     <div class="modal-body mainContent">

@@ -71,8 +71,8 @@
     <div class="main_wrapper">
     <div class="top_box">
         
-        <div class="logo"> <a href="#"><img src="../Assets-new/images/ric-logo.png" alt=""></a> </div>
-        @*<div class="logo logotags"> <img src=../Assets-new/images/logotag.png" alt=""> </div>*@
+        <div class="logo"> <a href="#"><img src="../Assets-new/images/ric-logo.png" alt="logo"></a> </div>
+        @*<div class="logo logotags"> <img src="../Assets-new/images/logotag.png" alt="logotags"> </div>*@
         <div class="phone">
             <i class="fa-facebook-square fa" aria-hidden="true"></i>
             <i class="fa-linkedin-square fa" aria-hidden="true"></i>
