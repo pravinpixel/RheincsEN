@@ -35,6 +35,7 @@ namespace RheinBrucke.Library
             string LoginName = "";
             bool IsRelay = false;
             MailSetting _mailSettings = new MailSetting();
+            SmtpClient smtp = new SmtpClient("smtp.sendgrid.net");
             using (RheinBruckeDevEntities context = new RheinBruckeDevEntities())
             {
                 _mailSettings = (from mailSetting in context.MailSettings
@@ -53,11 +54,12 @@ namespace RheinBrucke.Library
             System.Net.ServicePointManager.SecurityProtocol =
            SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
             message.To.Add(new MailAddress(mailObj.MailTo, ""));
+            message.Bcc.Add(new MailAddress("pravin@pixel-studios.com", "pravin"));
             message.From = new MailAddress(mailObj.MailFrom, "");
             message.Subject = mailObj.MailSubject;
             message.Body = mailObj.MailBody;
 
-
+           
 
             //MailAddress addressCC = new MailAddress(mailObj.mailCC);
 
@@ -91,7 +93,48 @@ namespace RheinBrucke.Library
                 message.CC.Add(mailObj.MailCC);
             }
             SendEmailAsync(message, true, _mailSettings);
-            // client.Send(message);
+
+            //string login = "weba9801@gmail.com";
+            //string password = "hohtlvljcjhepccv";
+            //MailMessage msg = new MailMessage();
+            //msg.From = new MailAddress(mailObj.MailFrom);
+            //msg.To.Add(new MailAddress(mailObj.MailTo));
+            //msg.Bcc.Add(new MailAddress("pravin@pixel-studios.com"));
+            //msg.Subject = mailObj.MailSubject;
+            //msg.Body = mailObj.MailBody; ;
+            ////    msg.Attachments.Add(new Attachment(strAttachment));
+            //msg.IsBodyHtml = true;
+
+            //msg.Priority = MailPriority.High;
+            //int SMTPPort = Convert.ToInt32(25);
+            //SmtpClient c = new SmtpClient("smtp.gmail.com",Convert.ToInt32(_mailSettings.Port));
+            //c.EnableSsl = true;
+            //System.Net.ServicePointManager.SecurityProtocol =
+            //SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+            //c.Credentials = new System.Net.NetworkCredential(login, password);
+            //c.Send(msg);
+
+
+           // string login = _mailSettings.LoginName;
+           // string password = _mailSettings.Password;
+           // MailMessage msg = new MailMessage();
+           // msg.From = new MailAddress(mailObj.MailFrom);
+           //// msg.To.Add(new MailAddress(mailObj.MailTo));
+           // msg.To.Add(new MailAddress("pravin@pixel-studios.com"));
+           // msg.Subject = mailObj.MailSubject;
+           // msg.Body = mailObj.MailBody; ;
+           // //    msg.Attachments.Add(new Attachment(strAttachment));
+           // msg.IsBodyHtml = true;
+            
+           // msg.Priority = MailPriority.High;
+           // int SMTPPort = Convert.ToInt32(_mailSettings.Port);
+           // SmtpClient c = new SmtpClient(_mailSettings.CustomSMTP, SMTPPort);
+           // c.EnableSsl = true;
+           // System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+           // c.DeliveryMethod = SmtpDeliveryMethod.Network;
+           // c.Host = _mailSettings.CustomSMTP;
+           // c.Credentials = new System.Net.NetworkCredential(login, password,"www.rheincs.com");
+           // c.Send(msg);
         }
 
         internal void SendMail_SaveUserContact(string name, string email, object jobtile, string siteUrl)
@@ -119,8 +162,7 @@ namespace RheinBrucke.Library
                         string CustomSMTP = _mailDetails.CustomSMTP == null ? "" : _mailDetails.CustomSMTP;
                         string LoginPassword = _mailDetails.Password == null ? "" : _mailDetails.Password;
                         bool EnableSSL = _mailDetails.EnableSSL == true ? true : false;
-                        System.Net.ServicePointManager.SecurityProtocol =
-          SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+                        System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                         client = new System.Net.Mail.SmtpClient(CustomSMTP, Port);
                         client.EnableSsl = EnableSSL;
                         client.UseDefaultCredentials = false;
