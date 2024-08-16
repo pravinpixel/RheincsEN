@@ -1706,29 +1706,29 @@
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
                                         <ul class="key-features">
                                             <li><span>
-                                                    <img src="../../../Assets/images/data-source.png"
+                                                    <img src="../../../Assets/images/analytics.png"
                                                         class=""></span>
                                                 <p>Prescriptive Analytics: Achieve desired outcomes using both quantitative and qualitative insights.
                                                 </p>
                                             </li>
                                             <li><span>
-                                                    <img src="../../../Assets/images/setting.png"
+                                                    <img src="../../../Assets/images/analytics-1.png"
                                                         class=""></span>
                                                 <p>Predictive Analytics: Identify patterns and relationships in historical data to predict future outcomes.</p>
                                             </li>
                                             <li><span>
-                                                <img src="../../../Assets/images/integration.png"
+                                                <img src="../../../Assets/images/clustering.png"
                                                     class=""></span>
                                             <p>Clustering Analytics: Uncover patterns, segment data for targeted strategies, detect anomalies, simplify data analysis.
                                             </p>
                                         </li>
                                         <li><span>
-                                                <img src="../../../Assets/images/integration-1.png"
+                                                <img src="../../../Assets/images/big-data.png"
                                                     class=""></span>
                                             <p>Big Data Analytics: Analyse vast datasets to uncover hidden patterns and insights.</p>
                                         </li>
                                         <li><span>
-                                            <img src="../../../Assets/images/integration-1.png"
+                                            <img src="../../../Assets/images/online.png"
                                                 class=""></span>
                                         <p>Online Analytical Processing: Explore and understand data from multiple perspectives with OLAP.</p>
                                     </li>
