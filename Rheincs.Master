@@ -5,7 +5,7 @@
 <head id="Head1" runat="server">
     <title>RheinBrücke IT Consulting</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type='text/javascript'>
         function canonical() {
             var link = !!document.querySelector("link[rel='canonical']") ? document.querySelector("link[rel='canonical']") : document.createElement('link');
@@ -511,7 +511,7 @@
                 <div class="clearfix">&nbsp;</div>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
                 <a href="#" id="back_to_top" class="back-to-top-position-right"><i class="fa fa-angle-up"></i></a>
-                <div id="Contactfeedback" class="ETcallout"><a href="" data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a> </div>
+                <div id="Contactfeedback" class="ETcallout"><a href=""  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a> </div>
                 <div id="socialicon">
                     <!-- <ul>
                         <li class="hvr-wobble-to-top-right">
@@ -794,10 +794,10 @@
                                         </div>
                                     </div>
                                     <br />
-                                    <div class="fBottom"><span class="border"><a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" style="color: white;">Connect with us</a></span> </div>
+                                    <div class="fBottom"><span class="border"><a href="" data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" style="color: white;">Connect with us</a></span> </div>
                                     <ul class="social">
-                                        <li><a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" tabindex="-1" title="LinkedIn" target="_blank" aria-hidden="true" tabindex="-1" class="icon-linkedin ETsocialicon"></a></li>
-                                        <%-- <li><a href="https://plus.google.com/108478282039113445071" title="Google-plus" target="_blank" aria-hidden="true" class="icon-google-plus ETsocialicon"></a></li>--%>
+                                        <li><a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" title="LinkedIn" target="_blank" aria-hidden="true" tabindex="-1" class="icon-linkedin ETsocialicon"></a></li>
+                                        <%-- <li><a href="https://plus.google.com/108478282039113445071" title="Google-plus" target="_blank" aria-hidden="true" tabindex="-1" class="icon-google-plus ETsocialicon"></a></li>--%>
                                         <li><a href="https://www.facebook.com/RheinBrucke" title="Facebook" target="_blank" aria-hidden="true" tabindex="-1" class="icon-facebook ETsocialicon"></a></li>
                                         <li><a href="https://twitter.com/RheinBruckeIT" title="Twitter" target="_blank" aria-hidden="true" tabindex="-1" class="icon-twitter ETsocialicon"></a></li>
                                         <li><a href="https://www.youtube.com/channel/UCuR25ldsvrd7yd5vkzqntAg" title="Youtube" target="_blank" aria-hidden="true" tabindex="-1" class="icon-youtube ETsocialicon"></a></li>
@@ -827,13 +827,13 @@
                                         <li data-target="#myCarousel1" data-slide-to="1"></li>
                                         <li data-target="#myCarousel1" data-slide-to="2"></li>
                                     </ol>--%>
-                                        <div class="carousel-inner" role="listbox" style="width: 200px; margin: auto;" aria-label="carousel-inner">
+                                        <div class="carousel-inner" role="listbox" style="width: 200px; margin: auto;"  aria-label="carousel-inner">
                                             <%-- <div class="item active">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-recognised-as-top-consultant-germany">
                                                 <img src="<%=rootpath %>Assets/images/RheinBrücke-TopConsultant-Award.jpg" alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>--%>
-                                            <div class="item active" role="option" aria-selected="true" aria-roledescription="slide">
+                                            <div class="item active"  role="option" aria-selected="true" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
                                                     <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg" alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
                                                 </a>

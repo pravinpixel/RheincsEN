@@ -46,7 +46,7 @@
                         <!-- Craig customer reference -->
                         <div class="col-md-4 marg-10 ">
                             <div class="col-md-2">
-                                <img class="testimonial-img1 img-circle1 ld-mag2" src="/Assets/images/Testimonial/craig.gif" alt="Testimonial by Craig Stephens" style="margin-right: 10px; width: 80px; height: 80px;" />
+                                <img class="testimonial-img1 img-circle1 ld-mag2" src="/Assets/images/Testimonial/craig.gif" alt="Testimonial by Craig Stephens" style="margin-right: 10px; width: 80px; height: 80px;object-fit: cover; aspect-ratio: 1 / 1;" />
                             </div>
                             <div class="col-md-10 ">
                                 <div class="deco-header2">
@@ -514,7 +514,7 @@ Their hard work &amp; efforts, as well as the willingness to accommodate to Mala
 
                                 <div class="col-md-12">
                                     <div class="col-md-2">
-                                        <img class="testimonial-img1 img-circle1 ld-mag2" src="/Assets/images/Testimonial/craig.gif" alt="Testimonial by Craig Stephens" style="margin-right: 10px; width: 80px; height: 80px;" />
+                                        <img class="testimonial-img1 img-circle1 ld-mag2" src="/Assets/images/Testimonial/craig.gif" alt="Testimonial by Craig Stephens" style="margin-right: 10px; width: 80px; height: 80px;object-fit: cover; aspect-ratio: 1 / 1;" />
                                     </div>
                                     <div class="col-md-10 ">
                                         <div class="deco-header2">

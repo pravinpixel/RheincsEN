@@ -207,7 +207,7 @@ var google_remarketing_only = false;
                 </ol>
                 <div class="carousel-inner" role="listbox">                  
                     <div class="item active">
-                        <img src="../../../Assets/images/SEO-page-images/Cable-manufacturing/banner12.jpg"" alt="Epicor ERP addresses the unique challenges of manufacturing industry." class="img-responsive" /><div class="container">
+                        <img src="../../../Assets/images/SEO-page-images/Cable-manufacturing/banner12.jpg" alt="Epicor ERP addresses the unique challenges of manufacturing industry." class="img-responsive" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">                                
                                 <div class="rhein-manufacturing-banner-heading-black-bg pull-right"><div class="customh1">Epicor for Cable Manufacturing</div><span class="rhein-banner-heading-black">Boost efficiency with real-time, actionable visibility into plant and business operations.</span></div>                               
                             </div>
