@@ -194,7 +194,7 @@ template {
 }
 a {
   background-color: transparent;
-  color: #666;
+  color: #9a9a9c;
 }
 a:active,
 a:hover {
@@ -376,7 +376,7 @@ textarea {
 }
 a:focus,
 a:hover {
-  color: #7b1315;
+  color: #7b1314;
   text-decoration: none;
 }
 a:focus {

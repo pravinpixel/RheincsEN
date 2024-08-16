@@ -7,7 +7,7 @@
     <title>Login</title>
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .Font {
             font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;

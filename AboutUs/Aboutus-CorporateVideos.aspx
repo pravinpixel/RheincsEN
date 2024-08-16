@@ -41,7 +41,7 @@
                         <span class="video-thumbnail">RheinBrucke IT Consulting – Corporate video
                         </span>
                         <br />
-                        <a data-toggle="modal" data-target="#myModal7" data-videoid="IDrR7hiizhI" data-videosite="youtube" class="video-class">Click to play video</a>
+                        <a href="#" data-toggle="modal" data-target="#myModal7" data-videoid="IDrR7hiizhI" data-videosite="youtube" class="video-class">Click to play video</a>
                     </p>
 
                 </div>
