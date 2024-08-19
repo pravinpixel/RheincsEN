@@ -737,8 +737,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 </ul>
 
                             </li>
-                            <%-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm" class="Level3-menu ETMenu"><span>Sugar CRM</span></a></li>
-                          <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>--%>
+                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm" class="Level3-menu ETMenu"><span>Sugar CRM</span></a></li>
+                          <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>
                             <%-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi" class="Level3-menu ETMenu"><span>Business Intelligence</span></a></li>--%>
                         </ul>
                     </li>
@@ -894,9 +894,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                            
                                                                         </ul>
                                                                     </li>
-                                                                  <%--    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">Sugar CRM</a></li> 
+                                                                      <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">Sugar CRM</a></li> 
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-intelligence-services">Business Intelligence Services</a></li> 
-                                                                    --%>
+                                                                    
                                                                     <%--<li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi">Business Intelligence</a></li>--%>
                                                                 </ul>
                                                             </div>

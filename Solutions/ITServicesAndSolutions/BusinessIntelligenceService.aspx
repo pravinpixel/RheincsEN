@@ -78,7 +78,7 @@
                     }
 
                     .demo {
-                        margin: 5% 0;
+                        /* margin: 5% 0; */
                         width: 100%;
                     }
 
@@ -86,6 +86,11 @@
                         display: none;
                         float: left;
                         width: 300px;
+                    }
+
+                    .bg-lite-pink h2.common-topic,
+                    .services h2.common-topic {
+                        font-size: 30px;
                     }
                 }
 
@@ -962,7 +967,7 @@
                 }
 
                 .bg-lite-pink .resp-tab-content {
-                    padding: 0px 40px 0px 75px !important;
+                    padding: 0px 40px 0px 55px !important;
                 }
 
                 .bg-lite-pink .resp-vtabs ul.resp-tabs-list {
@@ -1052,7 +1057,7 @@
 
                 .services .ms_section .image {
                     width: 85%;
-                    padding: 40px 0px;
+                    padding: 40px 20px;
                 }
 
                 .services .text-right {
@@ -1062,64 +1067,115 @@
                 .services h2.line-height-less {
                     line-height: 30px !important;
                 }
-                .logos-set{
+
+                .logos-set {
                     display: flex;
                     width: 100%;
-                    gap: 15px;
+                    /* gap: 15px; */
                     align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
                 }
-                .logos-set .logo-img{
-                    width: 16%;
+
+                .logos-set .logo-img {
+                    width: 15%;
                 }
+
                 .integrations-section {
                     background-color: #F2EDED;
                     padding: 30px;
                 }
-                .integrations-section h2.common-topic{
+
+                .integrations-section h2.common-topic {
                     /* font-weight: 400; */
                     padding-bottom: 0px;
                 }
+
                 .side-imgs {
                     width: 80%;
                     background-color: #F2EDED;
                     border-radius: 5px;
                     padding: 20px 40px;
                 }
+
                 .r-advantage-img {
                     position: relative;
                 }
+
                 h4.common-topic {
                     font-size: 18px;
                     color: #7E2442;
                 }
-                .r-advantage-img .pnt-1{
+
+                .r-advantage-img .pnt-1 {
                     position: absolute;
                     left: 0px;
                     width: 30%;
                     text-align: right;
                 }
-                .r-advantage-img .pnt-2{
+
+                .r-advantage-img .pnt-2 {
                     position: absolute;
                     right: 0px;
                     width: 30%;
                     text-align: left;
                 }
-                .r-advantage-img .pnt-3{
+
+                .r-advantage-img .pnt-3 {
                     position: absolute;
                     left: 0px;
                     bottom: 0px;
                     width: 30%;
                     text-align: right;
                 }
-                .r-advantage-img .pnt-4{
+
+                .r-advantage-img .pnt-4 {
                     position: absolute;
                     right: 0px;
                     bottom: 0px;
                     width: 30%;
                     text-align: left;
                 }
+
                 .w-80 {
                     width: 65%;
+                }
+
+                .bg-lite-pink .resp-tab-item {
+                    position: relative;
+                }
+
+                .bg-lite-pink .resp-tab-item.resp-tab-active::after {
+                    position: absolute;
+                    top: 20px;
+                    right: -10px;
+                    content: '';
+                    clip-path: polygon(100% 50%, 0 0, 0 100%);
+                    height: 20px;
+                    width: 10px;
+                    background-color: #7E2442;
+                    display: block;
+                }
+
+                #verticalTab .resp-tabs-list {
+                    position: relative;
+                    z-index: 9;
+                }
+                .resp-vtabs .resp-tabs-container, .resp-vtabs ul.resp-tabs-list{
+                    width: 100% !important;
+                }
+                .float-none {
+                    position: relative;
+                    z-index: 99;
+                    background-color: #fff;
+                }
+                @media (max-width: 1300px){
+                    .side-imgs{
+                        width: 50%;
+                    }
+                    .r-advantage-img img{
+                        width: 60%;
+                    }
                 }
                 @media (max-width:1100px) {
 
@@ -1188,6 +1244,42 @@
                         background: #3c3c3c;
                         opacity: 0.8;
                         padding: 6px;
+                    }
+                }
+
+                @media (max-width: 991px) {
+                    .services .text-right {
+                        text-align: -webkit-center !important;
+                        margin: 0px 0px 20px 0px !important;
+                    }
+
+                    .services .resp-tabs-list {
+                        gap: 0px;
+                    }
+
+                    .side-imgs {
+                        width: 60% !important;
+                        margin-top: 20px;
+                    }
+
+                    .pnt-1,
+                    .pnt-2,
+                    .pnt-3,
+                    .pnt-4 {
+                        position: inherit !important;
+                        width: 100% !important;
+                        text-align: left !important;
+                        margin-bottom: 20px;
+                    }
+
+                    .integrations-section+.section-layer {
+                        padding-bottom: 0px;
+                    }
+                    .bg-lite-pink .resp-tab-content {
+                        padding: 25px 35px 0px 34px !important;
+                    }
+                    .r-advantage-img img{
+                        width: auto;
                     }
                 }
 
@@ -1266,6 +1358,30 @@
                         background: #3c3c3c;
                         opacity: 0.8;
                         padding: 12px;
+                    }
+                }
+
+                @media (max-width: 768px) {
+                    .bg-lite-pink .resp-tab-content {
+                        padding: 25px 35px 0px 34px !important;
+                    }
+
+                    .bg-lite-pink .resp-vtabs .resp-tabs-container {
+                        width: 100%;
+                    }
+
+                    .logos-set .logo-img {
+                        width: 30%;
+                    }
+
+                    .side-imgs {
+                        width: auto !important;
+                    }
+                    .main-banners-bnr{
+                        background-position: center;
+                    }
+                    #verticalTabs .resp-tabs-list {
+                        display: none;
                     }
                 }
 
@@ -1390,7 +1506,7 @@
                     }
 
                     h2.common-topic {
-                        font-size: 26px;
+                        font-size: 26px !important;
                         line-height: 36px;
                     }
 
@@ -1458,7 +1574,7 @@
                     <!--banner-->
                     <div class="row">
 
-                        <div class="col-md-12 nopadding main-banners-bnr">
+                        <div class="col-md-12 nopadding main-banners-bnr float-none">
                             <!-- <img src="../../../Assets/images/epicor-pay.jpg" class="img-responsive center-block" /><%--<a href="#form-div"><div class="cta-new1">Know More</div></a>--%> -->
                             <div class="banner-liners">
                                 <div class="container lines">
@@ -1474,7 +1590,7 @@
 
                 </div>
 
-                <div class="col-md-12 nopadding">
+                <div class="col-md-12 nopadding float-none">
 
                     <!--Breadcrumb row-->
                     <div class="row">
@@ -1535,262 +1651,264 @@
                 <div class="col-lg-12 bg-lite-pink">
                     <h2 class="common-topic">BI Service Offerings</h2>
                     <div id="verticalTab">
-                        <ul class="resp-tabs-list">
-                            <li>01. Data Collection & Preparation</li>
-                            <li>02. Integration with Existing Systems</li>
-                            <li>03. Data Warehousing</li>
-                            <li>04. Data Governance & Security</li>
-                            <li>05. Data Mining & Analytics</li>
-                            <li>06. Reports & Dashboards</li>
-                        </ul>
-                        <div class="resp-tabs-container">
+                        <div class="row">
+                            <div class="col-md-4 col-lg-4">
+                                <ul class="resp-tabs-list">
+                                    <li>01. Data Collection & Preparation</li>
+                                    <li>02. Integration with Existing Systems</li>
+                                    <li>03. Data Warehousing</li>
+                                    <li>04. Data Governance & Security</li>
+                                    <li>05. Data Mining & Analytics</li>
+                                    <li>06. Reports & Dashboards</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-8 col-lg-8">
+                                <div class="resp-tabs-container">
 
-                            <div>
-                                <div class="row ms_section align-items-center">
-                                    <div class="col-lg-12 col-md-10 col-sm-12 col-12 nopadding">
-                                        <h3 class="common-topic small_heading">Data Collection and Preparation</h3>
-                                        <p class="common-para">Ensuring that enterprise data can be identified, aggregated and transformed using ETL processes to make it accessible and useful.
-                                        </p>
-                                        <br>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
-                                        <ul class="key-features">
-                                            <li><span>
-                                                    <img src="../../../Assets/images/data-aggre.png"
-                                                        class=""></span>
-                                                <!-- <h4>Data Collection and Preparation</h4> -->
-                                                <p>Data aggregation from databases, APIs and Cloud services, integrating with data lakes for scalable storage.
+                                    <div>
+                                        <div class="row ms_section align-items-center">
+                                            <div class="col-lg-12 col-md-10 col-sm-12 col-12 nopadding">
+                                                <h3 class="common-topic small_heading">Data Collection and Preparation</h3>
+                                                <p class="common-para">Ensuring that enterprise data can be identified,
+                                                    aggregated and transformed using ETL processes to make it accessible and
+                                                    useful.
                                                 </p>
-                                            </li>
-                                            <li><span>
-                                                    <img src="../../../Assets/images/data.png"
-                                                        class=""></span>
-                                                <!-- <h4>Interactive Reports</h4> -->
-                                                <p>Data preparation - cleansing viz. correcting errors and removing duplicates, transforming by standardizing formats & aggregating, and enriching data by adding contextual details.</p>
-                                            </li>
-                                            <li><span>
-                                                <img src="../../../Assets/images/tools.png"
-                                                    class=""></span>
-                                            <!-- <h4>Interactive Reports</h4> -->
-                                            <p>Tools such as Power BI Dataflows and Power Query automate processes, enhancing efficiency.</p>
-                                        </li>
-                                        </ul>
+                                                <br>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+                                                <ul class="key-features">
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/data-aggre.png" class=""></span>
+                                                        <!-- <h4>Data Collection and Preparation</h4> -->
+                                                        <p>Data aggregation from databases, APIs and Cloud services, integrating
+                                                            with data lakes for scalable storage.
+                                                        </p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/data.png" class=""></span>
+                                                        <!-- <h4>Interactive Reports</h4> -->
+                                                        <p>Data preparation - cleansing viz. correcting errors and removing
+                                                            duplicates, transforming by standardizing formats & aggregating, and
+                                                            enriching data by adding contextual details.</p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/tools.png" class=""></span>
+                                                        <!-- <h4>Interactive Reports</h4> -->
+                                                        <p>Tools such as Power BI Dataflows and Power Query automate processes,
+                                                            enhancing efficiency.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="row ms_section align-items-center">
-                                    <div class="col-lg-12 col-md-10 col-sm-12 col-12 nopadding">
-                                        <h3 class="common-topic small_heading">Integration with Existing Systems</h3>
-                                        <p class="common-para">Seamless integration with on-premise systems or Cloud.
-                                        </p>
-                                        <br>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
-                                        <ul class="key-features">
-                                            <li><span>
-                                                    <img src="../../../Assets/images/data-source.png"
-                                                        class=""></span>
-                                                <p>Data Sources like SQL Server, Oracle, and MySQL database, Cloud services such as Azure Data Lake, Amazon S3, and Google BigQuery, APIs, Flat Files
+        
+                                    <div>
+                                        <div class="row ms_section align-items-center">
+                                            <div class="col-lg-12 col-md-10 col-sm-12 col-12 nopadding">
+                                                <h3 class="common-topic small_heading">Integration with Existing Systems</h3>
+                                                <p class="common-para">Seamless integration with on-premise systems or Cloud.
                                                 </p>
-                                            </li>
-                                            <li><span>
-                                                    <img src="../../../Assets/images/setting.png"
-                                                        class=""></span>
-                                                <p>CRM Systems Salesforce, Dynamics 365, or HubSpot and ERP Systems like SAP, Oracle, Epicor or Microsoft Dynamics 365.</p>
-                                            </li>
-                                            <li><span>
-                                                <img src="../../../Assets/images/integration.png"
-                                                    class=""></span>
-                                            <p>Integration with Data Lakes, BI Tools, Collaboration tools like Teams, Slack and more.
-                                            </p>
-                                        </li>
-                                        <li><span>
-                                                <img src="../../../Assets/images/integration-1.png"
-                                                    class=""></span>
-                                            <p>Integration using Microsoft Power Automate or Zapier Workflow and Automation Tools.</p>
-                                        </li>
-                                        </ul>
+                                                <br>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+                                                <ul class="key-features">
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/data-source.png" class=""></span>
+                                                        <p>Data Sources like SQL Server, Oracle, and MySQL database, Cloud
+                                                            services such as Azure Data Lake, Amazon S3, and Google BigQuery,
+                                                            APIs, Flat Files
+                                                        </p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/setting.png" class=""></span>
+                                                        <p>CRM Systems Salesforce, Dynamics 365, or HubSpot and ERP Systems like
+                                                            SAP, Oracle, Epicor or Microsoft Dynamics 365.</p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/integration.png" class=""></span>
+                                                        <p>Integration with Data Lakes, BI Tools, Collaboration tools like
+                                                            Teams, Slack and more.
+                                                        </p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/integration-1.png" class=""></span>
+                                                        <p>Integration using Microsoft Power Automate or Zapier Workflow and
+                                                            Automation Tools.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="row ms_section align-items-center">
-                                    <div class="col-lg-12 col-md-10 col-sm-12 col-12 nopadding">
-                                        <h3 class="common-topic small_heading">Data Warehousing</h3>
-                                        <p class="common-para">Our architecture and design services ensure optimised data accessibility, scalability and performance.
-                                        </p>
-                                        <br>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
-                                        <ul class="key-features">
-                                            <li><span>
-                                                    <img src="../../../Assets/images/data-source.png"
-                                                        class=""></span>
-                                                <p>Data Modelling, such as Star or Snowflake schemas, to organize data for efficient querying and reporting.
+        
+                                    <div>
+                                        <div class="row ms_section align-items-center">
+                                            <div class="col-lg-12 col-md-10 col-sm-12 col-12 nopadding">
+                                                <h3 class="common-topic small_heading">Data Warehousing</h3>
+                                                <p class="common-para">Our architecture and design services ensure optimised
+                                                    data accessibility, scalability and performance.
                                                 </p>
-                                            </li>
-                                            <li><span>
-                                                    <img src="../../../Assets/images/setting.png"
-                                                        class=""></span>
-                                                <p>Data Integration and ETL to pull data from various sources, transform and load into the data warehouse.</p>
-                                            </li>
-                                            <li><span>
-                                                <img src="../../../Assets/images/data-base.png"
-                                                    class=""></span>
-                                            <p>Centralized Data Storage from sources like databases, CRM systems and ERP platforms.
-                                            </p>
-                                        </li>
-                                        <li><span>
-                                                <img src="../../../Assets/images/integration-1.png"
-                                                    class=""></span>
-                                            <p>Performance Optimization using indexing and partitioning techniques.</p>
-                                        </li>
-                                        </ul>
+                                                <br>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+                                                <ul class="key-features">
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/data-source.png" class=""></span>
+                                                        <p>Data Modelling, such as Star or Snowflake schemas, to organize data
+                                                            for efficient querying and reporting.
+                                                        </p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/setting.png" class=""></span>
+                                                        <p>Data Integration and ETL to pull data from various sources, transform
+                                                            and load into the data warehouse.</p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/data-base.png" class=""></span>
+                                                        <p>Centralized Data Storage from sources like databases, CRM systems and
+                                                            ERP platforms.
+                                                        </p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/integration-1.png" class=""></span>
+                                                        <p>Performance Optimization using indexing and partitioning techniques.
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="row ms_section align-items-center">
-                                    <div class="col-lg-12 col-md-10 col-sm-12 col-12 nopadding">
-                                        <h3 class="common-topic small_heading">Data Governance and Security</h3>
-                                        <p class="common-para">Defining the framework, policies and then implementing the required tools to enforce confidentiality, integrity and availability of data throughout the lifecycle.
-                                        </p>
-                                        <br>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
-                                        <ul class="key-features">
-                                            
-                                            <li><span>
-                                                    <img src="../../../Assets/images/data-defination.png"
-                                                        class=""></span>
-                                               
-                                                <p>Data definition and management policies are set for handling, retention and retrieving.</p>
-                                            </li>
-                                            <li><span>
-                                                <img src="../../../Assets/images/implementation.png"
-                                                    class=""></span>
-                                            
-                                            <p>Implementation of measures to protect sensitive information and personally identifiable information, adherence to regulatory standards such as GDPR.
-                                            </p>
-                                        </li>
-                                        <li><span>
-                                                <img src="../../../Assets/images/lock.png"
-                                                    class=""></span>
-                                           
-                                            <p>Data governance frameworks and security protocols to ensure integrity, confidentiality, and compliance.</p>
-                                        </li>
-                                        <li><span>
-                                            <img src="../../../Assets/images/accurate.png"
-                                                class=""></span>
-                                       
-                                        <p>Data accuracy and consistency through cleansing and profiling.
-                                        </p>
-                                    </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="row ms_section align-items-center">
-                                    <div class="col-lg-12 col-md-10 col-sm-12 col-12 nopadding">
-                                        <h3 class="common-topic small_heading">Data Mining and Analytics</h3>
-                                        <p class="common-para">Analyse large datasets using ML, statistical analysis & pattern recognition.
-                                        </p>
-                                        <br>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
-                                        <ul class="key-features">
-                                            <li><span>
-                                                    <img src="../../../Assets/images/analytics.png"
-                                                        class=""></span>
-                                                <p>Prescriptive Analytics: Achieve desired outcomes using both quantitative and qualitative insights.
+        
+                                    <div>
+                                        <div class="row ms_section align-items-center">
+                                            <div class="col-lg-12 col-md-10 col-sm-12 col-12 nopadding">
+                                                <h3 class="common-topic small_heading">Data Governance and Security</h3>
+                                                <p class="common-para">Defining the framework, policies and then implementing
+                                                    the required tools to enforce confidentiality, integrity and availability of
+                                                    data throughout the lifecycle.
                                                 </p>
-                                            </li>
-                                            <li><span>
-                                                    <img src="../../../Assets/images/analytics-1.png"
-                                                        class=""></span>
-                                                <p>Predictive Analytics: Identify patterns and relationships in historical data to predict future outcomes.</p>
-                                            </li>
-                                            <li><span>
-                                                <img src="../../../Assets/images/clustering.png"
-                                                    class=""></span>
-                                            <p>Clustering Analytics: Uncover patterns, segment data for targeted strategies, detect anomalies, simplify data analysis.
-                                            </p>
-                                        </li>
-                                        <li><span>
-                                                <img src="../../../Assets/images/big-data.png"
-                                                    class=""></span>
-                                            <p>Big Data Analytics: Analyse vast datasets to uncover hidden patterns and insights.</p>
-                                        </li>
-                                        <li><span>
-                                            <img src="../../../Assets/images/online.png"
-                                                class=""></span>
-                                        <p>Online Analytical Processing: Explore and understand data from multiple perspectives with OLAP.</p>
-                                    </li>
-                                        </ul>
+                                                <br>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+                                                <ul class="key-features">
+        
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/data-defination.png"
+                                                                class=""></span>
+        
+                                                        <p>Data definition and management policies are set for handling,
+                                                            retention and retrieving.</p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/implementation.png"
+                                                                class=""></span>
+        
+                                                        <p>Implementation of measures to protect sensitive information and
+                                                            personally identifiable information, adherence to regulatory
+                                                            standards such as GDPR.
+                                                        </p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/lock.png" class=""></span>
+        
+                                                        <p>Data governance frameworks and security protocols to ensure
+                                                            integrity, confidentiality, and compliance.</p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/accurate.png" class=""></span>
+        
+                                                        <p>Data accuracy and consistency through cleansing and profiling.
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="row ms_section align-items-center">
-                                    <div class="col-lg-12 col-md-10 col-sm-12 col-12 nopadding">
-                                        <h3 class="common-topic small_heading">Reports and Dashboards</h3>
-                                        <p class="common-para">Reports and Dashboards for Business Intelligence systems,
-                                            designed to present data in a structured and visually appealing format for
-                                            decision-makers.
-                                        </p>
-                                        <br>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
-                                        <ul class="key-features">
-                                            <li><span>
-                                                    <img src="../../../Assets/images/Growth-analytics-stock-graph-document.svg"
-                                                        class=""></span>
-                                                <h4>Customized Dashboards</h4>
-                                                <p>Dashboards for a real-time snapshot of business performance via
-                                                    Interactive visualization tools like Power BI, Tableau and Looker.
+        
+                                    <div>
+                                        <div class="row ms_section align-items-center">
+                                            <div class="col-lg-12 col-md-10 col-sm-12 col-12 nopadding">
+                                                <h3 class="common-topic small_heading">Data Mining and Analytics</h3>
+                                                <p class="common-para">Analyse large datasets using ML, statistical analysis &
+                                                    pattern recognition.
                                                 </p>
-                                            </li>
-                                            <li><span>
-                                                    <img src="../../../Assets/images/settings_2333176.svg"
-                                                        class=""></span>
-                                                <h4>Interactive Reports</h4>
-                                                <p>Structured data presented in tables, charts, and graphs, allowing
-                                                    users to analyse historical trends, monitor key performance
-                                                    indicators - KPIs and identify patterns.</p>
-                                            </li>
-                                        </ul>
+                                                <br>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+                                                <ul class="key-features">
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/analytics.png" class=""></span>
+                                                        <p>Prescriptive Analytics: Achieve desired outcomes using both
+                                                            quantitative and qualitative insights.
+                                                        </p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/analytics-1.png" class=""></span>
+                                                        <p>Predictive Analytics: Identify patterns and relationships in
+                                                            historical data to predict future outcomes.</p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/clustering.png" class=""></span>
+                                                        <p>Clustering Analytics: Uncover patterns, segment data for targeted
+                                                            strategies, detect anomalies, simplify data analysis.
+                                                        </p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/big-data.png" class=""></span>
+                                                        <p>Big Data Analytics: Analyse vast datasets to uncover hidden patterns
+                                                            and insights.</p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/online.png" class=""></span>
+                                                        <p>Online Analytical Processing: Explore and understand data from
+                                                            multiple perspectives with OLAP.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div>
+                                        <div class="row ms_section align-items-center">
+                                            <div class="col-lg-12 col-md-10 col-sm-12 col-12 nopadding">
+                                                <h3 class="common-topic small_heading">Reports and Dashboards</h3>
+                                                <p class="common-para">Reports and Dashboards for Business Intelligence systems,
+                                                    designed to present data in a structured and visually appealing format for
+                                                    decision-makers.
+                                                </p>
+                                                <br>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+                                                <ul class="key-features">
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/Growth-analytics-stock-graph-document.svg"
+                                                                class=""></span>
+                                                        <h4>Customized Dashboards</h4>
+                                                        <p>Dashboards for a real-time snapshot of business performance via
+                                                            Interactive visualization tools like Power BI, Tableau and Looker.
+                                                        </p>
+                                                    </li>
+                                                    <li><span>
+                                                            <img src="../../../Assets/images/settings_2333176.svg"
+                                                                class=""></span>
+                                                        <h4>Interactive Reports</h4>
+                                                        <p>Structured data presented in tables, charts, and graphs, allowing
+                                                            users to analyse historical trends, monitor key performance
+                                                            indicators - KPIs and identify patterns.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
+                        
+                       
                     </div>
-
-                    <!--Breadcrumb row-->
-                    <!-- <div class="row">
-                <div class="section-layer pt-0">
-                    <h2 class="common-topic">Why Business Intelligence Services</h2>
-                    <p class="common-para">
-                        As organisations strive to deliver personalised experiences and gain actionable insights from customer data, the demand for robust CRM platforms continues to grow. Amidst this evolving landscape, Business Intelligence Services stands out as a leading provider, empowering businesses to optimise sales, marketing, and service operations while adapting seamlessly to diverse business needs and scaling for future growth.<br>
-                        <br>
-                        Key features of Business Intelligence Services are:
-                    </p>
-                </div>
-            </div> -->
-                    <!--Eof Breadcrumb row-->
-
                 </div>
 
 
-                <div class="row">
+               
                     <div class="col-lg-12 section-layer services">
                         <h2 class="common-topic">Technologies</h2>
 
@@ -1853,8 +1971,8 @@
                                                     tools, turning complex data into interactive dashboards and reports.
                                                     Microsoft Fabric integrates these components to create a seamless
                                                     data ecosystem, facilitating effective data ingestion, storage,
-                                                    analysis, and visualization. <a href="#" target="_blank"
-                                                        class="read-more-bnt">Click here to read more.</a>
+                                                    analysis, and visualization. <%--<a href="#" target="_blank"
+                                                        class="read-more-bnt">Click here to read more.</a>--%>
                                                 </p>
                                             </div>
                                         </div>
@@ -1933,28 +2051,34 @@
                                                 <br>
                                             </div>
 
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
-                                       <div class="logos-set">
-                                           <div class="logo-img">
-                                               <img src="../../../Assets/images/Tableau_Logo.png" class="img-responsive center-block">
-                                           </div>
-                                           <div class="logo-img">  
-                                               <img src="../../../Assets/images/qliksense_logo.png" class="img-responsive center-block">
-                                           </div>
-                                           <div class="logo-img">
-                                               <img src="../../../Assets/images/SAP-Business-Objects.png" class="img-responsive center-block">
-                                           </div>
-                                           <div class="logo-img">
-                                               <img src="../../../Assets/images/Anvizent_Logo_tagline.png" class="img-responsive center-block">
-                                           </div>
-                                           <div class="logo-img">
-                                               <img src="../../../Assets/images/Databricks_Logo.png" class="img-responsive center-block">
-                                           </div>
-                                           <div class="logo-img">
-                                              <img src="../../../Assets/images/Snowflake-logo.png" class="img-responsive center-block">
-                                           </div>
-                                       </div>
-                                    </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+                                                <div class="logos-set">
+                                                    <div class="logo-img">
+                                                        <img src="../../../Assets/images/Tableau_Logo.png"
+                                                            class="img-responsive center-block">
+                                                    </div>
+                                                    <div class="logo-img">
+                                                        <img src="../../../Assets/images/qliksense_logo.png"
+                                                            class="img-responsive center-block">
+                                                    </div>
+                                                    <div class="logo-img">
+                                                        <img src="../../../Assets/images/SAP-Business-Objects.png"
+                                                            class="img-responsive center-block">
+                                                    </div>
+                                                    <div class="logo-img">
+                                                        <img src="../../../Assets/images/Anvizent_Logo_tagline.png"
+                                                            class="img-responsive center-block">
+                                                    </div>
+                                                    <div class="logo-img">
+                                                        <img src="../../../Assets/images/Databricks_Logo.png"
+                                                            class="img-responsive center-block">
+                                                    </div>
+                                                    <div class="logo-img">
+                                                        <img src="../../../Assets/images/Snowflake-logo.png"
+                                                            class="img-responsive center-block">
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -1964,30 +2088,38 @@
                         </div>
 
                     </div>
-                </div>
+        
 
                 <div class="col-lg-12 integrations-section">
                     <h2 class="common-topic"><b>Integration with Enterprise Systems</b></h2>
                     <p class="common-para">
-                        Revolutionizing Tech Solutions: Microsoft Dynamics 365 and Microsoft Technologies Lead the Way. 
+                        Revolutionizing Tech Solutions: Microsoft Dynamics 365 and Microsoft Technologies Lead the Way.
                     </p>
                     <p class="common-para">
-                        We integrate Power BI with Dynamics 365, enabling a cohesive and finely tuned data environment. Combining BI's analytical capabilities with Dynamics 365's ERP and CRM functionalities offers several benefits such as:
+                        We integrate Power BI with Dynamics 365, enabling a cohesive and finely tuned data environment.
+                        Combining BI's analytical capabilities with Dynamics 365's ERP and CRM functionalities offers
+                        several benefits such as:
                     </p>
                     <div class="integrating-img">
-                        <img src="../../../Assets/images/integration-service-img.png" class="img-responsive side-img center-block" />
+                        <img src="../../../Assets/images/integration-service-img.png"
+                            class="img-responsive center-block" />
                     </div>
                 </div>
-                
+
                 <div class="col-lg-12 section-layer">
                     <h2 class="common-topic"><b>The RheinBrücke Advantage</b></h2>
                     <div class="row">
                         <div class="col-lg-7">
-                            <p class="common-para">We are passionate about empowering your organization to make informed decisions with confidence. Our team of highly skilled professionals possesses unmatched expertise in diverse data models and cutting-edge analytics tools. As a Microsoft Gold Competency Partner, we work closely with you to unlock the full potential of your data.</p>
+                            <p class="common-para">We are passionate about empowering your organization to make informed
+                                decisions with confidence. Our team of highly skilled professionals possesses unmatched
+                                expertise in diverse data models and cutting-edge analytics tools. As a Microsoft Gold
+                                Competency Partner, we work closely with you to unlock the full potential of your data.
+                            </p>
                         </div>
                         <div class="col-lg-5">
                             <div class="r-advantage">
-                                <img src="../../../Assets/images/MPN-logo-png.png" class="img-responsive side-imgs center-block" />
+                                <img src="../../../Assets/images/MPN-logo-png.png"
+                                    class="img-responsive side-imgs center-block" />
                             </div>
                         </div>
                     </div>
@@ -1995,30 +2127,34 @@
                     <!-- <p class="common-para">
                         We integrate Power BI with Dynamics 365, enabling a cohesive and finely tuned data environment. Combining BI's analytical capabilities with Dynamics 365's ERP and CRM functionalities offers several benefits such as:
                     </p> -->
-                    <div class="r-advantage-img pt-40">
+                    <div class="r-advantage-img pt-20">
                         <div class="pnt-1">
                             <h4 class="common-topic"><b>Exceptional Performance</b></h4>
-                            <p class="common-para">Experience unparalleled speed and efficiency with our state-of-the-art technology and design capabilities.</p>
+                            <p class="common-para">Experience unparalleled speed and efficiency with our
+                                state-of-the-art technology and design capabilities.</p>
                         </div>
                         <div class="pnt-2">
                             <h4 class="common-topic"><b>Customized Solutions</b></h4>
-                            <p class="common-para">Implement bespoke data models and solutions tailored precisely to your unique business requirements.</p>
+                            <p class="common-para">Implement bespoke data models and solutions tailored precisely to
+                                your unique business requirements.</p>
                         </div>
-                        <img src="../../../Assets/images/infographic2.png" class="img-responsive side-img center-block" />
+                        <img src="../../../Assets/images/infographic2.png" class="img-responsive center-block" />
                         <div class="pnt-3">
                             <h4 class="common-topic"><b>End-to-End Support</b></h4>
-                            <p class="common-para">Rely on our comprehensive services for seamless support throughout your entire data journey.</p>
+                            <p class="common-para">Rely on our comprehensive services for seamless support throughout
+                                your entire data journey.</p>
                         </div>
                         <div class="pnt-4">
                             <h4 class="common-topic"><b>Industry Expertise</b></h4>
-                            <p class="common-para">Utilize our deep knowledge and experience in your sector to address and overcome your specific challenges.</p>
+                            <p class="common-para">Utilize our deep knowledge and experience in your sector to address
+                                and overcome your specific challenges.</p>
                         </div>
                     </div>
                 </div>
 
-                
 
-                
+
+
 
                 <div class="col-md-12 nopadding">
 
@@ -2028,29 +2164,47 @@
                             <div class="col-lg-12 nopadding">
                                 <h2 class="common-topic"><b>Case Study</b></h2>
                                 <p class="common-para">
-                                    RheinBrücke IT Consulting GmbH's Power Plant Analytics (PPA) tool was a transformative solution tailored specifically to the unique demands of the power plant industry. Unlike traditional ERP suites, PPA excelled in critical areas such as billing, revenue calculations, power generation scheduling, and management of power purchase agreements. With advanced features providing real-time access to comprehensive operational, financial, and market data, PPA empowered decision-makers to gain deep insights into plant operations and market profitability. The tool's analytical dashboards and self-service reporting capabilities enabled users to foresee opportunities, detect risks, and make informed decisions swiftly.
+                                    RheinBrücke IT Consulting GmbH's Power Plant Analytics (PPA) tool was a
+                                    transformative solution tailored specifically to the unique demands of the power
+                                    plant industry. Unlike traditional ERP suites, PPA excelled in critical areas such
+                                    as billing, revenue calculations, power generation scheduling, and management of
+                                    power purchase agreements. With advanced features providing real-time access to
+                                    comprehensive operational, financial, and market data, PPA empowered decision-makers
+                                    to gain deep insights into plant operations and market profitability. The tool's
+                                    analytical dashboards and self-service reporting capabilities enabled users to
+                                    foresee opportunities, detect risks, and make informed decisions swiftly.
                                 </p>
                             </div>
                             <div class="col-lg-7 nopadding">
                                 <p class="common-para">
-                                    PPA enhanced decision-making through historical trend analysis and "What-If" scenario evaluations, assessing the impacts of operational metrics and potential disruptions. Field officers benefited from real-time data access via smartphones for proactive maintenance, while standard BI reports and dashboards facilitated comprehensive analysis. The seamless interface for MIS reporting minimized manual intervention, enhancing reporting accuracy and efficiency.
+                                    PPA enhanced decision-making through historical trend analysis and "What-If"
+                                    scenario evaluations, assessing the impacts of operational metrics and potential
+                                    disruptions. Field officers benefited from real-time data access via smartphones for
+                                    proactive maintenance, while standard BI reports and dashboards facilitated
+                                    comprehensive analysis. The seamless interface for MIS reporting minimized manual
+                                    intervention, enhancing reporting accuracy and efficiency.
                                 </p>
                                 <p class="common-para">
-                                    PPA's modular design included functionalities for billing, scheduling, revenue management, and budget forecasting, ensuring streamlined operations and efficient resource management.
+                                    PPA's modular design included functionalities for billing, scheduling, revenue
+                                    management, and budget forecasting, ensuring streamlined operations and efficient
+                                    resource management.
                                 </p>
                             </div>
                             <div class="col-lg-5 nopadding">
                                 <div class="">
                                     <img src="../../../Assets/images/image-BI-casestudy.png"
-                                        class="img-responsive center-block w-80"/>
+                                        class="img-responsive center-block w-80" />
                                 </div>
                             </div>
                             <div class="col-lg-12 nopadding">
                                 <p class="common-para">
-                                    PPA's user-friendly design ensured ease of use with minimal training for business users. RheinBrücke successfully delivered a robust solution that enhanced operational and financial efficiency in the power plant industry, solidifying its commitment to innovative and impactful industry solutions.
+                                    PPA's user-friendly design ensured ease of use with minimal training for business
+                                    users. RheinBrücke successfully delivered a robust solution that enhanced
+                                    operational and financial efficiency in the power plant industry, solidifying its
+                                    commitment to innovative and impactful industry solutions.
                                 </p>
                             </div>
-                           
+
                         </div>
                     </div>
                     <!--Eof Breadcrumb row-->
@@ -2065,7 +2219,8 @@
 
                             <div class="col-lg-12 col-md-12 co-sm-12 col-12 nopadding">
                                 <h2 class="common-topic pb-20 text-center">Contact Us!</h2>
-                                <h4 class="text-center mb-3">Get started with RheinBrücke Technology today and unlock the potential of your data! Contact us now.</h4>
+                                <h4 class="text-center mb-3">Get started with RheinBrücke Technology today and unlock
+                                    the potential of your data! Contact us now.</h4>
                             </div>
 
                         </div>
