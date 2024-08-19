@@ -281,8 +281,8 @@
 
                                 </ul>
                             </li>
-                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/sugar-crm" class="Level3-menu ETMenu"><span>Sugar CRM</span></a></li>
-                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>
+                           <%-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/sugar-crm" class="Level3-menu ETMenu"><span>Sugar CRM</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>--%>
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering" class="Level3-menu ETMenu"><span>Epicor Support+</span></a></li>
                             <!--<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi" class="Level3-menu ETMenu"><span>Business Intelligence</span></a></li>-->
                         </ul>
@@ -511,7 +511,7 @@
                 <div class="clearfix">&nbsp;</div>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
                 <a href="#" id="back_to_top" class="back-to-top-position-right"><i class="fa fa-angle-up"></i></a>
-                <div id="Contactfeedback" class="ETcallout"><a href=""  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a> </div>
+                <div id="Contactfeedback" class="ETcallout"><a href="" data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a> </div>
                 <div id="socialicon">
                     <!-- <ul>
                         <li class="hvr-wobble-to-top-right">
@@ -827,13 +827,13 @@
                                         <li data-target="#myCarousel1" data-slide-to="1"></li>
                                         <li data-target="#myCarousel1" data-slide-to="2"></li>
                                     </ol>--%>
-                                        <div class="carousel-inner" role="listbox" style="width: 200px; margin: auto;"  aria-label="carousel-inner">
+                                        <div class="carousel-inner" role="listbox" style="width: 200px; margin: auto;" aria-label="carousel-inner">
                                             <%-- <div class="item active">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-recognised-as-top-consultant-germany">
                                                 <img src="<%=rootpath %>Assets/images/RheinBrücke-TopConsultant-Award.jpg" alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>--%>
-                                            <div class="item active"  role="option" aria-selected="true" aria-roledescription="slide">
+                                            <div class="item active" role="option" aria-selected="true" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
                                                     <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg" alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
@@ -1204,12 +1204,8 @@ s0.parentNode.insertBefore(s1,s0);
                         </span>
                     </p>
                 </p>
-
             </div>
-
-
         </div>
     </div>
-
 </div>
 </html>
