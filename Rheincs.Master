@@ -367,8 +367,8 @@
 
                                 </ul>
                             </li>
-                         <%--   <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/sugar-crm" class="Level3-menu ETMenu"><span>Sugar CRM</span></a></li>
-                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>--%>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/sugar-crm" class="Level3-menu ETMenu"><span>Sugar CRM</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering" class="Level3-menu ETMenu"><span>Epicor Support+</span></a></li>
                             <!--<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi" class="Level3-menu ETMenu"><span>Business Intelligence</span></a></li>-->
                         </ul>
@@ -528,8 +528,8 @@
                                                                         </ul>
 
                                                                     </li>
-                                                                    <%--<li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">Sugar CRM</a></li>
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-intelligence-services">Business Intelligence Services</a></li>--%>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">Sugar CRM</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-intelligence-services">Business Intelligence Services</a></li>
                                                                     <!--  <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi">Business Intelligence</a></li> -->
 
                                                                 </ul>
