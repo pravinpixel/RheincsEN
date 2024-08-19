@@ -165,6 +165,93 @@
         load_css_async("/Assets/css/OverSheet.css");
     </script>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+    <script type = "application/ld+json"> {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "RheinBrücke IT Consulting",
+        "legalName": "RheinBrücke IT Consulting",
+        "url": "https://www.rheincs.com/",
+        "logo": "https://en.rheincs.com/Assets/images/RheinBr%C3%BCcke-logo.jpg",
+        "description": "We are focused on offering consulting, technology and outsourcing solutions and services.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Maastricht",
+            "addressRegion": "Netherlands",
+            "postalCode": "NL-6221BT",
+            "addressCountry": "NL"
+        },
+        "contactPoint": [{
+                "@type": "ContactPoint",
+                "contactType": "Customer service",
+                "email": "info@rheincs.com",
+                "telephone": "+31 (0) 43 799 9102"
+            },
+            {
+                "@type": "ContactPoint",
+                "contactType": "Customer service",
+                "areaServed": "Netherlands",
+                "email": "info@rheincs.com",
+                "telephone": "+31 (0) 43 799 9102",
+                "faxNumber": "+31 (0) 43 799 9333",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Maastricht",
+                    "addressRegion": "Netherlands",
+                    "postalCode": "NL-6221BT",
+                    "addressCountry": "NL",
+                    "streetAddress": "Stationsplein, 8K"
+                }
+            },
+            {
+                "@type": "ContactPoint",
+                "contactType": "Customer service",
+                "areaServed": "Germany",
+                "email": "info@rheincs.com",
+                "telephone": "+49 231 292 95619",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Dortmund",
+                    "addressRegion": "Germany",
+                    "postalCode": "44139",
+                    "addressCountry": "DE",
+                    "streetAddress": "Ruhrallee 9"
+                }
+            },
+            {
+                "@type": "ContactPoint",
+                "contactType": "Customer service",
+                "areaServed": "USA",
+                "email": "info@rheincs.com",
+                "telephone": "+1 717 265 3937",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Mechanicsburg",
+                    "addressRegion": "PA",
+                    "postalCode": "17050",
+                    "addressCountry": "US",
+                    "streetAddress": "3815 Chippenham Road"
+                }
+            },
+            {
+                "@type": "ContactPoint",
+                "contactType": "Customer service",
+                "areaServed": "India",
+                "email": "info@rheincs.com",
+                "telephone": "+91 44 6671 7555",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Chennai",
+                    "addressRegion": "Tamil Nadu",
+                    "postalCode": "600 032",
+                    "addressCountry": "IN",
+                    "streetAddress": "Bharati Vilas, 1st Floor, 26B Jawaharlal Nehru Salai, Ekkatuthangal, Guindy Industrial Estate"
+                }
+            ]
+        }
+    } 
+    </script>
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -426,8 +513,8 @@ Services</span></a>
 
                                                                         </ul>
                                                                     </li>
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">Sugar CRM</a></li>
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-intelligence-services">Business Intelligence Services</a></li>
+                                                                    <%--<li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">Sugar CRM</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-intelligence-services">Business Intelligence Services</a></li>--%>
                                                                     <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
                                                                     <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-driven-BI-and-analytics">Business-Driven BI and Analytics</a></li>
 

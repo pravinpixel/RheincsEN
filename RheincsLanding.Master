@@ -172,6 +172,92 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <script> window.factors = window.factors || function () { this.q = []; var i = new CustomEvent("FACTORS_QUEUED_EVENT"), n = function (t, e) { this.q.push({ k: t, a: e }), window.dispatchEvent(i) }; return this.track = function (t, e, i) { n("track", arguments) }, this.init = function (t, e, i) { this.TOKEN = t, this.INIT_PARAMS = e, this.INIT_CALLBACK = i, window.dispatchEvent(new CustomEvent("FACTORS_INIT_EVENT")) }, this.reset = function () { n("reset", arguments) }, this.page = function (t, e) { n("page", arguments) }, this.updateEventProperties = function (t, e) { n("updateEventProperties", arguments) }, this.identify = function (t, e) { n("identify", arguments) }, this.addUserProperties = function (t) { n("addUserProperties", arguments) }, this.getUserId = function () { n("getUserId", arguments) }, this.call = function () { var t = { k: "", a: [] }; if (arguments && 1 <= arguments.length) { for (var e = 1; e < arguments.length; e++) t.a.push(arguments[e]); t.k = arguments[0] } this.q.push(t), window.dispatchEvent(i) }, this.init("yyq3qwq23c7r4rq7o5refttcg39ju39m"), this }(), function () { var t = document.createElement("script"); t.type = "text/javascript", t.src = "https://app.factors.ai/assets/v1/factors.js", t.async = !0, d = document.getElementsByTagName("script")[0], d.parentNode.insertBefore(t, d) }(); </script>
 
+    <script type = "application/ld+json"> {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "RheinBrücke IT Consulting",
+        "legalName": "RheinBrücke IT Consulting",
+        "url": "https://www.rheincs.com/",
+        "logo": "https://en.rheincs.com/Assets/images/RheinBr%C3%BCcke-logo.jpg",
+        "description": "We are focused on offering consulting, technology and outsourcing solutions and services.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Maastricht",
+            "addressRegion": "Netherlands",
+            "postalCode": "NL-6221BT",
+            "addressCountry": "NL"
+        },
+        "contactPoint": [{
+                "@type": "ContactPoint",
+                "contactType": "Customer service",
+                "email": "info@rheincs.com",
+                "telephone": "+31 (0) 43 799 9102"
+            },
+            {
+                "@type": "ContactPoint",
+                "contactType": "Customer service",
+                "areaServed": "Netherlands",
+                "email": "info@rheincs.com",
+                "telephone": "+31 (0) 43 799 9102",
+                "faxNumber": "+31 (0) 43 799 9333",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Maastricht",
+                    "addressRegion": "Netherlands",
+                    "postalCode": "NL-6221BT",
+                    "addressCountry": "NL",
+                    "streetAddress": "Stationsplein, 8K"
+                }
+            },
+            {
+                "@type": "ContactPoint",
+                "contactType": "Customer service",
+                "areaServed": "Germany",
+                "email": "info@rheincs.com",
+                "telephone": "+49 231 292 95619",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Dortmund",
+                    "addressRegion": "Germany",
+                    "postalCode": "44139",
+                    "addressCountry": "DE",
+                    "streetAddress": "Ruhrallee 9"
+                }
+            },
+            {
+                "@type": "ContactPoint",
+                "contactType": "Customer service",
+                "areaServed": "USA",
+                "email": "info@rheincs.com",
+                "telephone": "+1 717 265 3937",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Mechanicsburg",
+                    "addressRegion": "PA",
+                    "postalCode": "17050",
+                    "addressCountry": "US",
+                    "streetAddress": "3815 Chippenham Road"
+                }
+            },
+            {
+                "@type": "ContactPoint",
+                "contactType": "Customer service",
+                "areaServed": "India",
+                "email": "info@rheincs.com",
+                "telephone": "+91 44 6671 7555",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Chennai",
+                    "addressRegion": "Tamil Nadu",
+                    "postalCode": "600 032",
+                    "addressCountry": "IN",
+                    "streetAddress": "Bharati Vilas, 1st Floor, 26B Jawaharlal Nehru Salai, Ekkatuthangal, Guindy Industrial Estate"
+                }
+            ]
+        }
+    } 
+    </script>
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -635,8 +721,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 </ul>
 
                             </li>
-                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm" class="Level3-menu ETMenu"><span>Sugar CRM</span></a></li>
-                          <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>
+                          <%--   <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm" class="Level3-menu ETMenu"><span>Sugar CRM</span></a></li>
+                          <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>--%>
                             <%-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi" class="Level3-menu ETMenu"><span>Business Intelligence</span></a></li>--%>
                         </ul>
                     </li>
@@ -792,8 +878,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                            
                                                                         </ul>
                                                                     </li>
-                                                                      <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">Sugar CRM</a></li> 
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-intelligence-services">Business Intelligence Services</a></li> 
+                                                                     <%-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">Sugar CRM</a></li> 
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-intelligence-services">Business Intelligence Services</a></li> --%>
                                                                     
                                                                     <%--<li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi">Business Intelligence</a></li>--%>
                                                                 </ul>
