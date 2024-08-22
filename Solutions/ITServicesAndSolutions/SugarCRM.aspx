@@ -1218,8 +1218,7 @@
             .set-7 .img-boxer img {
                 max-width: 100%;
             }
-        }
-
+        }>
 
 
         @media (max-width:480px) {
@@ -1531,9 +1530,11 @@
                                         <div class="row ms_section align-items-center">
                                             <div class="col-lg-7 col-md-7 col-sm-12 col-12 nopadding">
                                                 <h2 class="common-topic small_heading">Sugar Sell</h2>
-                                                <p class="common-para">Sugar Sell is SugarCRM’s core CRM platform tailored primarily for sales teams. It provides tools and features to manage leads, opportunities, accounts, and contacts effectively.<br>
+                                                <p class="common-para">
+                                                    Sugar Sell is SugarCRM’s core CRM platform tailored primarily for sales teams. It provides tools and features to manage leads, opportunities, accounts, and contacts effectively.<br>
                                                     <br>
-                                                    Key features include</p>
+                                                    Key features include
+                                                </p>
                                                 <br>
                                             </div>
                                             <div class="col-lg-5 col-md-5 col-sm-12 col-12">
@@ -1563,9 +1564,11 @@
                                         <div class="row ms_section align-items-center">
                                             <div class="col-lg-7 col-md-7 col-sm-12 col-12 nopadding">
                                                 <h2 class="common-topic small_heading">Sugar Market</h2>
-                                                <p class="common-para">Sugar Market is SugarCRM’s marketing automation solution. It allows businesses to automate marketing campaigns, nurture leads, and measure marketing ROI effectively.<br>
+                                                <p class="common-para">
+                                                    Sugar Market is SugarCRM’s marketing automation solution. It allows businesses to automate marketing campaigns, nurture leads, and measure marketing ROI effectively.<br>
                                                     <br>
-                                                    Key features of Sugar Market include</p>
+                                                    Key features of Sugar Market include
+                                                </p>
                                                 <br>
                                             </div>
                                             <div class="col-lg-5 col-md-5 col-sm-12 col-12">
@@ -1595,9 +1598,11 @@
                                         <div class="row ms_section align-items-center">
                                             <div class="col-lg-7 col-md-7 col-sm-12 col-12 nopadding">
                                                 <h2 class="common-topic small_heading">Sugar Serve</h2>
-                                                <p class="common-para">Sugar Serve is SugarCRM’s customer service and support solution, focusing on delivering exceptional customer experiences. It enables businesses to manage customer inquiries, support cases, and service requests efficiently.<br>
+                                                <p class="common-para">
+                                                    Sugar Serve is SugarCRM’s customer service and support solution, focusing on delivering exceptional customer experiences. It enables businesses to manage customer inquiries, support cases, and service requests efficiently.<br>
                                                     <br>
-                                                    Key features of Sugar Market include</p>
+                                                    Key features of Sugar Market include
+                                                </p>
                                                 <br>
                                             </div>
                                             <div class="col-lg-5 col-md-5 col-sm-12 col-12">

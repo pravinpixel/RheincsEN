@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="RheinBruckeDevModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Alias="Self" Namespace="RheinBruckeDevModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012">
   <!--Errors Found During Generation:
 warning 6002: The table/view 'RheinBruckeEN.dbo.Brochure' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="Brochure">
     <Key>
       <PropertyRef Name="BrochureId" />
     </Key>
-    <Property Name="BrochureId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="FilterName" Type="nvarchar" MaxLength="255" />
+    <Property Name="BrochureId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="FilterName" MaxLength="255" Type="nvarchar" />
     <Property Name="DocumentFileName" Type="nvarchar(max)" />
     <Property Name="Thumbnail" Type="nvarchar(max)" />
     <Property Name="Description" Type="nvarchar(max)" />
@@ -20,8 +20,8 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.CaseStudies' does not have a pri
     <Key>
       <PropertyRef Name="CaseStudyId" />
     </Key>
-    <Property Name="CaseStudyId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="FilterName" Type="varchar" MaxLength="255" />
+    <Property Name="CaseStudyId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="FilterName" MaxLength="255" Type="varchar" />
     <Property Name="DocumentFileName" Type="nvarchar(max)" />
     <Property Name="Thumbnail" Type="nvarchar(max)" />
     <Property Name="Description" Type="nvarchar(max)" />
@@ -32,23 +32,23 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.CaseStudies' does not have a pri
     <Key>
       <PropertyRef Name="EmailRequestID" />
     </Key>
-    <Property Name="EmailRequestID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Name" Type="nvarchar" MaxLength="50" />
-    <Property Name="Email" Type="nvarchar" MaxLength="50" />
-    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmailRequestID" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="Name" MaxLength="50" Type="nvarchar" />
+    <Property Name="Email" MaxLength="50" Type="nvarchar" />
+    <Property Name="Phone" MaxLength="50" Type="nvarchar" />
     <Property Name="Companyname" Type="nvarchar(max)" />
     <Property Name="Message" Type="nvarchar(max)" />
     <Property Name="EmailTypeID" Type="int" />
     <Property Name="CreatedOn" Type="datetime" />
-    <Property Name="ContactUsUrl" Type="nvarchar" MaxLength="150" />
-    <Property Name="Services" Type="nvarchar" MaxLength="150" />
+    <Property Name="ContactUsUrl" MaxLength="150" Type="nvarchar" />
+    <Property Name="Services" MaxLength="150" Type="nvarchar" />
   </EntityType>
   <EntityType Name="EmailType">
     <Key>
       <PropertyRef Name="EmailTypeID" />
     </Key>
-    <Property Name="EmailTypeID" Type="int" Nullable="false" />
-    <Property Name="EmailTypeName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="EmailTypeID" Nullable="false" Type="int" />
+    <Property Name="EmailTypeName" Nullable="false" MaxLength="50" Type="varchar" />
     <Property Name="Status" Type="bit" />
     <Property Name="CreatedOn" Type="datetime" />
   </EntityType>
@@ -58,8 +58,8 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.FactSheet' does not have a prima
     <Key>
       <PropertyRef Name="FactSheetId" />
     </Key>
-    <Property Name="FactSheetId" Type="int" Nullable="false" />
-    <Property Name="FilterName" Type="varchar" MaxLength="255" />
+    <Property Name="FactSheetId" Nullable="false" Type="int" />
+    <Property Name="FilterName" MaxLength="255" Type="varchar" />
     <Property Name="DocumentFileName" Type="nvarchar(max)" />
     <Property Name="Thumbnail" Type="nvarchar(max)" />
     <Property Name="Description" Type="nvarchar(max)" />
@@ -71,10 +71,10 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.FactSheet' does not have a prima
     <Key>
       <PropertyRef Name="JobRequestId" />
     </Key>
-    <Property Name="JobRequestId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="JobRequestId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
     <Property Name="Name" Type="nvarchar(max)" />
-    <Property Name="MobileNo" Type="nvarchar" MaxLength="50" />
-    <Property Name="EmailId" Type="nvarchar" MaxLength="100" />
+    <Property Name="MobileNo" MaxLength="50" Type="nvarchar" />
+    <Property Name="EmailId" MaxLength="100" Type="nvarchar" />
     <Property Name="JobTitle" Type="nvarchar(max)" />
     <Property Name="DocumentName" Type="nvarchar(max)" />
     <Property Name="CoverLetter" Type="nvarchar(max)" />
@@ -84,16 +84,16 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.FactSheet' does not have a prima
     <Key>
       <PropertyRef Name="JobID" />
     </Key>
-    <Property Name="JobID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="JobID" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
     <Property Name="POTR" Type="nvarchar(max)" />
     <Property Name="Responsiblities" Type="nvarchar(max)" />
     <Property Name="Qualification" Type="nvarchar(max)" />
-    <Property Name="Location" Type="nvarchar" MaxLength="150" />
-    <Property Name="CreatedBy" Type="nvarchar" MaxLength="200" />
+    <Property Name="Location" MaxLength="150" Type="nvarchar" />
+    <Property Name="CreatedBy" MaxLength="200" Type="nvarchar" />
     <Property Name="CreatedDate" Type="datetime" />
     <Property Name="ModifiedDate" Type="datetime" />
-    <Property Name="Field" Type="nvarchar" MaxLength="100" />
-    <Property Name="JobTitle" Type="nvarchar" MaxLength="150" />
+    <Property Name="Field" MaxLength="100" Type="nvarchar" />
+    <Property Name="JobTitle" MaxLength="150" Type="nvarchar" />
     <Property Name="Priority" Type="int" />
     <Property Name="UrlDetails" Type="nvarchar(max)" />
   </EntityType>
@@ -101,30 +101,30 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.FactSheet' does not have a prima
     <Key>
       <PropertyRef Name="Id" />
     </Key>
-    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
-    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
-    <Property Name="Company" Type="nvarchar" MaxLength="50" />
-    <Property Name="Email" Type="nvarchar" MaxLength="50" />
-    <Property Name="Phone" Type="varchar" MaxLength="50" />
-    <Property Name="ServiceType" Type="nvarchar" MaxLength="50" />
+    <Property Name="Id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="FirstName" MaxLength="50" Type="nvarchar" />
+    <Property Name="LastName" MaxLength="50" Type="nvarchar" />
+    <Property Name="Company" MaxLength="50" Type="nvarchar" />
+    <Property Name="Email" MaxLength="50" Type="nvarchar" />
+    <Property Name="Phone" MaxLength="50" Type="varchar" />
+    <Property Name="ServiceType" MaxLength="50" Type="nvarchar" />
     <Property Name="CreatedDate" Type="datetime" />
-    <Property Name="Title" Type="nvarchar" MaxLength="50" />
-    <Property Name="Country" Type="nvarchar" MaxLength="50" />
-    <Property Name="UpgradeProductIntererst" Type="nvarchar" MaxLength="50" />
+    <Property Name="Title" MaxLength="50" Type="nvarchar" />
+    <Property Name="Country" MaxLength="50" Type="nvarchar" />
+    <Property Name="UpgradeProductIntererst" MaxLength="50" Type="nvarchar" />
   </EntityType>
   <EntityType Name="LeadSquareLog">
     <Key>
       <PropertyRef Name="LogId" />
     </Key>
-    <Property Name="LogId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LogId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
     <Property Name="FormPID" Type="uniqueidentifier" />
-    <Property Name="FormStatus" Type="nvarchar" MaxLength="255" />
+    <Property Name="FormStatus" MaxLength="255" Type="nvarchar" />
     <Property Name="FormMsg" Type="nvarchar(max)" />
     <Property Name="FormAction" Type="nvarchar(max)" />
-    <Property Name="Name" Type="nvarchar" MaxLength="255" />
-    <Property Name="Email" Type="nvarchar" MaxLength="255" />
-    <Property Name="Mobile" Type="nvarchar" MaxLength="255" />
+    <Property Name="Name" MaxLength="255" Type="nvarchar" />
+    <Property Name="Email" MaxLength="255" Type="nvarchar" />
+    <Property Name="Mobile" MaxLength="255" Type="nvarchar" />
     <Property Name="ServiceType" Type="nvarchar(max)" />
     <Property Name="Company" Type="nvarchar(max)" />
   </EntityType>
@@ -132,29 +132,29 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.FactSheet' does not have a prima
     <Key>
       <PropertyRef Name="Id" />
     </Key>
-    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
     <Property Name="LoginName" Type="nvarchar(max)" />
     <Property Name="Password" Type="nvarchar(max)" />
-    <Property Name="Port" Type="nvarchar" MaxLength="50" />
-    <Property Name="CustomSMTP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Port" MaxLength="50" Type="nvarchar" />
+    <Property Name="CustomSMTP" MaxLength="50" Type="nvarchar" />
     <Property Name="EnableSSL" Type="bit" />
     <Property Name="Relay" Type="bit" />
-    <Property Name="ContactUsMailId" Type="nvarchar" MaxLength="100" />
-    <Property Name="JobMailId" Type="nvarchar" MaxLength="100" />
-    <Property Name="LandingMailId" Type="varchar" MaxLength="100" />
-    <Property Name="EmailId" Type="varchar" MaxLength="100" />
+    <Property Name="ContactUsMailId" MaxLength="100" Type="nvarchar" />
+    <Property Name="JobMailId" MaxLength="100" Type="nvarchar" />
+    <Property Name="LandingMailId" MaxLength="100" Type="varchar" />
+    <Property Name="EmailId" MaxLength="100" Type="varchar" />
   </EntityType>
   <EntityType Name="NewsEvents">
     <Key>
       <PropertyRef Name="NewsAndEventsID" />
     </Key>
-    <Property Name="NewsAndEventsID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Title" Type="nvarchar" MaxLength="250" Nullable="false" />
-    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="ThumbnailImage" Type="nvarchar" MaxLength="250" />
-    <Property Name="NewsImage" Type="nvarchar" MaxLength="250" />
+    <Property Name="NewsAndEventsID" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="Title" Nullable="false" MaxLength="250" Type="nvarchar" />
+    <Property Name="Description" Nullable="false" Type="nvarchar(max)" />
+    <Property Name="ThumbnailImage" MaxLength="250" Type="nvarchar" />
+    <Property Name="NewsImage" MaxLength="250" Type="nvarchar" />
     <Property Name="MetaTagDescription" Type="nvarchar(max)" />
-    <Property Name="MetaTagKeyword" Type="nvarchar" MaxLength="250" />
+    <Property Name="MetaTagKeyword" MaxLength="250" Type="nvarchar" />
     <Property Name="NewsEventsDate" Type="datetime" />
     <Property Name="Status" Type="bit" />
     <Property Name="ThumbnailPositionLeft" Type="bit" />
@@ -165,15 +165,15 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.FactSheet' does not have a prima
     <Key>
       <PropertyRef Name="NewsID" />
     </Key>
-    <Property Name="NewsID" Type="int" Nullable="false" />
-    <Property Name="Title" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="NewsID" Nullable="false" Type="int" />
+    <Property Name="Title" Nullable="false" MaxLength="250" Type="nvarchar" />
     <Property Name="Description" Type="nvarchar(max)" />
     <Property Name="DetailedDescription" Type="nvarchar(max)" />
-    <Property Name="ThumbnailImage" Type="nvarchar" MaxLength="250" />
-    <Property Name="NewsImage" Type="nvarchar" MaxLength="250" />
-    <Property Name="BannerImage" Type="nvarchar" MaxLength="250" />
+    <Property Name="ThumbnailImage" MaxLength="250" Type="nvarchar" />
+    <Property Name="NewsImage" MaxLength="250" Type="nvarchar" />
+    <Property Name="BannerImage" MaxLength="250" Type="nvarchar" />
     <Property Name="MetaTagDescription" Type="nvarchar(max)" />
-    <Property Name="MetaTagKeyword" Type="nvarchar" MaxLength="250" />
+    <Property Name="MetaTagKeyword" MaxLength="250" Type="nvarchar" />
     <Property Name="NewsEventsDate" Type="datetime" />
     <Property Name="Status" Type="bit" />
     <Property Name="CreatedOn" Type="datetime" />
@@ -183,13 +183,13 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.FactSheet' does not have a prima
     <Key>
       <PropertyRef Name="TestimonialID" />
     </Key>
-    <Property Name="TestimonialID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="TestimonialID" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="Name" MaxLength="100" Type="nvarchar" />
     <Property Name="Content" Type="nvarchar(max)" />
-    <Property Name="CompanyName" Type="nvarchar" MaxLength="100" />
-    <Property Name="Designation" Type="nvarchar" MaxLength="100" />
-    <Property Name="Address" Type="nvarchar" MaxLength="250" />
-    <Property Name="ImageName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CompanyName" MaxLength="100" Type="nvarchar" />
+    <Property Name="Designation" MaxLength="100" Type="nvarchar" />
+    <Property Name="Address" MaxLength="250" Type="nvarchar" />
+    <Property Name="ImageName" MaxLength="100" Type="nvarchar" />
     <Property Name="Status" Type="bit" />
     <Property Name="CreatedOn" Type="datetime" />
   </EntityType>
@@ -199,35 +199,35 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.UserRoles' does not have a prima
     <Key>
       <PropertyRef Name="UserId" />
     </Key>
-    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="UserRole" Type="nvarchar" MaxLength="255" />
-    <Property Name="EmailId" Type="nvarchar" MaxLength="255" />
+    <Property Name="UserId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="UserRole" MaxLength="255" Type="nvarchar" />
+    <Property Name="EmailId" MaxLength="255" Type="nvarchar" />
     <Property Name="Password" Type="nvarchar(max)" />
-    <Property Name="Department" Type="varchar" MaxLength="255" />
+    <Property Name="Department" MaxLength="255" Type="varchar" />
     <Property Name="Status" Type="bit" />
   </EntityType>
   <EntityType Name="WebinarsList">
     <Key>
       <PropertyRef Name="WebinarId" />
     </Key>
-    <Property Name="WebinarId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="WebinarId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
     <Property Name="Title" Type="nvarchar(max)" />
     <Property Name="Description" Type="nvarchar(max)" />
     <Property Name="TakeAway" Type="nvarchar(max)" />
     <Property Name="Image" Type="nvarchar(max)" />
     <Property Name="WebinarDate" Type="datetime" />
-    <Property Name="Speaker1" Type="nvarchar" MaxLength="50" />
-    <Property Name="Speaker1Designation" Type="nvarchar" MaxLength="250" />
-    <Property Name="Speaker2" Type="nvarchar" MaxLength="50" Nullable="false" />
-    <Property Name="Speaker2Designation" Type="nvarchar" MaxLength="250" />
-    <Property Name="Speaker3" Type="nvarchar" MaxLength="250" />
-    <Property Name="Speaker3Designation" Type="nvarchar" MaxLength="250" />
-    <Property Name="Speaker4" Type="nvarchar" MaxLength="250" />
-    <Property Name="Speaker4Designation" Type="nvarchar" MaxLength="250" />
-    <Property Name="Moderator1" Type="nvarchar" MaxLength="250" />
-    <Property Name="Moderator1Designation" Type="nvarchar" MaxLength="250" />
-    <Property Name="Moderator2" Type="nvarchar" MaxLength="250" />
-    <Property Name="Moderator2Designation" Type="nvarchar" MaxLength="250" />
+    <Property Name="Speaker1" MaxLength="50" Type="nvarchar" />
+    <Property Name="Speaker1Designation" MaxLength="250" Type="nvarchar" />
+    <Property Name="Speaker2" Nullable="false" MaxLength="50" Type="nvarchar" />
+    <Property Name="Speaker2Designation" MaxLength="250" Type="nvarchar" />
+    <Property Name="Speaker3" MaxLength="250" Type="nvarchar" />
+    <Property Name="Speaker3Designation" MaxLength="250" Type="nvarchar" />
+    <Property Name="Speaker4" MaxLength="250" Type="nvarchar" />
+    <Property Name="Speaker4Designation" MaxLength="250" Type="nvarchar" />
+    <Property Name="Moderator1" MaxLength="250" Type="nvarchar" />
+    <Property Name="Moderator1Designation" MaxLength="250" Type="nvarchar" />
+    <Property Name="Moderator2" MaxLength="250" Type="nvarchar" />
+    <Property Name="Moderator2Designation" MaxLength="250" Type="nvarchar" />
     <Property Name="Timings" Type="nvarchar(max)" />
     <Property Name="Status" Type="bit" />
     <Property Name="CreatedOn" Type="datetime" />
@@ -239,7 +239,7 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.UserRoles' does not have a prima
     <Key>
       <PropertyRef Name="WebinarRecId" />
     </Key>
-    <Property Name="WebinarRecId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="WebinarRecId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
     <Property Name="Title" Type="nvarchar(max)" />
     <Property Name="Description" Type="nvarchar(max)" />
     <Property Name="WebinarDate" Type="datetime" />
@@ -255,8 +255,8 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.WhitePapers' does not have a pri
     <Key>
       <PropertyRef Name="WhitePaperId" />
     </Key>
-    <Property Name="WhitePaperId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="FilterName" Type="varchar" MaxLength="255" />
+    <Property Name="WhitePaperId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="FilterName" MaxLength="255" Type="varchar" />
     <Property Name="DocumentFileName" Type="nvarchar(max)" />
     <Property Name="Thumbnail" Type="nvarchar(max)" />
     <Property Name="Description" Type="nvarchar(max)" />
@@ -265,8 +265,8 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.WhitePapers' does not have a pri
     <Property Name="DisplayOrder" Type="int" />
   </EntityType>
   <Association Name="FK__EmailRequ__Email__30F848ED">
-    <End Role="EmailType" Type="Self.EmailType" Multiplicity="0..1" />
-    <End Role="EmailRequest" Type="Self.EmailRequest" Multiplicity="*" />
+    <End Type="Self.EmailType" Multiplicity="0..1" Role="EmailType" />
+    <End Type="Self.EmailRequest" Multiplicity="*" Role="EmailRequest" />
     <ReferentialConstraint>
       <Principal Role="EmailType">
         <PropertyRef Name="EmailTypeID" />
@@ -277,8 +277,8 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.WhitePapers' does not have a pri
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__EmailRequ__Email__31EC6D26">
-    <End Role="EmailType" Type="Self.EmailType" Multiplicity="0..1" />
-    <End Role="EmailRequest" Type="Self.EmailRequest" Multiplicity="*" />
+    <End Type="Self.EmailType" Multiplicity="0..1" Role="EmailType" />
+    <End Type="Self.EmailRequest" Multiplicity="*" Role="EmailRequest" />
     <ReferentialConstraint>
       <Principal Role="EmailType">
         <PropertyRef Name="EmailTypeID" />
@@ -289,8 +289,8 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.WhitePapers' does not have a pri
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__EmailRequ__Email__32E0915F">
-    <End Role="EmailType" Type="Self.EmailType" Multiplicity="0..1" />
-    <End Role="EmailRequest" Type="Self.EmailRequest" Multiplicity="*" />
+    <End Type="Self.EmailType" Multiplicity="0..1" Role="EmailType" />
+    <End Type="Self.EmailRequest" Multiplicity="*" Role="EmailRequest" />
     <ReferentialConstraint>
       <Principal Role="EmailType">
         <PropertyRef Name="EmailTypeID" />
@@ -370,16 +370,16 @@ warning 6002: The table/view 'RheinBruckeEN.dbo.WhitePapers' does not have a pri
     FROM [dbo].[WhitePapers] AS [WhitePapers]</DefiningQuery>
     </EntitySet>
     <AssociationSet Name="FK__EmailRequ__Email__30F848ED" Association="Self.FK__EmailRequ__Email__30F848ED">
-      <End Role="EmailType" EntitySet="EmailType" />
-      <End Role="EmailRequest" EntitySet="EmailRequest" />
+      <End EntitySet="EmailType" Role="EmailType" />
+      <End EntitySet="EmailRequest" Role="EmailRequest" />
     </AssociationSet>
     <AssociationSet Name="FK__EmailRequ__Email__31EC6D26" Association="Self.FK__EmailRequ__Email__31EC6D26">
-      <End Role="EmailType" EntitySet="EmailType" />
-      <End Role="EmailRequest" EntitySet="EmailRequest" />
+      <End EntitySet="EmailType" Role="EmailType" />
+      <End EntitySet="EmailRequest" Role="EmailRequest" />
     </AssociationSet>
     <AssociationSet Name="FK__EmailRequ__Email__32E0915F" Association="Self.FK__EmailRequ__Email__32E0915F">
-      <End Role="EmailType" EntitySet="EmailType" />
-      <End Role="EmailRequest" EntitySet="EmailRequest" />
+      <End EntitySet="EmailType" Role="EmailType" />
+      <End EntitySet="EmailRequest" Role="EmailRequest" />
     </AssociationSet>
   </EntityContainer>
 </Schema>

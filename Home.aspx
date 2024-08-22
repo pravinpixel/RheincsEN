@@ -6,29 +6,107 @@
     <meta name="Description" content="RheinBrücke: Your trusted partner for seamless Cloud ERP implementation. Unlock efficiency and elevate your business." />
     <meta name="google-site-verification" content="wupPtb2f4IkwIZlJw_WfkxpZCBAcL70quHa_rVemK0U" />
 
-    <script type="application/ld+json" defer>
+     <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
-  "@type": "WebSite",
-  "name": "Rheinbrücke",
-  "alternateName": "Rheincs",
-  "url": "https://www.rheincs.com"
-}
-    </script>
-    <script type="application/ld+json" defer>
-{
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "Organization",
-  "url": "http://www.rheincs.com",
-   "name": "Rheinbrücke IT Consulting",
-  "logo": "https://www.rheincs.com/Assets/images/RheinBr%C3%BCcke-logo.jpg",
+  "name": "Rheinbrücke IT Consulting",
+  "url": "https://en.rheincs.com/",
+  "logo": "https://en.rheincs.com/Assets/images/RheinBr%C3%BCcke-logo.jpg",
   "sameAs": [
     "https://www.facebook.com/RheinBrucke",
-  "https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting",
-    "https://plus.google.com/108478282039113445071"
+    "https://twitter.com/RheinBruckeIT",
+    "https://www.youtube.com/channel/UCuR25ldsvrd7yd5vkzqntAg",
+    "https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting"
+  ],
+  "department": [
+    {
+      "@type": "LocalBusiness",
+      "name": "RheinBrücke IT Consulting BV",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Stationsplein, 8K NL-6221BT",
+        "addressLocality": "Maastricht",
+        "addressRegion": "",
+        "postalCode": "6221BT",
+        "addressCountry": "Netherlands"
+      },
+      "telephone": "+31 (0) 43 799 9102",
+      "email": "info@rheincs.com"
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "RheinBrücke IT Consulting GmbH",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ruhrallee 9",
+        "addressLocality": "Dortmund",
+        "addressRegion": "",
+        "postalCode": "44139",
+        "addressCountry": "Germany"
+      },
+      "telephone": "+49 231 292 95619",
+      "email": "info@rheincs.com"
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "RheinBrücke IT Consulting",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3815 Chippenham Road",
+        "addressLocality": "Mechanicsburg",
+        "addressRegion": "PA",
+        "postalCode": "17050",
+        "addressCountry": "United States"
+      },
+      "telephone": "+1 717 265 3937",
+      "email": "info@rheincs.com"
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "RheinBrücke IT Consulting Pvt Ltd",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bharati Vilas, 1st Floor, 26B Jawaharlal Nehru Salai, Ekkatuthangal, Guindy Industrial Estate",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "600032",
+        "addressCountry": "India"
+      },
+      "telephone": "+91 44 6671 7555",
+      "email": "info@rheincs.com"
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "RheinBrücke IT Consulting EMEA FZE",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2-234-235 – Techno Hub 2, Dubai Silicon Oasis",
+        "addressLocality": "Dubai",
+        "addressRegion": "",
+        "postalCode": "342060",
+        "addressCountry": "United Arab Emirates"
+      },
+      "telephone": "+971 43 330 366",
+      "email": "info@rheincs.com"
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "RheinBrücke IT Consulting DMCC",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Unit No. 30-01-949, Floor No. 1, Bldg No. 3, Plot No. 550-554, J&G, DMCC",
+        "addressLocality": "Dubai",
+        "addressRegion": "",
+        "postalCode": "",
+        "addressCountry": "United Arab Emirates"
+      },
+      "telephone": "+971 50 650 8854",
+      "email": "info@rheincs.com"
+    }
   ]
 }
-    </script>
+</script>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

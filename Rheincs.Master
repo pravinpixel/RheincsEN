@@ -1,7 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Rheincs.master.cs" Inherits="RheinBrucke.Rheincs" %>
 
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en"  xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head id="Head1" runat="server">
     <title>RheinBrücke IT Consulting</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
@@ -31,9 +31,10 @@
     <!-- end of leadfeeder code -->
     <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
     <style>
-         body,html {
+        body, html {
             font-family: Raleway !important;
         }
+
         ul.social_share_privacy_area li .info {
             display: none !important;
         }
@@ -143,15 +144,15 @@
     </style>
 
     <script type="text/javascript">function load_css_async(filename) {
-    if (document.createStyleSheet) document.createStyleSheet(filename);
-    else {
-        var stylesheet = document.createElement('link');
-        stylesheet.href = filename;
-        stylesheet.rel = 'stylesheet';
-        stylesheet.type = 'text/css';
-        document.getElementsByTagName('head')[0].appendChild(stylesheet);
-    }
-}</script>
+            if (document.createStyleSheet) document.createStyleSheet(filename);
+            else {
+                var stylesheet = document.createElement('link');
+                stylesheet.href = filename;
+                stylesheet.rel = 'stylesheet';
+                stylesheet.type = 'text/css';
+                document.getElementsByTagName('head')[0].appendChild(stylesheet);
+            }
+        }</script>
 
     <%=cssload %>
     <script>
@@ -168,14 +169,118 @@
 
 
     <script> window.factors = window.factors || function () { this.q = []; var i = new CustomEvent("FACTORS_QUEUED_EVENT"), n = function (t, e) { this.q.push({ k: t, a: e }), window.dispatchEvent(i) }; return this.track = function (t, e, i) { n("track", arguments) }, this.init = function (t, e, i) { this.TOKEN = t, this.INIT_PARAMS = e, this.INIT_CALLBACK = i, window.dispatchEvent(new CustomEvent("FACTORS_INIT_EVENT")) }, this.reset = function () { n("reset", arguments) }, this.page = function (t, e) { n("page", arguments) }, this.updateEventProperties = function (t, e) { n("updateEventProperties", arguments) }, this.identify = function (t, e) { n("identify", arguments) }, this.addUserProperties = function (t) { n("addUserProperties", arguments) }, this.getUserId = function () { n("getUserId", arguments) }, this.call = function () { var t = { k: "", a: [] }; if (arguments && 1 <= arguments.length) { for (var e = 1; e < arguments.length; e++) t.a.push(arguments[e]); t.k = arguments[0] } this.q.push(t), window.dispatchEvent(i) }, this.init("yyq3qwq23c7r4rq7o5refttcg39ju39m"), this }(), function () { var t = document.createElement("script"); t.type = "text/javascript", t.src = "https://app.factors.ai/assets/v1/factors.js", t.async = !0, d = document.getElementsByTagName("script")[0], d.parentNode.insertBefore(t, d) }(); </script>
+    
+     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Rheinbrücke IT Consulting",
+  "url": "https://en.rheincs.com/",
+  "logo": "https://en.rheincs.com/Assets/images/RheinBr%C3%BCcke-logo.jpg",
+  "sameAs": [
+    "https://www.facebook.com/RheinBrucke",
+    "https://twitter.com/RheinBruckeIT",
+    "https://www.youtube.com/channel/UCuR25ldsvrd7yd5vkzqntAg",
+    "https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting"
+  ],
+  "department": [
+    {
+      "@type": "LocalBusiness",
+      "name": "RheinBrücke IT Consulting BV",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Stationsplein, 8K NL-6221BT",
+        "addressLocality": "Maastricht",
+        "addressRegion": "",
+        "postalCode": "6221BT",
+        "addressCountry": "Netherlands"
+      },
+      "telephone": "+31 (0) 43 799 9102",
+      "email": "info@rheincs.com"
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "RheinBrücke IT Consulting GmbH",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ruhrallee 9",
+        "addressLocality": "Dortmund",
+        "addressRegion": "",
+        "postalCode": "44139",
+        "addressCountry": "Germany"
+      },
+      "telephone": "+49 231 292 95619",
+      "email": "info@rheincs.com"
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "RheinBrücke IT Consulting",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3815 Chippenham Road",
+        "addressLocality": "Mechanicsburg",
+        "addressRegion": "PA",
+        "postalCode": "17050",
+        "addressCountry": "United States"
+      },
+      "telephone": "+1 717 265 3937",
+      "email": "info@rheincs.com"
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "RheinBrücke IT Consulting Pvt Ltd",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bharati Vilas, 1st Floor, 26B Jawaharlal Nehru Salai, Ekkatuthangal, Guindy Industrial Estate",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "600032",
+        "addressCountry": "India"
+      },
+      "telephone": "+91 44 6671 7555",
+      "email": "info@rheincs.com"
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "RheinBrücke IT Consulting EMEA FZE",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2-234-235 – Techno Hub 2, Dubai Silicon Oasis",
+        "addressLocality": "Dubai",
+        "addressRegion": "",
+        "postalCode": "342060",
+        "addressCountry": "United Arab Emirates"
+      },
+      "telephone": "+971 43 330 366",
+      "email": "info@rheincs.com"
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "RheinBrücke IT Consulting DMCC",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Unit No. 30-01-949, Floor No. 1, Bldg No. 3, Plot No. 550-554, J&G, DMCC",
+        "addressLocality": "Dubai",
+        "addressRegion": "",
+        "postalCode": "",
+        "addressCountry": "United Arab Emirates"
+      },
+      "telephone": "+971 50 650 8854",
+      "email": "info@rheincs.com"
+    }
+  ]
+}
+</script>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body onload="canonical();" class="cbp-spmenu-push">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHPH6XN"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHPH6XN"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Google tag (gtag.js) -->
@@ -185,7 +290,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-    
+
     <a id="showLeft1" style="z-index: 1111;" class="slider-menu-icon mobilemenu mobilemenu-color-main-color-hover" href="#"><i class="fa fa-bars"></i></a>
     <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s2">
         <div class="pull-right closeicon" id="HideLeft1"><i class="fa fa-times"></i></div>
@@ -258,7 +363,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Enterprise Solutions (ERP) & Services</span></a>
                         <ul>
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="Level3-menu ETMenu"><span>SAP</span></a></li>
-                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics" class="Level3-menu ETMenu"><span>Microsoft Dynamics</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics" class="Level3-menu ETMenu"><span>Microsoft Dynamics</span></a></li>
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="Level3-menu ETMenu"><span>EPICOR</span></a>
 
                                 <ul>
@@ -272,13 +377,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <!--  <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software" class="Level3-menu ETMenu"><span>For Distribution</span></a></li>-->
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design" class="Level3-menu ETMenu"><span>For Interior Design</span></a></li>
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC" class="Level3-menu ETMenu"><span>For Construction & EPC</span></a></li>
-                                    
+
                                     <%-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" class="Level3-menu ETMenu"><span>Epicor HCM</span></a></li>--%>
                                     <!-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software" class="Level3-menu ETMenu"><span>Epicor Iscala for Hospitality</span></a></li>-->
-                                    
+
                                 </ul>
                             </li>
-                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/sugar-crm" class="Level3-menu ETMenu"><span>Sugar CRM</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/sugar-crm" class="Level3-menu ETMenu"><span>Sugar CRM</span></a></li>
+                           
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering" class="Level3-menu ETMenu"><span>Epicor Support+</span></a></li>
                             <!--<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi" class="Level3-menu ETMenu"><span>Business Intelligence</span></a></li>-->
                         </ul>
@@ -289,7 +395,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies" class="Level3-menu ETMenu"><span>Microsoft Technologies</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support" class="Level3-menu ETMenu"><span>Application Maintenance & Support</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services" class="Level3-menu ETMenu"><span>Testing Services</span></a></li>
-                            
+                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>
                         </ul>
                     </li>
                     <li>
@@ -413,7 +519,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                     <li class="menuname-small menuheading-large menu-erp"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp">Enterprise Solutions (ERP) & Services</a></li>
                                                                     <br />
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">SAP</a></li>
-                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics">Microsoft Dynamics</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics">Microsoft Dynamics</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">EPICOR</a>
 
                                                                         <ul class="padd-top-3">
@@ -422,7 +528,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP">Gartner Magic Quadrant for Cloud ERP</a></li>
                                                                             </ul>-->
                                                                             </li>
-                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing">For Manufacturing</a></li>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing">For Cable Manufacturing</a></li>
 
@@ -430,15 +536,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                             <!-- <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software">For Distribution</a></li>-->
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design">For Interior Design</a></li>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC">For Construction & EPC</a></li>
-                                                                             
+
 
                                                                             <%--<li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm">Epicor HCM</a></li>--%>
                                                                             <!--<li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software">Epicor Iscala for Hospitality</a></li>-->
-                                                                               
+
                                                                         </ul>
 
                                                                     </li>
-                                                                   <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">Sugar CRM</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">Sugar CRM</a></li>
+                                                                  
                                                                     <!--  <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi">Business Intelligence</a></li> -->
 
                                                                 </ul>
@@ -450,7 +557,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">Application Maintenance & Support</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing Services</a></li>
-                                                                   
+                                                                      <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/business-intelligence-services">Business Intelligence Services</a></li>
                                                                 </ul>
                                                             </div>
                                                             <div class="col-md-3 col-md-3V2">
@@ -506,7 +613,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="clearfix">&nbsp;</div>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
                 <a href="#" id="back_to_top" class="back-to-top-position-right"><i class="fa fa-angle-up"></i></a>
-                <div id="Contactfeedback" class="ETcallout"><a href=""  data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a> </div>
+                <div id="Contactfeedback" class="ETcallout"><a href="" data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a> </div>
                 <div id="socialicon">
                     <!-- <ul>
                         <li class="hvr-wobble-to-top-right">
@@ -573,9 +680,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             <option value="16">CCT (Copy Company Tool)</option>
                                             <option value="17">SharePoint</option>
                                             <option value="18">Microsoft Technologies - .Net & SQL Server</option>
-                                                 <option value="21">Application Maintenance & Support</option>
-                                               <option value="22">Microsoft Dynamics</option>
-                                             <option value="23">Sugar CRM</option>
+                                            <option value="21">Application Maintenance & Support</option>
+                                            <option value="22">Microsoft Dynamics</option>
+                                            <option value="23">Sugar CRM</option>
+                                            <option value="24">Business Intelligence Services</option>
                                         </select>
                                         <span class="validator" id="reqddlservices" hidden="hidden" style="font-size: 13px;">Select the Services</span>
                                     </div>
@@ -588,7 +696,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <input type="text"  onkeypress="return checkdomainemail();" placeholder="*Your official Email Address" id="txtEmail" class="write-to-us-input" />
+                                        <input type="text" onkeypress="return checkdomainemail();" placeholder="*Your official Email Address" id="txtEmail" class="write-to-us-input" />
                                         <span class="validator" id="reqemail" hidden="hidden" style="font-size: 13px;">Enter Your Email Address</span>
                                         <span class="validator" style="font-size: 13px;" id="valemail" hidden="hidden">Enter Valid Email Address</span>
                                         <span class="validator" style="font-size: 13px;" id="domainemail" hidden="hidden">Enter Valid Official Address</span>
@@ -613,7 +721,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <span class="validator" id="reqMessage" hidden="hidden" style="font-size: 13px;">Enter Your Message</span>
                                     </div>
                                 </div>
-                                 <div class="row">
+                                <div class="row">
                                     <div class="col-md-9">
                                         <div class="clearfix"></div>
                                         <span class="showErrorMsg" style="color: red"></span>
@@ -622,7 +730,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             <div class="g-recaptcha" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn"></div>
                                         </div>
                                     </div>
-                            
+
                                     <div class="col-md-3">
                                         <input type="button" id="btnContactUs" class="submit-button" data-loading-text="Submitting.." value="Submit" />
                                     </div>
@@ -821,13 +929,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <li data-target="#myCarousel1" data-slide-to="1"></li>
                                         <li data-target="#myCarousel1" data-slide-to="2"></li>
                                     </ol>--%>
-                                        <div class="carousel-inner" role="listbox" style="width: 200px; margin: auto;"  aria-label="carousel-inner">
+                                        <div class="carousel-inner" role="listbox" style="width: 200px; margin: auto;" aria-label="carousel-inner">
                                             <%-- <div class="item active">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-recognised-as-top-consultant-germany">
                                                 <img src="<%=rootpath %>Assets/images/RheinBrücke-TopConsultant-Award.jpg"  loading="lazy"  alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>--%>
-                                            <div class="item active"  role="option" aria-selected="true" aria-roledescription="slide">
+                                            <div class="item active" role="option" aria-selected="true" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
                                                     <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg"  loading="lazy"  alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
@@ -976,7 +1084,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-61074754-1', 'auto');
@@ -988,16 +1096,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script type='text/javascript'>
         var _vwo_code = (function () {
             var account_id = 292694,
-            settings_tolerance = 2000,
-            library_tolerance = 2500,
-            use_existing_jquery = false,
-            /* DO NOT EDIT BELOW THIS LINE */
-            f = false, d = document; return { use_existing_jquery: function () { return use_existing_jquery; }, library_tolerance: function () { return library_tolerance; }, finish: function () { if (!f) { f = true; var a = d.getElementById('_vis_opt_path_hides'); if (a) a.parentNode.removeChild(a); } }, finished: function () { return f; }, load: function (a) { var b = d.createElement('script'); b.src = a; b.type = 'text/javascript'; b.innerText; b.onerror = function () { _vwo_code.finish(); }; d.getElementsByTagName('head')[0].appendChild(b); }, init: function () { settings_timer = setTimeout('_vwo_code.finish()', settings_tolerance); var a = d.createElement('style'), b = 'body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}', h = d.getElementsByTagName('head')[0]; a.setAttribute('id', '_vis_opt_path_hides'); a.setAttribute('type', 'text/css'); if (a.styleSheet) a.styleSheet.cssText = b; else a.appendChild(d.createTextNode(b)); h.appendChild(a); this.load('//dev.visualwebsiteoptimizer.com/j.php?a=' + account_id + '&u=' + encodeURIComponent(d.URL) + '&r=' + Math.random()); return settings_timer; } };
+                settings_tolerance = 2000,
+                library_tolerance = 2500,
+                use_existing_jquery = false,
+                /* DO NOT EDIT BELOW THIS LINE */
+                f = false, d = document; return { use_existing_jquery: function () { return use_existing_jquery; }, library_tolerance: function () { return library_tolerance; }, finish: function () { if (!f) { f = true; var a = d.getElementById('_vis_opt_path_hides'); if (a) a.parentNode.removeChild(a); } }, finished: function () { return f; }, load: function (a) { var b = d.createElement('script'); b.src = a; b.type = 'text/javascript'; b.innerText; b.onerror = function () { _vwo_code.finish(); }; d.getElementsByTagName('head')[0].appendChild(b); }, init: function () { settings_timer = setTimeout('_vwo_code.finish()', settings_tolerance); var a = d.createElement('style'), b = 'body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}', h = d.getElementsByTagName('head')[0]; a.setAttribute('id', '_vis_opt_path_hides'); a.setAttribute('type', 'text/css'); if (a.styleSheet) a.styleSheet.cssText = b; else a.appendChild(d.createTextNode(b)); h.appendChild(a); this.load('//dev.visualwebsiteoptimizer.com/j.php?a=' + account_id + '&u=' + encodeURIComponent(d.URL) + '&r=' + Math.random()); return settings_timer; } };
         }()); _vwo_settings_timer = _vwo_code.init();
     </script>
     <noscript>
-        <div style="display:inline;">
-            <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955726328/?guid=ON&amp;script=0"  loading="lazy" />
+        <div style="display: inline;">
+            <img height="1" width="1" style="border-style: none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955726328/?guid=ON&amp;script=0" loading="lazy"/>
         </div>
     </noscript>
     <div id="myoffers" class="modal fade" role="dialog">
@@ -1017,7 +1125,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </body>
 
 <%: Scripts.Render("~/assets/jsmin")%>
-<asp:contentplaceholder runat="server" id="FooterScript" />
+<asp:ContentPlaceHolder runat="server" ID="FooterScript" />
 
 <script type="text/javascript" src="https://en.rheincs.com/Assests/js/jquery-2.1.1.min.js"></script>
 <script src="https://en.rheincs.com/Assets/js/bxSlider.js" defer></script>
@@ -1198,12 +1306,8 @@ s0.parentNode.insertBefore(s1,s0);
                         </span>
                     </p>
                 </p>
-
             </div>
-
-
         </div>
     </div>
-
 </div>
 </html>

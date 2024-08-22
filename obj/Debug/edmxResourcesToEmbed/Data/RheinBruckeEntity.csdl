@@ -47,7 +47,7 @@
     <NavigationProperty Name="EmailType" Relationship="RheinBruckeDevModel.FK__EmailRequ__Email__15502E78" FromRole="EmailRequest" ToRole="EmailType" />
     <NavigationProperty Name="EmailType1" Relationship="RheinBruckeDevModel.FK__EmailRequ__Email__300424B4" FromRole="EmailRequest" ToRole="EmailType" />
     <NavigationProperty Name="EmailType2" Relationship="RheinBruckeDevModel.FK__EmailRequ__Email__35BCFE0A" FromRole="EmailRequest" ToRole="EmailType" />
-    <Property Name="Companyname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Companyname" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
   </EntityType>
   <EntityType Name="EmailType">
     <Key>
@@ -242,19 +242,19 @@
     <Key>
       <PropertyRef Name="NewsID" />
     </Key>
-    <Property Name="NewsID" Type="Int32" Nullable="false" />
-    <Property Name="Title" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
-    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-    <Property Name="ThumbnailImage" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
-    <Property Name="NewsImage" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
-    <Property Name="MetaTagDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-    <Property Name="MetaTagKeyword" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
-    <Property Name="NewsEventsDate" Type="DateTime" Precision="3" />
+    <Property Name="NewsID" Nullable="false" Type="Int32" />
+    <Property Name="Title" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="ThumbnailImage" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="NewsImage" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="MetaTagDescription" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="MetaTagKeyword" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="NewsEventsDate" Precision="3" Type="DateTime" />
     <Property Name="Status" Type="Boolean" />
-    <Property Name="CreatedOn" Type="DateTime" Precision="3" />
-    <Property Name="UrlDetails" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-    <Property Name="DetailedDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-    <Property Name="BannerImage" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedOn" Precision="3" Type="DateTime" />
+    <Property Name="UrlDetails" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="DetailedDescription" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="BannerImage" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
   </EntityType>
   <EntityType Name="FactSheet">
     <Key>
