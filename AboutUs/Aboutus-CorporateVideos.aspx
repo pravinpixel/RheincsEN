@@ -68,7 +68,7 @@
 
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="Fh6P6teEH3c" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/Fh6P6teEH3c/0.jpg" alt="RheinBrücke IT Consulting gewinnt bei den German Stevie Awards 2015" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
+                            <img src="https://img.youtube.com/vi/Fh6P6teEH3c/0.jpg"  loading="lazy" alt="RheinBrücke IT Consulting gewinnt bei den German Stevie Awards 2015" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
                             <div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
                             </div>
@@ -152,7 +152,7 @@
 
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal10" data-videoid="B-XFRUeSlUs" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/B-XFRUeSlUs/0.jpg" alt="RheinBrücke – Customer Reference by Martin Peters" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                            <img src="https://img.youtube.com/vi/B-XFRUeSlUs/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Martin Peters" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
                             </div>
                         </a>
@@ -188,7 +188,7 @@
 
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal11" data-videoid="yvtX2yqWxVg" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/yvtX2yqWxVg/0.jpg" alt="RheinBrücke – Customer Reference by Dr. Schrettl" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                            <img src="https://img.youtube.com/vi/yvtX2yqWxVg/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Dr. Schrettl" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
                             </div>
                         </a>
@@ -226,7 +226,7 @@
 
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal81" data-videoid="MmXOpBXQdZM" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/MmXOpBXQdZM/0.jpg" alt="RheinBrücke – Customer Reference by Greg Bryan" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
+                            <img src="https://img.youtube.com/vi/MmXOpBXQdZM/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Greg Bryan" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
                             <div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
                             </div>

@@ -22,11 +22,11 @@ namespace RheinBrucke
             rootpath = Page.ResolveUrl("~/");
             if (Request.Browser.IsMobileDevice)
             {
-                cssload = string.Format("<script type=\"text/javascript\">load_css_async('{0}assets/css/rheincs.min.css')</script>", rootpath);
+                cssload = string.Format("<script type=\"text/javascript\" >load_css_async('{0}assets/css/rheincs.min.css')</script>", rootpath);
             }
             else
             {
-                cssload = string.Format("<script type=\"text/javascript\">load_css_async('{0}assets/css/rheincs.min.css')</script>", rootpath);
+                cssload = string.Format("<script type=\"text/javascript\" >load_css_async('{0}assets/css/rheincs.min.css')</script>", rootpath);
             }
             if (!Page.IsPostBack)
             {

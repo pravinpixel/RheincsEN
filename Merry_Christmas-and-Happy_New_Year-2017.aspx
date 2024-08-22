@@ -17,7 +17,7 @@
         <div class="row">
             <div class="text-center bannerLoader">
                 <%--<iframe width="100%" frameborder="0" scrolling="auto" vspace="0" hspace="0" marginwidth="0" marginheight="0" height="550px" id="iframe_container" src="https://prezi.com/embed/NUlRT7hdq8uLl0f1kri9/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;" frameborder="0" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""></iframe>--%>
-                <iframe width="550" autoplay="1" height="400" src="https://prezi.com/view/NUlRT7hdq8uLl0f1kri9/embed/?autoplay=0" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe> 
+                <iframe width="550" autoplay="1" height="400"  loading="lazy" src="https://prezi.com/view/NUlRT7hdq8uLl0f1kri9/embed/?autoplay=0" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe> 
                 <%--<iframe src="https://prezi.com/view/NUlRT7hdq8uLl0f1kri9/embed?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined&amp;" width="375" height=300" frameBorder="0" webkitAllowFullScreen mozAllowFullscreen allowfullscreen></iframe>--%>
             </div>
         </div>

@@ -13,15 +13,15 @@ namespace RheinBrucke
         {
             bundles.IgnoreList.Clear();
             bundles.UseCdn = true;
-           bundles.Add(new ScriptBundle("~/bundles/WebFormsJs").Include(
-                  "~/Scripts/WebForms/WebForms.js",
-                  "~/Scripts/WebForms/WebUIValidation.js",
-                  "~/Scripts/WebForms/MenuStandards.js",
-                  "~/Scripts/WebForms/Focus.js",
-                  "~/Scripts/WebForms/GridView.js",
-                  "~/Scripts/WebForms/DetailsView.js",
-                  "~/Scripts/WebForms/TreeView.js",
-                  "~/Scripts/WebForms/WebParts.js"));
+            bundles.Add(new ScriptBundle("~/bundles/WebFormsJs").Include(
+                   "~/Scripts/WebForms/WebForms.js",
+                   "~/Scripts/WebForms/WebUIValidation.js",
+                   "~/Scripts/WebForms/MenuStandards.js",
+                   "~/Scripts/WebForms/Focus.js",
+                   "~/Scripts/WebForms/GridView.js",
+                   "~/Scripts/WebForms/DetailsView.js",
+                   "~/Scripts/WebForms/TreeView.js",
+                   "~/Scripts/WebForms/WebParts.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/MsAjaxJs").Include(
                 "~/Scripts/WebForms/MsAjax/MicrosoftAjax.js",
@@ -48,6 +48,8 @@ namespace RheinBrucke
 
             bundles.Add(new ScriptBundle("~/assets/jsmin").Include(
                 "~/Assets/js/rheincs.min.js"));
+            bundles.UseCdn = true; // Enable CDN support if using a CDN
+            BundleTable.EnableOptimizations = true; // Enable bundling and minification
             bundles.Add(new StyleBundle("~/assets/css").Include(
                  "~/assets/css/bootstrap-min.css",
     "~/assets/css/font-awesome.css",

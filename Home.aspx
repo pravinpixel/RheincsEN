@@ -6,7 +6,7 @@
     <meta name="Description" content="RheinBrücke: Your trusted partner for seamless Cloud ERP implementation. Unlock efficiency and elevate your business." />
     <meta name="google-site-verification" content="wupPtb2f4IkwIZlJw_WfkxpZCBAcL70quHa_rVemK0U" />
 
-    <script type="application/ld+json">
+    <script type="application/ld+json" defer>
 {
   "@context": "http://schema.org",
   "@type": "WebSite",
@@ -15,7 +15,7 @@
   "url": "https://www.rheincs.com"
 }
     </script>
-    <script type="application/ld+json">
+    <script type="application/ld+json" defer>
 {
   "@context": "http://schema.org",
   "@type": "Organization",
@@ -50,7 +50,7 @@
                 <div class="carousel-inner" role="listbox" aria-label="carousel-inner">
  
                     <div class="item active"role="option" aria-selected="true" aria-roledescription="slide">
-                        <img src="Assets/images/banner-2.jpg" alt="Home-Banner2" class="img-responsive" /><div class="container">
+                        <img src="Assets/images/banner-2.jpg" alt="Home-Banner2" class="img-responsive"  loading="lazy" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-banner-heading-bg pull-right"><span class="rhein-banner-heading">RheinBrücke</span></div>
                                 <div class="rhein-banner-heading-black-bg pull-right"><span class="rhein-banner-heading-black">Enabling businesses to overcome obstacles and navigate uncharted waters.</span></div>
@@ -63,7 +63,7 @@
                         </div>
                     </div>
                     <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                        <img src="Assets/images/banner-3.jpg" alt="Home-Banner3" class="img-responsive" /><div class="container">
+                        <img src="Assets/images/banner-3.jpg" alt="Home-Banner3" class="img-responsive"  loading="lazy" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-banner-heading-bg pull-right"><span class="rhein-banner-heading">RheinBrücke</span></div>
                                 <div class="rhein-banner-heading-black-bg pull-right"><span class="rhein-banner-heading-black">Enabling businesses to stay ahead in a fast paced world of opportunity.</span></div>
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                     <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                        <img src="Assets/images/banner-4.jpg" alt="Home-Banner4" class="img-responsive" /><div class="container">
+                        <img src="Assets/images/banner-4.jpg" alt="Home-Banner4" class="img-responsive"  loading="lazy" /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <img src="Assets/images/ms-gold-silver-logo.jpg" class="banner-ms-logo img-responsive hidden-xs" alt="gold-silver-logo" /><div class="rhein-banner-heading-bg pull-right"><span class="rhein-banner-heading">RheinBrücke</span></div>
                                 <div class="rhein-banner-heading-black-bg pull-right"><span class="rhein-banner-heading-black">Building ERP Surround Intranet Portals on SharePoint,integrating SAP and Microsoft BI for a seamless information exchange and collaboration within your enterprise.</span></div>
@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                        <img src="Assets/images/banner-5.jpg" alt="Home-Banner5" class="img-responsive" /><div class="container">
+                        <img src="Assets/images/banner-5.jpg" alt="Home-Banner5" class="img-responsive" loading="lazy"  /><div class="container">
                             <div class="carousel-caption rhein-caption-text">
                                 <div class="rhein-banner-heading-bg pull-right"><span class="rhein-banner-heading">RheinBrücke</span></div>
                                 <div class="rhein-banner-heading-black-bg pull-right"><span class="rhein-banner-heading-black">Helping your enterprise migrate legacy and sunset technologies to newer platforms and solutions.</span></div>
@@ -218,7 +218,7 @@
 
                         <div class="video_thumb_box">
                             <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="Fh6P6teEH3c" data-videosite="youtube">
-                                <img src="https://img.youtube.com/vi/Fh6P6teEH3c/0.jpg" alt="RheinBrücke IT Consulting gewinnt bei den German Stevie Awards 2015" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
+                                <img src="https://img.youtube.com/vi/Fh6P6teEH3c/0.jpg"  loading="lazy" alt="RheinBrücke IT Consulting gewinnt bei den German Stevie Awards 2015" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
                                 <div class="thumb_play">
                                     <img src="../Assets/images/play.png" class="wpvl_playbutton" alt="play"/>
                                 </div>
@@ -257,7 +257,12 @@
 
                         <div class="video_thumb_box">
                             <a href="#" data-toggle="modal" data-target="#myModal18" data-videoid="C6sDlZCKIA4" data-videosite="youtube">
-                                <img src="https://img.youtube.com/vi/-t5b2gIdhyo/hqdefault.jpg" alt="RheinBrücke – Pinnacle Awards of Excellence 2016" class="video_lightbox_auto_anchor_image" alt="" /><div class="thumb_play">
+                                <img src="https://img.youtube.com/vi/-t5b2gIdhyo/hqdefault.jpg" alt="RheinBrücke – Pinnacle Awards of Excellence 2016" class="video_lightbox_auto_anchor_image" alt=""  loading="lazy"
+                                   srcset="https://img.youtube.com/vi/-t5b2gIdhyo/maxresdefault.jpg 1280w,
+             https://img.youtube.com/vi/-t5b2gIdhyo/sddefault.jpg 640w,
+             https://img.youtube.com/vi/-t5b2gIdhyo/hqdefault.jpg 480w"
+     sizes="(max-width: 640px) 100vw, 640px"
+                                 /><div class="thumb_play">
                                     <img src="../Assets/images/play.png" class="wpvl_playbutton" alt="play">
                                 </div>
                             </a>
@@ -279,7 +284,7 @@
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 </div>
                                 <div class="modal-body">
-                                    <iframe src="https://www.youtube.com/watch?v=-t5b2gIdhyo" style="width: 100%;" height="480" frameborder="no"></iframe>
+                                    <iframe src="https://www.youtube.com/watch?v=-t5b2gIdhyo"  loading="lazy" style="width: 100%;" height="480" frameborder="no"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -292,7 +297,7 @@
 
                         <div class="video_thumb_box">
                             <a href="#" data-toggle="modal" data-target="#myModal10" data-videoid="B-XFRUeSlUs" data-videosite="youtube">
-                                <img src="https://img.youtube.com/vi/B-XFRUeSlUs/0.jpg" alt="RheinBrücke – Customer Reference by Martin Peters" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                                <img src="https://img.youtube.com/vi/B-XFRUeSlUs/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Martin Peters" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
                                     <img src="../Assets/images/play.png" class="wpvl_playbutton" alt="play"/>
                                 </div>
                             </a>
@@ -330,7 +335,7 @@
 
                         <div class="video_thumb_box">
                             <a href="#" data-toggle="modal" data-target="#myModal11" data-videoid="yvtX2yqWxVg" data-videosite="youtube">
-                                <img src="https://img.youtube.com/vi/yvtX2yqWxVg/0.jpg" alt="RheinBrücke - Customer Reference by Dr. Schrettl" class="video_lightbox_auto_anchor_image ETvideo" /><div class="thumb_play">
+                                <img src="https://img.youtube.com/vi/yvtX2yqWxVg/0.jpg" loading="lazy"  alt="RheinBrücke - Customer Reference by Dr. Schrettl" class="video_lightbox_auto_anchor_image ETvideo" /><div class="thumb_play">
                                     <img src="../Assets/images/play.png" class="wpvl_playbutton" alt="play"/>
                                 </div>
                             </a>
@@ -368,7 +373,7 @@
 
                         <div class="video_thumb_box">
                             <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="MmXOpBXQdZM" data-videosite="youtube">
-                                <img src="https://img.youtube.com/vi/MmXOpBXQdZM/0.jpg" alt="RheinBrücke – Customer Reference by Greg Bryan" class="video_lightbox_auto_anchor_image ETvideo" />
+                                <img src="https://img.youtube.com/vi/MmXOpBXQdZM/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Greg Bryan" class="video_lightbox_auto_anchor_image ETvideo" />
                                 <div class="thumb_play">
                                     <img src="../Assets/images/play.png" class="wpvl_playbutton" alt="play" />
                                 </div>
@@ -449,8 +454,8 @@
     </div>
     </div>--%>
     <!--Eof Gitex image-->
-    <script type="text/javascript" src="Assets/js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript">
+    <script type="text/javascript" src="Assets/js/jquery-2.1.1.min.js" defer></script>
+    <script type="text/javascript" defer>
 
         $(document).ready(function () {
             var Count = 0;
@@ -476,5 +481,5 @@
     </script>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="FooterScript" runat="server">
-    <script type="text/javascript">function autoPlayYouTubeModal() { var trigger = $("body").find('[data-toggle="modal"]'); trigger.click(function () { var theModal = $(this).data("target"), videoSRC = $(this).attr("data-videoid"), videoSRCauto = "https://www.youtube.com/embed/" + videoSRC + "?rel=0&amp;autoplay=0"; $(theModal + ' iframe').attr('src', videoSRCauto); $(theModal + ' button.close').click(function () { $(theModal + ' iframe').attr('src', videoSRC); }); }); } $(document).ready(function () { autoPlayYouTubeModal(); }); </script>
+    <script type="text/javascript" defer>function autoPlayYouTubeModal() { var trigger = $("body").find('[data-toggle="modal"]'); trigger.click(function () { var theModal = $(this).data("target"), videoSRC = $(this).attr("data-videoid"), videoSRCauto = "https://www.youtube.com/embed/" + videoSRC + "?rel=0&amp;autoplay=0"; $(theModal + ' iframe').attr('src', videoSRCauto); $(theModal + ' button.close').click(function () { $(theModal + ' iframe').attr('src', videoSRC); }); }); } $(document).ready(function () { autoPlayYouTubeModal(); }); </script>
 </asp:Content>

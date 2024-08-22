@@ -41,7 +41,7 @@ You can get Magnific Popup JS and CSS file from the <a href="#mfp-build-tool" cl
 
 {% highlight html %}
 <!-- Magnific Popup core CSS file -->
-<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+<link rel="stylesheet" href="magnific-popup/magnific-popup.css" media="print" onload="this.media='all'">
 
 <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

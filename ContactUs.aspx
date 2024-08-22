@@ -123,7 +123,7 @@
                 <img src="Assets/images/Rheinbrucke-map-location.jpg" alt="RheinBrücke Locations" class="center-block img-responsive" />
             </div>
             <div class="col-md-12 hidden-xs hidden-sm hidden-md">
-                <iframe src="Assets/location-map/index.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
+                <iframe src="Assets/location-map/index.html" width="100%" height="500px" frameborder="0" scrolling="no" loading="lazy" ></iframe>
             </div>
             <div class="clearfix">&nbsp;</div>
             <!--locations-->

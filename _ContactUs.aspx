@@ -32,7 +32,7 @@
             <p>Thank you for your interest in RheinBrücke. Please contact us by either visiting our office at the locations provided or write to us for more information on how RheinBrücke can help you stay ahead of competition. For additional information on our IT consulting services, solutions or industry expertise, please visit the relevant pages on our website.</p>
             <div class="clearfix">&nbsp;</div>
             <div class="col-md-12">
-                <iframe src="Assets/location-map/index.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
+                <iframe src="Assets/location-map/index.html" width="100%" height="500px" frameborder="0" scrolling="no" loading="lazy" ></iframe>
             </div>
             <div class="clearfix">&nbsp;</div>
             <!--locations-->

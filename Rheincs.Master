@@ -26,7 +26,7 @@
 })(window, document, 'script', 'dataLayer', 'GTM-WHPH6XN');</script>--%>
     <!-- End Google Tag Manager -->
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-795585511"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-795585511" defer></script>
     <script>  window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-795585511'); </script>
     <!-- end of leadfeeder code -->
     <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
@@ -179,7 +179,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2XTG321QD3"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2XTG321QD3" defer></script>
     <script>   window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-2XTG321QD3'); </script>
 
 
@@ -824,54 +824,54 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <div class="carousel-inner" role="listbox" style="width: 200px; margin: auto;"  aria-label="carousel-inner">
                                             <%-- <div class="item active">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-recognised-as-top-consultant-germany">
-                                                <img src="<%=rootpath %>Assets/images/RheinBrücke-TopConsultant-Award.jpg" alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant" />
+                                                <img src="<%=rootpath %>Assets/images/RheinBrücke-TopConsultant-Award.jpg"  loading="lazy"  alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>--%>
                                             <div class="item active"  role="option" aria-selected="true" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
-                                                    <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg" alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg"  loading="lazy"  alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
 
                                             <div class="item " role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-epicor-international-partner-of-the-year">
-                                                    <img src="<%=rootpath %>Assets/images/Epicor-partner-2016.png" alt="RheinBrücke Epicor Internation Partner of the year 2016" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/Epicor-partner-2016.png"  loading="lazy"  alt="RheinBrücke Epicor Internation Partner of the year 2016" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
                                             <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/Vetri-IBA-silver-Stevies.png" alt="Vetri Maverick of the year" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/Vetri-IBA-silver-Stevies.png"  loading="lazy"  alt="Vetri Maverick of the year" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
                                             <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/Vetri-IBA-Stevies.png" alt="Vetri IT executive of the year" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/Vetri-IBA-Stevies.png"  loading="lazy"  alt="Vetri IT executive of the year" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
                                             <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png"  loading="lazy"  alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
                                             <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/Support-IBA-Stevies.png" alt="Bronze Stevie IBA winner support department" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/Support-IBA-Stevies.png"  loading="lazy"  alt="Bronze Stevie IBA winner support department" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
                                             <div class="item " role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png"  loading="lazy"  alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
                                             <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/HR-IBA-Stevies.png" alt="Bronze Stevie IBA winner HR department" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/HR-IBA-Stevies.png"  loading="lazy"  alt="Bronze Stevie IBA winner HR department" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
 
                                             <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
-                                                    <img src="<%=rootpath %>Assets/images/executiveoftheyear.jpg" alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/executiveoftheyear.jpg"  loading="lazy"  alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
 
@@ -997,7 +997,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </script>
     <noscript>
         <div style="display:inline;">
-            <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955726328/?guid=ON&amp;script=0" />
+            <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955726328/?guid=ON&amp;script=0"  loading="lazy" />
         </div>
     </noscript>
     <div id="myoffers" class="modal fade" role="dialog">
@@ -1007,7 +1007,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="modal-content">
                 <div class="modal-body small">
                     <a href="http://view.rheincs.com/Webinar-Top-ERP-Extensions-To-Improve-Your-IT-ROI?utm_source=Social_Media&utm_medium=Social_Media_RIC&utm_campaign=Webinar-Top-ERP-Extensions-To-Improve-Your-IT-ROI">
-                        <img src="https://www.rheincs.com/Assets/images/webinars/erp-extension.png" width="100%" style="object-fit: cover;">
+                        <img src="https://www.rheincs.com/Assets/images/webinars/erp-extension.png" width="100%"  loading="lazy"  style="object-fit: cover;">
                     </a>
                 </div>
             </div>

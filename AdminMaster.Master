@@ -171,15 +171,15 @@
 </body>
 <%: Scripts.Render("~/assets/jsmin")%>
 <asp:contentplaceholder runat="server" id="FooterScript" />
-<%--<link href="Assets/css/rheincs.min.css" rel="stylesheet" />--%>
- <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" />
-<link href="Assets/css/jquery.datatables.css" rel="stylesheet" />
-   <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.0/css/responsive.dataTables.min.css" />
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-<script src="Assets/js/bootstrap.min.js"></script>
-<script src="Assets/js/jquery.table2excel.js"></script>
-<script src="Assets/js/jquery.datatables.min.js"></script>
+<link rel="preload" href="Assets/css/rheincs.min.css" as="style" onload="this.rel='stylesheet'">
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"  media="print" onload="this.media='all'"/>
+<link href="Assets/css/jquery.datatables.css" rel="stylesheet"  media="print" onload="this.media='all'"/>
+   <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.0/css/responsive.dataTables.min.css"  media="print" onload="this.media='all'"/>
+    <script src="//code.jquery.com/jquery-1.10.2.js" defer></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js" defer></script>
+<script src="Assets/js/bootstrap.min.js" defer></script>
+<script src="Assets/js/jquery.table2excel.js" defer></script>
+<script src="Assets/js/jquery.datatables.min.js" defer></script>
 
 <script type="text/javascript">
     $(document).ready(function () {

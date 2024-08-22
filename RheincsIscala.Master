@@ -11,21 +11,21 @@
 <meta name="robots" content="noindex,nofollow" /> 
      <!-- CSS -->
     
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic|Montserrat:700,400|Varela+Round" />
-    <link href="Assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"  media="print" onload="this.media='all'"/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic|Montserrat:700,400|Varela+Round"  media="print" onload="this.media='all'"/>
+    <link href="Assets/css/font-awesome.min.css" rel="stylesheet"  media="print" onload="this.media='all'"/>
     <!-- Swipebox -->
-    <link href="Assets/Iscala/css/swipebox.css" rel="stylesheet" />
+    <link href="Assets/Iscala/css/swipebox.css" rel="stylesheet"  media="print" onload="this.media='all'"/>
     <!-- Animate CSS -->
-    <link href="Assets/Iscala/css/animate.min.css" rel="stylesheet" />
+    <link href="Assets/Iscala/css/animate.min.css" rel="stylesheet"  media="print" onload="this.media='all'"/>
     <!-- Custom CSS -->
-    <link href="Assets/Iscala/css/style-v2.css" rel="stylesheet" />
-    <link href="Assets/Iscala/css/style-responsive-v2.css" rel="stylesheet" />
-    <link href="Assets/Iscala/css/expandableGallery.css" rel="stylesheet" />
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
-    <link href="Assets/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="Assets/Iscala/css/multiselect.css" rel="stylesheet" />
-    <link href="Assets/Iscala/css/book.css" rel="stylesheet" />
+    <link href="Assets/Iscala/css/style-v2.css" rel="stylesheet"  media="print" onload="this.media='all'"/>
+    <link href="Assets/Iscala/css/style-responsive-v2.css" rel="stylesheet"  media="print" onload="this.media='all'"/>
+    <link href="Assets/Iscala/css/expandableGallery.css" rel="stylesheet"  media="print" onload="this.media='all'"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png"  media="print" onload="this.media='all'"/>
+    <link href="Assets/css/font-awesome.min.css" rel="stylesheet"  media="print" onload="this.media='all'"/>
+    <link href="Assets/Iscala/css/multiselect.css" rel="stylesheet"  media="print" onload="this.media='all'"/>
+    <link href="Assets/Iscala/css/book.css" rel="stylesheet"  media="print" onload="this.media='all'"/>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -319,7 +319,7 @@
   ga('send', 'pageview');
     </script>
      <!-- END OF GOOGLE ANALYTICS-->
-    <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-2XTG321QD3"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-2XTG321QD3'); </script>
+    <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-2XTG321QD3" defer></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-2XTG321QD3'); </script>
     <script src="../Assets/Iscala/js/mulitselectbootstrap.js"></script>
    <script type="text/javascript">
 $(function() {
