@@ -54,7 +54,7 @@ namespace RheinBrucke.Library
             System.Net.ServicePointManager.SecurityProtocol =
            SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
             message.To.Add(new MailAddress(mailObj.MailTo, ""));
-            message.Bcc.Add(new MailAddress("pravin@pixel-studios.com", "pravin"));
+            message.Bcc.Add(new MailAddress("marketing@rheincs.com", "Marketing"));
             message.From = new MailAddress(mailObj.MailFrom, "");
             message.Subject = mailObj.MailSubject;
             message.Body = mailObj.MailBody;
