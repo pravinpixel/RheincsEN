@@ -149,7 +149,7 @@ namespace RheinBrucke
             routes.MapPageRoute("distribution-industry-software", "solutions/erp-enterprise-solutions-and-services/Epicor/distribution-industry-software", "~/Solutions/EnterpriseServicesAndSolutions/EPICOR/Epicor-for-distribution.aspx");
             routes.MapPageRoute("microsoft-dynamics", "solutions/erp-enterprise-solutions-and-services/ms-dynamics", "~/Solutions/ITServicesAndSolutions/MicrosoftDynamics.aspx");
             routes.MapPageRoute("sugar-crm", "solutions/erp-enterprise-solutions-and-services/sugar-crm", "~/Solutions/ITServicesAndSolutions/SugarCRM.aspx");
-            routes.MapPageRoute("business-intelligence-services", "solutions/erp-enterprise-solutions-and-services/business-intelligence-services", "~/Solutions/ITServicesAndSolutions/BusinessIntelligenceService.aspx");
+           
 
             routes.MapPageRoute("microsoft-technologies", "solutions/it-services-and-solutions/microsoft-technologies", "~/Solutions/ITServicesAndSolutions/MicrosoftTechnologies/MicrosoftTechnologies.aspx");
             routes.MapPageRoute("consulting", "solutions/it-services-and-solutions/microsoft-technologies/consulting", "~/Solutions/ITServicesAndSolutions/MicrosoftTechnologies/Consulting.aspx");
@@ -159,8 +159,8 @@ namespace RheinBrucke
             routes.MapPageRoute("application-development", "solutions/it-services-and-solutions/microsoft-technologies/application-development-maintenance-services", "~/Solutions/ITServicesAndSolutions/MicrosoftTechnologies/ApplicationDevelopmentAndMaintenanceServices.aspx");
             routes.MapPageRoute("application-maintenance-and-support", "solutions/it-services-and-solutions/application-maintenance-and-support", "~/Solutions/ITServicesAndSolutions/ApplicationMaintenanceAndSupport.aspx");
             routes.MapPageRoute("testing-services", "solutions/it-services-and-solutions/testing-services", "~/Solutions/ITServicesAndSolutions/TestingServices.aspx");
+            routes.MapPageRoute("business-intelligence-services", "solutions/it-services-and-solutions/business-intelligence-services", "~/Solutions/ITServicesAndSolutions/BusinessIntelligenceService.aspx");
 
-            
             routes.MapPageRoute("small-businesses", "solutions/focused-solutions/small-businesses", "~/Solutions/FocusedSolutions/SmallBusiness.aspx");
             routes.MapPageRoute("mid-market-companies", "solutions/focused-solutions/mid-market-companies", "~/Solutions/FocusedSolutions/MidMarketCompanies.aspx");
             routes.MapPageRoute("enterprise", "solutions/focused-solutions/enterprise", "~/Solutions/FocusedSolutions/Enterprise.aspx");
