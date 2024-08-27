@@ -16,7 +16,7 @@
         <link href="../Assets/css/LandingStyleSheet.css" rel="stylesheet" />
         <link href="../Assets/css/media-q.css" rel="stylesheet" />
         <link rel="stylesheet" href="/Assets/css/easy-responsive-tabs.css">
-        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
         <%-- <script src="../Assets/js/jquery-2.1.1.min.js"></script>--%>
             <style>
                 ul.key-features {
@@ -63,7 +63,29 @@
                 pre {
                     background-color: #FFF;
                 }
-
+                .mb-t-1{
+                    position: absolute;
+                    top: 285px;
+                    left: -25px;
+                }
+                .mb-t-2{
+                    position: absolute;
+                    top: 145px;
+                    right: -17px;
+                }
+                .mb-t-3{
+                    position: absolute;
+                    top: -75px;
+                    left: -28px;
+                }
+                .mb-t-4{ 
+                    position: absolute;
+                    top: -215px;
+                    right: -20px;
+                 }
+                .mb-t-1, .mb-t-2, .mb-t-3, .mb-t-4{
+                    display: none;
+                }
                 @media only screen and (max-width:780px) {
                     .resp-tab-content {
                         padding: 10px 30px;
@@ -1169,6 +1191,12 @@
                     z-index: 99;
                     background-color: #fff;
                 }
+                .mobby-img{
+                        display: none;
+                    }
+                    .deskky-img{
+                        display: block;
+                    }
                 @media (max-width: 1300px){
                     .side-imgs{
                         width: 50%;
@@ -1281,6 +1309,15 @@
                     .r-advantage-img img{
                         width: auto;
                     }
+                    .mb-t-1, .mb-t-2, .mb-t-3, .mb-t-4{
+                        display: block;
+                    }
+                    .mobby-img{
+                        display: block;
+                    }
+                    .deskky-img{
+                        display: none;
+                    }
                 }
 
                 @media (max-width:980px) {
@@ -1380,9 +1417,10 @@
                     .main-banners-bnr{
                         background-position: center;
                     }
-                    #verticalTabs .resp-tabs-list {
+                    #verticalTabs .resp-tabs-list, .mb-t-4 br, .mb-t-2 br, .mb-t-3 br {
                         display: none;
                     }
+                    
                 }
 
                 @media (max-width:590px) {
@@ -1539,6 +1577,9 @@
                     .set-7 .img-boxer img {
                         max-width: 100%;
                     }
+                    .mb-t-4 br, .mb-t-2 br, .mb-t-3 br {
+                        display: none;
+                     }
                 }
 
 
@@ -2130,22 +2171,27 @@
                     <div class="r-advantage-img pt-20">
                         <div class="pnt-1">
                             <h4 class="common-topic"><b>Exceptional Performance</b></h4>
+                            <!-- <h4 class="common-topic mb-t-1"><b>Exceptional <br> Performance</b></h4> -->
                             <p class="common-para">Experience unparalleled speed and efficiency with our
                                 state-of-the-art technology and design capabilities.</p>
                         </div>
                         <div class="pnt-2">
                             <h4 class="common-topic"><b>Customized Solutions</b></h4>
+                            <!-- <h4 class="common-topic mb-t-2"><b>Customized <br> Solutions</b></h4> -->
                             <p class="common-para">Implement bespoke data models and solutions tailored precisely to
                                 your unique business requirements.</p>
                         </div>
-                        <img src="../../../Assets/images/infographic2.png" class="img-responsive center-block" />
+                        <img src="../../../Assets/images/infographic2.png" class="img-responsive center-block deskky-img" />
+                        <img src="../../../Assets/images/infographic-mobile.png" class="img-responsive center-block mobby-img" />
                         <div class="pnt-3">
                             <h4 class="common-topic"><b>End-to-End Support</b></h4>
+                            <!-- <h4 class="common-topic mb-t-3"><b>End-to-End <br> Support</b></h4> -->
                             <p class="common-para">Rely on our comprehensive services for seamless support throughout
                                 your entire data journey.</p>
                         </div>
                         <div class="pnt-4">
                             <h4 class="common-topic"><b>Industry Expertise</b></h4>
+                            <!-- <h4 class="common-topic mb-t-4"><b>Industry <br> Expertise</b></h4> -->
                             <p class="common-para">Utilize our deep knowledge and experience in your sector to address
                                 and overcome your specific challenges.</p>
                         </div>
