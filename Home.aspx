@@ -182,8 +182,8 @@
     </div>
     </div>--%>
     <!--Eof Gitex image-->
- <script type="text/javascript" src="Assets/js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript">
+    <script type="text/javascript" src="Assets/js/jquery-2.1.1.min.js" defer></script>
+    <script type="text/javascript" defer>
 
         $(document).ready(function () {
             var Count = 0;
