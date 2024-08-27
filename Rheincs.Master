@@ -158,8 +158,8 @@
     <script>
         load_css_async("/Assets/css/OverSheet.css");
     </script>
-    <%--
-    <link href="https://en.rheincs.com/Assets/css/bxSlider.css" rel="stylesheet" />--%>
+    
+    <link href="https://en.rheincs.com/Assets/css/bxSlider.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
     <%--
@@ -169,8 +169,8 @@
 
 
     <script> window.factors = window.factors || function () { this.q = []; var i = new CustomEvent("FACTORS_QUEUED_EVENT"), n = function (t, e) { this.q.push({ k: t, a: e }), window.dispatchEvent(i) }; return this.track = function (t, e, i) { n("track", arguments) }, this.init = function (t, e, i) { this.TOKEN = t, this.INIT_PARAMS = e, this.INIT_CALLBACK = i, window.dispatchEvent(new CustomEvent("FACTORS_INIT_EVENT")) }, this.reset = function () { n("reset", arguments) }, this.page = function (t, e) { n("page", arguments) }, this.updateEventProperties = function (t, e) { n("updateEventProperties", arguments) }, this.identify = function (t, e) { n("identify", arguments) }, this.addUserProperties = function (t) { n("addUserProperties", arguments) }, this.getUserId = function () { n("getUserId", arguments) }, this.call = function () { var t = { k: "", a: [] }; if (arguments && 1 <= arguments.length) { for (var e = 1; e < arguments.length; e++) t.a.push(arguments[e]); t.k = arguments[0] } this.q.push(t), window.dispatchEvent(i) }, this.init("yyq3qwq23c7r4rq7o5refttcg39ju39m"), this }(), function () { var t = document.createElement("script"); t.type = "text/javascript", t.src = "https://app.factors.ai/assets/v1/factors.js", t.async = !0, d = document.getElementsByTagName("script")[0], d.parentNode.insertBefore(t, d) }(); </script>
-    
-     <script type="application/ld+json">
+
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -270,7 +270,7 @@
     }
   ]
 }
-</script>
+    </script>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -384,7 +384,7 @@
                                 </ul>
                             </li>
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/sugar-crm" class="Level3-menu ETMenu"><span>Sugar CRM</span></a></li>
-                           
+
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering" class="Level3-menu ETMenu"><span>Epicor Support+</span></a></li>
                             <!--<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi" class="Level3-menu ETMenu"><span>Business Intelligence</span></a></li>-->
                         </ul>
@@ -395,7 +395,7 @@
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies" class="Level3-menu ETMenu"><span>Microsoft Technologies</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support" class="Level3-menu ETMenu"><span>Application Maintenance & Support</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services" class="Level3-menu ETMenu"><span>Testing Services</span></a></li>
-                             <%--<li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>--%>
+                            <%-- <li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>--%>
                         </ul>
                     </li>
                     <li>
@@ -545,7 +545,7 @@
 
                                                                     </li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">Sugar CRM</a></li>
-                                                                  
+
                                                                     <!--  <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi">Business Intelligence</a></li> -->
 
                                                                 </ul>
@@ -557,7 +557,7 @@
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">Application Maintenance & Support</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing Services</a></li>
-                                                                     <%-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>--%>
+                                                                    <%--  <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>--%>
                                                                 </ul>
                                                             </div>
                                                             <div class="col-md-3 col-md-3V2">
@@ -937,49 +937,49 @@
                                         </div>--%>
                                             <div class="item active" role="option" aria-selected="true" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
-                                                    <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg"  loading="lazy"  alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg" loading="lazy" alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
 
                                             <div class="item " role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-epicor-international-partner-of-the-year">
-                                                    <img src="<%=rootpath %>Assets/images/Epicor-partner-2016.png"  loading="lazy"  alt="RheinBrücke Epicor Internation Partner of the year 2016" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/Epicor-partner-2016.png" loading="lazy" alt="RheinBrücke Epicor Internation Partner of the year 2016" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
                                             <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/Vetri-IBA-silver-Stevies.png"  loading="lazy"  alt="Vetri Maverick of the year" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/Vetri-IBA-silver-Stevies.png" loading="lazy" alt="Vetri Maverick of the year" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
                                             <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/Vetri-IBA-Stevies.png"  loading="lazy"  alt="Vetri IT executive of the year" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/Vetri-IBA-Stevies.png" loading="lazy" alt="Vetri IT executive of the year" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
                                             <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png"  loading="lazy"  alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" loading="lazy" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
                                             <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/Support-IBA-Stevies.png"  loading="lazy"  alt="Bronze Stevie IBA winner support department" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/Support-IBA-Stevies.png" loading="lazy" alt="Bronze Stevie IBA winner support department" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
                                             <div class="item " role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png"  loading="lazy"  alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" loading="lazy" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
                                             <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/HR-IBA-Stevies.png"  loading="lazy"  alt="Bronze Stevie IBA winner HR department" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/HR-IBA-Stevies.png" loading="lazy" alt="Bronze Stevie IBA winner HR department" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
 
                                             <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                                 <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
-                                                    <img src="<%=rootpath %>Assets/images/executiveoftheyear.jpg"  loading="lazy"  alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
+                                                    <img src="<%=rootpath %>Assets/images/executiveoftheyear.jpg" loading="lazy" alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
                                                 </a>
                                             </div>
 
@@ -1105,7 +1105,7 @@
     </script>
     <noscript>
         <div style="display: inline;">
-            <img height="1" width="1" style="border-style: none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955726328/?guid=ON&amp;script=0" loading="lazy"/>
+            <img height="1" width="1" style="border-style: none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955726328/?guid=ON&amp;script=0" loading="lazy" />
         </div>
     </noscript>
     <div id="myoffers" class="modal fade" role="dialog">
@@ -1115,7 +1115,7 @@
             <div class="modal-content">
                 <div class="modal-body small">
                     <a href="http://view.rheincs.com/Webinar-Top-ERP-Extensions-To-Improve-Your-IT-ROI?utm_source=Social_Media&utm_medium=Social_Media_RIC&utm_campaign=Webinar-Top-ERP-Extensions-To-Improve-Your-IT-ROI">
-                        <img src="https://www.rheincs.com/Assets/images/webinars/erp-extension.png" width="100%"  loading="lazy"  style="object-fit: cover;">
+                        <img src="https://www.rheincs.com/Assets/images/webinars/erp-extension.png" width="100%" loading="lazy" style="object-fit: cover;">
                     </a>
                 </div>
             </div>
@@ -1174,7 +1174,7 @@
 
         $("#twitter").attr("href", "https://twitter.com/intent/tweet?url=" + window.location.href + "");
         $("#facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + window.location.href + "");
-        $("#linkdin").attr("href", "https://www.linkedin.com/shareArticle?url=" + window.location.href + "");
+        $("#linkdin").attr("href", "http://www.linkedin.com/shareArticle?url=" + window.location.href + "");
         $("#GPlus").attr("href", "https://plus.google.com/share?url=" + window.location.href + "");
 
         $('.bxslider').bxSlider({

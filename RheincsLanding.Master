@@ -750,7 +750,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies" class="Level3-menu ETMenu"><span>Microsoft Technologies</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support" class="Level3-menu ETMenu"><span>Application Maintenance & Support</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services" class="Level3-menu ETMenu"><span>Testing Services</span></a></li>
-                             <%--  <li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>--%>
+                               <li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>
                         </ul>
                     </li>
                     <li>
@@ -909,7 +909,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">Application Maintenance & Support</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing Services</a></li>
+<<<<<<< HEAD
                                                                   <%--  <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>--%>
+=======
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>
+>>>>>>> parent of 631300e (08272024)
                                                                 </ul>
                                                             </div>
                                                             <div class="col-md-3 col-md-3V2">

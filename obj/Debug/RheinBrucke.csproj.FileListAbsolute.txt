@@ -42,3 +42,4 @@ E:\29. Rheincs Projects\RheincsEN\obj\Debug\RheinBrucke.csproj.CoreCompileInputs
 E:\29. Rheincs Projects\RheincsEN\obj\Debug\RheinBrucke.csproj.CopyComplete
 E:\29. Rheincs Projects\RheincsEN\obj\Debug\RheinBrucke.dll
 E:\29. Rheincs Projects\RheincsEN\obj\Debug\RheinBrucke.pdb
+E:\29. Rheincs Projects\RheincsEN\obj\Debug\RheinBrucke.csproj.AssemblyReference.cache
