@@ -286,7 +286,7 @@ fa-bars"></i></a>
                 <div class="col-md-3 no-padding ">
                     <div class="col-md-3">
                         <div class="mobile-multi-language">
-                            <a href="http://stgde.rheincs.net/" class="mobl-lang">DE</a>&nbsp;/&nbsp;<a
+                            <a href="https://stgde.rheincs.net/" class="mobl-lang">DE</a>&nbsp;/&nbsp;<a
                                 href="https://stg.rheincs.net/" class="mobl-lang">EN</a>
                         </div>
                     </div>
@@ -425,7 +425,7 @@ Services</span></a>
                             </div>
                         </div>
                         <div class="col-md-3 pull-right no-padd-right hidden-xs hidden-sm">
-                            <div class="pull-right multi-language"><a href="http://stgde.rheincs.net" class="white-color">DE</a>&nbsp;/&nbsp;<a href="https://stg.rheincs.net" class="white-color">EN</a></div>
+                            <div class="pull-right multi-language"><a href="https://stgde.rheincs.net" class="white-color">DE</a>&nbsp;/&nbsp;<a href="https://stg.rheincs.net" class="white-color">EN</a></div>
                         </div>
                     </div>
                 </div>
@@ -543,7 +543,7 @@ Services</span></a>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies/application-maintenance-and-support">Application Maintenance & Support</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies/testing-services">Testing Services</a></li>
-                                                                    <%-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>--%>
+                                                                 <%--    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>--%>
                                                                 </ul>
                                                             </div>
                                                             <div class="col-md-3 col-md-3V2">
@@ -562,7 +562,7 @@ Services</span></a>
                                         </li>
                                         <li class="dropdown"><a href="#" class="dropdown-toggle menuname" data-toggle="dropdown">Resources<span class="caret"></span></a>
                                             <ul class="dropdown-menu" role="menu">
-                                                <li class="menuname-small ETMenu"><a href="http://blog.rheincs.com"><span>Blog</span></a></li>
+                                                <li class="menuname-small ETMenu"><a href="https://blog.rheincs.com"><span>Blog</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>whitePapers/whitepapers"><span>White Papers</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>brochure/brochures"><span>Brochures</span></a></li>
                                                 <li class="menuname-small ETMenu"><a href="<%=rootpath %>factsheets/factsheets"><span>FactSheets</span></a></li>
@@ -962,7 +962,7 @@ alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" cl
         });
         $("#twitter").attr("href", "https://twitter.com/intent/tweet?url=" + window.location.href + "");
         $("#facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + window.location.href + "");
-        $("#linkdin").attr("href", "http://www.linkedin.com/shareArticle?url=" + window.location.href + "");
+        $("#linkdin").attr("href", "https://www.linkedin.com/shareArticle?url=" + window.location.href + "");
         $("#GPlus").attr("href", "https://plus.google.com/share?url=" + window.location.href + "");
         $('.bxslider').bxSlider({
             auto: true,
