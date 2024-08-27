@@ -24,14 +24,14 @@ namespace RheinBrucke.Solutions.ITServicesAndSolutions
             {
                 rootpath = Page.ResolveUrl("~/");
             }
-            if (!isRedirected)
-            {
-                isRedirected = true;
-                Response.Redirect("~/solutions/it-services-and-solutions/testing-services");
-            }
-            else{
-                isRedirected = false;
-            }
+            //if (!isRedirected)
+            //{
+            //    isRedirected = true;
+            //    Response.Redirect("~/solutions/it-services-and-solutions/testing-services");
+            //}
+            //else{
+            //    isRedirected = false;
+            //}
             // string url = Request.Url.ToString();
 
             // Normalize the URL
