@@ -145,15 +145,122 @@
         <div class="clearfix"></div>
         <br />
          
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="blackHeader padd-left-head">Driving Value for Customers Across Business Verticals</h2>
+                <div class="mainContent-normal contentdiv padd-left-content">RheinBrücke’s IT consulting services along with our expertise in technologies like mobile, cloud and big data help us provide custom solutions and offerings to address specific business needs. We have made a pronounced impact on multiple business verticals like automotive, discrete manufacturing, metal fabrication, EPC, oil & gas and medical device manufacture & distribution. We are driven by a strong desire to have a tangible impact on returns with our deep expertise, functional and technical knowledge. Enterprises who have partnered with us across the Americas, Continental Europe, the Middle East and Asia, have witnessed the creation of tangible value through the implementation of strategic IT business solutions.</div>
+            </div>
+            <div class="col-md-6">
+                <div class="row padd-bottom-10">
+                    <div class="col-md-4 col-sm-4 ">
+                        <div class="video_thumb_box">
+                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="IDrR7hiizhI" data-videosite="youtube">
+                                <img src="Assets/images/youtube/1.jpg" class="video_lightbox_auto_anchor_image ETvideo" alt="Corporate video" /><div class="thumb_play">
+                                    <img src="Assets/images/play.png" class="wpvl_playbutton" alt="Play Button" />
+                                </div>
+                            </a>
+                        </div>
+                        <br />
+                        <p class="contentSmall">
+                            <span class="video-thumbnail">RheinBrucke IT Consulting – Corporate video </span>
+                            <br />
+                            <a data-toggle="modal" data-target="#homeModalVideo" data-videoid="IDrR7hiizhI" data-videosite="youtube" class="video-class">Click to play video</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 ">
+                        <div class="video_thumb_box">
+                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="Fh6P6teEH3c" data-videosite="youtube">
+                                <img src="Assets/images/youtube/7.jpg" class="video_lightbox_auto_anchor_image ETvideo" alt="Reference by Greg Bryan" /><div class="thumb_play">
+                                    <img src="Assets/images/play.png" class="wpvl_playbutton" alt="Play Button" />
+                                </div>
+                            </a>
+                        </div>
+                        <br />
+                        <p class="contentSmall">
+                            <span class="video-thumbnail">RheinBrücke IT Consulting - Stevie Awards 2015 German</span>
+                            <br />
+                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="Fh6P6teEH3c" data-videosite="youtube" class="video-class">Click to play video</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 ">
+                        <div class="video_thumb_box">
+                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="C6sDlZCKIA4" data-videosite="youtube">
+                                <img src="Assets/images/youtube/3.jpg" class="video_lightbox_auto_anchor_image ETvideo" alt="Reference by Harry Hezel" /><div class="thumb_play">
+                                    <img src="Assets/images/play.png" class="wpvl_playbutton" alt="Play Button" />
+                                </div>
+                            </a>
+                        </div>
+                        <br />
+                        <p class="contentSmall">
+                            <span class="video-thumbnail">RheinBrücke – Customer Reference by Harry Hezel </span>
+                            <br />
+                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="C6sDlZCKIA4" data-videosite="youtube" class="video-class">Click to play video</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row padd-bottom-10">
+                    <div class="col-md-4 col-sm-4 ">
+                        <div class="video_thumb_box">
+                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="B-XFRUeSlUs" data-videosite="youtube">
+                                <img src="Assets/images/youtube/4.jpg" class="video_lightbox_auto_anchor_image ETvideo" alt="Reference by Martin Peters" /><div class="thumb_play">
+                                    <img src="Assets/images/play.png" class="wpvl_playbutton" alt="Play Button" />
+                                </div>
+                            </a>
+                        </div>
+                        <br />
+                        <p class="contentSmall">
+                            <span class="video-thumbnail">RheinBrücke – Customer Reference by Martin Peters </span>
+                            <br />
+                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="B-XFRUeSlUs" data-videosite="youtube" class="video-class">Click to play video</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 ">
+                        <div class="video_thumb_box">
+                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="yvtX2yqWxVg" data-videosite="youtube">
+                                <img src="Assets/images/youtube/5.jpg" class="video_lightbox_auto_anchor_image" alt="Reference by Dr. Schrettl" /><div class="thumb_play">
+                                    <img src="Assets/images/play.png" class="wpvl_playbutton" alt="Play Button" />
+                                </div>
+                            </a>
+                        </div>
+                        <br />
+                        <p class="contentSmall">
+                            <span class="video-thumbnail">RheinBrücke – Customer Reference by Dr. Schrettl </span>
+                            <br />
+                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="yvtX2yqWxVg" data-videosite="youtube" class="video-class">Click to play video</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 ">
+                        <div class="video_thumb_box">
+                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="MmXOpBXQdZM" data-videosite="youtube">
+                                <img src="Assets/images/youtube/2.jpg" class="video_lightbox_auto_anchor_image" alt="Reference by Greg Bryan" /><div class="thumb_play">
+                                    <img src="Assets/images/play.png" class="wpvl_playbutton" alt="Play Button" />
+                                </div>
+                            </a>
+                        </div>
+                        <br />
+                        <p class="contentSmall">
+                            <span class="video-thumbnail">RheinBrücke – Customer Reference by Greg Bryan</span>
+                            <br />
+                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="MmXOpBXQdZM" data-videosite="youtube" class="video-class">Click to play video</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row pull-right padd-right-20">
+                    <a href="about-us/corporate-videos">
+                        <h3 class="more-videos">Click here to view more videos
+                        </h3>
+                    </a>
+                </div>
+            </div>
+        </div>
         <div class="modal fade" id="homeModalVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header pad-bottom21">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     </div>
-                    <div class="modal-body  youtube-video" id="yt-player">
-                        <%--<iframe src="https://www.youtube.com/embed/TIIjLQps44U?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
-                        <embed src="https://www.youtube.com/v/TIIjLQps44U?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100% !important;" height="480"></embed>
+                    <div class="modal-body">
+                        <!--<iframe src="#" id="homeVideoIframe" style="width: 100%;" height="480" frameborder="no"></iframe>-->
                     </div>
                 </div>
             </div>
@@ -182,8 +289,8 @@
     </div>
     </div>--%>
     <!--Eof Gitex image-->
-    <script type="text/javascript" src="Assets/js/jquery-2.1.1.min.js" defer></script>
-    <script type="text/javascript" defer>
+     <script type="text/javascript" src="Assets/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
 
         $(document).ready(function () {
             var Count = 0;
@@ -209,5 +316,5 @@
     </script>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="FooterScript" runat="server">
-    <script type="text/javascript" defer>function autoPlayYouTubeModal() { var trigger = $("body").find('[data-toggle="modal"]'); trigger.click(function () { var theModal = $(this).data("target"), videoSRC = $(this).attr("data-videoid"), videoSRCauto = "https://www.youtube.com/embed/" + videoSRC + "?rel=0&amp;autoplay=0"; $(theModal + ' iframe').attr('src', videoSRCauto); $(theModal + ' button.close').click(function () { $(theModal + ' iframe').attr('src', videoSRC); }); }); } $(document).ready(function () { autoPlayYouTubeModal(); }); </script>
+    <script type="text/javascript">function autoPlayYouTubeModal() { var trigger = $("body").find('[data-toggle="modal"]'); trigger.click(function () { var theModal = $(this).data("target"), videoSRC = $(this).attr("data-videoid"), videoSRCauto = "https://www.youtube.com/embed/" + videoSRC + "?rel=0&amp;autoplay=0"; $(theModal + ' iframe').attr('src', videoSRCauto); $(theModal + ' button.close').click(function () { $(theModal + ' iframe').attr('src', videoSRC); }); }); } $(document).ready(function () { autoPlayYouTubeModal(); }); </script>
 </asp:Content>
