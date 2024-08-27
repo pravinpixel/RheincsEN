@@ -99,7 +99,7 @@ namespace  RheinBrucke
         private void CompressAndWriteScripts()
         {
             if (Builder == null) Builder = new StringBuilder();
-            var url = "http://www.google-analytics.com/analytics.js";
+            var url = "https://www.google-analytics.com/analytics.js";
 
             var textFromFile = (new WebClient()).DownloadString(url);
 

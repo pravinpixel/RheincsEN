@@ -204,12 +204,12 @@
    <ItemTemplate>
       <%# Eval("Title") %> <br />
       <object width="427" height="258">
-           <param name="movie" value="http://www.youtube.com/v/
+           <param name="movie" value="https://www.youtube.com/v/
 		<%# Eval("VideoId") %>"></param>
            <param name="allowFullScreen" value="true"></param>
            <param name="allowscriptaccess" value="always"></param>
            <param name="wmode" value="opaque"></param>
-           <embed src="http://www.youtube.com/v/<%# Eval("VideoId") %>?" type="application/x-shockwave-flash" width="427" height="258" allowscriptaccess="always" allowfullscreen="true" wmode="opaque"></embed>
+           <embed src="https://www.youtube.com/v/<%# Eval("VideoId") %>?" type="application/x-shockwave-flash" width="427" height="258" allowscriptaccess="always" allowfullscreen="true" wmode="opaque"></embed>
          </object>
    </ItemTemplate>
    <SeparatorTemplate>

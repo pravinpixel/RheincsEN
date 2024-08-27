@@ -35,14 +35,14 @@
             font-family: 'Raleway';
             font-style: normal;
             font-weight: 400;
-            src: local('Raleway'), url(http://fonts.gstatic.com/s/raleway/v9/IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
+            src: local('Raleway'), url(https://fonts.gstatic.com/s/raleway/v9/IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
         }
 
         @font-face {
             font-family: 'Raleway';
             font-style: normal;
             font-weight: 400;
-            src: local('Raleway'), url(http://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+            src: local('Raleway'), url(https://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
             unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
         }
 
@@ -85,7 +85,7 @@
         }
     </style>
     <script type="text/javascript">function load_css_async(filename) { var cb = function () { var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = filename; var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h); }; var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame; if (raf) raf(cb); else window.addEventListener('load', cb); }</script>
-    <%--<link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css" media=""/>--%> <%=cssload %>
+    <%--<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css" media=""/>--%> <%=cssload %>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>

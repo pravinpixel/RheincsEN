@@ -80,7 +80,7 @@
        
         $(".twitter").attr("href", "https://twitter.com/intent/tweet?url=" + window.location.href + document.location.hash + "");
         $(".facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + window.location.href + document.location.hash + "");
-        $(".linkdin").attr("href", "http://www.linkedin.com/shareArticle?url=" + window.location.href + document.location.hash + "");
+        $(".linkdin").attr("href", "https://www.linkedin.com/shareArticle?url=" + window.location.href + document.location.hash + "");
         $(".GPlus").attr("href", "https://plus.google.com/share?url=" + window.location.href + document.location.hash + "");
    </script>
 </html>
