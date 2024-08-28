@@ -151,99 +151,236 @@
                 <div class="mainContent-normal contentdiv padd-left-content">RheinBrücke’s IT consulting services along with our expertise in technologies like mobile, cloud and big data help us provide custom solutions and offerings to address specific business needs. We have made a pronounced impact on multiple business verticals like automotive, discrete manufacturing, metal fabrication, EPC, oil & gas and medical device manufacture & distribution. We are driven by a strong desire to have a tangible impact on returns with our deep expertise, functional and technical knowledge. Enterprises who have partnered with us across the Americas, Continental Europe, the Middle East and Asia, have witnessed the creation of tangible value through the implementation of strategic IT business solutions.</div>
             </div>
             <div class="col-md-6">
-                <div class="row padd-bottom-10">
-                    <div class="col-md-4 col-sm-4 ">
-                        <div class="video_thumb_box">
-                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="IDrR7hiizhI" data-videosite="youtube">
-                                <img src="Assets/images/youtube/1.jpg" class="video_lightbox_auto_anchor_image ETvideo" alt="Corporate video" /><div class="thumb_play">
-                                    <img src="Assets/images/play.png" class="wpvl_playbutton" alt="Play Button" />
-                                </div>
-                            </a>
-                        </div>
-                        <br />
-                        <p class="contentSmall">
-                            <span class="video-thumbnail">RheinBrucke IT Consulting – Corporate video </span>
-                            <br />
-                            <a data-toggle="modal" data-target="#homeModalVideo" data-videoid="IDrR7hiizhI" data-videosite="youtube" class="video-class">Click to play video</a>
-                        </p>
+                <div class="row padd-bottom-10"> 
+					
+					
+
+                <div class="col-md-4 col-sm-4">
+
+
+                    <div class="video_thumb_box">
+                        <a href="#" data-toggle="modal" data-target="#myModal7" data-videoid="IDrR7hiizhI" data-videosite="youtube">
+                            <img src="https://img.youtube.com/vi/IDrR7hiizhI/default.jpg" alt="RheinBrücke Corporate Video" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                                <img src="../Assets/images/play.png" alt="Play Logo" class="wpvl_playbutton" />
+                            </div>
+                        </a>
+
                     </div>
-                    <div class="col-md-4 col-sm-4 ">
-                        <div class="video_thumb_box">
-                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="Fh6P6teEH3c" data-videosite="youtube">
-                                <img src="Assets/images/youtube/7.jpg" class="video_lightbox_auto_anchor_image ETvideo" alt="Reference by Greg Bryan" /><div class="thumb_play">
-                                    <img src="Assets/images/play.png" class="wpvl_playbutton" alt="Play Button" />
-                                </div>
-                            </a>
-                        </div>
+
+                    <br />
+                    <p class="contentSmall">
+                        <span class="video-thumbnail">RheinBrucke IT Consulting – Corporate video
+                        </span>
                         <br />
-                        <p class="contentSmall">
-                            <span class="video-thumbnail">RheinBrücke IT Consulting - Stevie Awards 2015 German</span>
-                            <br />
-                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="Fh6P6teEH3c" data-videosite="youtube" class="video-class">Click to play video</a>
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 ">
-                        <div class="video_thumb_box">
-                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="C6sDlZCKIA4" data-videosite="youtube">
-                                <img src="Assets/images/youtube/3.jpg" class="video_lightbox_auto_anchor_image ETvideo" alt="Reference by Harry Hezel" /><div class="thumb_play">
-                                    <img src="Assets/images/play.png" class="wpvl_playbutton" alt="Play Button" />
-                                </div>
-                            </a>
+                        <a href="#" data-toggle="modal" data-target="#myModal7" data-videoid="IDrR7hiizhI" data-videosite="youtube" class="video-class">Click to play video</a>
+                    </p>
+
+                </div>
+
+                <!--- Modal For First Video-->
+                <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header pad-bottom21">
+                                <button type="button" onclick="javascript:window.location.reload()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <%--<iframe src="https://www.youtube.com/embed/IDrR7hiizhI?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
+                                <embed src="https://www.youtube.com/v/IDrR7hiizhI?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
+                            </div>
                         </div>
-                        <br />
-                        <p class="contentSmall">
-                            <span class="video-thumbnail">RheinBrücke – Customer Reference by Harry Hezel </span>
-                            <br />
-                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="C6sDlZCKIA4" data-videosite="youtube" class="video-class">Click to play video</a>
-                        </p>
                     </div>
                 </div>
+
+                <!-- End of Modal For First Video-->
+                <!-- Eof First Video-->
+                <!--Second Video-->					
+
+                <!--Second Video-->
+                <div class="col-md-4 col-sm-4">
+
+                    <div class="video_thumb_box">
+                        <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="Fh6P6teEH3c" data-videosite="youtube">
+                            <img src="https://img.youtube.com/vi/Fh6P6teEH3c/0.jpg"  loading="lazy" alt="RheinBrücke IT Consulting gewinnt bei den German Stevie Awards 2015" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
+                            <div class="thumb_play">
+                                <img src="../Assets/images/play.png" class="wpvl_playbutton" />
+                            </div>
+                        </a>
+                    </div>
+                    <br />
+
+
+                    <p class="contentSmall">
+                        <span class="video-thumbnail">RheinBrücke IT Consulting - Stevie Awards 2015 German
+                        </span>
+                        <br />
+                        <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="MmXOpBXQdZM" data-videosite="youtube" class="video-class">Click to play video</a>
+                    </p>
+
+                </div>
+                <!--- Modal For Second Video-->
+                <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header pad-bottom21">
+                                <button type="button" onclick="javascript:window.location.reload()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <%--<iframe src="https://www.youtube.com/embed/MmXOpBXQdZM?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
+                                <embed src="https://www.youtube.com/v/MmXOpBXQdZM?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End of Modal For Second Video-->
+                <!-- Eof Second Video--> 
+				
+                <div class="col-md-4 col-sm-4">
+                    <div class="video_thumb_box">
+                        <a href="#" data-toggle="modal" data-target="#myModal9" data-videoid="C6sDlZCKIA4" data-videosite="youtube">
+                            <img src="https://img.youtube.com/vi/C6sDlZCKIA4/0.jpg" alt="RheinBrücke – Customer Reference by Harry Hezel" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                                <img src="../Assets/images/play.png" class="wpvl_playbutton" />
+                            </div>
+                        </a>
+                    </div>
+                    <br />
+
+                    <p class="contentSmall">
+                        <span class="video-thumbnail">RheinBrücke – Customer Reference by Harry Hezel
+                        </span>
+                        <br />
+                        <a href="#" data-toggle="modal" data-target="#myModal9" data-videoid="C6sDlZCKIA4" data-videosite="youtube" class="video-class">Click to play video</a>
+                    </p>
+
+                </div>
+                <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header pad-bottom21">
+                                <button type="button" onclick="javascript:window.location.reload()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <%--<iframe src="https://www.youtube.com/embed/C6sDlZCKIA4?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
+                                <embed src="https://www.youtube.com/v/C6sDlZCKIA4?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+					
+					
+                </div>
+				
+				
                 <div class="row padd-bottom-10">
-                    <div class="col-md-4 col-sm-4 ">
-                        <div class="video_thumb_box">
-                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="B-XFRUeSlUs" data-videosite="youtube">
-                                <img src="Assets/images/youtube/4.jpg" class="video_lightbox_auto_anchor_image ETvideo" alt="Reference by Martin Peters" /><div class="thumb_play">
-                                    <img src="Assets/images/play.png" class="wpvl_playbutton" alt="Play Button" />
-                                </div>
-                            </a>
-                        </div>
-                        <br />
-                        <p class="contentSmall">
-                            <span class="video-thumbnail">RheinBrücke – Customer Reference by Martin Peters </span>
-                            <br />
-                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="B-XFRUeSlUs" data-videosite="youtube" class="video-class">Click to play video</a>
-                        </p>
+				
+
+                <!-- Fourth Video-->
+                <div class="col-md-4 col-sm-4">
+
+                    <div class="video_thumb_box">
+                        <a href="#" data-toggle="modal" data-target="#myModal10" data-videoid="B-XFRUeSlUs" data-videosite="youtube">
+                            <img src="https://img.youtube.com/vi/B-XFRUeSlUs/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Martin Peters" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                                <img src="../Assets/images/play.png" class="wpvl_playbutton" />
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-md-4 col-sm-4 ">
-                        <div class="video_thumb_box">
-                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="yvtX2yqWxVg" data-videosite="youtube">
-                                <img src="Assets/images/youtube/5.jpg" class="video_lightbox_auto_anchor_image" alt="Reference by Dr. Schrettl" /><div class="thumb_play">
-                                    <img src="Assets/images/play.png" class="wpvl_playbutton" alt="Play Button" />
-                                </div>
-                            </a>
-                        </div>
+                    <br />
+                    <p class="contentSmall">
+                        <span class="video-thumbnail">RheinBrücke – Customer Reference by Martin Peters
+                        </span>
                         <br />
-                        <p class="contentSmall">
-                            <span class="video-thumbnail">RheinBrücke – Customer Reference by Dr. Schrettl </span>
-                            <br />
-                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="yvtX2yqWxVg" data-videosite="youtube" class="video-class">Click to play video</a>
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 ">
-                        <div class="video_thumb_box">
-                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="MmXOpBXQdZM" data-videosite="youtube">
-                                <img src="Assets/images/youtube/2.jpg" class="video_lightbox_auto_anchor_image" alt="Reference by Greg Bryan" /><div class="thumb_play">
-                                    <img src="Assets/images/play.png" class="wpvl_playbutton" alt="Play Button" />
-                                </div>
-                            </a>
+                        <a href="#" data-toggle="modal" data-target="#myModal10" data-videoid="B-XFRUeSlUs" data-videosite="youtube" class="video-class">Click to play video</a>
+                    </p>
+
+                </div>
+                <!--- Modal For Fourth Video-->
+                <div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header pad-bottom21">
+                                <button type="button" onclick="javascript:window.location.reload()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <%--<iframe src="https://www.youtube.com/embed/B-XFRUeSlUs?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
+                                <embed src="https://www.youtube.com/v/B-XFRUeSlUs?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
+                            </div>
                         </div>
-                        <br />
-                        <p class="contentSmall">
-                            <span class="video-thumbnail">RheinBrücke – Customer Reference by Greg Bryan</span>
-                            <br />
-                            <a href="#" data-toggle="modal" data-target="#homeModalVideo" data-videoid="MmXOpBXQdZM" data-videosite="youtube" class="video-class">Click to play video</a>
-                        </p>
                     </div>
+                </div> 
+				
+
+                <div class="col-md-4 col-sm-4">
+
+                    <div class="video_thumb_box">
+                        <a href="#" data-toggle="modal" data-target="#myModal11" data-videoid="yvtX2yqWxVg" data-videosite="youtube">
+                            <img src="https://img.youtube.com/vi/yvtX2yqWxVg/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Dr. Schrettl" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                                <img src="../Assets/images/play.png" class="wpvl_playbutton" />
+                            </div>
+                        </a>
+                    </div>
+                    <br />
+
+
+                    <p class="contentSmall">
+                        <span class="video-thumbnail">RheinBrücke – Customer Reference by Dr. Schrettl
+                        </span>
+                        <br />
+                        <a href="#" data-toggle="modal" data-target="#myModal11" data-videoid="yvtX2yqWxVg" data-videosite="youtube" class="video-class">Click to play video</a>
+                    </p>
+
+                </div>
+                <!--- Modal For Fifth Video-->
+                <div class="modal fade" id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header pad-bottom21">
+                                <button type="button" onclick="javascript:window.location.reload()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <%--<iframe src="https://www.youtube.com/embed/yvtX2yqWxVg?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
+                                <embed src="https://www.youtube.com/v/yvtX2yqWxVg?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				
+                <div class="col-md-4 col-sm-4">
+
+                    <div class="video_thumb_box">
+                        <a href="#" data-toggle="modal" data-target="#myModal81" data-videoid="MmXOpBXQdZM" data-videosite="youtube">
+                            <img src="https://img.youtube.com/vi/MmXOpBXQdZM/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Greg Bryan" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
+                            <div class="thumb_play">
+                                <img src="../Assets/images/play.png" class="wpvl_playbutton" />
+                            </div>
+                        </a>
+                    </div>
+                    <br />
+
+
+                    <p class="contentSmall">
+                        <span class="video-thumbnail">RheinBrücke – Customer Reference by Greg Bryan
+                        </span>
+                        <br />
+                        <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="MmXOpBXQdZM" data-videosite="youtube" class="video-class">Click to play video</a>
+                    </p>
+
+                </div>
+                <!--- Modal For Sixth Video-->
+                <div class="modal fade" id="myModal81" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header pad-bottom21">
+                                <button type="button" onclick="javascript:window.location.reload()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <%--<iframe src="https://www.youtube.com/embed/MmXOpBXQdZM?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
+                                <embed src="https://www.youtube.com/v/MmXOpBXQdZM?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+				
                 </div>
                 <div class="row pull-right padd-right-20">
                     <a href="about-us/corporate-videos">
