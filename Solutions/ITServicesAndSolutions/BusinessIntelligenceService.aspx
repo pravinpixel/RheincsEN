@@ -3,7 +3,7 @@
     Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.BusinessIntelligenceServices" %>
 
     <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-        <meta name="keywords" content="ms dynamics erp solution" />
+        <meta name="keywords" content="business intelligence services" />
         <meta name="Description"
             content="Discover the power of Microsoft Dynamics ERP Solutions with Rheincs. Enhance efficiency, drive growth, and transform your business operations with our expert implementation and support services." />
     </asp:Content>
