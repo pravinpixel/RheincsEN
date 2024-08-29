@@ -1605,7 +1605,7 @@
                     <div class="row">
                         <ul class="breadcrumb bread hidden-xs hidden-sm">
                             <li><a href="<%=rootpath %>" class="redColor">Home <span>» </span></a></li>
-                            <li><a href="#" class="redColor">Enterprise Solutions (ERP) &amp; Services<span> »
+                            <li><a href="#" class="redColor">IT Services &amp; Solutions<span> »
                                     </span></a></li>
                             <li><a href="#" class="redColor">Business Intelligence Services</a></li>
 
