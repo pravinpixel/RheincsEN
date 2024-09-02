@@ -1874,13 +1874,13 @@
                     success: function (response) {
                         if (response == "success") {
                             onFormSubmit();
-                            $('#txtCompany').focus();
+                            $('#btndownload').focus();
                             $('.txtFirstName,.txtContactEmail,.txtPhone,.txtCompany').val('');
                             $('.showErrorMsg').text('Mail has been sent successfully!');
                             setTimeout(function () {
                                 $('.showErrorMsg').text('Click the above button to download the brochure!');
-                                $('#btnpdf').show();
-                                $('#btndownload').hide();
+                                $('#btnpdf').hide();
+                                $('#btndownload').show();
                             }, 5000);
                         }
                     }
