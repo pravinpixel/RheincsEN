@@ -34,7 +34,7 @@ Im Zollhafen 18<br />
 
 <p><b>Ansprechpartner:</b><br />
 Dirk Meinker <br />
-Telefon +49 221 – 65060608<br />
+Telefon +49 231 29295619<br />
 Mobil +49 173 88 16 765<br />
 Mail info@rheincs.com</p>
 
