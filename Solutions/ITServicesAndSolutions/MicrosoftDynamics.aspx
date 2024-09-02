@@ -1705,8 +1705,8 @@
             <div class="section-layer">
                 <div class="row form_section">
                     <div class="col-lg-6 col-md-8 co-sm-10 col-12  nopadding">
-                        <h2 class="common-topic pb-20 text-center">Get your free Consultation!</h2>
-                        <h3 class="text-center">Connect with us now</h3>
+                        <h2 class="common-topic pb-20 text-center">Download Brochure!</h2>
+                        <%--<h3 class="text-center">Connect with us now</h3>--%>
                         <form name="form" method="post" action="#" id="form3">
 
                             <div class="frm-fields clearfix">
@@ -1751,7 +1751,8 @@
                                 <br />
                                 <div class="form-box">
                                     <div class="form-data cnt clearfix">
-                                        <a href="#" id="btnpdf" class="btndownlaodBrochure">Get your free Consultation</a>
+                                         <a href="#" id="btnpdf" class="btndownlaodBrochure">Submit</a>
+                                          <a target="_blank" href="https://www.rheincs.com/assets/pdf/RIC-Brochure-Microsoft-Dynamics-ME.pdf" id="btndownload"  class="btndownlaodBrochure">Download Brochure</a>
                                     </div>
                                 </div>
                                 <div class="form-box">
@@ -1809,7 +1810,12 @@
     </script>
     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
     </script>
+
     <script type="text/javascript">
+        $(function () {
+            $('#btnpdf').show();
+            $('#btndownload').hide();
+        });
         function IsEmailValid(a) {
             if ("" == a) return !0; var e = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             return e.test(a)
@@ -1872,7 +1878,9 @@
                             $('.txtFirstName,.txtContactEmail,.txtPhone,.txtCompany').val('');
                             $('.showErrorMsg').text('Mail has been sent successfully!');
                             setTimeout(function () {
-                                $('.showErrorMsg').text('');
+                                $('.showErrorMsg').text('Click the above button to download the brochure!');
+                                $('#btnpdf').show();
+                                $('#btndownload').hide();
                             }, 5000);
                         }
                     }
