@@ -1881,7 +1881,7 @@
                                 $('.showErrorMsg').text('Click the above button to download the brochure!');
                                 $('#btnpdf').hide();
                                 $('#btndownload').show();
-                            }, 5000);
+                            }, 1000);
                         }
                     }
                 });
