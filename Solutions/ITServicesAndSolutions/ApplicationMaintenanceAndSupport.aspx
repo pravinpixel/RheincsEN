@@ -274,19 +274,19 @@
             </h1>
         </div>--%>
             <div class="row main-container">
-               
+
                 <%--  <p class="padd-bottom-10">
                 RheinBrücke provides SLA based application support services based on the ITIL framework. Our support personnel and robust process allow for a smooth transition of application support in optimum timelines and serve to stabilize services during the initial stages of steady state. Timely intervention and a strict focus on continuous improvement along with preventive maintenance ensures the delight of business users.
             </p>
                 --%>
                 <div class="col-md-12">
                     <div class="col-md-8">
-                         <p class="padd-bottom-10">
-                    RheinBrücke IT Consulting (RIC) offers a range of services such as ERP solutions and services, Software Development, Maintenance and Support, Project Management, Cloud and IT Infrastructure Support, Helpdesk with Managed Services, Business Intelligence, Data Warehousing and Data Analytics, etc. With our robust ITIL based approach and extensive global experience, we provide a unique proposition in providing strategic value and best in class services to prospective clients.    
-                </p>
-                <p class="padd-bottom-10">
-                    RIC’s support services are cost effective and optimizes IT functions. Some of the industries that have benefited from RIC’s services are Manufacturing, Supply Chain, EPC, Oil and Gas, Pharma, Retail and Distribution Enterprises. Our range of services and solutions can vary from Program and Project Management to ERP Solutions aligned with SAP, Microsoft Dynamics and EPICOR, Microsoft Solutions, Cloud and Mobility to Open Source Technology Solutions. We are also premium partner of EPICOR and a Microsoft Gold Competency partner for multiple competencies including Software Development and Data Analytics.    
-                </p>
+                        <p class="padd-bottom-10">
+                            RheinBrücke IT Consulting (RIC) offers a range of services such as ERP solutions and services, Software Development, Maintenance and Support, Project Management, Cloud and IT Infrastructure Support, Helpdesk with Managed Services, Business Intelligence, Data Warehousing and Data Analytics, etc. With our robust ITIL based approach and extensive global experience, we provide a unique proposition in providing strategic value and best in class services to prospective clients.    
+                        </p>
+                        <p class="padd-bottom-10">
+                            RIC’s support services are cost effective and optimizes IT functions. Some of the industries that have benefited from RIC’s services are Manufacturing, Supply Chain, EPC, Oil and Gas, Pharma, Retail and Distribution Enterprises. Our range of services and solutions can vary from Program and Project Management to ERP Solutions aligned with SAP, Microsoft Dynamics and EPICOR, Microsoft Solutions, Cloud and Mobility to Open Source Technology Solutions. We are also premium partner of EPICOR and a Microsoft Gold Competency partner for multiple competencies including Software Development and Data Analytics.    
+                        </p>
                         <h3 class="redColor">Services Provided: </h3>
                         <div style="text-align: justify">
                             <ul class="bulletContent-manufacturing cstmzed-lst">
@@ -326,7 +326,7 @@
                                 <tr>
                                     <td height="50px">
                                         <p style="color: #6d6d6d; margin-left: 0px; font-size: 13px !important; margin-top: 10px;">
-                                          Download RheinBrücke’s Application Maintenance & Support services document.
+                                            Download RheinBrücke’s Application Maintenance & Support services document.
                                         </p>
                                     </td>
                                 </tr>
@@ -337,7 +337,7 @@
                                                 <div class="input-group-addon">
                                                     <img src="/Landing/Images/name.png" />
                                                 </div>
-                                                <input type="text" class="form-control txtFirstName" placeholder="Full Name" name="first_name" />
+                                                <input type="text" class="form-control txtcFirstName" placeholder="Full Name" name="first_name" />
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -345,7 +345,7 @@
                                                 <div class="input-group-addon">
                                                     <img src="/Landing/Images/phone.png" />
                                                 </div>
-                                                <input type="text" class="form-control txtContactPhone" placeholder="Phone" name="mobile_number" />
+                                                <input type="text" class="form-control txtcContactPhone" placeholder="Phone" name="mobile_number" />
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -353,7 +353,7 @@
                                                 <div class="input-group-addon">
                                                     <img src="/Landing/Images/mail.png" />
                                                 </div>
-                                                <input type="text" class="form-control txtContactEmail" placeholder="Work E-mail" name="email_address"/>
+                                                <input type="text" class="form-control txtcContactEmail" placeholder="Work E-mail" name="email_address" />
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -361,17 +361,17 @@
                                                 <div class="input-group-addon">
                                                     <img src="/Landing/Images/office.png" />
                                                 </div>
-                                                <input type="text" class="form-control txtCompany" placeholder="Company" name="company_name"/>
+                                                <input type="text" class="form-control txtcCompany" placeholder="Company" name="company_name" />
                                             </div>
                                         </div>
 
                                     </td>
                                 </tr>
-                              
+
                                 <tr>
                                     <td>
-                                        <a href="#" id="btnpdf" class="submit-button">Submit</a>
-                                          <a target="_blank" href="https://www.rheincs.com/Assets2/BIRheincs-assets/pdf/RIC-Brochure-ADMS.pdf" id="btndownload"  class="submit-button">Download Brochure</a>
+                                        <input type="button" id="btnpdf" class="submit-button" value="Submit" />
+                                        <a target="_blank" href="https://www.rheincs.com/Assets2/BIRheincs-assets/pdf/RIC-Brochure-ADMS.pdf" id="btndownload" class="submit-button">Download Brochure</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -420,7 +420,7 @@
                     <p class="padd-bottom-10">With customers across 42 countries, we deeply understand your cultural industry specific needs. Some of our renowned clients include FLSmidth, Visteon, ZF-TRW, Novartis, and EPICOR Corporation to name a few. </p>
                 </div>
 
-                <div class="modal fade" id="myModal-contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <!--  <div class="modal fade" id="myModal-contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content mymodal-download">
                             <div class="modal-header modal-header-bgcolor">
@@ -470,7 +470,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
                 <div class="col-md-12">
@@ -520,33 +520,25 @@
                     </ul>
                 </div>
 
-                <p class="padd-top-20 redColor"><a data-toggle="modal" data-target="#myModal-contact" class="redColor ETAMS"><b><span class="bulcolor">For more information on our Application Maintenance & Support services,</span> please click here.</b></a></p>
+                <p class="padd-top-20 redColor"><a data-toggle="modal" data-target="#myModal-contactus" class="redColor ETAMS"><b><span class="bulcolor">For more information on our Application Maintenance & Support services,</span> please click here.</b></a></p>
             </div>
         </div>
     </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="FooterScript" runat="server">
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
-    </script>
+    <%-- <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
+    </script>--%>
     <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
     <script type="text/javascript">
-        var onloadCallback = function () {
-            grecaptcha.render('g_captcha', {
-                'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
-            });            
-        };
+        //var onloadCallback = function () {
+        //    grecaptcha.render('g_captcha', {
+        //        'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
+        //    });
+        //};
     </script>
-    
+
     <script type="text/javascript">
-        $(document).ready(function () {
-            $('#btnAMS').click(function () {
-                var r = AMSContactUsValidation();
-                if (r == 1) {
-                    $(this).button('loading');
-                    save();
-                }
-            });
-        });
+       
         function clear() {
             $("#reqAMSName,#reqAMSMobno").hide();
             $("#reqAMSemail").hide();
@@ -554,75 +546,13 @@
             $("#txtAMSName").val('');
             $("#txtAMSEmail,#txtAMSMobNo").val('');
         }
-        function AMSContactUsValidation() {
-            var name = $('#txtAMSName').val();
-            var email = $('#txtAMSEmail').val();
-            var mobno = $('#txtAMSMobNo').val();
-            var response = 1;
-
-            $("#reqAMSName").hide();
-            $("#reqAMSemail,#reqAMSMobno").hide();
-            $("#valAMSemail,#valAMSMobNo").hide();
-
-            if ($.trim(name) == '') {
-                $("#reqAMSName").show();
-                response = 0;
-            }
-            if (email == '') {
-                $("#reqAMSemail").show();
-                response = 0;
-            }
-            if (!IsEmail(email)) {
-                $("#valAMSemail").show();
-                response = 0;
-            }
-            //if (!(g_captcha && g_captcha.getResponse().length > 0)) {
-            //    $('.showErrorMsg').text("");
-            //   // return false;
-            //}
-            //else {
-            //    $('.showErrorMsg').text("");
-            //}
-            //if (mobno == '') {
-            //    $("#reqAMSMobno").show();
-            //    response = 0;
-            //}
-            if (mobno != "" && mobno.length < 10) {
-                $("#valAMSMobNo").show();
-                response = 0;
-            }
-            return response;
-        }
+      
         function IsEmail(email) {
             if (email == '') {
                 return true;
             }
             var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             return regex.test(email);
-        }
-        function save() {
-            var _rootUrl = $('#hdfRootUrl').val();
-            var user = {
-                name: $('#txtAMSName').val(),
-                email: $('#txtAMSEmail').val(),
-                phone: $('#txtAMSMobNo').val()
-            }
-            $.ajax({
-                type: "POST",
-                url: _rootUrl + "api/ContactUs/UpdateAMS",
-                data: JSON.stringify(user),
-                contentType: "application/json; charset=utf-8",
-                dataType: "json",
-                success: success,
-                failure: function (response) {
-                    alert(response.d);
-                }
-            });
-        }
-        function success(response) {
-            $("#divsuccessmessage").show();
-            $('#btnAMS').button('reset');
-            clear();
         }
 
         function onFormSubmit1() {
@@ -646,11 +576,11 @@
 
                 data = $.parseJSON(data)
                 var logData = {
-                    Name: $('#txtFirstName').val(),
+                    Name: $('#txtcFirstName').val(),
                     FormPID: data.PId,
-                    Email: $('#txtContactEmail').val(),
-                    Mobile: $('#txtContactPhone').val(),
-                    Company: $('#txtCompany').val(),
+                    Email: $('#txtcContactEmail').val(),
+                    Mobile: $('#txtcContactPhone').val(),
+                    Company: $('#txtcCompany').val(),
                     FormStatus: data.Status,
                     FormMsg: data.Message,
                     FormAction: data.FormAction,
@@ -678,11 +608,11 @@
 
                 data = $.parseJSON(data)
                 var logData = {
-                    Name: $('#txtFirstName').val(),
+                    Name: $('#txtcFirstName').val(),
                     FormPID: data.PId,
-                    Email: $('#txtContactEmail').val(),
-                    Mobile: $('#txtContactPhone').val(),
-                    Company: $('#txtCompany').val(),
+                    Email: $('#txtcContactEmail').val(),
+                    Mobile: $('#txtcContactPhone').val(),
+                    Company: $('#txtcCompany').val(),
                     FormStatus: data.Status,
                     FormMsg: data.Message,
                     FormAction: data.FormAction,
@@ -708,12 +638,12 @@
 
             new LSQForm().captureLead(fieldMapping, "form1",
 
-            {
+                {
 
-                onSuccess: onSuccess,   //optional
-                onError: onError,       //optional
+                    onSuccess: onSuccess,   //optional
+                    onError: onError,       //optional
 
-            });
+                });
 
 
 
@@ -729,83 +659,104 @@
             if ("" == a) return !0; var e = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             return e.test(a)
         }
-        $(document).ready(function () {
-         
+        function PartnerEpicorValidation() {
+            var response = 1;
+            if ($('.txtcFirstName').val() == '') {
+                response = 0;
+                $('.showErrorMsg1').text("Ensure name!."); $('.txtcFirstName').focus(); return false;
+            }
+            //if ($('.txtContactPhone').val() == '') {
+            //    $('.showErrorMsg').text("Ensure phone number!."); $('.txtContactPhone').focus(); return false;
+            //}
+            if ($('.txtcContactPhone').val() != '' && $('.txtcContactPhone').val().length < 10) {
+                response = 0;
+                $('.showErrorMsg1').text("Ensure phone number!."); $('.txtContactPhone').focus(); return false;
+            }
+            if ($('.txtcContactEmail').val() == '') {
+                response = 0;
+                $('.showErrorMsg1').text("Ensure work email!."); $('.txtcContactEmail').focus(); return false;
+            }
+            if ($('.txctContactEmail').val() != '') {
+                if (!IsEmailValid($('.txtcContactEmail').val())) {
+                    response = 0;
+                    $('.showErrorMsg1').text("Ensure work email!."); $('.txtcContactEmail').focus(); return false;
+                }
+            }
+            if ($('.txtcCompany').val() == '') {
+                response = 0;
+                $('.showErrorMsg1').text("Ensure Company!."); $('.txtcCompany').focus(); return false;
+            }
+            //if (!(g_captcha && g_captcha.getResponse().length > 0)) {
+            //    $('.showErrorMsg1').text("Select captcha.");
+            //    return false;
+            //}
+            //else {
+            //    $('.showErrorMsg1').text("");
+            //}
+            var email = $('.txtcContactEmail').val();
+            var a = email.split('@');
+            if (a[1].toLowerCase() == 'gmail.com' || a[1].toLowerCase() == 'live.com' || a[1].toLowerCase() == 'live.in' || a[1].toLowerCase() == 'outlook.com' || a[1].toLowerCase() == 'yahoo.com' || a[1].toLowerCase() == 'zoho.com' || a[1].toLowerCase() == 'yandex.com' || a[1].toLowerCase() == 'aol.com' || a[1].toLowerCase() == 'mail.com' || a[1].toLowerCase() == 'inbox.com') {
+                response = 0;
+                $('.showErrorMsg1').text("Please provide us with your work e-mail and not your personal e-mail!."); $('.txtcContactEmail').focus(); return false;
+            }
+            return response;
+        }
+
+        function saveepicor() {
             var URI = window.location.pathname;
             var lurl = URI.toLowerCase();
-           
+
             var _rootUrl = $("#hdfRootUrl").val();
-            $('#btnpdf').click(function () {
-                if ($('.txtFirstName').val() == '') {
-                    $('.showErrorMsg1').text("Ensure name!."); $('.txtFirstName').focus(); return false;
-                }
-                //if ($('.txtContactPhone').val() == '') {
-                //    $('.showErrorMsg').text("Ensure phone number!."); $('.txtContactPhone').focus(); return false;
-                //}
-                if ($('.txtContactPhone').val() != '' && $('.txtContactPhone').val().length < 10) {
-                    $('.showErrorMsg1').text("Ensure phone number!."); $('.txtContactPhone').focus(); return false;
-                }
-                if ($('.txtContactEmail').val() == '') {
-                    $('.showErrorMsg1').text("Ensure work email!."); $('.txtContactEmail').focus(); return false;
-                }
-                if ($('.txtContactEmail').val() != '') {
-                    if (!IsEmailValid($('.txtContactEmail').val())) {
-                        $('.showErrorMsg1').text("Ensure work email!."); $('.txtContactEmail').focus(); return false;
-                    }
-                }
-                if ($('.txtCompany').val() == '') {
-                    $('.showErrorMsg1').text("Ensure Company!."); $('.txtCompany').focus(); return false;
-                }
-                //if (!(g_captcha && g_captcha.getResponse().length > 0)) {
-                //    $('.showErrorMsg1').text("Select captcha.");
-                //    return false;
-                //}
-                //else {
-                //    $('.showErrorMsg1').text("");
-                //}
-                var email = $('.txtContactEmail').val();
-                var a = email.split('@');
-                if (a[1].toLowerCase() == 'gmail.com' || a[1].toLowerCase() == 'live.com' || a[1].toLowerCase() == 'live.in' || a[1].toLowerCase() == 'outlook.com' || a[1].toLowerCase() == 'yahoo.com' || a[1].toLowerCase() == 'zoho.com' || a[1].toLowerCase() == 'yandex.com' || a[1].toLowerCase() == 'aol.com' || a[1].toLowerCase() == 'mail.com' || a[1].toLowerCase() == 'inbox.com') {
-                    $('.showErrorMsg1').text("Please provide us with your work e-mail and not your personal e-mail!."); $('.txtContactEmail').focus(); return false;
-                }
+            var Data = {
+                name: $('.txtcFirstName').val(),
+                email: $('.txtcContactEmail').val(),
+                phone: $('.txtcContactPhone').val(),
+                company: $('.txtcCompany').val(),
+                Services: "ADMS"
+            };
 
-                var Data = {
-                    name: $('.txtFirstName').val(),
-                    email: $('.txtContactEmail').val(),
-                    phone: $('.txtContactPhone').val(),
-                    company: $('.txtCompany').val(),
-                    Services: "ADMS"
-                };
-
-                $.ajax({
-                    type: "POST",
-                    url: _rootUrl + "api/ContactUs/UpdateContactUs",
-                    data: JSON.stringify(Data),
-                    contentType: "application/json; charset=utf-8",
-                    dataType: "json",
-                    success: function (response) {
-                        if (response == "success") {
-                            onFormSubmit1();
-                            $('#btnpdf').hide();
-                            $('#btndownload').show();
-                            $('.showErrorMsg1').text('Click the above button to download the brochure!');
-                            setTimeout(function () {
-                                $('.showErrorMsg1').text('');
-                                $('.txtFirstName,.txtContactEmail,.txtContactPhone,.txtCompany').val('');
-                                $('#btnpdf').show();
-                                $('#btndownload').hide();
-                            }, 50000);
-                        }
-                    },
-                    failure: function (response) {
-                        alert(response.d);
+            $.ajax({
+                type: "POST",
+                url: _rootUrl + "api/ContactUs/UpdateContactUs",
+                data: JSON.stringify(Data),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    if (response == "success") {
+                        onFormSubmit1();
+                        $('#btnpdf').hide();
+                        $('#btndownload').show();
+                        $('.showErrorMsg1').text('Click the above button to download the brochure!');
+                        setTimeout(function () {
+                            $('.showErrorMsg1').text('');
+                            $('.txtcFirstName,.txtcContactEmail,.txtcContactPhone,.txtcCompany').val('');
+                            $('#btnpdf').show();
+                            $('#btndownload').hide();
+                        }, 50000);
                     }
-                });
-                
+                },
+                failure: function (response) {
+                    alert(response.d);
+                }
             });
 
-            
+        }
+        $(document).ready(function () {
+
+            var URI = window.location.pathname;
+            var lurl = URI.toLowerCase();
+
+            var _rootUrl = $("#hdfRootUrl").val();
+            $('#btnpdf').click(function () {
+
+                var r = PartnerEpicorValidation();
+                if (r == 1) {
+                    $(this).button('loading');
+                    saveepicor();
+                }
+
+            });
         });
-         
+
     </script>
 </asp:Content>

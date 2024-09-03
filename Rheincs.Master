@@ -158,7 +158,7 @@
     <script>
         load_css_async("/Assets/css/OverSheet.css");
     </script>
-    
+
     <link href="https://en.rheincs.com/Assets/css/bxSlider.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
@@ -395,7 +395,7 @@
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies" class="Level3-menu ETMenu"><span>Microsoft Technologies</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support" class="Level3-menu ETMenu"><span>Application Maintenance & Support</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services" class="Level3-menu ETMenu"><span>Testing Services</span></a></li>
-                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>
                         </ul>
                     </li>
                     <li>
@@ -557,7 +557,7 @@
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">Application Maintenance & Support</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing Services</a></li>
-                                                                      <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>
                                                                 </ul>
                                                             </div>
                                                             <div class="col-md-3 col-md-3V2">
@@ -1312,11 +1312,3 @@ s0.parentNode.insertBefore(s1,s0);
 </div>
 </html>
 
-            </div>
-
-
-        </div>
-    </div>
-
-</div>
-</html>
