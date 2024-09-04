@@ -164,7 +164,7 @@ h2{
         "name": "Why RheinBrücke?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "RheinBrücke’s unique SME model allows us to leverage the best of both worlds and offer our small to mid-size customers a truly distinct value proposition. Our team of expert consultants speaks the local language, work onsite with clients and drive the innovation of customized solutions. This best in class service is offered at globally competitive cost models that leverage global development centers and billing of resources based on actual need. Our team operates from our headquarters in Cologne, Germany, as well as our regional offices spread across Continental Europe to ensure that we offer customized and relevant solutions, with the highest quality standards."
+          "text": "RheinBrücke’s unique SME model allows us to leverage the best of both worlds and offer our small to mid-size customers a truly distinct value proposition. Our team of expert consultants speaks the local language, work onsite with clients and drive the innovation of customized solutions. This best in class service is offered at globally competitive cost models that leverage global development centers and billing of resources based on actual need. Our team operates from our headquarters in Dortmund, Germany, as well as our regional offices spread across Continental Europe to ensure that we offer customized and relevant solutions, with the highest quality standards."
         }
       }, {
         "@type": "Question",
@@ -552,7 +552,7 @@ h2{
                             </div>
                             <div id="collapseOne4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne4">
                                 <div class="panel-body">
-                                    <p>RheinBrücke’s unique SME model allows us to leverage the best of both worlds and offer our small to mid-size customers a truly distinct value proposition. Our team of expert consultants speaks the local language, work onsite with clients and drive the innovation of customized solutions. This best in class service is offered at globally competitive cost models that leverage global development centers and billing of resources based on actual need. Our team operates from our headquarters in Cologne, Germany, as well as our regional offices spread across Continental Europe to ensure that we offer customized and relevant solutions, with the highest quality standards</p>
+                                    <p>RheinBrücke’s unique SME model allows us to leverage the best of both worlds and offer our small to mid-size customers a truly distinct value proposition. Our team of expert consultants speaks the local language, work onsite with clients and drive the innovation of customized solutions. This best in class service is offered at globally competitive cost models that leverage global development centers and billing of resources based on actual need. Our team operates from our headquarters in Dortmund, Germany, as well as our regional offices spread across Continental Europe to ensure that we offer customized and relevant solutions, with the highest quality standards</p>
                                 </div>
                             </div>
                         </div>

@@ -46,7 +46,7 @@
                 <div class="wrappernew main-container">
                     <p>We are focused on offering consulting, technology and outsourcing solutions and services. In addition, being a European company with a strong focus on the SME Market, RheinBrücke understands what it takes for SMEs to succeed. We help our clients quickly adapt to a changing marketplace by ensuring that their IT ecosystems are relevant, efficient and perfectly tuned. Through our consulting, technology and outsourcing solutions, we help you stay ahead of competition, grow quickly and become more profitable.</p>
                     <p>Our core strength is our team, which is a strong multi-cultural and multi-lingual team that understands your regional needs. Our consultants bring strong domain knowledge to every engagement. We accomplish this by offering a strong local presence along with the cost advantage associated with global teams.</p>
-                    <p>RheinBrücke is headquartered in Maastricht, Netherlands and we have a strong focus in the DACH and BENELUX region (Germany, Austria and Switzerland; Belgium, Netherlands and Luxembourg). We are present in Maastricht, Netherlands; Cologne, Germany; Harrisburg, Pennsylvania-USA; Chennai, India and Dubai, UAE.</p>
+                    <p>RheinBrücke is headquartered in Maastricht, Netherlands and we have a strong focus in the DACH and BENELUX region (Germany, Austria and Switzerland; Belgium, Netherlands and Luxembourg). We are present in Maastricht, Netherlands; Dortmund, Germany; Harrisburg, Pennsylvania-USA; Chennai, India and Dubai, UAE.</p>
                 </div>
 
                 <div class="">

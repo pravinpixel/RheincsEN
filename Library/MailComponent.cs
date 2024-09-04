@@ -52,9 +52,9 @@ namespace RheinBrucke.Library
             System.Net.Mail.MailMessage message = new System.Net.Mail.MailMessage();
             //mailObj.MailFrom, mailObj.MailTo, mailObj.MailSubject, mailObj.MailBody
             System.Net.ServicePointManager.SecurityProtocol =
-           SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+            SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
             message.To.Add(new MailAddress(mailObj.MailTo, ""));
-            message.Bcc.Add(new MailAddress("marketing@rheincs.com", "Marketing"));
+           // message.Bcc.Add(new MailAddress("marketing@rheincs.com", "Marketing"));
             message.From = new MailAddress(mailObj.MailFrom, "");
             message.Subject = mailObj.MailSubject;
             message.Body = mailObj.MailBody;

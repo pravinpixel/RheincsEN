@@ -599,7 +599,7 @@
                     <div class="col-sm-12 col-md-6 events-col event-bg1 business3-padding">
                         <h3>Contact Now</h3>
                         <p class="content-top-space text-justify">
-                            RheinBrücke focuses on offering consulting technology and outsourcing solutions and services that enable clients to stay competitive and achieve quick growth and profitability. With operational headquarters in Cologne, Germany, the company has a strong focus on the Enterprise and SME Market, with a deep understanding of what it takes for businesses to succeed. 
+                            RheinBrücke focuses on offering consulting technology and outsourcing solutions and services that enable clients to stay competitive and achieve quick growth and profitability. With operational headquarters in Dortmund, Germany, the company has a strong focus on the Enterprise and SME Market, with a deep understanding of what it takes for businesses to succeed. 
                         </p>
                         <p class="content-top-space text-justify">
                            RheinBrücke helps clients adapt to a changing marketplace by ensuring their IT ecosystems are relevant, efficient and perfectly tuned.

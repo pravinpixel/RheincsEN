@@ -692,7 +692,7 @@ meter values. Manage manual requests for maintenance on specific pieces of Plant
 and India. We have immense experience and expertise in providing Epicor implementation and support services to clients globally for the past 7
 years. Our team of experts can deliver custom solutions and offerings to address the needs of businesses on multiple verticals including Automotive
 Systems, Oil & Gas / Energy, Discrete Manufacturers, Pharma and Life Science, Engineering & Construction, Retail, Distribution & Trading, etc. With
-operational headquarters in Cologne, Germany and 250 associates, we have executed projects in 32 countries and are proud to be serving our happy
+operational headquarters in Dortmund, Germany and 250 associates, we have executed projects in 32 countries and are proud to be serving our happy
 customers across these locations. With a deep understanding of what it takes for enterprises to succeed, RheinBrücke helps clients adapt to a chang-
 ing marketplace by ensuring their IT ecosystems are relevant, efficient and perfectly tuned.</p>
              </div>
