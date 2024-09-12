@@ -3109,7 +3109,11 @@ namespace RheinBrucke.Library
                 {
                     mailObj = setMailContent("SaveMeRLINFactsheet", MailXML);
                 }
-                              
+                else if (servicetype == "MicrosoftDynamics")
+                {
+                    mailObj = setMailContent("MicrosoftDynamics", MailXML);
+                }
+
                 if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
                 {
                     string imagePath = mailLogoPath;//"D:\\TFS\\DealConnection\\DealConnection\\" ; //HttpContext.Current.Request.ServerVariables["APPL_PHYSICAL_PATH"];
@@ -3195,7 +3199,11 @@ namespace RheinBrucke.Library
                 {
                     mailObj = setMailContent("LandingMeRLINFactsheet", MailXML);
                 }
-                
+                else if (servicetype == "MicrosoftDynamics")
+                {
+                    mailObj = setMailContent("MicrosoftDynamics", MailXML);
+                }
+
 
                 if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
                 {
