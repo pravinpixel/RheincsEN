@@ -17052,11 +17052,11 @@ services, please visit our website – www.rheincs.com<br/><br/>We would love to
 color:#ccc;">
                 <tr align="left" style="background-color:#fff">
                   <th style="width:100px" align="left">Services</th>
-                  <td>@@Service</td>
+                  <td>@@Services</td>
                 </tr>
                 <tr align="left" style="background-color:#fff">
                   <th style="width:100px" align="left">Name</th>
-                  <td>@@Name</td>
+                  <td>@@FirstName</td>
                 </tr>
                 <tr align="left" style="background-color:#fff">
                   <th align="left">Email</th>
@@ -17172,11 +17172,11 @@ services, please visit our website – www.rheincs.com<br/><br/>We would love to
 color:#ccc;">
                 <tr align="left" style="background-color:#fff">
                   <th style="width:100px" align="left">Services</th>
-                  <td>@@Service</td>
+                  <td>@@Services</td>
                 </tr>
                 <tr align="left" style="background-color:#fff">
                   <th style="width:100px" align="left">Name</th>
-                  <td>@@Name</td>
+                  <td>@@FirstName</td>
                 </tr>
                 <tr align="left" style="background-color:#fff">
                   <th align="left">Email</th>
