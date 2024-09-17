@@ -5,7 +5,7 @@
     <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
         <meta name="keywords" content="Microsoft Fabric" />
         <meta name="Description"
-            content="Discover the power of Microsoft Dynamics ERP Solutions with Rheincs. Enhance efficiency, drive growth, and transform your business operations with our expert implementation and support services." />
+            content="Discover the power of Microsoft Fabric ERP Solutions with Rheincs. Enhance efficiency, drive growth, and transform your business operations with our expert implementation and support services." />
     </asp:Content>
     <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <title>Microsoft Fabric</title>
@@ -2512,7 +2512,7 @@ h4.common-topic {
                         email: $('.txtContactEmail').val(),
                         phone: $('.txtPhone').val(),
                         companyname: $('.txtCompany').val(),
-                        ServiceType: "Microsoft Fabric"
+                        ServiceType: "MicrosoftFabric"
                     };
                     $.ajax({
                         type: 'POST',

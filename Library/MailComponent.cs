@@ -3111,7 +3111,11 @@ namespace RheinBrucke.Library
                 }
                 else if (servicetype == "MicrosoftDynamics")
                 {
-                    mailObj = setMailContent("MicrosoftDynamics", MailXML);
+                    mailObj = setMailContent("SaveMicrosoftDynamics", MailXML);
+                }
+                else if (servicetype == "MicrosoftFabric")
+                {
+                    mailObj = setMailContent("SaveMicrosoftFabric", MailXML);
                 }
 
                 if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
@@ -3204,6 +3208,10 @@ namespace RheinBrucke.Library
                     mailObj = setMailContent("MicrosoftDynamics", MailXML);
                 }
 
+                else if (servicetype == "MicrosoftFabric")
+                {
+                    mailObj = setMailContent("MicrosoftFabric", MailXML);
+                }
 
                 if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
                 {
