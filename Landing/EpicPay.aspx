@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Best Payroll Management Software| RheinBrücke"
-    Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="EpicPay.aspx.cs" Inherits="RheinBrucke.Landing.EpicPay" %>
+    Language="C#" MasterPageFile="~/RheincsLanding.Master" AutoEventWireup="true" CodeBehind="EpicPay.aspx.cs" Inherits="RheinBrucke.Landing.EpicPay" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="it governance, outsourced it services, it outsourcing, it strategy, it cost optimization, it portfolio management, business strategy, technology consulting firms, business it management, it due diligence" />

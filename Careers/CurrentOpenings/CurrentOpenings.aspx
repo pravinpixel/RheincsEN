@@ -134,7 +134,7 @@
                 <li class="redColor">Current Openings</li>
             </ul>
 			
-			<h1 class="text-center" style="padding-bottom: 20px;">RheinBrücke's current openings</h1>
+			<%--<h1 class="text-center" style="padding-bottom: 20px;">RheinBrücke's current openings</h1>--%>
         </div>
         <div class="row">
             <div class="bg-currentopenings img-responsive ">
