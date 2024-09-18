@@ -254,7 +254,7 @@
             <p class="padd-top-20"><a href="mailto:careers@rheincs.com?subject=Application" class="currentopenings-mail-text ETapplynow">careers@rheincs.com</a></p>--%>
 
             <p class="padd-top-20"><a id="btnclear" data-toggle="modal" class="submit-button ETapplynow white-color" style="padding: 10px" title="Application" onclick="CurrOpClear()" data-target="#myModal-Apply">Apply now</a></p>
-            <p class="padd-top-20"><a href="mailto:careers@rheincs.com?subject=Application" class="currentopenings-mail-text ETapplynow">careers@rheincs.com</a></p>
+            <p class="padd-top-20">Please send your CV to <a href="mailto:careers@rheincs.com?subject=Application" class="currentopenings-mail-text ETapplynow">careers@rheincs.com</a></p>
 
             <div class="modal fade" id="myModal-Apply" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog" role="document">
