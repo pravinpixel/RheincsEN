@@ -9662,12 +9662,12 @@ ul.social li:before {
   color: #666;
 }
 .menuname-small {
-  font-size: 12px;
+  font-size: 11px;
   text-align: left;
   color: #666;
 }
 .menuheading {
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
   color: #666;
 }
 .menuheading-large {

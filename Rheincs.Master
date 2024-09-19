@@ -345,7 +345,7 @@
                         <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Our Solutions</span></a>
                         <ul>
 
-                            <li><a href="<%=rootpath %>Epicor-Payroll-MEA" class="Level3-menu ETMenu"><span>Epicor-Payroll-MEA</span></a></li>
+                            <li><a href="#" class="Level3-menu ETMenu"><span>BruckeHR</span></a></li>
                             <!--  <li><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="Level3-menu ETMenu"><span>Copy Company Tool</span></a></li>-->
                             <!-- <li><a href="<%=rootpath %>ppa-power-plant-analytics" class="Level3-menu ETMenu"><span>Power Plant Analytics</span></a></li>-->
                             <li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software" class="Level3-menu ETMenu"><span>MeRLIN – Strategic Sourcing Software</span></a></li>
@@ -360,29 +360,32 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Enterprise Solutions (ERP) & Services</span></a>
+                        <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Enterprise Solutions & Services</span></a>
                         <ul>
-                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="Level3-menu ETMenu"><span>SAP</span></a></li>
-                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics" class="Level3-menu ETMenu"><span>Microsoft Dynamics</span></a></li>
+
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="Level3-menu ETMenu"><span>EPICOR</span></a>
 
                                 <ul>
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud" class="Level3-menu ETMenu"><span>Epicor Cloud</span></a>
+                                        <li><a href="<%=rootpath %>Epicor-Payroll-MEA" class="Level3-menu ETMenu"><span>Epicor-Payroll-MEA</span></a></li>
                                         <!-- <ul>
                                      <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP" class="Level3-menu ETMenu"><span>Gartner Magic Quadrant for Cloud ERP</span></a></li></ul>-->
                                     </li>
-                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing" class="Level3-menu ETMenu"><span>For Manufacturing</span></a></li>
+                                    <%--  <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing" class="Level3-menu ETMenu"><span>For Manufacturing</span></a></li>
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing" class="Level3-menu ETMenu"><span>For Cable Manufacturing</span></a></li>
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-wire-rope-manufacturing" class="Level3-menu ETMenu"><span>For Wire Rope Manufacturing</span></a></li>
                                     <!--  <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software" class="Level3-menu ETMenu"><span>For Distribution</span></a></li>-->
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design" class="Level3-menu ETMenu"><span>For Interior Design</span></a></li>
-                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC" class="Level3-menu ETMenu"><span>For Construction & EPC</span></a></li>
+                                    <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC" class="Level3-menu ETMenu"><span>For Construction & EPC</span></a></li>--%>
 
                                     <%-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm" class="Level3-menu ETMenu"><span>Epicor HCM</span></a></li>--%>
                                     <!-- <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/iscala-hospitality-industry-software" class="Level3-menu ETMenu"><span>Epicor Iscala for Hospitality</span></a></li>-->
 
                                 </ul>
                             </li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics" class="Level3-menu ETMenu"><span>Microsoft Dynamics</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="Level3-menu ETMenu"><span>SAP</span></a></li>
+
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/sugar-crm" class="Level3-menu ETMenu"><span>Sugar CRM</span></a></li>
 
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering" class="Level3-menu ETMenu"><span>Epicor Support+</span></a></li>
@@ -390,22 +393,26 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">IT Services & Solutions</span></a>
+                        <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Surround IT Services & Solutions</span></a>
                         <ul>
-                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies" class="Level3-menu ETMenu"><span>Microsoft Technologies</span></a></li>
+
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support" class="Level3-menu ETMenu"><span>Application Maintenance & Support</span></a></li>
-                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services" class="Level3-menu ETMenu"><span>Testing Services</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>
+                            <li><a href="#" class="Level3-menu ETMenu"><span>Ecommerce Services</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies" class="Level3-menu ETMenu"><span>Open Source Technologies</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies" class="Level3-menu ETMenu"><span>Microsoft Technologies</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services" class="Level3-menu ETMenu"><span>Testing Services</span></a></li>
+
                         </ul>
                     </li>
-                    <li>
+                    <%-- <li>
                         <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">IP & Product Development Services</span></a>
                         <ul>
                             <li><a href="<%=rootpath %>solutions/ip-product-development-services/product-engineering-development-services" class="Level3-menu ETMenu"><span>Product Engineering & Development Services</span></a></li>
                             <li><a href="<%=rootpath %>solutions/ip-product-development-services/technology-support-for-product-startups" class="Level3-menu ETMenu"><span>Technology Support for Product Startups</span></a></li>
-                            <li><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies" class="Level3-menu ETMenu"><span>Open Source Technologies</span></a></li>
+                            
                         </ul>
-                    </li>
+                    </li>--%>
                 </ul>
             </li>
             <li><a href="#" class="mobilemenu-level1 Level1-menu"><span class="mobilemenu-border-bottom">Resources</span></a>
@@ -487,7 +494,7 @@
                                                 <div class="container-fluid">
                                                     <div class="tab-content pull-left">
                                                         <div class="tab-pane active">
-                                                            <div class="col-md-3 col-md-3V2">
+                                                            <div class="col-md-3 col-md-4V2">
                                                                 <%--<ul class="">
                                                                     <li class="menuname-small menuheading">Focused Solutions</li>
                                                                     <br />
@@ -499,13 +506,13 @@
                                                                     <li class="menuname-small menuheading">Our Solutions</li>
                                                                     <br />
 
-                                                                    <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>Epicor-Payroll-MEA"><span>Epicor-Payroll-MEA</span></a></li>
+                                                                    <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="#"><span>BruckeHR</span></a></li>
                                                                     <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>-->
                                                                     <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>ppa-power-plant-analytics">Power Plant Analytics</a></li>-->
                                                                     <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN – Strategic Sourcing Software</a></li>
                                                                 </ul>
                                                             </div>
-                                                            <div class="col-md-3 col-md-3V2">
+                                                            <div class="col-md-3 col-md-4V2">
                                                                 <ul>
                                                                     <li class="menuname-small menuheading-large menu-consulting">Consulting & Advisory Services</li>
                                                                     <br />
@@ -514,12 +521,11 @@
                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/it-business-excellence">IT Business Excellence</a></li>
                                                                 </ul>
                                                             </div>
-                                                            <div class="col-md-3 col-md-3V2">
+                                                            <div class="col-md-3 col-md-4V2">
                                                                 <ul>
-                                                                    <li class="menuname-small menuheading-large menu-erp"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp">Enterprise Solutions (ERP) & Services</a></li>
+                                                                    <li class="menuname-small menuheading-large menu-erp"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp">Enterprise Solutions & Services</a></li>
                                                                     <br />
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">SAP</a></li>
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics">Microsoft Dynamics</a></li>
+
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">EPICOR</a>
 
                                                                         <ul class="padd-top-3">
@@ -528,14 +534,15 @@
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP">Gartner Magic Quadrant for Cloud ERP</a></li>
                                                                             </ul>-->
                                                                             </li>
+                                                                            <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>Epicor-Payroll-MEA"><span>Epicor-Payroll-MEA</span></a></li>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
-                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing">For Manufacturing</a></li>
+                                                                            <%-- <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing">For Manufacturing</a></li>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing">For Cable Manufacturing</a></li>
 
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-wire-rope-manufacturing">For Wire Rope Manufacturing</a></li>
                                                                             <!-- <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software">For Distribution</a></li>-->
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design">For Interior Design</a></li>
-                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC">For Construction & EPC</a></li>
+                                                                            <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC">For Construction & EPC</a></li>--%>
 
 
                                                                             <%--<li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-hcm">Epicor HCM</a></li>--%>
@@ -544,31 +551,36 @@
                                                                         </ul>
 
                                                                     </li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics">Microsoft Dynamics</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">SAP</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">Sugar CRM</a></li>
 
                                                                     <!--  <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi">Business Intelligence</a></li> -->
 
                                                                 </ul>
                                                             </div>
-                                                            <div class="col-md-3 col-md-3V2">
+                                                            <div class="col-md-3 col-md-4V2">
                                                                 <ul>
-                                                                    <li class="menuname-small menuheading">IT Services & Solutions</li>
+                                                                    <li class="menuname-small menuheading">Surround IT Services & Solutions</li>
                                                                     <br />
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">Application Maintenance & Support</a></li>
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing Services</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="#">Ecommerce Services</a></li>
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open Source Technologies</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing Services</a></li>
+
                                                                 </ul>
                                                             </div>
-                                                            <div class="col-md-3 col-md-3V2">
+                                                            <%--  <div class="col-md-3 col-md-4V2">
                                                                 <ul>
                                                                     <li class="menuname-small menuheading-large menu-erp">IP & Product Development Services</li>
                                                                     <br />
                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/product-engineering-development-services">Product Engineering and Development Services</a></li>
                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/technology-support-for-product-startups">Technology Support for Product Startups</a></li>
-                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open Source Technologies</a></li>
+                                                                    
                                                                 </ul>
-                                                            </div>
+                                                            </div>--%>
                                                         </div>
                                                     </div>
                                                 </div>
