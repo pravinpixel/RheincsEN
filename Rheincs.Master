@@ -345,7 +345,7 @@
                         <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Our Solutions</span></a>
                         <ul>
 
-                            <li><a href="#" class="Level3-menu ETMenu"><span>BruckeHR</span></a></li>
+                            <%--<li><a href="#" class="Level3-menu ETMenu"><span>BruckeHR</span></a></li>--%>
                             <!--  <li><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="Level3-menu ETMenu"><span>Copy Company Tool</span></a></li>-->
                             <!-- <li><a href="<%=rootpath %>ppa-power-plant-analytics" class="Level3-menu ETMenu"><span>Power Plant Analytics</span></a></li>-->
                             <li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software" class="Level3-menu ETMenu"><span>MeRLIN – Strategic Sourcing Software</span></a></li>
@@ -398,7 +398,7 @@
 
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support" class="Level3-menu ETMenu"><span>Application Maintenance & Support</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>
-                            <li><a href="#" class="Level3-menu ETMenu"><span>Ecommerce Services</span></a></li>
+                           <%-- <li><a href="#" class="Level3-menu ETMenu"><span>Ecommerce Services</span></a></li>--%>
                             <li><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies" class="Level3-menu ETMenu"><span>Open Source Technologies</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies" class="Level3-menu ETMenu"><span>Microsoft Technologies</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services" class="Level3-menu ETMenu"><span>Testing Services</span></a></li>
@@ -506,7 +506,7 @@
                                                                     <li class="menuname-small menuheading">Our Solutions</li>
                                                                     <br />
 
-                                                                    <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="#"><span>BruckeHR</span></a></li>
+                                                                    <%--<li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="#"><span>BruckeHR</span></a></li>--%>
                                                                     <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>-->
                                                                     <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>ppa-power-plant-analytics">Power Plant Analytics</a></li>-->
                                                                     <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN – Strategic Sourcing Software</a></li>
@@ -565,7 +565,7 @@
                                                                     <br />
                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">Application Maintenance & Support</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="#">Ecommerce Services</a></li>
+                                                                   <%-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="#">Ecommerce Services</a></li>--%>
                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open Source Technologies</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing Services</a></li>
