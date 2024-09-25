@@ -11,7 +11,7 @@ namespace RheinBrucke.Solutions.EnterpriseServicesAndSolutions
 {
 
 
-    public partial class MicrosoftFabric
+    public partial class BusinessIntelligenceServices
     {
     }
 }
