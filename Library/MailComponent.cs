@@ -3207,7 +3207,6 @@ namespace RheinBrucke.Library
                 {
                     mailObj = setMailContent("MicrosoftDynamics", MailXML);
                 }
-
                 else if (servicetype == "MicrosoftFabric")
                 {
                     mailObj = setMailContent("MicrosoftFabric", MailXML);

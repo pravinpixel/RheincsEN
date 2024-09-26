@@ -2337,12 +2337,12 @@ h4.common-topic {
                 <div class="col-md-12 nopadding set-6">
 
                     <!--Breadcrumb row-->
-                    <div class="section-layer">
+                    <div style="margin-top:50px" text-align="center">
                         <div class="row form_section">
 
                             <div class="col-lg-12 col-md-12 co-sm-12 col-12 nopadding">
-                                <h4 class="text-center mb-3">Ready to elevate your business with innovative IT and business solutions? Download our brochure to explore Microsoft Fabric’s cutting-edge features, benefits, and real-world applications.</h4>
-                                <h2 class="common-topic pb-20 text-center">Download Brochure</h2>
+                                <h4 class="text-center mb-3">Get started with RheinBrücke Technology today and unlock the potential of your data! Contact us now.</h4>
+                                <h2 class="common-topic pb-20 text-center">Contact Us!</h2>
                             </div>
 
                         </div>
@@ -2402,7 +2402,7 @@ h4.common-topic {
                                         <br />
                                         <div class="form-box">
                                             <div class="form-data cnt clearfix">
-                                                <a href="#" id="btnpdf" class="btndownlaodBrochure">Download Brochure</a>
+                                                <a href="#" id="btnpdf" class="btndownlaodBrochure">Contact Us</a>
                                             </div>
                                         </div>
                                         <div class="form-box">
