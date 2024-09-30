@@ -2052,8 +2052,8 @@
                                 </div>
                                 <div class="col-lg-5 col-md-5 col-sm-12 col-12 text-right">
                                     <div class="image">
-                                        <img src="../../../Assets/images/Microsoft_Fabric.svg"
-                                            class="img-responsive center-block">
+                                       <a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services/microsoft-fabric"><img src="../../../Assets/images/Microsoft_Fabric.svg"
+                                            class="img-responsive center-block"></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
