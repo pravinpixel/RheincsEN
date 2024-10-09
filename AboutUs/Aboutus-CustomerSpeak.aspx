@@ -46,7 +46,7 @@
                         <!-- Craig customer reference -->
                         <div class="col-md-4 marg-10 ">
                             <div class="col-md-2">
-                                <img class="testimonial-img1 img-circle1 ld-mag2" src="/Assets/images/Testimonial/craig.gif" alt="Testimonial by Craig Stephens" style="margin-right: 10px; width: 80px; height: 80px;object-fit: cover; aspect-ratio: 1 / 1;" />
+                                <img class="testimonial-img1 img-circle1 ld-mag2" src="/Assets/images/Testimonial/craig.gif" alt="Testimonial by Craig Stephens" style="margin-right: 10px; width: 80px; height: 80px; object-fit: cover; aspect-ratio: 1 / 1;" />
                             </div>
                             <div class="col-md-10 ">
                                 <div class="deco-header2">
@@ -70,7 +70,7 @@
                             </div>
                             <div class="col-md-10 ">
                                 <div class="deco-header2">
-                                    <p class="redBottom1 height"  style="padding-bottom: 25px !important;">
+                                    <p class="redBottom1 height" style="padding-bottom: 25px !important;">
                                         <span class="bgcol1">Rizwanulla Khan |</span> <span class="redColor">Executive President at Emirates Glass, Saudi American Glass & Lumi Glass </span>
                                     </p>
                                 </div>
@@ -113,7 +113,8 @@
                                 <div class="deco-header2 deco-header3">
                                     <p class="redBottom1 height" style="padding-bottom: 25px !important;">
                                         <span class="bgcol1">Vinit Agarwal |</span> <span class="redColor">CEO at RAY International, Sultanate of  Oman</span>
-                                        <br /><br />
+                                        <br />
+                                        <br />
                                     </p>
                                 </div>
                             </div>
@@ -133,7 +134,8 @@
                                     <p class="redBottom1 height" style="padding-bottom: 25px !important;">
                                         <span class="bgcol1">Kiranjit Kaur |</span>
                                         <span class="redColor">Finance Manager at NGC Companies Malaysia & Oman </span>
-                                        <br /><br />
+                                        <br />
+                                        <br />
                                     </p>
                                 </div>
                             </div>
@@ -143,12 +145,33 @@
                         </div>
                         <!-- EOF Kiranjit customer reference -->
 
+                        <!-- Darius Jonason customer reference -->
+                        <div class="col-md-4 marg-10">
+                            <div class="col-md-2">
+                                <img class="testimonial-img1 img-circle1 ld-mag2" src="/Assets/images/Testimonial/CCT_Jira.webp" alt="Testimonial by Darius Jonason" style="margin-right: 10px; width: 80px; height: 80px;" />
+                            </div>
+                            <div class="col-md-10 ">
+                                <div class="deco-header2">
+                                    <p class="redBottom1 height" style="padding-bottom: 25px !important;">
+                                        <span class="bgcol1">Darius Jonason |</span>
+                                        <span class="redColor">Business Process Analyst/Solutions Architect at Cold Chain Technologies </span>
+                                        <br />
+                                        <br />
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row col-md-12 padd-top-20">
+                                <p class="ldr-marg text-justify">RheinBrucke IT Consulting's technical expertise makes me feel invincible.   <a data-toggle="modal" data-target="#myModal-Darius-1">&nbsp&nbsp View more</a></p>
+                            </div>
+                        </div>
+                        <!-- EOF Kiranjit customer reference -->
+
                     </div>
 
                 </div>
 
                 <!--customer video-->
-              <%--  <div class="col-md-12 bgcol text-center  paddingGreycontainer">
+                <%--  <div class="col-md-12 bgcol text-center  paddingGreycontainer">
 
                     <div class="col-md-3">
                         <p class="contentSmall padd-top-20"><span class="video-thumbnail"><b>RheinBrücke – Customer Reference by Harry Hezel</b> </span></p>
@@ -514,7 +537,7 @@ Their hard work &amp; efforts, as well as the willingness to accommodate to Mala
 
                                 <div class="col-md-12">
                                     <div class="col-md-2">
-                                        <img class="testimonial-img1 img-circle1 ld-mag2" src="/Assets/images/Testimonial/craig.gif" alt="Testimonial by Craig Stephens" style="margin-right: 10px; width: 80px; height: 80px;object-fit: cover; aspect-ratio: 1 / 1;" />
+                                        <img class="testimonial-img1 img-circle1 ld-mag2" src="/Assets/images/Testimonial/craig.gif" alt="Testimonial by Craig Stephens" style="margin-right: 10px; width: 80px; height: 80px; object-fit: cover; aspect-ratio: 1 / 1;" />
                                     </div>
                                     <div class="col-md-10 ">
                                         <div class="deco-header2">
@@ -643,6 +666,68 @@ Their hard work &amp; efforts, as well as the willingness to accommodate to Mala
 
                 </div>
                 <!--EOF popup Kiranjit -->
+
+                <!--popup Darius -->
+                <div class="modal fade po" id="myModal-Darius" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header1">
+                                <button type="button" class="close close-popup redColor" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
+                                <div class="col-md-12">
+                                    <div class="col-md-2">
+                                        <img class="testimonial-img1 img-circle1 ld-mag2" src="/Assets/images/Testimonial/CCT_Jira.webp" alt="Testimonial by Darius Jonason" style="margin-right: 10px; width: 80px; height: 80px;" />
+                                    </div>
+                                    <div class="col-md-10 ">
+                                        <div class="deco-header2">
+                                            <p class="redBottom1">
+                                                <span class="bgcol1">Darius Jonason |</span> <span class="redColor">Business Process Analyst/Solutions Architect  at Cold Chain Technologies
+
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row col-md-12 padd-top-20">
+                                        <p class="ldr-marg text-justify">"RheinBrucke IT Consulting's technical expertise makes me feel invincible."  </p>
+                                        <p class="ldr-marg text-justify">"CCT has a talented pool of internal IT resources but sometimes that's not enough.  Working with RB has taken a lot of weight off our shoulders; both the sheer volume of what we can handle together as well as the high level of technical expertise they bring to the table have greatly advanced CCT's abilities to adapt and evolve with our expanding global market.  Nithish and Rajagopol are easy to work with and always have great ideas on how to solve our technical and business process issues plus they're just nice guys.  I recently moved internationally, I was nervous about being so far out of sync but this had zero impact on our work relationship, it was seamless.  I highly recommend RheinBrucke IT Consulting to anyone in need of serious in-depth expertise and around-the-clock support. "</p>
+                                        <p class="ldr-marg text-justify">"My favorite thing is when I spend half my day trying to solve a complicated issue then I give up, assign it to RB at the end of my workday and come in the next morning to find a solution ready for testing!"  </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--EOF popup Darius -->
+
+                <div class="modal fade" id="myModal-Darius-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content mymodal-download">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body testimonial-modal">
+                <p>
+                    RheinBrucke IT Consulting's technical expertise makes me feel invincible.
+                </p>
+                <br />
+                <p>CCT has a talented pool of internal IT resources but sometimes that's not enough.  Working with RB has taken a lot of weight off our shoulders; both the sheer volume of what we can handle together as well as the high level of technical expertise they bring to the table have greatly advanced CCT's abilities to adapt and evolve with our expanding global market.  Nithish and Rajagopol are easy to work with and always have great ideas on how to solve our technical and business process issues plus they're just nice guys.  </p>
+                <br />
+                <p>I recently moved internationally, I was nervous about being so far out of sync but this had zero impact on our work relationship, it was seamless.  I highly recommend RheinBrucke IT Consulting to anyone in need of serious in-depth expertise and around-the-clock support. </p>
+                <br />
+                <p>My favorite thing is when I spend half my day trying to solve a complicated issue then I give up, assign it to RB at the end of my workday and come in the next morning to find a solution ready for testing!</p>
+                <br />
+                <img class="testimonial-img img-circle" src="/Assets/images/Testimonial/CCT_Jira.webp" alt="Testimonial by Darius Jonason " style="margin-right: 10px; float: left; width: 66px; height: 67px;" /><p class="testimonial-name">
+                    Darius Jonason
+                        <br />
+                    <span class="smaller">Business Process Analyst/Solutions Architect 
+                            <br />
+                        Cold Chain Technologies
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
             </div>
         </div>
     </div>
