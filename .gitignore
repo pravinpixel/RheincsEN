@@ -263,3 +263,9 @@ obj/Debug/edmxResourcesToEmbed/Data/RheinBruckeEntity.ssdl
 obj/Debug/RheinBrucke.csproj.CoreCompileInputs.cache
 obj/Debug/RheinBrucke.csproj.FileListAbsolute.txt
 RheinBrucke.csproj
+*.cache
+/obj
+*.db
+*.config
+*.csproj
+*.dll

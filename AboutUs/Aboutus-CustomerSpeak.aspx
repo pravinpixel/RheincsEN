@@ -668,66 +668,38 @@ Their hard work &amp; efforts, as well as the willingness to accommodate to Mala
                 <!--EOF popup Kiranjit -->
 
                 <!--popup Darius -->
-                <div class="modal fade po" id="myModal-Darius" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header1">
-                                <button type="button" class="close close-popup redColor" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
-                                <div class="col-md-12">
-                                    <div class="col-md-2">
-                                        <img class="testimonial-img1 img-circle1 ld-mag2" src="/Assets/images/Testimonial/CCT_Jira.webp" alt="Testimonial by Darius Jonason" style="margin-right: 10px; width: 80px; height: 80px;" />
-                                    </div>
-                                    <div class="col-md-10 ">
-                                        <div class="deco-header2">
-                                            <p class="redBottom1">
-                                                <span class="bgcol1">Darius Jonason |</span> <span class="redColor">Business Process Analyst/Solutions Architect  at Cold Chain Technologies
 
-                                                </span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row col-md-12 padd-top-20">
-                                        <p class="ldr-marg text-justify">"RheinBrucke IT Consulting's technical expertise makes me feel invincible."  </p>
-                                        <p class="ldr-marg text-justify">"CCT has a talented pool of internal IT resources but sometimes that's not enough.  Working with RB has taken a lot of weight off our shoulders; both the sheer volume of what we can handle together as well as the high level of technical expertise they bring to the table have greatly advanced CCT's abilities to adapt and evolve with our expanding global market.  Nithish and Rajagopol are easy to work with and always have great ideas on how to solve our technical and business process issues plus they're just nice guys.  I recently moved internationally, I was nervous about being so far out of sync but this had zero impact on our work relationship, it was seamless.  I highly recommend RheinBrucke IT Consulting to anyone in need of serious in-depth expertise and around-the-clock support. "</p>
-                                        <p class="ldr-marg text-justify">"My favorite thing is when I spend half my day trying to solve a complicated issue then I give up, assign it to RB at the end of my workday and come in the next morning to find a solution ready for testing!"  </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
                 <!--EOF popup Darius -->
 
                 <div class="modal fade" id="myModal-Darius-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content mymodal-download">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body testimonial-modal">
-                <p>
-                    RheinBrucke IT Consulting's technical expertise makes me feel invincible.
-                </p>
-                <br />
-                <p>CCT has a talented pool of internal IT resources but sometimes that's not enough.  Working with RB has taken a lot of weight off our shoulders; both the sheer volume of what we can handle together as well as the high level of technical expertise they bring to the table have greatly advanced CCT's abilities to adapt and evolve with our expanding global market.  Nithish and Rajagopol are easy to work with and always have great ideas on how to solve our technical and business process issues plus they're just nice guys.  </p>
-                <br />
-                <p>I recently moved internationally, I was nervous about being so far out of sync but this had zero impact on our work relationship, it was seamless.  I highly recommend RheinBrucke IT Consulting to anyone in need of serious in-depth expertise and around-the-clock support. </p>
-                <br />
-                <p>My favorite thing is when I spend half my day trying to solve a complicated issue then I give up, assign it to RB at the end of my workday and come in the next morning to find a solution ready for testing!</p>
-                <br />
-                <img class="testimonial-img img-circle" src="/Assets/images/Testimonial/CCT_Jira.webp" alt="Testimonial by Darius Jonason " style="margin-right: 10px; float: left; width: 66px; height: 67px;" /><p class="testimonial-name">
-                    Darius Jonason
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content mymodal-download">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body testimonial-modal">
+                                <p>
+                                    RheinBrucke IT Consulting's technical expertise makes me feel invincible.
+                                </p>
+                                <br />
+                                <p>CCT has a talented pool of internal IT resources but sometimes that's not enough.  Working with RB has taken a lot of weight off our shoulders; both the sheer volume of what we can handle together as well as the high level of technical expertise they bring to the table have greatly advanced CCT's abilities to adapt and evolve with our expanding global market.  Nithish and Rajagopol are easy to work with and always have great ideas on how to solve our technical and business process issues plus they're just nice guys.  </p>
+                                <br />
+                                <p>I recently moved internationally, I was nervous about being so far out of sync but this had zero impact on our work relationship, it was seamless.  I highly recommend RheinBrucke IT Consulting to anyone in need of serious in-depth expertise and around-the-clock support. </p>
+                                <br />
+                                <p>My favorite thing is when I spend half my day trying to solve a complicated issue then I give up, assign it to RB at the end of my workday and come in the next morning to find a solution ready for testing!</p>
+                                <br />
+                                <img class="testimonial-img img-circle" src="/Assets/images/Testimonial/CCT_Jira.webp" alt="Testimonial by Darius Jonason " style="margin-right: 10px; float: left; width: 66px; height: 67px;" /><p class="testimonial-name">
+                                    Darius Jonason
                         <br />
-                    <span class="smaller">Business Process Analyst/Solutions Architect 
+                                    <span class="smaller">Business Process Analyst/Solutions Architect 
                             <br />
-                        Cold Chain Technologies
-                    </span>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+                                        Cold Chain Technologies
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
