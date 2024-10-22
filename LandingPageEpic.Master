@@ -962,7 +962,39 @@ alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" cl
         </form>
     </div>
     <!-- GOOGLE ANALYTICS CODE-->
+       <div id="myoffers" class="gitex-banner-container">
+        <div class="gitex-banner-img hidden-xs">
+            <a href="http://view.rheincs.com/Webinar-Future-Of-ERP-Series?utm_source=Website&utm_medium=PopUp">
+                <img src="https://www.rheincs.com/Assets/images/website-popup.png" class="img-responsive gitex-img gitex-banner-img-shadow center-block" width="510" />
+            </a>
+            <div class="close-button-position" style="background-color: #7b1314;" onclick="closegitex();"><span class="close-icon-white">X</span></div>
+        </div>
 
+    </div>
+    <script type="text/javascript">
+        $(window).load(function () {
+            setTimeout(function () {
+                $('#myoffers').modal('hide');
+            }, 1000);
+        });
+
+        function closepop() {
+            $('#myoffers').modal('hide');
+        }
+        function closegitex() {
+            $(".gitex-banner-container").css('display', 'none');
+        }
+        $(document).ready(function () {
+            setTimeout(function () { $('html, body').scrollTop(0); }, 1000);
+            $(".gitex-banner-container .gitex-banner-img").fadeIn();
+
+            $(function () {
+                $(".gitex-banner-container").delay(10000).fadeOut('slow');
+            });
+
+        });
+
+    </script>
     <script src='https://www.google.com/recaptcha/api.js' async></script>
     <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
     </script>
