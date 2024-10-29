@@ -70,7 +70,7 @@
 
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="Fh6P6teEH3c" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/Fh6P6teEH3c/0.jpg"  loading="lazy" alt="RheinBrücke IT Consulting gewinnt bei den German Stevie Awards 2015" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
+                            <img src="https://img.youtube.com/vi/Fh6P6teEH3c/0.jpg" loading="lazy" alt="RheinBrücke IT Consulting gewinnt bei den German Stevie Awards 2015" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
                             <div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
                             </div>
@@ -104,7 +104,7 @@
 
                 <!-- End of Modal For Second Video-->
                 <!-- Eof Second Video-->
-                     <!-- Third Video-->
+                <!-- Third Video-->
                 <div class="col-md-4">
 
                     <div class="video_thumb_box">
@@ -125,21 +125,21 @@
 
                 </div>
                 <div class="modal fade" id="myModal18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        </div>
-                        <div class="modal-body">
-                            <iframe src="https://www.youtube.com/watch?v=-t5b2gIdhyo" loading="lazy"  style="width: 100%;" height="480" frameborder="no"></iframe>
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe src="https://www.youtube.com/watch?v=-t5b2gIdhyo" loading="lazy" style="width: 100%;" height="480" frameborder="no"></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
             </div>
             <!--- Modal For Third Video-->
-      
+
 
             <!-- End of Modal For Third Video-->
             <!-- Eof Third Video-->
@@ -154,7 +154,7 @@
 
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal10" data-videoid="B-XFRUeSlUs" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/B-XFRUeSlUs/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Martin Peters" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                            <img src="https://img.youtube.com/vi/B-XFRUeSlUs/0.jpg" loading="lazy" alt="RheinBrücke – Customer Reference by Martin Peters" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
                             </div>
                         </a>
@@ -192,7 +192,7 @@
 
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal11" data-videoid="yvtX2yqWxVg" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/yvtX2yqWxVg/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Dr. Schrettl" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                            <img src="https://img.youtube.com/vi/yvtX2yqWxVg/0.jpg" loading="lazy" alt="RheinBrücke – Customer Reference by Dr. Schrettl" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
                             </div>
                         </a>
@@ -230,7 +230,7 @@
 
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="MmXOpBXQdZM" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/MmXOpBXQdZM/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Greg Bryan" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
+                            <img src="https://img.youtube.com/vi/MmXOpBXQdZM/0.jpg" loading="lazy" alt="RheinBrücke – Customer Reference by Greg Bryan" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
                             <div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
                             </div>
@@ -273,7 +273,7 @@
         <!-- Third Row-->
         <div class="col-md-12">
             <div class="row padd-bottom-10">
-                  <div class="col-md-4">
+                <div class="col-md-4">
 
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal9" data-videoid="C6sDlZCKIA4" data-videosite="youtube">
@@ -292,19 +292,21 @@
                     </p>
 
                 </div>
-                      <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header pad-bottom21">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        </div>
-                        <div class="modal-body">
-                            <%--<iframe src="https://www.youtube.com/embed/C6sDlZCKIA4?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
-                            <embed src="https://www.youtube.com/v/C6sDlZCKIA4?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
+                <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header pad-bottom21">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <%--<iframe src="https://www.youtube.com/embed/C6sDlZCKIA4?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
+                                <embed src="https://www.youtube.com/v/C6sDlZCKIA4?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                
+
                 <!-- Seventh Video-->
                 <div class="col-md-4">
 
@@ -345,11 +347,17 @@
                 <!-- End of Modal For Seventh Video-->
                 <!-- Eof Seventh Video-->
 
+                <!--- Modal For Seventh Video-->
+
+
+                <!-- End of Modal For Seventh Video-->
+                <!-- Eof Seventh Video-->
+
             </div>
         </div>
         <!--Eof Third Row-->
 
-      
+
     </div>
     <!--eof videos-->
     <div class="clearfix">&nbsp;</div>

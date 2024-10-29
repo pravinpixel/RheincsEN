@@ -1,7 +1,8 @@
 ﻿<%@ Page Title="Expert ERP Implementation Services & Corporate Videos" Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="Aboutus-CorporateVideos.aspx.cs" Inherits="RheinBrucke.AboutUs.Aboutus_CorporateVideos" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
-<meta name="keywords" content="Corporate Videos, ERP Consulting, Enterprise IT services,  technology consulting services, solutions" />
-<meta name="Description" content="Elevate your corporate image with engaging and impactful videos tailored to your brand. Discover how we can transform your operations and boost your corporate presence today!" />
+    <meta name="keywords" content="Corporate Videos, ERP Consulting, Enterprise IT services,  technology consulting services, solutions" />
+    <meta name="Description" content="Elevate your corporate image with engaging and impactful videos tailored to your brand. Discover how we can transform your operations and boost your corporate presence today!" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container" id="container-top">
@@ -14,7 +15,7 @@
             </ul>
         </div>
         <div class="row main-container marg20">
-			<h1>Corporate videos from Rheincs</h1>
+            <h1>Corporate videos from Rheincs</h1>
             <h5 class="deco-header">
                 <span class="redBottom">CORPORATE VIDEOS</span></h5>
         </div>
@@ -68,7 +69,7 @@
 
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="Fh6P6teEH3c" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/Fh6P6teEH3c/0.jpg"  loading="lazy" alt="RheinBrücke IT Consulting gewinnt bei den German Stevie Awards 2015" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
+                            <img src="https://img.youtube.com/vi/Fh6P6teEH3c/0.jpg" loading="lazy" alt="RheinBrücke IT Consulting gewinnt bei den German Stevie Awards 2015" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
                             <div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
                             </div>
@@ -152,7 +153,7 @@
 
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal10" data-videoid="B-XFRUeSlUs" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/B-XFRUeSlUs/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Martin Peters" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                            <img src="https://img.youtube.com/vi/B-XFRUeSlUs/0.jpg" loading="lazy" alt="RheinBrücke – Customer Reference by Martin Peters" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
                             </div>
                         </a>
@@ -188,7 +189,7 @@
 
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal11" data-videoid="yvtX2yqWxVg" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/yvtX2yqWxVg/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Dr. Schrettl" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                            <img src="https://img.youtube.com/vi/yvtX2yqWxVg/0.jpg" loading="lazy" alt="RheinBrücke – Customer Reference by Dr. Schrettl" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
                             </div>
                         </a>
@@ -226,7 +227,7 @@
 
                     <div class="video_thumb_box">
                         <a href="#" data-toggle="modal" data-target="#myModal81" data-videoid="MmXOpBXQdZM" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/MmXOpBXQdZM/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Greg Bryan" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
+                            <img src="https://img.youtube.com/vi/MmXOpBXQdZM/0.jpg" loading="lazy" alt="RheinBrücke – Customer Reference by Greg Bryan" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
                             <div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
                             </div>
@@ -370,12 +371,12 @@
         </div>
         <!--Eof Third Row-->
 
-         <div class="clearfix">&nbsp;</div>
+        <div class="clearfix">&nbsp;</div>
 
-          <!-- Fourth Row-->
+        <!-- Fourth Row-->
         <div class="col-md-12">
             <div class="row padd-bottom-10">
-                  <div class="col-md-4">
+                <div class="col-md-4">
 
 
                     <div class="video_thumb_box">
@@ -411,11 +412,42 @@
                     </div>
                 </div>
 
-                <!-- End of Modal For Fourth Video-->
-                <!-- Eof Fourth Video-->
-                  
-                <!-- End of Modal For Seventh Video-->
-                <!-- Eof Seventh Video-->
+
+                <div class="col-md-4">
+
+
+                    <div class="video_thumb_box">
+                        <a href="#" data-toggle="modal" data-target="#myModal131" data-videoid="G1M5A1CBpYY" data-videosite="youtube">
+                            <img src="https://img.youtube.com/vi/G1M5A1CBpYY/0.jpg" alt="Liftek's ERP Transformation Journey with RheinBrücke: A Success Story" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                                <img src="../Assets/images/play.png" class="wpvl_playbutton" />
+                            </div>
+                        </a>
+                    </div>
+                    <br />
+
+                    <p class="contentSmall">
+                        <span class="video-thumbnail">Liftek's ERP Transformation Journey with RheinBrücke: A Success Story
+                        </span>
+                        <br />
+                        <a href="#" data-toggle="modal" data-target="#myModal131" data-videoid="G1M5A1CBpYY" data-videosite="youtube" class="video-class">Click to play video</a>
+                    </p>
+
+                </div>
+
+
+                <!--- Modal For Fourth Video-->
+                <div class="modal fade" id="myModal131" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header pad-bottom21">
+                                <button type="button" onclick="javascript:window.location.reload()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <embed src="https://www.youtube.com/v/G1M5A1CBpYY?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
