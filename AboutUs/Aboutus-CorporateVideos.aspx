@@ -15,7 +15,7 @@
             </ul>
         </div>
         <div class="row main-container marg20">
-            <h1>Corporate videos from Rheincs</h1>
+            <%--<h1>Corporate videos from Rheincs</h1>--%>
             <h5 class="deco-header">
                 <span class="redBottom">CORPORATE VIDEOS</span></h5>
         </div>

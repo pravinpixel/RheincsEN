@@ -87,4 +87,6 @@
         $("#cbp-spmenu-s2").toggleClass('active');
         $("#cbp-spmenu-s2").toggleClass('cbp-spmenu-open');
     });
+	
+	
 });

@@ -15,6 +15,7 @@
             width: 100% !important;
         }
     </style>
+	
     <div class="container" id="container-top">
         <div class="row">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -90,43 +91,40 @@
             </div>
         </div>
         <div class="row main-container marg20">
-            <h1 class="deco-header" style="font-size: 1.167em !important;"><span class="redBottom">OUR SERVICES INCLUDE</span></h1>
+			<h2 class="blackHeader marg20">Our Services Include</h2>
+			<div class="home-services-grid first-row">
+				<a href="solutions/consulting-and-advisory-solutions/erp-selection-advisory-solutions">
+					<img src="Assets/images/home-services-icons/home-services-icon1.svg" alt="" />
+					<span>Consulting and Advisory Services</span>
+				</a>
+				<a href="solutions/erp-enterprise-solutions-and-services/sap">
+					<img src="Assets/images/home-services-icons/home-services-icon2.svg" alt="" />
+					<span>Enterprise Solutions &amp; Services</span>
+				</a>
+				<a href="#">
+					<img src="Assets/images/home-services-icons/home-services-icon3.svg" alt="" />
+					<span>Digital Solutions &amp; Services</span>
+				</a>
+			</div>
+			<div class="home-services-grid second-row">
+				<a href="solutions/erp-enterprise-solutions-and-services/epicor">
+					<img src="Assets/images/home-services-icons/home-services-icon4.svg" alt="" />
+					<span>Epicor</span>
+				</a>
+				<a href="solutions/erp-enterprise-solutions-and-services/ms-dynamics">
+					<img src="Assets/images/home-services-icons/home-services-icon5.svg" alt="" />
+					<span>Microsoft Dynamics</span>
+				</a>
+				<a href="solutions/erp-enterprise-solutions-and-services/sap">
+					<img src="Assets/images/home-services-icons/home-services-icon6.svg" alt="" />
+					<span>SAP</span>
+				</a>
+				<a href="solutions/erp-enterprise-solutions-and-services/sugar-crm">
+					<img src="Assets/images/home-services-icons/home-services-icon7.svg" alt="" />
+					<span>SugarCRM</span>
+				</a>
+			</div>
             <div class="marg20"></div>
-            <div class="col-md-12">
-                <a href="solutions/consulting-and-advisory-solutions/erp-selection-advisory-solutions">
-                    <div class="col-md-3 col-sm-6 services-box">
-                        <div class="consulting-icon"><i class="fa _none"></i></div>
-                        <div class="services-arrow"></div>
-                        <div class="services-content">
-                            <p class="services-text">Consulting and Advisory Services</p>
-                        </div>
-                    </div>
-                </a><a href="solutions/erp-enterprise-solutions-and-services/sap">
-                    <div class="col-md-3 col-sm-6 services-box">
-                        <div class="enterprise-icon"><i class="fa _none"></i></div>
-                        <div class="services-arrow"></div>
-                        <div class="services-content">
-                            <p class="services-text">Enterprise Solution’s (ERP) and Services</p>
-                        </div>
-                    </div>
-                </a><a href="solutions/it-services-and-solutions/microsoft-technologies">
-                    <div class="col-md-3 col-sm-6 services-box">
-                        <div class="itservices-icon"><i class="fa _none"></i></div>
-                        <div class="services-arrow"></div>
-                        <div class="services-content">
-                            <p class="services-text">IT Services and Solutions</p>
-                        </div>
-                    </div>
-                </a><a href="solutions/ip-product-development-services/product-engineering-development-services">
-                    <div class="col-md-3 col-sm-6 services-box">
-                        <div class="ipproduct-icon"><i class="fa _none"></i></div>
-                        <div class="services-arrow"></div>
-                        <div class="services-content">
-                            <p class="services-text">IP and Product Development Services</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
         </div>
         <div class="row main-container marg20">
             <h2 class="blackHeader">Our Team</h2>
@@ -146,34 +144,21 @@
         <br />
          
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <h2 class="blackHeader padd-left-head">Driving Value for Customers Across Business Verticals</h2>
-                <div class="mainContent-normal contentdiv padd-left-content">RheinBrücke’s IT consulting services along with our expertise in technologies like mobile, cloud and big data help us provide custom solutions and offerings to address specific business needs. We have made a pronounced impact on multiple business verticals like automotive, discrete manufacturing, metal fabrication, EPC, oil & gas and medical device manufacture & distribution. We are driven by a strong desire to have a tangible impact on returns with our deep expertise, functional and technical knowledge. Enterprises who have partnered with us across the Americas, Continental Europe, the Middle East and Asia, have witnessed the creation of tangible value through the implementation of strategic IT business solutions.</div>
+                <div class="home-video-content">RheinBrücke’s IT consulting services along with our expertise in technologies like mobile, cloud and big data help us provide custom solutions and offerings to address specific business needs. We have made a pronounced impact on multiple business verticals like automotive, discrete manufacturing, metal fabrication, EPC, oil & gas and medical device manufacture & distribution. We are driven by a strong desire to have a tangible impact on returns with our deep expertise, functional and technical knowledge. Enterprises who have partnered with us across the Americas, Continental Europe, the Middle East and Asia, have witnessed the creation of tangible value through the implementation of strategic IT business solutions.</div>
             </div>
-            <div class="col-md-6">
-                <div class="row padd-bottom-10"> 
-					
-					
-
+            <div class="col-md-12">
+                <div class="row padd-bottom-10 video-padding">
                 <div class="col-md-4 col-sm-4">
-
-
                     <div class="video_thumb_box">
-                        <a href="#" data-toggle="modal" data-target="#myModal7" data-videoid="IDrR7hiizhI" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/IDrR7hiizhI/default.jpg" alt="RheinBrücke Corporate Video" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                        <a href="#" data-toggle="modal" data-target="#myModal7" data-videoid="G1M5A1CBpYY" data-videosite="youtube">
+                            <img src="https://img.youtube.com/vi/G1M5A1CBpYY/default.jpg" alt="RheinBrücke Corporate Video" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
                                 <img src="../Assets/images/play.png" alt="Play Logo" class="wpvl_playbutton" />
                             </div>
                         </a>
-
+						<a href="#" data-toggle="modal" data-target="#myModal7" data-videoid="G1M5A1CBpYY" data-videosite="youtube" class="video-class">Liftek's ERP Transformation Journey with RheinBrücke: A Success Story</a>
                     </div>
-
-                    <br />
-                    <p class="contentSmall">
-                        <span class="video-thumbnail">RheinBrucke IT Consulting – Corporate video
-                        </span>
-                        <br />
-                        <a href="#" data-toggle="modal" data-target="#myModal7" data-videoid="IDrR7hiizhI" data-videosite="youtube" class="video-class">Click to play video</a>
-                    </p>
 
                 </div>
 
@@ -185,8 +170,8 @@
                                 <button type="button" onclick="javascript:window.location.reload()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                             </div>
                             <div class="modal-body">
-                                <%--<iframe src="https://www.youtube.com/embed/IDrR7hiizhI?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
-                                <embed src="https://www.youtube.com/v/IDrR7hiizhI?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
+                                <%--<iframe src="https://www.youtube.com/embed/G1M5A1CBpYY?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
+                                <embed src="https://www.youtube.com/v/G1M5A1CBpYY?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
                             </div>
                         </div>
                     </div>
@@ -200,22 +185,14 @@
                 <div class="col-md-4 col-sm-4">
 
                     <div class="video_thumb_box">
-                        <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="Fh6P6teEH3c" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/Fh6P6teEH3c/0.jpg"  loading="lazy" alt="RheinBrücke IT Consulting gewinnt bei den German Stevie Awards 2015" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
+                        <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="Y3Kc616jPU0" data-videosite="youtube">
+                            <img src="https://img.youtube.com/vi/Y3Kc616jPU0/0.jpg"  loading="lazy" alt="RheinBrücke IT Consulting gewinnt bei den German Stevie Awards 2015" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
                             <div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
                             </div>
                         </a>
+						<a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="Y3Kc616jPU0" data-videosite="youtube" class="video-class">RheinBrücke – FLSmidth Testimonial Mads Madsbjerg Hansen</a>
                     </div>
-                    <br />
-
-
-                    <p class="contentSmall">
-                        <span class="video-thumbnail">RheinBrücke IT Consulting - Stevie Awards 2015 German
-                        </span>
-                        <br />
-                        <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="MmXOpBXQdZM" data-videosite="youtube" class="video-class">Click to play video</a>
-                    </p>
 
                 </div>
                 <!--- Modal For Second Video-->
@@ -226,8 +203,8 @@
                                 <button type="button" onclick="javascript:window.location.reload()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                             </div>
                             <div class="modal-body">
-                                <%--<iframe src="https://www.youtube.com/embed/MmXOpBXQdZM?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
-                                <embed src="https://www.youtube.com/v/MmXOpBXQdZM?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
+                                <%--<iframe src="https://www.youtube.com/embed/Y3Kc616jPU0?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
+                                <embed src="https://www.youtube.com/v/Y3Kc616jPU0?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
                             </div>
                         </div>
                     </div>
@@ -238,21 +215,13 @@
 				
                 <div class="col-md-4 col-sm-4">
                     <div class="video_thumb_box">
-                        <a href="#" data-toggle="modal" data-target="#myModal9" data-videoid="C6sDlZCKIA4" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/C6sDlZCKIA4/0.jpg" alt="RheinBrücke – Customer Reference by Harry Hezel" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
+                        <a href="#" data-toggle="modal" data-target="#myModal9" data-videoid="A0KSH_HceLc" data-videosite="youtube">
+                            <img src="https://img.youtube.com/vi/A0KSH_HceLc/0.jpg" alt="RheinBrücke – Customer Reference by Harry Hezel" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
                                 <img src="../Assets/images/play.png" class="wpvl_playbutton" />
                             </div>
                         </a>
+						<a href="#" data-toggle="modal" data-target="#myModal9" data-videoid="A0KSH_HceLc" data-videosite="youtube" class="video-class">RheinBrücke – Customer Reference by Greg Bryan</a>
                     </div>
-                    <br />
-
-                    <p class="contentSmall">
-                        <span class="video-thumbnail">RheinBrücke – Customer Reference by Harry Hezel
-                        </span>
-                        <br />
-                        <a href="#" data-toggle="modal" data-target="#myModal9" data-videoid="C6sDlZCKIA4" data-videosite="youtube" class="video-class">Click to play video</a>
-                    </p>
-
                 </div>
                 <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
@@ -261,135 +230,119 @@
                                 <button type="button" onclick="javascript:window.location.reload()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                             </div>
                             <div class="modal-body">
-                                <%--<iframe src="https://www.youtube.com/embed/C6sDlZCKIA4?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
-                                <embed src="https://www.youtube.com/v/C6sDlZCKIA4?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
+                                <%--<iframe src="https://www.youtube.com/embed/A0KSH_HceLc?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
+                                <embed src="https://www.youtube.com/v/A0KSH_HceLc?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
                             </div>
                         </div>
                     </div>
-                </div> 
-					
-					
-                </div>
-				
-				
-                <div class="row padd-bottom-10">
-				
-
-                <!-- Fourth Video-->
-                <div class="col-md-4 col-sm-4">
-
-                    <div class="video_thumb_box">
-                        <a href="#" data-toggle="modal" data-target="#myModal10" data-videoid="B-XFRUeSlUs" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/B-XFRUeSlUs/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Martin Peters" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
-                                <img src="../Assets/images/play.png" class="wpvl_playbutton" />
-                            </div>
-                        </a>
-                    </div>
-                    <br />
-                    <p class="contentSmall">
-                        <span class="video-thumbnail">RheinBrücke – Customer Reference by Martin Peters
-                        </span>
-                        <br />
-                        <a href="#" data-toggle="modal" data-target="#myModal10" data-videoid="B-XFRUeSlUs" data-videosite="youtube" class="video-class">Click to play video</a>
-                    </p>
-
-                </div>
-                <!--- Modal For Fourth Video-->
-                <div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header pad-bottom21">
-                                <button type="button" onclick="javascript:window.location.reload()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            </div>
-                            <div class="modal-body">
-                                <%--<iframe src="https://www.youtube.com/embed/B-XFRUeSlUs?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
-                                <embed src="https://www.youtube.com/v/B-XFRUeSlUs?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-				
-
-                <div class="col-md-4 col-sm-4">
-
-                    <div class="video_thumb_box">
-                        <a href="#" data-toggle="modal" data-target="#myModal11" data-videoid="yvtX2yqWxVg" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/yvtX2yqWxVg/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Dr. Schrettl" class="video_lightbox_auto_anchor_image ETvideo" alt="" /><div class="thumb_play">
-                                <img src="../Assets/images/play.png" class="wpvl_playbutton" />
-                            </div>
-                        </a>
-                    </div>
-                    <br />
-
-
-                    <p class="contentSmall">
-                        <span class="video-thumbnail">RheinBrücke – Customer Reference by Dr. Schrettl
-                        </span>
-                        <br />
-                        <a href="#" data-toggle="modal" data-target="#myModal11" data-videoid="yvtX2yqWxVg" data-videosite="youtube" class="video-class">Click to play video</a>
-                    </p>
-
-                </div>
-                <!--- Modal For Fifth Video-->
-                <div class="modal fade" id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header pad-bottom21">
-                                <button type="button" onclick="javascript:window.location.reload()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            </div>
-                            <div class="modal-body">
-                                <%--<iframe src="https://www.youtube.com/embed/yvtX2yqWxVg?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
-                                <embed src="https://www.youtube.com/v/yvtX2yqWxVg?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-				
-                <div class="col-md-4 col-sm-4">
-
-                    <div class="video_thumb_box">
-                        <a href="#" data-toggle="modal" data-target="#myModal81" data-videoid="MmXOpBXQdZM" data-videosite="youtube">
-                            <img src="https://img.youtube.com/vi/MmXOpBXQdZM/0.jpg" loading="lazy"  alt="RheinBrücke – Customer Reference by Greg Bryan" class="video_lightbox_auto_anchor_image ETvideo" alt="" />
-                            <div class="thumb_play">
-                                <img src="../Assets/images/play.png" class="wpvl_playbutton" />
-                            </div>
-                        </a>
-                    </div>
-                    <br />
-
-
-                    <p class="contentSmall">
-                        <span class="video-thumbnail">RheinBrücke – Customer Reference by Greg Bryan
-                        </span>
-                        <br />
-                        <a href="#" data-toggle="modal" data-target="#myModal8" data-videoid="MmXOpBXQdZM" data-videosite="youtube" class="video-class">Click to play video</a>
-                    </p>
-
-                </div>
-                <!--- Modal For Sixth Video-->
-                <div class="modal fade" id="myModal81" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header pad-bottom21">
-                                <button type="button" onclick="javascript:window.location.reload()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            </div>
-                            <div class="modal-body">
-                                <%--<iframe src="https://www.youtube.com/embed/MmXOpBXQdZM?rel=0&amp;autoplay=0" style="width: 100%;" height="480" frameborder="no"></iframe>--%>
-                                <embed src="https://www.youtube.com/v/MmXOpBXQdZM?rel=0&amp;autoplay=0" type="application/x-shockwave-flash" style="width: 100%;" height="480"></embed>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
+                </div> 				
 				
                 </div>
+				
                 <div class="row pull-right padd-right-20">
-                    <a href="about-us/corporate-videos">
-                        <h3 class="more-videos">Click here to view more videos
-                        </h3>
-                    </a>
+				<div class="text-right"><a href="about-us/corporate-videos" class="home-awards-link" style="margin-bottom: 0px;"><img src="Assets/images/right-arrow.svg" /><span>View All</span></a></div>
                 </div>
             </div>
         </div>
+		
+		<div class="row testimonials-row" style="margin: 0px;">
+			<div class="col-md-12">
+				<h2 class="blackHeader marg20">Testimonials</h2>
+				<div class="testimonial-slider">
+					<div class="testimonial-box">
+						<img class="testimonial-quote" src="Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+						<div class="testimonial-content">
+							<div class="testimonial-text">"RheinBrücke IT Consulting's technical expertise makes me feel invincible. CCT has a talented pool of internal IT resources but sometimes that's not enough.  Working with RB has taken a lot of weight off our shoulders; both the sheer volume of what we can handle together as well as the high level of technical expertise they bring to the table have greatly advanced CCT's abilities to adapt and evolve with our expanding global market.  Nithish and Rajagopol are easy to work with and always have great ideas on how to solve our technical and business process issues plus they're just nice guys."</div>
+							<div class="testimonial-footer">
+								<div class="testimonial-footer-description">
+									<img src="Assets/images/Testimonial/cold-chain-logo.png" alt="Darius Jonason" />
+									<p><strong>Darius Jonason</strong>Business Process Analyst/Solutions Architect Cold Chain Technologies</p>
+								</div>
+								<div class="testimonial-footer-logo">
+									<img src="Assets/images/Testimonial/Cold-Chain-Logo-full.png" class="img-responsive" alt="Cold Chain" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="testimonial-box">
+						<img class="testimonial-quote" src="Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+						<div class="testimonial-content">
+							<div class="testimonial-text">"Congratulations to your team for successfully pulling off the “Automation of RMA” project using the “A-MAP Smart” mobile based application! The legacy system was a laborious and time-consuming activity of data entry of the hundreds of Inspection entries, from the numerous Inspection sheets generated on a daily basis from the field, matching the claims against the supplied Sales orders and line details, entering all the warranty test information including customer purchasing & return data, creating disposition against the relevant warehouses and summarizing all the data for transfer to the sales teams for actual settlement of claims vide relevant sales orders."</div>
+							<div class="testimonial-footer">
+								<div class="testimonial-footer-description">
+									<img src="Assets/images/Testimonial/Ramamurthy-Rao.png" alt="Ramamurthy Rao" />
+									<p><strong>Ramamurthy Rao</strong>Head of R&D and QC Al Muqarram Auto Parts</p>
+								</div>
+								<div class="testimonial-footer-logo">
+									<img src="Assets/images/Testimonial/a-map.png" alt="A Map" class="img-responsive" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="testimonial-box">
+						<img class="testimonial-quote" src="Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+						<div class="testimonial-content">
+							<div class="testimonial-text">"Thank you for the continued good work on the ERP and Supply Chain project. Your Consulting, Technical, Functional and Project management expertise was evident and was very well appreciated by our staffs. I was also pleased with the flexible, easily approachable, transparent dealing with your team. Needless to mention I also appreciate how effectively you leverage the teaming with cross cultural teams with low cost geography for developmental resources while not compromising on the quality of deliverables to business. Keep up the good work."</div>
+							<div class="testimonial-footer">
+								<div class="testimonial-footer-description">
+									<img src="Assets/images/Testimonial/Massimiliano-A-Milani.png" alt="Massimiliano A Milani" />
+									<p><strong>Massimiliano A. Milani</strong>Director Europe & Africas at Federal Mogul Antwerp, Belgium</p>
+								</div>
+								<div class="testimonial-footer-logo">
+									<img src="Assets/images/Testimonial/Federal-Mogul.png" alt="Federal Mogul" class="img-responsive" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="testimonial-box">
+						<img class="testimonial-quote" src="Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+						<div class="testimonial-content no-more">
+							<div class="testimonial-text">"I had been using RheinBrücke team as my extended arm for sometime now and I have really come to appreciate their depth of technical and functional knowledge of the product and their commitment to our end customers needs. They react quickly to new challenges and are always there for me to rely on."</div>
+							<div class="testimonial-footer">
+								<div class="testimonial-footer-description">
+									<img src="Assets/images/Testimonial/craig.gif" alt="Craig Stephens" />
+									<p><strong>Craig Stephens</strong>Vice President-International Consulting at Epicor Software United Kingdom</p>
+								</div>
+								<div class="testimonial-footer-logo">
+									<img src="Assets/images/Testimonial/Epicor.png" alt="Epicor" class="img-responsive" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="testimonial-box">
+						<img class="testimonial-quote" src="Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+						<div class="testimonial-content">
+							<div class="testimonial-text">"We implemented Epicor ERP for one of our large Glass manufacturing facility in Middle East. Like any ERP implementations, even though the product was good, we faced initial hiccup and challenges during the implementation . This is where we came across the German based RheinBrücke IT consulting and took their support. They did a fantastic turnaround of the project. I enjoyed the transparent and efficient dealing with the company and came to appreciate their work. Now they have opened the Middle East operations and am positive they will do well due to their good service motto."</div>
+							<div class="testimonial-footer">
+								<div class="testimonial-footer-description">
+									<img src="Assets/images/Testimonial/RizwanullaKhan.png" alt="Rizwanulla Khan" />
+									<p><strong>Rizwanulla Khan</strong>Executive President at Emirates Glass Saudi American &amp; Lumi Glass</p>
+								</div>
+								<div class="testimonial-footer-logo">
+									<img src="Assets/images/Testimonial/saudi-american-glass.png" alt="Saudi American Glass" class="img-responsive" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="testimonial-box">
+						<img class="testimonial-quote" src="Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+						<div class="testimonial-content no-more">
+							<div class="testimonial-text">"We were very impressed with the way RheinBrücke carried out their work. From analysis to implementation and post-production support, their analysis was always detailed and complete. It was easily understood by users, so different system extension options could be evaluated with all relevant information."</div>
+							<div class="testimonial-footer">
+								<div class="testimonial-footer-description">
+									<img src="Assets/images/Testimonial/wajid.png" alt="Syed Waseem Wajid" />
+									<p><strong>Syed Waseem Wajid</strong>IT HEAD at Global Glass Manufacturer KSA, Middle East</p>
+								</div>
+								<div class="testimonial-footer-logo">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-right"><a href="about-us/customer-speak" class="home-awards-link" style="margin-bottom: 0px;"><img src="Assets/images/right-arrow.svg" /><span>View All</span></a></div>
+			</div>
+		</div>
+		
         <div class="modal fade" id="homeModalVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -428,6 +381,7 @@
     <!--Eof Gitex image-->
      <script type="text/javascript" src="Assets/js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript">
+		
 
         $(document).ready(function () {
             var Count = 0;
