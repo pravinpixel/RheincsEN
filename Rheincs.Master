@@ -1013,7 +1013,7 @@
 							<div class="col-md-6 right-sect">
 								<h2>&nbsp;</h2>
 								<p class="rig-sect-para">Talk to a Specialist today <br/><a href="tel:+4923129295619" target="_blank">+49 231 292 95619</a></p>
-								<p class="rig-sect-para">Collaborate with RheinBrücke <br/><a href="#" class="under-line">Download EPICOR Partner Enablement Program</a></p>
+								<p class="rig-sect-para">Collaborate with RheinBrücke <br/><a href="" class="under-line" data-toggle="modal" onclick="DownloadClear()" data-target="#myModal-pepdownload">Download EPICOR Partner Enablement Program</a></p>
 								<div class="footer-follow-us">
 									<p>Follow Us</p>
 									<a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -1026,13 +1026,14 @@
 						</div>
 						
 						<div class="row footer-section" style="margin: 0px">
-							<div class="col-sm-12 col-md-2">
+							<div class="col-sm-12 col-md-3">
 								<h4>About Us</h4>
 								<ul class="footer-links">
 									<li><a href="<%=rootpath %>about-us/overview">Overview</a></li>
 									<li><a href="<%=rootpath %>about-us/leadership">Leadership</a></li>
 									<li><a href="<%=rootpath %>about-us/customer-speak">Customer Speaks</a></li>
 									<li><a href="<%=rootpath %>about-us/success-stories">Success Stories</a></li>
+									<li><a href="<%=rootpath %>partners">Partners</a></li>
 								</ul>
 								<h4>Career</h4>
 								<ul class="footer-links">
@@ -1070,7 +1071,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-12 col-md-2">
+							<div class="col-sm-12 col-md-3">
 								<h4>Resources</h4>
 								<ul class="footer-links">
 									<li><a href="<%=rootpath %>https://blog.rheincs.com/" target="_blank">Blog</a></li>
@@ -1084,9 +1085,6 @@
 									<li><a href="<%=rootpath %>news-events">News and Events</a></li>
 									<li><a href="<%=rootpath %>resources/faq">FAQ</a></li>
 								</ul>
-							</div>
-							<div class="col-sm-12 col-md-2">
-								<h4>Partners</h4>
 							</div>
 						</div>
 						
@@ -1102,7 +1100,45 @@
             </div>
         </form>
     </div>
-
+    <div class="modal fade" id="myModal-pepdownload" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content mymodal-download">
+                                                <div class="modal-header modal-header-bgcolor">
+                                                    <button type="button" class="close closev2" data-dismiss="modal" aria-label="Close" data-backdrop="false" data-faitracker-form-bind="true"><span aria-hidden="true">×</span></button>
+                                                    <h4 class="modal-title redColor">Download RheinBrücke’s EPICOR Partner Enablement Program document</h4>
+                                                </div>
+                                                <div class="col-md-12 padd-top">
+                                                    <div class="form-group">
+                                                        <label class="success" id="PEPsuccessmessage" hidden="hidden">Thank you for submitting your details. You will receive an email shortly with a link to download RheinBrücke's EPICOR Partner Enablement Program document.</label>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p class="formhead">Please fill in your details to download RheinBrücke’s EPICOR Partner Enablement Program document.</p>
+                                                    <p>&nbsp;</p>
+                                                    <p>
+                                                        <input type="text" placeholder="*Your Name" id="txtCalloutName" class="write-to-us-input">
+                                                    </p>
+                                                    <span style="margin-top: 5px;" class="validator" id="reqCalloutName" hidden="hidden">Enter Your Name</span>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>
+                                                        <input type="text" placeholder="*Your Email Address" id="txtCalloutEmail" class="write-to-us-input">
+                                                    </p>
+                                                    <span style="margin-top: 5px;" class="validator" id="reqCalloutemail" hidden="hidden">Enter Your Email Address</span> <span class="validator" id="valCalloutemail" hidden="hidden" style="margin-top: 2px;">Enter Valid Email Address</span>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>
+                                                        <input type="number" placeholder="Your Mobile Number" id="txtCalloutMobNo" class="write-to-us-input">
+                                                    </p>
+                                                    <span style="margin-top: 5px;" class="validator" id="reqCalloutMobNo" hidden="hidden">Enter Your Mobile Number</span> <span class="validator" id="valCalloutMobNo" hidden="hidden">Enter Valid Your Mobile Number</span>
+                                                </div>
+                                                <div class="clearfix">&nbsp;</div>
+                                                <div class="modal-body">
+                                                    <input type="button" id="BtnCallout" class="submit-button" data-loading-text="Submitting.." value="Submit" data-faitracker-form-bind="true">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
 
     <%--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -1309,10 +1345,8 @@
 		  autoplay: false,
 		  autoplaySpeed: 5000,
 		  speed: 1000,
-		  slidesToShow: 1,
+		  slidesToShow: 2,
 		  slidesToScroll: 1,
-		  centerMode: true,
-		  centerPadding: '300px',
 		  responsive: [
 			{
 			  breakpoint: 1180,
@@ -1321,8 +1355,6 @@
 				slidesToScroll: 1,
 				infinite: true,
 				dots: true,
-				centerMode: false,
-				centerPadding: '0px',
 			  }
 			}
 		  ]
@@ -1331,7 +1363,7 @@
 	$('.clients-slider').slick({
 		  dots: false,
 		  infinite: true,
-		  arrows : true,
+		  arrows : false,
 		  autoplay: true,
 		  autoplaySpeed: 1000,
 		  speed: 1000,
