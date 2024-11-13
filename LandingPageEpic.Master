@@ -11,6 +11,9 @@
     <script type="text/javascript" src="https://stg.rheincs.net/2-click/javascripts/jquery.min.js"></script>
     <script type="text/javascript" src="https://stg.rheincs.net/2-click/javascripts/jquery.cookies.js"></script>
     <script type="application/x-social-share-privacy-settings">{"path_prefix":"https://stg.rheincs.net/2-click/","uri":"https://rheincs.com","layout":"box","services":{"buffer":{"status":false},"delicious":{"status":false},"fbshare":{"status":false},"disqus":{"status":false},"flattr":{"status":false},"hackernews":{"status":false},"mail":{"status":false},"pinterest":{"status":false},"reddit":{"status":false},"stumbleupon":{"status":false},"tumblr":{"status":false},"xing":{"status":false}}}</script>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
     <style>
         li.hvr-wobble-to-top-right {
             display: inherit;
@@ -1016,6 +1019,12 @@ alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" cl
 <%: Scripts.Render("~/assets/jsmin")%>
 <asp:ContentPlaceHolder runat="server" ID="FooterScript" />
 <script src="/Assets/js/bxSlider.js" defer></script>
+
+
+<script type="text/javascript" src="https://en.rheincs.com/Assests/js/jquery-2.1.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script type="text/javascript" defer>
 
     $(document).ready(function () {

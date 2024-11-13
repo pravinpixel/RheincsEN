@@ -6882,11 +6882,12 @@ button.close {
   font-style: normal;
 }
 .fa {
-  font: normal normal normal 14px/1 FontAwesome;
+  font-family: FontAwesome !important;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   transform: translate(0, 0);
+  font-style: normal;
 }
 body,
 h2,

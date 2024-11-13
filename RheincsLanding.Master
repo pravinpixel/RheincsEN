@@ -35,12 +35,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script>  window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-795585511'); </script>
 
     <!-- end of leadfeeder code -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
     <style>
         @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 
-        * {
-            font-family: Raleway !important;
-        }
+        
 
         ul.social_share_privacy_area li .info {
             display: none !important;
@@ -1116,294 +1116,339 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
                 <div id="footer">
                     <div class="row" style="margin: 0px">
-                        <div style="max-width: 1024px !important; margin: auto;">
-                            <ul class="bxslider">
+						<div class="col-sm-12">
+							<h2 class="padd-left-head martopbot30">Customers</h2>
+						</div>
+					</div>
+                    <div class="row" style="margin: 0px">
+                        <div style="max-width: 1024px !important; margin: auto;">							
+                            <ul class="clients-slider">
                                 <li>
-                                    <img src="https://en.rheincs.com/Assets/images/national-gas.jpg" class="hvr-bounce-out" title="National Gas" />
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/1-American-golf.png" class="hvr-bounce-out" alt="" title="American Golf" />
                                 </li>
                                 <li>
-                                    <img src="https://en.rheincs.com/Assets/images/trw.jpg" class="hvr-bounce-out" title="TRW-Automotive" />
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/2-cold-chain-tech.png" class="hvr-bounce-out" alt="" title="Cold Chain Tech" />
                                 </li>
                                 <li>
-                                    <img src="https://en.rheincs.com/Assets/images/sandoz.jpg" class="hvr-bounce-out" title="Sandoz Pharmaceuticals " />
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/3-liftek.png" class="hvr-bounce-out" alt="" title="Liftek" />
+                                </li>
+                                 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/4-alshaya.png" class="hvr-bounce-out" alt="" title="Alshaya" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/5-epicor.png" class="hvr-bounce-out" alt="" title="Epicor" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/6-sm-jaleel.png" class="hvr-bounce-out" alt="" title="SM Jaleel" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/7-federal-mogul.png" class="hvr-bounce-out" alt="" title="Federal Mogul" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/8-gerab.png" class="hvr-bounce-out" alt="" title="Gerab" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/9-motabaqah.png" class="hvr-bounce-out" alt="" title="Motabaqah" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/10-bond.png" class="hvr-bounce-out" alt="" title="Bond" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/11-sembcorp.png" class="hvr-bounce-out" alt="" title="Sembcorp" />
                                 </li>
                                 <li>
-                                    <img src="https://en.rheincs.com/Assets/images/pertro-masilla.jpg" class="hvr-bounce-out" title="Petro Masila" />
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/12-cellcentric.png" class="hvr-bounce-out" alt="" title="Cellcentric" />
+                                </li>
+                                 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/13-ecolean.png" class="hvr-bounce-out" alt="" title="Ecolean" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/14-ceco.png" class="hvr-bounce-out" alt="" title="Ceco" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/15-TRW.png" class="hvr-bounce-out" alt="" title="TRW" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/16-kraft.png" class="hvr-bounce-out" alt="" title="Kraft" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/17-eccbc.png" class="hvr-bounce-out" alt="" title="Eccbc" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/18-oman-fiber.png" class="hvr-bounce-out" alt="" title="Oman Fiber" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/19-kern.png" class="hvr-bounce-out" alt="" title="Kern" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/20-flsmidth.png" class="hvr-bounce-out" alt="" title="Flsmidth" />
                                 </li>
                                 <li>
-                                    <img src="https://en.rheincs.com/Assets/images/rsp-consultojg.jpg" class="hvr-bounce-out" title="RSP Consultants" />
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/21-kone.png" class="hvr-bounce-out" alt="" title="Kone" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/kemppi.jpg" class="hvr-bounce-out" title="Kemppi" />
+                                 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/22-tadco.png" class="hvr-bounce-out" alt="" title="Tadco" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/rederal.jpg" class="hvr-bounce-out" title="Federal Mogul" />
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/23-rsp.png" class="hvr-bounce-out" alt="" title="RSP" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/saudi-american-glass.jpg" class="hvr-bounce-out" title="SAR-Saudi American Glass" />
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/24-kempi.png" class="hvr-bounce-out" alt="" title="Kempi" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/ray.jpg" class="hvr-bounce-out" title="Ray International" />
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/25-nucor.png" class="hvr-bounce-out" alt="" title="Nucor" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/msd.jpg" class="hvr-bounce-out" title="Msd" />
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/26-rfa.png" class="hvr-bounce-out" alt="" title="RFA" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/belcan.jpg" class="hvr-bounce-out" title="Belcan" />
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/27-schalke.png" class="hvr-bounce-out" alt="" title="Schalke" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/flsmidh.jpg" class="hvr-bounce-out" title="Flsmidth" />
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/28-gemaco.png" class="hvr-bounce-out" alt="" title="Gemaco" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/kone.jpg" class="hvr-bounce-out" title="Kone" />
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/29-talents.png" class="hvr-bounce-out" alt="" title="Talents" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/kern.jpg" class="hvr-bounce-out" title="Kern" />
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/30-tialoc.png" class="hvr-bounce-out" alt="" title="Tialoc" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/cash-fire.jpg" class="hvr-bounce-out" title="Cease-fire" />
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/31-zamil.png" class="hvr-bounce-out" alt="" title="Zamil" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/sembcorp.jpg" class="hvr-bounce-out" title="Sembcorp" />
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/32-eva.png" class="hvr-bounce-out" alt="" title="EVA" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/kraft-heinz.jpg" class="hvr-bounce-out" title="Heinz" />
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/33-nasco.png" class="hvr-bounce-out" alt="" title="Nasco" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/stahl.jpg" class="hvr-bounce-out" title="Stahil" />
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/34-global-industries.png" class="hvr-bounce-out" alt="" title="Global Industries" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/amazon.jpg" class="hvr-bounce-out" title="Amazon" />
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/35-ghassan.png" class="hvr-bounce-out" alt="" title="Ghassan" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/alcon.jpg" class="hvr-bounce-out" title="Alcon" />
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/36-glaze.png" class="hvr-bounce-out" alt="" title="Glaze" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/pradeep-metals.jpg" class="hvr-bounce-out" title="Pradeep-Metals" />
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/37-greentech.png" class="hvr-bounce-out" alt="" title="Green Tech" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/euronics.jpg" class="hvr-bounce-out" title="Euronics" />
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/38-saudi-american-glass.png" class="hvr-bounce-out" alt="" title="Soudi American Glass" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/arabian-industries.jpg" class="hvr-bounce-out" title="Arabian-Industries" />
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/39-oilserv.png" class="hvr-bounce-out" alt="" title="Oliserv" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/arabi-enertech.jpg" class="hvr-bounce-out" title="Arabi-Enertech" />
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/40-ceasefire.png" class="hvr-bounce-out" alt="" title="Cease Fire" />
                                 </li>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/novartis.jpg" class="hvr-bounce-out" title="Novartis" />
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/41-belcan.png" class="hvr-bounce-out" alt="" title="Belcan" />
                                 </li>
-                                <%--
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/Bond-Interiors.png" class="hvr-bounce-out" title="Bond Interiors" style="border: 1px solid #ddd;" />
-                                </li>--%>
-                                <li>
-                                    <img src="https://en.rheincs.com/Assets/images/Gerab.png" class="hvr-bounce-out" title="Gerab" style="border: 1px solid #ddd;" />
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/42-european-datawarehouse.png" class="hvr-bounce-out" alt="" title="European Data Warehouse" />
                                 </li>
-
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/43-lagerhauser.png" class="hvr-bounce-out" alt="" title="Lager Hauser" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/44-DB.png" class="hvr-bounce-out" alt="" title="DB" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/45-arabian-industries.png" class="hvr-bounce-out" alt="" title="Arabian Industries" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/46-msd.png" class="hvr-bounce-out" alt="" title="MSD" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/47-ZF.png" class="hvr-bounce-out" alt="" title="ZF" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/48-autoneum.png" class="hvr-bounce-out" alt="" title="Autoneum" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/49-al-hajery.png" class="hvr-bounce-out" alt="" title="AL Hajery" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/50-horizon-geoscience.png" class="hvr-bounce-out" alt="" title="Horizon Geoscience" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/51-customly.png" class="hvr-bounce-out" alt="" title="Customly" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/52-vantage.png" class="hvr-bounce-out" alt="" title="Vantage" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/53-alif.png" class="hvr-bounce-out" alt="" title="Alif" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/54-koch.png" class="hvr-bounce-out" alt="" title="Koch" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/55-BCS.png" class="hvr-bounce-out" alt="" title="BCS" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/56-afnas.png" class="hvr-bounce-out" alt="" title="AFNAS" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/57-avalign.png" class="hvr-bounce-out" alt="" title="Avalign" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/58-stahl.png" class="hvr-bounce-out" alt="" title="Stahl" />
+                                </li>
+								 <li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/59-ccc-underwater-engineering.png" class="hvr-bounce-out" alt="" title="CCC Underwater Engineering" />
+                                </li>
+								<li>
+                                    <img src="<%=rootpath %>Assets/images/customer-logos/60-zoetis.png" class="hvr-bounce-out" alt="" title="Zoetis" />
+                                </li>
                             </ul>
                         </div>
                     </div>
+					<div class="row" style="margin: 0px">
+						<div class="col-sm-12">
+							<h2 class="padd-left-head martopbot30">Awards and Recognitions</h2>							
+							<div class="home-awards">
+								<div class="home-awards-box">
+									<img src="<%=rootpath %>Assets/images/awards/focus-business.png" class="img-responsive" />
+									<p>FOCUS BUSINESS<br/>Top-Berater<br/>2022</p>
+								</div>
+								<div class="home-awards-box">
+									<img src="<%=rootpath %>Assets/images/awards/Beste-Unternehmens-2022.png" class="img-responsive" />
+									<p>Beste Unternehmens - Berater 2020<br/>2022</p>
+								</div>
+								<div class="home-awards-box">
+									<img src="<%=rootpath %>Assets/images/awards/Catalyst-Awards.png" class="img-responsive" />
+									<p>Catalyst Awards Top 10 Best IT Companies to Work 2019</p>
+								</div>
+								<div class="home-awards-box">
+									<img src="<%=rootpath %>Assets/images/awards/Beste-Berater-2018.png" class="img-responsive" />
+									<p>Beste Berater Brand eins 2018</p>
+								</div>
+								<div class="home-awards-box">
+									<img src="<%=rootpath %>Assets/images/awards/Bestes-neues-Produkt-2027.png" class="img-responsive" />
+									<p>Bestes neues Produkt oder Dienstleistung - Software – Alle anderen Lösungen 2017</p>
+								</div>
+								<div class="home-awards-box">
+									<img src="<%=rootpath %>Assets/images/awards/Stevie-Epicor-EpicPay-2017.png" class="img-responsive" />
+									<p>Stevie - Epicor EpicPay for the EMEA Market 2017</p>
+								</div>
+								<div class="home-awards-box">
+									<img src="<%=rootpath %>Assets/images/awards/Epicor-Partner-of-the-year.png" class="img-responsive" />
+									<p>Epicor Partner of the year 2016, 2018</p>
+								</div>
+								<div class="home-awards-box">
+									<img src="<%=rootpath %>Assets/images/awards/Stevie-Epicor-EpicPay-2017.png" class="img-responsive" />
+									<p>Stevie - L1 Epicor Support team of the Year 2016</p>
+								</div>
+								<div class="home-awards-box">
+									<img src="<%=rootpath %>Assets/images/awards/Stevie-Epicor-EpicPay-2017.png" class="img-responsive" />
+									<p>Stevie - Company of the year 2015,2017</p>
+								</div>
+								<div class="home-awards-box">
+									<img src="<%=rootpath %>Assets/images/awards/Stevie-People-Choice.png" class="img-responsive" />
+									<p>Stevie - People Choice Of the year 2015,2016</p>
+								</div>
+								<div class="home-awards-box">
+									<img src="<%=rootpath %>Assets/images/awards/Stevie-Epicor-EpicPay-2017.png" class="img-responsive" />
+									<p>Stevie - Fastest Growing Company in Europe 2015,2016</p>
+								</div>
+								<div class="home-awards-box">
+									<img src="<%=rootpath %>Assets/images/awards/Top-berater.png" class="img-responsive" />
+									<p>Top IT Berater 2014-2015</p>
+								</div>
+							</div>
+						</div>
+					</div>
                     <footer>
-                        <div class="row alignFooter footerCenter">
-                            <div class="col-md-5 testimonial">
-                                <div class="col-md-12 no-padding testimonial-margin">
-                                    <p class="testimonial-paragraph">At RheinBrücke, we see a demand gap for SMEs and bridge the gap. Our passion for excellence is demonstrated by our consultants consistently striving to deliver beyond the expectations of our clients. </p>
-                                    <br />
-                                    <p class="testimonial-paragraph">See what some of them have to say.</p>
-                                    <div class="col-md-offset-1 col-xs-offset-0 col-sm-offset-0 col-lg-offset-1">
-                                        <div id="slider3"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="col-md-12 nopadding splst-margin">
-                                    <div class="fBottom"><span class="border talk">Talk to a Specialist today</span> </div>
-                                    <div class="fBottomFull"><span class="telephone">+49 231 292 95619</span></div>
-                                    <br />
-                                    <div class="fBottom"><span class="border">Collaborate with RheinBrücke</span> </div>
-                                    <div class="boder2">
-                                        <span class="border1">
-                                            <p>EPICOR Partner Enablement Program</p>
-                                        </span>
-                                    </div>
-                                    <a data-toggle="modal" onclick="DownloadClear()" class="ETdownload" data-target="#myModal-pepdownload">
-                                        <div class="fBottom"><span class="telephone download">Download PDF</span></div>
-                                    </a>
-                                    <div class="modal fade" id="myModal-pepdownload" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                                        <div class="modal-dialog" role="document">
-                                            <div class="modal-content mymodal-download">
-                                                <div class="modal-header modal-header-bgcolor">
-                                                    <button type="button" class="close closev2" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
-                                                    <h4 class="modal-title redColor">Download RheinBrücke’s EPICOR Partner Enablement Program document</h4>
-                                                </div>
-                                                <div class="col-md-12 padd-top">
-                                                    <div class="form-group">
-                                                        <label class="success" id="PEPsuccessmessage" hidden="hidden">Thank you for submitting your details. You will receive an email shortly with a link to download RheinBrücke's EPICOR Partner Enablement Program document.</label>
-                                                    </div>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p class="formhead">Please fill in your details to download RheinBrücke’s EPICOR Partner Enablement Program document.</p>
-                                                    <p>&nbsp;</p>
-                                                    <p>
-                                                        <input type="text" placeholder="*Your Name" id="txtCalloutName" class="write-to-us-input" />
-                                                    </p>
-                                                    <span style="margin-top: 5px;" class="validator" id="reqCalloutName" hidden="hidden">Enter Your Name</span>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p>
-                                                        <input type="text" placeholder="*Your Email Address" id="txtCalloutEmail" class="write-to-us-input" />
-                                                    </p>
-                                                    <span style="margin-top: 5px;" class="validator" id="reqCalloutemail" hidden="hidden">Enter Your Email Address</span> <span class="validator" id="valCalloutemail" hidden="hidden" style="margin-top: 2px">Enter Valid Email Address</span>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p>
-                                                        <input type="number" placeholder="Your Mobile Number" id="txtCalloutMobNo" class="write-to-us-input" />
-                                                    </p>
-                                                    <span style="margin-top: 5px;" class="validator" id="reqCalloutMobNo" hidden="hidden">Enter Your Mobile Number</span> <span class="validator" id="valCalloutMobNo" hidden="hidden">Enter Valid Your Mobile Number</span>
-                                                </div>
-                                                <div class="clearfix">&nbsp;</div>
-                                                <div class="modal-body">
-                                                    <input type="button" id="BtnCallout" class="submit-button" data-loading-text="Submitting.." value="Submit" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <br />
-                                    <div class="fBottom"><span class="border"><a href="" data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" style="color: white;">Connect with us</a></span> </div>
-                                    <ul class="social">
-                                        <li><a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" title="LinkedIn" target="_blank" aria-hidden="true" tabindex="-1" class="icon-linkedin ETsocialicon"></a></li>
-                                        <%-- <li><a href="https://plus.google.com/108478282039113445071" title="Google-plus" target="_blank" aria-hidden="true" tabindex="-1" class="icon-google-plus ETsocialicon"></a></li>--%>
-                                        <li><a href="https://www.facebook.com/RheinBrucke" title="Facebook" target="_blank" aria-hidden="true" tabindex="-1" class="icon-facebook ETsocialicon"></a></li>
-                                        <li><a href="https://twitter.com/RheinBruckeIT" title="Twitter" target="_blank" aria-hidden="true" tabindex="-1" class="icon-twitter ETsocialicon"></a></li>
-                                        <li><a href="https://www.youtube.com/channel/UCuR25ldsvrd7yd5vkzqntAg" title="Youtube" target="_blank" aria-hidden="true" tabindex="-1" class="icon-youtube ETsocialicon"></a></li>
-                                        <li class="social1">
-                                            <a href="https://blog.rheincs.com" title="Blog" target="_blank" aria-hidden="true" tabindex="-1">
-                                                <img src="https://en.rheincs.com/Assets/images/b.png" style="margin-top: 13px; margin-left: 1px;" />
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <%--<ul class="social1">
-                                        <li>
-                                            <a href="https://blog.rheincs.com" title="Blog" target="_blank" aria-hidden="true">
-                                                <img src="https://en.rheincs.com/Assets/images/b.png" />
-                                            </a>
-                                        </li>
-                                    </ul>--%>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <%-- <div class="fBottom"><span class="border">Top Consultant 2014-2015</span></div><a href="/Newsandevents/NewsEventsDetail.aspx?ID=11"> <img src="https://en.rheincs.com/Assets/images/RheinBrücke-TopConsultant-Award.jpg" alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant" /></a>
-                            </div>--%>
-                                <div class="col-md-10 nopadding awards-margin">
-                                    <div class="fBottom" style="text-align: center"><span class="border">Awards and Recognition</span></div>
-                                    <div id="myCarousel1" class="carousel slide" data-ride="carousel">
-                                        <%--<ol class="carousel-indicators1">
-                                        <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
-                                        <li data-target="#myCarousel1" data-slide-to="1"></li>
-                                        <li data-target="#myCarousel1" data-slide-to="2"></li>
-                                    </ol>--%>
-                                        <div class="carousel-inner" role="listbox" style="width: 200px; margin: auto;" aria-label="carousel-inner">
-                                            <%-- <div class="item active">
-                                            <a href="<%=rootpath %>news-events/rheinbrucke-recognised-as-top-consultant-germany">
-                                                <img src="<%=rootpath %>Assets/images/RheinBrücke-TopConsultant-Award.jpg" loading="lazy"  alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant" />
-                                            </a>
-                                        </div>--%>
-                                            <div class="item active" role="option" aria-selected="true" aria-roledescription="slide">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
-                                                    <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg"  loading="lazy" alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-
-                                            <div class="item " role="option" aria-selected="false" aria-roledescription="slide">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-epicor-international-partner-of-the-year">
-                                                    <img src="<%=rootpath %>Assets/images/Epicor-partner-2016.png"  loading="lazy" alt="RheinBrücke Epicor Internation Partner of the year 2016" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-                                            <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/Vetri-IBA-silver-Stevies.png"  loading="lazy" alt="Vetri Maverick of the year" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-                                            <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/Vetri-IBA-Stevies.png" loading="lazy"  alt="Vetri IT executive of the year" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-                                            <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" loading="lazy"  alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-                                            <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/Support-IBA-Stevies.png" loading="lazy"  alt="Bronze Stevie IBA winner support department" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-                                            <div class="item " role="option" aria-selected="false" aria-roledescription="slide">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" loading="lazy"  alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-                                            <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                    <img src="<%=rootpath %>Assets/images/HR-IBA-Stevies.png" loading="lazy"  alt="Bronze Stevie IBA winner HR department" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-
-                                            <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                                                <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
-                                                    <img src="<%=rootpath %>Assets/images/executiveoftheyear.jpg" loading="lazy"  alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
-                                                </a>
-                                            </div>
-                                            <%-- <div class="item">
-                                            <a href="<%=rootpath %>news-events/rheinbrucke-at-international-business-stevie-awards">
-                                                <img src="<%=rootpath %>Assets/images/Company-of-the-year.jpg" loading="lazy"  alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
-                                            </a>
-                                        </div>
-                                        <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                                            <a href="<%=rootpath %>news-events/rheinbrucke-at-international-business-stevie-awards">
-                                                <img src="<%=rootpath %>Assets/images/Fastest-growing-company-of-the-year.jpg" loading="lazy"  alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
-                                            </a>
-                                        </div>
-                                        <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                                            <a href="<%=rootpath %>news-events/rheinbrucke-at-international-business-stevie-awards">
-                                                <img src="<%=rootpath %>Assets/images/People's-choice.jpg" loading="lazy"  alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
-                                            </a>
-                                        </div>
-                                        <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                                            <a href="<%=rootpath %>news-events/rheinbrucke-at-international-business-stevie-awards">
-                                                <img src="<%=rootpath %>Assets/images/Silver.jpg" loading="lazy"  alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
-                                            </a>
-                                        </div>
-                                        <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                                            <a href="<%=rootpath %>news-events/rheinbrucke-shines-at-german-stevie-awards">
-                                                <img src="<%=rootpath %>Assets/images/Management-team-of-the-year.jpg" loading="lazy"  alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
-                                            </a>
-                                        </div>
-                                        <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                                            <a href="<%=rootpath %>news-events/rheinbrucke-shines-at-german-stevie-awards">
-                                                <img src="<%=rootpath %>Assets/images/VetriSelvanIT-Manager-of-the-Year.jpg" loading="lazy"  alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
-                                            </a>
-                                        </div>
-                                        <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
-                                            <a href="<%=rootpath %>news-events/rheinbrucke-shines-at-german-stevie-awards">
-                                                <img src="<%=rootpath %>Assets/images/VetriSelvanIT-Specialist-of-the-Year.jpg" loading="lazy"  alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
-                                            </a>
-                                        </div>--%>
-                                        </div>
-                                        <a class="left carousel-control" style="left: -31px; height: 30px; margin-top: 100px; font-size: 30px;"
-                                            href="#myCarousel1" role="button" data-slide="prev"><</a>
-                                        <a class="right carousel-control" href="#myCarousel1" style="left: auto; right: -17px; height: 30px; margin-top: 100px; font-size: 30px;"
-                                            role="button" data-slide="next">></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+						<div class="row footer-bg1">
+							<div class="col-md-6">
+								<h2>Let's Connect</h2>
+								<div class="border-right"><p class="left-sect-para">For further information on how RheinBrücke can assist you in staying ahead of the competition, please contact us. We look forward to exploring how we can support your success.</p><a class="footer-contact-bt" href="/contact-us">Contact Us</a></div>
+							</div>
+							<div class="col-md-6 right-sect">
+								<h2>&nbsp;</h2>
+								<p class="rig-sect-para">Talk to a Specialist today <br/><a href="tel:+4923129295619" target="_blank">+49 231 292 95619</a></p>
+								<p class="rig-sect-para">Collaborate with RheinBrücke <br/><a href="" class="under-line" data-toggle="modal" onclick="DownloadClear()" data-target="#myModal-pepdownload">Download EPICOR Partner Enablement Program</a></p>
+								<div class="footer-follow-us">
+									<p>Follow Us</p>
+									<a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" target="_blank"><i class="fa fa-linkedin"></i></a>
+									<a href="https://www.facebook.com/RheinBrucke" target="_blank"><i class="fa fa-facebook"></i></a>
+									<a href="https://twitter.com/RheinBruckeIT" target="_blank" class="twitter"><img src="<%=rootpath %>Assets/images/twitter-icon.png" title="Twitter" /></a>
+									<a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+									<a href="https://www.youtube.com/channel/UCuR25ldsvrd7yd5vkzqntAg" target="_blank"><i class="fa fa-youtube"></i></a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="row footer-section" style="margin: 0px">
+							<div class="col-sm-12 col-md-3">
+								<h4>About Us</h4>
+								<ul class="footer-links">
+									<li><a href="<%=rootpath %>about-us/overview">Overview</a></li>
+									<li><a href="<%=rootpath %>about-us/leadership">Leadership</a></li>
+									<li><a href="<%=rootpath %>about-us/customer-speak">Customer Speaks</a></li>
+									<li><a href="<%=rootpath %>about-us/success-stories">Success Stories</a></li>
+									<li><a href="<%=rootpath %>partners">Partners</a></li>
+								</ul>
+								<h4>Career</h4>
+								<ul class="footer-links">
+									<li><a href="<%=rootpath %>careers/career-model">Career Model</a></li>
+									<li><a href="<%=rootpath %>careers/mentoring-approach">Mentoring Approach</a></li>
+									<li><a href="<%=rootpath %>careers/current-openings">Current Openings</a></li>
+								</ul>
+							</div>
+							<div class="col-sm-12 col-md-6">
+								<h4>Solutions</h4>
+								<div class="row">
+									<div class="col-sm-12 col-md-6">										
+										<ul class="footer-links our-solutions">
+											<li>Our Solutions</li>
+											<li><a href="<%=rootpath %>">BruckeHR</a></li>
+											<li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN</a></li>
+											<li>Consultancy and Advisory</li>
+											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp" style="margin-left: 0px;">Enterprise Solutions &amp; Services</a></li>
+											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">Epicor</a></li>
+											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics">Microsoft Dynamics</a></li>
+											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">SAP</a></li>
+											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">SugarCRM</a></li>
+										</ul>
+									</div>
+									<div class="col-sm-12 col-md-6">										
+										<ul class="footer-links our-solutions">
+											<li>Digital Solutions &amp; Services</li>
+											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">A M &amp; S</a></li>
+											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">BI</a></li>
+											<li><a href="<%=rootpath %>">eCommerce</a></li>
+											<li><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open-Source Technologies</a></li>
+											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
+											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-3">
+								<h4>Resources</h4>
+								<ul class="footer-links">
+									<li><a href="<%=rootpath %>https://blog.rheincs.com/" target="_blank">Blog</a></li>
+									<li><a href="<%=rootpath %>resources/webinars/webinars-list">Webinars</a></li>
+									<li><a href="<%=rootpath %>resources/webinars/webinars-recordings">Webinar Recordings</a></li>
+									<li><a href="<%=rootpath %>whitePapers/whitepapers">Whitepapers</a></li>
+									<li><a href="<%=rootpath %>brochure/brochures">Brochures</a></li>
+									<li><a href="<%=rootpath %>Factsheets/Factsheets">Factsheets</a></li>
+									<li><a href="<%=rootpath %>https://casestudy.rheincs.com/" target="_blank">Case Studies</a></li>
+									<li><a href="<%=rootpath %>about-us/corporate-videos">Corporate Videos</a></li>
+									<li><a href="<%=rootpath %>news-events">News and Events</a></li>
+									<li><a href="<%=rootpath %>resources/faq">FAQ</a></li>
+								</ul>
+							</div>
+						</div>
+						
                         <div class="bottomFooter">
                             <div class="copy">
-                                <div class="pull-left leftF">© RheinBrücke IT Consulting GmbH - All Rights Reserved</div>
-                                <div class="pull-right rightF"><a href="<%=rootpath %>sitemap">Sitemap</a> |  <a href="<%=rootpath %>Impressum.aspx">Impressum</a> | <a href="<%=rootpath %>terms">Terms</a> | <a href="<%=rootpath %>privacy">Privacy</a></div>
+								<div class="rightF"><a href="<%=rootpath %>sitemap">Sitemap</a> <a href="<%=rootpath %>Impressum">Impressum</a> <a href="<%=rootpath %>terms">Terms</a> <a href="<%=rootpath %>privacy">Privacy</a></div>
+                                <div class="leftF">© RheinBrücke IT Consulting GmbH - All Rights Reserved</div>                               
                             </div>
                             <div class="clearfix"></div>
                         </div>
@@ -1461,6 +1506,79 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <%: Scripts.Render("~/assets/jsmin")%>
 <asp:ContentPlaceHolder runat="server" ID="FooterScript" />
 <script src="https://en.rheincs.com/Assets/js/bxSlider.js" defer></script>
+
+<script type="text/javascript" src="https://en.rheincs.com/Assests/js/jquery-2.1.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+	
+	$('.clients-slider').slick({
+		  dots: false,
+		  infinite: true,
+		  arrows : false,
+		  autoplay: true,
+		  autoplaySpeed: 1000,
+		  speed: 1000,
+		  slidesToShow: 4,
+		  slidesToScroll: 1,
+		  responsive: [
+			{
+			  breakpoint: 980,
+			  settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: false
+			  }
+			},
+			{
+			  breakpoint: 760,
+			  settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: false
+			  }
+			}
+		  ]
+	});
+	
+	
+	$('.home-awards').slick({
+		  dots: true,
+		  infinite: true,
+		  arrows : false,
+		  autoplay: true,
+		  autoplaySpeed: 1000,
+		  speed: 1000,
+		  slidesToShow: 3,
+		  slidesToScroll: 1,
+		  responsive: [
+			{
+			  breakpoint: 980,
+			  settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: false
+			  }
+			},
+			{
+			  breakpoint: 760,
+			  settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: false
+			  }
+			}
+		  ]
+	});
+
+</script>
+
 <script type="text/javascript">
 
 
