@@ -1056,6 +1056,9 @@
 											<li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/it-business-excellence">IT Business Excellence</a></li>
 											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp" style="margin-left: 0px;">Enterprise Solutions &amp; Services</a></li>
 											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">Epicor</a></li>
+											<li><a style="margin-left:25px;" href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud">Epicor Cloud</a></li>
+											<li><a style="margin-left:25px;" href="<%=rootpath %>Epicor-Payroll-MEA">Epicor-Payroll-MEA</a></li>
+											<li><a style="margin-left:25px;" href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
 											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics">Microsoft Dynamics</a></li>
 											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">SAP</a></li>
 											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">SugarCRM</a></li>
