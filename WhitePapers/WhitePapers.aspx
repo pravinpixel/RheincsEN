@@ -8,7 +8,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style>
-	p.success-text1{font-family: "Inter", serif !important;color:#2F2F2F;line-height: 26px;font-weight: 500;font-size:17px;text-align:center;}
+	p.success-text1{font-family: "Inter", serif !important;color:#2F2F2F;line-height: 26px;font-weight: 500;font-size:17px;text-align:center;min-height:80px;}
     .img-width {text-align:center;min-height: 280px;}
 	.img-width img{width:95%;}
 	span.red-mre{display:block;width:100%;text-align:center;margin:10px 0px 20px;}
@@ -52,7 +52,7 @@
                             <div class="img-width">
                                 <%# Eval("ImageURL") %>
                             </div>
-                            <p class="success-text1" style="min-height: 40px;">
+                            <p class="success-text1" style="">
                                 <%# Eval("Description") %>
                             </p>
 							<span class="red-mre">
