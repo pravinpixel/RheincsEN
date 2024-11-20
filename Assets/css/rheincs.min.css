@@ -9897,7 +9897,7 @@ ul.off-canvas-list li a {
   bottom: 0;
 }
 .cbp-spmenu-push {
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
   left: 0;
 }

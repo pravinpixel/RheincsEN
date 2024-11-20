@@ -422,7 +422,7 @@
 
             <div class="col-md-12 contentwithpadding rheincs-container">
                 <div class="col-md-8">
-                    <h1 style="line-height: 44px;padding-bottom: 20px;">Best Cloud Based ERP Software Implementation</h1>
+                    <h1 style="line-height: 44px; padding-bottom: 20px;">Best Cloud Based ERP Software Implementation</h1>
                     <h2 class="redColor">Epicor on the Cloud</h2>
 
                     <div class="mainContent-normal contentdiv" style="text-align: justify">
@@ -473,7 +473,7 @@
                         <div class="col-md-12">
 
                             <div class="col-md-6 col-sm-6 captchadiv" style="height: 59px; margin-top: 4px;">
-                                <div id="g_captcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY" style="transform: scale(0.65); -webkit-transform: scale(0.65); transform-origin: 0 0; -webkit-transform-origin: 0 0;"></div>
+                                <div id="g_captcha" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn" class="grecaptcha" style="transform: scale(0.65); -webkit-transform: scale(0.65); transform-origin: 0 0; -webkit-transform-origin: 0 0;"></div>
                             </div>
                         </div>
                     </div>
@@ -857,10 +857,11 @@
         </div>
         <div class="clearfix"></div>
         <div class="col-md-12">
-
             <div class="col-md-6 col-sm-6 captchadiv" style="height: 59px; margin-top: 4px;">
-                <div id="g_captcha1" style="transform: scale(0.65); -webkit-transform: scale(0.65); transform-origin: 0 0; -webkit-transform-origin: 0 0;"></div>
+                <div id="g_captcha1" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn" class="grecaptcha" style="transform: scale(0.65); -webkit-transform: scale(0.65); transform-origin: 0 0; -webkit-transform-origin: 0 0;"></div>
             </div>
+
+
         </div>
         <div class="clearfix"></div>
         <span class="showErrorMsg1" style="color: red; margin-left: 3px;"></span>
@@ -1082,7 +1083,7 @@
                 }
             }
             if (!(grecaptcha && grecaptcha.getResponse.length > 0)) {
-               // $('.showErrorMsg').text("Select captcha.");
+                // $('.showErrorMsg').text("Select captcha.");
                 //response = 0;
                 $('.showErrorMsg').text("");
             }
@@ -1281,10 +1282,10 @@
                         alert(response.d);
                     },
                     success: function (response) {
-                            $('.showErrorMsg').text('Mail has been sent successfully!');
-                            setTimeout(function () {
-                                $('.showErrorMsg').text('');
-                            }, 5000);
+                        $('.showErrorMsg').text('Mail has been sent successfully!');
+                        setTimeout(function () {
+                            $('.showErrorMsg').text('');
+                        }, 5000);
                     }
                 });
                 clear();
@@ -1326,12 +1327,12 @@
 
             new LSQForm().captureLead(fieldMapping, "form1",
 
-            {
+                {
 
-                onSuccess: onSuccess,   //optional
-                onError: onError,       //optional
+                    onSuccess: onSuccess,   //optional
+                    onError: onError,       //optional
 
-            });
+                });
 
 
 
@@ -1418,12 +1419,12 @@
 
             new LSQForm().captureLead(fieldMapping, "form1",
 
-            {
+                {
 
-                onSuccess: onSuccess,   //optional
-                onError: onError,       //optional
+                    onSuccess: onSuccess,   //optional
+                    onError: onError,       //optional
 
-            });
+                });
 
 
 
@@ -1507,12 +1508,12 @@
 
             new LSQForm().captureLead(fieldMapping, "form1",
 
-            {
+                {
 
-                onSuccess: onSuccess,   //optional
-                onError: onError,       //optional
+                    onSuccess: onSuccess,   //optional
+                    onError: onError,       //optional
 
-            });
+                });
 
 
 
@@ -1521,17 +1522,32 @@
     <script type="text/javascript">
         var onloadCallback = function () {
             grecaptcha.render('g_captcha', {
-                'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn' 
-                 
+                'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
+
             });
             grecaptcha.render('g_captcha1', {
-                'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn' 
-                
+                'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
+
             });
-           
+
         };
-        
+
     </script>
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+    </script>
+    <script type="text/javascript">
+        var onloadCallback = function () {
+            jQuery('.grecaptcha').each(function (index, el) {
+                grecaptcha.render(el, {
+                    'sitekey': jQuery(el).attr('data-sitekey')
+                    , 'theme': jQuery(el).attr('data-theme')
+                    , 'size': jQuery(el).attr('data-size')
+                    , 'tabindex': jQuery(el).attr('data-tabindex')
+                    , 'callback': jQuery(el).attr('data-callback')
+                    , 'expired-callback': jQuery(el).attr('data-expired-callback')
+                    , 'error-callback': jQuery(el).attr('data-error-callback')
+                });
+            });
+        };
     </script>
 </asp:Content>
