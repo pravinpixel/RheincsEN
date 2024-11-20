@@ -2,12 +2,22 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
 <meta name="keywords" content="ERP solution, ERP implementation, ERP, Strategic Sourcing, Epicor ERP" />
 <meta name="description" content="Explore our ERP implementation services and access our informative factsheets for valuable insights and guidance on optimizing your business processes" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style>
-        .img-width {
-            min-height: 280px;
-        }
+	p.success-text1{font-family: "Inter", serif !important;color:#2F2F2F;line-height: 26px;font-weight: 500;font-size:17px;text-align:center;}
+    .img-width {text-align:center;min-height: 280px;}
+	.img-width img{width:95%;}
+	span.red-mre{display:block;width:100%;text-align:center;margin:10px 0px 20px;}
+	a.readmore{font-size:16px;line-height:24px;text-align:center;position:relative;margin-left:-27px;}
+	a.readmore img{position:absolute;right:-27px;top:0;transition:all 0.5s ease;}
+	a.readmore:hover img{right:-32px;transition:all 0.5s ease;}
+		
+		
+		
     </style>
     <div class="container" id="container-top">
         <div class="row">
@@ -45,8 +55,10 @@
                             <p class="success-text1" style="min-height: 40px;">
                                 <%# Eval("Description") %>
                             </p>
+							<span class="red-mre">
                             <a style="color: #7b1315;" class="readmore" data-toggle="modal" data-target="#myModal-whitepaper" data-id="<%# Eval("Description") %>" data-value="<%=rootpath %>Assets/images/WhitePapers/Thumbnail/<%# Eval("Thumbnail") %>">
-                                Read More <img style="margin-right: 15px;width: 12px;vertical-align: sub;" src="<%=rootpath %>Assets/images/readmore.png" alt="RheinCS"></a>
+                                Read More <img style="" src="<%=rootpath %>Assets/images/readmore.png" alt="RheinCS"></a>
+							</span>	
                         </div>
                     </ItemTemplate>
                 </asp:Repeater>
