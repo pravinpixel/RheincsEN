@@ -1019,7 +1019,7 @@
 									<a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" target="_blank"><i class="fa fa-linkedin"></i></a>
 									<a href="https://www.facebook.com/RheinBrucke" target="_blank"><i class="fa fa-facebook"></i></a>
 									<a href="https://twitter.com/RheinBruckeIT" target="_blank" class="twitter"><img src="<%=rootpath %>Assets/images/twitter-icon.png" title="Twitter" /></a>
-									<a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+									<a href="https://www.instagram.com/rheinbrucke_itconsulting/" target="_blank"><i class="fa fa-instagram"></i></a>
 									<a href="https://www.youtube.com/channel/UCuR25ldsvrd7yd5vkzqntAg" target="_blank"><i class="fa fa-youtube"></i></a>
 								</div>
 							</div>
@@ -1051,6 +1051,9 @@
 											<li><a href="<%=rootpath %>">BruckeHR</a></li>
 											<li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN</a></li>
 											<li>Consultancy and Advisory</li>
+											<li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/erp-selection-advisory-solutions">ERP Selection Advisory Services</a></li>
+											<li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/program-and-project-management-services">Program And Project Management</a></li>
+											<li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/it-business-excellence">IT Business Excellence</a></li>
 											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp" style="margin-left: 0px;">Enterprise Solutions &amp; Services</a></li>
 											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">Epicor</a></li>
 											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics">Microsoft Dynamics</a></li>
