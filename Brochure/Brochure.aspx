@@ -59,8 +59,8 @@
                             <p class="success-text1" style="min-height: 40px;">
                                 <%# Eval("Description") %>
                             </p>
-                            <a  style="color: #2f2f2f;" class="readmore" data-toggle="modal" data-target="#myModal-brochure" data-id="<%# Eval("Description") %>" data-value ="<%=rootpath %>Assets/images/Brochure/Thumbnail/<%# Eval("Thumbnail") %>">                        
-                                <img style="margin-right: 15px;" src="<%=rootpath %>Assets/images/readmore.png" alt="RheinCS">read more &gt;</a>   
+                            <span class="red-mre"><a class="readmore" data-toggle="modal" data-target="#myModal-brochure" data-id="<%# Eval("Description") %>" data-value ="<%=rootpath %>Assets/images/Brochure/Thumbnail/<%# Eval("Thumbnail") %>">                        
+                                read more <img src="<%=rootpath %>Assets/images/readmore.png" alt="RheinCS"></a></span>
                             <br />
 <br />							
                         </div>

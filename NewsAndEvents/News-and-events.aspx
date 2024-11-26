@@ -53,8 +53,8 @@
                                                                 <%# string.Format("{0:MMMM, yyyy}", Eval("NewsEventsDate"))%>
                                                             </div>
                                                             <div style="padding-top: 10px;">
-                                                                <a style="color: #2f2f2f;" href="<%=rootpath %>news-events/<%# Eval("UrlDetails") %>">
-                                                                    <img style="margin-right: 15px;" src="<%=rootpath %>Assets/images/readmore.png" alt="RheinCS">read more &gt;</a>
+                                                                <a class="readmore" href="<%=rootpath %>news-events/<%# Eval("UrlDetails") %>">
+                                                                    read more <img src="<%=rootpath %>Assets/images/readmore.png" alt="RheinCS"></a>
                                                             </div>
                                                         </div>
 
@@ -81,9 +81,9 @@
                                                                 <%# string.Format("{0:MMMM, yyyy}", Eval("NewsEventsDate"))%>
                                                             </div>
                                                             <div style="padding-top: 10px;">
-                                                                <a class="ETnews" style="color: #2f2f2f;" href="<%=rootpath %>news-events/<%# Eval("UrlDetails") %>">
+                                                                <a class="readmore" href="<%=rootpath %>news-events/<%# Eval("UrlDetails") %>">
                                                                     <%--<a class="ETnews" style="color: #2f2f2f;" href="<%=rootpath %>Newsandevents/NewsEventsDetail.aspx?ID=<%# Eval("NewsAndEventsID") %>">--%>
-                                                                    <img style="margin-right: 15px;" src="<%=rootpath %>Assets/images/readmore.png" alt="RheinCS">read more &gt;</a>
+                                                                    read more <img src="<%=rootpath %>Assets/images/readmore.png" alt="RheinCS"></a>
                                                             </div>
                                                         </div>
 

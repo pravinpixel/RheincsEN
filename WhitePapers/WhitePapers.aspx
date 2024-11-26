@@ -10,11 +10,8 @@
     <style>
 	p.success-text1{font-family: "Inter", serif !important;color:#2F2F2F;line-height: 26px;font-weight: 500;font-size:17px;text-align:center;min-height:80px;}
     .img-width {text-align:center;min-height: 280px;}
-	.img-width img{width:95% !important;}
-	span.red-mre{display:block;width:100%;text-align:center;margin:10px 0px 20px;}
-	a.readmore{font-size:16px;line-height:24px;text-align:center;position:relative;margin-left:-27px;}
-	a.readmore img{position:absolute;right:-27px;top:0;transition:all 0.5s ease;}
-	a.readmore:hover img{right:-32px;transition:all 0.5s ease;}
+	.img-width img{width:95% !important;}	
+	
 		    .col-md-3 {
         width: 23%;
     }
@@ -58,7 +55,7 @@
                                 <%# Eval("Description") %>
                             </p>
 							<span class="red-mre">
-                            <a style="color: #7b1315;" class="readmore" data-toggle="modal" data-target="#myModal-whitepaper" data-id="<%# Eval("Description") %>" data-value="<%=rootpath %>Assets/images/WhitePapers/Thumbnail/<%# Eval("Thumbnail") %>">
+                            <a class="readmore" data-toggle="modal" data-target="#myModal-whitepaper" data-id="<%# Eval("Description") %>" data-value="<%=rootpath %>Assets/images/WhitePapers/Thumbnail/<%# Eval("Thumbnail") %>">
                                 Read More <img style="" src="<%=rootpath %>Assets/images/readmore.png" alt="RheinCS"></a>
 							</span>	
                         </div>

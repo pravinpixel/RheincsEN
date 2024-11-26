@@ -60,6 +60,11 @@
 	color: #FFF;
 }
 
+span.red-mre{display:block;width:100%;text-align:center;margin:10px 0px 20px;}
+a.readmore{font-size:16px;line-height:24px;text-align:center;position:relative;padding-right:25px; color: #7b1315; text-transform: capitalize; }
+a.readmore img{position:absolute;right:0px;top:0;transition:all 0.5s ease;}
+a.readmore:hover img{right:-5px;transition:all 0.5s ease;}
+
 .martopbot30{
 	margin-top: 30px;
 	margin-bottom: 30px;
