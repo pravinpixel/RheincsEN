@@ -1115,6 +1115,103 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                 </div>
                 <div id="footer">
+					<div class="row testimonials-row" style="margin: 20px 25px 0px 25px;">
+						<div class="col-md-12">
+							<h2 class="blackHeader marg20">Testimonials</h2>
+							<div class="testimonial-slider">
+								<div class="testimonial-box">
+									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+									<div class="testimonial-content">
+										<div class="testimonial-text">"RheinBrücke IT Consulting's technical expertise makes me feel invincible. CCT has a talented pool of internal IT resources but sometimes that's not enough.  Working with RB has taken a lot of weight off our shoulders; both the sheer volume of what we can handle together as well as the high level of technical expertise they bring to the table have greatly advanced CCT's abilities to adapt and evolve with our expanding global market.  Nithish and Rajagopol are easy to work with and always have great ideas on how to solve our technical and business process issues plus they're just nice guys."</div>
+										<div class="testimonial-footer">
+											<div class="testimonial-footer-description">
+												<img src="<%=rootpath %>Assets/images/Testimonial/cold-chain-logo.png" alt="Darius Jonason" />
+												<p><strong>Darius Jonason</strong>Business Process Analyst/Solutions Architect Cold Chain Technologies</p>
+											</div>
+											<div class="testimonial-footer-logo">
+												<img src="<%=rootpath %>Assets/images/Testimonial/Cold-Chain-Logo-full.png" class="img-responsive" alt="Cold Chain" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="testimonial-box">
+									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+									<div class="testimonial-content">
+										<div class="testimonial-text">"Congratulations to your team for successfully pulling off the “Automation of RMA” project using the “A-MAP Smart” mobile based application! The legacy system was a laborious and time-consuming activity of data entry of the hundreds of Inspection entries, from the numerous Inspection sheets generated on a daily basis from the field, matching the claims against the supplied Sales orders and line details, entering all the warranty test information including customer purchasing & return data, creating disposition against the relevant warehouses and summarizing all the data for transfer to the sales teams for actual settlement of claims vide relevant sales orders."</div>
+										<div class="testimonial-footer">
+											<div class="testimonial-footer-description">
+												<img src="<%=rootpath %>Assets/images/Testimonial/Ramamurthy-Rao.png" alt="Ramamurthy Rao" />
+												<p><strong>Ramamurthy Rao</strong>Head of R&D and QC Al Muqarram Auto Parts</p>
+											</div>
+											<div class="testimonial-footer-logo">
+												<img src="<%=rootpath %>Assets/images/Testimonial/a-map.png" alt="A Map" class="img-responsive" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="testimonial-box">
+									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+									<div class="testimonial-content">
+										<div class="testimonial-text">"Thank you for the continued good work on the ERP and Supply Chain project. Your Consulting, Technical, Functional and Project management expertise was evident and was very well appreciated by our staffs. I was also pleased with the flexible, easily approachable, transparent dealing with your team. Needless to mention I also appreciate how effectively you leverage the teaming with cross cultural teams with low cost geography for developmental resources while not compromising on the quality of deliverables to business. Keep up the good work."</div>
+										<div class="testimonial-footer">
+											<div class="testimonial-footer-description">
+												<img src="<%=rootpath %>Assets/images/Testimonial/Massimiliano-A-Milani.png" alt="Massimiliano A Milani" />
+												<p><strong>Massimiliano A. Milani</strong>Director Europe & Africas at Federal Mogul Antwerp, Belgium</p>
+											</div>
+											<div class="testimonial-footer-logo">
+												<img src="<%=rootpath %>Assets/images/Testimonial/Federal-Mogul.png" alt="Federal Mogul" class="img-responsive" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="testimonial-box">
+									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+									<div class="testimonial-content no-more">
+										<div class="testimonial-text">"I had been using RheinBrücke team as my extended arm for sometime now and I have really come to appreciate their depth of technical and functional knowledge of the product and their commitment to our end customers needs. They react quickly to new challenges and are always there for me to rely on."</div>
+										<div class="testimonial-footer">
+											<div class="testimonial-footer-description">
+												<img src="<%=rootpath %>Assets/images/Testimonial/craig.gif" alt="Craig Stephens" />
+												<p><strong>Craig Stephens</strong>Vice President-International Consulting at Epicor Software United Kingdom</p>
+											</div>
+											<div class="testimonial-footer-logo">
+												<img src="<%=rootpath %>Assets/images/Testimonial/Epicor.png" alt="Epicor" class="img-responsive" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="testimonial-box">
+									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+									<div class="testimonial-content">
+										<div class="testimonial-text">"We implemented Epicor ERP for one of our large Glass manufacturing facility in Middle East. Like any ERP implementations, even though the product was good, we faced initial hiccup and challenges during the implementation . This is where we came across the German based RheinBrücke IT consulting and took their support. They did a fantastic turnaround of the project. I enjoyed the transparent and efficient dealing with the company and came to appreciate their work. Now they have opened the Middle East operations and am positive they will do well due to their good service motto."</div>
+										<div class="testimonial-footer">
+											<div class="testimonial-footer-description">
+												<img src="<%=rootpath %>Assets/images/Testimonial/RizwanullaKhan.png" alt="Rizwanulla Khan" />
+												<p><strong>Rizwanulla Khan</strong>Executive President at Emirates Glass Saudi American &amp; Lumi Glass</p>
+											</div>
+											<div class="testimonial-footer-logo">
+												<img src="<%=rootpath %>Assets/images/Testimonial/saudi-american-glass.png" alt="Saudi American Glass" class="img-responsive" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="testimonial-box">
+									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+									<div class="testimonial-content no-more">
+										<div class="testimonial-text">"We were very impressed with the way RheinBrücke carried out their work. From analysis to implementation and post-production support, their analysis was always detailed and complete. It was easily understood by users, so different system extension options could be evaluated with all relevant information."</div>
+										<div class="testimonial-footer">
+											<div class="testimonial-footer-description">
+												<img src="<%=rootpath %>Assets/images/Testimonial/wajid.png" alt="Syed Waseem Wajid" />
+												<p><strong>Syed Waseem Wajid</strong>IT HEAD at Global Glass Manufacturer KSA, Middle East</p>
+											</div>
+											<div class="testimonial-footer-logo">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="text-right"><a href="<%=rootpath %>about-us/customer-speak" class="home-awards-link" style="margin-bottom: 0px;"><img src="<%=rootpath %>Assets/images/right-arrow.svg" /><span>View All</span></a></div>
+						</div>
+					</div>
                     <div class="row" style="margin: 0px">
 						<div class="col-sm-12">
 							<h2 class="padd-left-head martopbot30">Customers</h2>
@@ -1519,6 +1616,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <script>
+
+	$('.testimonial-slider').slick({
+		  dots: true,
+		  infinite: false,
+		  arrows : false,
+		  autoplay: false,
+		  autoplaySpeed: 5000,
+		  speed: 1000,
+		  slidesToShow: 2,
+		  slidesToScroll: 1,
+		  responsive: [
+			{
+			  breakpoint: 1180,
+			  settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				infinite: false,
+				dots: true,
+			  }
+			}
+		  ]
+	});
 	
 	$('.clients-slider').slick({
 		  dots: false,
@@ -1554,7 +1673,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	
 	$('.home-awards').slick({
 		  dots: true,
-		  infinite: true,
+		  infinite: false,
 		  arrows : false,
 		  autoplay: true,
 		  autoplaySpeed: 1000,
@@ -1567,7 +1686,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			  settings: {
 				slidesToShow: 2,
 				slidesToScroll: 1,
-				infinite: true,
+				infinite: false,
 				dots: false
 			  }
 			},
@@ -1576,7 +1695,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			  settings: {
 				slidesToShow: 1,
 				slidesToScroll: 1,
-				infinite: true,
+				infinite: false,
 				dots: false
 			  }
 			}
