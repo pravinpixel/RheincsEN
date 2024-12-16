@@ -164,7 +164,27 @@
                                 <p class="ldr-marg text-justify">RheinBrucke IT Consulting's technical expertise makes me feel invincible.   <a data-toggle="modal" data-target="#myModal-Darius-1">&nbsp&nbsp View more</a></p>
                             </div>
                         </div>
-                        <!-- EOF Kiranjit customer reference -->
+						
+						<!-- Ramamurthy Rao customer reference -->
+						<div class="col-md-4 marg-10">
+                            <div class="col-md-2">
+                                <img class="testimonial-img1 img-circle1 ld-mag2" src="/Assets/images/Testimonial/Ramamurthy-Rao.png" alt="Testimonial by Ramamurthy Rao" style="margin-right: 10px; width: 80px; height: 80px;" />
+                            </div>
+                            <div class="col-md-10 ">
+                                <div class="deco-header2">
+                                    <p class="redBottom1 height" style="padding-bottom: 25px !important;">
+                                        <span class="bgcol1">Ramamurthy Rao |</span>
+                                        <span class="redColor">Head of R&D and QC/AL-MUQARRAM AUTO PARTS</span>
+                                        <br />
+                                        <br />
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row col-md-12 padd-top-20">
+                                <p class="ldr-marg text-justify">"Congratulations to your team for successfully pulling off the “Automation of RMA” project using the “A-MAP Smart” mobile based application! <a data-toggle="modal" data-target="#myModal-Ramamurthy">&nbsp&nbsp View more</a></p>
+                            </div>
+                        </div>
+                        
 
                     </div>
 
@@ -656,7 +676,7 @@ Their hard work &amp; efforts, as well as the willingness to accommodate to Mala
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="row col-md-12 padd-top-20">
+                                    <div class="col-md-12 padd-top-20">
                                         <p class="ldr-marg text-justify">"NGC Energy’s Epicor Implementation go-live happened earlier this year and at the end of Jan, we had successfully closed our Jan 2015 books in Epicor. This is a big milestone for all of us.It has indeed been a long journey, starting from inception, system study, training, pilot &amp; finally the 1st month-end closing.During each stage, we received full co-operation from Rheinbrücke teams. They had given us their unwavering support, with full dedication &amp; positive attitude to make this project successful. During this entire journey, both teams faced many challenges &amp; at times, things were difficult, but both teams continued to give their focus &amp; commitment, which helped to overcome these obstacles."</p>
                                     </div>
                                 </div>
@@ -673,33 +693,60 @@ Their hard work &amp; efforts, as well as the willingness to accommodate to Mala
 
                 <div class="modal fade" id="myModal-Darius-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
-                        <div class="modal-content mymodal-download">
-                            <div class="modal-header">
+                        <div class="modal-content">
+                            <div class="modal-header1">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
-                            </div>
-                            <div class="modal-body testimonial-modal">
-                                <p>
-                                    RheinBrucke IT Consulting's technical expertise makes me feel invincible.
-                                </p>
-                                <br />
-                                <p>CCT has a talented pool of internal IT resources but sometimes that's not enough.  Working with RB has taken a lot of weight off our shoulders; both the sheer volume of what we can handle together as well as the high level of technical expertise they bring to the table have greatly advanced CCT's abilities to adapt and evolve with our expanding global market.  Nithish and Rajagopol are easy to work with and always have great ideas on how to solve our technical and business process issues plus they're just nice guys.  </p>
-                                <br />
-                                <p>I recently moved internationally, I was nervous about being so far out of sync but this had zero impact on our work relationship, it was seamless.  I highly recommend RheinBrucke IT Consulting to anyone in need of serious in-depth expertise and around-the-clock support. </p>
-                                <br />
-                                <p>My favorite thing is when I spend half my day trying to solve a complicated issue then I give up, assign it to RB at the end of my workday and come in the next morning to find a solution ready for testing!</p>
-                                <br />
-                                <img class="testimonial-img img-circle" src="/Assets/images/Testimonial/CCT_Jira.webp" alt="Testimonial by Darius Jonason " style="margin-right: 10px; float: left; width: 66px; height: 67px;" /><p class="testimonial-name">
-                                    Darius Jonason
-                        <br />
-                                    <span class="smaller">Business Process Analyst/Solutions Architect 
-                            <br />
-                                        Cold Chain Technologies
-                                    </span>
-                                </p>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="col-md-2">
+											<img class="testimonial-img1 img-circle1" src="/Assets/images/Testimonial/CCT_Jira.webp" alt="Testimonial by Darius Jonason" style="margin-right: 10px; width: 80px; height: 80px;" />
+										</div>
+										<div class="col-md-10 ">
+											<div class="deco-header2">
+												<p class="redBottom1">
+													<span class="bgcol1">Darius Jonason |</span> <span class="redColor">Business Process Analyst/Solutions Architect  | Cold Chain Technologies</span>
+												</p>
+											</div>
+										</div>
+										<div class="col-md-12 padd-top-20">
+											<p class="ldr-marg text-justify">RheinBrucke IT Consulting's technical expertise makes me feel invincible.<br/><br/>CCT has a talented pool of internal IT resources but sometimes that's not enough.  Working with RB has taken a lot of weight off our shoulders; both the sheer volume of what we can handle together as well as the high level of technical expertise they bring to the table have greatly advanced CCT's abilities to adapt and evolve with our expanding global market.  Nithish and Rajagopol are easy to work with and always have great ideas on how to solve our technical and business process issues plus they're just nice guys.<br/><br/>I recently moved internationally, I was nervous about being so far out of sync but this had zero impact on our work relationship, it was seamless.  I highly recommend RheinBrucke IT Consulting to anyone in need of serious in-depth expertise and around-the-clock support.<br/></br/>My favorite thing is when I spend half my day trying to solve a complicated issue then I give up, assign it to RB at the end of my workday and come in the next morning to find a solution ready for testing!</p>
+										</div>
+									</div>
+								</div>
                             </div>
                         </div>
                     </div>
                 </div>
+				
+				<!--Popup Ramamurthy Rao -->
+				<div class="modal fade" id="myModal-Ramamurthy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header1">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" data-backdrop="false"><span aria-hidden="true">&times;</span></button>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="col-md-2">
+											<img class="testimonial-img1 img-circle1" src="/Assets/images/Testimonial/Ramamurthy-Rao.png" alt="Testimonial by Ramamurthy Rao" style="margin-right: 10px; width: 80px; height: 80px;" />
+										</div>
+										<div class="col-md-10 ">
+											<div class="deco-header2">
+												<p class="redBottom1">
+													<span class="bgcol1">Ramamurthy Rao |</span> <span class="redColor">Head of R&D and QC | AL-MUQARRAM AUTO PARTS</span>
+												</p>
+											</div>
+										</div>
+										<div class="col-md-12 padd-top-20">
+											<p class="ldr-marg text-justify">"Congratulations to your team for successfully pulling off the “Automation of RMA” project using the “A-MAP Smart” mobile based application! The legacy system was a laborious and time-consuming activity of data entry of the hundreds of Inspection entries, from the numerous Inspection sheets generated on a daily basis from the field, matching the claims against the supplied Sales orders and line details, entering all the warranty test information including customer purchasing &amp; return data, creating disposition against the relevant warehouses and summarizing all the data for transfer to the sales teams for actual settlement of claims vide relevant sales orders."</p>
+										</div>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				
+				
             </div>
         </div>
     </div>

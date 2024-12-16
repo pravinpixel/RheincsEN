@@ -1208,6 +1208,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 										</div>
 									</div>
 								</div>
+								<div class="testimonial-box">
+									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+									<div class="testimonial-content">
+										<div class="testimonial-text">"Our challenges made us to embark on our ERP journey and after lots of analysis, we choose Epicor ERP for RAY Group. We also faced initial hiccup and challenges during the implementations. This is where we came across the German based Rheinbrücke IT consulting and took their support. We leveraged their services for past 12 months and from this experience, I can definitely say that they did a fantastic turnaround of the project. I enjoyed the open, transparent and efficient dealing with them and came to appreciate their work. I understand that they recently started their Middle east and Africas operations, I wish them good luck and every success."</div>
+										<div class="testimonial-footer">
+											<div class="testimonial-footer-description">
+												<img src="<%=rootpath %>Assets/images/Testimonial/vinit_agarwal.gif" alt="Vinit Agarwal" />
+												<p><strong>Vinit Agarwal</strong>CEO at RAY International, Sultanate of Oman</p>
+											</div>
+											<div class="testimonial-footer-logo">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="testimonial-box">
+									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+									<div class="testimonial-content">
+										<div class="testimonial-text">"NGC Energy’s Epicor Implementation go-live happened earlier this year and at the end of Jan, we had successfully closed our Jan 2015 books in Epicor. This is a big milestone for all of us.It has indeed been a long journey, starting from inception, system study, training, pilot & finally the 1st month-end closing.During each stage, we received full co-operation from Rheinbrücke teams. They had given us their unwavering support, with full dedication & positive attitude to make this project successful. During this entire journey, both teams faced many challenges & at times, things were difficult, but both teams continued to give their focus & commitment, which helped to overcome these obstacles."</div>
+										<div class="testimonial-footer">
+											<div class="testimonial-footer-description">
+												<img src="<%=rootpath %>Assets/images/Testimonial/kiran.gif" alt="Kiranjit Kaur" />
+												<p><strong>Kiranjit Kaur</strong>Finance Manager at NGC Companies Malaysia &amp; Oman</p>
+											</div>
+											<div class="testimonial-footer-logo">
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 							<div class="text-right"><a href="<%=rootpath %>about-us/customer-speak" class="home-awards-link" style="margin-bottom: 0px;"><img src="<%=rootpath %>Assets/images/right-arrow.svg" /><span>View All</span></a></div>
 						</div>

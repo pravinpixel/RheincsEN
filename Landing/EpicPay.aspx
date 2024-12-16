@@ -39,11 +39,6 @@
             display: block;
             text-align: center;
         }
-
-        * {
-            font-family: Raleway !important;
-        }
-
         #Contactfeedback a {
             width: 120px;
         }
