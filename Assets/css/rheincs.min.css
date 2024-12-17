@@ -1,6 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-.footer-bg1{
+﻿.footer-bg1{
 	background: url('https://www.rheincs.com/assets/images/footer-bg.webp') center center no-repeat #111;
 	background-size: cover !important;
 	margin: 0px !important;
@@ -12,18 +10,20 @@
 }
 
 .footer-bg1 .left-sect-para{
-	font: 19px/28px 'Inter';
+	font-size: 19px;
+    line-height: 28px;
 	color: #FFF;
 	font-weight: 300;
 	padding:20px 30px 20px 0px;
 }
 
-.footer-bg1 .rig-sect-para{
-	font: 19px/28px 'Inter';
-	color: #FFF;
-	font-weight: 300;
-	padding:10px 0px 10px 20px;
-}
+    .footer-bg1 .rig-sect-para {
+        font-size: 19px;
+        line-height: 28px;
+        color: #FFF;
+        font-weight: 300;
+        padding: 10px 0px 10px 20px;
+    }
 
 .footer-bg1 .rig-sect-para a{
 	color: #FFF;
@@ -126,19 +126,19 @@ a.home-awards-link:hover{
 	padding: 10px 80px 10px 0px;
 }
 
-a.home-awards-link span{
-	opacity: 0;
-	position: absolute;
-	right: 0px;
-	white-space: nowrap;
-	top: 10px;	
-	font-size: 18px;
-	font: 18px/24px 'Inter';
-	color: #2F2F2F;
-	font-weight: 600;
-	visibility: hidden;
-	transition: all 0.6s ease;
-}
+    a.home-awards-link span {
+        opacity: 0;
+        position: absolute;
+        right: 0px;
+        white-space: nowrap;
+        top: 10px;
+        font-size: 18px;
+        line-height: 24px;
+        color: #2F2F2F;
+        font-weight: 600;
+        visibility: hidden;
+        transition: all 0.6s ease;
+    }
 
 a.home-awards-link:hover span{
 	opacity: 1;
@@ -155,14 +155,15 @@ a.home-awards-link:hover span{
 	gap: 10px;
 }
 
-.footer-follow-us p{
-	margin: 0px;
-	font: 18px/24px 'Inter';
-	color: #2F2F2F;
-	font-weight: 300;
-	padding-right: 10px;
-	color: #FFF;
-}
+    .footer-follow-us p {
+        margin: 0px;
+        font-size: 18px;
+        line-height: 24px;
+        color: #2F2F2F;
+        font-weight: 300;
+        padding-right: 10px;
+        color: #FFF;
+    }
 
 .footer-follow-us a{
 	width: 40px;
@@ -198,13 +199,14 @@ a.home-awards-link:hover span{
 .footer-section{
 	padding: 0px 20px 20px 20px;
 }
-.footer-section h4{
-	color: #FFF;
-	font: 18px/34px Inter;
-	font-weight: 500;
-	border-bottom: 1px solid #FFF;
-	margin: 40px 0px 10px 0px;
-}
+    .footer-section h4 {
+        color: #FFF;
+        font-size: 18px;
+        line-height: 34px;
+        font-weight: 500;
+        border-bottom: 1px solid #FFF;
+        margin: 40px 0px 10px 0px;
+    }
 
 .footer-section ul.footer-links{
 	margin: 0px;
@@ -217,14 +219,15 @@ a.home-awards-link:hover span{
 	padding: 5px 0px 3px 0px;
 }
 
-.footer-section ul.footer-links li a{
-	font: 16px/30px Inter;
-	font-weight: 300;
-	color: #FFF;
-	position: relative;
-	transition: all 0.6s ease;
-	padding-bottom: 2px;
-}
+    .footer-section ul.footer-links li a {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 300;
+        color: #FFF;
+        position: relative;
+        transition: all 0.6s ease;
+        padding-bottom: 2px;
+    }
 .footer-section ul.footer-links li a:before{
 	position: absolute;
 	left: 0px;
@@ -241,11 +244,12 @@ a.home-awards-link:hover span{
 	transition: all 0.6s ease;
 }
 
-.footer-section ul.footer-links li{
-	font: 16px/30px Inter;
-	font-weight: 300;
-	color: #FFF;
-}
+    .footer-section ul.footer-links li {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 300;
+        color: #FFF;
+    }
 
 .footer-section ul.footer-links.our-solutions li a{
 	margin-left: 10px;
@@ -256,14 +260,15 @@ a.home-awards-link:hover span{
 	padding:10px 15px;
 }
 
-.bottomFooter .copy .rightF a{
-	color: #FFF;
-	font: 15px/34px Inter;
-	font-weight: 400;
-	position: relative;
-	margin: 0px 20px 10px 0px;
-	display: inline-block;
-}
+    .bottomFooter .copy .rightF a {
+        color: #FFF;
+        font-size: 15px;
+        line-height: 34px;
+        font-weight: 400;
+        position: relative;
+        margin: 0px 20px 10px 0px;
+        display: inline-block;
+    }
 
 .bottomFooter .copy .rightF a:before{
 	position: absolute;
@@ -365,14 +370,15 @@ a.home-awards-link:hover span{
 	transition: all 0.6s ease;
 }
 
-.home-services-grid a span{
-	font: 19px/25px 'Inter';
-	font-weight: 400;
-	color: #2F2F2F;
-	transition: all 0.6s ease;
-	display: block;
-	padding: 40px 0px 0px 0px;
-}
+    .home-services-grid a span {
+        font-size: 19px;
+        line-height: 25px;
+        font-weight: 400;
+        color: #2F2F2F;
+        transition: all 0.6s ease;
+        display: block;
+        padding: 40px 0px 0px 0px;
+    }
 
 .home-services-grid.second-row a span{
 	padding-top: 50px;
@@ -402,13 +408,14 @@ a.home-awards-link:hover span{
 	cursor: grab;
 }
 
-.testimonial-slider .testimonial-box .testimonial-content .show-more{
-	font: 14px/20px Inter;
-	font-weight: 600;
-	color: #7B1315;
-	padding-top: 10px;
-	cursor: pointer;
-}
+    .testimonial-slider .testimonial-box .testimonial-content .show-more {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+        color: #7B1315;
+        padding-top: 10px;
+        cursor: pointer;
+    }
 
 .testimonial-slider .testimonial-box .testimonial-content.no-more .show-more{
 	opacity: 0;
@@ -513,7 +520,6 @@ a.home-awards-link:hover span{
 
 .slick-next:before, .slick-prev:before{
 	color: #666;
-	font-family: 'Inter';
 	font-size: 20px;
 	transition: all 0.6s ease;
 }
@@ -544,8 +550,8 @@ a.home-awards-link:hover span{
 @media (max-width: 760px) {
 	.footer-follow-us{flex-wrap: wrap;}
 	.footer-follow-us p{width: 100%;}
-	.footer-bg1 .left-sect-para, .footer-bg1 .rig-sect-para{font: 16px/26px 'Inter'; padding: 0px 0px 20px 0px;}
-	.home-video-content{font: 16px/26px 'Inter';}
+	.footer-bg1 .left-sect-para, .footer-bg1 .rig-sect-para{font-size: 16px; line-height: 26px; padding: 0px 0px 20px 0px;}
+    .home-video-content {font-size: 16px;line-height: 26px;}
 	.footer-bg1 a.footer-contact-bt{font: 18px/30px 'Raleway'; padding: 10px 30px;}
 	.footer-bg1 .right-sect h2{display: none;}
 	.footer-section{padding: 40px 20px 40px 20px;}
