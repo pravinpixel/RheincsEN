@@ -1,4 +1,6 @@
-﻿.footer-bg1{
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.footer-bg1{
 	background: url('https://www.rheincs.com/assets/images/footer-bg.webp') center center no-repeat #111;
 	background-size: cover !important;
 	margin: 0px !important;
