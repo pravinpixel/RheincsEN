@@ -61,11 +61,10 @@
                                 <span class="redColor bulletContent">Netherlands
                                 </span>
                                 <p class="bulletContent">
-                                    RheinBrücke IT Consulting BV,<br />
-                                    Stationsplein,<br />
-                                    8K NL-6221BT,<br />
-                                    Maastricht, Netherlands<br />
-                                    Tel: +31 (0) 43 799 9102<br />
+                                   RheinBrücke IT Consulting BV,<br />
+                                    Maastricht,<br />
+                                    Netherlands,<br />
+                                    Tel: 00491738816765<br />
                                     Email: <a href="mailto:info@rheincs.com">info@rheincs.com</a>
                                 </p>
                             </li>
