@@ -1551,7 +1551,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 											<li>Digital Solutions &amp; Services</li>
 											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">A M &amp; S</a></li>
 											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">BI</a></li>
-											<li><a href="<%=rootpath %>">eCommerce</a></li>
+										<%--	<li><a href="<%=rootpath %>">eCommerce</a></li>--%>
 											<li><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open-Source Technologies</a></li>
 											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
 											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing</a></li>
