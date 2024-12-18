@@ -10,11 +10,12 @@
 }
 
 .footer-bg1 .left-sect-para{
-	font-size: 19px;
+	font-size: 16px;
     line-height: 28px;
 	color: #FFF;
 	font-weight: 300;
-	padding:20px 30px 20px 0px;
+	padding:20px 30px 40px 0px;
+	font-family: Raleway !important;
 }
 
     .footer-bg1 .rig-sect-para {
@@ -23,6 +24,7 @@
         color: #FFF;
         font-weight: 300;
         padding: 10px 0px 10px 20px;
+		font-family: Raleway !important;
     }
 
 .footer-bg1 .rig-sect-para a{
@@ -31,6 +33,7 @@
 	position: relative;
 	padding-bottom: 10px;
 	transition: all 0.6s ease;
+	font-family: Raleway !important;
 }
 
 .footer-bg1 .rig-sect-para a.under-line:before{
@@ -51,11 +54,13 @@
 	display: inline-block;
 	background: #7B1315;
 	transition: all 0.6s ease;
+	font-family: Raleway !important;
 }
 
 .footer-bg1 a.footer-contact-bt:hover{
 	color: #7B1315;
 	background: #FFF;
+	font-family: Raleway !important;
 }
 
 .footer-bg1 h2{
@@ -105,7 +110,7 @@ a.readmore:hover img{right:-5px;transition:all 0.5s ease;}
 
 .home-awards .home-awards-box p{
 	margin: 0px;
-	font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Raleway !important;
 	line-height: 24px;
     font-size: 18px;
 	color: #2F2F2F;
@@ -163,6 +168,7 @@ a.home-awards-link:hover span{
         font-weight: 300;
         padding-right: 10px;
         color: #FFF;
+		font-family: Raleway !important;
     }
 
 .footer-follow-us a{
@@ -206,6 +212,7 @@ a.home-awards-link:hover span{
         font-weight: 500;
         border-bottom: 1px solid #FFF;
         margin: 40px 0px 10px 0px;
+		font-family: Raleway !important;
     }
 
 .footer-section ul.footer-links{
@@ -220,13 +227,14 @@ a.home-awards-link:hover span{
 }
 
     .footer-section ul.footer-links li a {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 30px;
         font-weight: 300;
         color: #FFF;
         position: relative;
         transition: all 0.6s ease;
         padding-bottom: 2px;
+		font-family: Raleway !important;
     }
 .footer-section ul.footer-links li a:before{
 	position: absolute;
@@ -245,10 +253,11 @@ a.home-awards-link:hover span{
 }
 
     .footer-section ul.footer-links li {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 30px;
         font-weight: 300;
         color: #FFF;
+		font-family: Raleway !important;
     }
 
 .footer-section ul.footer-links.our-solutions li a{
@@ -268,6 +277,7 @@ a.home-awards-link:hover span{
         position: relative;
         margin: 0px 20px 10px 0px;
         display: inline-block;
+		font-family: Raleway !important;
     }
 
 .bottomFooter .copy .rightF a:before{
