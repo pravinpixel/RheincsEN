@@ -10,7 +10,7 @@
     <style>
 	p.success-text1{font-family: "Inter", serif !important;color:#2F2F2F;line-height: 26px;font-weight: 500;font-size:17px;text-align:center;min-height:80px;}
     .img-width {text-align:center;min-height: 280px;}
-	.img-width img{width:95% !important;}	
+	.img-width img{width:83% !important;}	
 	
 		    .col-md-3 {
         width: 23%;
