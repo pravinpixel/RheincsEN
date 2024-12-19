@@ -1562,13 +1562,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<div class="col-sm-12 col-md-3">
 								<h4>Resources</h4>
 								<ul class="footer-links">
-									<li><a href="<%=rootpath %>https://blog.rheincs.com/" target="_blank">Blog</a></li>
+									<li><a href="https://blog.rheincs.com/" target="_blank">Blog</a></li>
 									<li><a href="<%=rootpath %>resources/webinars/webinars-list">Webinars</a></li>
 									<li><a href="<%=rootpath %>resources/webinars/webinars-recordings">Webinar Recordings</a></li>
 									<li><a href="<%=rootpath %>whitePapers/whitepapers">Whitepapers</a></li>
 									<li><a href="<%=rootpath %>brochure/brochures">Brochures</a></li>
 									<li><a href="<%=rootpath %>Factsheets/Factsheets">Factsheets</a></li>
-									<li><a href="<%=rootpath %>https://casestudy.rheincs.com/" target="_blank">Case Studies</a></li>
+									<li><a href="https://casestudy.rheincs.com/" target="_blank">Case Studies</a></li>
 									<li><a href="<%=rootpath %>about-us/corporate-videos">Corporate Videos</a></li>
 									<li><a href="<%=rootpath %>news-events">News and Events</a></li>
 									<li><a href="<%=rootpath %>resources/faq">FAQ</a></li>
