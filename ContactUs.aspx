@@ -190,13 +190,12 @@
                                 <span class="redColor bulletContent">UAE- Office 2 
                                 </span>
                                 <p class="bulletContent">
-                                    RheinBrücke IT Consulting DMCC,<br />
-                                    Unit No. 30-01-949,<br />
-                                    Floor No. 1, Bldg No. 3,<br />
-                                    Plot No. 550-554<br />
-                                    J&G, DMCC, Dubai<br />
+                                    RheinBrücke Middle East IT Infrastructure L.L.C,<br />
+                                    Plot No 407-0,<br />
+                                    Montana,<br />
+                                    Al Karama<br />
+                                    Dubai<br />
                                     United Arab Emirates<br />
-                                    Tel: +971 50 650 8854<br />
                                     Email: <a href="mailto:info@rheincs.com">info@rheincs.com</a>
                                 </p>
 
