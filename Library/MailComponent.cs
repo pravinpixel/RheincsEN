@@ -229,8 +229,8 @@ namespace RheinBrucke.Library
             }
             return mailObj;
         }
-        
-             protected MailEntity setMailContentofs(string MailType, string MailXML, string[] CheckboxOptions)
+
+        protected MailEntity setMailContentofs(string MailType, string MailXML, string[] CheckboxOptions)
         {
             MailEntity mailObj = new MailEntity();
             String consulting = "<p>Kindly let us know your availability for a free 20 minutes consulting on Epicor for Oil Field services. We will schedule it based on your convenience.<br/></p>";
@@ -417,8 +417,6 @@ namespace RheinBrucke.Library
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Company", CompanyName);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Email", Email);
                 mailObj.MailBody = Regex.Replace(mailObj.MailBody, "@@Phone", Phone);
-                
-
 
                 sendMail(mailObj);
                 IsMailSend = true;
@@ -3117,6 +3115,10 @@ namespace RheinBrucke.Library
                 {
                     mailObj = setMailContent("SaveMicrosoftFabric", MailXML);
                 }
+                else if (servicetype == "BrückeHR")
+                {
+                    mailObj = setMailContent("SaveBrückeHR", MailXML);
+                }
 
                 if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
                 {
@@ -3210,6 +3212,10 @@ namespace RheinBrucke.Library
                 else if (servicetype == "MicrosoftFabric")
                 {
                     mailObj = setMailContent("MicrosoftFabric", MailXML);
+                }
+                else if (servicetype == "BrückeHR")
+                {
+                    mailObj = setMailContent("BrückeHR", MailXML);
                 }
 
                 if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")

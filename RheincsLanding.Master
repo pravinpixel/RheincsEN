@@ -709,7 +709,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Our Solutions</span></a>
                         <ul>
 
-                           <%-- <li><a href="#" class="Level3-menu ETMenu"><span>BruckeHR</span></a></li>--%>
+                            <li><a href="<%=rootpath %>solutions/BrückeHR" class="Level3-menu ETMenu"><span>BrückeHR</span></a></li>
                             <!--  <li><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="Level3-menu ETMenu"><span>Copy Company Tool</span></a></li>-->
                             <!-- <li><a href="<%=rootpath %>ppa-power-plant-analytics" class="Level3-menu ETMenu"><span>Power Plant Analytics</span></a></li>-->
                             <li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software" class="Level3-menu ETMenu"><span>MeRLIN – Strategic Sourcing Software</span></a></li>
@@ -870,7 +870,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                     <li class="menuname-small menuheading">Our Solutions</li>
                                                                     <br />
 
-                                                                    <%--<li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="#"><span>BruckeHR</span></a></li>--%>
+                                                                    <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>solutions/BrückeHR"><span>BrückeHR</span></a></li>
                                                                     <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>-->
                                                                     <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>ppa-power-plant-analytics">Power Plant Analytics</a></li>-->
                                                                     <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN – Strategic Sourcing Software</a></li>
@@ -1530,7 +1530,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									<div class="col-sm-12 col-md-6">										
 										<ul class="footer-links our-solutions">
 											<li>Our Solutions</li>
-											<li><a href="<%=rootpath %>">BruckeHR</a></li>
+											<li><a href="<%=rootpath %>solutions/BrückeHR">BrückeHR</a></li>
 											<li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN</a></li>
 											<li>Consultancy and Advisory</li>
 											<li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/erp-selection-advisory-solutions">ERP Selection Advisory Services</a></li>
