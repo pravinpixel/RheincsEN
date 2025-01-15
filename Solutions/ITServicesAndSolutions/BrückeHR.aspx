@@ -772,7 +772,8 @@
         }
 
         .set-7 .img-boxer img {
-            max-width: 70%;
+            max-width: 50%;
+			margin-top:35px;
         }
 
         .set-8 {
@@ -1771,9 +1772,9 @@
 
                     </div>
                     <div class="col-lg-6 nopadding">
-                        <span class="book-form">Download the brochure now to know more about our HCM and Payroll MEA Solution!</span>
+                        <span class="book-form">Download Our Brochure now to know more about our BrückeHR Solution!</span>
                         <div class="img-boxer">
-                            <img src="../../../Assets/images/mockup.png" alt="" class="img-responsive center-block" />
+                            <img src="../../../Assets/images/Brucke-HR-Brochure-Thumbnail.png" width="379px" height="542px" alt="" class="img-responsive center-block" />
                         </div>
                     </div>
                 </div>
