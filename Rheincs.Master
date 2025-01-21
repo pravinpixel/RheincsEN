@@ -701,6 +701,7 @@
                                             <option value="22">Microsoft Dynamics</option>
                                             <option value="23">Sugar CRM</option>
                                             <option value="24">Business Intelligence Services</option>
+                                            <option value="25">BrückeHR</option>
                                         </select>
                                         <span class="validator" id="reqddlservices" hidden="hidden" style="font-size: 13px;">Select the Services</span>
                                     </div>
