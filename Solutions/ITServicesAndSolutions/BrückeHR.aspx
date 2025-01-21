@@ -336,6 +336,7 @@
             background-image: url('../../../Assets/images/sugar-crmer.jpg');
             width: 100%;
             height: 300px;
+			background-position:center top;
         }
 
         .banner-liners {
