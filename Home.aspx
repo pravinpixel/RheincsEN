@@ -260,16 +260,16 @@
             </div>
         </div>
     </div>
-   <!-- <div id="myoffers" class="gitex-banner-container">
+    <div id="myoffers" class="gitex-banner-container">
         <div class="gitex-banner-img hidden-xs">
-            <a href="http://view.rheincs.com/Webinar-Future-Proofing-with-ERP">
-                <img src="Assets/images/webinar-website-popup.jpg" class="img-responsive gitex-img gitex-banner-img-shadow center-block" width="510" />
+            <a href="http://view.rheincs.com/Webinar-Future-Of-ERP-Getting-The-Most-Out-Of-Your-ERP-Investment">
+                <img src="Assets/images/RIC-Webinar-Future-of-ERP-Email-Banner.png" class="img-responsive gitex-img gitex-banner-img-shadow center-block" width="510" />
             </a>
             <div class="close-button-position" style="background-color: #7b1314;" onclick="closegitex();"><span class="close-icon-white">X</span></div>
         </div>
 
     </div>
-    -->
+    
     <!--Gitex image-->
 
     <%--<div class="gitex-banner-container">
