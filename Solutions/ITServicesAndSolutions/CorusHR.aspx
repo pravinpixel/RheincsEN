@@ -1775,7 +1775,7 @@
                     <div class="col-lg-6 nopadding">
                         <span class="book-form">Download Our Brochure now to know more about our CorusHR Solution!</span>
                         <div class="img-boxer">
-                            <img src="../../../Assets/images/Brucke-HR-Brochure-Thumbnail.png" width="379px" height="542px" alt="" class="img-responsive center-block" />
+                            <img src="../../../Assets/images/Corus-HR-Brochure-Thumbnail.png" width="379px" height="542px" alt="" class="img-responsive center-block" />
                         </div>
                     </div>
                 </div>
