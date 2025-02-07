@@ -1523,7 +1523,7 @@
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/ign-6.png" alt="" class="img-responsive center-block" />
                                     </div>
-                                    <span>Approval & Delegation Process</span>
+                                    <span>Approval & Delegation<br> Process</span>
                                 </li>
 
                             </ul>
@@ -1560,7 +1560,7 @@
                                         <img src="../../../Assets/images/feature-1.png" alt="" class="img-responsive center-block" />
                                     </div>
                                     <h3>Seamless Integration</h3>
-                                    <span>The seamless integration of HCM and Payroll with Epicor ERP ensures that these two systems operate together in real-time, enabling effective communication, and functioning as a unified platform without any disruptions or complications.</span>
+                                    <span>The seamless integration of CorusHR with Epicor ERP ensures that these two systems operate together in real-time, enabling effective communication, and functioning as a unified platform without any disruptions or complications.</span>
                                 </li>
                                 <li>
                                     <div class="icn-circle">
@@ -1594,7 +1594,7 @@
                                         <img src="../../../Assets/images/feature-8.png" alt="" class="img-responsive center-block" />
                                     </div>
                                     <h3>Configurable</h3>
-                                    <span>The solution is adaptable, quick to respond, and highly configurable, aimed at improving operational efficiencies. It facilitates streamlined HR operations, improves efficiency by eliminating paper and email trails with digital workflows and enhances user satisfaction.<br><br> The solution is adaptable, quick to respond, and highly customisable, aimed at improving operational efficiencies. It facilitates streamlined HR operations, improves efficiency by eliminating paper and email trails with digital workflows and enhances user satisfaction.</span>
+                                    <span>The solution is adaptable, quick to respond, and highly configurable, aimed at improving operational efficiencies. It facilitates streamlined HR operations, improves efficiency by eliminating paper and email trails with digital workflows and enhances user satisfaction.<br/><br/> The solution is adaptable, quick to respond, and highly customisable, aimed at improving operational efficiencies. It facilitates streamlined HR operations, improves efficiency by eliminating paper and email trails with digital workflows and enhances user satisfaction.</span>
                                 </li> 
                             </ul>
                         </div>

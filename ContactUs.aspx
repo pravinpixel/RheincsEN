@@ -64,7 +64,7 @@
                                    RheinBrücke IT Consulting BV,<br />
                                     Wim Duisenbergplantsoen 31,<br />
                                     6221 SE Maastricht,<br />
-                                    Tel: 00491738816765<br />
+                                    Tel: +31 6 23 84 60 81<br />
                                     Email: <a href="mailto:info@rheincs.com">info@rheincs.com</a>
                                 </p>
                             </li>
