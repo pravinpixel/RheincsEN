@@ -3115,9 +3115,9 @@ namespace RheinBrucke.Library
                 {
                     mailObj = setMailContent("SaveMicrosoftFabric", MailXML);
                 }
-                else if (servicetype == "BrückeHR")
+                else if (servicetype == "CorusHR")
                 {
-                    mailObj = setMailContent("SaveBrückeHR", MailXML);
+                    mailObj = setMailContent("SaveCorusHR", MailXML);
                 }
 
                 if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")
@@ -3213,9 +3213,9 @@ namespace RheinBrucke.Library
                 {
                     mailObj = setMailContent("MicrosoftFabric", MailXML);
                 }
-                else if (servicetype == "BrückeHR")
+                else if (servicetype == "CorusHR")
                 {
-                    mailObj = setMailContent("BrückeHR", MailXML);
+                    mailObj = setMailContent("CorusHR", MailXML);
                 }
 
                 if (mailObj.IsAttachmentAvailable == null || mailObj.IsAttachmentAvailable != "Available")

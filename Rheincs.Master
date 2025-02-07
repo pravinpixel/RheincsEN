@@ -350,7 +350,7 @@
                         <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Our Solutions</span></a>
                         <ul>
 
-                            <li><a href="<%=rootpath %>solutions/BrückeHR" class="Level3-menu ETMenu"><span>BrückeHR</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/CorusHR" class="Level3-menu ETMenu"><span>CorusHR</span></a></li>
                             <!--  <li><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool" class="Level3-menu ETMenu"><span>Copy Company Tool</span></a></li>-->
                             <!-- <li><a href="<%=rootpath %>ppa-power-plant-analytics" class="Level3-menu ETMenu"><span>Power Plant Analytics</span></a></li>-->
                             <li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software" class="Level3-menu ETMenu"><span>MeRLIN – Strategic Sourcing Software</span></a></li>
@@ -511,7 +511,7 @@
                                                                     <li class="menuname-small menuheading">Our Solutions</li>
                                                                     <br />
 
-                                                                    <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>solutions/BrückeHR"><span>BrückeHR</span></a></li>
+                                                                    <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>solutions/CorusHR"><span>CorusHR</span></a></li>
                                                                     <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>rheinbrucke-cct-copy-company-tool"><span>Copy Company Tool</span></a></li>-->
                                                                     <!-- <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>ppa-power-plant-analytics">Power Plant Analytics</a></li>-->
                                                                     <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN – Strategic Sourcing Software</a></li>
@@ -701,7 +701,7 @@
                                             <option value="22">Microsoft Dynamics</option>
                                             <option value="23">Sugar CRM</option>
                                             <option value="24">Business Intelligence Services</option>
-                                            <option value="25">BrückeHR</option>
+                                            <option value="25">CorusHR</option>
                                         </select>
                                         <span class="validator" id="reqddlservices" hidden="hidden" style="font-size: 13px;">Select the Services</span>
                                     </div>
@@ -750,7 +750,7 @@
                                     </div>
 
                                     <div class="col-md-3">
-                                        <input type="button" id="btnContactUs" class="submit-button" data-loading-text="Submitting.." value="Submit" />
+                                        <input type="button" id="btnContactUs" class="submit-button" OnClientClick="gtag_report_conversion(''); return false;"  data-loading-text="Submitting.." value="Submit" />
                                     </div>
                                 </div>
 
@@ -1174,7 +1174,7 @@
 									<div class="col-sm-12 col-md-6">										
 										<ul class="footer-links our-solutions">
 											<li>Our Solutions</li>
-											<li><a href="<%=rootpath %>solutions/BrückeHR">BrückeHR</a></li>
+											<li><a href="<%=rootpath %>solutions/CorusHR">CorusHR</a></li>
 											<li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN</a></li>
 											<li>Consultancy and Advisory</li>
 											<li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/erp-selection-advisory-solutions">ERP Selection Advisory Services</a></li>
@@ -1742,6 +1742,20 @@ s0.parentNode.insertBefore(s1,s0);
 <%--<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
 </script>--%>
 <script src='https://www.google.com/recaptcha/api.js'></script>
-
+  
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof (url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-795585511/1tsTCLe_6ZYBEOfXrvsC',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
 </html>
 

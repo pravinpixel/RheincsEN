@@ -17207,7 +17207,7 @@ color:#ccc;">
       </table>
     </Body>
   </Mail>
-   <Mail name="BrückeHR">
+   <Mail name="CorusHR">
 
     <Subject> Thank you - RheinBrücke </Subject>
     <Body>
@@ -17266,7 +17266,7 @@ services, please visit our website – www.rheincs.com<br/><br/>We would love to
       </table>
     </Body>
   </Mail>
-  <Mail name="SaveBrückeHR">
+  <Mail name="SaveCorusHR">
     <Subject> RheinBrücke </Subject>
     <Body>
       <table border="0" cellpadding="10" cellspacing="0" style="width:600px;cell-padding:10px;background-color: #ccc;border:6px solid 
@@ -17278,7 +17278,7 @@ services, please visit our website – www.rheincs.com<br/><br/>We would love to
         </tr>
         <tr style="background-color: #fff;">
           <td>
-            <p>You have received a new message from @@Name on the BrückeHR.</p>
+            <p>You have received a new message from @@Name on the CorusHR.</p>
 
             <p>
               <table cellspacing="1" align="left" width="600" cellpadding="8" style="font-size:12px; font-family:Tahoma;background-
