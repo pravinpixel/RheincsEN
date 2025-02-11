@@ -1260,7 +1260,7 @@
                     <div class="banner-liners">
                         <div class="container lines">
                             <h1><b>CorusHR</b><br />
-                                 CorusHR People Focused,<br> Integrated HR Solution</h1>
+                                 People Focused,<br> Integrated HR Solution</h1>
                             <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Book a Demo</a>
                         </div>
                     </div>
