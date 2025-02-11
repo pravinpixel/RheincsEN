@@ -202,8 +202,23 @@
             top: 80%;
         }
 
+        .curve{
+            padding: 50px 40px;
+            border-radius: 8px;
+            background-color: #f5f5f5;
+            width: 85%;
+            margin-left: auto;
+            display: flex;
+        }
         .curve img {
             border-radius: 8px;
+        }
+        .curve p{
+            font-size: 30px;
+            line-height: 42px;
+            font-weight: 600;
+            color: #7E2442;
+            text-align: center;
         }
 
         .socials {
@@ -1282,9 +1297,16 @@
 
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <!-- <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="curve">
                         <img src="../../../Assets/images/coru-logo.jpg" class="img-responsive center-block" />
+                        <p class="center-block">Over 20K Employees Onboarded</p>
+                    </div>
+                </div> -->
+
+                <div class="col-lg-5 col-md-5 col-sm-12 col-12 ms-auto">
+                    <div class="curve">
+                        <p class="center-block">Over 20k Employees Onboarded</p>
                     </div>
                 </div>
 
