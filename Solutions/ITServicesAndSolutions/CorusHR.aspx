@@ -1780,7 +1780,7 @@
                                 <div class="form-box">
                                     <div class="form-data cnt clearfix">
                                         <a href="#" id="btnpdf" class="btndownlaodBrochure">Download Brochure</a>
-                                        <a href="https://www.rheincs.com/Assets/pdf/RIC-Brochure-Epicor-Payroll-MEA.pdf" id="btndownload" class="btndownlaodBrochure">Download Brochure</a>
+                                        <a href="https://www.rheincs.com/assets/pdf/RIC-Brochure-BruckeHR.pdf" id="btndownload" class="btndownlaodBrochure">Download Brochure</a>
                                     </div>
                                 </div>
                                 <div class="form-box">
