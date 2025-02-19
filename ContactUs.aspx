@@ -281,7 +281,7 @@
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-md-12">
-                    <input type="button" id="btnContact" class="submit-button" data-loading-text="Submitting.." value="Submit" />
+                    <input type="button" id="btnContact" onclick="gtag_report_conversion(''); return false;"  class="submit-button" data-loading-text="Submitting.." value="Submit" />
                 </div>
             </div>
             <!--FORM-->
@@ -524,5 +524,19 @@
         };
 
 
+    </script>
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof (url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-795585511/1tsTCLe_6ZYBEOfXrvsC',
+                'event_callback': callback
+            });
+            return false;
+        }
     </script>
 </asp:Content>

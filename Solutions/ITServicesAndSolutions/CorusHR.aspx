@@ -1788,11 +1788,8 @@
                                         <span class="showErrorMsg" style="color: red"></span>
                                     </div>
                                 </div>
-
                             </div>
-
                         </form>
-
                     </div>
                     <div class="col-lg-6 nopadding">
                         <span class="book-form">Download Our Brochure now to know more about our CorusHR Solution!</span>
