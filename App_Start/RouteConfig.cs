@@ -37,6 +37,7 @@ namespace RheinBrucke
             routes.MapPageRoute("Contact", "contact", "~/ContactUs.aspx");
             //routes.MapPageRoute("casestudies", "resources/casestudies", "~/resources/casestudies.aspx");
 
+            routes.MapPageRoute("thanks", "thanks", "~/Solutions/ITServicesAndSolutions/Thanks.aspx");
 
             routes.MapPageRoute("hcm", "rheinbrucke-solutions/hcm", "~/rheinbrucke-solutions/hcm.aspx");
             routes.MapPageRoute("manufacturing", "rheinbrucke-solutions/manufacturing", "~/rheinbrucke-solutions/manufacturing.aspx");
@@ -45,6 +46,7 @@ namespace RheinBrucke
             routes.MapPageRoute("sca", "rheinbrucke-solutions/sca", "~/rheinbrucke-solutions/sca.aspx");
             routes.MapPageRoute("business-intelligence", "rheinbrucke-solutions/business-intelligence", "~/rheinbrucke-solutions/business-intelligence.aspx");
             routes.MapPageRoute("thankyou", "rheinbrucke-solutions/thankyou", "~/rheinbrucke-solutions/thankyou-cm.aspx");
+            
             routes.MapPageRoute("rheinbrucke-solutions-thankyou", "solutions/erp-enterprise-solutions-and-services/rheinbrucke-solutions/thankyou", "~/redirection-page.aspx");
 
             routes.MapPageRoute("thankyou-epc", "rheinbrucke-solutions/thankyou-epc", "~/rheinbrucke-solutions/thankyou-epc.aspx");

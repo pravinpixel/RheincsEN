@@ -43,3 +43,15 @@ E:\29. Rheincs Projects\RheincsEN\obj\Debug\RheinBrucke.csproj.CopyComplete
 E:\29. Rheincs Projects\RheincsEN\obj\Debug\RheinBrucke.dll
 E:\29. Rheincs Projects\RheincsEN\obj\Debug\RheinBrucke.pdb
 E:\29. Rheincs Projects\RheincsEN\obj\Debug\RheinBrucke.csproj.AssemblyReference.cache
+E:\29. Rheincs Projects\RheincsLive\bin\RheinBrucke.dll.config
+E:\29. Rheincs Projects\RheincsLive\bin\RheinBrucke.dll
+E:\29. Rheincs Projects\RheincsLive\bin\RheinBrucke.pdb
+E:\29. Rheincs Projects\RheincsLive\bin\Org.Mentalis.Security.Cryptography.dll
+E:\29. Rheincs Projects\RheincsLive\bin\Mono.Math.dll
+E:\29. Rheincs Projects\RheincsLive\bin\Org.Mentalis.Security.Cryptography.xml
+E:\29. Rheincs Projects\RheincsLive\bin\Mono.Math.xml
+E:\29. Rheincs Projects\RheincsLive\obj\Debug\RheinBrucke.csproj.AssemblyReference.cache
+E:\29. Rheincs Projects\RheincsLive\obj\Debug\RheinBrucke.csproj.CoreCompileInputs.cache
+E:\29. Rheincs Projects\RheincsLive\obj\Debug\RheinBrucke.csproj.CopyComplete
+E:\29. Rheincs Projects\RheincsLive\obj\Debug\RheinBrucke.dll
+E:\29. Rheincs Projects\RheincsLive\obj\Debug\RheinBrucke.pdb

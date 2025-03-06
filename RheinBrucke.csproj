@@ -4686,7 +4686,10 @@
     <Content Include="Solutions\IPAndProductDevelopmentServices\ProductEngineeringAndDevelopmentServices.aspx" />
     <Content Include="Solutions\IPAndProductDevelopmentServices\TechnologySupportForProductStartups.aspx" />
     <Content Include="Solutions\ITServicesAndSolutions\ApplicationMaintenanceAndSupport.aspx" />
+    <Content Include="Solutions\ITServicesAndSolutions\BrückeHR.aspx" />
+    <Content Include="Solutions\ITServicesAndSolutions\CorusHR.aspx" />
     <Content Include="Solutions\ITServicesAndSolutions\MicrosoftDynamics.aspx" />
+    <Content Include="Solutions\ITServicesAndSolutions\MicrosoftFabric.aspx" />
     <Content Include="Solutions\ITServicesAndSolutions\MicrosoftTechnologies\ApplicationDevelopmentAndMaintenanceServices.aspx" />
     <Content Include="Solutions\ITServicesAndSolutions\MicrosoftTechnologies\CloudAndAzure.aspx" />
     <Content Include="Solutions\ITServicesAndSolutions\MicrosoftTechnologies\Consulting.aspx" />
@@ -4694,6 +4697,7 @@
     <Content Include="Solutions\ITServicesAndSolutions\MicrosoftTechnologies\MicrosoftTechnologies.aspx" />
     <Content Include="Solutions\ITServicesAndSolutions\MicrosoftTechnologies\Sharepoint.aspx" />
     <Content Include="Solutions\ITServicesAndSolutions\BusinessIntelligenceService.aspx" />
+    <Content Include="Solutions\ITServicesAndSolutions\Thanks.aspx" />
     <Content Include="Solutions\ITServicesAndSolutions\SugarCRM.aspx" />
     <Content Include="Solutions\ITServicesAndSolutions\TestingServices.aspx" />
     <Content Include="Terms.aspx" />
@@ -7312,12 +7316,33 @@
     <Compile Include="Solutions\ITServicesAndSolutions\ApplicationMaintenanceAndSupport.aspx.designer.cs">
       <DependentUpon>ApplicationMaintenanceAndSupport.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Solutions\ITServicesAndSolutions\BrückeHR.aspx.cs">
+      <DependentUpon>BrückeHR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Solutions\ITServicesAndSolutions\BrückeHR.aspx.designer.cs">
+      <DependentUpon>BrückeHR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Solutions\ITServicesAndSolutions\CorusHR.aspx.cs">
+      <DependentUpon>CorusHR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Solutions\ITServicesAndSolutions\CorusHR.aspx.designer.cs">
+      <DependentUpon>CorusHR.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Solutions\ITServicesAndSolutions\MicrosoftDynamics.aspx.cs">
       <DependentUpon>MicrosoftDynamics.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Solutions\ITServicesAndSolutions\MicrosoftDynamics.aspx.designer.cs">
       <DependentUpon>MicrosoftDynamics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Solutions\ITServicesAndSolutions\MicrosoftFabric.aspx.cs">
+      <DependentUpon>MicrosoftFabric.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Solutions\ITServicesAndSolutions\MicrosoftFabric.aspx.designer.cs">
+      <DependentUpon>MicrosoftFabric.aspx</DependentUpon>
     </Compile>
     <Compile Include="Solutions\ITServicesAndSolutions\MicrosoftTechnologies\ApplicationDevelopmentAndMaintenanceServices.aspx.cs">
       <DependentUpon>ApplicationDevelopmentAndMaintenanceServices.aspx</DependentUpon>
@@ -7367,6 +7392,13 @@
     </Compile>
     <Compile Include="Solutions\ITServicesAndSolutions\BusinessIntelligenceService.aspx.designer.cs">
       <DependentUpon>BusinessIntelligenceService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Solutions\ITServicesAndSolutions\Thanks.aspx.cs">
+      <DependentUpon>Thanks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Solutions\ITServicesAndSolutions\Thanks.aspx.designer.cs">
+      <DependentUpon>Thanks.aspx</DependentUpon>
     </Compile>
     <Compile Include="Solutions\ITServicesAndSolutions\SugarCRM.aspx.cs">
       <DependentUpon>SugarCRM.aspx</DependentUpon>

@@ -14,6 +14,7 @@
             document.head.appendChild(link);
         }
     </script>
+   
     <!--leadfeeder code -->
     <!-- Google Tag Manager -->
     <%--  <script>(function (w, d, s, l, i) {
@@ -750,7 +751,7 @@
                                     </div>
 
                                     <div class="col-md-3">
-                                        <input type="button" id="btnContactUs" class="submit-button" OnClientClick="gtag_report_conversion(''); return false;"  data-loading-text="Submitting.." value="Submit" />
+                                        <input type="button" id="btnContactUs" class="submit-button" data-loading-text="Submitting.." value="Submit" />
                                     </div>
                                 </div>
 
@@ -1742,20 +1743,6 @@ s0.parentNode.insertBefore(s1,s0);
 <%--<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
 </script>--%>
 <script src='https://www.google.com/recaptcha/api.js'></script>
-  
-    <script>
-        function gtag_report_conversion(url) {
-            var callback = function () {
-                if (typeof (url) != 'undefined') {
-                    window.location = url;
-                }
-            };
-            gtag('event', 'conversion', {
-                'send_to': 'AW-795585511/1tsTCLe_6ZYBEOfXrvsC',
-                'event_callback': callback
-            });
-            return false;
-        }
-    </script>
+ 
 </html>
 

@@ -302,6 +302,7 @@
                 window.location.href = "contact-us";
             }
             $('#btnContact').click(function () {
+               
                 var r = ContactUsValidation1();
                 if (r == 1) {
                     $(this).button('loading');
@@ -483,6 +484,7 @@
                 clear();
                 console.log(data);
 
+                window.location.href = "thanks";
 
             }
 
@@ -539,4 +541,5 @@
             return false;
         }
     </script>
+
 </asp:Content>
