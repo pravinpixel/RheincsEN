@@ -1290,7 +1290,7 @@
                 });
                 clear();
                 console.log(data);
-
+                window.location.href = window.location.origin + "/thanks";
 
             }
 
@@ -1382,7 +1382,7 @@
                 clear();
                 console.log(data);
 
-
+                window.location.href = window.location.origin + "/thanks";
             }
 
             var onError = function (data) {

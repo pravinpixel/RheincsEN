@@ -1545,6 +1545,7 @@
                                 $('.showErrorMsg').text('');
                                 $('#btnpdf').show();
                                 $('#btndownload').hide();
+                                window.location.href = window.location.origin + "/thanks";
                             }, 5000);
                         }
                     }

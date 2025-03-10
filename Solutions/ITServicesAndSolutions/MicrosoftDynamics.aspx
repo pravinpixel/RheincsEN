@@ -1881,6 +1881,7 @@
                                 $('.showErrorMsg').text('Click the above button to download the brochure!');
                                 $('#btnpdf').hide();
                                 $('#btndownload').show();
+                                window.location.href = window.location.origin + "/thanks";
                             }, 1000);
                         }
                     }
@@ -1943,7 +1944,7 @@
                 });
                 clear();
                 console.log(data);
-
+                window.location.href = window.location.origin + "/thanks";
 
             }
 
