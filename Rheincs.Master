@@ -751,7 +751,7 @@
                                     </div>
 
                                     <div class="col-md-3">
-                                        <input type="button" id="btnContactUs" class="submit-button" data-loading-text="Submitting.." value="Submit" />
+                                        <input type="button" id="btnContactUs" onclick="gtag_report_conversion(''); return false;"  class="submit-button" data-loading-text="Submitting.." value="Submit" />
                                     </div>
                                 </div>
 
@@ -1267,7 +1267,7 @@
                                                 </div>
                                                 <div class="clearfix">&nbsp;</div>
                                                 <div class="modal-body">
-                                                    <input type="button" id="BtnCallout" class="submit-button" data-loading-text="Submitting.." value="Submit" data-faitracker-form-bind="true">
+                                                    <input type="button" id="BtnCallout" class="submit-button" onclick="gtag_report_conversion(''); return false;"  data-loading-text="Submitting.." value="Submit" data-faitracker-form-bind="true">
                                                 </div>
                                             </div>
                                         </div>
@@ -1738,11 +1738,26 @@ s0.parentNode.insertBefore(s1,s0);
         grecaptcha.render('g_captcha', {
             'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
         });
-    };
+    };   
 </script>
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof (url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-795585511/1tsTCLe_6ZYBEOfXrvsC',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
 <%--<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
 </script>--%>
 <script src='https://www.google.com/recaptcha/api.js'></script>
  
+
 </html>
 

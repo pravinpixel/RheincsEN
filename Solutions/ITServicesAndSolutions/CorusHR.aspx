@@ -1913,7 +1913,10 @@
                             $('.showErrorMsg').text('Mail has been sent successfully!');
                             setTimeout(function () {
                                 $('.showErrorMsg').text('');
-                            }, 5000);
+                                const baseURL = window.location.origin;
+                                console.log(baseURL);
+                                window.location = baseURL + "//" + "thanks";
+                            }, 2000);
                         }
                     }
                 });
