@@ -14,7 +14,7 @@
             document.head.appendChild(link);
         }
     </script>
-   
+
     <!--leadfeeder code -->
     <!-- Google Tag Manager -->
     <%--  <script>(function (w, d, s, l, i) {
@@ -31,10 +31,10 @@
     <script>  window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-795585511'); </script>
     <!-- end of leadfeeder code -->
     <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
-	
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
     <style>
         body, html {
             font-family: Raleway !important;
@@ -48,8 +48,11 @@
             opacity: 0;
         }
 
-		.bx-wrapper{ border:none !important; box-shadow: none !important;
-		}
+        .bx-wrapper {
+            border: none !important;
+            box-shadow: none !important;
+        }
+
         .gitex-banner-container {
             position: fixed;
             background: rgba(0, 0, 0, 0.6);
@@ -751,7 +754,7 @@
                                     </div>
 
                                     <div class="col-md-3">
-                                        <input type="button" id="btnContactUs" onclick="gtag_report_conversion(''); return false;"  class="submit-button" data-loading-text="Submitting.." value="Submit" />
+                                        <input type="button" id="btnContactUs" onclick="gtag_report_conversion(''); return false;" class="submit-button" data-loading-text="Submitting.." value="Submit" />
                                     </div>
                                 </div>
 
@@ -760,138 +763,139 @@
                     </div>
                 </div>
                 <div id="footer">
-					<div class="row testimonials-row" style="margin: 20px 25px 0px 25px;">
-						<div class="col-md-12">
-							<h2 class="blackHeader marg20">Testimonials</h2>
-							<div class="testimonial-slider">
-								<div class="testimonial-box">
-									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
-									<div class="testimonial-content">
-										<div class="testimonial-text">"RheinBrücke IT Consulting's technical expertise makes me feel invincible. CCT has a talented pool of internal IT resources but sometimes that's not enough.  Working with RB has taken a lot of weight off our shoulders; both the sheer volume of what we can handle together as well as the high level of technical expertise they bring to the table have greatly advanced CCT's abilities to adapt and evolve with our expanding global market.  Nithish and Rajagopol are easy to work with and always have great ideas on how to solve our technical and business process issues plus they're just nice guys."</div>
-										<div class="testimonial-footer">
-											<div class="testimonial-footer-description">
-												<img src="<%=rootpath %>Assets/images/Testimonial/cold-chain-logo.png" alt="Darius Jonason" />
-												<p><strong>Darius Jonason</strong>Business Process Analyst/Solutions Architect Cold Chain Technologies</p>
-											</div>
-											<div class="testimonial-footer-logo">
-												<img src="<%=rootpath %>Assets/images/Testimonial/Cold-Chain-Logo-full.png" class="img-responsive" alt="Cold Chain" />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="testimonial-box">
-									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
-									<div class="testimonial-content">
-										<div class="testimonial-text">"Congratulations to your team for successfully pulling off the “Automation of RMA” project using the “A-MAP Smart” mobile based application! The legacy system was a laborious and time-consuming activity of data entry of the hundreds of Inspection entries, from the numerous Inspection sheets generated on a daily basis from the field, matching the claims against the supplied Sales orders and line details, entering all the warranty test information including customer purchasing & return data, creating disposition against the relevant warehouses and summarizing all the data for transfer to the sales teams for actual settlement of claims vide relevant sales orders."</div>
-										<div class="testimonial-footer">
-											<div class="testimonial-footer-description">
-												<img src="<%=rootpath %>Assets/images/Testimonial/Ramamurthy-Rao.png" alt="Ramamurthy Rao" />
-												<p><strong>Ramamurthy Rao</strong>Head of R&D and QC Al Muqarram Auto Parts</p>
-											</div>
-											<div class="testimonial-footer-logo">
-												<img src="<%=rootpath %>Assets/images/Testimonial/a-map.png" alt="A Map" class="img-responsive" />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="testimonial-box">
-									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
-									<div class="testimonial-content">
-										<div class="testimonial-text">"Thank you for the continued good work on the ERP and Supply Chain project. Your Consulting, Technical, Functional and Project management expertise was evident and was very well appreciated by our staffs. I was also pleased with the flexible, easily approachable, transparent dealing with your team. Needless to mention I also appreciate how effectively you leverage the teaming with cross cultural teams with low cost geography for developmental resources while not compromising on the quality of deliverables to business. Keep up the good work."</div>
-										<div class="testimonial-footer">
-											<div class="testimonial-footer-description">
-												<img src="<%=rootpath %>Assets/images/Testimonial/Massimiliano-A-Milani.png" alt="Massimiliano A Milani" />
-												<p><strong>Massimiliano A. Milani</strong>Director Europe & Africas at Federal Mogul Antwerp, Belgium</p>
-											</div>
-											<div class="testimonial-footer-logo">
-												<img src="<%=rootpath %>Assets/images/Testimonial/Federal-Mogul.png" alt="Federal Mogul" class="img-responsive" />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="testimonial-box">
-									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
-									<div class="testimonial-content no-more">
-										<div class="testimonial-text">"I had been using RheinBrücke team as my extended arm for sometime now and I have really come to appreciate their depth of technical and functional knowledge of the product and their commitment to our end customers needs. They react quickly to new challenges and are always there for me to rely on."</div>
-										<div class="testimonial-footer">
-											<div class="testimonial-footer-description">
-												<img src="<%=rootpath %>Assets/images/Testimonial/craig.gif" alt="Craig Stephens" />
-												<p><strong>Craig Stephens</strong>Vice President-International Consulting at Epicor Software United Kingdom</p>
-											</div>
-											<div class="testimonial-footer-logo">
-												<img src="<%=rootpath %>Assets/images/Testimonial/Epicor.png" alt="Epicor" class="img-responsive" />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="testimonial-box">
-									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
-									<div class="testimonial-content">
-										<div class="testimonial-text">"We implemented Epicor ERP for one of our large Glass manufacturing facility in Middle East. Like any ERP implementations, even though the product was good, we faced initial hiccup and challenges during the implementation . This is where we came across the German based RheinBrücke IT consulting and took their support. They did a fantastic turnaround of the project. I enjoyed the transparent and efficient dealing with the company and came to appreciate their work. Now they have opened the Middle East operations and am positive they will do well due to their good service motto."</div>
-										<div class="testimonial-footer">
-											<div class="testimonial-footer-description">
-												<img src="<%=rootpath %>Assets/images/Testimonial/RizwanullaKhan.png" alt="Rizwanulla Khan" />
-												<p><strong>Rizwanulla Khan</strong>Executive President at Emirates Glass Saudi American &amp; Lumi Glass</p>
-											</div>
-											<div class="testimonial-footer-logo">
-												<img src="<%=rootpath %>Assets/images/Testimonial/saudi-american-glass.png" alt="Saudi American Glass" class="img-responsive" />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="testimonial-box">
-									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
-									<div class="testimonial-content no-more">
-										<div class="testimonial-text">"We were very impressed with the way RheinBrücke carried out their work. From analysis to implementation and post-production support, their analysis was always detailed and complete. It was easily understood by users, so different system extension options could be evaluated with all relevant information."</div>
-										<div class="testimonial-footer">
-											<div class="testimonial-footer-description">
-												<img src="<%=rootpath %>Assets/images/Testimonial/wajid.png" alt="Syed Waseem Wajid" />
-												<p><strong>Syed Waseem Wajid</strong>IT HEAD at Global Glass Manufacturer KSA, Middle East</p>
-											</div>
-											<div class="testimonial-footer-logo">
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="testimonial-box">
-									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
-									<div class="testimonial-content">
-										<div class="testimonial-text">"Our challenges made us to embark on our ERP journey and after lots of analysis, we choose Epicor ERP for RAY Group. We also faced initial hiccup and challenges during the implementations. This is where we came across the German based Rheinbrücke IT consulting and took their support. We leveraged their services for past 12 months and from this experience, I can definitely say that they did a fantastic turnaround of the project. I enjoyed the open, transparent and efficient dealing with them and came to appreciate their work. I understand that they recently started their Middle east and Africas operations, I wish them good luck and every success."</div>
-										<div class="testimonial-footer">
-											<div class="testimonial-footer-description">
-												<img src="<%=rootpath %>Assets/images/Testimonial/vinit_agarwal.gif" alt="Vinit Agarwal" />
-												<p><strong>Vinit Agarwal</strong>CEO at RAY International, Sultanate of Oman</p>
-											</div>
-											<div class="testimonial-footer-logo">
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="testimonial-box">
-									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
-									<div class="testimonial-content">
-										<div class="testimonial-text">"NGC Energy’s Epicor Implementation go-live happened earlier this year and at the end of Jan, we had successfully closed our Jan 2015 books in Epicor. This is a big milestone for all of us.It has indeed been a long journey, starting from inception, system study, training, pilot & finally the 1st month-end closing.During each stage, we received full co-operation from Rheinbrücke teams. They had given us their unwavering support, with full dedication & positive attitude to make this project successful. During this entire journey, both teams faced many challenges & at times, things were difficult, but both teams continued to give their focus & commitment, which helped to overcome these obstacles."</div>
-										<div class="testimonial-footer">
-											<div class="testimonial-footer-description">
-												<img src="<%=rootpath %>Assets/images/Testimonial/kiran.gif" alt="Kiranjit Kaur" />
-												<p><strong>Kiranjit Kaur</strong>Finance Manager at NGC Companies Malaysia &amp; Oman</p>
-											</div>
-											<div class="testimonial-footer-logo">
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="text-right"><a href="<%=rootpath %>about-us/customer-speak" class="home-awards-link" style="margin-bottom: 0px;"><img src="<%=rootpath %>Assets/images/right-arrow.svg" /><span>View All</span></a></div>
-						</div>
-					</div>
-					<div class="row" style="margin: 0px">
-						<div class="col-sm-12">
-							<h2 class="padd-left-head martopbot30">Customers</h2>
-						</div>
-					</div>
+                    <div class="row testimonials-row" style="margin: 20px 25px 0px 25px;">
+                        <div class="col-md-12">
+                            <h2 class="blackHeader marg20">Testimonials</h2>
+                            <div class="testimonial-slider">
+                                <div class="testimonial-box">
+                                    <img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text">"RheinBrücke IT Consulting's technical expertise makes me feel invincible. CCT has a talented pool of internal IT resources but sometimes that's not enough.  Working with RB has taken a lot of weight off our shoulders; both the sheer volume of what we can handle together as well as the high level of technical expertise they bring to the table have greatly advanced CCT's abilities to adapt and evolve with our expanding global market.  Nithish and Rajagopol are easy to work with and always have great ideas on how to solve our technical and business process issues plus they're just nice guys."</div>
+                                        <div class="testimonial-footer">
+                                            <div class="testimonial-footer-description">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/cold-chain-logo.png" alt="Darius Jonason" />
+                                                <p><strong>Darius Jonason</strong>Business Process Analyst/Solutions Architect Cold Chain Technologies</p>
+                                            </div>
+                                            <div class="testimonial-footer-logo">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/Cold-Chain-Logo-full.png" class="img-responsive" alt="Cold Chain" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text">"Congratulations to your team for successfully pulling off the “Automation of RMA” project using the “A-MAP Smart” mobile based application! The legacy system was a laborious and time-consuming activity of data entry of the hundreds of Inspection entries, from the numerous Inspection sheets generated on a daily basis from the field, matching the claims against the supplied Sales orders and line details, entering all the warranty test information including customer purchasing & return data, creating disposition against the relevant warehouses and summarizing all the data for transfer to the sales teams for actual settlement of claims vide relevant sales orders."</div>
+                                        <div class="testimonial-footer">
+                                            <div class="testimonial-footer-description">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/Ramamurthy-Rao.png" alt="Ramamurthy Rao" />
+                                                <p><strong>Ramamurthy Rao</strong>Head of R&D and QC Al Muqarram Auto Parts</p>
+                                            </div>
+                                            <div class="testimonial-footer-logo">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/a-map.png" alt="A Map" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text">"Thank you for the continued good work on the ERP and Supply Chain project. Your Consulting, Technical, Functional and Project management expertise was evident and was very well appreciated by our staffs. I was also pleased with the flexible, easily approachable, transparent dealing with your team. Needless to mention I also appreciate how effectively you leverage the teaming with cross cultural teams with low cost geography for developmental resources while not compromising on the quality of deliverables to business. Keep up the good work."</div>
+                                        <div class="testimonial-footer">
+                                            <div class="testimonial-footer-description">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/Massimiliano-A-Milani.png" alt="Massimiliano A Milani" />
+                                                <p><strong>Massimiliano A. Milani</strong>Director Europe & Africas at Federal Mogul Antwerp, Belgium</p>
+                                            </div>
+                                            <div class="testimonial-footer-logo">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/Federal-Mogul.png" alt="Federal Mogul" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+                                    <div class="testimonial-content no-more">
+                                        <div class="testimonial-text">"I had been using RheinBrücke team as my extended arm for sometime now and I have really come to appreciate their depth of technical and functional knowledge of the product and their commitment to our end customers needs. They react quickly to new challenges and are always there for me to rely on."</div>
+                                        <div class="testimonial-footer">
+                                            <div class="testimonial-footer-description">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/craig.gif" alt="Craig Stephens" />
+                                                <p><strong>Craig Stephens</strong>Vice President-International Consulting at Epicor Software United Kingdom</p>
+                                            </div>
+                                            <div class="testimonial-footer-logo">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/Epicor.png" alt="Epicor" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text">"We implemented Epicor ERP for one of our large Glass manufacturing facility in Middle East. Like any ERP implementations, even though the product was good, we faced initial hiccup and challenges during the implementation . This is where we came across the German based RheinBrücke IT consulting and took their support. They did a fantastic turnaround of the project. I enjoyed the transparent and efficient dealing with the company and came to appreciate their work. Now they have opened the Middle East operations and am positive they will do well due to their good service motto."</div>
+                                        <div class="testimonial-footer">
+                                            <div class="testimonial-footer-description">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/RizwanullaKhan.png" alt="Rizwanulla Khan" />
+                                                <p><strong>Rizwanulla Khan</strong>Executive President at Emirates Glass Saudi American &amp; Lumi Glass</p>
+                                            </div>
+                                            <div class="testimonial-footer-logo">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/saudi-american-glass.png" alt="Saudi American Glass" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+                                    <div class="testimonial-content no-more">
+                                        <div class="testimonial-text">"We were very impressed with the way RheinBrücke carried out their work. From analysis to implementation and post-production support, their analysis was always detailed and complete. It was easily understood by users, so different system extension options could be evaluated with all relevant information."</div>
+                                        <div class="testimonial-footer">
+                                            <div class="testimonial-footer-description">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/wajid.png" alt="Syed Waseem Wajid" />
+                                                <p><strong>Syed Waseem Wajid</strong>IT HEAD at Global Glass Manufacturer KSA, Middle East</p>
+                                            </div>
+                                            <div class="testimonial-footer-logo">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text">"Our challenges made us to embark on our ERP journey and after lots of analysis, we choose Epicor ERP for RAY Group. We also faced initial hiccup and challenges during the implementations. This is where we came across the German based Rheinbrücke IT consulting and took their support. We leveraged their services for past 12 months and from this experience, I can definitely say that they did a fantastic turnaround of the project. I enjoyed the open, transparent and efficient dealing with them and came to appreciate their work. I understand that they recently started their Middle east and Africas operations, I wish them good luck and every success."</div>
+                                        <div class="testimonial-footer">
+                                            <div class="testimonial-footer-description">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/vinit_agarwal.gif" alt="Vinit Agarwal" />
+                                                <p><strong>Vinit Agarwal</strong>CEO at RAY International, Sultanate of Oman</p>
+                                            </div>
+                                            <div class="testimonial-footer-logo">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text">"NGC Energy’s Epicor Implementation go-live happened earlier this year and at the end of Jan, we had successfully closed our Jan 2015 books in Epicor. This is a big milestone for all of us.It has indeed been a long journey, starting from inception, system study, training, pilot & finally the 1st month-end closing.During each stage, we received full co-operation from Rheinbrücke teams. They had given us their unwavering support, with full dedication & positive attitude to make this project successful. During this entire journey, both teams faced many challenges & at times, things were difficult, but both teams continued to give their focus & commitment, which helped to overcome these obstacles."</div>
+                                        <div class="testimonial-footer">
+                                            <div class="testimonial-footer-description">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/kiran.gif" alt="Kiranjit Kaur" />
+                                                <p><strong>Kiranjit Kaur</strong>Finance Manager at NGC Companies Malaysia &amp; Oman</p>
+                                            </div>
+                                            <div class="testimonial-footer-logo">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-right"><a href="<%=rootpath %>about-us/customer-speak" class="home-awards-link" style="margin-bottom: 0px;">
+                                <img src="<%=rootpath %>Assets/images/right-arrow.svg" /><span>View All</span></a></div>
+                        </div>
+                    </div>
                     <div class="row" style="margin: 0px">
-                        <div style="max-width: 1024px !important; margin: auto;">							
+                        <div class="col-sm-12">
+                            <h2 class="padd-left-head martopbot30">Customers</h2>
+                        </div>
+                    </div>
+                    <div class="row" style="margin: 0px">
+                        <div style="max-width: 1024px !important; margin: auto;">
                             <ul class="clients-slider">
                                 <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/1-American-golf.png" class="hvr-bounce-out" alt="" title="American Golf" />
@@ -902,329 +906,339 @@
                                 <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/3-liftek.png" class="hvr-bounce-out" alt="" title="Liftek" />
                                 </li>
-                                 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/4-alshaya.png" class="hvr-bounce-out" alt="" title="Alshaya" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/5-epicor.png" class="hvr-bounce-out" alt="" title="Epicor" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/6-sm-jaleel.png" class="hvr-bounce-out" alt="" title="SM Jaleel" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/7-federal-mogul.png" class="hvr-bounce-out" alt="" title="Federal Mogul" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/8-gerab.png" class="hvr-bounce-out" alt="" title="Gerab" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/9-motabaqah.png" class="hvr-bounce-out" alt="" title="Motabaqah" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/10-bond.png" class="hvr-bounce-out" alt="" title="Bond" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/11-sembcorp.png" class="hvr-bounce-out" alt="" title="Sembcorp" />
                                 </li>
                                 <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/12-cellcentric.png" class="hvr-bounce-out" alt="" title="Cellcentric" />
                                 </li>
-                                 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/13-ecolean.png" class="hvr-bounce-out" alt="" title="Ecolean" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/14-ceco.png" class="hvr-bounce-out" alt="" title="Ceco" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/15-TRW.png" class="hvr-bounce-out" alt="" title="TRW" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/16-kraft.png" class="hvr-bounce-out" alt="" title="Kraft" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/17-eccbc.png" class="hvr-bounce-out" alt="" title="Eccbc" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/18-oman-fiber.png" class="hvr-bounce-out" alt="" title="Oman Fiber" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/19-kern.png" class="hvr-bounce-out" alt="" title="Kern" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/20-flsmidth.png" class="hvr-bounce-out" alt="" title="Flsmidth" />
                                 </li>
                                 <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/21-kone.png" class="hvr-bounce-out" alt="" title="Kone" />
                                 </li>
-                                 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/22-tadco.png" class="hvr-bounce-out" alt="" title="Tadco" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/23-rsp.png" class="hvr-bounce-out" alt="" title="RSP" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/24-kempi.png" class="hvr-bounce-out" alt="" title="Kempi" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/25-nucor.png" class="hvr-bounce-out" alt="" title="Nucor" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/26-rfa.png" class="hvr-bounce-out" alt="" title="RFA" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/27-schalke.png" class="hvr-bounce-out" alt="" title="Schalke" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/28-gemaco.png" class="hvr-bounce-out" alt="" title="Gemaco" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/29-talents.png" class="hvr-bounce-out" alt="" title="Talents" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/30-tialoc.png" class="hvr-bounce-out" alt="" title="Tialoc" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/31-zamil.png" class="hvr-bounce-out" alt="" title="Zamil" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/32-eva.png" class="hvr-bounce-out" alt="" title="EVA" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/33-nasco.png" class="hvr-bounce-out" alt="" title="Nasco" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/34-global-industries.png" class="hvr-bounce-out" alt="" title="Global Industries" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/35-ghassan.png" class="hvr-bounce-out" alt="" title="Ghassan" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/36-glaze.png" class="hvr-bounce-out" alt="" title="Glaze" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/37-greentech.png" class="hvr-bounce-out" alt="" title="Green Tech" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/38-saudi-american-glass.png" class="hvr-bounce-out" alt="" title="Soudi American Glass" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/39-oilserv.png" class="hvr-bounce-out" alt="" title="Oliserv" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/40-ceasefire.png" class="hvr-bounce-out" alt="" title="Cease Fire" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/41-belcan.png" class="hvr-bounce-out" alt="" title="Belcan" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/42-european-datawarehouse.png" class="hvr-bounce-out" alt="" title="European Data Warehouse" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/43-lagerhauser.png" class="hvr-bounce-out" alt="" title="Lager Hauser" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/44-DB.png" class="hvr-bounce-out" alt="" title="DB" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/45-arabian-industries.png" class="hvr-bounce-out" alt="" title="Arabian Industries" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/46-msd.png" class="hvr-bounce-out" alt="" title="MSD" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/47-ZF.png" class="hvr-bounce-out" alt="" title="ZF" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/48-autoneum.png" class="hvr-bounce-out" alt="" title="Autoneum" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/49-al-hajery.png" class="hvr-bounce-out" alt="" title="AL Hajery" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/50-horizon-geoscience.png" class="hvr-bounce-out" alt="" title="Horizon Geoscience" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/51-customly.png" class="hvr-bounce-out" alt="" title="Customly" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/52-vantage.png" class="hvr-bounce-out" alt="" title="Vantage" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/53-alif.png" class="hvr-bounce-out" alt="" title="Alif" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/54-koch.png" class="hvr-bounce-out" alt="" title="Koch" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/55-BCS.png" class="hvr-bounce-out" alt="" title="BCS" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/56-afnas.png" class="hvr-bounce-out" alt="" title="AFNAS" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/57-avalign.png" class="hvr-bounce-out" alt="" title="Avalign" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/58-stahl.png" class="hvr-bounce-out" alt="" title="Stahl" />
                                 </li>
-								 <li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/59-ccc-underwater-engineering.png" class="hvr-bounce-out" alt="" title="CCC Underwater Engineering" />
                                 </li>
-								<li>
+                                <li>
                                     <img src="<%=rootpath %>Assets/images/customer-logos/60-zoetis.png" class="hvr-bounce-out" alt="" title="Zoetis" />
                                 </li>
                             </ul>
                         </div>
                     </div>
-					<div class="row" style="margin: 0px">
-						<div class="col-sm-12">
-							<h2 class="padd-left-head martopbot30">Awards and Recognitions</h2>							
-							<div class="home-awards">
-								<div class="home-awards-box">
-									<img src="<%=rootpath %>Assets/images/awards/focus-business.png" class="img-responsive" />
-									<p>FOCUS BUSINESS<br/>Top-Berater<br/>2022</p>
-								</div>
-								<div class="home-awards-box">
-									<img src="<%=rootpath %>Assets/images/awards/Beste-Unternehmens-2022.png" class="img-responsive" />
-									<p>Beste Unternehmens - Berater 2020<br/>2022</p>
-								</div>
-								<div class="home-awards-box">
-									<img src="<%=rootpath %>Assets/images/awards/Catalyst-Awards.png" class="img-responsive" />
-									<p>Catalyst Awards Top 10 Best IT Companies to Work 2019</p>
-								</div>
-								<div class="home-awards-box">
-									<img src="<%=rootpath %>Assets/images/awards/Beste-Berater-2018.png" class="img-responsive" />
-									<p>Beste Berater Brand eins 2018</p>
-								</div>
-								<div class="home-awards-box">
-									<img src="<%=rootpath %>Assets/images/awards/Bestes-neues-Produkt-2027.png" class="img-responsive" />
-									<p>Bestes neues Produkt oder Dienstleistung - Software – Alle anderen Lösungen 2017</p>
-								</div>
-								<div class="home-awards-box">
-									<img src="<%=rootpath %>Assets/images/awards/Stevie-Epicor-EpicPay-2017.png" class="img-responsive" />
-									<p>Stevie - Epicor EpicPay for the EMEA Market 2017</p>
-								</div>
-								<div class="home-awards-box">
-									<img src="<%=rootpath %>Assets/images/awards/Epicor-Partner-of-the-year.png" class="img-responsive" />
-									<p>Epicor Partner of the year 2016, 2018</p>
-								</div>
-								<div class="home-awards-box">
-									<img src="<%=rootpath %>Assets/images/awards/Stevie-Epicor-EpicPay-2017.png" class="img-responsive" />
-									<p>Stevie - L1 Epicor Support team of the Year 2016</p>
-								</div>
-								<div class="home-awards-box">
-									<img src="<%=rootpath %>Assets/images/awards/Stevie-Epicor-EpicPay-2017.png" class="img-responsive" />
-									<p>Stevie - Company of the year 2015,2017</p>
-								</div>
-								<div class="home-awards-box">
-									<img src="<%=rootpath %>Assets/images/awards/Stevie-People-Choice.png" class="img-responsive" />
-									<p>Stevie - People Choice Of the year 2015,2016</p>
-								</div>
-								<div class="home-awards-box">
-									<img src="<%=rootpath %>Assets/images/awards/Stevie-Epicor-EpicPay-2017.png" class="img-responsive" />
-									<p>Stevie - Fastest Growing Company in Europe 2015,2016</p>
-								</div>
-								<div class="home-awards-box">
-									<img src="<%=rootpath %>Assets/images/awards/Top-berater.png" class="img-responsive" />
-									<p>Top IT Berater 2014-2015</p>
-								</div>
-							</div>
-						</div>
-					</div>
+                    <div class="row" style="margin: 0px">
+                        <div class="col-sm-12">
+                            <h2 class="padd-left-head martopbot30">Awards and Recognitions</h2>
+                            <div class="home-awards">
+                                <div class="home-awards-box">
+                                    <img src="<%=rootpath %>Assets/images/awards/focus-business.png" class="img-responsive" />
+                                    <p>FOCUS BUSINESS<br />
+                                        Top-Berater<br />
+                                        2022</p>
+                                </div>
+                                <div class="home-awards-box">
+                                    <img src="<%=rootpath %>Assets/images/awards/Beste-Unternehmens-2022.png" class="img-responsive" />
+                                    <p>Beste Unternehmens - Berater 2020<br />
+                                        2022</p>
+                                </div>
+                                <div class="home-awards-box">
+                                    <img src="<%=rootpath %>Assets/images/awards/Catalyst-Awards.png" class="img-responsive" />
+                                    <p>Catalyst Awards Top 10 Best IT Companies to Work 2019</p>
+                                </div>
+                                <div class="home-awards-box">
+                                    <img src="<%=rootpath %>Assets/images/awards/Beste-Berater-2018.png" class="img-responsive" />
+                                    <p>Beste Berater Brand eins 2018</p>
+                                </div>
+                                <div class="home-awards-box">
+                                    <img src="<%=rootpath %>Assets/images/awards/Bestes-neues-Produkt-2027.png" class="img-responsive" />
+                                    <p>Bestes neues Produkt oder Dienstleistung - Software – Alle anderen Lösungen 2017</p>
+                                </div>
+                                <div class="home-awards-box">
+                                    <img src="<%=rootpath %>Assets/images/awards/Stevie-Epicor-EpicPay-2017.png" class="img-responsive" />
+                                    <p>Stevie - Epicor EpicPay for the EMEA Market 2017</p>
+                                </div>
+                                <div class="home-awards-box">
+                                    <img src="<%=rootpath %>Assets/images/awards/Epicor-Partner-of-the-year.png" class="img-responsive" />
+                                    <p>Epicor Partner of the year 2016, 2018</p>
+                                </div>
+                                <div class="home-awards-box">
+                                    <img src="<%=rootpath %>Assets/images/awards/Stevie-Epicor-EpicPay-2017.png" class="img-responsive" />
+                                    <p>Stevie - L1 Epicor Support team of the Year 2016</p>
+                                </div>
+                                <div class="home-awards-box">
+                                    <img src="<%=rootpath %>Assets/images/awards/Stevie-Epicor-EpicPay-2017.png" class="img-responsive" />
+                                    <p>Stevie - Company of the year 2015,2017</p>
+                                </div>
+                                <div class="home-awards-box">
+                                    <img src="<%=rootpath %>Assets/images/awards/Stevie-People-Choice.png" class="img-responsive" />
+                                    <p>Stevie - People Choice Of the year 2015,2016</p>
+                                </div>
+                                <div class="home-awards-box">
+                                    <img src="<%=rootpath %>Assets/images/awards/Stevie-Epicor-EpicPay-2017.png" class="img-responsive" />
+                                    <p>Stevie - Fastest Growing Company in Europe 2015,2016</p>
+                                </div>
+                                <div class="home-awards-box">
+                                    <img src="<%=rootpath %>Assets/images/awards/Top-berater.png" class="img-responsive" />
+                                    <p>Top IT Berater 2014-2015</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <footer>
-						<div class="row footer-bg1">
-							<div class="col-md-6">
-								<h2>Let's Connect</h2>
-								<div class="border-right"><p class="left-sect-para">For further information on how RheinBrücke can assist you in staying ahead of the competition, please contact us. We look forward to exploring how we can support your success.</p><a class="footer-contact-bt" href="/contact-us">Contact Us</a></div>
-							</div>
-							<div class="col-md-6 right-sect">
-								<h2>&nbsp;</h2>
-								<p class="rig-sect-para">Talk to a Specialist today <br/><a href="tel:+4923129295619" target="_blank">+49 231 292 95619</a></p>
-								<p class="rig-sect-para">Collaborate with RheinBrücke <br/><a href="" class="under-line" data-toggle="modal" onclick="DownloadClear()" data-target="#myModal-pepdownload">Download EPICOR Partner Enablement Program</a></p>
-								<div class="footer-follow-us">
-									<p>Follow Us</p>
-									<a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" target="_blank"><i class="fa fa-linkedin"></i></a>
-									<a href="https://www.facebook.com/RheinBrucke" target="_blank"><i class="fa fa-facebook"></i></a>
-									<a href="https://twitter.com/RheinBruckeIT" target="_blank" class="twitter"><img src="<%=rootpath %>Assets/images/twitter-icon.png" title="Twitter" /></a>
-									<a href="https://www.instagram.com/rheinbrucke_itconsulting/" target="_blank"><i class="fa fa-instagram"></i></a>
-									<a href="https://www.youtube.com/channel/UCuR25ldsvrd7yd5vkzqntAg" target="_blank"><i class="fa fa-youtube"></i></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="row footer-section" style="margin: 0px">
-							<div class="col-sm-12 col-md-3">
-								<h4>About Us</h4>
-								<ul class="footer-links">
-									<li><a href="<%=rootpath %>about-us/overview">Overview</a></li>
-									<li><a href="<%=rootpath %>about-us/leadership">Leadership</a></li>
-									<li><a href="<%=rootpath %>about-us/customer-speak">Customer Speaks</a></li>
-									<li><a href="<%=rootpath %>about-us/success-stories">Success Stories</a></li>
-									<li><a href="<%=rootpath %>partners">Partners</a></li>
-								</ul>
-								<h4>Career</h4>
-								<ul class="footer-links">
-									<li><a href="<%=rootpath %>careers/career-model">Career Model</a></li>
-									<li><a href="<%=rootpath %>careers/mentoring-approach">Mentoring Approach</a></li>
-									<li><a href="<%=rootpath %>careers/current-openings">Current Openings</a></li>
-								</ul>
-							</div>
-							<div class="col-sm-12 col-md-6">
-								<h4>Solutions</h4>
-								<div class="row">
-									<div class="col-sm-12 col-md-6">										
-										<ul class="footer-links our-solutions">
-											<li>Our Solutions</li>
-											<li><a href="<%=rootpath %>solutions/CorusHR">CorusHR</a></li>
-											<li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN</a></li>
-											<li>Consultancy and Advisory</li>
-											<li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/erp-selection-advisory-solutions">ERP Selection Advisory Services</a></li>
-											<li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/program-and-project-management-services">Program And Project Management</a></li>
-											<li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/it-business-excellence">IT Business Excellence</a></li>
-											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp" style="margin-left: 0px;">Enterprise Solutions &amp; Services</a></li>
-											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">Epicor</a></li>
-											<li><a style="margin-left:25px;" href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud">Epicor Cloud</a></li>
-											<li><a style="margin-left:25px;" href="<%=rootpath %>Epicor-Payroll-MEA">Epicor-Payroll-MEA</a></li>
-											<li><a style="margin-left:25px;" href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
-											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics">Microsoft Dynamics</a></li>
-											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">SAP</a></li>
-											<li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">SugarCRM</a></li>
-										</ul>
-									</div>
-									<div class="col-sm-12 col-md-6">										
-										<ul class="footer-links our-solutions">
-											<li>Digital Solutions &amp; Services</li>
-											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">A M &amp; S</a></li>
-											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">BI</a></li>
-											<%--<li><a href="<%=rootpath %>">eCommerce</a></li>--%>
-											<li><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open-Source Technologies</a></li>
-											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
-											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-12 col-md-3">
-								<h4>Resources</h4>
-								<ul class="footer-links">
-									<li><a href="https://blog.rheincs.com/" target="_blank">Blog</a></li>
-									<li><a href="<%=rootpath %>resources/webinars/webinars-list">Webinars</a></li>
-									<li><a href="<%=rootpath %>resources/webinars/webinars-recordings">Webinar Recordings</a></li>
-									<li><a href="<%=rootpath %>whitePapers/whitepapers">Whitepapers</a></li>
-									<li><a href="<%=rootpath %>brochure/brochures">Brochures</a></li>
-									<li><a href="<%=rootpath %>Factsheets/Factsheets">Factsheets</a></li>
-									<li><a href="https://casestudy.rheincs.com/" target="_blank">Case Studies</a></li>
-									<li><a href="<%=rootpath %>about-us/corporate-videos">Corporate Videos</a></li>
-									<li><a href="<%=rootpath %>news-events">News and Events</a></li>
-									<li><a href="<%=rootpath %>resources/faq">FAQ</a></li>
-								</ul>
-							</div>
-						</div>
-						
+                        <div class="row footer-bg1">
+                            <div class="col-md-6">
+                                <h2>Let's Connect</h2>
+                                <div class="border-right">
+                                    <p class="left-sect-para">For further information on how RheinBrücke can assist you in staying ahead of the competition, please contact us. We look forward to exploring how we can support your success.</p>
+                                    <a class="footer-contact-bt" href="/contact-us">Contact Us</a></div>
+                            </div>
+                            <div class="col-md-6 right-sect">
+                                <h2>&nbsp;</h2>
+                                <p class="rig-sect-para">Talk to a Specialist today
+                                    <br />
+                                    <a href="tel:+4923129295619" target="_blank">+49 231 292 95619</a></p>
+                                <p class="rig-sect-para">Collaborate with RheinBrücke
+                                    <br />
+                                    <a href="" class="under-line" data-toggle="modal" onclick="DownloadClear()" data-target="#myModal-pepdownload">Download EPICOR Partner Enablement Program</a></p>
+                                <div class="footer-follow-us">
+                                    <p>Follow Us</p>
+                                    <a href="https://www.linkedin.com/company/rheinbr%C3%BCcke-it-consulting" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://www.facebook.com/RheinBrucke" target="_blank"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://twitter.com/RheinBruckeIT" target="_blank" class="twitter">
+                                        <img src="<%=rootpath %>Assets/images/twitter-icon.png" title="Twitter" /></a>
+                                    <a href="https://www.instagram.com/rheinbrucke_itconsulting/" target="_blank"><i class="fa fa-instagram"></i></a>
+                                    <a href="https://www.youtube.com/channel/UCuR25ldsvrd7yd5vkzqntAg" target="_blank"><i class="fa fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row footer-section" style="margin: 0px">
+                            <div class="col-sm-12 col-md-3">
+                                <h4>About Us</h4>
+                                <ul class="footer-links">
+                                    <li><a href="<%=rootpath %>about-us/overview">Overview</a></li>
+                                    <li><a href="<%=rootpath %>about-us/leadership">Leadership</a></li>
+                                    <li><a href="<%=rootpath %>about-us/customer-speak">Customer Speaks</a></li>
+                                    <li><a href="<%=rootpath %>about-us/success-stories">Success Stories</a></li>
+                                    <li><a href="<%=rootpath %>partners">Partners</a></li>
+                                </ul>
+                                <h4>Career</h4>
+                                <ul class="footer-links">
+                                    <li><a href="<%=rootpath %>careers/career-model">Career Model</a></li>
+                                    <li><a href="<%=rootpath %>careers/mentoring-approach">Mentoring Approach</a></li>
+                                    <li><a href="<%=rootpath %>careers/current-openings">Current Openings</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <h4>Solutions</h4>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <ul class="footer-links our-solutions">
+                                            <li>Our Solutions</li>
+                                            <li><a href="<%=rootpath %>solutions/CorusHR">CorusHR</a></li>
+                                            <li><a href="<%=rootpath %>MeRLIN-strategic-sourcing-software">MeRLIN</a></li>
+                                            <li>Consultancy and Advisory</li>
+                                            <li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/erp-selection-advisory-solutions">ERP Selection Advisory Services</a></li>
+                                            <li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/program-and-project-management-services">Program And Project Management</a></li>
+                                            <li><a href="<%=rootpath %>solutions/consulting-and-advisory-solutions/it-business-excellence">IT Business Excellence</a></li>
+                                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp" style="margin-left: 0px;">Enterprise Solutions &amp; Services</a></li>
+                                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">Epicor</a></li>
+                                            <li><a style="margin-left: 25px;" href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud">Epicor Cloud</a></li>
+                                            <li><a style="margin-left: 25px;" href="<%=rootpath %>Epicor-Payroll-MEA">Epicor-Payroll-MEA</a></li>
+                                            <li><a style="margin-left: 25px;" href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
+                                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics">Microsoft Dynamics</a></li>
+                                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">SAP</a></li>
+                                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">SugarCRM</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <ul class="footer-links our-solutions">
+                                            <li>Digital Solutions &amp; Services</li>
+                                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">A M &amp; S</a></li>
+                                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">BI</a></li>
+                                            <%--<li><a href="<%=rootpath %>">eCommerce</a></li>--%>
+                                            <li><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open-Source Technologies</a></li>
+                                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
+                                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-3">
+                                <h4>Resources</h4>
+                                <ul class="footer-links">
+                                    <li><a href="https://blog.rheincs.com/" target="_blank">Blog</a></li>
+                                    <li><a href="<%=rootpath %>resources/webinars/webinars-list">Webinars</a></li>
+                                    <li><a href="<%=rootpath %>resources/webinars/webinars-recordings">Webinar Recordings</a></li>
+                                    <li><a href="<%=rootpath %>whitePapers/whitepapers">Whitepapers</a></li>
+                                    <li><a href="<%=rootpath %>brochure/brochures">Brochures</a></li>
+                                    <li><a href="<%=rootpath %>Factsheets/Factsheets">Factsheets</a></li>
+                                    <li><a href="https://casestudy.rheincs.com/" target="_blank">Case Studies</a></li>
+                                    <li><a href="<%=rootpath %>about-us/corporate-videos">Corporate Videos</a></li>
+                                    <li><a href="<%=rootpath %>news-events">News and Events</a></li>
+                                    <li><a href="<%=rootpath %>resources/faq">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
                         <div class="bottomFooter">
                             <div class="copy">
-								<div class="rightF"><a href="<%=rootpath %>sitemap">Sitemap</a> <a href="<%=rootpath %>Impressum">Impressum</a> <a href="<%=rootpath %>terms">Terms</a> <a href="<%=rootpath %>privacy">Privacy</a></div>
-                                <div class="leftF">© RheinBrücke IT Consulting GmbH - All Rights Reserved</div>                               
+                                <div class="rightF"><a href="<%=rootpath %>sitemap">Sitemap</a> <a href="<%=rootpath %>Impressum">Impressum</a> <a href="<%=rootpath %>terms">Terms</a> <a href="<%=rootpath %>privacy">Privacy</a></div>
+                                <div class="leftF">© RheinBrücke IT Consulting GmbH - All Rights Reserved</div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
@@ -1234,44 +1248,44 @@
         </form>
     </div>
     <div class="modal fade" id="myModal-pepdownload" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                                        <div class="modal-dialog" role="document">
-                                            <div class="modal-content mymodal-download">
-                                                <div class="modal-header modal-header-bgcolor">
-                                                    <button type="button" class="close closev2" data-dismiss="modal" aria-label="Close" data-backdrop="false" data-faitracker-form-bind="true"><span aria-hidden="true">×</span></button>
-                                                    <h4 class="modal-title redColor">Download RheinBrücke’s EPICOR Partner Enablement Program document</h4>
-                                                </div>
-                                                <div class="col-md-12 padd-top">
-                                                    <div class="form-group">
-                                                        <label class="success" id="PEPsuccessmessage" hidden="hidden">Thank you for submitting your details. You will receive an email shortly with a link to download RheinBrücke's EPICOR Partner Enablement Program document.</label>
-                                                    </div>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p class="formhead">Please fill in your details to download RheinBrücke’s EPICOR Partner Enablement Program document.</p>
-                                                    <p>&nbsp;</p>
-                                                    <p>
-                                                        <input type="text" placeholder="*Your Name" id="txtCalloutName" class="write-to-us-input">
-                                                    </p>
-                                                    <span style="margin-top: 5px;" class="validator" id="reqCalloutName" hidden="hidden">Enter Your Name</span>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p>
-                                                        <input type="text" placeholder="*Your Email Address" id="txtCalloutEmail" class="write-to-us-input">
-                                                    </p>
-                                                    <span style="margin-top: 5px;" class="validator" id="reqCalloutemail" hidden="hidden">Enter Your Email Address</span> <span class="validator" id="valCalloutemail" hidden="hidden" style="margin-top: 2px;">Enter Valid Email Address</span>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p>
-                                                        <input type="number" placeholder="Your Mobile Number" id="txtCalloutMobNo" class="write-to-us-input">
-                                                    </p>
-                                                    <span style="margin-top: 5px;" class="validator" id="reqCalloutMobNo" hidden="hidden">Enter Your Mobile Number</span> <span class="validator" id="valCalloutMobNo" hidden="hidden">Enter Valid Your Mobile Number</span>
-                                                </div>
-                                                <div class="clearfix">&nbsp;</div>
-                                                <div class="modal-body">
-                                                    <input type="button" id="BtnCallout" class="submit-button" onclick="gtag_report_conversion(''); return false;"  data-loading-text="Submitting.." value="Submit" data-faitracker-form-bind="true">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content mymodal-download">
+                <div class="modal-header modal-header-bgcolor">
+                    <button type="button" class="close closev2" data-dismiss="modal" aria-label="Close" data-backdrop="false" data-faitracker-form-bind="true"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title redColor">Download RheinBrücke’s EPICOR Partner Enablement Program document</h4>
+                </div>
+                <div class="col-md-12 padd-top">
+                    <div class="form-group">
+                        <label class="success" id="PEPsuccessmessage" hidden="hidden">Thank you for submitting your details. You will receive an email shortly with a link to download RheinBrücke's EPICOR Partner Enablement Program document.</label>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <p class="formhead">Please fill in your details to download RheinBrücke’s EPICOR Partner Enablement Program document.</p>
+                    <p>&nbsp;</p>
+                    <p>
+                        <input type="text" placeholder="*Your Name" id="txtCalloutName" class="write-to-us-input">
+                    </p>
+                    <span style="margin-top: 5px;" class="validator" id="reqCalloutName" hidden="hidden">Enter Your Name</span>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <input type="text" placeholder="*Your Email Address" id="txtCalloutEmail" class="write-to-us-input">
+                    </p>
+                    <span style="margin-top: 5px;" class="validator" id="reqCalloutemail" hidden="hidden">Enter Your Email Address</span> <span class="validator" id="valCalloutemail" hidden="hidden" style="margin-top: 2px;">Enter Valid Email Address</span>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <input type="number" placeholder="Your Mobile Number" id="txtCalloutMobNo" class="write-to-us-input">
+                    </p>
+                    <span style="margin-top: 5px;" class="validator" id="reqCalloutMobNo" hidden="hidden">Enter Your Mobile Number</span> <span class="validator" id="valCalloutMobNo" hidden="hidden">Enter Valid Your Mobile Number</span>
+                </div>
+                <div class="clearfix">&nbsp;</div>
+                <div class="modal-body">
+                    <input type="button" id="BtnCallout" class="submit-button" onclick="gtag_report_conversion(''); return false;" data-loading-text="Submitting.." value="Submit" data-faitracker-form-bind="true">
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <%--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -1471,113 +1485,113 @@
 <script src="https://en.rheincs.com/Assets/js/bxSlider.js" defer></script>
 
 <script>
-	$('.testimonial-slider').slick({
-		  dots: true,
-		  infinite: false,
-		  arrows : false,
-		  autoplay: false,
-		  autoplaySpeed: 5000,
-		  speed: 1000,
-		  slidesToShow: 2,
-		  slidesToScroll: 1,
-		  responsive: [
-			{
-			  breakpoint: 1180,
-			  settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				infinite: false,
-				dots: true,
-			  }
-			}
-		  ]
-	});
-		
-	$('.clients-slider').slick({
-		  dots: false,
-		  infinite: true,
-		  arrows : false,
-		  autoplay: true,
-		  autoplaySpeed: 1000,
-		  speed: 1000,
-		  slidesToShow: 4,
-		  slidesToScroll: 1,
-		  responsive: [
-			{
-			  breakpoint: 980,
-			  settings: {
-				slidesToShow: 3,
-				slidesToScroll: 1,
-				infinite: true,
-				dots: false
-			  }
-			},
-			{
-			  breakpoint: 760,
-			  settings: {
-				slidesToShow: 2,
-				slidesToScroll: 1,
-				infinite: true,
-				dots: false
-			  }
-			}
-		  ]
-	});
-	
-	
-	$('.home-awards').slick({
-		  dots: true,
-		  infinite: false,
-		  arrows : false,
-		  autoplay: true,
-		  autoplaySpeed: 1000,
-		  speed: 1000,
-		  slidesToShow: 3,
-		  slidesToScroll: 1,
-		  responsive: [
-			{
-			  breakpoint: 980,
-			  settings: {
-				slidesToShow: 2,
-				slidesToScroll: 1,
-				infinite: false,
-				dots: false
-			  }
-			},
-			{
-			  breakpoint: 760,
-			  settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				infinite: false,
-				dots: false
-			  }
-			}
-		  ]
-	});
+    $('.testimonial-slider').slick({
+        dots: true,
+        infinite: false,
+        arrows: false,
+        autoplay: false,
+        autoplaySpeed: 5000,
+        speed: 1000,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1180,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: false,
+                    dots: true,
+                }
+            }
+        ]
+    });
+
+    $('.clients-slider').slick({
+        dots: false,
+        infinite: true,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        speed: 1000,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 980,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 760,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            }
+        ]
+    });
+
+
+    $('.home-awards').slick({
+        dots: true,
+        infinite: false,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        speed: 1000,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 980,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: false,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 760,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: false,
+                    dots: false
+                }
+            }
+        ]
+    });
 
 </script>
 
 <script type="text/javascript">
- document.addEventListener('DOMContentLoaded', function () {
-      const contentContainers = document.querySelectorAll('.testimonial-text');
-      
-      contentContainers.forEach((content, index) => {
-        const showMoreButton = document.createElement('div');
-        showMoreButton.classList.add('show-more');
-        showMoreButton.innerHTML = 'Show More &#9660'; // Use &#9650; for chevron-up
-        content.parentNode.insertBefore(showMoreButton, content.nextSibling);
+    document.addEventListener('DOMContentLoaded', function () {
+        const contentContainers = document.querySelectorAll('.testimonial-text');
 
-        showMoreButton.addEventListener('click', function () {
-          if (content.style.maxHeight) {
-            content.style.maxHeight = null;
+        contentContainers.forEach((content, index) => {
+            const showMoreButton = document.createElement('div');
+            showMoreButton.classList.add('show-more');
             showMoreButton.innerHTML = 'Show More &#9660'; // Use &#9650; for chevron-up
-          } else {
-            content.style.maxHeight = content.scrollHeight + 'px';
-            showMoreButton.innerHTML = 'Show Less &#9650'; // Use &#9660; for chevron-down
-          }
+            content.parentNode.insertBefore(showMoreButton, content.nextSibling);
+
+            showMoreButton.addEventListener('click', function () {
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                    showMoreButton.innerHTML = 'Show More &#9660'; // Use &#9650; for chevron-up
+                } else {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    showMoreButton.innerHTML = 'Show Less &#9650'; // Use &#9660; for chevron-down
+                }
+            });
         });
-      });
     });
 </script>
 
@@ -1640,8 +1654,8 @@
         $("#twitter").attr("href", "https://twitter.com/intent/tweet?url=" + window.location.href + "");
         $("#facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + window.location.href + "");
         $("#linkdin").attr("href", "http://www.linkedin.com/shareArticle?url=" + window.location.href + "");
-        $("#GPlus").attr("href", "https://plus.google.com/share?url=" + window.location.href + "");		
-		
+        $("#GPlus").attr("href", "https://plus.google.com/share?url=" + window.location.href + "");
+
 
         $('.bxslider').bxSlider({
             auto: true,
@@ -1738,26 +1752,32 @@ s0.parentNode.insertBefore(s1,s0);
         grecaptcha.render('g_captcha', {
             'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
         });
-    };   
+    };
 </script>
-    <script>
-        function gtag_report_conversion(url) {
-            var callback = function () {
-                if (typeof (url) != 'undefined') {
-                    window.location = url;
-                }
-            };
-            gtag('event', 'conversion', {
-                'send_to': 'AW-795585511/1tsTCLe_6ZYBEOfXrvsC',
-                'event_callback': callback
-            });
-            return false;
-        }
-    </script>
+<script>
+    function gtag_report_conversion(url) {
+        var callback = function () {
+            if (typeof (url) != 'undefined') {
+                window.location = url;
+            }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-795585511/1tsTCLe_6ZYBEOfXrvsC',
+            'event_callback': callback
+        });
+        return false;
+    }
+</script>
 <%--<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
 </script>--%>
 <script src='https://www.google.com/recaptcha/api.js'></script>
- 
+
+<script> 
+    var LC_API = LC_API || {}; LC_API.on_chat_started = function () { // track this chat in Google AdWords
+        var google_conversion_id, google_conversion_label, img; google_conversion_id = '795585511'; google_conversion_label = 'vNDLCMG5iawaEOfXrvsC'; img = new Image(1, 1); img.src = 'https://www.googleadservices.com/pagead/conversion/' + google_conversion_id + '/?label=' + google_conversion_label + '&script=0';
+    };
+
+</script>
 
 </html>
 

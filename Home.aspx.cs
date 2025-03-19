@@ -44,7 +44,10 @@ namespace RheinBrucke
         {
             if (!string.IsNullOrEmpty(Request.QueryString.ToString()))
             {
-                Response.Redirect("~/");
+                if (!Request.QueryString.ToString().Contains("utm_source"))
+                {
+                    Response.Redirect("~/");
+                }
             }
             try
             {

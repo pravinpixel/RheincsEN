@@ -11,9 +11,9 @@
     <script type="text/javascript" src="https://stg.rheincs.net/2-click/javascripts/jquery.min.js"></script>
     <script type="text/javascript" src="https://stg.rheincs.net/2-click/javascripts/jquery.cookies.js"></script>
     <script type="application/x-social-share-privacy-settings">{"path_prefix":"https://stg.rheincs.net/2-click/","uri":"https://rheincs.com","layout":"box","services":{"buffer":{"status":false},"delicious":{"status":false},"fbshare":{"status":false},"disqus":{"status":false},"flattr":{"status":false},"hackernews":{"status":false},"mail":{"status":false},"pinterest":{"status":false},"reddit":{"status":false},"stumbleupon":{"status":false},"tumblr":{"status":false},"xing":{"status":false}}}</script>
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
     <style>
         li.hvr-wobble-to-top-right {
             display: inherit;
@@ -129,7 +129,7 @@
             line-height: 18px !important;
         }
     </style>
-<link rel="preload" href="https://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <script type='text/javascript'>
         var _vwo_code = (function () {
             var account_id = 292694,
@@ -142,7 +142,7 @@
     </script>
     <noscript>
         <div style="display: inline;">
-            <img height="1" width="1" style="border-style: none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955726328/?guid=ON&amp;script=0"  loading="lazy" />
+            <img height="1" width="1" style="border-style: none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955726328/?guid=ON&amp;script=0" loading="lazy" />
         </div>
     </noscript>
     <!--LeadSquared Tracking Code Start-->
@@ -269,7 +269,7 @@
     }
   ]
 }
-</script>
+    </script>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -350,16 +350,16 @@ search"></i>
                     <li>
                         <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Enterprise Solutions & Services</span></a>
                         <ul>
-                            
+
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="Level3-menu ETMenu"><span>EPICOR</span></a>
 
                                 <ul>
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud" class="Level3-menu ETMenu"><span>Epicor Cloud</span></a>
-                                         <li><a href="<%=rootpath %>Epicor-Payroll-MEA" class="Level3-menu ETMenu"><span>Epicor-Payroll-MEA</span></a></li>
+                                        <li><a href="<%=rootpath %>Epicor-Payroll-MEA" class="Level3-menu ETMenu"><span>Epicor-Payroll-MEA</span></a></li>
                                         <!-- <ul>
                                      <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP" class="Level3-menu ETMenu"><span>Gartner Magic Quadrant for Cloud ERP</span></a></li></ul>-->
                                     </li>
-                                  <%--  <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing" class="Level3-menu ETMenu"><span>For Manufacturing</span></a></li>
+                                    <%--  <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing" class="Level3-menu ETMenu"><span>For Manufacturing</span></a></li>
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing" class="Level3-menu ETMenu"><span>For Cable Manufacturing</span></a></li>
                                     <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-wire-rope-manufacturing" class="Level3-menu ETMenu"><span>For Wire Rope Manufacturing</span></a></li>
                                     <!--  <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software" class="Level3-menu ETMenu"><span>For Distribution</span></a></li>-->
@@ -371,9 +371,9 @@ search"></i>
 
                                 </ul>
                             </li>
-                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics" class="Level3-menu ETMenu"><span>Microsoft Dynamics</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics" class="Level3-menu ETMenu"><span>Microsoft Dynamics</span></a></li>
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="Level3-menu ETMenu"><span>SAP</span></a></li>
-                           
+
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/sugar-crm" class="Level3-menu ETMenu"><span>Sugar CRM</span></a></li>
 
                             <li><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering" class="Level3-menu ETMenu"><span>Epicor Support+</span></a></li>
@@ -383,17 +383,17 @@ search"></i>
                     <li>
                         <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Surround IT Services & Solutions</span></a>
                         <ul>
-                         
+
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support" class="Level3-menu ETMenu"><span>Application Maintenance & Support</span></a></li>
-                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>
                             <%-- <li><a href="#" class="Level3-menu ETMenu"><span>Ecommerce Services</span></a></li>--%>
                             <li><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies" class="Level3-menu ETMenu"><span>Open Source Technologies</span></a></li>
-                               <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies" class="Level3-menu ETMenu"><span>Microsoft Technologies</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies" class="Level3-menu ETMenu"><span>Microsoft Technologies</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services" class="Level3-menu ETMenu"><span>Testing Services</span></a></li>
-                           
+
                         </ul>
                     </li>
-                   <%-- <li>
+                    <%-- <li>
                         <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">IP & Product Development Services</span></a>
                         <ul>
                             <li><a href="<%=rootpath %>solutions/ip-product-development-services/product-engineering-development-services" class="Level3-menu ETMenu"><span>Product Engineering & Development Services</span></a></li>
@@ -531,7 +531,7 @@ search"></i>
                                                                 <ul>
                                                                     <li class="menuname-small menuheading-large menu-erp"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/erp">Enterprise Solutions & Services</a></li>
                                                                     <br />
-                                                               
+
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">EPICOR</a>
 
                                                                         <ul class="padd-top-3">
@@ -540,9 +540,9 @@ search"></i>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP">Gartner Magic Quadrant for Cloud ERP</a></li>
                                                                             </ul>-->
                                                                             </li>
-                                                                             <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>Epicor-Payroll-MEA"><span>Epicor-Payroll-MEA</span></a></li>
+                                                                            <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>Epicor-Payroll-MEA"><span>Epicor-Payroll-MEA</span></a></li>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering">Epicor Support+</a></li>
-                                                                           <%-- <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing">For Manufacturing</a></li>
+                                                                            <%-- <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-manufacturing">For Manufacturing</a></li>
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing">For Cable Manufacturing</a></li>
 
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-wire-rope-manufacturing">For Wire Rope Manufacturing</a></li>
@@ -557,8 +557,8 @@ search"></i>
                                                                         </ul>
 
                                                                     </li>
-                                                                          <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics">Microsoft Dynamics</a></li>
-                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">SAP</a></li>                                                                   
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics">Microsoft Dynamics</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap">SAP</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sugar-crm">Sugar CRM</a></li>
 
                                                                     <!--  <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/bi">Business Intelligence</a></li> -->
@@ -569,16 +569,16 @@ search"></i>
                                                                 <ul>
                                                                     <li class="menuname-small menuheading">Surround IT Services & Solutions</li>
                                                                     <br />
-                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">Application Maintenance & Support</a></li>
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">Application Maintenance & Support</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>
-                                                                 <%--   <li class="menuname-small padd-bottom-7 ETMenu"><a href="#">Ecommerce Services</a></li>--%>
-                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open Source Technologies</a></li>
+                                                                    <%--   <li class="menuname-small padd-bottom-7 ETMenu"><a href="#">Ecommerce Services</a></li>--%>
+                                                                    <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open Source Technologies</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing Services</a></li>
-                                                                    
+
                                                                 </ul>
                                                             </div>
-                                                          <%--  <div class="col-md-3 col-md-4V2">
+                                                            <%--  <div class="col-md-3 col-md-4V2">
                                                                 <ul>
                                                                     <li class="menuname-small menuheading-large menu-erp">IP & Product Development Services</li>
                                                                     <br />
@@ -630,7 +630,7 @@ search"></i>
             <div class="row">
                 <div class="clearfix">&nbsp;</div>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
-                <div id="Contactfeedback" class="ETcallout"><a href=""  data-toggle="modal" data-target="#myModal-contactus">Contact Us</a> </div>
+                <div id="Contactfeedback" class="ETcallout"><a href="" data-toggle="modal" data-target="#myModal-contactus">Contact Us</a> </div>
                 <div class="modal fade" id="myModal-contactus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -670,10 +670,10 @@ search"></i>
                                             <option value="16">CCT (Copy Company Tool)</option>
                                             <option value="17">SharePoint</option>
                                             <option value="18">Microsoft Technologies - .Net & SQL Server</option>
-                                                 <option value="21">Application Maintenance & Support</option>
-                                               <option value="22">Microsoft Dynamics</option>
-                                             <option value="23">Sugar CRM</option>
-                                              <option value="24">Business Intelligence Services</option>
+                                            <option value="21">Application Maintenance & Support</option>
+                                            <option value="22">Microsoft Dynamics</option>
+                                            <option value="23">Sugar CRM</option>
+                                            <option value="24">Business Intelligence Services</option>
                                             <option value="25">CorusHR</option>
                                         </select>
                                         <span class="validator" id="reqddlservices" hidden="hidden" style="font-size: 13px;">Select the Services</span>
@@ -712,7 +712,7 @@ search"></i>
                                         <div class="col-md-6 col-sm-6 captchadiv">
                                             <div class="g-recaptcha" data-sitekey="6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn"></div>
                                         </div>
-                                  </div>
+                                    </div>
                                     <div class="col-md-3">
                                         <input type="button" id="btnContactUs" class="submit-button" data-loading-text="Submitting.." value="Submit" />
                                     </div>
@@ -725,13 +725,13 @@ search"></i>
                     <div style="max-width: 1024px !important; margin: auto;">
                         <ul class="bxslider">
                             <li>
-                                <img src="Assets/images/national-gas.jpg" class="hvr-bounce-out" title="National Gas"  alt="national-gas"/>
+                                <img src="Assets/images/national-gas.jpg" class="hvr-bounce-out" title="National Gas" alt="national-gas" />
                             </li>
                             <li>
-                                <img src="Assets/images/trw.jpg" class="hvr-bounce-out" title="TRW-Automotive" alt="trw"/>
+                                <img src="Assets/images/trw.jpg" class="hvr-bounce-out" title="TRW-Automotive" alt="trw" />
                             </li>
                             <li>
-                                <img src="Assets/images/sandoz.jpg" class="hvr-bounce-out" title="Sandoz Pharmaceuticals "  alt="sandoz"/>
+                                <img src="Assets/images/sandoz.jpg" class="hvr-bounce-out" title="Sandoz Pharmaceuticals " alt="sandoz" />
                             </li>
                             <li>
                                 <img src="Assets/images/pertro-masilla.jpg" class="hvr-bounce-out" title="Petro Masila" alt="pertro-masilla" />
@@ -746,13 +746,13 @@ search"></i>
                                 <img src="Assets/images/rederal.jpg" class="hvr-bounce-out" title="Federal Mogul" alt="rederal" />
                             </li>
                             <li>
-                                <img src="Assets/images/saudi-american-glass.jpg" class="hvr-bounce-out" title="SAR-Saudi American Glass"  alt="saudi-american-glass"/>
+                                <img src="Assets/images/saudi-american-glass.jpg" class="hvr-bounce-out" title="SAR-Saudi American Glass" alt="saudi-american-glass" />
                             </li>
                             <li>
-                                <img src="Assets/images/ray.jpg" class="hvr-bounce-out" title="Ray International"  alt="ray"/>
+                                <img src="Assets/images/ray.jpg" class="hvr-bounce-out" title="Ray International" alt="ray" />
                             </li>
                             <li>
-                                <img src="Assets/images/msd.jpg" class="hvr-bounce-out" title="Msd" alt="msd"/>
+                                <img src="Assets/images/msd.jpg" class="hvr-bounce-out" title="Msd" alt="msd" />
                             </li>
                             <li>
                                 <img src="Assets/images/belcan.jpg" class="hvr-bounce-out" title="Belcan" alt="belcan" />
@@ -761,28 +761,28 @@ search"></i>
                                 <img src="Assets/images/flsmidh.jpg" class="hvr-bounce-out" title="Flsmidth" alt="flsmidh" />
                             </li>
                             <li>
-                                <img src="Assets/images/kone.jpg" class="hvr-bounce-out" title="Kone"  alt="kone"/>
+                                <img src="Assets/images/kone.jpg" class="hvr-bounce-out" title="Kone" alt="kone" />
                             </li>
                             <li>
-                                <img src="Assets/images/kern.jpg" class="hvr-bounce-out" title="Kern"  alt="kern"/>
+                                <img src="Assets/images/kern.jpg" class="hvr-bounce-out" title="Kern" alt="kern" />
                             </li>
                             <li>
-                                <img src="Assets/images/cash-fire.jpg" class="hvr-bounce-out" title="Cease-fire"  alt="cash-fire"/>
+                                <img src="Assets/images/cash-fire.jpg" class="hvr-bounce-out" title="Cease-fire" alt="cash-fire" />
                             </li>
                             <li>
                                 <img src="Assets/images/sembcorp.jpg" class="hvr-bounce-out" title="Sembcorp" alt="sembcorp" />
                             </li>
                             <li>
-                                <img src="Assets/images/kraft-heinz.jpg" class="hvr-bounce-out" title="Heinz"  alt="kraft-heinz"/>
+                                <img src="Assets/images/kraft-heinz.jpg" class="hvr-bounce-out" title="Heinz" alt="kraft-heinz" />
                             </li>
                             <li>
-                                <img src="Assets/images/stahl.jpg" class="hvr-bounce-out" title="Stahil"  alt="stahl"/>
+                                <img src="Assets/images/stahl.jpg" class="hvr-bounce-out" title="Stahil" alt="stahl" />
                             </li>
                             <li>
-                                <img src="Assets/images/amazon.jpg" class="hvr-bounce-out" title="Amazon"  alt="amazon"/>
+                                <img src="Assets/images/amazon.jpg" class="hvr-bounce-out" title="Amazon" alt="amazon" />
                             </li>
                             <li>
-                                <img src="Assets/images/alcon.jpg" class="hvr-bounce-out" title="Alcon"  alt="alcon"/>
+                                <img src="Assets/images/alcon.jpg" class="hvr-bounce-out" title="Alcon" alt="alcon" />
                             </li>
                             <li>
                                 <img src="Assets/images/pradeep-metals.jpg" class="hvr-bounce-out" title="Pradeep-Metals" alt="pradeep-metals" />
@@ -791,7 +791,7 @@ search"></i>
                                 <img src="Assets/images/euronics.jpg" class="hvr-bounce-out" title="Euronics" alt="euronics" />
                             </li>
                             <li>
-                                <img src="Assets/images/arabian-industries.jpg" class="hvr-bounce-out" title="Arabian-Industries"  alt="arabian-industries"/>
+                                <img src="Assets/images/arabian-industries.jpg" class="hvr-bounce-out" title="Arabian-Industries" alt="arabian-industries" />
                             </li>
                             <li>
                                 <img src="Assets/images/arabi-enertech.jpg" class="hvr-bounce-out" title="Arabi-Enertech" alt="arabi-enertech" />
@@ -898,51 +898,51 @@ alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" cl
                                                 <img src="<%=rootpath %>Assets/images/RheinBrücke-TopConsultant-Award.jpg"  loading="lazy"  alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>--%>
-                                        <div class="item active"  role="option" aria-selected="true" aria-roledescription="slide">
+                                        <div class="item active" role="option" aria-selected="true" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
-                                                <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg"  loading="lazy"  alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
+                                                <img src="<%=rootpath %>Assets/images/companyoftheyear.jpg" loading="lazy" alt="bronze-stevieaward" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
 
-                                        <div class="item "  role="option" aria-selected="false" aria-roledescription="slide">
+                                        <div class="item " role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-epicor-international-partner-of-the-year">
-                                                <img src="<%=rootpath %>Assets/images/Epicor-partner-2016.png"  loading="lazy"  alt="RheinBrücke Epicor Internation Partner of the year 2016" class="img-responsive tpc ETtopconsultant" />
+                                                <img src="<%=rootpath %>Assets/images/Epicor-partner-2016.png" loading="lazy" alt="RheinBrücke Epicor Internation Partner of the year 2016" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
                                         <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                <img src="<%=rootpath %>Assets/images/Vetri-IBA-silver-Stevies.png"  loading="lazy"  alt="Vetri Maverick of the year" class="img-responsive tpc ETtopconsultant" />
+                                                <img src="<%=rootpath %>Assets/images/Vetri-IBA-silver-Stevies.png" loading="lazy" alt="Vetri Maverick of the year" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
                                         <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                <img src="<%=rootpath %>Assets/images/Vetri-IBA-Stevies.png"  loading="lazy"  alt="Vetri IT executive of the year" class="img-responsive tpc ETtopconsultant" />
+                                                <img src="<%=rootpath %>Assets/images/Vetri-IBA-Stevies.png" loading="lazy" alt="Vetri IT executive of the year" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
                                         <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png"  loading="lazy"  alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
+                                                <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" loading="lazy" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
                                         <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                <img src="<%=rootpath %>Assets/images/Support-IBA-Stevies.png"  loading="lazy"  alt="Bronze Stevie IBA winner support department" class="img-responsive tpc ETtopconsultant" />
+                                                <img src="<%=rootpath %>Assets/images/Support-IBA-Stevies.png" loading="lazy" alt="Bronze Stevie IBA winner support department" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
                                         <div class="item " role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png"  loading="lazy"  alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
+                                                <img src="<%=rootpath %>Assets/images/CS-IBA-Stevies.png" loading="lazy" alt="Bronze Stevie IBA winner computer services" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
                                         <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-stevies-international-business-awards">
-                                                <img src="<%=rootpath %>Assets/images/HR-IBA-Stevies.png"  loading="lazy"  alt="Bronze Stevie IBA winner HR department" class="img-responsive tpc ETtopconsultant" />
+                                                <img src="<%=rootpath %>Assets/images/HR-IBA-Stevies.png" loading="lazy" alt="Bronze Stevie IBA winner HR department" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
 
                                         <div class="item" role="option" aria-selected="false" aria-roledescription="slide">
                                             <a href="<%=rootpath %>news-events/rheinbrucke-wins-2015-german-stevie-awards">
-                                                <img src="<%=rootpath %>Assets/images/executiveoftheyear.jpg"  loading="lazy"  alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
+                                                <img src="<%=rootpath %>Assets/images/executiveoftheyear.jpg" loading="lazy" alt="Silver-Stevie-Award" class="img-responsive tpc ETtopconsultant" />
                                             </a>
                                         </div>
                                     </div>
@@ -966,7 +966,7 @@ alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" cl
         </form>
     </div>
     <!-- GOOGLE ANALYTICS CODE-->
-     <%--  <div id="myoffers" class="gitex-banner-container">
+    <%--  <div id="myoffers" class="gitex-banner-container">
         <div class="gitex-banner-img hidden-xs">
             <a href="http://view.rheincs.com/Webinar-Future-Of-ERP-Series?utm_source=Website&utm_medium=PopUp">
                 <img src="https://www.rheincs.com/Assets/images/website-popup.png" class="img-responsive gitex-img gitex-banner-img-shadow center-block" width="510" />
@@ -1185,4 +1185,12 @@ alt="RheinBrücke Recognized as ‘Top Consultant’ for the year 2014- 2015" cl
     }
 </script>
 <script type="text/javascript">(function () { var s = document.createElement('script'); var t = document.getElementsByTagName('script')[0]; s.type = 'text/javascript'; s.async = true; s.src = 'https://stg.rheincs.net/2-click/javascripts/jquery.socialshareprivacy.min.autoload.js'; t.parentNode.insertBefore(s, t); })();</script>
+
+<script> 
+    var LC_API = LC_API || {}; LC_API.on_chat_started = function () { // track this chat in Google AdWords
+        var google_conversion_id, google_conversion_label, img; google_conversion_id = '795585511'; google_conversion_label = 'vNDLCMG5iawaEOfXrvsC'; img = new Image(1, 1); img.src = 'https://www.googleadservices.com/pagead/conversion/' + google_conversion_id + '/?label=' + google_conversion_label + '&script=0';
+    };
+
+</script>
+
 </html>
