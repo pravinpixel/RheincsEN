@@ -2533,6 +2533,7 @@
                             $('.showErrorMsg').text('Mail has been sent successfully!');
                             setTimeout(function () {
                                 $('.showErrorMsg').text('');
+                                window.location.href = window.location.origin + "/thanks";
                             }, 5000);
                         }
                     }

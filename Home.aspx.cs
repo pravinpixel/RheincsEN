@@ -49,11 +49,9 @@ namespace RheinBrucke
             }
             try
             {
-
                 if (!IsCrawlByBot())
                 {
                     var reader = new DatabaseReader(Server.MapPath("~/GeoIP/GeoLite2-Country.mmdb"));
-
 
                     if (Request.Cookies["firstvisit"] == null)
                     {

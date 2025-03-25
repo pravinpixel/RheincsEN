@@ -1471,6 +1471,7 @@
                     }
 
                 });
+                window.location = baseURL + "//" + "thanks";
                 clear();
             }
 

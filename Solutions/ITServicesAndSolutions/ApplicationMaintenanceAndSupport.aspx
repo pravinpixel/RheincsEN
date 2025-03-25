@@ -599,7 +599,7 @@
                 });
                 clear();
                 console.log(data);
-
+                window.location.href = window.location.origin + "/thanks";
 
             }
 
@@ -732,6 +732,7 @@
                             $('.txtcFirstName,.txtcContactEmail,.txtcContactPhone,.txtcCompany').val('');
                             $('#btnpdf').show();
                             $('#btndownload').hide();
+                            window.location.href = window.location.origin + "/thanks";
                         }, 50000);
                     }
                 },
