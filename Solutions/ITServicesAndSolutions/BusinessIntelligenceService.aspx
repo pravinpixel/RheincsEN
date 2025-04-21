@@ -2031,7 +2031,7 @@
                 <div id="verticalTabs">
                     <ul class="resp-tabs-list">
                         <li>Microsoft Fabric</li>
-                        <li>Epicor</li>
+                        <!-- li>Epicor</li -->
                         <li>Other Technologies</li>
                     </ul>
                     <div class="resp-tabs-container">
@@ -2086,7 +2086,7 @@
                             </div>
                         </div>
 
-                        <div>
+                        <!-- div>
                             <div class="row ms_section align-items-center">
                                 <div class="col-lg-7 col-md-7 col-sm-12 col-12 nopadding">
                                     <h2 class="common-topic small_heading pb-0 line-height-less">Epicor</h2>
@@ -2132,7 +2132,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div -->
 
                         <div>
                             <div class="row ms_section align-items-center">
@@ -2140,27 +2140,14 @@
                                     <h2 class="common-topic small_heading pb-0 line-height-less">Other
                                                     Technologies</h2>
                                     <p class="common-para">
-                                        Our technology stack supports a diverse array of data visualization
-                                                    and business intelligence solutions. <b>Tableau and Qlik Sense</b>
-                                        are renowned for their user-friendly interfaces and powerful data
-                                                    visualization capabilities, allowing users to create interactive
-                                                    dashboards and reports. <b>SAP BusinessObjects</b> caters to
-                                                    enterprise-level needs with robust reporting, querying, and
-                                                    analytics functionalities.
+                                        Our technology stack supports a diverse array of data visualization, business intelligence, and enterprise resource planning solutions, enabling comprehensive insights across business functions. <b>Tableau</b> provides a powerful, user-friendly platform for creating interactive dashboards and data visualizations, making complex data easily accessible for business users, while <b>Qlik Sense</b> offers similarly intuitive analytics capabilities. <b>SAP Business Objects</b> addresses enterprise-level reporting and analytics needs. 
                                         <br>
                                         <br>
 
-                                        <b>Anvizent</b> offers integrated data management and analytics
-                                                    solutions, streamlining data from multiple sources for real-time
-                                                    insights. <b>Google Data Studio</b> completes the selection with its
-                                                    intuitive, cloud-based platform for creating customisable reports
-                                                    and dashboards.
+                                        <b>Anvizent</b> streamlines data integration from multiple sources for real-time insights, and <b>Google Data Studio</b> provides an intuitive, cloud-based platform for customizable reporting. To support advanced analytics, we leverage <b>Databricks</b> for data processing and machine learning, and <b>Snowflake</b> for scalable data warehousing and seamless data management.  
                                         <br>
                                         <br>
-                                        We integrate <b>Databricks</b> for advanced data processing and
-                                                    machine learning, and <b>Snowflake</b> for scalable data warehousing
-                                                    and seamless data management, further enhancing our ability to
-                                                    handle complex data workflows and deliver comprehensive insights.
+                                        Complementing these, <b>Epicor ERP</b> delivers deep operational insights and integrates with BI tools for unified performance monitoring. Its suite includes <b>Epicor Data Analytics (EDA)</b> for consolidating sales and operational data into customizable dashboards, <b>Epicor Financial Planning and Analysis (FP&amp;A)</b> for real-time financial insights, budgeting, and forecasting, and the <b>Business Activity Query (BAQ)</b> tool for flexible T-SQL querying, enabling dynamic dashboards and custom reporting. <b>Epicor Grow</b> enhances these capabilities with AI-driven, self-service analytics, enabling users to explore live ERP data and build visualizations using natural language.
                                     </p>
                                     <br>
                                 </div>
