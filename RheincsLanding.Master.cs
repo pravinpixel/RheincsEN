@@ -31,24 +31,24 @@ namespace RheinBrucke
             if (!Page.IsPostBack)
             {
 
-                List<Testimonial> objtestimonial = GetTestimonial();
+               // List<Testimonial> objtestimonial = GetTestimonial();
 
                 //rptTestimonial.DataSource = objtestimonial;
                 //rptTestimonial.DataBind();
             }
         }
 
-        public List<Testimonial> GetTestimonial()
-        {
-            List<Testimonial> result = null;
+        //public List<Testimonial> GetTestimonial()
+        //{
+        //    //List<Testimonial> result = null;
 
-            using (RheinBruckeDevEntities context = new RheinBruckeDevEntities())
-            {
-                result = context.Testimonials.Where(e => e.Status == true).OrderByDescending(e => e.TestimonialID).ToList<Testimonial>();
-            }
+        //    //using (RheinBruckeDevEntities context = new RheinBruckeDevEntities())
+        //    //{
+        //    //   // result = context.Testimonials.Where(e => e.Status == true).OrderByDescending(e => e.TestimonialID).ToList<Testimonial>();
+        //    //}
 
-            return result.ToList();
-        }
+        //    //return result.ToList();
+        //}
 
     }
 }
