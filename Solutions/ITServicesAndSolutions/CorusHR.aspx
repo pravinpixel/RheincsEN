@@ -14,7 +14,7 @@
     <link href="../Assets/css/LandingStyleSheet.css" rel="stylesheet" />
     <link href="../Assets/css/media-q.css" rel="stylesheet" />
     <link rel="stylesheet" href="/Assets/css/easy-responsive-tabs.css">
-    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <%--  <script src="../Assets/js/jquery-2.1.1.min.js"></script>--%>
     <style>
         .consultationform {
