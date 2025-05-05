@@ -17,6 +17,40 @@
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <%--  <script src="../Assets/js/jquery-2.1.1.min.js"></script>--%>
     <style>
+        .consultationform {
+            padding: 30px;
+            border-radius: 10px;
+            background: #eff0f0;
+            margin: 40px 30px 0px 30px;
+        }
+
+            .consultationform input {
+                background: #FFF;
+                border-radius: 7px;
+                border: 1px solid #CCC;
+                padding: 15px;
+                color: #000;
+                width: 100%;
+                margin-bottom: 20px;
+                font-weight: 500;
+                font-size: 16px;
+                font-family: "Raleway", sans-serif !important;
+            }
+
+            .consultationform button {
+                background: #7E2442;
+                border-radius: 7px;
+                border: none;
+                padding: 15px;
+                color: #FFF;
+                text-align: center;
+                width: 100%;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 16px;
+                font-family: "Raleway", sans-serif !important;
+            }
+
         ul.key-features {
             padding: 0px;
             margin: 0px;
@@ -155,7 +189,7 @@
         .sugar-crm .ms_section.align-items-center.sugar-crm {
             margin: 0px;
             padding: 0px 15px;
-        } 
+        }
 
         .form-data.cnt a.btndownlaodBrochure {
             background: #7E2442;
@@ -202,7 +236,7 @@
             top: 80%;
         }
 
-        .curve{
+        .curve {
             padding: 50px 40px;
             border-radius: 8px;
             background-color: #f5f5f5;
@@ -210,16 +244,18 @@
             margin-left: auto;
             display: flex;
         }
-        .curve img {
-            border-radius: 8px;
-        }
-        .curve p{
-            font-size: 30px;
-            line-height: 42px;
-            font-weight: 600;
-            color: #7E2442;
-            text-align: center;
-        }
+
+            .curve img {
+                border-radius: 8px;
+            }
+
+            .curve p {
+                font-size: 30px;
+                line-height: 42px;
+                font-weight: 600;
+                color: #7E2442;
+                text-align: center;
+            }
 
         .socials {
             position: fixed;
@@ -331,7 +367,7 @@
 
         ul.breadcrumb {
             padding: 18px 15px 10px 30px;
-			margin-bottom:1px;
+            margin-bottom: 1px;
         }
 
             ul.breadcrumb li a {
@@ -348,17 +384,28 @@
 
         .main-banners-sumer {
             position: relative;
-            background-image: url('../../../Assets/images/coru-banner.jpg');
+            background: url('../../../Assets/images/coru-banner.jpg') center center no-repeat;
+            background-size: cover;
             width: 100%;
-            height: 300px;
-			background-position:right top;
+            height: 500px;
         }
 
+            .main-banners-sumer:before {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                content: "";
+                background: rgba(0, 0, 0, 0.5);
+                z-index: 0;
+            }
+
         .banner-liners {
-            position: absolute;
-            top: 4%;
-            background-color: transparent !important;
-            z-index: 0;
+            margin-top: 130px;
+            position: relative;
+            z-index: 10;
+            padding-left: 15px;
         }
 
         .lines a {
@@ -380,12 +427,16 @@
         .lines h1 {
             font-family: "Raleway", sans-serif !important;
             font-size: 36px !important;
-            color: #2F2F2F;
+            color: #FFF;
             line-height: 50px;
             font-weight: normal;
         }
-		
-		.benefits-icns ul li h3{margin:0px;color:#7E2442;margin:0px 0px 10px;}
+
+        .benefits-icns ul li h3 {
+            margin: 0px;
+            color: #7E2442;
+            margin: 0px 0px 10px;
+        }
 
         .section-layer {
             padding: 60px 45px;
@@ -410,7 +461,7 @@
 
         .set-2 {
             background-color: #F2EDED;
-        } 
+        }
 
         .box-sliced {
             background-color: #F2EDED;
@@ -595,7 +646,7 @@
             padding-bottom: 100px;
         }
 
-        .box-icns ul { 
+        .box-icns ul {
         }
 
         .icn-circle {
@@ -604,46 +655,46 @@
             padding: 14px;
             border-radius: 100%;
         }
-		
-		.box-icns ul { 
-}
 
-.box-icns ul li {
-  vertical-align: top;
-  width: 30%;
-  display: inline-block;
-  text-align: left;
-  margin-right: 34px;
-  margin-bottom: 50px;
-}
+        .box-icns ul {
+        }
 
-.frm-fields {
-  padding-right: 100px;
-}
-
-            .box-icns ul li img {
-                margin: 0px;
-                min-width: 41px;
+            .box-icns ul li {
+                vertical-align: top;
+                width: 30%;
+                display: inline-block;
+                text-align: left;
+                margin-right: 34px;
+                margin-bottom: 50px;
             }
 
-            .box-icns ul li h3 {
-                font-weight: 600;
-                font-size: 20px;
-                color: #7E2442;
-            }
+        .frm-fields {
+            padding-right: 100px;
+        }
 
-            .box-icns ul li span {
-                font-weight: normal;
-                font-size: 16px;
-                color: #2F2F2F;
-                line-height: 26px;
-            }
-			
-			.employee-icns li span {
-  display: block;
-  margin-left: 5px;
-  margin-top: 10px;
-}
+        .box-icns ul li img {
+            margin: 0px;
+            min-width: 41px;
+        }
+
+        .box-icns ul li h3 {
+            font-weight: 600;
+            font-size: 20px;
+            color: #7E2442;
+        }
+
+        .box-icns ul li span {
+            font-weight: normal;
+            font-size: 16px;
+            color: #2F2F2F;
+            line-height: 26px;
+        }
+
+        .employee-icns li span {
+            display: block;
+            margin-left: 5px;
+            margin-top: 10px;
+        }
 
         .set-4 {
             background-color: #F2EDED;
@@ -789,7 +840,7 @@
 
         .set-7 .img-boxer img {
             max-width: 50%;
-			margin-top:35px;
+            margin-top: 35px;
         }
 
         .set-8 {
@@ -984,9 +1035,6 @@
                 margin-bottom: 30px;
             }
 
-            .banner-liners {
-                top: 20%;
-            }
 
 
             .form-div-epicor {
@@ -1055,6 +1103,21 @@
                 margin-right: 0;
                 margin-bottom: 30px;
                 min-height: auto;
+            }
+
+            .main-banners-sumer {
+                height: auto;
+                background-size: auto 50%;
+                background-position: center top;
+            }
+
+            .banner-liners {
+                margin-top: 30px;
+            }
+
+            .consultationform {
+                margin: 40px 20px;
+                padding: 20px;
             }
         }
 
@@ -1195,9 +1258,6 @@
                 width: 100%;
             }
 
-            .banner-liners {
-                top: 60px;
-            }
 
             .section-layer {
                 padding: 30px 45px;
@@ -1271,12 +1331,30 @@
             <div class="row">
 
                 <div class="col-md-12 nopadding main-banners-sumer">
-                    <!-- <img src="../../../Assets/images/epicor-pay.jpg" class="img-responsive center-block" /><%--<a href="#form-div"><div class="cta-new1">Know More</div></a>--%> -->
-                    <div class="banner-liners">
-                        <div class="container lines">
-                            <h1><b>CorusHR</b><br />
-                                 People Focused,<br> Integrated HR Solution</h1>
-                            <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Book a Demo</a>
+                    <div class="container" style="background: transparent !important;">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-7">
+                                <div class="banner-liners">
+                                    <div class="lines">
+                                        <h1><b>CorusHR</b><br />
+                                            People Focused,<br>
+                                            Integrated HR Solution</h1>
+                                        <%--<a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Book a Demo</a>--%>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-5">
+                                <div class="consultationform">
+                                    <form name="consultationform" method="post" action="#" id="consultationform">
+                                        <input type="text" placeholder="Enter Full Name" id="txtFullName" name="txtFullName" required />
+                                        <input type="email" placeholder="Enter Work Email ID" id="txtWorkEmail" name="txtWorkEmail" required />
+                                        <input type="text" placeholder="Enter Company Name" id="txtCompanyName" name="txtCompanyName" required />
+                                        <input type="tel" placeholder="Enter Mobile No" id="txtMobile" name="txtMobile" maxlength="10" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" required />
+                                        <button class="submit-btn" id="btnenquiry" type="button">Schedule A Free Consultaion</button>
+                                        <span class="showErrorMsg1" style="color: red"></span>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1286,12 +1364,12 @@
 
         </div>
 
-        <div class="col-md-12 nopadding mt-30 mb-50"> 
-		
+        <div class="col-md-12 nopadding mt-30 mb-50">
+
             <div class="row ms_section align-items-center sugar-crm">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-				<h2 class="common-topic">CorusHR</h2>
-				</div>
+                    <h2 class="common-topic">CorusHR</h2>
+                </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <p class="common-para">Are you looking for an intuitive and streamlined Human Resource Management Solution (HRMS) designed to enhance global workforce management? CorusHR offers you an intuitive, user-friendly self-service portal for organisation-wide collaboration offering HR services, Employee Self Service and Manager Self Service. From recruitment to retirement, we have comprehensive functional coverage that is available on mobile and desktop.</p>
 
@@ -1310,9 +1388,9 @@
                     </div>
                 </div>
 
-            </div> 
-			
-            <!--Eof Breadcrumb row--> 
+            </div>
+
+            <!--Eof Breadcrumb row-->
 
         </div>
 
@@ -1323,10 +1401,10 @@
                 <div class="row">
                     <div class="col-lg-12 nopadding">
                         <h2 class="common-topic">What Makes CorusHR Stand Out</h2>
-					</div>
+                    </div>
                     <div class="col-lg-5 nopadding">
                         <p class="common-para">
-                           We provide a holistic approach to streamlining and automating various aspects of Human Resource Management, That is integrated with your ERP. Its seamless integration ensures that it functions as a natural extension of your existing systems, facilitating optimised operations for managing a diverse range of functionalities across HR operations. What truly sets it apart is its adaptability and configurable features, allowing businesses to tailor the platform to meet their specific needs.
+                            We provide a holistic approach to streamlining and automating various aspects of Human Resource Management, That is integrated with your ERP. Its seamless integration ensures that it functions as a natural extension of your existing systems, facilitating optimised operations for managing a diverse range of functionalities across HR operations. What truly sets it apart is its adaptability and configurable features, allowing businesses to tailor the platform to meet their specific needs.
                         </p>
                     </div>
                     <div class="col-lg-7 nopadding">
@@ -1350,7 +1428,8 @@
                         <h2 class="common-topic">Main Features
                         </h2>
                         <p class="common-para">
-                            CorusHR is a complete Human Capital Management (HCM) solution that handles many aspects of talent<br> management. Here are some of its main features:
+                            CorusHR is a complete Human Capital Management (HCM) solution that handles many aspects of talent<br>
+                            management. Here are some of its main features:
                         </p>
                     </div>
                 </div>
@@ -1491,25 +1570,29 @@
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/ign-2.png" alt="" class="img-responsive center-block" />
                                     </div>
-                                    <span>Travel<br> Requests</span>
+                                    <span>Travel<br>
+                                        Requests</span>
                                 </li>
                                 <li>
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/ipn-1.png" alt="" class="img-responsive center-block" />
                                     </div>
-                                    <span>Performance<br> Management</span>
+                                    <span>Performance<br>
+                                        Management</span>
                                 </li>
                                 <li>
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/ign-3.png" alt="" class="img-responsive center-block" />
                                     </div>
-                                    <span>Leave<br> Management</span>
+                                    <span>Leave<br>
+                                        Management</span>
                                 </li>
                                 <li>
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/icons-12.png" alt="" class="img-responsive center-block" />
                                     </div>
-                                    <span>Work Permit<br> Process</span>
+                                    <span>Work Permit<br>
+                                        Process</span>
                                 </li>
                                 <li>
                                     <div class="icn-circle">
@@ -1521,13 +1604,15 @@
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/icons-10.png" alt="" class="img-responsive center-block" />
                                     </div>
-                                    <span>Loan<br> Management</span>
+                                    <span>Loan<br>
+                                        Management</span>
                                 </li>
                                 <li>
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/icons-11.png" alt="" class="img-responsive center-block" />
                                     </div>
-                                    <span>Miscellaneous<br> Reimbursement Request</span>
+                                    <span>Miscellaneous<br>
+                                        Reimbursement Request</span>
                                 </li>
                                 <li>
                                     <div class="icn-circle">
@@ -1545,7 +1630,8 @@
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/ign-6.png" alt="" class="img-responsive center-block" />
                                     </div>
-                                    <span>Approval & Delegation<br> Process</span>
+                                    <span>Approval & Delegation<br>
+                                        Process</span>
                                 </li>
 
                             </ul>
@@ -1597,7 +1683,7 @@
                                     </div>
                                     <h3>Mobile Accessibility</h3>
                                     <span>With our solution, employees can stay connected around the clock through a user-friendly mobile application, ensuring seamless access to vital information and better collaboration.</span>
-                                </li>   
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -1610,14 +1696,16 @@
                                     </div>
                                     <h3>Effective Data Management</h3>
                                     <span>Updating and retrieval of employee data, including personal information, employment history, performance evaluations, and benefits enrolment, reducing data loss and errors and improved data integrity.</span>
-                                </li> 
+                                </li>
                                 <li>
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/feature-8.png" alt="" class="img-responsive center-block" />
                                     </div>
                                     <h3>Configurable</h3>
-                                    <span>The solution is adaptable, quick to respond, and highly configurable, aimed at improving operational efficiencies. It facilitates streamlined HR operations, improves efficiency by eliminating paper and email trails with digital workflows and enhances user satisfaction.<br/><br/> The solution is adaptable, quick to respond, and highly customisable, aimed at improving operational efficiencies. It facilitates streamlined HR operations, improves efficiency by eliminating paper and email trails with digital workflows and enhances user satisfaction.</span>
-                                </li> 
+                                    <span>The solution is adaptable, quick to respond, and highly configurable, aimed at improving operational efficiencies. It facilitates streamlined HR operations, improves efficiency by eliminating paper and email trails with digital workflows and enhances user satisfaction.<br />
+                                        <br />
+                                        The solution is adaptable, quick to respond, and highly customisable, aimed at improving operational efficiencies. It facilitates streamlined HR operations, improves efficiency by eliminating paper and email trails with digital workflows and enhances user satisfaction.</span>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -1662,7 +1750,7 @@
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/ben-2.png" alt="" class="img-responsive center-block" />
                                     </div>
-									<h3>Rich Functionalities</h3>
+                                    <h3>Rich Functionalities</h3>
                                     <span>Complete Hire to Retire features</span>
                                 </li>
 
@@ -1670,7 +1758,7 @@
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/ben-3.png" alt="" class="img-responsive center-block" />
                                     </div>
-									<h3>Easy Usage</h3>
+                                    <h3>Easy Usage</h3>
                                     <span>Intuitive, user-friendly interface</span>
                                 </li>
 
@@ -1678,7 +1766,7 @@
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/ben-4.png" alt="" class="img-responsive center-block" />
                                     </div>
-									<h3>Comprehensive Reporting</h3>
+                                    <h3>Comprehensive Reporting</h3>
                                     <span>Robust reporting capabilities</span>
                                 </li>
 
@@ -1686,7 +1774,7 @@
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/ben-5.png" alt="" class="img-responsive center-block" />
                                     </div>
-									<h3>Seamless Integration</h3>
+                                    <h3>Seamless Integration</h3>
                                     <span>Out-of-the-box Epicor integration</span>
                                 </li>
 
@@ -1694,7 +1782,7 @@
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/ben-6.png" alt="" class="img-responsive center-block" />
                                     </div>
-									<h3>Multisite Capabilities</h3>
+                                    <h3>Multisite Capabilities</h3>
                                     <span>Manage multiple locations</span>
                                 </li>
 
@@ -1702,7 +1790,7 @@
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/ben-7.png" alt="" class="img-responsive center-block" />
                                     </div>
-									<h3>Mobile Interface</h3>
+                                    <h3>Mobile Interface</h3>
                                     <span>Access anytime, anywhere</span>
                                 </li>
 
@@ -1710,9 +1798,9 @@
                                     <div class="icn-circle">
                                         <img src="../../../Assets/images/ben-8.png" alt="" class="img-responsive center-block" />
                                     </div>
-									<h3>Configurable Setup & Fluid Workflows</h3>
+                                    <h3>Configurable Setup & Fluid Workflows</h3>
                                     <span>Flexible configurations and workflows</span>
-                                </li> 
+                                </li>
 
                             </ul>
                         </div>
@@ -1733,8 +1821,8 @@
                 <div class="row">
                     <div class="col-lg-12 nopadding">
                         <h2 class="common-topic pb-20">Download Our Brochure</h2>
-					</div>
-                    <div class="col-lg-6 nopadding"> 
+                    </div>
+                    <div class="col-lg-6 nopadding">
                         <form name="form" method="post" action="#" id="form3">
 
                             <div class="frm-fields clearfix">
@@ -1838,14 +1926,16 @@
             $('#btnpdf').show();
             $('#btndownload').hide();
         });
-		
-		
+
+
         var onloadCallback = function () {
             grecaptcha.render('g_captcha', {
                 'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
             });
         };
     </script>
+
+
 
     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
     </script>
@@ -1922,6 +2012,61 @@
                 });
             });
 
+            $('#btnenquiry').click(function () {
+                if ($('#txtFullName').val() == '') {
+                    $('.showErrorMsg1').text("Ensure name!."); $('#txtFullName').focus(); return false;
+                }
+                if ($('#txtMobile').val() != '' && $('#txtMobile').val().length < 10) {
+                    $('.showErrorMsg1').text("Ensure phone number!."); $('#txtMobile').focus(); return false;
+                }
+                if ($('#txtWorkEmail').val() == '') {
+                    $('.showErrorMsg1').text("Ensure work email!."); $('#txtWorkEmail').focus(); return false;
+                }
+                if ($('#txtWorkEmail').val() != '') {
+                    if (!IsEmailValid($('#txtWorkEmail').val())) {
+                        $('.showErrorMsg1').text("Ensure work email!."); $('#txtWorkEmail').focus(); return false;
+                    }
+                }
+                if ($('#txtCompanyName').val() == '') {
+                    $('.showErrorMsg11').text("Ensure Company!."); $('#txtCompanyName').focus(); return false;
+                }
+                else {
+                    $('.showErrorMsg1').text("");
+                }
+                var email = $('#txtWorkEmail').val();
+                var a = email.split('@');
+                if (a[1].toLowerCase() == 'gmail.com' || a[1].toLowerCase() == 'live.com' || a[1].toLowerCase() == 'live.in' || a[1].toLowerCase() == 'outlook.com' || a[1].toLowerCase() == 'yahoo.com' || a[1].toLowerCase() == 'zoho.com' || a[1].toLowerCase() == 'yandex.com' || a[1].toLowerCase() == 'aol.com' || a[1].toLowerCase() == 'mail.com' || a[1].toLowerCase() == 'inbox.com') {
+                    $('.showErrorMsg1').text("Please provide us with your work e-mail and not your personal e-mail!."); $('#txtWorkEmail').focus(); return false;
+                }
+
+                var Data = {
+                    firstname: $('#txtFullName').val(),
+                    email: $('#txtWorkEmail').val(),
+                    phone: $('#txtMobile').val(),
+                    companyname: $('#txtCompanyName').val(),
+                    ServiceType: "CorusHR"
+                };
+                $.ajax({
+                    type: 'POST',
+                    url: "/" + "api/Landing/LandingPage",
+                    data: JSON.stringify(Data),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        if (response == "success") {
+                            $('#txtCompanyName').focus();
+                            $('#txtFullName,#txtWorkEmail,#txtMobile,#txtCompanyName').val('');
+                            $('.showErrorMsg1').text('Mail has been sent successfully!');
+                            setTimeout(function () {
+                                $('.showErrorMsg1').text('');
+                                const baseURL = window.location.origin;
+                                console.log(baseURL);
+                                window.location = baseURL + "//" + "thanks";
+                            }, 2000);
+                        }
+                    }
+                });
+            });
         });
 
     </script>

@@ -260,7 +260,7 @@
             </div>
         </div>
     </div>
-    <div id="myoffers" class="gitex-banner-container">
+  <%--  <div id="myoffers" class="gitex-banner-container">
         <div class="gitex-banner-img hidden-xs">
             <a href="http://view.rheincs.com/Webinar-Future-Of-ERP-With-AI?utm_source=Website_Banner&utm_medium=DirectTraffic">
                 <img src="Assets/images/RIC-Webinar-Future-of-ERP-with-AI-Email-Banner.png" class="img-responsive gitex-img gitex-banner-img-shadow center-block" width="510" />
@@ -269,7 +269,7 @@
         </div>
 
     </div>
-    
+    --%>
     <!--Gitex image-->
 
     <%--<div class="gitex-banner-container">
