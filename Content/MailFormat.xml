@@ -14,7 +14,7 @@
 
         <tr style="background-color: #fff;">
           <td>
-            <p>You have received a new message from @@Name on the RheinBrücke website.</p>
+            <p>You have received a new message from</p> @@FirstName <p> on the RheinBrücke website.</p>
             <p>
               <table cellspacing="1" align="left" width="490" cellpadding="8" style="font-size:12px; font-family:Tahoma;background-
 
@@ -75,7 +75,7 @@ color:#ccc;">
 
         <tr style="background-color: #fff;">
           <td>
-            <p>You have received a new message from @@Name on the RheinBrücke website.</p>
+            <p>You have received a new message from</p> @@FirstName <p> on the RheinBrücke website.</p>
             <p>
               <table cellspacing="1" align="left" width="490" cellpadding="8" style="font-size:12px; font-family:Tahoma;background-
 
@@ -251,7 +251,7 @@ respect to other positions that become available in the future.</p>
 
         <tr style="background-color: #fff;">
           <td colspan="2">
-            <p>You have received a new message from @@Name on the RheinBrücke website.</p>
+            <p>You have received a new message from</p> @@FirstName <p> on the RheinBrücke website.</p>
 
           </td>
         </tr>
@@ -12360,7 +12360,7 @@ collapse:collapse;background-color: #ccc;border:6px solid #ccc; color:#2F2F3C; f
 
         <tr style="background-color: #fff;">
           <td colspan="2">
-            <p>You have received a new message from @@Name on the RheinBrücke website.</p>
+            <p>You have received a new message from</p> @@FirstName <p> on the RheinBrücke website.</p>
 
           </td>
         </tr>
@@ -12417,7 +12417,7 @@ collapse:collapse;background-color: #ccc;border:6px solid #ccc; color:#2F2F3C; f
 
         <tr style="background-color: #fff;">
           <td>
-            <p>You have received a new message from @@Name on the RheinBrücke website.</p>
+            <p>You have received a new message from</p> @@FirstName <p> on the RheinBrücke website.</p>
             <p>
               <table cellspacing="1" align="left" width="490" cellpadding="8" style="font-size:12px; font-family:Tahoma;background-
 
@@ -12484,7 +12484,7 @@ color:#ccc;">
 
         <tr style="background-color: #fff;">
           <td>
-            <p>You have received a new message from @@Name on the RheinBrücke website.</p>
+            <p>You have received a new message from</p> @@FirstName <p> on the RheinBrücke website.</p>
             <p>
               <table cellspacing="1" align="left" width="490" cellpadding="8" style="font-size:12px; font-family:Tahoma;background-
 
@@ -12546,7 +12546,7 @@ color:#ccc;">
 
         <tr style="background-color: #fff;">
           <td>
-            <p>You have received a new message from @@Name on the RheinBrücke website.</p>
+            <p>You have received a new message from</p> @@FirstName <p> on the RheinBrücke website.</p>
             <p>
               <table cellspacing="1" align="left" width="490" cellpadding="8" style="font-size:12px; font-family:Tahoma;background-
 
@@ -15570,7 +15570,7 @@ href="www.rheincs.com">www.rheincs.com</a>
 
         <tr style="background-color: #fff;">
           <td>
-            <p>You have received a new message from @@Name on the RheinBrücke website.</p>
+            <p>You have received a new message from</p> @@FirstName <p> on the RheinBrücke website.</p>
             <p>
               <table cellspacing="1" align="left" width="490" cellpadding="8" style="font-size:12px; font-family:Tahoma;background-
 
@@ -16924,7 +16924,7 @@ color:#ccc;">
         </tr>
         <tr style="background-color: #fff;">
           <td>
-            <p>You have received a new message from @@Name on the Epicor distribution services.</p>
+            <p>You have received a new message from</p> @@FirstName <p> on the Epicor distribution services.</p>
 
             <p>
               <table cellspacing="1" align="left" width="600" cellpadding="8" style="font-size:12px; font-family:Tahoma;background-
@@ -17044,7 +17044,7 @@ services, please visit our website – www.rheincs.com<br/><br/>We would love to
         </tr>
         <tr style="background-color: #fff;">
           <td>
-            <p>You have received a new message from @@Name on the Microsoft Dynamics services.</p>
+            <p>You have received a new message from</p> @@FirstName <p> on the Microsoft Dynamics services.</p>
 
             <p>
               <table cellspacing="1" align="left" width="600" cellpadding="8" style="font-size:12px; font-family:Tahoma;background-
@@ -17155,7 +17155,7 @@ color:#ccc;">
         </tr>
         <tr style="background-color: #fff;">
           <td>
-            <p>You have received a new message from @@Name on the Microsoft Fabric services.</p>
+            <p>You have received a new message from</p> @@FirstName <p> on the Microsoft Fabric services.</p>
 
             <p>
               <table cellspacing="1" align="left" width="600" cellpadding="8" style="font-size:12px; font-family:Tahoma;background-
@@ -17265,7 +17265,7 @@ services, please visit our website – www.rheincs.com<br/><br/>We would love to
     </Body>
   </Mail>
   <Mail name="SaveCorusHR">
-    <Subject> RheinBrücke </Subject>
+    <Subject> RheinBrücke - CorusHR</Subject>
     <Body>
       <table border="0" cellpadding="10" cellspacing="0" style="width:600px;cell-padding:10px;background-color: #ccc;border:6px solid 
 #ccc; color:#2F2F3C; font-size:12px; font-family:Tahoma;">
@@ -17276,7 +17276,7 @@ services, please visit our website – www.rheincs.com<br/><br/>We would love to
         </tr>
         <tr style="background-color: #fff;">
           <td>
-            <p>You have received a new message from @@Name on the CorusHR.</p>
+            <p>You have received a new message from</p> @@FirstName <p>on the CorusHR.</p>
 
             <p>
               <table cellspacing="1" align="left" width="600" cellpadding="8" style="font-size:12px; font-family:Tahoma;background-

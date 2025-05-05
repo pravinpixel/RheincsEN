@@ -1350,7 +1350,7 @@
                                         <input type="email" placeholder="Enter Work Email ID" id="txtWorkEmail" name="txtWorkEmail" required />
                                         <input type="text" placeholder="Enter Company Name" id="txtCompanyName" name="txtCompanyName" required />
                                         <input type="tel" placeholder="Enter Mobile No" id="txtMobile" name="txtMobile" maxlength="10" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" required />
-                                        <button class="submit-btn" id="btnenquiry" type="button">Schedule A Free Consultaion</button>
+                                        <button class="submit-btn" id="btnenquiry" type="button">Schedule a Call</button>
                                         <span class="showErrorMsg1" style="color: red"></span>
                                     </form>
                                 </div>
