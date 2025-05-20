@@ -1350,7 +1350,7 @@
                                         <input type="email" placeholder="Enter Work Email ID" id="txtWorkEmail" name="txtWorkEmail" required />
                                         <input type="text" placeholder="Enter Company Name" id="txtCompanyName" name="txtCompanyName" required />
                                         <input type="tel" placeholder="Enter Mobile No" id="txtMobile" name="txtMobile" maxlength="10" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" required />
-                                        <button class="submit-btn" id="btnenquiry" type="button">Schedule a Call</button>
+                                        <button class="submit-btn" id="btnenquiry" type="button">Contact Us</button>
                                         <span class="showErrorMsg1" style="color: red"></span>
                                     </form>
                                 </div>
@@ -1404,7 +1404,7 @@
                     </div>
                     <div class="col-lg-5 nopadding">
                         <p class="common-para">
-                            We provide a holistic approach to streamlining and automating various aspects of Human Resource Management, That is integrated with your ERP. Its seamless integration ensures that it functions as a natural extension of your existing systems, facilitating optimised operations for managing a diverse range of functionalities across HR operations. What truly sets it apart is its adaptability and configurable features, allowing businesses to tailor the platform to meet their specific needs.
+                            We provide a holistic approach to streamlining and automating various aspects of Human Resource Management, that is integrated with your ERP. CorusHR addresses key challenges faced by businesses, including time-consuming manual onboarding processes, lengthy HR solution implementation timelines, complex and difficult-to-use systems, limited region-specific functionality, and poor integration with existing ERP platforms.
                         </p>
                     </div>
                     <div class="col-lg-7 nopadding">
