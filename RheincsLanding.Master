@@ -757,7 +757,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Digital Solutions and Services</span></a>
+                        <a href="<%=rootpath %>solutions/digital-services-and-solutions" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Digital Solutions and Services</span></a>
                         <ul>
                          
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support" class="Level3-menu ETMenu"><span>Application Maintenance & Support</span></a></li>
@@ -925,7 +925,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                             </div>
                                                             <div class="col-md-3 col-md-4V2">
                                                                 <ul>
-                                                                    <li class="menuname-small menuheading">Digital Solutions and Services</li>
+                                                                    <li class="menuname-small menuheading"><a href="<%=rootpath %>solutions/digital-services-and-solutions">Digital Solutions and Services</a></li>
                                                                     <br />
                                                                      <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">Application Maintenance & Support</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>
