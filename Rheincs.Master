@@ -476,13 +476,13 @@
                     <br />
                     <div class="col-md-2">
                         <a href="<%=rootpath %>">
-                            <img id="Img1" src="https://en.rheincs.com/Assets/images/RheinBrücke-logo.jpg" runat="server" alt="RheinBrücke IT Consulting" class="ETlogo" />
+                            <img id="Img1" src="Assets/images/logo-white.svg" runat="server" alt="RheinBrücke IT Consulting" class="ETlogo" />
                         </a>
                     </div>
                     <div class="col-md-10">
                         <nav class="navbar navbar-default" role="navigation" id="menu">
                             <div class="container-fluid">
-                                <div class="collapse navbar-collapse padd-top-20 menualign" id="bs-megadropdown-tabs">
+                                <div class="collapse navbar-collapse menualign" id="bs-megadropdown-tabs">
                                     <ul class="nav navbar-nav">
                                         <li class="menuname ETMenu"><a href="<%=rootpath %>">Home</a></li>
                                         <li class="dropdown ETMenu">
@@ -512,7 +512,7 @@
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/focused-solutions/enterprise">Enterprise</a></li>
                                                                 </ul>--%>
                                                                 <ul class="">
-                                                                    <li class="menuname-small menuheading">Our Solutions</li>
+                                                                    <li class="menuname-small menuheading menuheading-large">Our Solutions</li>
                                                                     <br />
 
                                                                     <li class="menuname-small padd-bottom-7 lineht ETMenu"><a href="<%=rootpath %>solutions/CorusHR"><span>CorusHR</span></a></li>
@@ -537,9 +537,9 @@
 
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor">EPICOR</a>
 
-                                                                        <ul class="padd-top-3">
+                                                                        <ul class="padd-top-10">
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud">Epicor Cloud</a>
-                                                                                <!-- <ul class="padd-top-3">
+                                                                                <!-- <ul class="padd-top-10">
                                                                             <li class="menuname-small padd-bottom-7 line-ht-13 ETMenu"><a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP">Gartner Magic Quadrant for Cloud ERP</a></li>
                                                                             </ul>-->
                                                                             </li>
@@ -570,7 +570,7 @@
                                                             </div>
                                                             <div class="col-md-3 col-md-4V2">
                                                                 <ul>
-                                                                    <li class="menuname-small menuheading"><a href="<%=rootpath %>solutions/digital-services-and-solutions">Digital Solutions and Services</a></li>
+                                                                    <li class="menuname-small menuheading menuheading-large"><a href="<%=rootpath %>solutions/digital-services-and-solutions">Digital Solutions and Services</a></li>
                                                                     <br />
                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">Application Maintenance & Support</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>

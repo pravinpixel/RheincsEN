@@ -83,7 +83,7 @@
             z-index: 1;
         }
         ul.list-style1 li:after{
-            background: #7e2442;
+            background: #082326;
             position: absolute;
             left: 0;
             top: 10px;
@@ -107,7 +107,7 @@
         }
         .digital-services-bg .lines a:hover{
             background: #FFF;
-            color: #7e2442 !important;
+            color: #082326 !important;
         }
         .digital-solution-box{
             border-radius: 20px;
@@ -196,9 +196,11 @@
         }
          .industries{
            background-image: url('../../../Assets/images/industries-bg.jpg');
+           background-size: cover;
         }
         .download_section{
            background-image: url('../../../Assets/images/form-bg.jpg');
+           background-size: cover;
         }
 
          .download_section .form_content{
@@ -279,7 +281,7 @@ min-height: 200px;
                      .success_cards ._card p img{
                         padding: 10px;
                         border-radius: 10px;
-                background-color: #7E2442 ;
+                background-color: #082326 ;
                 box-sizing: content-box;
 
                      }
@@ -324,7 +326,7 @@ min-height: 200px;
         span.numerical {
             height: 40px;
             width: 40px;
-            background-color: #7E2442;
+            background-color: #082326;
             position: relative;
             display: inline-block;
             text-align: center;
@@ -345,7 +347,7 @@ min-height: 200px;
         .prixing h2.common-topic {
             font-weight: 600;
             font-size: 20px !important;
-            color: #7E2442;
+            color: #082326;
             font-family: Raleway !important;
         }
 
@@ -439,7 +441,7 @@ min-height: 200px;
             font-size: 30px;
             line-height: 42px;
             font-weight: 600;
-            color: #7E2442;
+            color: #082326;
             text-align: center;
         }
 
@@ -558,9 +560,8 @@ min-height: 200px;
 
             ul.breadcrumb li a {
                 text-align: left;
-                font: normal normal normal 13px;
                 letter-spacing: 0px;
-                color: #707070;
+                color: #082326;
             }
 
         .container.lines {
@@ -585,10 +586,12 @@ min-height: 200px;
 
         .lines a {
             border-radius: 8px;
+            border: 1px solid #082326;
             font-size: 18px !important;
-            color: #fff !important;
-            background-color: #7E2442;
-            padding: 12px 25px;
+            font-weight: 600;
+            color: #082326 !important;
+            background-color: #FFF;
+            padding: 12px 40px;
             display: inline-block;
             margin-top: 15px;
             margin-bottom: 40px;
@@ -596,7 +599,8 @@ min-height: 200px;
         }
 
             .lines a:hover {
-                background-color: #7b1314;
+                background-color: #082326;
+                color:#FFF !important;
                 transition: all 0.5s ease;
             }
 
@@ -619,7 +623,7 @@ min-height: 200px;
             margin-bottom: 15px;
         }
 		
-		.benefits-icns ul li h3{margin:0px;color:#7E2442;margin:0px 0px 10px;}
+		.benefits-icns ul li h3{margin:0px;color:#082326;margin:0px 0px 10px;}
 
         .section-layer {
             padding: 60px 45px;
@@ -627,7 +631,7 @@ min-height: 200px;
 
         h2.common-topic {
             font-family: "Raleway", sans-serif !important;
-            color: #7E2442;
+            color: #082326;
             font-size: 32px;
             line-height: 45px !important;
             margin: 0px !important;
@@ -875,7 +879,7 @@ min-height: 200px;
             .box-icns ul li h3 {
                 font-weight: 600;
                 font-size: 20px;
-                color: #7E2442;
+                color: #082326;
             }
 
             .box-icns ul li span {
@@ -967,7 +971,7 @@ min-height: 200px;
             .onbord-icns li h3 {
                 font-weight: 600;
                 font-size: 20px;
-                color: #7E2442;
+                color: #082326;
                 margin: 0px;
                 margin-bottom: 10px;
                 line-height: 30px;
@@ -1014,7 +1018,7 @@ min-height: 200px;
         }
 
         .form-data.cnt input[type="submit"] {
-            background: #7E2442;
+            background: #082326;
             border: medium none;
             color: #fff;
             text-transform: uppercase;
@@ -1095,7 +1099,7 @@ min-height: 200px;
         }
 
         .side_heading {
-            color: #7E2442;
+            color: #082326;
             font-weight: 600;
         }
 
@@ -1116,7 +1120,7 @@ min-height: 200px;
         }
 
         .link {
-            color: #7E2442;
+            color: #082326;
             font-weight: 600;
             font-size: 17px;
         }

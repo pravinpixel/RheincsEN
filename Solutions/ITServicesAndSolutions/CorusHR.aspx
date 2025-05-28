@@ -38,7 +38,7 @@
             }
 
             .consultationform button {
-                background: #7E2442;
+                background: #082326;
                 border-radius: 7px;
                 border: none;
                 padding: 15px;
@@ -136,7 +136,7 @@
         span.numerical {
             height: 40px;
             width: 40px;
-            background-color: #7E2442;
+            background-color: #082326;
             position: relative;
             display: inline-block;
             text-align: center;
@@ -157,7 +157,7 @@
         .prixing h2.common-topic {
             font-weight: 600;
             font-size: 20px !important;
-            color: #7E2442;
+            color: #082326;
             font-family: Raleway !important;
         }
 
@@ -192,7 +192,7 @@
         }
 
         .form-data.cnt a.btndownlaodBrochure {
-            background: #7E2442;
+            background: #082326;
             border: medium none;
             color: #fff;
             text-transform: uppercase;
@@ -253,7 +253,7 @@
                 font-size: 30px;
                 line-height: 42px;
                 font-weight: 600;
-                color: #7E2442;
+                color: #082326;
                 text-align: center;
             }
 
@@ -412,7 +412,7 @@
             border-radius: 8px;
             font-size: 18px !important;
             color: #fff !important;
-            background-color: #7E2442;
+            background-color: #082326;
             padding: 12px 25px;
             display: inline-block;
             margin-top: 15px;
@@ -434,7 +434,7 @@
 
         .benefits-icns ul li h3 {
             margin: 0px;
-            color: #7E2442;
+            color: #082326;
             margin: 0px 0px 10px;
         }
 
@@ -444,7 +444,7 @@
 
         h2.common-topic {
             font-family: "Raleway", sans-serif !important;
-            color: #7E2442;
+            color: #082326;
             font-size: 32px;
             line-height: 45px !important;
             margin: 0px !important;
@@ -680,7 +680,7 @@
         .box-icns ul li h3 {
             font-weight: 600;
             font-size: 20px;
-            color: #7E2442;
+            color: #082326;
         }
 
         .box-icns ul li span {
@@ -772,7 +772,7 @@
             .onbord-icns li h3 {
                 font-weight: 600;
                 font-size: 20px;
-                color: #7E2442;
+                color: #082326;
                 margin: 0px;
                 margin-bottom: 10px;
                 line-height: 30px;
@@ -819,7 +819,7 @@
         }
 
         .form-data.cnt input[type="submit"] {
-            background: #7E2442;
+            background: #082326;
             border: medium none;
             color: #fff;
             text-transform: uppercase;
@@ -900,7 +900,7 @@
         }
 
         .side_heading {
-            color: #7E2442;
+            color: #082326;
             font-weight: 600;
         }
 
@@ -921,7 +921,7 @@
         }
 
         .link {
-            color: #7E2442;
+            color: #082326;
             font-weight: 600;
             font-size: 17px;
         }

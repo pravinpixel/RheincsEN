@@ -23,7 +23,7 @@
         }
 
         .point-text {
-            color: #7b1315 !important;
+            color: #082326 !important;
             font-weight: 700;
         }
 
@@ -35,7 +35,7 @@
             .link-text:hover {
                 text-decoration: underline;
                 font-weight: 700;
-                color: #7b1315 !important;
+                color: #082326 !important;
             }
 
         .bg-img-erp {
