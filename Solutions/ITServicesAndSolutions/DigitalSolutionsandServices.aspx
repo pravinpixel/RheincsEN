@@ -18,6 +18,29 @@
     <%--  <script src="../Assets/js/jquery-2.1.1.min.js"></script>--%>
     <style>
        
+       .approach_cards{
+        display: flex;
+       }
+        .approach_cards ._card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 33.33%;
+        }
+         .approach_cards ._card h3{
+            width: 50%;
+            font-weight: bold;
+         }
+          .approach_cards ._card p{
+            text-align: center;
+            font-size: 20px;
+            line-height: 28px;
+            margin-top: 20px;
+            width: 85%;
+          }
+          .mobile_img{
+            display: none
+          }
         section.comm-padd{
             padding: 50px 0px;
         }
@@ -226,8 +249,8 @@
                 width: calc(25% - 30px);
                 border-radius: 16px;
                 overflow: hidden;
-                background-color: white ;
-            transition: 0.3s all;
+                background-color: #082326;
+            transition: all 0.6s ease;
 
             }
             .success_cards ._card{
@@ -235,12 +258,10 @@
                 border-radius: 16px;
                 overflow: hidden;
                 background-color: #F5F5F5 ;
-            transition: 0.3s all;
+            transition: all 0.6s ease;
                         }
 
-                         .industries_cards ._card:hover,.success_cards ._card:hover{
-transform: scale(1.05);
-                         }
+                        
 
               .industries_cards ._card img{
                    height: 135px;
@@ -261,7 +282,17 @@ position: relative;
                          .success_cards ._card p{
                             text-align: left;
 min-height: 200px;
+transition: all 0.6s ease;
 
+                         }
+
+                         .success_cards ._card:hover{
+                            background: #082326;
+                        transition-delay: 0s !important;
+                         }
+
+                         .success_cards ._card:hover p{
+                            color: #FFF;
 
                          }
                   
@@ -272,11 +303,21 @@ min-height: 200px;
                         right: 18px;
                         width: 24px;
                         height: 24px;
+                        transition: all 0.6s ease;
                      }
 
-                       .industries_cards ._card p img{
-                        filter: invert(1);
-                       }
+                     .industries_cards ._card p{
+                        color: #FFF;
+                     }
+
+                      .industries_cards ._card:hover p img{
+                        right: 10px;
+                      }
+
+                     .success_cards ._card p img{
+                        right: 5px;
+                        bottom: 5px;
+                     }
 
                      .success_cards ._card p img{
                         padding: 10px;
@@ -287,6 +328,24 @@ min-height: 200px;
                      }
 
         @media only screen and (max-width:780px) {
+            .mobile_img{
+            display: block;
+          }
+          .desktop_img{
+            display: none;
+          }
+            .approach_cards{
+                flex-direction: column;
+            }
+            .approach_cards ._card{
+                width: 100%;
+            }
+             .approach_cards ._card h3{
+                text-align: center;
+             }
+              .approach_cards ._card img{
+
+              }
             .resp-tab-content {
                 padding: 10px 30px;
             }
@@ -382,18 +441,18 @@ min-height: 200px;
         } 
 
         .form-data.cnt a.btndownlaodBrochure {
-            background: #2f2f2f;
-            border: medium none;
+            background: #082326;
+            border: solid 1px #FFF;
             color: #fff;
-            text-transform: uppercase;
             width: 100%;
             border-radius: 8px;
-            font-size: 16px;
+            font-size: 24px;
+            line-height: 20px;
+            font-weight: 500;
             transition: all 500ms ease-in-out;
             height: 65px;
             padding: 20px 10px;
             margin-bottom: 25px;
-            text-transform: uppercase;
             outline: none !important;
             box-shadow: none !important;
             display: block;
@@ -611,6 +670,7 @@ min-height: 200px;
             line-height: 40px;
             font-weight: normal;
             margin-bottom: 20px;
+            overflow: hidden;
         }
 
         .lines h1 b{
@@ -1191,6 +1251,234 @@ min-height: 200px;
                 padding: 0;
             }
 
+        .over-hidd{
+            overflow: hidden;
+        }
+        
+        .image-animation-div1, .image-animation-div2, .image-animation-div3{
+            position: relative;
+        }
+
+
+        .image-animation-div1 .plus-big, .image-animation-div2 .plus-big, .image-animation-div3 .plus-big-1, .image-animation-div3 .plus-big-2, .image-animation-div3 .plus-big-3{
+            position: absolute;
+            left: 38%;
+            top: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: rotateLeft 10s linear infinite;
+        }
+
+        @-webkit-keyframes rotateLeft {
+            from{
+                -webkit-transform: rotate(0deg);
+            }
+            to{
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        .image-animation-div3 .plus-big-1{
+            left: 5%;
+            top: 10%;
+        }
+           .image-animation-div3 .plus-big-2{
+            right: 12%;
+    top: 16%;
+    left: unset;
+        }
+           .image-animation-div3 .plus-big-3{
+    bottom: 0;
+    top: unset;
+}
+
+.unlock.image-animation-div .plus-big-1{
+    left: 25%;
+    top: 3%
+}
+
+.unlock.image-animation-div .plus-big-3{
+    left: 25%;
+    top: 3%
+}
+
+.unlock.image-animation-div .plus-big-1{
+    left: 30%;
+}
+
+.unlock.image-animation-div3 .banner-icon-7{
+    right: 20%;
+    top: 10%;
+}
+.unlock.image-animation-div3 .banner-icon-8 {
+    bottom: 10%;
+    right: 45%;
+}
+
+.unlock.image-animation-div3 .banner-icon-9 {
+    top: 30%;
+    left: 10%
+
+}
+
+        .image-animation-div1 .plus-small-1{
+            position: absolute;
+            right: 15%;
+            top: 15%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: rotateRight 10s linear infinite;
+        }
+
+
+        .image-animation-div1 .plus-small-2{
+            position: absolute;
+            left: 10%;
+            bottom: 0%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: rotateRight 10s linear infinite;
+        }
+
+        @-webkit-keyframes rotateRight {
+            from{
+                -webkit-transform: rotate(0deg);
+            }
+            to{
+                -webkit-transform: rotate(-360deg);
+            }
+        }
+
+        .image-animation-div2 .plus-big-1{
+            position: absolute;
+            right: 50%;
+            bottom: 0%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: rotateRight 10s linear infinite;
+        }
+
+        .image-animation-div1 .banner-icon-1, .image-animation-div1 .banner-icon-2, .image-animation-div1 .banner-icon-3, .image-animation-div2 .banner-icon-4, .image-animation-div2 .banner-icon-5, .image-animation-div2 .banner-icon-6, .image-animation-div3 .banner-icon-7, .image-animation-div3 .banner-icon-8, .image-animation-div3 .banner-icon-9{
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid #89A1AC;
+            background: #FFF;
+        }
+
+        .image-animation-div1 .banner-icon-1{
+            top: 10%;
+            left: 0%;
+            animation: leftAnim1 5s linear infinite;
+        }
+
+        .image-animation-div1 .banner-icon-2{
+            left: 40%;
+            bottom: 0%;
+            animation: leftAnim2 20s linear infinite;
+        }
+
+        .image-animation-div1 .banner-icon-3{
+            right: 0%;
+            bottom: 20%;
+            animation: leftAnim3 2s linear infinite;
+        }
+
+        .image-animation-div2 .banner-icon-4{
+            top: 10%;
+            left: 15%;
+            animation: leftAnim1 5s linear infinite;
+        }
+
+        .image-animation-div2 .banner-icon-5{
+            right: 15%;
+            top: 10%;
+            animation: leftAnim3 2s linear infinite;
+        }
+
+        .image-animation-div2 .banner-icon-6{
+            left: 25%;
+            bottom: 5%;
+            animation: leftAnim2 20s linear infinite;
+        }
+
+        .image-animation-div3 .banner-icon-7{
+            right: 30%;
+            top: 5%;
+                animation: leftAnim2 20s linear infinite;
+        }
+
+        .image-animation-div3 .banner-icon-8 {
+    bottom: 15%;
+    right: 20%;
+    animation: leftAnim1 5s linear infinite;
+}
+
+        .image-animation-div3 .banner-icon-9{
+            left: 5%;
+    bottom: 15%;
+            animation: leftAnim3 2s linear infinite;
+        }
+
+        .image-animation-div1 .banner-icon-1 img, .image-animation-div1 .banner-icon-2 img, .image-animation-div1 .banner-icon-3 img, .image-animation-div2 .banner-icon-4 img, .image-animation-div2 .banner-icon-5 img, .image-animation-div2 .banner-icon-6 img, .image-animation-div3 .banner-icon-7 img, .image-animation-div3 .banner-icon-8 img, .image-animation-div3 .banner-icon-9 img{
+            max-width: 60%;
+        }
+
+        @-webkit-keyframes leftAnim1 {
+            0% {
+            transform: translate(0px, 0px);
+            }
+            40% {
+            transform: translate(30px, 30px);
+            }
+            60% {
+            transform: translate(30px, 30px);
+            }
+            100% {
+            transform: translate(0px, 0px);
+            }
+        }
+
+         @-webkit-keyframes leftAnim2 {
+            0% {
+            transform: rotate(0deg);
+            }
+            100% {
+            transform: rotate(360deg);
+            }
+        }
+
+        @-webkit-keyframes leftAnim3 {
+            0% {
+            transform: scale(1);
+            }
+            20% {
+            transform: scale(1.2);
+            }
+            80% {
+            transform: scale(1.2);
+            }
+            100% {
+            transform: scale(1);
+            }
+        }
+
         @media (max-width:1100px) {
                .success_cards{
                 gap: 30px;
@@ -1586,20 +1874,30 @@ min-height: 200px;
                 <div class="col-md-12 mob-col-reverse"> 
                 <div class="col-md-6">          
                         <div class="lines">
-                            <h1><b>Digital Solutions & Services</b><br />
-                                 Bridging the gap between Technology and Business</h1>
+                            <div class="over-hidd"><h1><b class="anim-text">Digital Solutions & Services</b><br />
+                                 Bridging the gap between Technology and Business</h1></div>
+                                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                                  <p><strong>Strategic Execution:</strong> Bridging the business strategy and technology execution gap.</p>
                                  <p><strong>Results-Driven:</strong> Pragmatic, outcome-oriented transformation programs.</p>
                                  <p><strong>Business-First Approach:</strong> Combining deep tech expertise with business-focused consulting.</p>
                                  <p><strong>Proven Methodology:</strong> Our Analyse–Integrate–Transform model ensures alignment and execution.</p>
                                  <p><strong>Sustainable Value:</strong> We deliver measurable, scalable, and lasting impact.</p>
                             <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a>
+                            </div>
                         </div>
                         
                 </div>
 
-                <div class="col-md-6">                    
-                    <img src="../../../Assets/images/digital-solution-services-banner.jpg" class="img-responsive center-block" />
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="1500">                    
+                    <div class="image-animation-div1">
+                        <div class="plus-big"><img src="../../../Assets/images/plus-big.svg" /></div>
+                        <div class="plus-small-1"><img src="../../../Assets/images/plus-small.svg" /></div>
+                        <div class="plus-small-2"><img src="../../../Assets/images/plus-small.svg" /></div>
+                        <div class="banner-icon-1"><img src="../../../Assets/images/digital-solution-services-banner-icon1.svg" /></div>    
+                        <div class="banner-icon-2"><img src="../../../Assets/images/digital-solution-services-banner-icon2.svg" /></div> 
+                        <div class="banner-icon-3"><img src="../../../Assets/images/digital-solution-services-banner-icon3.svg" /></div>                     
+                        <img src="../../../Assets/images/digital-solution-services-banner.jpg" class="img-responsive center-block" />
+                    </div>
                 </div>
 
             </div>
@@ -1607,7 +1905,7 @@ min-height: 200px;
             </div>
             <!--banner-->
 
-            <section class="counter-bg">
+            <section class="counter-bg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 col-md-4">
@@ -1635,12 +1933,22 @@ min-height: 200px;
         <section class="comm-padd pad-bot-0">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <img src="../../../Assets/images/digital-solution-services-image1.jpg" class="img-responsive center-block" />
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-right" data-aos-duration="1500">
+                        <div class="image-animation-div2">
+                            <div class="plus-big"><img src="../../../Assets/images/plus-big.svg" /></div>
+                            <div class="plus-big-1"><img src="../../../Assets/images/plus-big-dark.svg" /></div>
+                            <div class="banner-icon-4"><img src="../../../Assets/images/digital-solution-services-banner-icon4.svg" /></div>    
+                            <div class="banner-icon-5"><img src="../../../Assets/images/digital-solution-services-banner-icon5.svg" /></div> 
+                            <div class="banner-icon-6"><img src="../../../Assets/images/digital-solution-services-banner-icon6.svg" /></div>                     
+                            <img src="../../../Assets/images/digital-solution-services-image1.jpg" class="img-responsive center-block" />
+                        </div>
+                        
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <h2 class="common-topic h1">Why Digital Transformation Matters</h2>
-                        <p class="common-para line-height">Transforming a business is complex, costly, and critical—often triggered by PE investment, restructuring, or market shifts. Success requires expert advice on strategy and architecture, strong program control, flexible resourcing, and effective stakeholder engagement. RheinBrücke’s model delivers predictable, controlled outcomes for your business.</p>
+                         <div class="over-hidd"><h2 class="common-topic h1 anim-text">Why Digital Transformation Matters</h2></div> 
+                         <div data-aos="fade-up" data-aos-duration="1000">
+                            <p class="common-para line-height">Transforming a business is complex, costly, and critical—often triggered by PE investment, restructuring, or market shifts. Success requires expert advice on strategy and architecture, strong program control, flexible resourcing, and effective stakeholder engagement. RheinBrücke’s model delivers predictable, controlled outcomes for your business.</p>
+                         </div>
                     </div>
                 </div>
             </div>
@@ -1650,11 +1958,22 @@ min-height: 200px;
             <div class="container">
                 <div class="row align-items-center mob-col-reverse">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <h2 class="common-topic h1">Transformational Challenges</h2>
+                        <div class="over-hidd"><h2 class="common-topic h1 anim-text">Transformational Challenges</h2></div>
+                        <div data-aos="fade-up" data-aos-duration="1000">
                         <p class="common-para line-height">Enterprise transformation is complex, with operational disruption and shifting priorities. At RheinBrücke, we help organizations launch, manage, or rescue transformation programs with a focus on measurable outcomes. Our hybrid delivery model—blending offshore and local teams—ensures clear communication, fast response, and KPI-driven performance.</p>
+                        </div>
                     </div>                    
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <img src="../../../Assets/images/digital-solution-services-image2.jpg" class="img-responsive center-block" />
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-left" data-aos-duration="1500">
+                        <div class="image-animation-div3 transformation">
+                            <div class="plus-big-1"><img src="../../../Assets/images/plus-big.svg" /></div>
+                            <div class="plus-big-2"><img src="../../../Assets/images/plus-big.svg" /></div>
+                            <div class="plus-big-3"><img src="../../../Assets/images/plus-big-dark.svg" /></div>
+                            <div class="banner-icon-7"><img src="../../../Assets/images/digital-solution-services-banner-icon7.svg" /></div>    
+                            <div class="banner-icon-8"><img src="../../../Assets/images/digital-solution-services-banner-icon8.svg" /></div> 
+                            <div class="banner-icon-9"><img src="../../../Assets/images/digital-solution-services-banner-icon9.svg" /></div>                     
+                            <img src="../../../Assets/images/digital-solution-services-image2.jpg" class="img-responsive center-block" />
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -1665,9 +1984,31 @@ min-height: 200px;
                 <div class="row">
                     <div class="col-lg-1 col-md-12 col-sm-12 col-12"></div>
                     <div class="col-lg-10 col-md-12 col-sm-12 col-12">
-                        <h2 class="common-topic h1 text-center">Our AIT Approach: A Proven Framework for Transformation</h2>
-                        <h3 class="text-center">At RheinBrücke, we drive outcomes with a phased approach that aligns strategy, technology, and operations.</h3>
-                        <a href="../../../Assets/images/digital-solutions-transformation-diagram.jpg" data-fancybox><img src="../../../Assets/images/digital-solutions-transformation-diagram.jpg" class="img-responsive center-block" /></a>
+                        <h2 class="common-topic h1 text-center" data-aos="fade-up" data-aos-duration="1000">Our AIT Approach: A Proven Framework for Transformation</h2>
+                        <h3 class="text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">At RheinBrücke, we drive outcomes with a phased approach that aligns strategy, technology, and operations.</h3>
+                       
+                        <div class="approach_cards">
+                            <div class="_card"  data-aos="fade-right"  data-aos-duration="1000">
+                                <h3>Analyse</h3>
+                                 <a class="desktop_img" href="../../../Assets/images/info-part1.png" data-fancybox ><img src="../../../Assets/images/info-part1.png" class="img-responsive center-block" /></a>
+                                   <a class="mobile_img" href="../../../Assets/images/info-part1-m.png" data-fancybox ><img src="../../../Assets/images/info-part1-m.png" class="img-responsive center-block" /></a>
+                                <p>Assess your current state and define clear objectives.</p>
+                            </div>
+                             <div class="_card"  data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                                <h3>Integrate</h3>
+                                 <a class="desktop_img" href="../../../Assets/images/info-part2.png" data-fancybox ><img src="../../../Assets/images/info-part2.png" class="img-responsive center-block" /></a>
+                                   <a class="mobile_img" href="../../../Assets/images/info-part2-m.png" data-fancybox ><img src="../../../Assets/images/info-part2-m.png" class="img-responsive center-block" /></a>
+                            
+                                 <p>Implement the right technology and processes.</p>
+                            </div>
+                             <div class="_card" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000">
+                                <h3>Transform</h3>
+                                 <a  class="desktop_img"href="../../../Assets/images/info-part3.png"  data-fancybox ><img src="../../../Assets/images/info-part3.png" class="img-responsive center-block" /></a>
+                                   <a class="mobile_img" href="../../../Assets/images/info-part3-m.png" data-fancybox ><img src="../../../Assets/images/info-part3-m.png" class="img-responsive center-block" /></a>
+                               
+                                 <p>Operationalise, monitor, and optimise for lasting impact.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1677,15 +2018,24 @@ min-height: 200px;
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 col-md-12 col-sm-12 col-12"></div>
-                    <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="1000">
                         <h2 class="common-topic h1 text-center">Unlocking Business Potential with Our Advanced Solutions</h2>
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <img src="../../../Assets/images/digital-solution-services-image3.jpg" class="img-responsive center-block" />
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-right" data-aos-duration="1500">
+                       
+                          <div class="image-animation-div3 unlock">
+                            <div class="plus-big-1"><img src="../../../Assets/images/plus-big.svg" /></div>
+                          
+                            <div class="plus-big-3"><img src="../../../Assets/images/plus-big-dark.svg" /></div>
+                            <div class="banner-icon-7"><img src="../../../Assets/images/uc1.png" /></div>    
+                            <div class="banner-icon-8"><img src="../../../Assets/images/uc3.png" /></div> 
+                            <div class="banner-icon-9"><img src="../../../Assets/images/uc2.png" /></div>                     
+                         <img src="../../../Assets/images/digital-solution-services-image3.jpg" class="img-responsive center-block" />
+                        </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="1000">
                         <ul class="list-style1">
                             <li><strong>Business Intelligence (BI):</strong> Empower data-driven decisions with actionable insights.</li>
                             <li><strong>AI/ML & Data Analytics:</strong> Harness advanced technologies to optimize operations and predict trends.</li>
@@ -1694,14 +2044,14 @@ min-height: 200px;
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines" data-aos="fade-up" data-aos-duration="1000">
                         <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Explore Our Solutions</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="digital-services-bg">
+        <section class="digital-services-bg" data-aos="fade-up" data-aos-duration="1000">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 col-md-12 col-sm-12 col-12"></div>
@@ -1711,25 +2061,25 @@ min-height: 200px;
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000">
                         <div class="digital-solution-box">
                             <img src="../../../Assets/images/digital-services-image1.jpg" class="img-responsive center-block" />
                             <p><strong>Architecture & Modernisation:</strong> Redesign legacy systems to align with modern business needs and technology standards.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                         <div class="digital-solution-box">
                             <img src="../../../Assets/images/digital-services-image2.jpg" class="img-responsive center-block" />
                             <p><strong>Enterprise Software Solutions:</strong> Implement scalable software solutions tailored to your enterprise goals.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
                         <div class="digital-solution-box">
                             <img src="../../../Assets/images/digital-services-image3.jpg" class="img-responsive center-block" />
                             <p><strong>Data Engineering & Warehousing:</strong> Build robust data foundations for reliable insights and performance at scale.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
                         <div class="digital-solution-box">
                             <img src="../../../Assets/images/digital-services-image4.jpg" class="img-responsive center-block" />
                             <p><strong>User Experience:</strong> Ensure end users and customers get a seamless and intuitive experience across platforms</p>
@@ -1737,7 +2087,7 @@ min-height: 200px;
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines" data-aos="fade-up" data-aos-duration="1000">
                         <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Explore Our Services</a>
                     </div>
                 </div>
@@ -1748,37 +2098,37 @@ min-height: 200px;
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                        <h2 class="common-topic h1 text-center">Accreditations and Partnership</h2>
+                        <h2 class="common-topic h1 text-center" data-aos="fade-up" data-aos-duration="1000">Accreditations and Partnership</h2>
                         <ul class="partners-logos">
-                            <li class="border-right border-bottom">
+                            <li class="border-right border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                                 <img src="../../../Assets/images/partner-microsoft-logo.jpg" class="img-responsive center-block" />
                                 Microsoft Gold Development Partner
                             </li>
-                            <li class="border-right border-bottom">
+                            <li class="border-right border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                                 <img src="../../../Assets/images/partner-sap-logo.jpg" class="img-responsive center-block" />
                                 Full Services SAP BYD Consultancy
                             </li>
-                            <li class="border-right border-bottom">
+                            <li class="border-right border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
                                 <img src="../../../Assets/images/partner-epicor-logo.jpg" class="img-responsive center-block" />
                                 Epicor Sales & Implementation Partner
                             </li>
-                            <li class="border-bottom">
+                            <li class="border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                                 <img src="../../../Assets/images/partner-ms-dynamics-logo.jpg" class="img-responsive center-block" />
                                 Microsoft Dynamics Solutions Specialist
                             </li>
-                            <li class="border-right">
+                            <li class="border-right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                                 <img src="../../../Assets/images/partner-sugarcrm-logo.jpg" class="img-responsive center-block" />
                                 Sales &amp; Implementation Partner
                             </li>
-                            <li class="border-right">
+                            <li class="border-right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
                                 <img src="../../../Assets/images/partner-commercetools-logo.jpg" class="img-responsive center-block" />
                                 Referal &amp; Implementation Partner
                             </li>
-                            <li class="border-right">
+                            <li class="border-right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800">
                                 <img src="../../../Assets/images/partner-fluentcommerce-logo.jpg" class="img-responsive center-block" />
                                 Referal &amp; Implementation Partner
                             </li>
-                            <li>
+                            <li data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1600">
                                 <img src="../../../Assets/images/partner-tableau-logo.jpg" class="img-responsive center-block" />
                                 Tableau Data Visualisation Agency
                             </li>
@@ -1786,7 +2136,7 @@ min-height: 200px;
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1800">
                         <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">See More</a>
                     </div>
                 </div>
@@ -1798,42 +2148,42 @@ min-height: 200px;
          <div class="col-md-12 nopadding industries">
 
             <!--Breadcrumb row-->
-            <div class="section-layer">
+            <div class="section-layer" data-aos="fade-up" data-aos-duration="1000">
                 <div class="">
                     <div class="col-lg-12 nopadding">
                         <h2 class="common-topic text-center h1 text-white">Industries We Serve</h2>
 					</div>
 
                     <div class="industries_cards">
-                        <a class="_card">
+                        <a class="_card" data-aos="fade-up" data-aos-duration="1000">
                              <img src="../../../Assets/images/i1.png">
                         <p>​Brand Owners & Vertical Retailers <img src="../../../Assets/images/arrow-right.png"></p>
                         </a>
-                         <a class="_card">
+                         <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                              <img src="../../../Assets/images/i2.png">
                         <p>Retail Industry <img src="../../../Assets/images/arrow-right.png"></p>
                         </a>
-                         <a class="_card">
+                         <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                              <img src="../../../Assets/images/i3.png">
                         <p>Distribution & Supply Chain <img src="../../../Assets/images/arrow-right.png"></p>
                         </a>
-                         <a class="_card">
+                         <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                              <img src="../../../Assets/images/i4.png">
                         <p>​Manufacturing (MTO, MTS, Process) <img src="../../../Assets/images/arrow-right.png"></p>
                         </a>
-                         <a class="_card">
+                         <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                              <img src="../../../Assets/images/i5.png">
                         <p>Automotive Industry <img src="../../../Assets/images/arrow-right.png"></p>
                         </a>
-                         <a class="_card">
+                         <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                              <img src="../../../Assets/images/i6.png">
                         <p>Engineering, Procurement & Construction <img src="../../../Assets/images/arrow-right.png"> </p>
                         </a>
-                         <a class="_card">
+                         <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                              <img src="../../../Assets/images/i7.png">
                         <p>​Interior Design <img src="../../../Assets/images/arrow-right.png"></p>               
                     </a>
-                      <a class="_card">
+                      <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                              <img src="../../../Assets/images/i8.png">
                         <p>Private Equity & Funding-backed Ventures <img src="../../../Assets/images/arrow-right.png"></p>               
                     </a>
@@ -1848,25 +2198,25 @@ min-height: 200px;
   <!-- industries we serve end-->
 
   <!-- customer success stories start -->
-         <div class="col-md-12 nopadding success">
+         <div class="col-md-12 nopadding success" data-aos="fade-up" data-aos-duration="1000">
 
             <!--Breadcrumb row-->
             <div class="section-layer">
                 <div class="">
-                    <div class="col-lg-12 nopadding">
+                    <div class="col-lg-12 nopadding" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                         <h2 class="common-topic h1 text-center">Customer Success Stories</h2>
 					</div>
 
                     <div class="success_cards">
-                        <a class="_card">
+                        <a class="_card" data-aos="fade-left" data-aos-duration="1000">
                              <img src="../../../Assets/images/cs1.png">
                         <p>Implementation of Epicor 10 ERP at Bond Interiors, a multinational company based out of Dubai <img src="../../../Assets/images/arrow-right.png"></p>
                         </a>
-                         <a class="_card">
+                         <a class="_card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                              <img src="../../../Assets/images/cs2.png">
                         <p>Welding Equipment Manufacturer Implements Epicor Country Specific Functionality <img src="../../../Assets/images/arrow-right.png"></p>
                         </a>
-                         <a class="_card">
+                         <a class="_card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
                              <img src="../../../Assets/images/cs3.png">
                         <p>How an Engineering Procurement Construction Company overcame their challenge by implementing Epicor ERP <img src="../../../Assets/images/arrow-right.png"></p>
                         </a>
@@ -1884,7 +2234,7 @@ min-height: 200px;
 
     
 
-        <div class="col-md-12 nopadding set-7 download_section">
+        <div class="col-md-12 nopadding set-7 download_section" data-aos="fade-up" data-aos-duration="1000">
 
             <!--Breadcrumb row-->
             <div class="section-layer">
@@ -1899,7 +2249,7 @@ min-height: 200px;
                             <img src="../../../Assets/images/Corus-HR-Brochure-Thumbnail.png" width="379px" height="542px" alt="" class="img-responsive center-block" />
                         </div> -->
                     </div>
-                    <div class="col-lg-6 nopadding mt-sm-5 form"> 
+                    <div class="col-lg-6 nopadding mt-sm-5 form" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300"> 
                         <form name="form" method="post" action="#" id="form3">
 
                             <div class="frm-fields clearfix">
@@ -1990,6 +2340,43 @@ min-height: 200px;
 </asp:Content>
 
 <asp:Content ID="Content4" ContentPlaceHolderID="FooterScript" runat="server">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script>
+const tl = gsap.timeline();
+
+tl.from("h1", 1.8, {
+  y: 100,
+  ease: "power4.out",
+  delay: 1,
+  skewY: 7,
+  stagger: {
+    amount: 0.3
+  }
+});
+
+
+</script>
+
+<script>
+
+gsap.registerPlugin(ScrollTrigger);
+
+if (window.innerWidth > 992) {
+    gsap.utils.toArray('.anim-text').forEach(function (img) { gsap.from(img, { scrollTrigger: { trigger: img, scrub: 1, }, 
+    y: 100,
+  ease: "power4.out",
+  delay: 1,
+  skewY: 7,
+  stagger: {
+    amount: 0.3
+  }
+    , }); });
+}
+
+
+</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 	<script src="/Assets/js/jquery.countup.js"></script>
@@ -2104,5 +2491,7 @@ min-height: 200px;
             });
         });
     </script>
+
+    
 
 </asp:Content>

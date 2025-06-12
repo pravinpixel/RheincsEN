@@ -10504,13 +10504,13 @@ ul.social li a:after {
   border: 2px solid #1f1f1f;
 }
 .bottomFooter {
-  background: #1f1f1f !important;
+  background: #1F1F1F !important;
   margin: 0 !important;
   border: none !important;
   float:left;width:100%;
 }
 
-.row.footer-section{background-color:#2c2c2c;float:left;width:100%;display:block;}
+.row.footer-section{background-color:#222323;float:left;width:100%;display:block;}
 
 .copy {
   padding: 0.5em 0;
@@ -11205,7 +11205,8 @@ bgpic {
   height: 100px;
   width: 1170px;
   background: #082326;
-  top: 63px;
+  top: 62px;
+  border-top: 1px solid #185B63;
 }
 .bg-img-epicor-for-automotive,
 .bg-img-epicor-for-medical-devices,
