@@ -1813,23 +1813,23 @@
 <asp:Content ID="Content4" ContentPlaceHolderID="FooterScript" runat="server">
     <script src="/Assets/js/easy-responsive-tabs.js"></script>
 
-    <script type="text/javascript">
+        <script type="text/javascript">
 
-        $(function () {
-            $('#btnpdf').show();
-            $('#btndownload').hide();
-        });
-		
-		
-        var onloadCallback = function () {
-            grecaptcha.render('g_captcha', {
-                'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
+            $(function () {
+                $('#btnpdf').show();
+                $('#btndownload').hide();
             });
-        };
-    </script>
+		
+		
+            var onloadCallback = function () {
+                grecaptcha.render('g_captcha', {
+                    'sitekey': '6LchLhApAAAAAKh9skbfRiq9ZLwCfCrLZrfcvyCn'
+                });
+            };
+        </script>
 
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
-    </script>
+        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit">
+        </script>
 
     <script type="text/javascript">
         function IsEmailValid(a) {

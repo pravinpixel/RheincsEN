@@ -269,3 +269,4 @@ RheinBrucke.csproj
 *.config
 *.csproj
 *.dll
+/obj
