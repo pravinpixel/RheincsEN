@@ -1,40 +1,42 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MeRLIN-new.master.cs" Inherits="RheinBrucke.MeRLINWebsite.MeRLIN_new" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head ID="head" runat="server">
+<head id="head" runat="server">
     <title>MeRLIN - Strategic Global Sourcing Simplified | Strategic Direct Sourcing Solution | Sourcing Process Automation | Supplier Relationship Management | Procurement and Supply Chain Solution for Spend Management | Better alternative to SAP Ariba | eProcurement System | Global Sourcing and RFQ Management | Perform Purchase Price Variance (PPV) analytics and Program life cycle performance analytics | Budget Planning with compliance and auditing | Data Driven Sourcing | Real time risk mitigation of suppliers | Improve Cost Savings and Enhanced ROI | Best Sourcing Solution for Large Enterprises | Top Procurement Software for OEM's | Best Supply Chain System for Manufacturing Companies</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="keywords" content="procurement, procurement solutions, procurement software, Strategic sourcing solution, Supplier Management Software, Procurement Software suite, Sourcing Process Automation, Supplier Relationship Management, Procurement and Supply Chain Solution for Spend Management, Better alternative to SAP Ariba, eProcurement System, Global Sourcing and RFQ Management, Perform Purchase Price Variance (PPV) analytics and Program life cycle performance analytics, Budget Planning with compliance and auditing, Data Driven Sourcing, Real time risk mitigation of suppliers, Improve Cost Savings and Enhanced ROI, Best Sourcing Solution for Large Enterprises, Top Procurement Software for OEM's, Best Supply Chain System for Manufacturing Companies, MeRLIN - Strategic Global Sourcing Simplified, Strategic Direct Sourcing Solution" />
-    <meta name="description" content="A Strategic Sourcing solution from RheinBrücke- We want to enable businesses with value optimization across the entire procurement functions" />    <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
+    <meta name="keywords" content="procurement, procurement solutions, procurement software, Strategic sourcing solution, Supplier Management Software, Procurement Software suite, Sourcing Process Automation, Supplier Relationship Management, Procurement and Supply Chain Solution for Spend Management, Better alternative to SAP Ariba, eProcurement System, Global Sourcing and RFQ Management, Perform Purchase Price Variance (PPV) analytics and Program life cycle performance analytics, Budget Planning with compliance and auditing, Data Driven Sourcing, Real time risk mitigation of suppliers, Improve Cost Savings and Enhanced ROI, Best Sourcing Solution for Large Enterprises, Top Procurement Software for OEM's, Best Supply Chain System for Manufacturing Companies, MeRLIN - Strategic Global Sourcing Simplified, Strategic Direct Sourcing Solution" />
+    <meta name="description" content="A Strategic Sourcing solution from RheinBrücke- We want to enable businesses with value optimization across the entire procurement functions" />
+    <asp:ContentPlaceHolder runat="server" ID="headerPlaceHolder" />
     <link href="../Assets/EPC/css/Custom.css" rel="stylesheet" />
     <link href="../Assets2/hcm-assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../Assets/EPC/css/main.css" rel="stylesheet" />
-     <link href="css/layout.min.css" rel="stylesheet" />
-     <link href="css/animation-css.css" rel="stylesheet" />
-   <link href="css/aos.css" rel="stylesheet" />
+    <link href="css/layout.min.css" rel="stylesheet" />
+    <link href="css/animation-css.css" rel="stylesheet" />
+    <link href="css/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="https://rheincs.com/favicon.png" />
-       <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" />
     <link href="css/util.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-   <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body id="home" class="homepage">
 
 
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
-<!--LeadSquared Tracking Code End-->
+    <!--LeadSquared Tracking Code End-->
 
     <!-- Google Code for Remarketing Tag -->
-     <asp:contentplaceholder runat="server" id="FooterScript" />
+    <asp:ContentPlaceHolder runat="server" ID="FooterScript" />
 
-   
 
-    <script src="MeRLINWebsite/Js/jquery.min.js"></script>        
+
+    <script src="MeRLINWebsite/Js/jquery.min.js"></script>
     <script src="MeRLINWebsite/Js/bootstrap.min.js"></script>
     <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 
@@ -43,216 +45,225 @@
     <script src="MeRLINWebsite/Js/jquery.magnific-popup.min.js"></script>
     <script src="MeRLINWebsite/Js/aos.js"></script>
     <script src="MeRLINWebsite/Js/main.js"></script>
-   <script type="text/javascript">
-  AOS.init();
-      </script>
+    <script type="text/javascript">
+        AOS.init();
+    </script>
 
-        <script type="text/javascript">
-            (function($) {
-  $.fn.visible = function(partial) {
+    <script type="text/javascript">
+        (function ($) {
+            $.fn.visible = function (partial) {
 
-    var $t = $(this),
-      $w = $(window),
-      viewTop = $w.scrollTop(),
-      viewBottom = viewTop + $w.height(),
-      _top = $t.offset().top,
-      _bottom = _top + $t.height(),
-      compareTop = partial === true ? _bottom : _top,
-      compareBottom = partial === true ? _top : _bottom;
+                var $t = $(this),
+                  $w = $(window),
+                  viewTop = $w.scrollTop(),
+                  viewBottom = viewTop + $w.height(),
+                  _top = $t.offset().top,
+                  _bottom = _top + $t.height(),
+                  compareTop = partial === true ? _bottom : _top,
+                  compareBottom = partial === true ? _top : _bottom;
 
-    return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+                return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
 
-  };
-  function IsEmailValid(a) {
-      if ("" == a) return !0; var e = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-      return e.test(a)
-  }
-  var name = $('.validate-input input[name="name"]');
-  var email = $('.validate-input input[name="email"]');
-  var number = $('.validate-input input[name="number"]');
-  $('.validate-form .input2').each(function () {
-      $(this).focus(function () {
-          hideValidate(this);
-      });
-  });
-
-  function showValidate(input) {
-      var thisAlert = $(input).parent();
-
-      $(thisAlert).addClass('alert-validate');
-  }
-
-  function hideValidate(input) {
-      var thisAlert = $(input).parent();
-
-      $(thisAlert).removeClass('alert-validate');
-  }
-  $(document).ready(function () {
-  var URI = window.location.pathname;
-      var url1 = window.location.href;
-      var url12 = url1.split('/');
-      var urlname = url12[1];
-            var lurl = URI.toLowerCase();
-            if (lurl == "/merlin") {
-                location.replace(urlname+"/MeRLIN-strategic-sourcing-software")
-                //window.location.href = "MeRLIN-strategic-sourcing-software";
+            };
+            function IsEmailValid(a) {
+                if ("" == a) return !0; var e = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                return e.test(a)
             }
-      var _rootUrl = $("#hdfRootUrl").val();
-      $('#Submit').click(function () {
-          if ($(name).val().trim() == '') {
-              showValidate(name); return false;
-           
-          }
-          if ($(email).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
-              showValidate(email);
-              return false;
-           
-          }
-          if ($(number).val().trim() == '') {
-              showValidate(number);
-              return false;
-            
-          }
-         
+            var name = $('.validate-input input[name="name"]');
+            var email = $('.validate-input input[name="email"]');
+            var number = $('.validate-input input[name="number"]');
+            $('.validate-form .input2').each(function () {
+                $(this).focus(function () {
+                    hideValidate(this);
+                });
+            });
 
-          var Data = {
-              firstname: $('.validate-input input[name="name"]').val(),
-              email: $('.validate-input input[name="email"]').val(),
-              phone: $('.validate-input input[name="number"]').val(),
-              companyname: $('.validate-input input[name="industry"]').val(),
-              ServiceType: "MeRLINLanding"
-          };
-          //debugger;
-          $.ajax({
-              type: 'POST',
-              url: "/" + "api/Landing/MeRLIN_Landing",
-              data: JSON.stringify(Data),
-              contentType: "application/json; charset=utf-8",
-              dataType: "json",
-              success: function (response) {
-                  //debugger
-                  //console.log("Hi How are you");
-                  if (response == "success") {
-                      $('.validate-form').trigger("reset");
-                      $('.success-msg').show();
-					  $('.has-val.input2 + .focus-input2::after').css("top","17px");
-                      //window.location = "../rheinbrucke-solutions/thankyou";
-                      // alert('yes');
-                  }
+            function showValidate(input) {
+                var thisAlert = $(input).parent();
 
-              }
-          });
-      });
+                $(thisAlert).addClass('alert-validate');
+            }
 
-  });
+            function hideValidate(input) {
+                var thisAlert = $(input).parent();
 
-})(jQuery);
+                $(thisAlert).removeClass('alert-validate');
+            }
+            $(document).ready(function () {
+                var URI = window.location.pathname;
+                var url1 = window.location.href;
+                var url12 = url1.split('/');
+                var urlname = url12[1];
+                var lurl = URI.toLowerCase();
+                console.log(grecaptcha);
+                if (lurl == "/merlin") {
+                    location.replace(urlname + "/MeRLIN-strategic-sourcing-software")
+                    //window.location.href = "MeRLIN-strategic-sourcing-software";
+                }
+                var _rootUrl = $("#hdfRootUrl").val();
+                $('#Submit').click(function () {
+                    if ($(name).val().trim() == '') {
+                        showValidate(name); return false;
 
-var win = $(window);
-var allMods = $(".module");
+                    }
+                   else if ($(email).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
+                        showValidate(email);
+                        return false;
 
-allMods.each(function(i, el) {
-  var el = $(el);
-  if (el.visible(true)) {
-    el.addClass("already-visible");
-  }
-});
+                    }
+                  else  if ($(number).val().trim() == '') {
+                        showValidate(number);
+                        return false;
 
-win.scroll(function(event) {
-  allMods.each(function(i, el) {
-    var el = $(el);
-    if (el.visible(true)) {
-      el.addClass("come-in");
-    }
-  });
-});
+                    }
+                    
+                   else if (!(grecaptcha && grecaptcha.getResponse().length > 0)) {
+                        $('.showErrorMsg').text("");
+                        return false;
+                    }
+                    else {
+                        $('.showErrorMsg').text("Enter Captcha");
+                        return false;
+                    }
 
-        </script>
-		<!-- GOOGLE ANALYTICS CODE-->
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142458994-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-142458994-1');
-</script>
-
-
-<!--END OF GOOGLE ANALYTICS CODE-->
-  <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
-     <script type="text/javascript">
-      pidTracker('17537');
-</script>
-    <script type="text/javascript">                          		
-                        function saveleadmanufacturing() {
-                            var fieldMapping = {
-                                MXHOrgCode: "17537",
-                                MXHLandingPageId: "3b4aabcd-2842-11e9-b5cc-065cc7e2d7e2",
-                                MXHAsc: "",                           
-                                FirstName: "name",
-                                EmailAddress: "email",
-                                Mobile: "number"
-
-                            };
-                            var onSuccess = function (data) {                   
-                             data = $.parseJSON(data)
-                                var logData = {
-                                    Name: name,
-                                    FormPID: data.PId,
-                                    Email: email1,
-                                    Mobile: mobile,
-                                    FormStatus: data.Status,
-									 FormMsg: data.Message,
-                                    FormAction: data.FormAction,
-                                    ServiceType: "MeRLINLanding"
-                                }
-                                $.ajax({
-                                    type: "POST",
-                                    url: "/" + "api/Admin/LeadSquaredLog",
-                                    data: JSON.stringify(logData),
-                                    contentType: "application/json; charset=utf-8",
-                                    dataType: "json",
-                                    failure: function (response) {
-                                        alert(response.d);
-                                    }
-
-                                });
-                                console.log(data);                       
+                    var Data = {
+                        firstname: $('.validate-input input[name="name"]').val(),
+                        email: $('.validate-input input[name="email"]').val(),
+                        phone: $('.validate-input input[name="number"]').val(),
+                        companyname: $('.validate-input input[name="industry"]').val(),
+                        ServiceType: "MeRLINLanding"
+                    };
+                    //debugger;
+                    $.ajax({
+                        type: 'POST',
+                        url: "/" + "api/Landing/MeRLIN_Landing",
+                        data: JSON.stringify(Data),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (response) {
+                            //debugger
+                            //console.log("Hi How are you");
+                            if (response == "success") {
+                                $('.validate-form').trigger("reset");
+                                $('.success-msg').show();
+                                $('.has-val.input2 + .focus-input2::after').css("top", "17px");
+                                //window.location = "../rheinbrucke-solutions/thankyou";
+                                // alert('yes');
                             }
-                            var onError = function (data) {                 
-                            data = $.parseJSON(data)
-                                var logData = {
-                                    Name: name,
-                                    FormPID: data.PId,
-                                    Email: email,
-                                    Mobile: mobile,
-                                    FormStatus: data.Status,
-									 FormMsg: data.Message,
-                                    FormAction: data.FormAction,
-                                    ServiceType: "MeRLINLanding"
-                                }
-                                $.ajax({
-                                    type: "POST",
-                                    url: "/" + "api/Admin/LeadSquaredLog",
-                                    data: JSON.stringify(logData),
-                                    contentType: "application/json; charset=utf-8",
-                                    dataType: "json",
-                                    failure: function (response) {
-                                        alert(response.d);
-                                    }
 
-                                });
-                                console.log(data);
-                            }
-                            new LSQForm().captureLead(fieldMapping, "form1",
-                            {
-                            onSuccess: onSuccess,   //optional
-                            onError: onError,       //optional
-                            });							
-};                      
-                    </script>
-    </body>
+                        }
+                    });
+                });
+
+            });
+
+        })(jQuery);
+
+        var win = $(window);
+        var allMods = $(".module");
+
+        allMods.each(function (i, el) {
+            var el = $(el);
+            if (el.visible(true)) {
+                el.addClass("already-visible");
+            }
+        });
+
+        win.scroll(function (event) {
+            allMods.each(function (i, el) {
+                var el = $(el);
+                if (el.visible(true)) {
+                    el.addClass("come-in");
+                }
+            });
+        });
+
+    </script>
+    <!-- GOOGLE ANALYTICS CODE-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142458994-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-142458994-1');
+    </script>
+
+
+    <!--END OF GOOGLE ANALYTICS CODE-->
+    <script type="text/javascript" src="https://web.mxradon.com/t/FormTracker.js"></script>
+    <script type="text/javascript">
+        pidTracker('17537');
+    </script>
+    <script type="text/javascript">
+        function saveleadmanufacturing() {
+            var fieldMapping = {
+                MXHOrgCode: "17537",
+                MXHLandingPageId: "3b4aabcd-2842-11e9-b5cc-065cc7e2d7e2",
+                MXHAsc: "",
+                FirstName: "name",
+                EmailAddress: "email",
+                Mobile: "number"
+
+            };
+            var onSuccess = function (data) {
+                data = $.parseJSON(data)
+                var logData = {
+                    Name: name,
+                    FormPID: data.PId,
+                    Email: data.email,
+                    Mobile: data.mobile,
+                    FormStatus: data.Status,
+                    FormMsg: data.Message,
+                    FormAction: data.FormAction,
+                    ServiceType: "MeRLINLanding"
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "/" + "api/Admin/LeadSquaredLog",
+                    data: JSON.stringify(logData),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    failure: function (response) {
+                        alert(response.d);
+                    }
+
+                });
+                console.log(data);
+            }
+            var onError = function (data) {
+                data = $.parseJSON(data)
+                var logData = {
+                    Name: name,
+                    FormPID: data.PId,
+                    Email: email,
+                    Mobile: mobile,
+                    FormStatus: data.Status,
+                    FormMsg: data.Message,
+                    FormAction: data.FormAction,
+                    ServiceType: "MeRLINLanding"
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "/" + "api/Admin/LeadSquaredLog",
+                    data: JSON.stringify(logData),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    failure: function (response) {
+                        alert(response.d);
+                    }
+
+                });
+                console.log(data);
+            }
+            new LSQForm().captureLead(fieldMapping, "form1",
+            {
+                onSuccess: onSuccess,   //optional
+                onError: onError,       //optional
+            });
+        };
+    </script>
+</body>
 
 </html>
