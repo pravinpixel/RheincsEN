@@ -508,7 +508,7 @@
       }
       .modal-content {
       position: relative;
-      border: 5px solid #632424;
+      border: 5px solid #082326;
       background-color: #fff;
       -webkit-background-clip: padding-box;
       background-clip: padding-box;
@@ -524,7 +524,7 @@
       padding: 10px 12px;
       border: 0;
       border-radius: 2px;
-      background: #7b1315;
+      background: #082326;
       color: #fff;
       text-transform: Capitalize;
       margin: 0;
@@ -1083,7 +1083,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      animation: leftAnim1 5s linear infinite;
+      animation: leftAnim3 3s linear infinite;
       }
       @-webkit-keyframes rotateLeft {
       from{
@@ -1096,7 +1096,7 @@
       .image-animation-div3 .plus-big-1{
       left: 5%;
       top: 10%;
-      animation: leftAnim4 10s linear infinite;
+      animation: leftAnim3 2s linear infinite;
       }
       .image-animation-div3 .plus-big-2{
       right: 12%;
@@ -1151,7 +1151,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      animation: leftAnim4 7s linear infinite;
+      animation: leftAnim3 2s linear infinite;
       }
       @-webkit-keyframes rotateRight {
       from{
