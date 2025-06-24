@@ -1881,7 +1881,7 @@
                   </a>
                   <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                      <img src="../../Assets/images/i4.png">
-                     <p>​Manufacturing (MTO, MTS, Process) <img src="../../Assets/images/arrow-right.png"></p>
+                     <p>​Discrete Manufacturing <img src="../../Assets/images/arrow-right.png"></p>
                   </a>
                   <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                      <img src="../../Assets/images/i5.png">
@@ -1893,7 +1893,7 @@
                   </a>
                   <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                      <img src="../../Assets/images/i7.png">
-                     <p>​Interior Design <img src="../../Assets/images/arrow-right.png"></p>
+                     <p>​Process Manufacturing<img src="../../Assets/images/arrow-right.png"></p>
                   </a>
                   <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                      <img src="../../Assets/images/i8.png">
