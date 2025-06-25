@@ -1596,7 +1596,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <a href="http://view.rheincs.com/Webinar-Future-Of-ERP-Series?utm_source=Website&utm_medium=PopUp">
                 <img src="https://www.rheincs.com/Assets/images/website-popup.png" class="img-responsive gitex-img gitex-banner-img-shadow center-block" width="510" />
             </a>
-            <div class="close-button-position" style="background-color: #7b1314;" onclick="closegitex();"><span class="close-icon-white">X</span></div>
+            <div class="close-button-position" style="background-color: #082326;" onclick="closegitex();"><span class="close-icon-white">X</span></div>
         </div>
 
     </div>--%>

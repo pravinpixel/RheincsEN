@@ -121,7 +121,7 @@
 
         .epicpay-btn {
             display: block;
-            background: #7b1314 !important;
+            background: #082326 !important;
             width: 100px !important;
             padding: 10px 16px !important;
             color: #fff !important;

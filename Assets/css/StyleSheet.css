@@ -563,7 +563,7 @@ h4 {
 /*button contact us*/
 .contactUs {
     display: block;
-    background: #7B1314;
+    background: #082326;
     height: 20px;
     width: 80px;
     padding: 10px 16px;
@@ -2305,7 +2305,7 @@ a .mailid {
 
     #Contactfeedback a {
         display: block;
-        background: #7B1314;
+        background: #082326;
         height: 42px;
         width: 110px;
         padding: 10px 16px;
@@ -3070,7 +3070,7 @@ paddingltrt {
 }
 
 .apply-button {
-    background: #7b1314 !important;
+    background: #082326 !important;
     width: 120px;
     text-align: center;
     padding: 5px 0px 7px;

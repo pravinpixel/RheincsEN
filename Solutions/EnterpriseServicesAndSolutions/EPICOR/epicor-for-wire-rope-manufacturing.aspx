@@ -11,7 +11,7 @@
     <style>
 	.baner-btns{
 	display: inline-block;
-    background: #7b1314;
+    background: #082326;
     height: 42px; 
     padding: 10px 16px;
     color: #fff;
@@ -31,7 +31,7 @@
         }
 
         .btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
-            color: #7b1314 !important;
+            color: #082326 !important;
             background-color: #fff !important;
             border-color: #DDDDDD !important;
         }

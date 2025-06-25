@@ -86,7 +86,7 @@
        }
        .icons-heading-tabs
        {
-           color:#7b1314;
+           color:#082326;
            font-size:25px;
        }
        .padd-top-10
@@ -107,7 +107,7 @@
             position: relative;
             top: -1px;
             left: 0;
-            color:#7b1314;
+            color:#082326;
             }
        .bulletContent-bi
        {

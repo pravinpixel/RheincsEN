@@ -10,7 +10,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style>
         .btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
-            color: #7b1314 !important;
+            color: #082326 !important;
             background-color: #fff !important;
             border-color: #DDDDDD !important;
         }

@@ -60,7 +60,7 @@
         float: left;
         margin-left: 20px;
         margin-top: 6px;
-        background: #7b1314;
+        background: #082326;
         padding: 2px 2%;
         border-radius: 4px;
         color: #aaa;
@@ -70,7 +70,7 @@
             float: left;
             margin-left: 20px;
             margin-top: 6px;
-            background: #7b1314;
+            background: #082326;
             padding: 2px 2%;
             border-radius: 4px;
             color: #fff;
@@ -87,7 +87,7 @@
     }
 
     .btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
-        color: #7b1314 !important;
+        color: #082326 !important;
         background-color: #fff !important;
         border-color: #DDDDDD !important;
     }
@@ -129,7 +129,7 @@
     }
 
     .colors {
-        color: #7b1314 !important;
+        color: #082326 !important;
     }
 
     .benefit-title {

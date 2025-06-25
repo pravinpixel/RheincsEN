@@ -15,7 +15,7 @@
             color: #fff;
             cursor: pointer;
             z-index: 999;
-            background: #7b1314;
+            background: #082326;
             padding: 15px;
             box-shadow: rgb(0, 0, 0) 0px 0px 3px;
             display: block;
@@ -29,7 +29,7 @@
             color: #fff;
             cursor: pointer;
             z-index: 999;
-            background: #7b1314;
+            background: #082326;
             padding: 16px 26px 10px;
             left: 47px;
             top: 68%;
@@ -94,7 +94,7 @@
             font-size: 14px;
             font-weight: 500;
             letter-spacing: 1px;
-            color: #7b1314;
+            color: #082326;
             border-radius: 0;
             box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             position: relative;
@@ -111,7 +111,7 @@
                 height: 100%;
                 text-align: center;
                 line-height: 50px;
-                border-left: 2px solid #7b1314;
+                border-left: 2px solid #082326;
                 position: absolute;
                 top: 0;
                 right: 0;
@@ -125,9 +125,9 @@
                 display: inline-block;
                 width: 55px;
                 height: 100%;
-                border-right: 2px solid #7b1314;
+                border-right: 2px solid #082326;
                 font-size: 20px;
-                color: #7b1314;
+                color: #082326;
                 line-height: 50px;
                 text-align: center;
                 position: absolute;
@@ -138,7 +138,7 @@
         #accordion4 .panel-body, #accordion41 .panel-body {
             padding: 10px 15px;
             margin: 0 0 20px;
-            border-bottom: 3px solid #7b1314;
+            border-bottom: 3px solid #082326;
             border-top: none;
             background: #fff;
             font-size: 15px;
@@ -199,7 +199,7 @@
         }
 
         .btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
-            color: #7b1314 !important;
+            color: #082326 !important;
             background-color: #fff !important;
             border-color: #DDDDDD !important;
         }
@@ -320,7 +320,7 @@
     color: #fff;
     cursor: pointer;
     z-index: 999;
-    background: #7b1314;
+    background: #082326;
     padding: 2px 12px 3px;
     left: 16px;
     top: 68%;
@@ -368,7 +368,7 @@
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: #7b1314;
+    background-color: #082326;
     color: white;
     font-size:14px;
 }
@@ -648,7 +648,7 @@
                         <ul>
                             <li>
                                 <div class="redBullets"></div>
-                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor">Discrete Manufacturing - <span style="text-decoration: underline; color: #7b1314">Know More</span></a></p>
+                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor">Discrete Manufacturing - <span style="text-decoration: underline; color: #082326">Know More</span></a></p>
                             </li>
                         </ul>
                     </div>
@@ -656,7 +656,7 @@
                         <ul>
                             <li>
                                 <div class="redBullets"></div>
-                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC">EPC and Construction - <span style="text-decoration: underline; color: #7b1314">Know More</span> </a></p>
+                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-construction-and-EPC">EPC and Construction - <span style="text-decoration: underline; color: #082326">Know More</span> </a></p>
                             </li>
                         </ul>
                     </div>
@@ -664,7 +664,7 @@
                         <ul>
                             <li>
                                 <div class="redBullets"></div>
-                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software">Distribution, FMCG, Automotive, Other - <span style="text-decoration: underline; color: #7b1314">Know More</span></a></p>
+                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor/distribution-industry-software">Distribution, FMCG, Automotive, Other - <span style="text-decoration: underline; color: #082326">Know More</span></a></p>
                             </li>
                         </ul>
                     </div>
@@ -672,7 +672,7 @@
                         <ul>
                             <li>
                                 <div class="redBullets"></div>
-                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing">Cable Manufacturing - <span style="text-decoration: underline; color: #7b1314">Know More</span></a> </p>
+                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-cable-manufacturing">Cable Manufacturing - <span style="text-decoration: underline; color: #082326">Know More</span></a> </p>
                             </li>
                         </ul>
                     </div>
@@ -682,7 +682,7 @@
                         <ul>
                             <li>
                                 <div class="redBullets"></div>
-                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor">Oil Field Services - <span style="text-decoration: underline; color: #7b1314">Know More</span></a></p>
+                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor">Oil Field Services - <span style="text-decoration: underline; color: #082326">Know More</span></a></p>
                             </li>
                         </ul>
                     </div>
@@ -690,7 +690,7 @@
                         <ul>
                             <li>
                                 <div class="redBullets"></div>
-                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor">Retail - <span style="text-decoration: underline; color: #7b1314">Know More</span></a></p>
+                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor">Retail - <span style="text-decoration: underline; color: #082326">Know More</span></a></p>
                             </li>
                         </ul>
                     </div>
@@ -698,7 +698,7 @@
                         <ul>
                             <li>
                                 <div class="redBullets"></div>
-                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design">Interior Design - <span style="text-decoration: underline; color: #7b1314">Know More</span></a> </p>
+                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor/epicor-for-interior-design">Interior Design - <span style="text-decoration: underline; color: #082326">Know More</span></a> </p>
                             </li>
                         </ul>
                     </div>
@@ -706,7 +706,7 @@
                         <ul>
                             <li>
                                 <div class="redBullets"></div>
-                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor">Process Manufacturing - <span style="text-decoration: underline; color: #7b1314">Know More</span></a></p>
+                                <p class="bulletContent"><a href="<%=rootpath%>solutions/erp-enterprise-solutions-and-services/epicor">Process Manufacturing - <span style="text-decoration: underline; color: #082326">Know More</span></a></p>
                             </li>
                         </ul>
                     </div>

@@ -51,7 +51,7 @@
         float: left;
         margin-left: 20px;
         margin-top: 6px;
-        background: #7b1314;
+        background: #082326;
         padding: 2px 2%;
         border-radius: 4px;
         color: #aaa;
@@ -61,7 +61,7 @@
             float: left;
             margin-left: 20px;
             margin-top: 6px;
-            background: #7b1314;
+            background: #082326;
             padding: 2px 2%;
             border-radius: 4px;
             color: #fff;
@@ -78,7 +78,7 @@
     }
 
     .btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
-        color: #7b1314 !important;
+        color: #082326 !important;
         background-color: #fff !important;
         border-color: #DDDDDD !important;
     }
@@ -120,7 +120,7 @@
     }
 
     .colors {
-        color: #7b1314 !important;
+        color: #082326 !important;
     }
 
     .benefit-title {
@@ -151,7 +151,7 @@
     }
 
     .btn-sched, .btn-sched:active, .btn-sched:hover {
-        background: #7b1314;
+        background: #082326;
         color: #fff;
         font-size: 14px !important;
     }
@@ -831,7 +831,7 @@ var google_remarketing_only = false;
                                     J&amp;G, DMCC, Dubai<br>
                                     United Arab Emirates<br>
                                     Tel: +971 50 650 8854<br>
-                                    Email: <a href="mailto:info@rheincs.com" style="color:#7b1314">info@rheincs.com</a>
+                                    Email: <a href="mailto:info@rheincs.com" style="color:#082326">info@rheincs.com</a>
                                 </p>
                             </li>
                         </ul>
@@ -852,7 +852,7 @@ var google_remarketing_only = false;
                                     Dubai Silicon Oasis, Dubai<br>
                                     United Arab Emirates<br>
                                     Tel: +971 43 330 366<br>
-                                    Email: <a href="mailto:info@rheincs.com" style="color:#7b1314">info@rheincs.com</a>
+                                    Email: <a href="mailto:info@rheincs.com" style="color:#082326">info@rheincs.com</a>
                                 </p>
                             </li>
                         </ul>

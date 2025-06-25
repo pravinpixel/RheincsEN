@@ -182,7 +182,7 @@
         }
 
         .form-data.cnt a.btndownlaodBrochure:hover {
-            background: #7b1314;
+            background: #082326;
             transition: all 500ms ease-in-out;
         }
 
@@ -285,7 +285,7 @@
 
         .epicpay-btn {
             display: block;
-            background: #7b1314 !important;
+            background: #082326 !important;
             width: 100px !important;
             padding: 10px 16px !important;
             color: #fff !important;
@@ -420,7 +420,7 @@
         }
 
             .lines a:hover {
-                background-color: #7b1314;
+                background-color: #082326;
                 transition: all 0.5s ease;
             }
 
@@ -830,7 +830,7 @@
         }
 
             .form-data.cnt input[type="submit"]:hover {
-                background: #7b1314;
+                background: #082326;
                 transition: all 500ms ease-in-out;
             }
 
@@ -881,9 +881,9 @@
             }
 
                 .set-8 a:hover {
-                    background: #7b1314;
+                    background: #082326;
                     transition: all 0.5s ease;
-                    border: 2px solid #7b1314;
+                    border: 2px solid #082326;
                 }
 
         .section-layer.pt-0 {

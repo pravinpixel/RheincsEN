@@ -175,7 +175,7 @@ ul, li {
     .top_box .phone {
         font-family: 'EurostileLTStdDemi';
         font-size: 25px;
-        color: #7b1314;
+        color: #082326;
         position: absolute;
         top: 10px;
         right: 3%;
@@ -699,14 +699,14 @@ textarea {
     width: 95%;
     margin-left: 20px;
     margin-top: 6px;
-    background: #7b1314;
+    background: #082326;
     padding: 2px 2%;
     border-radius: 4px;
 }
 
 input[type="submit"] {
     color: #fff;
-    background: #7b1314 url(../images/arrow.png) 90% 10px no-repeat;
+    background: #082326 url(../images/arrow.png) 90% 10px no-repeat;
     border-top: 1px dashed #000;
     border-bottom: 1px dashed #000;
     padding: 2px 0;
@@ -726,7 +726,7 @@ select::-ms-expand {
 }
 
 input[type="submit"]:hover {
-    background-color: #7b1314;
+    background-color: #082326;
     color: #fff;
 }
 
@@ -833,7 +833,7 @@ div.owl-item > li > img {
 }
 
 .tabs_btns li a:hover, .tabs_btns li a.active {
-    /*background: #7B1314;*/
+    /*background: #082326;*/
     color: #fff;
     text-decoration: none;
 }
@@ -863,7 +863,7 @@ div.owl-item > li > img {
 
 input[type="button"].mainButton {
     color: #fff;
-    background: #7b1314 url(../images/arrow.png) 90% 10px no-repeat;
+    background: #082326 url(../images/arrow.png) 90% 10px no-repeat;
     border-top: 1px dashed #000;
     border-bottom: 1px dashed #000;
     padding: 2px 0;

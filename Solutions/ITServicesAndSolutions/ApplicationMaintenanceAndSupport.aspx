@@ -23,7 +23,7 @@
 
         .baner-btns {
             display: inline-block;
-            background: #7b1314;
+            background: #082326;
             height: 42px;
             padding: 10px 16px;
             color: #fff;
@@ -49,7 +49,7 @@
         }
 
         .btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
-            color: #7b1314 !important;
+            color: #082326 !important;
             background-color: #fff !important;
             border-color: #DDDDDD !important;
         }
@@ -210,7 +210,7 @@
             <div class="bg-img-ms-application img-responsive ">
                 <h2 class="rhein-banner-heading-h2 inner-banner-text1 img-bottom">RheinBrücke</h2>
                 <p class="rhein-banner-heading-p inner-banner-text1 ">Our structured, SLA driven process ensures that you get a 100% hassle free Application Maintenance & Support experience.</p>
-                <div data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="rhein-banner-readmore-bg pull-right" style="background: #7b1314; position: relative; right: 45%; padding: 5px !important; height: auto;">
+                <div data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" class="rhein-banner-readmore-bg pull-right" style="background: #082326; position: relative; right: 45%; padding: 5px !important; height: auto;">
                     <span class="rhein-banner-readmore-text">Schedule a Call</span>
                 </div>
 

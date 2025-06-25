@@ -16,7 +16,7 @@ h2{
 .faq-bullet
 {
     list-style-type:disc;
-    color:#7b1314;
+    color:#082326;
     font-size:25px;
 }
 .faq-content{
@@ -73,7 +73,7 @@ h4.panel-title{margin:10px 0px !important;}
     font-size: 14px;
     font-weight: 500;
    
-    color: #7b1314;
+    color: #082326;
     border-radius: 0;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     position: relative;
@@ -95,7 +95,7 @@ h4.panel-title{margin:10px 0px !important;}
     height: 100%;
     text-align: center;
     line-height: 50px;
-    border-left: 2px solid #7b1314;
+    border-left: 2px solid #082326;
     position: absolute;
     top: 0;
     right: 0;
@@ -105,9 +105,9 @@ h4.panel-title{margin:10px 0px !important;}
     display: inline-block;
     width: 55px;
     height: 100%;
-    border-right: 2px solid #7b1314;
+    border-right: 2px solid #082326;
     font-size: 20px;
-    color: #7b1314;
+    color: #082326;
     line-height: 50px;
     text-align: center;
     position: absolute;
@@ -117,7 +117,7 @@ h4.panel-title{margin:10px 0px !important;}
 #accordion4 .panel-body, #accordion41 .panel-body, #accordion42 .panel-body, #accordion43 .panel-body, #accordion44 .panel-body, #accordion45 .panel-body, #accordion46 .panel-body, #accordion47 .panel-body{
     padding: 10px 15px;
     margin: 0 0 20px;
-    border-bottom: 3px solid #7b1314;
+    border-bottom: 3px solid #082326;
     border-top: none;
     background: #fff;
     font-size: 15px;

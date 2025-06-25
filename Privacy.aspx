@@ -25,7 +25,7 @@
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #7b1314;
+    background-color: #082326;
     color: white;
 }
 .cookies td.cktd

@@ -6,7 +6,7 @@
         float: left;
         margin-left: 20px;
         margin-top: 6px;
-        background: #7b1314;
+        background: #082326;
         padding: 2px 2%;
         border-radius: 4px;
         color: #aaa;
@@ -16,7 +16,7 @@
             float: left;
             margin-left: 20px;
             margin-top: 6px;
-            background: #7b1314;
+            background: #082326;
             padding: 2px 2%;
             border-radius: 4px;
             color: #fff;
@@ -33,7 +33,7 @@
     }
 
     .btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
-        color: #7b1314 !important;
+        color: #082326 !important;
         background-color: #fff !important;
         border-color: #DDDDDD !important;
     }
@@ -46,7 +46,7 @@
         .icon-input-btn input[type="button"] {
             padding-left: 2em;
             padding-left: 2em;
-            background-color: #7b1314;
+            background-color: #082326;
             color: #fff;
         }
 

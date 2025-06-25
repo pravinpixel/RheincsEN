@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #7b1314;
+    color: #082326;
     -webkit-transition: color 400ms,background-color 400ms;
     -moz-transition: color 400ms,background-color 400ms;
     -o-transition: color 400ms,background-color 400ms;
@@ -79,7 +79,7 @@ hr {
             margin-left: -12px;
             border: 5px solid #fff;
             border-radius: 20px;
-            background: #7b1314;
+            background: #082326;
         }
 
 .btn {
@@ -89,7 +89,7 @@ hr {
 }
 
     .btn.btn-primary {
-        background: #7b1314;
+        background: #082326;
         border-color: #2a95be;
     }
 
@@ -111,7 +111,7 @@ hr {
         bottom: -1px;
         left: 0;
         width: 40%;
-        border-bottom: 1px solid #7b1314;
+        border-bottom: 1px solid #082326;
     }
 
 ul.nostyle {
@@ -121,7 +121,7 @@ ul.nostyle {
 }
 
     ul.nostyle i {
-        color: #7b1314;
+        color: #082326;
     }
 
 .scaleIn {
@@ -203,7 +203,7 @@ ul.nostyle {
         #main-menu.navbar-default .navbar-nav > li.active > a, #main-menu.navbar-default .navbar-nav > li.open > a, #main-menu.navbar-default .navbar-nav > li:hover > a {
             background: transparent;
             padding-top: 37px;
-            border-top: 3px solid #7b1314;
+            border-top: 3px solid #082326;
         }
 
         #main-menu.navbar-default .dropdown-menu {
@@ -236,11 +236,11 @@ ul.nostyle {
                 }
 
                 #main-menu.navbar-default .dropdown-menu > li.active, #main-menu.navbar-default .dropdown-menu > li.open, #main-menu.navbar-default .dropdown-menu > li:hover {
-                    border-left-color: #7b1314;
+                    border-left-color: #082326;
                 }
 
                     #main-menu.navbar-default .dropdown-menu > li.active > a, #main-menu.navbar-default .dropdown-menu > li.open > a, #main-menu.navbar-default .dropdown-menu > li:hover > a {
-                        color: #7b1314;
+                        color: #082326;
                         background-color: transparent;
                     }
 
@@ -276,7 +276,7 @@ ul.nostyle {
         }
 
             #main-slider .slider-inner h2 > span {
-                color: #7b1314;
+                color: #082326;
             }
 
         #main-slider .slider-inner .btn {
@@ -302,7 +302,7 @@ ul.nostyle {
     }
 
         #main-slider .owl-prev:hover, #main-slider .owl-next:hover {
-            background-color: #7b1314;
+            background-color: #082326;
         }
 
     #main-slider .owl-prev {
@@ -319,7 +319,7 @@ ul.nostyle {
     width: 0%;
     max-width: 100%;
     height: 4px;
-    background: #7b1314;
+    background: #082326;
 }
 
 #progressBar {
@@ -361,7 +361,7 @@ ul.nostyle {
     }
 
         #cta2 h2 > span {
-            color: #7b1314;
+            color: #082326;
         }
 
 #features {
@@ -392,7 +392,7 @@ ul.nostyle {
             text-align: center;
             width: 64px;
             border-radius: 100%;
-            color: #7b1314;
+            color: #082326;
             box-shadow: inset 0 0 0 1px #d7d7d7;
             -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
             transition: background-color 400ms,background-color 400ms;
@@ -409,7 +409,7 @@ ul.nostyle {
                 right: -10px;
                 border: 4px solid #fff;
                 border-radius: 20px;
-                background: #7b1314;
+                background: #082326;
             }
 
     .media.service-box:hover .pull-left > i {
@@ -447,7 +447,7 @@ ul.nostyle {
             }
 
                 #portfolio .portfolio-filter > li a:hover, #portfolio .portfolio-filter > li a.active {
-                    background: #7b1314;
+                    background: #082326;
                     color: #fff;
                     box-shadow: 0 -3px 0 0 #318daf inset;
                     -webkit-box-shadow: 0 -3px 0 0 #318daf inset;
@@ -629,7 +629,7 @@ background: #f5f5f5;
         width: 80px;
         height: 80px;
         line-height: 80px;
-        border: 2px solid #7b1314;
+        border: 2px solid #082326;
         border-radius: 100px;
         position: relative;
     }
@@ -637,7 +637,7 @@ background: #f5f5f5;
         #work-process .icon-circle > span {
             border-style: solid;
             border-width: 2px;
-            border-color: #7b1314;
+            border-color: #082326;
             border-radius: 50%;
             background-color: #fff;
             position: absolute;
@@ -675,11 +675,11 @@ background: #f5f5f5;
         }
 
         #meet-team .team-member:hover {
-            border-color: #7b1314;
+            border-color: #082326;
         }
 
             #meet-team .team-member:hover .social-icons > li > a {
-                background: #7b1314;
+                background: #082326;
             }
 
     #meet-team .social-icons {
@@ -739,7 +739,7 @@ background: #f5f5f5;
 
     .nav.main-tab > li.active > a {
         background: #222534;
-        color: #7b1314;
+        color: #082326;
     }
 
     .nav.main-tab > li:first-child > a {
@@ -941,7 +941,7 @@ background: #f5f5f5;
             display: block;
             margin-bottom: 5px;
             text-transform: uppercase;
-            color: #7b1314;
+            color: #082326;
         }
 
         #blog .blog-post.blog-large .entry-title {
@@ -956,7 +956,7 @@ background: #f5f5f5;
             }
 
                 #blog .blog-post.blog-large .entry-title a:hover {
-                    color: #7b1314;
+                    color: #082326;
                 }
 
         #blog .blog-post.blog-media {
@@ -979,7 +979,7 @@ background: #f5f5f5;
                 display: block;
                 margin-bottom: 5px;
                 text-transform: uppercase;
-                color: #7b1314;
+                color: #082326;
             }
 
             #blog .blog-post.blog-media .entry-title {
@@ -994,7 +994,7 @@ background: #f5f5f5;
                 }
 
                     #blog .blog-post.blog-media .entry-title a:hover {
-                        color: #7b1314;
+                        color: #082326;
                     }
 
         #blog .blog-post .entry-meta {
@@ -1014,7 +1014,7 @@ background: #f5f5f5;
                 }
 
                     #blog .blog-post .entry-meta > span > a:hover {
-                        color: #7b1314;
+                        color: #082326;
                     }
 
 #contact {
@@ -1054,7 +1054,7 @@ background: #f5f5f5;
     }
 
         #footer a:hover {
-            color: #7b1314;
+            color: #082326;
         }
 
     #footer ul {
@@ -1106,7 +1106,7 @@ background: #f5f5f5;
  }
 
  #cta h2 > span {
-    color: #7b1314;
+    color: #082326;
 }
 
     .form-top-left {
