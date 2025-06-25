@@ -40,7 +40,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <style>
         @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 
-        
+        body, html {
+            font-family: Raleway !important;
+        }
 
         ul.social_share_privacy_area li .info {
             display: none !important;
@@ -809,19 +811,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
             <div class="row">
                 <div class="col-md-12 headertopnav hidden-xs hidden-sm" id="headsearch">
-                    <div class="header-search">
-                        <div class="col-md-3 pull-right no-padding hidden-xs hidden-sm hidden-md" style="width: 5%; padding-left: 30px !important; margin-top: 8px;">
-                            <a style="color: white; font-family: raleway !important; font-size: 13px;"
-                                href="https://blog.rheincs.com">BLOG</a>
-                        </div>
-                        <div class="col-md-3 pull-right no-padding hidden-xs hidden-sm hidden-md" style="display: none;">
+                    <div class="header-search">                    
+                        <!-- div class="col-md-3 pull-right no-padding">                        
                             <div class="">
                                 <div class="textSearch">
                                     <input type="text" class="Search-text-box" id="search-input" placeholder="SEARCH" onfocus="this.placeholder=''" onblur="this.placeholder='SEARCH'" /><i class="fa fa-search Searchicon"></i>
-
                                 </div>
                             </div>
-                        </div>
+                        </div -->
+                        <div class="col-md-3 pull-right no-padding hidden-xs hidden-sm hidden-md" style="width: 10%; text-align: right; padding-left: 30px !important; margin-top: 8px;">
+                            <a style="color: white; font-family: raleway !important; font-size: 13px;"
+                                href="https://blog.rheincs.com">BLOG</a>
+                            <a href="#" style="margin-left: 10px; display: inline-block;top: -2px; position: relative;" data-toggle="modal" data-target="#searchModal"><img src="<%=rootpath %>Assets/images/top-search-icon.svg" alt="" /></a>
+                        </div>                        
                         <div class="col-md-3 pull-right no-padd-right hidden-xs hidden-sm">
                             <div class="pull-right multi-language"><a href="https://de.rheincs.com" class="white-color">DE</a>&nbsp;/&nbsp;<a href="https://en.rheincs.com" class="white-color">EN</a> | </div>
                         </div>
@@ -831,13 +833,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <br />
                     <div class="col-md-2">
                         <a href="<%=rootpath %>">
-                            <img id="Img1" src="https://en.rheincs.com/Assets/images/RheinBrücke-logo.jpg" runat="server" alt="RheinBrücke IT Consulting" class="ETlogo" />
+                            <img id="Img1" src="Assets/images/logo-white.svg" runat="server" alt="RheinBrücke IT Consulting" class="ETlogo" />
                         </a>
                     </div>
                     <div class="col-md-10">
                         <nav class="navbar navbar-default" role="navigation" id="menu">
                             <div class="container-fluid">
-                                <div class="collapse navbar-collapse padd-top-20 menualign" id="bs-megadropdown-tabs">
+                                <div class="collapse navbar-collapse menualign" id="bs-megadropdown-tabs">
                                     <ul class="nav navbar-nav">
                                         <li class="menuname ETMenu"><a href="<%=rootpath %>">Home</a></li>
                                         <li class="dropdown ETMenu">
@@ -925,7 +927,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                             </div>
                                                             <div class="col-md-3 col-md-4V2">
                                                                 <ul>
-                                                                    <li class="menuname-small menuheading"><a href="<%=rootpath %>solutions/digital-services-and-solutions">Digital Solutions and Services</a></li>
+                                                                    <li class="menuname-small menuheading menuheading-large"><a href="<%=rootpath %>solutions/digital-services-and-solutions">Digital Solutions and Services</a></li>
                                                                     <br />
                                                                      <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">Application Maintenance & Support</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>
@@ -1138,21 +1140,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<div class="testimonial-box">
 									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
 									<div class="testimonial-content">
-										<div class="testimonial-text">"Congratulations to your team for successfully pulling off the “Automation of RMA” project using the “A-MAP Smart” mobile based application! The legacy system was a laborious and time-consuming activity of data entry of the hundreds of Inspection entries, from the numerous Inspection sheets generated on a daily basis from the field, matching the claims against the supplied Sales orders and line details, entering all the warranty test information including customer purchasing & return data, creating disposition against the relevant warehouses and summarizing all the data for transfer to the sales teams for actual settlement of claims vide relevant sales orders."</div>
-										<div class="testimonial-footer">
-											<div class="testimonial-footer-description">
-												<img src="<%=rootpath %>Assets/images/Testimonial/Ramamurthy-Rao.png" alt="Ramamurthy Rao" />
-												<p><strong>Ramamurthy Rao</strong>Head of R&D and QC Al Muqarram Auto Parts</p>
-											</div>
-											<div class="testimonial-footer-logo">
-												<img src="<%=rootpath %>Assets/images/Testimonial/a-map.png" alt="A Map" class="img-responsive" />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="testimonial-box">
-									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
-									<div class="testimonial-content">
 										<div class="testimonial-text">"Thank you for the continued good work on the ERP and Supply Chain project. Your Consulting, Technical, Functional and Project management expertise was evident and was very well appreciated by our staffs. I was also pleased with the flexible, easily approachable, transparent dealing with your team. Needless to mention I also appreciate how effectively you leverage the teaming with cross cultural teams with low cost geography for developmental resources while not compromising on the quality of deliverables to business. Keep up the good work."</div>
 										<div class="testimonial-footer">
 											<div class="testimonial-footer-description">
@@ -1205,6 +1192,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												<p><strong>Syed Waseem Wajid</strong>IT HEAD at Global Glass Manufacturer KSA, Middle East</p>
 											</div>
 											<div class="testimonial-footer-logo">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="testimonial-box">
+									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+									<div class="testimonial-content">
+										<div class="testimonial-text">"Congratulations to your team for successfully pulling off the “Automation of RMA” project using the “A-MAP Smart” mobile based application! The legacy system was a laborious and time-consuming activity of data entry of the hundreds of Inspection entries, from the numerous Inspection sheets generated on a daily basis from the field, matching the claims against the supplied Sales orders and line details, entering all the warranty test information including customer purchasing & return data, creating disposition against the relevant warehouses and summarizing all the data for transfer to the sales teams for actual settlement of claims vide relevant sales orders."</div>
+										<div class="testimonial-footer">
+											<div class="testimonial-footer-description">
+												<img src="<%=rootpath %>Assets/images/Testimonial/Ramamurthy-Rao.png" alt="Ramamurthy Rao" />
+												<p><strong>Ramamurthy Rao</strong>Head of R&D and QC Al Muqarram Auto Parts</p>
+											</div>
+											<div class="testimonial-footer-logo">
+												<img src="<%=rootpath %>Assets/images/Testimonial/a-map.png" alt="A Map" class="img-responsive" />
 											</div>
 										</div>
 									</div>

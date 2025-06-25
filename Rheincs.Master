@@ -788,21 +788,6 @@
                                 <div class="testimonial-box">
                                     <img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
                                     <div class="testimonial-content">
-                                        <div class="testimonial-text">"Congratulations to your team for successfully pulling off the “Automation of RMA” project using the “A-MAP Smart” mobile based application! The legacy system was a laborious and time-consuming activity of data entry of the hundreds of Inspection entries, from the numerous Inspection sheets generated on a daily basis from the field, matching the claims against the supplied Sales orders and line details, entering all the warranty test information including customer purchasing & return data, creating disposition against the relevant warehouses and summarizing all the data for transfer to the sales teams for actual settlement of claims vide relevant sales orders."</div>
-                                        <div class="testimonial-footer">
-                                            <div class="testimonial-footer-description">
-                                                <img src="<%=rootpath %>Assets/images/Testimonial/Ramamurthy-Rao.png" alt="Ramamurthy Rao" />
-                                                <p><strong>Ramamurthy Rao</strong>Head of R&D and QC Al Muqarram Auto Parts</p>
-                                            </div>
-                                            <div class="testimonial-footer-logo">
-                                                <img src="<%=rootpath %>Assets/images/Testimonial/a-map.png" alt="A Map" class="img-responsive" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="testimonial-box">
-                                    <img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
-                                    <div class="testimonial-content">
                                         <div class="testimonial-text">"Thank you for the continued good work on the ERP and Supply Chain project. Your Consulting, Technical, Functional and Project management expertise was evident and was very well appreciated by our staffs. I was also pleased with the flexible, easily approachable, transparent dealing with your team. Needless to mention I also appreciate how effectively you leverage the teaming with cross cultural teams with low cost geography for developmental resources while not compromising on the quality of deliverables to business. Keep up the good work."</div>
                                         <div class="testimonial-footer">
                                             <div class="testimonial-footer-description">
@@ -855,6 +840,21 @@
                                                 <p><strong>Syed Waseem Wajid</strong>IT HEAD at Global Glass Manufacturer KSA, Middle East</p>
                                             </div>
                                             <div class="testimonial-footer-logo">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text">"Congratulations to your team for successfully pulling off the “Automation of RMA” project using the “A-MAP Smart” mobile based application! The legacy system was a laborious and time-consuming activity of data entry of the hundreds of Inspection entries, from the numerous Inspection sheets generated on a daily basis from the field, matching the claims against the supplied Sales orders and line details, entering all the warranty test information including customer purchasing & return data, creating disposition against the relevant warehouses and summarizing all the data for transfer to the sales teams for actual settlement of claims vide relevant sales orders."</div>
+                                        <div class="testimonial-footer">
+                                            <div class="testimonial-footer-description">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/Ramamurthy-Rao.png" alt="Ramamurthy Rao" />
+                                                <p><strong>Ramamurthy Rao</strong>Head of R&D and QC Al Muqarram Auto Parts</p>
+                                            </div>
+                                            <div class="testimonial-footer-logo">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/a-map.png" alt="A Map" class="img-responsive" />
                                             </div>
                                         </div>
                                     </div>
