@@ -47,14 +47,14 @@ namespace RheinBrucke.NewsAndEvents
             if (thumbnail.Trim().Length > 0)
             {
                 if (position=="True")
-                    ostr.AppendLine(string.Format("<span style=\"color: #7b1315; font-weight: bold; width: 64%; float: left;\">{0}</span><img src=\"{1}Assets/images/NewsEvents/Thumbnail/{2}\" style=\"max-height: 117px;\" />", Title, rootpath, thumbnail));
+                    ostr.AppendLine(string.Format("<span style=\"color: #082326; font-weight: bold; width: 64%; float: left;\">{0}</span><img src=\"{1}Assets/images/NewsEvents/Thumbnail/{2}\" style=\"max-height: 117px;\" />", Title, rootpath, thumbnail));
                 else
-                    ostr.AppendLine(string.Format("<span style=\"color: #7b1315; font-weight: bold; width: 100%; float: left;\">{0}</span><img class='img-responsive' src=\"{1}Assets/images/NewsEvents/Thumbnail/{2}\" style=\"width: auto; height: auto;\" />", Title, rootpath, thumbnail));
+                    ostr.AppendLine(string.Format("<span style=\"color: #082326; font-weight: bold; width: 100%; float: left;\">{0}</span><img class='img-responsive' src=\"{1}Assets/images/NewsEvents/Thumbnail/{2}\" style=\"width: auto; height: auto;\" />", Title, rootpath, thumbnail));
 
             }
             else
             {
-                ostr.AppendLine(string.Format("<span style=\"color: #7b1315; font-weight: bold; width: 100%; float: left;\">{0}</span>", Title));
+                ostr.AppendLine(string.Format("<span style=\"color: #082326; font-weight: bold; width: 100%; float: left;\">{0}</span>", Title));
 
             }
             return ostr.ToString();

@@ -43,7 +43,7 @@
             margin-left:-12px;
         }
         h3 {
-            color: #7b1315;
+            color: #082326;
 			font-size: 20px;
             margin-bottom: 10px !important;
         }

@@ -48,7 +48,7 @@
     text-align: center;
     width: 64px;
     border-radius: 100%;
-    color: #7B1315;
+    color: #082326;
     box-shadow: inset 0 0 0 1px #d7d7d7;
     -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
     transition: background-color 400ms,background-color 400ms;
@@ -66,11 +66,11 @@
     right: -10px;
     border: 4px solid #fff;
     border-radius: 20px;
-    background: #7B1315;
+    background: #082326;
 }
        .redBullets-manufacturing >i:hover
        {
-           background-color:#7B1315;
+           background-color:#082326;
           box-shadow: inset 0 0 0 1px #d7d7d7;
     -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
     transition: background-color 400ms,background-color 400ms;
@@ -546,8 +546,8 @@ var google_remarketing_only = false;
                                  </li>
                         </ul>
                     </div>
-					<p>Read our blog to know how Cable manufacturing ERP solutions can help address a few of the cable manufacturing industry’s key challenges - <a href="https://goo.gl/UyCy6D" style="color:#7b1315; text-decoration:underline" target="_blank">https://goo.gl/UyCy6D </a> </p><br />
-                <p class="padd-bottom-10"><a data-toggle="modal" style="color:#7b1315;" onclick="Clear()" data-target="#myModal-contactus"><u>Contact Us</u></a> when you’re ready to start, or simply have a few questions. We’re happy to help with your cable manufacturing software goals and challenges.</p> 
+					<p>Read our blog to know how Cable manufacturing ERP solutions can help address a few of the cable manufacturing industry’s key challenges - <a href="https://goo.gl/UyCy6D" style="color:#082326; text-decoration:underline" target="_blank">https://goo.gl/UyCy6D </a> </p><br />
+                <p class="padd-bottom-10"><a data-toggle="modal" style="color:#082326;" onclick="Clear()" data-target="#myModal-contactus"><u>Contact Us</u></a> when you’re ready to start, or simply have a few questions. We’re happy to help with your cable manufacturing software goals and challenges.</p> 
          
             </div>
 			<h2 class="redColor">RELATED LINKS</h2>

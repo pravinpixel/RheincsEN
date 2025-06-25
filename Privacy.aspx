@@ -938,7 +938,7 @@ FactorsAI stores the data for 180 days. Please visit https://www.factors.ai/
                 line-height: 22px!important;
         }
         .wrappernew a{
-            color:#7b1315;
+            color:#082326;
             text-decoration:underline;
         }
     </style>

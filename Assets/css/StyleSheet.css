@@ -147,7 +147,7 @@ html, body {
 }
 
 .menuheading {
-    border-bottom: 1px solid #7b1315;
+    border-bottom: 1px solid #082326;
     padding-bottom: 10px;
     color: #666666;
 }
@@ -157,7 +157,7 @@ html, body {
 }
 
 .menuheading-large {
-    border-bottom: 1px solid #7b1315;
+    border-bottom: 1px solid #082326;
     padding-bottom: 5px;
     line-height: 12px !important;
     color: #666666;
@@ -268,7 +268,7 @@ footer {
     border-bottom: 1px solid transparent;
     padding-bottom: 1.001em;
     margin-bottom: -1px;
-    border-color: #7b1315 !important;
+    border-color: #082326 !important;
 }
 
 .border1 {
@@ -276,7 +276,7 @@ footer {
     /*border-bottom: 1px solid transparent;*/
     padding-bottom: 1.001em;
     margin-bottom: -1px;
-    /*border-color: #7b1315 !important;*/
+    /*border-color: #082326 !important;*/
 }
 
 .alignFooter {
@@ -460,7 +460,7 @@ h4 {
 .redColor {
     /*font-weight:700;
     font-family:Raleway;size:h3*/
-    color: #7b1315 !important;
+    color: #082326 !important;
 }
 
 .blackHeader {
@@ -474,7 +474,7 @@ h4 {
     position: absolute;
     top: .6em;
     left: 0em;
-    border: 5px solid #7b1315;
+    border: 5px solid #082326;
     /*list-style-type:disc;*/
     border-radius: 10px;
 }
@@ -507,7 +507,7 @@ h4 {
 .span-below-heading {
     border-bottom: 1px solid transparent;
     margin-bottom: -1px;
-    border-color: #7b1315;
+    border-color: #082326;
     padding-bottom: .858em;
 }
 
@@ -580,7 +580,7 @@ h4 {
     border-bottom: 1px solid transparent;
     padding-bottom: 1.001em;
     margin-bottom: -1px;
-    border-color: #7b1315 !important;
+    border-color: #082326 !important;
     font-weight: normal;
     font-size: 1.3em;
     font-family: Raleway;
@@ -600,7 +600,7 @@ h4 {
 .withIcons {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.3em;
-    color: #7b1315;
+    color: #082326;
 }
 
 
@@ -823,7 +823,7 @@ h2 {
 }
 
 .more-videos {
-    color: #7b1315;
+    color: #082326;
     font-family: Raleway;
     font-size: 20px;
 }
@@ -1140,7 +1140,7 @@ ul {
 
 .mobilemenu-border-bottom {
     padding-bottom: 12px;
-    border-bottom: 1px solid #7b1315;
+    border-bottom: 1px solid #082326;
 }
 #Contactfeedback
 .mobilemenu {
@@ -1230,7 +1230,7 @@ ul {
     position: absolute;
     top: -0.3em;
     left: 0em;
-    border: 5px solid #7b1315;
+    border: 5px solid #082326;
     /*list-style-type:disc;*/
     border-radius: 10px;
 }
@@ -1366,7 +1366,7 @@ ul {
     position: absolute;
     top: -0.3em;
     left: 0em;
-    border: 7px solid #7b1315;
+    border: 7px solid #082326;
     /*list-style-type:disc;*/
     border-radius: 16px;
 }
@@ -1414,7 +1414,7 @@ ul {
 }
 
 a .mailid {
-    color: #7b1315 !important;
+    color: #082326 !important;
     text-decoration: none;
 }
 
@@ -1429,7 +1429,7 @@ a .mailid {
 }
 
     .epicpay-list:hover {
-        color: #7b1315;
+        color: #082326;
         text-decoration: none;
     }
 
@@ -1439,7 +1439,7 @@ a .mailid {
 }
 
 .readmore-epicpay {
-    background-color: #7b1315;
+    background-color: #082326;
     padding: 8px;
     color: #ffffff;
     font-size: 14px;
@@ -1576,7 +1576,7 @@ bgpic {
     position: absolute;
     top: -0.3em;
     left: 0em;
-    border: 5px solid #7b1315;
+    border: 5px solid #082326;
     /*list-style-type:disc;*/
     border-radius: 10px;
 }
@@ -1712,7 +1712,7 @@ bgpic {
     position: absolute;
     top: -0.3em;
     left: 0em;
-    border: 7px solid #7b1315;
+    border: 7px solid #082326;
     /*list-style-type:disc;*/
     border-radius: 16px;
 }
@@ -1760,7 +1760,7 @@ bgpic {
 }
 
 a .mailid {
-    color: #7b1315 !important;
+    color: #082326 !important;
     text-decoration: none;
 }
 
@@ -1775,7 +1775,7 @@ a .mailid {
 }
 
     .epicpay-list:hover {
-        color: #7b1315;
+        color: #082326;
         text-decoration: none;
     }
 
@@ -1784,7 +1784,7 @@ a .mailid {
 }
 
 .readmore-epicpay a {
-    background-color: #7b1315;
+    background-color: #082326;
     padding: 8px;
     color: #ffffff;
     font-size: 14px;
@@ -1834,7 +1834,7 @@ a .mailid {
 /*Ramya 05-07-2015*/
 /*Jenifa 06-07-2015*/
 .epicor-channel {
-    background: #7b1315;
+    background: #082326;
     color: #fff;
     text-align: center;
     padding: 5px;
@@ -1842,7 +1842,7 @@ a .mailid {
 }
 
 .epicor-implementaion {
-    background: #7b1315;
+    background: #082326;
     color: #fff;
     padding: 5px;
     font-size: 16px;
@@ -1863,7 +1863,7 @@ a .mailid {
 }
 
 .grey-epicorchannel-redtext {
-    color: #7b1315;
+    color: #082326;
     background: #f3f3f3;
     text-align: center;
     font-size: 16px;
@@ -1876,7 +1876,7 @@ a .mailid {
 }
 
 .redColorServices {
-    color: #7b1315 !important;
+    color: #082326 !important;
     font-size: 16px;
     font-weight: 700;
 }
@@ -1900,7 +1900,7 @@ a .mailid {
 }
 
 .download-epicpay a {
-    background-color: #7b1315;
+    background-color: #082326;
     padding: 8px;
     color: #ffffff;
     font-size: 14px;
@@ -1961,8 +1961,8 @@ a .mailid {
 }
 
     #back_to_top:hover {
-        color: #7b1315;
-        border: 2px solid #7b1315;
+        color: #082326;
+        border: 2px solid #082326;
     }
 
     #back_to_top.back-to-top-position-right {
@@ -2012,7 +2012,7 @@ a .mailid {
     padding: 10px 0;
     border: none;
     border-radius: 2px;
-    background: #7b1315;
+    background: #082326;
     color: #ffffff;
     text-transform: Capitalize;
     margin: 0px 0 0 0;
@@ -2277,7 +2277,7 @@ a .mailid {
 
 .redColor1 {
     font-weight: bold;
-    color: #7b1315 !important;
+    color: #082326 !important;
 }
 
 .mainContent1 {
@@ -2464,7 +2464,7 @@ paddingltrt {
 
 .insights-grey-center-text {
     font-size: 22px;
-    color: #7b1315;
+    color: #082326;
     text-align: center;
     font-weight: bold;
 }
@@ -2527,7 +2527,7 @@ paddingltrt {
 
 .insights-grey-center-text {
     font-size: 1.3em;
-    color: #7b1315;
+    color: #082326;
     text-align: center;
     /*font-weight: bold;*/
     line-height: 1.5em;
@@ -2732,7 +2732,7 @@ paddingltrt {
 .sitemapLevel1 {
     font-weight: bold;
     font-size: 14px;
-    color: #7b1315;
+    color: #082326;
 }
 
 .sub-menu li, .sub-menu2 li, .sub-menu3 li, .sub-menu4 li {
@@ -2740,12 +2740,12 @@ paddingltrt {
 }
 
     .sub-menu li i {
-        color: #7b1315;
+        color: #082326;
         font-size: 10px;
     }
 
     .sub-menu2 li i, .sub-menu3 li i, .sub-menu4 li i {
-        color: #7b1315;
+        color: #082326;
         font-size: 16px;
         margin-top: 15px;
     }
@@ -2761,7 +2761,7 @@ paddingltrt {
 }
 
     .sub-menu3 li i {
-        color: #7b1315;
+        color: #082326;
         font-size: 10px;
     }
 
@@ -2852,7 +2852,7 @@ paddingltrt {
     position: absolute;
     top: 0.7em;
     left: 0em;
-    border: 5px solid #7b1315;
+    border: 5px solid #082326;
     border-radius: 10px;
 }
 
@@ -2869,7 +2869,7 @@ paddingltrt {
     position: absolute;
     top: -0.3em;
     left: 2em;
-    border: 5px solid #7b1315;
+    border: 5px solid #082326;
     /*list-style-type:disc;*/
     border-radius: 10px;
 }
@@ -2903,7 +2903,7 @@ paddingltrt {
     position: absolute;
     top: 0.3em;
     left: 0em;
-    border: 5px solid #7b1315;
+    border: 5px solid #082326;
     border-radius: 10px;
 }
 
@@ -3016,13 +3016,13 @@ paddingltrt {
 
 .video-class {
     font-size: 16px;
-    color: #7b1315;
+    color: #082326;
     text-decoration: none;
 }
 
     .video-class:hover {
         font-size: 16px;
-        color: #7b1315;
+        color: #082326;
         text-decoration: none;
     }
 
@@ -3053,7 +3053,7 @@ paddingltrt {
 /*Ramya 10-07-15*/
 .currentopenings-mail-text {
     text-decoration: none;
-    color: #7b1315 !important;
+    color: #082326 !important;
 }
 
 .arrow-icon {
@@ -3214,7 +3214,7 @@ h4 {
     position: absolute;
     top: -0.3em;
     left: -1em;
-    border: 7px solid #7b1315;
+    border: 7px solid #082326;
     /* list-style-type: disc; */
     border-radius: 10px;
 }
@@ -3244,7 +3244,7 @@ h4 {
     position: absolute;
     top: -0.2em;
     left: 0em;
-    border: 5px solid #7b1315;
+    border: 5px solid #082326;
     border-radius: 10px;
 }
 
@@ -3261,7 +3261,7 @@ h4 {
     position: absolute;
     top: -0.3em;
     left: 0em;
-    border: 5px solid #7b1315;
+    border: 5px solid #082326;
     /*list-style-type:disc;*/
     border-radius: 10px;
 }
@@ -3311,14 +3311,14 @@ h4 {
 
 .sep-solid-line {
     position: absolute;
-    border-bottom: 1px solid #7b1315;
+    border-bottom: 1px solid #082326;
     width: 5%;
     top: 1px;
 }
 
 .sep-solid-line1 {
     position: absolute;
-    border-bottom: 1px solid #7b1315;
+    border-bottom: 1px solid #082326;
     width: 5%;
     top: -22px;
 }

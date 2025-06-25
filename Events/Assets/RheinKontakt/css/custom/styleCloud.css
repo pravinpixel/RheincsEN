@@ -5620,7 +5620,7 @@ font-size: 32px;
 }
 /*Modal Stylesheet*/
 .redColor {
-    color: #7b1315!important;
+    color: #082326!important;
 }
 .modal-header-bgcolor {
     background-color: #f3f3f3;
@@ -5665,14 +5665,14 @@ font-size: 32px;
     padding: 10px 0;
     border: 0;
     border-radius: 2px;
-    background: #7b1315;
+    background: #082326;
     color: #fff;
     text-transform: Capitalize;
     margin: 0;
 }
 .modal-content {
     position: relative;
-    border: 5px solid #632424;
+    border: 5px solid #082326;
     background-color: #fff;
     background-clip: padding-box;
     border-radius: 6px;

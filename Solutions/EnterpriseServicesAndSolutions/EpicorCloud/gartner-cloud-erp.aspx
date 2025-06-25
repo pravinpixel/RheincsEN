@@ -90,7 +90,7 @@
     .edit-icon
     {
         font-size:45px !important;
-        color:#7b1315;
+        color:#082326;
     }
     .gartner-input{
     padding-left: 40px;
@@ -115,7 +115,7 @@
     left: 28px;
     margin: auto;
     /* color: #dd6600; */
-    color: #7b1315;
+    color: #082326;
     font-size: 22px;
     font-weight: bold;
     }
@@ -123,7 +123,7 @@
     font-family: 'Varela Round', Arial, sans-serif;
     padding: 10px 55px;
     color: #FFF;
-    background-color: #7b1315;
+    background-color: #082326;
     border-radius: 15px;
     font-size: 18px;
     text-align: center;
@@ -135,7 +135,7 @@
     {
         
         font-weight:700;
-        color:#7b1315;
+        color:#082326;
     }
     .smallText
     {
@@ -240,7 +240,7 @@
                 <p>&nbsp;</p>
                 <p>Epicor has also received the highest score for ERP Functionality in <span class="redColor">Gartner’s 2019 Critical Capabilities report for Cloud ERP for Product-Centric Midsize Enterprises</span>. This Critical Capabilities report is aligned with the 2018 Magic Quadrant for Product-Centric Cloud ERP for Midsize Enterprises. Epicor ERP scored the <span class="redColor">highest in the ERP functionality</span> for Midsize Enterprises Use Case, scoring a 3.77 out of 5. </p>
                 <p>&nbsp;</p>
-                <p>The <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud" style="text-decoration:underline; color:#7b1315;">Epicor on the Cloud</a> ERP is robust, state-of-the-art solution with built-in analytics to facilitate better decision making and increased profitability. Read the Report to know more about Epicor on the Cloud.</p>
+                <p>The <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud" style="text-decoration:underline; color:#082326;">Epicor on the Cloud</a> ERP is robust, state-of-the-art solution with built-in analytics to facilitate better decision making and increased profitability. Read the Report to know more about Epicor on the Cloud.</p>
                 <a href="#" data-toggle="modal" data-target="#reportform"><img src="../../../Assets/images/report.png" alt="Gartner Magic Quadrant Report" class="img-responsive report" width="223" height="274"  /></a>
                 <div class="col-md-6 nopadding reg-text cont-top">Register to access Gartner Magic Quadrant Report</div>
             </div>

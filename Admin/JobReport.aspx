@@ -26,7 +26,7 @@
             padding: 6px 0;
             border: 0;
             border-radius: 2px;
-            background: #7b1315;
+            background: #082326;
             color: #fff;
             text-transform: Capitalize;
             margin: 0;

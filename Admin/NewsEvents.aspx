@@ -21,7 +21,7 @@
     {
             padding-top: 15px;
     text-align: center;
-    color: #7b1315;
+    color: #082326;
     }
     .eventTitle{
      font-size: 15px;

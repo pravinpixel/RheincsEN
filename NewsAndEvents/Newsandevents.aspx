@@ -76,7 +76,7 @@
                         <asp:Repeater ID="rptNewsEvents" runat="server">  
                     <ItemTemplate>                     
                         <div class="col-md-4 col-xs-12 col-sm-6 success-padding-left" style="height:300px; margin-bottom:30px;">                          
-                            <p style="height:55px; margin-top:30px; font-size:16px; color: #7b1315; font-weight: bold; width: 100%; float: left;"> <%#  GetImage(Eval("Title").ToString()) %></p> 
+                            <p style="height:55px; margin-top:30px; font-size:16px; color: #082326; font-weight: bold; width: 100%; float: left;"> <%#  GetImage(Eval("Title").ToString()) %></p> 
                             <br />
                             <%#  GetNewsimage(Eval("NewsImage").ToString()) %>
                             <p class="success-text1" style="color: #000; width: 100%; float: left;">

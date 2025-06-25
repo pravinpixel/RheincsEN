@@ -58,7 +58,7 @@
             text-align: center;
             width: 64px;
             border-radius: 100%;
-            color: #7B1315;
+            color: #082326;
             box-shadow: inset 0 0 0 1px #d7d7d7;
             -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
             transition: background-color 400ms,background-color 400ms;
@@ -77,11 +77,11 @@
                 right: -10px;
                 border: 4px solid #fff;
                 border-radius: 20px;
-                background: #7B1315;
+                background: #082326;
             }
 
             .redBullets-manufacturing > i:hover {
-                background-color: #7B1315;
+                background-color: #082326;
                 box-shadow: inset 0 0 0 1px #d7d7d7;
                 -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
                 transition: background-color 400ms,background-color 400ms;

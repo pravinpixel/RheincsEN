@@ -18,7 +18,7 @@
             font-size:10px !important;
         }
         .webinarurl{
-            color:#7b1315;
+            color:#082326;
             text-decoration:underline;
         }
           .btn-color {

@@ -35,7 +35,7 @@
             border-bottom: 2px solid transparent;
             padding-bottom: 28px;
             margin-bottom: -1px;
-            border-color: #7b1315 !important;
+            border-color: #082326 !important;
             font-weight: 400;
             font-size: 12px;
             font-family: sans-serif;
@@ -70,7 +70,7 @@
             text-align: center;
             width: 64px;
             border-radius: 100%;
-            color: #7B1315;
+            color: #082326;
             box-shadow: inset 0 0 0 1px #d7d7d7;
             -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
             transition: background-color 400ms,background-color 400ms;
@@ -89,11 +89,11 @@
                 right: -10px;
                 border: 4px solid #fff;
                 border-radius: 20px;
-                background: #7B1315;
+                background: #082326;
             }
 
             .redBullets-manufacturing > i:hover {
-                background-color: #7B1315;
+                background-color: #082326;
                 box-shadow: inset 0 0 0 1px #d7d7d7;
                 -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
                 transition: background-color 400ms,background-color 400ms;
@@ -444,7 +444,7 @@
                 </ul>
                  </div>
                 <p style="padding-left: 5px;">
-                    <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" style="color:#7b1315; text-decoration:underline">Click here</a> to know more about our solution or to speak with a consultant
+                    <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus" style="color:#082326; text-decoration:underline">Click here</a> to know more about our solution or to speak with a consultant
                 </p>
                 <br />
            <h5 class="deco-header" style="padding-left: 5px;">

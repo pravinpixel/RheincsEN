@@ -12,7 +12,7 @@
     <style>
         .container.thankyou {
     margin-top: 3%;
-    border: 2px solid #632424;
+    border: 2px solid #082326;
     padding: 4px;
 }
 

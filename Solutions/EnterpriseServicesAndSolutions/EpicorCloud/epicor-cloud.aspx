@@ -175,7 +175,7 @@
         }
 
         .point-text {
-            color: #7b1315 !important;
+            color: #082326 !important;
             font-weight: 700;
         }
 
@@ -187,7 +187,7 @@
             .link-text:hover {
                 text-decoration: underline;
                 font-weight: 700;
-                color: #7b1315 !important;
+                color: #082326 !important;
             }
 
         .bg-img-erp {
@@ -226,7 +226,7 @@
             text-align: center;
             width: 64px;
             border-radius: 100%;
-            color: #7B1315;
+            color: #082326;
             box-shadow: inset 0 0 0 1px #d7d7d7;
             -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
             transition: background-color 400ms,background-color 400ms;
@@ -245,11 +245,11 @@
                 right: -10px;
                 border: 4px solid #fff;
                 border-radius: 20px;
-                background: #7B1315;
+                background: #082326;
             }
 
             .redBullets-manufacturing > i:hover {
-                background-color: #7B1315;
+                background-color: #082326;
                 box-shadow: inset 0 0 0 1px #d7d7d7;
                 -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
                 transition: background-color 400ms,background-color 400ms;
@@ -426,8 +426,8 @@
                     <h2 class="redColor">Epicor on the Cloud</h2>
 
                     <div class="mainContent-normal contentdiv" style="text-align: justify">
-                        Epicor ERP has been positioned as a “Visionary” in the <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP" style="text-decoration: underline; color: #7b1315">Gartner 2018 Magic Quadrant for Cloud ERPs</a> consecutively for 2 years. As per Gartner's 2020 report, Epicor, with its strong focus on cloud and a good vision for and understanding of the direction of cloud technology, provides great flexibility in offering various cloud solutions to fit customers’ needs.
-                        <%--Epicor ERP is positioned as “Visionary” in <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP" style="text-decoration:underline; color:#7b1315">Gartner 2018 Magic Quadrant for Cloud ERP</a>. Epicor on the Cloud ERP system is robust, state-of-the-art with built-in analytics to facilitate better decision making and increased profitability.  Cloud based ERP systems are the perfect alternative to traditional on-premise ERP systems. Cloud based ERP systems work best for companies that need to control both internal and external resources. This also allows strong collaboration between suppliers and business partners. The use of the cloud to enhance the management of the supply chain has also been seen to yield positive results such as achieving desired growth rates. --%>
+                        Epicor ERP has been positioned as a “Visionary” in the <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP" style="text-decoration: underline; color: #082326">Gartner 2018 Magic Quadrant for Cloud ERPs</a> consecutively for 2 years. As per Gartner's 2020 report, Epicor, with its strong focus on cloud and a good vision for and understanding of the direction of cloud technology, provides great flexibility in offering various cloud solutions to fit customers’ needs.
+                        <%--Epicor ERP is positioned as “Visionary” in <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/gartner-magic-quadrant-ERP-perspective-on-epicor-ERP" style="text-decoration:underline; color:#082326">Gartner 2018 Magic Quadrant for Cloud ERP</a>. Epicor on the Cloud ERP system is robust, state-of-the-art with built-in analytics to facilitate better decision making and increased profitability.  Cloud based ERP systems are the perfect alternative to traditional on-premise ERP systems. Cloud based ERP systems work best for companies that need to control both internal and external resources. This also allows strong collaboration between suppliers and business partners. The use of the cloud to enhance the management of the supply chain has also been seen to yield positive results such as achieving desired growth rates. --%>
                     </div>
                     <div class="hidden-xs hidden-sm">
                         <h2 class="redColor">Benefits of Epicor on the Cloud</h2>

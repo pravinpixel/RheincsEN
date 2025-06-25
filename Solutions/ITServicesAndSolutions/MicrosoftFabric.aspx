@@ -373,7 +373,7 @@ div#footer {
 
 .modal-content {
   position: relative;
-  border: 5px solid #632424;
+  border: 5px solid #082326;
   background-color: #fff;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -390,7 +390,7 @@ div#footer {
   padding: 10px 12px;
   border: 0;
   border-radius: 2px;
-  background: #7b1315;
+  background: #082326;
   color: #fff;
   text-transform: Capitalize;
   margin: 0;
