@@ -1137,6 +1137,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 										</div>
 									</div>
 								</div>
+                                <div class="testimonial-box">
+                                    <img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text">"The launch of the IDC in Chennai marks a pivotal step forward in our collaboration with RheinBrücke. This new centre will enhance our operational efficiency and growth potential and I would like to extend my thanks to everyone involved for their hard work in making this a reality."</div>
+                                        <div class="testimonial-footer">
+                                            <div class="testimonial-footer-description">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/simon-owers.png" alt="Simon Owers" />
+                                                <p><strong>Simon Owers</strong>CFO of American Golf</p>
+                                            </div>
+                                            <div class="testimonial-footer-logo">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/american-golf-logo.png" alt="Amercian Golf" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text">"RheinBrücke has been with us through every step of our Epicor ERP journey. They’ve supported us with product management, solution architecture, configuration, and testing. What stands out is how easy it is to do business with them, simple deals, fast access to the right people, and a flexible, collaborative relationship. Their involvement has helped us standardise operations and accelerate rollouts globally. It is a partnership we truly appreciate."</div>
+                                        <div class="testimonial-footer">
+                                            <div class="testimonial-footer-description">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/mads-madsbjerg-hansen.png" alt="Mads Madsbjerg Hansen" />
+                                                <p><strong>Mads Madsbjerg Hansen</strong>Senior Vice President and Chief Innovation Officer, FLSmidth A/S</p>
+                                            </div>
+                                            <div class="testimonial-footer-logo">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/flsmidth-logo.png" alt="FLSmidth" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 								<div class="testimonial-box">
 									<img class="testimonial-quote" src="<%=rootpath %>Assets/images/Testimonial/testimonial-quote.svg" alt="" />
 									<div class="testimonial-content">
@@ -1221,6 +1251,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												<p><strong>Vinit Agarwal</strong>CEO at RAY International, Sultanate of Oman</p>
 											</div>
 											<div class="testimonial-footer-logo">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/RAY.png" alt="RAY International" class="img-responsive" />
 											</div>
 										</div>
 									</div>
@@ -1235,6 +1266,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												<p><strong>Kiranjit Kaur</strong>Finance Manager at NGC Companies Malaysia &amp; Oman</p>
 											</div>
 											<div class="testimonial-footer-logo">
+                                                <img src="<%=rootpath %>Assets/images/Testimonial/NGC.png" alt="NGC" class="img-responsive" />
 											</div>
 										</div>
 									</div>

@@ -2286,8 +2286,8 @@
                     </div>
                     <div class="success_cards">
                         <a class="_card" data-aos="fade-left" data-aos-duration="1000">
-                            <img src="../../Assets/images/cs1.png">
-                            <p>Implementation of Epicor 10 ERP at Bond Interiors, a multinational company based out of Dubai
+                            <img src="../../Assets/images/succes-stories-image-american-golf.jpg">
+                            <p>Digital Transformation of American Golf's Retail Operations
                                 <img src="../../Assets/images/arrow-right.png"></p>
                         </a>
                         <a href="https://casestudy.rheincs.com/casestudies/welding-equipment-manufacturer-implements-epicor-country-specific-functionality/" target="_blank" class="_card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
