@@ -2188,24 +2188,29 @@
                         <h2 class="common-topic h1 text-center" data-aos="fade-up" data-aos-duration="1000">Accreditations and Partnership</h2>
                         <ul class="partners-logos">
                             <li class="border-right border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+                                <a href="https://www.rheincs.com/solutions/it-services-and-solutions/microsoft-technologies">
                                 <img src="../../Assets/images/partner-microsoft-logo.jpg" class="img-responsive center-block" />
-                                Microsoft Gold Development Partner
+                                Microsoft Gold Development Partner</a>
                             </li>
                             <li class="border-right border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                                 <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/sap">
                                 <img src="../../Assets/images/partner-sap-logo.jpg" class="img-responsive center-block" />
-                                Full Services SAP BYD Consultancy
+                                Full Services SAP BYD Consultancy</a>
                             </li>
                             <li class="border-right border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
+                                <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/epicor">
                                 <img src="../../Assets/images/partner-epicor-logo.jpg" class="img-responsive center-block" />
-                                Epicor Sales & Implementation Partner
+                                Epicor Sales & Implementation Partner</a>
                             </li>
                             <li class="border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800">
+                                 <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/ms-dynamics">
                                 <img src="../../Assets/images/partner-ms-dynamics-logo.jpg" class="img-responsive center-block" />
-                                Microsoft Dynamics Solutions Specialist
+                                Microsoft Dynamics Solutions Specialist</a>
                             </li>
                             <li class="border-right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+                                <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/sugar-crm">
                                 <img src="../../Assets/images/partner-sugarcrm-logo.jpg" class="img-responsive center-block" />
-                                Sales &amp; Implementation Partner
+                                Sales &amp; Implementation Partner</a>
                             </li>
                             <li class="border-right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                                 <img src="../../Assets/images/partner-commercetools-logo.jpg" class="img-responsive center-block" />

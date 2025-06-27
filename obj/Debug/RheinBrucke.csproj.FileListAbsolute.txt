@@ -64,3 +64,4 @@ E:\Rheincs Projects\RheincsLive\bin\Org.Mentalis.Security.Cryptography.xml
 E:\Rheincs Projects\RheincsLive\bin\Mono.Math.xml
 E:\Rheincs Projects\RheincsLive\obj\Debug\RheinBrucke.dll
 E:\Rheincs Projects\RheincsLive\obj\Debug\RheinBrucke.pdb
+E:\Rheincs Projects\RheincsLive\obj\Debug\RheinBrucke.csprojResolveAssemblyReference.cache
