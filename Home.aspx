@@ -260,7 +260,7 @@
             </div>
         </div>
     </div>
-    <div id="myoffers" class="gitex-banner-container">
+  <%--  <div id="myoffers" class="gitex-banner-container">
         <div class="gitex-banner-img hidden-xs">
             <a href=" http://view.rheincs.com/Webinar-E-Invoice-UAE-Oman">
                 <img src="Assets/images/RIC-Webinar-UAE-E-Invoicing.png" class="img-responsive gitex-img gitex-banner-img-shadow center-block" width="510" />
@@ -269,7 +269,7 @@
         </div>
 
     </div>
-    
+    --%>
     <!--Gitex image-->
 
     <%--<div class="gitex-banner-container">
