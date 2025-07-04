@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="DigitalSolutionsandServices - Streamline Your Business | RheinBrücke"
-    Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="DigitalSolutionsandServices.aspx.cs" Inherits="RheinBrucke.Solutions.DigitalSolutionsandServices" %>
+    Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="DigitalSolutionsandServices.aspx.cs"
+     Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.DigitalSolutionsandServices" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="ms dynamics erp solution" />
@@ -20,6 +21,8 @@
         .approach_cards {
             display: flex;
         }
+
+        
 
             .approach_cards ._card {
                 display: flex;
@@ -658,7 +661,7 @@
         }
 
         ul.breadcrumb {
-            padding: 18px 15px 10px 30px;
+            padding: 10px 15px 10px 30px;
             margin-bottom: 1px;
         }
 
@@ -666,6 +669,7 @@
                 text-align: left;
                 letter-spacing: 0px;
                 color: #082326;
+                font-size: 14px;
             }
 
         .container.lines {
@@ -1961,17 +1965,23 @@
                     <div class="col-md-6" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1300">
                         <div class="image-animation-div1">
                             <div class="plus-big">
-                                <img src="../../Assets/images/plus-big.svg" /></div>
+                                <img src="../../Assets/images/plus-big.svg" />
+                            </div>
                             <div class="plus-small-1">
-                                <img src="../../Assets/images/plus-small.svg" /></div>
+                                <img src="../../Assets/images/plus-small.svg" />
+                            </div>
                             <div class="plus-small-2">
-                                <img src="../../Assets/images/plus-small.svg" /></div>
+                                <img src="../../Assets/images/plus-small.svg" />
+                            </div>
                             <div class="banner-icon-1" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2000">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon1.svg" /></div>
+                                <img src="../../Assets/images/digital-solution-services-banner-icon1.svg" />
+                            </div>
                             <div class="banner-icon-2" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2500">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon2.svg" /></div>
+                                <img src="../../Assets/images/digital-solution-services-banner-icon2.svg" />
+                            </div>
                             <div class="banner-icon-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="3000">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon3.svg" /></div>
+                                <img src="../../Assets/images/digital-solution-services-banner-icon3.svg" />
+                            </div>
                             <img src="../../Assets/images/digital-solution-services-banner.jpg" class="img-responsive center-block" />
                         </div>
                     </div>
@@ -2009,15 +2019,20 @@
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
                         <div class="image-animation-div2">
                             <div class="plus-big">
-                                <img src="../../Assets/images/plus-big.svg" /></div>
+                                <img src="../../Assets/images/plus-big.svg" />
+                            </div>
                             <div class="plus-big-1">
-                                <img src="../../Assets/images/plus-big-dark.svg" /></div>
+                                <img src="../../Assets/images/plus-big-dark.svg" />
+                            </div>
                             <div class="banner-icon-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon4.svg" /></div>
+                                <img src="../../Assets/images/digital-solution-services-banner-icon4.svg" />
+                            </div>
                             <div class="banner-icon-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1500">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon5.svg" /></div>
+                                <img src="../../Assets/images/digital-solution-services-banner-icon5.svg" />
+                            </div>
                             <div class="banner-icon-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1800">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon6.svg" /></div>
+                                <img src="../../Assets/images/digital-solution-services-banner-icon6.svg" />
+                            </div>
                             <img src="../../Assets/images/digital-solution-services-image1.jpg" class="img-responsive center-block" />
                         </div>
                     </div>
@@ -2046,17 +2061,23 @@
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="900">
                         <div class="image-animation-div3 transformation">
                             <div class="plus-big-1">
-                                <img src="../../Assets/images/plus-big.svg" /></div>
+                                <img src="../../Assets/images/plus-big.svg" />
+                            </div>
                             <div class="plus-big-2">
-                                <img src="../../Assets/images/plus-big.svg" /></div>
+                                <img src="../../Assets/images/plus-big.svg" />
+                            </div>
                             <div class="plus-big-3">
-                                <img src="../../Assets/images/plus-big-dark.svg" /></div>
+                                <img src="../../Assets/images/plus-big-dark.svg" />
+                            </div>
                             <div class="banner-icon-7" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon7.svg" /></div>
+                                <img src="../../Assets/images/digital-solution-services-banner-icon7.svg" />
+                            </div>
                             <div class="banner-icon-8" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1500">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon8.svg" /></div>
+                                <img src="../../Assets/images/digital-solution-services-banner-icon8.svg" />
+                            </div>
                             <div class="banner-icon-9" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1800">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon9.svg" /></div>
+                                <img src="../../Assets/images/digital-solution-services-banner-icon9.svg" />
+                            </div>
                             <img src="../../Assets/images/digital-solution-services-image2.jpg" class="img-responsive center-block" />
                         </div>
                     </div>
@@ -2112,15 +2133,20 @@
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">
                         <div class="image-animation-div3 unlock">
                             <div class="plus-big-1">
-                                <img src="../../Assets/images/plus-big.svg" /></div>
+                                <img src="../../Assets/images/plus-big.svg" />
+                            </div>
                             <div class="plus-big-3">
-                                <img src="../../Assets/images/plus-big-dark.svg" /></div>
+                                <img src="../../Assets/images/plus-big-dark.svg" />
+                            </div>
                             <div class="banner-icon-7" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900">
-                                <img src="../../Assets/images/uc1.png" /></div>
+                                <img src="../../Assets/images/uc1.png" />
+                            </div>
                             <div class="banner-icon-8" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200">
-                                <img src="../../Assets/images/uc3.png" /></div>
+                                <img src="../../Assets/images/uc3.png" />
+                            </div>
                             <div class="banner-icon-9" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1500">
-                                <img src="../../Assets/images/uc2.png" /></div>
+                                <img src="../../Assets/images/uc2.png" />
+                            </div>
                             <img src="../../Assets/images/digital-solution-services-image3.jpg" class="img-responsive center-block" />
                         </div>
                     </div>
@@ -2189,28 +2215,28 @@
                         <ul class="partners-logos">
                             <li class="border-right border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                                 <a href="https://www.rheincs.com/solutions/it-services-and-solutions/microsoft-technologies">
-                                <img src="../../Assets/images/partner-microsoft-logo.jpg" class="img-responsive center-block" />
-                                Microsoft Gold Development Partner</a>
+                                    <img src="../../Assets/images/partner-microsoft-logo.jpg" class="img-responsive center-block" />
+                                    Microsoft Gold Development Partner</a>
                             </li>
                             <li class="border-right border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
-                                 <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/sap">
-                                <img src="../../Assets/images/partner-sap-logo.jpg" class="img-responsive center-block" />
-                                Full Services SAP BYD Consultancy</a>
+                                <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/sap">
+                                    <img src="../../Assets/images/partner-sap-logo.jpg" class="img-responsive center-block" />
+                                    Full Services SAP BYD Consultancy</a>
                             </li>
                             <li class="border-right border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
                                 <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/epicor">
-                                <img src="../../Assets/images/partner-epicor-logo.jpg" class="img-responsive center-block" />
-                                Epicor Sales & Implementation Partner</a>
+                                    <img src="../../Assets/images/partner-epicor-logo.jpg" class="img-responsive center-block" />
+                                    Epicor Sales & Implementation Partner</a>
                             </li>
                             <li class="border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800">
-                                 <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/ms-dynamics">
-                                <img src="../../Assets/images/partner-ms-dynamics-logo.jpg" class="img-responsive center-block" />
-                                Microsoft Dynamics Solutions Specialist</a>
+                                <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/ms-dynamics">
+                                    <img src="../../Assets/images/partner-ms-dynamics-logo.jpg" class="img-responsive center-block" />
+                                    Microsoft Dynamics Solutions Specialist</a>
                             </li>
                             <li class="border-right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                                 <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/sugar-crm">
-                                <img src="../../Assets/images/partner-sugarcrm-logo.jpg" class="img-responsive center-block" />
-                                Sales &amp; Implementation Partner</a>
+                                    <img src="../../Assets/images/partner-sugarcrm-logo.jpg" class="img-responsive center-block" />
+                                    Sales &amp; Implementation Partner</a>
                             </li>
                             <li class="border-right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                                 <img src="../../Assets/images/partner-commercetools-logo.jpg" class="img-responsive center-block" />
@@ -2290,20 +2316,26 @@
                         <h2 class="common-topic h1 text-center">Customer Success Stories</h2>
                     </div>
                     <div class="success_cards">
-                        <a href="https://casestudy.rheincs.com/casestudies/digital-transformation-of-american-golf-retail-operation/"  target="_blank" class="_card" data-aos="fade-left" data-aos-duration="1000">
+                        <a href="https://casestudy.rheincs.com/casestudies/digital-transformation-of-american-golf-retail-operation/" target="_blank" class="_card" data-aos="fade-left" data-aos-duration="1000">
                             <img src="../../Assets/images/succes-stories-image-american-golf.jpg">
-                            <p>Digital Transformation of American Golf's Retail Operations
-                                <img src="../../Assets/images/arrow-right.png"></p>
+                            <p>
+                                Digital Transformation of American Golf's Retail Operations
+                                <img src="../../Assets/images/arrow-right.png">
+                            </p>
                         </a>
                         <a href="https://casestudy.rheincs.com/casestudies/welding-equipment-manufacturer-implements-epicor-country-specific-functionality/" target="_blank" class="_card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                             <img src="../../Assets/images/cs2.png">
-                            <p>Welding Equipment Manufacturer Implements Epicor Country Specific Functionality
-                                <img src="../../Assets/images/arrow-right.png"></p>
+                            <p>
+                                Welding Equipment Manufacturer Implements Epicor Country Specific Functionality
+                                <img src="../../Assets/images/arrow-right.png">
+                            </p>
                         </a>
                         <a href="https://casestudy.rheincs.com/casestudies/how-an-engineering-procurement/" target="_blank" class="_card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
                             <img src="../../Assets/images/cs3.png">
-                            <p>How an Engineering Procurement Construction Company overcame their challenge by implementing Epicor ERP
-                                <img src="../../Assets/images/arrow-right.png"></p>
+                            <p>
+                                How an Engineering Procurement Construction Company overcame their challenge by implementing Epicor ERP
+                                <img src="../../Assets/images/arrow-right.png">
+                            </p>
                         </a>
                     </div>
                 </div>

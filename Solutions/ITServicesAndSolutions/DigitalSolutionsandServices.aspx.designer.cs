@@ -7,11 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RheinBrucke.Solutions
-{
-
-
-    public partial class DigitalSolutionsandServices
-    {
+namespace RheinBrucke.Solutions.EnterpriseServicesAndSolutions {
+    
+    
+    public partial class DigitalSolutionsandServices {
     }
 }

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace RheinBrucke.Solutions
+namespace RheinBrucke.Solutions.EnterpriseServicesAndSolutions
 {
     public partial class DigitalSolutionsandServices : System.Web.UI.Page
     {
