@@ -18,6 +18,9 @@
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <%--  <script src="../Assets/js/jquery-2.1.1.min.js"></script>--%>
     <style>
+        .digital-solution-box p.common-para.text-blue{
+            color: #4AC8D5;
+        }
         .technology-bg{
             background: #CBF2F6;
             padding: 10px 20px;
@@ -252,6 +255,13 @@
                     left: 17px;
                 }
 
+                ul.list-style1 li span{
+                    display: block;
+                    padding-top: 20px;
+                    color: #4AC8D5;
+                    font-weight: 600;
+                }
+
         .ui-ux-bg{
             background: url(../../Assets/images/digital-solutions-bg2.jpg) center center no-repeat;
             background-size: cover;
@@ -305,6 +315,8 @@
 
             .digital-solution-box p.common-para {
                 color: #FFF;
+                font-size: 18px !important;
+    line-height: 34px !important;
             }
 
         .text-white {
@@ -1459,10 +1471,17 @@
                 animation: leftAnim3 3s linear infinite;
             }
 
+            .image-animation-div1 .plus-big{
+                left: inherit;
+                bottom: 0%;
+                right: 40%;
+                top: inherit;
+            }
+
         .image-animation-div2 .plus-big{
             position: absolute;
-                left: 30%;
-                bottom: 5%;
+                left: 35%;
+                bottom: 10%;
                 width: 20px;
                 height: 20px;
                 display: flex;
@@ -1471,10 +1490,10 @@
                 animation: leftAnim3 3s linear infinite;
         }
 
-        .image-animation-div2 .plus-small-2{
+        .image-animation-div2 .plus-small{
             position: absolute;
                 right: 15%;
-                top: 30%;
+                top: 10%;
                 width: 20px;
                 height: 20px;
                 display: flex;
@@ -1563,7 +1582,7 @@
             left: 10%;
         }
 
-        .image-animation-div1 .plus-small-1 {
+        .image-animation-div1 .plus-small {
             position: absolute;
             right: 15%;
             top: 15%;
@@ -1622,28 +1641,28 @@
         }
 
         .image-animation-div1 .banner-icon-1 {
-            top: 27%;
-            left: 12%;
+            top: 0%;
+            left: 41%;
         }
 
         .image-animation-div1 .banner-icon-2 {
-            right: 15%;
-            top: 8%;
+            right: 5%;
+            top: 58%;
         }
 
         .image-animation-div1 .banner-icon-3 {
-            right: 40%;
+            right: 50%;
             bottom: 0%;
         }
 
         .image-animation-div2 .banner-icon-4 {
-            top: 12%;
-            left: 28%;
+            top: 20%;
+            left: 20%;
         }
 
         .image-animation-div2 .banner-icon-5 {
-            bottom: 5%;
-            left: 44%;
+           top: 45%;
+    right: 5%;
         }
 
         .image-animation-div3 .banner-icon-6 {
@@ -2214,42 +2233,39 @@
         <section class="digital-services-bg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-1 col-md-12 col-sm-12 col-12"></div>
-                    <div class="col-lg-10 col-md-12 col-sm-12 col-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="over-hidd">
-                            <h2 class="common-topic h1 text-center text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Turn Data into Strategic Advantage</h2>
+                            <h2 class="common-topic h1 text-center text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Activate Data and Intelligence</h2>
                         </div>
                         <div class="over-hidd">
-                            <h3 class="text-white text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">Unlock the full potential of enterprise data, consolidating, refining, and transforming it into real-time, actionable intelligence. Operationalise your data estate and AI capabilities to drive faster, smarter decisions.</h3>
+                            <h3 class="text-white text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">Unlock the full potential of your data to drive smarter, faster business decisions. By connecting, integrating, and activating your data, we turn it into real-time, actionable intelligence that empowers you to make data-driven decisions and optimise performance at scale.</h3>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                         <div class="digital-solution-box">
-                            <img src="../../Assets/images/digital-solutions-icon7.svg" />
-                            <h4>Data Pipelining, Consolidation and Warehousing</h4>
-                            <p class="common-para line-height">Design real-time and batch data pipelines, consolidate siloed sources into data warehouses and data lakes, and support scalable AI/ML operationalisation.</p>
+                            <img src="../../Assets/images/digital-services-icon4.svg" />
+                            <h4>Integration &amp; <br/>Data Services</h4>
+                            <p class="common-para line-height">We connect your digital ecosystem with seamless integrations, real-time insights, and automated workflows using Azure Logic Apps, API Management, and Cosmos DB.</p>
+                            <p class="common-para line-height text-blue"><strong>Tech: SQL Azure, Data Factory, Real-time Data Services</strong></p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
                         <div class="digital-solution-box">
-                            <img src="../../Assets/images/digital-solutions-icon8.svg" />
-                            <h4>AI/ML &amp; <br/>Data Analytics</h4>
-                            <p class="common-para line-height">Deploy AI solutions using Azure Machine Learning and Large Event Models (LEMs) for predictive maintenance, intelligent automation, and real-time operational insights.</p>
+                            <img src="../../Assets/images/digital-services-icon5.svg" />
+                            <h4>Data Engineering &amp; <br/>Warehousing</h4>
+                            <p class="common-para line-height">Engineer scalable data pipelines and modern cloud warehouses to unlock enterprise insights. We build and manage secure, optimised data platforms for advanced analytics using Azure Data Lake, Synapse Analytics, and Delta Lake architectures.</p>
+                            <p class="common-para line-height text-blue"><strong>Tech: Azure Data Lake, Synapse Analytics, Delta Lake, Azure Data Factory</strong></p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
                         <div class="digital-solution-box">
-                            <img src="../../Assets/images/digital-solutions-icon9.svg" />
-                            <h4>Data <br/>Visualisation</h4>
-                            <p class="common-para line-height">Create executive-ready, dynamic dashboards and interactive data stories with Tableau, Power BI and others that enable business users with self-service analytics and decision-making at speed.</p>
+                            <img src="../../Assets/images/digital-services-icon6.svg" />
+                            <h4>AI &amp; <br/>Analytics</h4>
+                            <p class="common-para line-height">We operationalise AI and analytics with Azure Machine Learning, delivering predictive insights and process automation. Power BI and Tableau turn data into actionable intelligence for smarter, faster decisions.</p>
+                            <p class="common-para line-height text-blue"><strong>Tech: Azure Machine Learning, Power BI, Tableau</strong></p>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines" data-aos="fade-up" data-aos-duration="1000">
-                        <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Know More</a>
                     </div>
                 </div>
             </div>
@@ -2257,140 +2273,101 @@
         <div class="container">
             <section class="comm-padd pad-bot-0">
                 <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-12">
+                            <div class="lines">
+                                <div class="over-hidd">
+                                    <h2 class="common-topic h1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Enhance Digital Experiences</h2>
+                                </div>
+                                <div class="over-hidd">
+                                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="common-para line-height">In a digital-first world, creating seamless and intuitive user experiences is key to driving engagement and satisfaction. We design modern, responsive, and accessible digital interfaces that empower your users and deliver exceptional experiences across all platforms.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-md-12 mob-col-reverse">
                         <div class="col-md-6">
                             <div class="lines">
                                 <div class="over-hidd">
-                                    <h2 class="common-topic h1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Empower Users and Enhance Digital Experiences</h2>
-                                </div>
-                                <div class="over-hidd">
-                                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                                        <p class="common-para line-height">Transformation isn’t just about systems, it’s about people. We deliver modern, intuitive digital experiences and empower users with tools that accelerate productivity and decision-making.</p>
-                                    </div>
                                     <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                                         <ul class="list-style1">
-                                            <li><strong>Portal, Application and Dashboard Development:</strong> Develop enterprise portals, custom applications, and real-time operational dashboards using modern frameworks and low-code/no-code tools for accelerated delivery.</li>
-                                            <li><strong>Microsoft 'Power Platform' Solutions:</strong> Build business apps, automate workflows, and deliver data-driven dashboards via Power Apps, Power Automate, and Power BI, enabling business-led development with embedded governance.</li>
+                                            <li><strong>UX/UI Services:</strong> We design intuitive, user-friendly interfaces using tools like Figma, Webflow, and Adobe XD, blending AR/VR and inclusive design. Every experience is clear, responsive, engaging, and future ready.<span>Tech: Figma, Webflow, Anima, AR/VR Design, Adobe XD</span></li>
+                                            <li><strong>Mobile Applications:</strong> We build high-performance, scalable mobile apps using React Native, Flutter, and native SDKs. Integrated with Azure, our solutions deliver reliable, engaging experiences for standalone and hybrid deployments.<span>Tech: React Native, Flutter, iOS SDK, Android SDK, Microsoft Azure, Hybrid Apps, Standalone Apps</span></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1300">
-                            <div class="image-animation-div2 mt-mrgn">
+                            <div class="image-animation-div1 mt-30">
                                 <div class="plus-big">
                                     <img src="../../Assets/images/plus-big.svg" />
                                 </div>
-                                <div class="plus-small-2">
+                                <div class="plus-small">
+                                    <img src="../../Assets/images/plus-small.svg" />
+                                </div>
+                                <div class="banner-icon-1" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1700">
+                                    <img src="../../Assets/images/digital-services-icon7.svg" />
+                                </div>
+                                <div class="banner-icon-2" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2000">
+                                    <img src="../../Assets/images/digital-services-icon8.svg" />
+                                </div>
+                                 <div class="banner-icon-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2300">
+                                    <img src="../../Assets/images/digital-services-icon9.svg" />
+                                </div>
+                                <img src="../../Assets/images/digital-services-image5.jpg" class="img-responsive center-block" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="comm-padd pad-bot-0">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-12">
+                            <div class="lines">
+                                <div class="over-hidd">
+                                    <h2 class="common-topic h1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Secure and Optimise Operations</h2>
+                                </div>
+                                <div class="over-hidd">
+                                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="common-para line-height">Building a secure and resilient IT environment is crucial for sustaining operations and ensuring business continuity. We offer a range of services to safeguard your infrastructure, optimise performance, and enable continuous, proactive management of your technology environment.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1300">
+                            <div class="image-animation-div2">
+                                <div class="plus-big">
+                                    <img src="../../Assets/images/plus-big.svg" />
+                                </div>
+                                <div class="plus-small">
                                     <img src="../../Assets/images/plus-small.svg" />
                                 </div>
                                 <div class="banner-icon-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1700">
-                                    <img src="../../Assets/images/digital-solutions-icon10.svg" />
+                                    <img src="../../Assets/images/digital-services-icon11.svg" />
                                 </div>
                                 <div class="banner-icon-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2000">
-                                    <img src="../../Assets/images/digital-solutions-icon11.svg" />
+                                    <img src="../../Assets/images/digital-services-icon10.svg" />
                                 </div>
-                                <img src="../../Assets/images/digital-solutions-image2.png" class="img-responsive center-block" />
+                                <img src="../../Assets/images/digital-services-image6.jpg" class="img-responsive center-block" />
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <section class="comm-padd">
-                <div class="row">
-                    <div class="col-md-12">                        
-                        <div class="col-md-6" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1300">
-                            <div class="image-animation-div3">
-                                <div class="plus-big">
-                                    <img src="../../Assets/images/plus-big.svg" />
-                                </div>
-                                <div class="plus-small">
-                                    <img src="../../Assets/images/plus-small.svg" />
-                                </div>
-                                <div class="banner-icon-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1700">
-                                    <img src="../../Assets/images/digital-solutions-icon12.svg" />
-                                </div>
-                                <div class="banner-icon-7" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2000">
-                                    <img src="../../Assets/images/digital-solutions-icon13.svg" />
-                                </div>
-                                <img src="../../Assets/images/digital-solutions-image3.jpg" class="img-responsive center-block" />
-                            </div>
-                        </div>
+                        
                         <div class="col-md-6">
                             <div class="lines">
                                 <div class="over-hidd">
-                                    <h2 class="common-topic h1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Modernise Commerce and Customer Engagement</h2>
-                                </div>
-                                <div class="over-hidd">
-                                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                                        <p class="common-para line-height">We help businesses transform how they engage customers and deliver digital experiences.</p>
-                                    </div>
                                     <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                                         <ul class="list-style1">
-                                            <li><strong>eCommerce Modernisation:</strong> Architect composable eCommerce solutions using MACH principles, integrating omnichannel experiences, scalable microservices, and operational dashboards for continuous KPI tracking.</li>
+                                            <li><strong>Managed Services:</strong> We deliver 24/7 monitoring, proactive support, and optimisation to keep your IT environment secure and resilient. Using Azure Sentinel and Defender, we protect against threats and enhance performance.<span>Tech: Azure Sentinel, Azure Defender, Proactive Security Management</span></li>
+                                            <li><strong>Identity Solutions:</strong> We secure access with Zero Trust architectures and Microsoft Entra for identity management and MFA, ensuring protected, compliant operations.<span>Tech: Microsoft Entra, Zero Trust, MFA</span></li>
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <section class="ui-ux-bg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-1 col-md-12 col-sm-12 col-12"></div>
-                    <div class="col-lg-10 col-md-12 col-sm-12 col-12">
-                        <div class="over-hidd">
-                            <h2 class="common-topic h1 text-center text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">UI /UX - User-Centric Design</h2>
-                        </div>
-                        <div class="over-hidd">
-                            <h4 class="text-white text-center line-height" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">We Deliver intuitive, enterprise-grade interfaces by applying user-centric principles to create seamless experiences and accelerate user adoption.</h4>
-                        </div>
-                        <div class="over-hidd">
-                            <h4 class="text-white text-center line-height" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900"><strong>User Experience:</strong><br/>Deliver immersive, high-performance, and accessible digital experiences with modern front-end frameworks, rapid prototyping, AR/VR interfaces, and WCAG-compliant design systems.</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="container">
-            <section class="comm-padd pad-bot-0">
-                <div class="row">
-                    <div class="col-md-12 mob-col-reverse">
-                        <div class="col-md-6 col-lg-7">
-                            <div class="lines">
-                                <div class="over-hidd">
-                                    <h2 class="common-topic h1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Safeguard Operations and Drive Continuous Optimisation</h2>
-                                </div>
-                                <div class="over-hidd">
-                                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                                        <p class="common-para line-height">Ensure operational resilience, security, and continuous performance improvement. We help you protect, monitor, and refine your environment — so your business stays ahead, always.</p>
-                                    </div>
-                                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                                        <ul class="list-style1">
-                                            <li><strong>Managed Services & Security Governance:</strong> Deliver managed security services with Microsoft Entra, Defender, and Azure Sentinel. Monitor infrastructure health, operational KPIs, and real-time feedback loops, embedding continuous optimisation and business continuity planning.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-5" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1300">
-                            <div class="image-animation-div4">
-                                <div class="plus-big">
-                                    <img src="../../Assets/images/plus-big.svg" />
-                                </div>
-                                <div class="plus-small">
-                                    <img src="../../Assets/images/plus-small.svg" />
-                                </div>
-                                <div class="banner-icon-8" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1700">
-                                    <img src="../../Assets/images/digital-solutions-icon14.svg" />
-                                </div>
-                                <div class="banner-icon-9" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2000">
-                                    <img src="../../Assets/images/digital-solutions-icon15.svg" />
-                                </div>
-                                <img src="../../Assets/images/digital-solutions-image4.jpg" class="img-responsive center-block" />
                             </div>
                         </div>
                     </div>
@@ -2402,20 +2379,15 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="over-hidd">
-                            <h2 class="common-topic h1 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Delivering Outcomes, Operationalised</h2>
+                            <h2 class="common-topic text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><strong>Built for Today, Ready for What’s Next</strong></h2>
                         </div>
                         <div class="over-hidd">
                             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                                <p class="common-para line-height">From modernising enterprise platforms and activating AI-driven insights to transforming digital commerce and securing operations, our solutions deliver measurable, scalable outcomes — built for today and ready for what’s next.</p>
-                            </div>
-                        </div>
-                        <div class="over-hidd">
-                            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-                                <p class="common-para line-height">But transformation doesn’t stop at deployment. With continuous KPI tracking, real-time performance optimisation, and an agile, outcome-led approach, we help your business stay ahead of change and lead with confidence.</p>
+                                <p class="common-para line-height text-center">Every engagement is designed for measurable value — modernising systems, activating data, transforming user experiences, and safeguarding operations.</p>
                             </div>
                         </div>                        
                         <div class="over-hidd">
-                            <h2 class="common-topic text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><strong>Ready to operationalise your digital future? Connect with our team for a discovery session and explore how we can deliver measurable value for your business.</strong></h2>
+                            <h2 class="common-topic text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><strong>Let’s operationalise your digital future.</strong></h2>
                         </div>
                         <div class="scroll-down-btn home">
                             <div class="chevron"></div>
@@ -2435,7 +2407,7 @@
                         <div class="col-lg-12 nopadding">
                             <h2 class="common-topic pb-20 h1 text-white">Contact Us</h2>
                         </div>
-                        <span class="book-form text-white">Partner with RheinBrücke Technology and leverage the power of Microsoft solutions to transform your business. Contact us now to get started with the future of technology</span>
+                        <span class="book-form text-white">Partner with RheinBrücke and leverage the power of Digital Solutions to transform your business. Contact us now to get started with the future of technology.</span>
                         <!-- <div class="img-boxer">
                      <img src="../../Assets/images/Corus-HR-Brochure-Thumbnail.png" width="379px" height="542px" alt="" class="img-responsive center-block" />
                      </div> -->
