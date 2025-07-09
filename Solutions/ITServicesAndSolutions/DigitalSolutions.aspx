@@ -1,6 +1,6 @@
-﻿<%@ Page Title="DigitalSolutionsandServices - Streamline Your Business | RheinBrücke"
-    Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="DigitalSolutionsandServices.aspx.cs"
-     Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.DigitalSolutionsandServices" %>
+<%@ Page Title="DigitalSolutions - Streamline Your Business | RheinBrücke"
+    Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="DigitalSolutions.aspx.cs"
+     Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.DigitalSolutions" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="ms dynamics erp solution" />
@@ -8,9 +8,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <title>Epicor Customer Experience</title>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="../Assets/css/bootstrap-min.css" rel="stylesheet" />
     <link href="../Assets/css/LandingStyleSheet.css" rel="stylesheet" />
     <link href="../Assets/css/media-q.css" rel="stylesheet" />
@@ -18,12 +18,112 @@
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <%--  <script src="../Assets/js/jquery-2.1.1.min.js"></script>--%>
     <style>
-        .approach_cards {
-            display: flex;
+
+        .scroll-down-btn {
+            position: relative;
+            margin: 0 auto;
+            width: 30px;
+            padding: 30px;
+            height: 50px;
+            left: calc(50% - 15px);
+            display: inline-block;
         }
 
         
+        .scroll-down-btn .chevron {
+            position: absolute;
+            width: 28px;
+            height: 5px;
+            opacity: 0;
+            left: calc(50% - 14px);
+            transform: scale3d(0.5, 0.5, 0.5);
+            animation: move 3s ease-out infinite;
+        }
 
+        .scroll-down-btn .chevron:first-child {
+            animation: move 3s ease-out 1s infinite;
+        }
+
+        .scroll-down-btn .chevron:nth-child(2) {
+            animation: move 3s ease-out 2s infinite;
+        }
+
+        .scroll-down-btn .chevron:before,
+        .scroll-down-btn .chevron:after {
+            content: ' ';
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 51%;
+            background: #082326;
+        }
+
+        .scroll-down-btn .chevron:before {
+            left: 0;
+            transform: skew(0deg, 30deg);
+        }
+
+        .scroll-down-btn .chevron:after {
+            right: 0;
+            width: 50%;
+            transform: skew(0deg, -30deg);
+        }
+
+        @keyframes move {
+            25% {
+                opacity: 1;
+
+            }
+
+            33% {
+                opacity: 1;
+                transform: translateY(30px);
+            }
+
+            67% {
+                opacity: 1;
+                transform: translateY(40px);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+            }
+        }
+
+        .border-content{
+            padding: 30px 0px 20px 0px;
+            border-bottom: 1px dashed #0823264d;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .border-content .border-content-heading{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 20px;
+            color: #222323;
+            font-family: 'Inter', sans-serif !important;
+            font-size: 20px;
+            line-height: 32px;
+            font-weight: 600;
+            width: 35%;
+        }
+        .border-content .border-content-text{
+            width: 55%;
+        }
+        .approach_cards {
+            display: flex;
+        }
+.main-banners-bnr {
+      position: relative;
+      background-image: url('../../../Assets/images/digital-solutions-banner.jpg');
+      width: 100%;
+      height: 300px;
+      background-position: center top;
+      }
+        
             .approach_cards ._card {
                 display: flex;
                 flex-direction: column;
@@ -80,6 +180,7 @@
                 padding: 20px;
                 font-size: 18px;
                 text-align: center;
+                
             }
 
                 ul.partners-logos li.border-right {
@@ -107,6 +208,7 @@
                 font-size: 18px;
                 line-height: 30px;
                 transition: all 0.6s ease;
+                font-family: 'Inter', sans-serif !important;
             }
 
                 ul.list-style1 li:before {
@@ -145,13 +247,28 @@
                     left: 17px;
                 }
 
+        .ui-ux-bg{
+            background: url(../../Assets/images/digital-solutions-bg2.jpg) center center no-repeat;
+            background-size: cover;
+            padding: 50px 0px 0px 0px;
+        }
+
         .digital-services-bg {
-            background: url(../../Assets/images/digital-solution-services-bg.jpg) center center no-repeat;
+            background: url(../../Assets/images/digital-services-bg1.jpg) center center no-repeat;
             background-size: cover;
             padding: 50px 0px 20px 0px;
         }
 
-            .digital-services-bg .container {
+        .digital-services-bg h3, .ui-ux-bg h4{
+            line-height: 40px;
+        }
+
+        .ui-ux-bg h4{
+            margin: 20px 0px 50px 0px;
+            font-size: 20px;
+        }
+
+            .digital-services-bg .container, .ui-ux-bg .container {
                 padding: 0px 40px;
             }
 
@@ -166,19 +283,23 @@
                     color: #082326 !important;
                 }
 
-        .digital-solution-box {
-            border-radius: 20px;
-            overflow: hidden;
-            background: #FFF;
-            margin: 20px 0px 40px 0px;
-            min-height: 280px;
+        .digital-solution-box{
+            padding-right: 30px;
+            padding-top: 40px;
         }
 
-            .digital-solution-box p {
-                padding: 15px;
-                font-size: 16px;
-                line-height: 30px;
-                margin-bottom: 0px;
+        .digital-solution-box h4{
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            padding-bottom: 20px;
+            color: #FFF;
+            border-bottom: 1px solid #FFF;
+            font-family: 'Inter', sans-serif !important;
+        }
+
+            .digital-solution-box p.common-para {
+                color: #FFF;
             }
 
         .text-white {
@@ -191,7 +312,7 @@
             padding: 30px 0px 20px 0px;
         }
 
-            .counter-bg .container, .digital-services-bg .container {
+            .counter-bg .container, .digital-services-bg .container, .ui-ux-bg .container {
                 background: transparent !important;
             }
 
@@ -692,6 +813,11 @@
             z-index: 0;
         }
 
+        .banner-liners h2{
+            margin-top: 0px !important;
+            font-weight: 600;
+        }
+
         .lines a {
             border-radius: 8px;
             border: 1px solid #082326;
@@ -711,6 +837,17 @@
                 color: #FFF !important;
                 transition: all 0.5s ease;
             }
+        
+        .banner-liners .lines a{
+            background: #082326;
+            border: 1px solid #FFF;
+            color: #FFF !important;
+        }
+         .banner-liners .lines a:hover{
+            background: #FFF !important;
+            border: 1px solid #FFF;
+            color: #082326 !important;
+        }
 
         .lines h1 {
             font-family: "Raleway", sans-serif !important;
@@ -750,21 +887,23 @@
             margin: 0px !important;
         }
 
+        
+
         .common-topic.h1 {
             color: #2F2F2F;
-            font-size: 40px;
-            font-weight: 700;
+            font-size: 40px !important;
+            font-weight: 600;
             line-height: 50px !important;
-            margin-bottom: 20px !important;
+            margin-bottom: 0px !important;
+            margin-top: 30px;
         }
 
         p.common-para {
             font-size: 17px !important;
             line-height: 27px;
             color: #2F2F2F;
-            margin: 0px;
-            margin-top: 0px;
-            margin-top: 10px;
+            margin: 10px 0px 20px 0px;
+            font-family: 'Inter', sans-serif !important;
         }
 
             p.common-para.line-height {
@@ -1299,14 +1438,14 @@
             overflow: hidden;
         }
 
-        .image-animation-div1, .image-animation-div2, .image-animation-div3 {
+        .image-animation-div1, .image-animation-div2, .image-animation-div3, .image-animation-div4 {
             position: relative;
         }
 
-            .image-animation-div1 .plus-big, .image-animation-div2 .plus-big, .image-animation-div3 .plus-big-1, .image-animation-div3 .plus-big-2, .image-animation-div3 .plus-big-3 {
+            .image-animation-div1 .plus-big, .image-animation-div3 .plus-big-1, .image-animation-div3 .plus-big, .image-animation-div3 .plus-small, .image-animation-div3 .plus-big-3, .image-animation-div4 .plus-big, .image-animation-div4 .plus-small {
                 position: absolute;
-                left: 38%;
-                top: 0;
+                left: 24%;
+                top: 10%;
                 width: 30px;
                 height: 30px;
                 display: flex;
@@ -1314,6 +1453,34 @@
                 justify-content: center;
                 animation: leftAnim3 3s linear infinite;
             }
+
+        .image-animation-div2 .plus-big{
+            position: absolute;
+                left: 30%;
+                bottom: 5%;
+                width: 20px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: leftAnim3 3s linear infinite;
+        }
+
+        .image-animation-div2 .plus-small-2{
+            position: absolute;
+                right: 15%;
+                top: 30%;
+                width: 20px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: leftAnim3 3s linear infinite;
+        }
+
+        .image-animation-div2 .plus-big img, .image-animation-div2 .plus-small-2 img{
+            width: 20px;
+        }
 
         @-webkit-keyframes rotateLeft {
             from {
@@ -1325,21 +1492,40 @@
             }
         }
 
-        .image-animation-div3 .plus-big-1 {
-            left: 5%;
-            top: 10%;
+        .image-animation-div1 .plus-big img, .image-animation-div3 .plus-big img, .image-animation-div4 .plus-big img {
+            max-width: 20px;
+        }
+
+        .image-animation-div3 .plus-big {
+            right: 5%;
+            top: inherit;
+            left: inherit;
+            bottom: 10%;
             animation: leftAnim3 2s linear infinite;
         }
 
-        .image-animation-div3 .plus-big-2 {
-            right: 12%;
-            top: 16%;
-            left: unset;
+        .image-animation-div3 .plus-small {
+           top: 6%;
+    left: 44%;
         }
 
         .image-animation-div3 .plus-big-3 {
             bottom: 0;
             top: unset;
+            animation: leftAnim3 2s linear infinite;
+        }
+
+        .image-animation-div4 .plus-small {
+           top: 15%;
+    right: 19%;
+    left: inherit;
+    animation: leftAnim3 2s linear infinite;
+        }
+
+        .image-animation-div4 .plus-big {
+            bottom: 5%;
+            top: inherit;
+            left: 10%;
             animation: leftAnim3 2s linear infinite;
         }
 
@@ -1386,8 +1572,8 @@
 
         .image-animation-div1 .plus-small-2 {
             position: absolute;
-            left: 20%;
-            bottom: 0%;
+            left: 30%;
+            bottom: 5%;
             width: 30px;
             height: 30px;
             display: flex;
@@ -1418,7 +1604,7 @@
             animation: leftAnim3 2s linear infinite;
         }
 
-        .image-animation-div1 .banner-icon-1, .image-animation-div1 .banner-icon-2, .image-animation-div1 .banner-icon-3, .image-animation-div2 .banner-icon-4, .image-animation-div2 .banner-icon-5, .image-animation-div2 .banner-icon-6, .image-animation-div3 .banner-icon-7, .image-animation-div3 .banner-icon-8, .image-animation-div3 .banner-icon-9 {
+        .image-animation-div1 .banner-icon-1, .image-animation-div1 .banner-icon-2, .image-animation-div1 .banner-icon-3, .image-animation-div2 .banner-icon-4, .image-animation-div2 .banner-icon-5, .image-animation-div3 .banner-icon-6, .image-animation-div3 .banner-icon-7, .image-animation-div4 .banner-icon-8, .image-animation-div4 .banner-icon-9 {
             position: absolute;
             width: 80px;
             height: 80px;
@@ -1431,51 +1617,51 @@
         }
 
         .image-animation-div1 .banner-icon-1 {
-            top: 10%;
-            left: 0%;
+            top: 27%;
+            left: 12%;
         }
 
         .image-animation-div1 .banner-icon-2 {
-            left: 40%;
-            bottom: 0%;
+            right: 15%;
+            top: 8%;
         }
 
         .image-animation-div1 .banner-icon-3 {
-            right: 0%;
-            bottom: 20%;
+            right: 40%;
+            bottom: 0%;
         }
 
         .image-animation-div2 .banner-icon-4 {
-            top: 10%;
-            left: 15%;
+            top: 12%;
+            left: 28%;
         }
 
         .image-animation-div2 .banner-icon-5 {
-            right: 15%;
-            top: 10%;
+            bottom: 5%;
+            left: 44%;
         }
 
-        .image-animation-div2 .banner-icon-6 {
+        .image-animation-div3 .banner-icon-6 {
             left: 25%;
-            bottom: 5%;
+    top: 10%;
         }
 
         .image-animation-div3 .banner-icon-7 {
-            right: 30%;
+               left: 57%;
+    bottom: 5%;
+        }
+
+        .image-animation-div4 .banner-icon-8 {
             top: 5%;
+            left: 20%;
         }
 
-        .image-animation-div3 .banner-icon-8 {
-            bottom: 15%;
-            right: 20%;
+        .image-animation-div4 .banner-icon-9 {
+            right: 14%;
+            bottom: 10%;
         }
 
-        .image-animation-div3 .banner-icon-9 {
-            left: 5%;
-            bottom: 15%;
-        }
-
-            .image-animation-div1 .banner-icon-1 img, .image-animation-div1 .banner-icon-2 img, .image-animation-div1 .banner-icon-3 img, .image-animation-div2 .banner-icon-4 img, .image-animation-div2 .banner-icon-5 img, .image-animation-div2 .banner-icon-6 img, .image-animation-div3 .banner-icon-7 img, .image-animation-div3 .banner-icon-8 img, .image-animation-div3 .banner-icon-9 img {
+            .image-animation-div1 .banner-icon-1 img, .image-animation-div1 .banner-icon-2 img, .image-animation-div1 .banner-icon-3 img, .image-animation-div2 .banner-icon-4 img, .image-animation-div2 .banner-icon-5 img, .image-animation-div2 .banner-icon-6 img, .image-animation-div3 .banner-icon-7 img, .image-animation-div4 .banner-icon-8 img, .image-animation-div4 .banner-icon-9 img {
                 max-width: 60%;
             }
 
@@ -1617,9 +1803,6 @@
                 margin-bottom: 30px;
             }
 
-            .banner-liners {
-                top: 20%;
-            }
 
             .form-div-epicor {
                 position: relative;
@@ -1642,6 +1825,12 @@
         }
 
         @media (max-width:980px) {
+            .border-content{
+                flex-wrap: wrap;
+            }
+            .border-content .border-content-heading, .border-content .border-content-text{
+                width: 100%;
+            }
             .mob-col-reverse, .align-items-center.mob-col-reverse {
                 display: flex !important;
                 flex-direction: column-reverse;
@@ -1654,6 +1843,11 @@
             .common-topic.h1 {
                 font-size: 26px !important;
                 line-height: 40px !important;
+            }
+
+            .banner-liners h2{
+                font-size: 20px;
+                line-height: 30px;
             }
 
             p.common-para.line-height {
@@ -1871,10 +2065,6 @@
                 width: 100%;
             }
 
-            .banner-liners {
-                top: 60px;
-            }
-
             .section-layer {
                 padding: 30px 45px;
             }
@@ -1936,413 +2126,339 @@
                 <ul class="breadcrumb bread hidden-xs hidden-sm">
                     <li><a href="<%=rootpath %>" class="redColor">Home <span>» </span></a></li>
                     <li><a href="#" class="redColor">Solutions<span> » </span></a></li>
-                    <li><a href="#" class="redColor">Digital Solutions and Services</a></li>
+                    <li><a href="#" class="redColor">Digital Solutions</a></li>
                 </ul>
             </div>
         </div>
         <!--Breadcrumb row-->
         <!--banner-->
+         <div class="row">
+            <div class="col-md-12">
+                <div class="main-banners-bnr">
+               <div class="banner-liners">
+                  <div class="container lines">
+                     <div class="over-hidd">
+                        <h1 class="common-topic h1 text-white" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Digital Solutions
+                        </h1>
+                        <h2 class="text-white" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">Innovating Business, <br/>One Solution at a Time</h2>
+                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+                            <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               </div>
+            </div>
+         </div>
+        <!--banner-->
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 mob-col-reverse">
-                    <div class="col-md-6">
-                        <div class="lines">
-                            <div class="over-hidd">
-                                <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300"><b>Digital Solutions & Services</b><br />
-                                    Bridging the gap between Technology and Business
-                                </h1>
-                            </div>
-                            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
-                                <p><strong>Strategic Execution:</strong> Bridging the business strategy and technology execution gap.</p>
-                                <p><strong>Results-Driven:</strong> Pragmatic, outcome-oriented transformation programs.</p>
-                                <p><strong>Business-First Approach:</strong> Combining deep tech expertise with business-focused consulting.</p>
-                                <p><strong>Proven Methodology:</strong> Our Analyse–Integrate–Transform model ensures alignment and execution.</p>
-                                <p><strong>Sustainable Value:</strong> We deliver measurable, scalable, and lasting impact.</p>
-                                <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a>
+            <section class="comm-padd pad-bot-0">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <div class="lines">
+                                <div class="over-hidd">
+                                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="common-para line-height">We deliver outcome-driven solutions that combine advanced technology, proven frameworks, and scalable architectures to solve complex business challenges. Driven by our Analyse-Integrate-Transform framework, every engagement is built for measurable, sustained impact.</p>
+                                    </div>
+                                </div>
+                                <div class="over-hidd">
+                                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                                        <p class="common-para line-height">Every successful digital transformation starts with a solid foundation of analysis, becomes truly valuable through data and intelligence, delivers tangible outcomes via integration of applications and commerce channels, and endures through resilient operations and governance.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1300">
-                        <div class="image-animation-div1">
-                            <div class="plus-big">
-                                <img src="../../Assets/images/plus-big.svg" />
+                        <div class="col-md-6" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1300">
+                            <div class="image-animation-div1">
+                                <div class="plus-big">
+                                    <img src="../../Assets/images/plus-big.svg" />
+                                </div>
+                                <div class="plus-small-2">
+                                    <img src="../../Assets/images/plus-small.svg" />
+                                </div>
+                                <div class="banner-icon-1" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2000">
+                                    <img src="../../Assets/images/digital-solutions-icon1.svg" />
+                                </div>
+                                <div class="banner-icon-2" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2300">
+                                    <img src="../../Assets/images/digital-solutions-icon2.svg" />
+                                </div>
+                                <div class="banner-icon-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                                    <img src="../../Assets/images/digital-solutions-icon3.svg" />
+                                </div>
+                                <img src="../../Assets/images/digital-solutions-image1.png" class="img-responsive center-block" />
                             </div>
-                            <div class="plus-small-1">
-                                <img src="../../Assets/images/plus-small.svg" />
-                            </div>
-                            <div class="plus-small-2">
-                                <img src="../../Assets/images/plus-small.svg" />
-                            </div>
-                            <div class="banner-icon-1" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2000">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon1.svg" />
-                            </div>
-                            <div class="banner-icon-2" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2500">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon2.svg" />
-                            </div>
-                            <div class="banner-icon-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="3000">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon3.svg" />
-                            </div>
-                            <img src="../../Assets/images/digital-solution-services-banner.jpg" class="img-responsive center-block" />
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
         <!--banner-->
-        <section class="counter-bg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                        <div class="counter-box">
-                            <span class="counter">100</span>+
-                     <h4>Customers</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
-                        <div class="counter-box">
-                            <span class="counter">13</span>+
-                     <h4>Years of Experience</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
-                        <div class="counter-box">
-                            <span class="counter">50</span>+
-                     <h4>Success Stories</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section class="comm-padd pad-bot-0">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
-                        <div class="image-animation-div2">
-                            <div class="plus-big">
-                                <img src="../../Assets/images/plus-big.svg" />
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="over-hidd">
+                            <h2 class="common-topic h1 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Build the Modern Enterprise Foundation</h2>
+                        </div>
+                        <div class="over-hidd">
+                            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                                <p class="common-para line-height">Transformation begins by rethinking and modernising the enterprise core, the platforms, architecture, and integrated systems that drive business operations.</p>
                             </div>
-                            <div class="plus-big-1">
-                                <img src="../../Assets/images/plus-big-dark.svg" />
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                                <p class="common-para line-height">We help organisations evolve from legacy systems to agile, cloud-native, mobile enabled scalable architecture, enabling faster innovation and operational flexibility. Microservices, API-first, Cloud and Headless or MACH architecture drive agile and scalable transformation.</p>
                             </div>
-                            <div class="banner-icon-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon4.svg" />
-                            </div>
-                            <div class="banner-icon-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1500">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon5.svg" />
-                            </div>
-                            <div class="banner-icon-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1800">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon6.svg" />
-                            </div>
-                            <img src="../../Assets/images/digital-solution-services-image1.jpg" class="img-responsive center-block" />
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="over-hidd">
-                            <h2 class="common-topic h1" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">Why Digital Transformation Matters</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="border-content" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                            <div class="border-content-heading">
+                                <img src="../../Assets/images/digital-solutions-icon4.svg" />
+                                Enterprise Architecture Platform as a Service
+                            </div>
+                            <div class="border-content-text">
+                                <p class="common-para line-height">Implement API-first, composable architectures with scalable infrastructure, integration frameworks, and governance controls.</p>
+                            </div>
                         </div>
-                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                            <p class="common-para line-height">Transforming a business is complex, costly, and critical—often triggered by PE investment, restructuring, or market shifts. Success requires expert advice on strategy and architecture, strong program control, flexible resourcing, and effective stakeholder engagement. RheinBrücke’s model delivers predictable, controlled outcomes for your business.</p>
+                        <div class="border-content" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                            <div class="border-content-heading">
+                                <img src="../../Assets/images/digital-solutions-icon5.svg" />
+                                Enterprise Software Implementation
+                            </div>
+                            <div class="border-content-text">
+                                <p class="common-para line-height">Deliver end-to-end ERP, CRM, and enterprise platform implementations with agile frameworks for rapid time-to-value and seamless business-as-usual transitions.</p>
+                            </div>
+                        </div>
+                        <div class="border-content" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+                            <div class="border-content-heading">
+                                <img src="../../Assets/images/digital-solutions-icon6.svg" />
+                                ERP-CRM Integrations & Cloud-Native Solutions
+                            </div>
+                            <div class="border-content-text">
+                                <p class="common-para line-height">Unify business processes with scalable, cloud-native app suites embedded with analytics and automation for operational control and continuous performance refinement.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="comm-padd pad-bot-0">
-            <div class="container">
-                <div class="row align-items-center mob-col-reverse">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="over-hidd">
-                            <h2 class="common-topic h1" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Transformational Challenges</h2>
-                        </div>
-                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                            <p class="common-para line-height">Enterprise transformation is complex, with operational disruption and shifting priorities. At RheinBrücke, we help organizations launch, manage, or rescue transformation programs with a focus on measurable outcomes. Our hybrid delivery model—blending offshore and local teams—ensures clear communication, fast response, and KPI-driven performance.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="900">
-                        <div class="image-animation-div3 transformation">
-                            <div class="plus-big-1">
-                                <img src="../../Assets/images/plus-big.svg" />
-                            </div>
-                            <div class="plus-big-2">
-                                <img src="../../Assets/images/plus-big.svg" />
-                            </div>
-                            <div class="plus-big-3">
-                                <img src="../../Assets/images/plus-big-dark.svg" />
-                            </div>
-                            <div class="banner-icon-7" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon7.svg" />
-                            </div>
-                            <div class="banner-icon-8" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1500">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon8.svg" />
-                            </div>
-                            <div class="banner-icon-9" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1800">
-                                <img src="../../Assets/images/digital-solution-services-banner-icon9.svg" />
-                            </div>
-                            <img src="../../Assets/images/digital-solution-services-image2.jpg" class="img-responsive center-block" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="comm-padd">
+        </section>        
+        <section class="digital-services-bg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-1 col-md-12 col-sm-12 col-12"></div>
                     <div class="col-lg-10 col-md-12 col-sm-12 col-12">
-                        <h2 class="common-topic h1 text-center" data-aos="fade-up" data-aos-duration="1000">Our AIT Approach: A Proven Framework for Transformation</h2>
-                        <h3 class="text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">At RheinBrücke, we drive outcomes with a phased approach that aligns strategy, technology, and operations.</h3>
-                        <div class="approach_cards">
-                            <div class="_card" data-aos="fade-right" data-aos-duration="1000">
-                                <h3>Analyse</h3>
-                                <a class="desktop_img" href="../../Assets/images/info-part1.png" data-fancybox>
-                                    <img src="../../Assets/images/info-part1.png" class="img-responsive center-block" /></a>
-                                <a class="mobile_img" href="../../Assets/images/info-part1-m.png" data-fancybox>
-                                    <img src="../../Assets/images/info-part1-m.png" class="img-responsive center-block" /></a>
-                                <p>Assess your current state and define clear objectives.</p>
+                        <div class="over-hidd">
+                            <h2 class="common-topic h1 text-center text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Turn Data into Strategic Advantage</h2>
+                        </div>
+                        <div class="over-hidd">
+                            <h3 class="text-white text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">Unlock the full potential of enterprise data, consolidating, refining, and transforming it into real-time, actionable intelligence. Operationalise your data estate and AI capabilities to drive faster, smarter decisions.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="digital-solution-box">
+                            <img src="../../Assets/images/digital-solutions-icon7.svg" />
+                            <h4>Data Pipelining, Consolidation and Warehousing</h4>
+                            <p class="common-para line-height">Design real-time and batch data pipelines, consolidate siloed sources into data warehouses and data lakes, and support scalable AI/ML operationalisation.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
+                        <div class="digital-solution-box">
+                            <img src="../../Assets/images/digital-solutions-icon8.svg" />
+                            <h4>AI/ML &amp; <br/>Data Analytics</h4>
+                            <p class="common-para line-height">Deploy AI solutions using Azure Machine Learning and Large Event Models (LEMs) for predictive maintenance, intelligent automation, and real-time operational insights.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
+                        <div class="digital-solution-box">
+                            <img src="../../Assets/images/digital-solutions-icon9.svg" />
+                            <h4>Data <br/>Visualisation</h4>
+                            <p class="common-para line-height">Create executive-ready, dynamic dashboards and interactive data stories with Tableau, Power BI and others that enable business users with self-service analytics and decision-making at speed.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines" data-aos="fade-up" data-aos-duration="1000">
+                        <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <section class="comm-padd pad-bot-0">
+                <div class="row">
+                    <div class="col-md-12 mob-col-reverse">
+                        <div class="col-md-6">
+                            <div class="lines">
+                                <div class="over-hidd">
+                                    <h2 class="common-topic h1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Empower Users and Enhance Digital Experiences</h2>
+                                </div>
+                                <div class="over-hidd">
+                                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="common-para line-height">Transformation isn’t just about systems, it’s about people. We deliver modern, intuitive digital experiences and empower users with tools that accelerate productivity and decision-making.</p>
+                                    </div>
+                                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                                        <ul class="list-style1">
+                                            <li><strong>Portal, Application and Dashboard Development:</strong> Develop enterprise portals, custom applications, and real-time operational dashboards using modern frameworks and low-code/no-code tools for accelerated delivery.</li>
+                                            <li><strong>Microsoft 'Power Platform' Solutions:</strong> Build business apps, automate workflows, and deliver data-driven dashboards via Power Apps, Power Automate, and Power BI, enabling business-led development with embedded governance.</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="_card" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
-                                <h3>Integrate</h3>
-                                <a class="desktop_img" href="../../Assets/images/info-part2.png" data-fancybox>
-                                    <img src="../../Assets/images/info-part2.png" class="img-responsive center-block" /></a>
-                                <a class="mobile_img" href="../../Assets/images/info-part2-m.png" data-fancybox>
-                                    <img src="../../Assets/images/info-part2-m.png" class="img-responsive center-block" /></a>
-                                <p>Implement the right technology and processes.</p>
+                        </div>
+                        <div class="col-md-6" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1300">
+                            <div class="image-animation-div2 mt-mrgn">
+                                <div class="plus-big">
+                                    <img src="../../Assets/images/plus-big.svg" />
+                                </div>
+                                <div class="plus-small-2">
+                                    <img src="../../Assets/images/plus-small.svg" />
+                                </div>
+                                <div class="banner-icon-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1700">
+                                    <img src="../../Assets/images/digital-solutions-icon10.svg" />
+                                </div>
+                                <div class="banner-icon-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2000">
+                                    <img src="../../Assets/images/digital-solutions-icon11.svg" />
+                                </div>
+                                <img src="../../Assets/images/digital-solutions-image2.png" class="img-responsive center-block" />
                             </div>
-                            <div class="_card" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000">
-                                <h3>Transform</h3>
-                                <a class="desktop_img" href="../../Assets/images/info-part3.png" data-fancybox>
-                                    <img src="../../Assets/images/info-part3.png" class="img-responsive center-block" /></a>
-                                <a class="mobile_img" href="../../Assets/images/info-part3-m.png" data-fancybox>
-                                    <img src="../../Assets/images/info-part3-m.png" class="img-responsive center-block" /></a>
-                                <p>Operationalise, monitor, and optimise for lasting impact.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="comm-padd">
+                <div class="row">
+                    <div class="col-md-12">                        
+                        <div class="col-md-6" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1300">
+                            <div class="image-animation-div3">
+                                <div class="plus-big">
+                                    <img src="../../Assets/images/plus-big.svg" />
+                                </div>
+                                <div class="plus-small">
+                                    <img src="../../Assets/images/plus-small.svg" />
+                                </div>
+                                <div class="banner-icon-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1700">
+                                    <img src="../../Assets/images/digital-solutions-icon12.svg" />
+                                </div>
+                                <div class="banner-icon-7" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2000">
+                                    <img src="../../Assets/images/digital-solutions-icon13.svg" />
+                                </div>
+                                <img src="../../Assets/images/digital-solutions-image3.jpg" class="img-responsive center-block" />
                             </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="lines">
+                                <div class="over-hidd">
+                                    <h2 class="common-topic h1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Modernise Commerce and Customer Engagement</h2>
+                                </div>
+                                <div class="over-hidd">
+                                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="common-para line-height">We help businesses transform how they engage customers and deliver digital experiences.</p>
+                                    </div>
+                                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                                        <ul class="list-style1">
+                                            <li><strong>eCommerce Modernisation:</strong> Architect composable eCommerce solutions using MACH principles, integrating omnichannel experiences, scalable microservices, and operational dashboards for continuous KPI tracking.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="ui-ux-bg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1 col-md-12 col-sm-12 col-12"></div>
+                    <div class="col-lg-10 col-md-12 col-sm-12 col-12">
+                        <div class="over-hidd">
+                            <h2 class="common-topic h1 text-center text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">UI /UX - User-Centric Design</h2>
+                        </div>
+                        <div class="over-hidd">
+                            <h4 class="text-white text-center line-height" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">We Deliver intuitive, enterprise-grade interfaces by applying user-centric principles to create seamless experiences and accelerate user adoption.</h4>
+                        </div>
+                        <div class="over-hidd">
+                            <h4 class="text-white text-center line-height" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900"><strong>User Experience:</strong><br/>Deliver immersive, high-performance, and accessible digital experiences with modern front-end frameworks, rapid prototyping, AR/VR interfaces, and WCAG-compliant design systems.</h4>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="comm-padd">
-            <div class="container">
+        <div class="container">
+            <section class="comm-padd pad-bot-0">
                 <div class="row">
-                    <div class="col-lg-2 col-md-12 col-sm-12 col-12"></div>
-                    <div class="col-lg-8 col-md-12 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                        <h2 class="common-topic h1 text-center">Unlocking Business Potential with Our Advanced Solutions</h2>
+                    <div class="col-md-12 mob-col-reverse">
+                        <div class="col-md-6 col-lg-7">
+                            <div class="lines">
+                                <div class="over-hidd">
+                                    <h2 class="common-topic h1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Safeguard Operations and Drive Continuous Optimisation</h2>
+                                </div>
+                                <div class="over-hidd">
+                                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="common-para line-height">Ensure operational resilience, security, and continuous performance improvement. We help you protect, monitor, and refine your environment — so your business stays ahead, always.</p>
+                                    </div>
+                                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                                        <ul class="list-style1">
+                                            <li><strong>Managed Services & Security Governance:</strong> Deliver managed security services with Microsoft Entra, Defender, and Azure Sentinel. Monitor infrastructure health, operational KPIs, and real-time feedback loops, embedding continuous optimisation and business continuity planning.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1300">
+                            <div class="image-animation-div4">
+                                <div class="plus-big">
+                                    <img src="../../Assets/images/plus-big.svg" />
+                                </div>
+                                <div class="plus-small">
+                                    <img src="../../Assets/images/plus-small.svg" />
+                                </div>
+                                <div class="banner-icon-8" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1700">
+                                    <img src="../../Assets/images/digital-solutions-icon14.svg" />
+                                </div>
+                                <div class="banner-icon-9" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2000">
+                                    <img src="../../Assets/images/digital-solutions-icon15.svg" />
+                                </div>
+                                <img src="../../Assets/images/digital-solutions-image4.jpg" class="img-responsive center-block" />
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </section>
+        </div>
+         <section class="comm-padd">
+            <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">
-                        <div class="image-animation-div3 unlock">
-                            <div class="plus-big-1">
-                                <img src="../../Assets/images/plus-big.svg" />
-                            </div>
-                            <div class="plus-big-3">
-                                <img src="../../Assets/images/plus-big-dark.svg" />
-                            </div>
-                            <div class="banner-icon-7" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900">
-                                <img src="../../Assets/images/uc1.png" />
-                            </div>
-                            <div class="banner-icon-8" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200">
-                                <img src="../../Assets/images/uc3.png" />
-                            </div>
-                            <div class="banner-icon-9" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1500">
-                                <img src="../../Assets/images/uc2.png" />
-                            </div>
-                            <img src="../../Assets/images/digital-solution-services-image3.jpg" class="img-responsive center-block" />
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="1000">
-                        <ul class="list-style1">
-                            <li><strong>Business Intelligence (BI):</strong> Empower data-driven decisions with actionable insights.</li>
-                            <li><strong>AI/ML & Data Analytics:</strong> Harness advanced technologies to optimize operations and predict trends.</li>
-                            <li><strong>eCommerce:</strong> Enhance customer experiences and drive growth through robust digital platforms.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="<%=rootpath %>solutions/digital-solutions">Explore Our Solutions</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="digital-services-bg" data-aos="fade-up" data-aos-duration="1000">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2 col-md-12 col-sm-12 col-12"></div>
-                    <div class="col-lg-8 col-md-12 col-sm-12 col-12">
-                        <h2 class="common-topic h1 text-center text-white">Our Services</h2>
-                        <h3 class="text-white text-center">We modernize core systems and data infrastructure to help enterprises stay agile, scalable, and ready for growth.</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000">
-                        <div class="digital-solution-box">
-                            <img src="../../Assets/images/digital-services-image1.jpg" class="img-responsive center-block" />
-                            <p><strong>Architecture & Modernisation:</strong> Redesign legacy systems to align with modern business needs and technology standards.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-                        <div class="digital-solution-box">
-                            <img src="../../Assets/images/digital-services-image2.jpg" class="img-responsive center-block" />
-                            <p><strong>Enterprise Software Solutions:</strong> Implement scalable software solutions tailored to your enterprise goals.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
-                        <div class="digital-solution-box">
-                            <img src="../../Assets/images/digital-services-image3.jpg" class="img-responsive center-block" />
-                            <p><strong>Data Engineering & Warehousing:</strong> Build robust data foundations for reliable insights and performance at scale.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
-                        <div class="digital-solution-box">
-                            <img src="../../Assets/images/digital-services-image4.jpg" class="img-responsive center-block" />
-                            <p><strong>User Experience:</strong> Ensure end users and customers get a seamless and intuitive experience across platforms</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="<%=rootpath %>solutions/digital-services">Explore Our Services</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="comm-padd">
-            <div class="container">
-                <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                        <h2 class="common-topic h1 text-center" data-aos="fade-up" data-aos-duration="1000">Accreditations and Partnership</h2>
-                        <ul class="partners-logos">
-                            <li class="border-right border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
-                                <a href="https://www.rheincs.com/solutions/it-services-and-solutions/microsoft-technologies">
-                                    <img src="../../Assets/images/partner-microsoft-logo.jpg" class="img-responsive center-block" />
-                                    Microsoft Gold Development Partner</a>
-                            </li>
-                            <li class="border-right border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
-                                <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/sap">
-                                    <img src="../../Assets/images/partner-sap-logo.jpg" class="img-responsive center-block" />
-                                    Full Services SAP BYD Consultancy</a>
-                            </li>
-                            <li class="border-right border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
-                                <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/epicor">
-                                    <img src="../../Assets/images/partner-epicor-logo.jpg" class="img-responsive center-block" />
-                                    Epicor Sales & Implementation Partner</a>
-                            </li>
-                            <li class="border-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800">
-                                <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/ms-dynamics">
-                                    <img src="../../Assets/images/partner-ms-dynamics-logo.jpg" class="img-responsive center-block" />
-                                    Microsoft Dynamics Solutions Specialist</a>
-                            </li>
-                            <li class="border-right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
-                                <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/sugar-crm">
-                                    <img src="../../Assets/images/partner-sugarcrm-logo.jpg" class="img-responsive center-block" />
-                                    Sales &amp; Implementation Partner</a>
-                            </li>
-                            <li class="border-right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
-                                <img src="../../Assets/images/partner-commercetools-logo.jpg" class="img-responsive center-block" />
-                                Referal &amp; Implementation Partner
-                            </li>
-                            <li class="border-right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
-                                <img src="../../Assets/images/partner-fluentcommerce-logo.jpg" class="img-responsive center-block" />
-                                Referal &amp; Implementation Partner
-                            </li>
-                            <li data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800">
-                                <img src="../../Assets/images/partner-tableau-logo.jpg" class="img-responsive center-block" />
-                                Tableau Data Visualisation Agency
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1800">
-                        <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">See More</a>
+                        <div class="over-hidd">
+                            <h2 class="common-topic h1 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Delivering Outcomes, Operationalised</h2>
+                        </div>
+                        <div class="over-hidd">
+                            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                                <p class="common-para line-height">From modernising enterprise platforms and activating AI-driven insights to transforming digital commerce and securing operations, our solutions deliver measurable, scalable outcomes — built for today and ready for what’s next.</p>
+                            </div>
+                        </div>
+                        <div class="over-hidd">
+                            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                                <p class="common-para line-height">But transformation doesn’t stop at deployment. With continuous KPI tracking, real-time performance optimisation, and an agile, outcome-led approach, we help your business stay ahead of change and lead with confidence.</p>
+                            </div>
+                        </div>                        
+                        <div class="over-hidd">
+                            <h2 class="common-topic text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><strong>Ready to operationalise your digital future? Connect with our team for a discovery session and explore how we can deliver measurable value for your business.</strong></h2>
+                        </div>
+                        <div class="scroll-down-btn home">
+                            <div class="chevron"></div>
+                            <div class="chevron"></div>
+                            <div class="chevron"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- industries we serve start-->
-        <div class="col-md-12 nopadding industries">
-            <!--Breadcrumb row-->
-            <div class="section-layer" data-aos="fade-up" data-aos-duration="1000">
-                <div class="">
-                    <div class="col-lg-12 nopadding">
-                        <h2 class="common-topic text-center h1 text-white">Industries We Serve</h2>
-                    </div>
-                    <div class="industries_cards">
-                        <a class="_card" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="../../Assets/images/i1.png">
-                            <p>​Brand Owners & Vertical Retailers<!-- img src="../../Assets/images/arrow-right.png" --></p>
-                        </a>
-                        <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                            <img src="../../Assets/images/i2.png">
-                            <p>Retail Industry</p>
-                        </a>
-                        <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                            <img src="../../Assets/images/i3.png">
-                            <p>Distribution & Supply Chain</p>
-                        </a>
-                        <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                            <img src="../../Assets/images/i4.png">
-                            <p>​Discrete Manufacturing</p>
-                        </a>
-                        <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                            <img src="../../Assets/images/i5.png">
-                            <p>Automotive Industry</p>
-                        </a>
-                        <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                            <img src="../../Assets/images/i6.png">
-                            <p>Engineering, Procurement & Construction</p>
-                        </a>
-                        <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                            <img src="../../Assets/images/i7.png">
-                            <p>​Process Manufacturing</p>
-                        </a>
-                        <a class="_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
-                            <img src="../../Assets/images/i8.png">
-                            <p>Private Equity & Funding-backed Ventures</p>
-                        </a>
-                    </div>
-                </div>
-                <!--Eof Breadcrumb row-->
-            </div>
-        </div>
-        <!-- industries we serve end-->
-        <!-- customer success stories start -->
-        <div class="col-md-12 nopadding success" data-aos="fade-up" data-aos-duration="1000">
-            <!--Breadcrumb row-->
-            <div class="section-layer">
-                <div class="">
-                    <div class="col-lg-12 nopadding" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                        <h2 class="common-topic h1 text-center">Customer Success Stories</h2>
-                    </div>
-                    <div class="success_cards">
-                        <a href="https://casestudy.rheincs.com/casestudies/digital-transformation-of-american-golf-retail-operation/" target="_blank" class="_card" data-aos="fade-left" data-aos-duration="1000">
-                            <img src="../../Assets/images/succes-stories-image-american-golf.jpg">
-                            <p>
-                                Digital Transformation of American Golf's Retail Operations
-                                <img src="../../Assets/images/arrow-right.png">
-                            </p>
-                        </a>
-                        <a href="https://casestudy.rheincs.com/casestudies/welding-equipment-manufacturer-implements-epicor-country-specific-functionality/" target="_blank" class="_card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-                            <img src="../../Assets/images/cs2.png">
-                            <p>
-                                Welding Equipment Manufacturer Implements Epicor Country Specific Functionality
-                                <img src="../../Assets/images/arrow-right.png">
-                            </p>
-                        </a>
-                        <a href="https://casestudy.rheincs.com/casestudies/how-an-engineering-procurement/" target="_blank" class="_card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
-                            <img src="../../Assets/images/cs3.png">
-                            <p>
-                                How an Engineering Procurement Construction Company overcame their challenge by implementing Epicor ERP
-                                <img src="../../Assets/images/arrow-right.png">
-                            </p>
-                        </a>
-                    </div>
-                </div>
-                <!--Eof Breadcrumb row-->
-            </div>
-        </div>
-        <!-- customer success stories end -->
+        </section> 
         <div class="col-md-12 nopadding set-7 download_section" data-aos="fade-up" data-aos-duration="1000">
             <!--Breadcrumb row-->
             <div class="section-layer">
@@ -2395,7 +2511,7 @@
                                 <div class="form-box">
                                     <div class="form-data cnt clearfix">
                                         <a href="#" id="btnpdf" class="btndownlaodBrochure">Contact Us</a>
-                                        <a href="https://www.rheincs.com/assets/pdf/RIC-Brochure-DigitalSolutionsandServices.pdf" id="btndownload" class="btndownlaodBrochure">Download Brochure</a>
+                                        <a href="https://www.rheincs.com/assets/pdf/RIC-Brochure-DigitalSolutions.pdf" id="btndownload" class="btndownlaodBrochure">Download Brochure</a>
                                     </div>
                                 </div>
                                 <div class="form-box">
@@ -2499,7 +2615,7 @@
                     email: $('.txtContactEmail').val(),
                     phone: $('.txtPhone').val(),
                     companyname: $('.txtCompany').val(),
-                    ServiceType: "DigitalSolutionsandServices"
+                    ServiceType: "DigitalSolutions"
                 };
                 $.ajax({
                     type: 'POST',

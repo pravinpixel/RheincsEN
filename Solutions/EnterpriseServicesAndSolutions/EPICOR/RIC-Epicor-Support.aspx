@@ -946,7 +946,7 @@
 
                <div class="cusomer-excellence-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                   <div class="customer-excellence-card-image">
-                     <img src="../../../Assets/images/epicor-support-customer-excellence-image1.jpg" alt="" class="img-responsive" />
+                     <img src="../../../Assets/images/epicor-support-customer-excellence-image1.png" alt="" class="img-responsive" />
                   </div>
                   <div class="customer-excellence-card-content">
                      <h3>CorusHR</h3>
@@ -959,7 +959,7 @@
 
                <div class="cusomer-excellence-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                   <div class="customer-excellence-card-image">
-                     <img src="../../../Assets/images/epicor-support-customer-excellence-image1.jpg" alt="" class="img-responsive" />
+                     <img src="../../../Assets/images/epicor-support-customer-excellence-image2.png" alt="" class="img-responsive" />
                   </div>
                   <div class="customer-excellence-card-content">
                      <h3>MeRLIN Sourcing</h3>
@@ -972,7 +972,7 @@
 
                <div class="cusomer-excellence-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                   <div class="customer-excellence-card-image">
-                     <img src="../../../Assets/images/epicor-support-customer-excellence-image1.jpg" alt="" class="img-responsive" />
+                     <img src="../../../Assets/images/epicor-support-customer-excellence-image3.png" alt="" class="img-responsive" />
                   </div>
                   <div class="customer-excellence-card-content">
                      <h3>Epicor Companion Products</h3>
@@ -985,7 +985,7 @@
 
                <div class="cusomer-excellence-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                   <div class="customer-excellence-card-image">
-                     <img src="../../../Assets/images/epicor-support-customer-excellence-image1.jpg" alt="" class="img-responsive" />
+                     <img src="../../../Assets/images/epicor-support-customer-excellence-image4.png" alt="" class="img-responsive" />
                   </div>
                   <div class="customer-excellence-card-content">
                      <h3>Digital Solution and Services</h3>
@@ -998,7 +998,7 @@
 
                <div class="cusomer-excellence-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                   <div class="customer-excellence-card-image">
-                     <img src="../../../Assets/images/epicor-support-customer-excellence-image1.jpg" alt="" class="img-responsive" />
+                     <img src="../../../Assets/images/epicor-support-customer-excellence-image5.png" alt="" class="img-responsive" />
                   </div>
                   <div class="customer-excellence-card-content">
                      <h3>Application Development Maintenance and Support Services</h3>
@@ -1011,7 +1011,7 @@
 
                <div class="cusomer-excellence-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                   <div class="customer-excellence-card-image">
-                     <img src="../../../Assets/images/epicor-support-customer-excellence-image1.jpg" alt="" class="img-responsive" />
+                     <img src="../../../Assets/images/epicor-support-customer-excellence-image6.png" alt="" class="img-responsive" />
                   </div>
                   <div class="customer-excellence-card-content">
                      <h3>Business Intelligence Services</h3>

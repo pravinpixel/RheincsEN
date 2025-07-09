@@ -18,6 +18,17 @@
    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
    <%-- <script src="../Assets/js/jquery-2.1.1.min.js"></script>--%>
    <style>
+      .text-white{
+         color: #FFF !important;
+      }
+      .download_section {
+            background-image: url('../../Assets/images/form-bg.jpg');
+            background-size: cover;
+        }
+
+            .download_section .form_content {
+                padding-right: 50px;
+            }
       ul.key-features {
       padding: 0px;
       margin: 0px;
@@ -150,10 +161,6 @@
       margin-top: 20px;
       justify-content: space-between;
       }
-      .form-data.cnt a.btndownlaodBrochure:hover {
-      background: #082326;
-      transition: all 500ms ease-in-out;
-      }
       .sugar-crm .ms_section.align-items-center.sugar-crm {
       margin: 0px;
       padding: 0px 15px;
@@ -161,24 +168,29 @@
       .sugar-crm .section-layer {
       padding: 30px 30px;
       }
-      .form-data.cnt a.btndownlaodBrochure {
-      background: #082326;
-      border: medium none;
-      color: #fff;
-      text-transform: uppercase;
-      width: 100%;
-      border-radius: 8px;
-      font-size: 16px;
-      transition: all 500ms ease-in-out;
-      height: 65px;
-      padding: 20px 10px;
-      margin-bottom: 25px;
-      text-transform: uppercase;
-      outline: none !important;
-      box-shadow: none !important;
-      display: block;
-      text-align: center;
-      }
+      .form-data.cnt a.btndownlaodBrochure:hover {
+            background: #2f2f2f;
+            transition: all 500ms ease-in-out;
+        }
+
+        .form-data.cnt a.btndownlaodBrochure {
+            background: #082326;
+            border: solid 1px #FFF;
+            color: #fff;
+            width: 100%;
+            border-radius: 8px;
+            font-size: 24px;
+            line-height: 20px;
+            font-weight: 500;
+            transition: all 500ms ease-in-out;
+            height: 65px;
+            padding: 20px 10px;
+            margin-bottom: 25px;
+            outline: none !important;
+            box-shadow: none !important;
+            display: block;
+            text-align: center;
+        }
       * {
       font-family: Raleway !important;
       }
@@ -2059,21 +2071,21 @@
          </div>
          <!--Eof Breadcrumb row-->
       </div>
-      <div class="col-md-12 nopadding set-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+      <div class="col-md-12 nopadding pt-20 set-6 download_section" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
          <!--Breadcrumb row-->
          <div class="section-layer">
-            <div class="row form_section">
-               <div class="col-lg-12 col-md-12 co-sm-12 col-12 nopadding">
+            <div class="row">
+               <div class="col-lg-5 col-md-4 co-sm-12 col-12">
                   <div class="over-hidd">
-                     <h2 class="common-topic pb-20 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Contact Us!</h2>
-                     <h4 class="text-center mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">Get started with RheinBrücke Technology today and unlock
-                        the potential of your data! Contact us now.
-                     </h4>
+                     <h2 class="common-topic h1 pb-20 text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Contact Us!</h2>
+                     <span class="text-white book-form mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">Get started with RheinBrücke Technology today and unlock
+                        the potential of your data! Contact us now.</span>
                   </div>
                </div>
-            </div>
-            <div class="row form_section" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
-               <div class="col-lg-6 col-md-8 co-sm-10 col-12  nopadding">
+               <div class="col-lg-1 col-md-1 co-sm-12 col-12">
+                  &nbsp;
+               </div>
+               <div class="col-lg-5 col-md-7 co-sm-12 col-12">
                   <form name="form" method="post" action="#" id="form3">
                      <div class="frm-fields clearfix">
                         <div class="form-box">

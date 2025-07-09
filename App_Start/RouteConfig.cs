@@ -152,6 +152,8 @@ namespace RheinBrucke
             routes.MapPageRoute("microsoft-dynamics", "solutions/erp-enterprise-solutions-and-services/ms-dynamics", "~/Solutions/ITServicesAndSolutions/MicrosoftDynamics.aspx");
             routes.MapPageRoute("sugar-crm", "solutions/erp-enterprise-solutions-and-services/sugar-crm", "~/Solutions/ITServicesAndSolutions/SugarCRM.aspx");
             routes.MapPageRoute("DigitalSolutionsandServices", "solutions/digital-services-and-solutions", "~/Solutions/ITServicesAndSolutions/DigitalSolutionsandServices.aspx");
+            routes.MapPageRoute("DigitalServices", "solutions/digital-services", "~/Solutions/ITServicesAndSolutions/DigitalServices.aspx");
+            routes.MapPageRoute("DigitalSolutions", "solutions/digital-solutions", "~/Solutions/ITServicesAndSolutions/DigitalSolutions.aspx");
 
             routes.MapPageRoute("microsoft-technologies", "solutions/it-services-and-solutions/microsoft-technologies", "~/Solutions/ITServicesAndSolutions/MicrosoftTechnologies/MicrosoftTechnologies.aspx");
             routes.MapPageRoute("consulting", "solutions/it-services-and-solutions/microsoft-technologies/consulting", "~/Solutions/ITServicesAndSolutions/MicrosoftTechnologies/Consulting.aspx");
