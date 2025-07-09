@@ -259,7 +259,7 @@
         }
 
         .digital-services-bg {
-            background: url(../../Assets/images/digital-services-bg1.jpg) center center no-repeat;
+            background: url(../../Assets/images/digtal-services-bg1.jpg) center center no-repeat;
             background-size: cover;
             padding: 50px 0px 20px 0px;
         }
