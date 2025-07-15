@@ -2160,7 +2160,8 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="<%=rootpath %>solutions/digital-solutions">Explore Our Solutions</a>
+                      <%--  <a href="<%=rootpath %>solutions/digital-solutions">Explore Our Solutions</a>--%>
+                          <a href="#">Explore Our Solutions</a>
                     </div>
                 </div>
             </div>
@@ -2202,7 +2203,8 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="<%=rootpath %>solutions/digital-services">Explore Our Services</a>
+                        <%--<a href="<%=rootpath %>solutions/digital-services">Explore Our Services</a>--%>
+                         <a href="#">Explore Our Services</a>
                     </div>
                 </div>
             </div>

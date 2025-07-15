@@ -953,7 +953,7 @@
                      Streamline HR processes and ensure compliance while enhancing efficiency and employee satisfaction across your organization.
                   </div>
                   <div class="customer-excellence-card-button">  
-                     <a href="#" class="common-btn border-btn">LEARN MORE</a>                   
+                     <a href="https://www.rheincs.com/solutions/CorusHR/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
                   </div>
                </div>
 
@@ -966,7 +966,7 @@
                      Streamlining sourcing operations, MeRLIN is a Strategic Direct Sourcing Solution that integrates automation, Supplier Relationship Management, planning, and Advanced Analytics.
                   </div>
                   <div class="customer-excellence-card-button">  
-                     <a href="https://merlinsourcing.com/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
+                     <a href="https://www.rheincs.com/MeRLIN-strategic-sourcing-software/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
                   </div>
                </div>
 
@@ -979,7 +979,7 @@
                      At RheinBrücke, we offer more than just Epicor ERP support—we also specialize in companion products and add-ons that enhance your ERP and support your organization’s growth.
                   </div>
                   <div class="customer-excellence-card-button">  
-                     <a href="#" class="common-btn border-btn">LEARN MORE</a>                   
+                     <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/epicor-cloud/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
                   </div>
                </div>
 
@@ -992,7 +992,7 @@
                      Bridging the gap between Technology and Business.
                   </div>
                   <div class="customer-excellence-card-button">  
-                     <a href="#" class="common-btn border-btn">LEARN MORE</a>                   
+                     <a href="https://www.rheincs.com/solutions/digital-services-and-solutions/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
                   </div>
                </div>
 
@@ -1005,7 +1005,7 @@
                      Empower your organization with robust data governance and management, ensuring seamless operations and compliance.
                   </div>
                   <div class="customer-excellence-card-button">  
-                     <a href="#" class="common-btn border-btn">LEARN MORE</a>                   
+                     <a href="https://www.rheincs.com/solutions/it-services-and-solutions/application-maintenance-and-support/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
                   </div>
                </div>
 
@@ -1018,7 +1018,7 @@
                      Leverage data-driven insights to make informed decisions, enhance performance, and gain a competitive edge.
                   </div>
                   <div class="customer-excellence-card-button">  
-                     <a href="#" class="common-btn border-btn">LEARN MORE</a>                   
+                     <a href="https://www.rheincs.com/solutions/it-services-and-solutions/business-intelligence-services/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
                   </div>
                </div>
                <p class="para-text1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Our expert teams provide end-to-end support, helping you maximize value and achieve business excellence.</p>
