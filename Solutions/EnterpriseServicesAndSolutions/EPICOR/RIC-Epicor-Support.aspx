@@ -313,6 +313,8 @@
          justify-content: center;
          flex-direction: column;
          opacity: 0;
+         font-size: 16px;
+         line-height: 24px;
          border-radius: 15px;
          transition: all 0.6s ease;
       }
@@ -800,7 +802,7 @@
                      Industry Expertise Across 42 Countries
                      <div class="hover-content">
                         <img src="../../../Assets/images/epicor-support-offerings-icon1.svg" alt="" />
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Leverage our deep industry knowledge to optimize business operations globally.
                      </div>
                   </li>
                   <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
@@ -808,7 +810,7 @@
                      Omni-Channel Global Support for Fast Resolution
                      <div class="hover-content">
                         <img src="../../../Assets/images/epicor-support-offerings-icon2.svg" alt="" />
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Access a large pool of Epicor-certified experts across multiple support channels, timezones, anytime anywhere.
                      </div>
                   </li>
                   <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
@@ -816,7 +818,7 @@
                      ITIL-Based Service Model
                      <div class="hover-content">
                         <img src="../../../Assets/images/epicor-support-offerings-icon3.svg" alt="" />                        
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Drive efficiency and best practices with our structured, ITIL-aligned support framework, while getting priority assistance for urgent issues.
                      </div>
                   </li>
                   <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
@@ -824,7 +826,7 @@
                      Continuous System Optimization
                      <div class="hover-content">
                         <img src="../../../Assets/images/epicor-support-offerings-icon4.svg" alt="" />                        
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Regular reviews and recommendations to ensure optimal system performance.
                      </div>
                   </li>
                   <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
@@ -832,7 +834,7 @@
                      Optimized Solutions & Strategic Guidance
                      <div class="hover-content">
                         <img src="../../../Assets/images/epicor-support-offerings-icon5.svg" alt="" />
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Receive personalized advice and solutions based on your unique business needs.
                      </div>
                   </li>
                   <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
@@ -840,7 +842,7 @@
                      Comprehensive Training & Knowledge Sharing
                      <div class="hover-content">
                         <img src="../../../Assets/images/epicor-support-offerings-icon6.svg" alt="" />
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Equip your team with the skills to fully utilize Epicor ERP’s capabilities.
                      </div>
                   </li>
                   <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100">
@@ -848,7 +850,7 @@
                      ERP Implementation, Rollouts and Upgrades
                      <div class="hover-content">
                         <img src="../../../Assets/images/epicor-support-offerings-icon7.svg" alt="" />
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Expertise in deploying Epicor products, add-ons, rollouts, migrations, and upgrades.
                      </div>
                   </li>
                </ul>
@@ -875,14 +877,6 @@
                         <div class="col-sm-12 col-md-6 col-lg-7">
                            <div class="benefits-scrool-content">
                               <ul class="list-style1">
-                                 <li><strong>Value and Service</strong> Access specialized ERP support desk teams and top-tier problem-solving experts, ensuring dedicated attention and seamless support for all your ERP needs.</li>
-                                 <li><strong>Faster Issue Resolution</strong> Our proactive, hyper-responsive support anticipates and resolves potential issues within your ERP system and across your technology stack, minimizing downtime and improving efficiency.</li>
-                                 <li><strong>Seamless Scalability</strong> Support for growing businesses with easy scalability of your ERP system.</li>
-                                 <li><strong>Enhanced Security & Compliance</strong> Safeguard your data with robust security measures and compliance management.</li>
-                                 <li><strong>Value and Service</strong> Access specialized ERP support desk teams and top-tier problem-solving experts, ensuring dedicated attention and seamless support for all your ERP needs.</li>
-                                 <li><strong>Faster Issue Resolution</strong> Our proactive, hyper-responsive support anticipates and resolves potential issues within your ERP system and across your technology stack, minimizing downtime and improving efficiency.</li>
-                                 <li><strong>Seamless Scalability</strong> Support for growing businesses with easy scalability of your ERP system.</li>
-                                 <li><strong>Enhanced Security & Compliance</strong> Safeguard your data with robust security measures and compliance management.</li>
                                  <li><strong>Value and Service</strong> Access specialized ERP support desk teams and top-tier problem-solving experts, ensuring dedicated attention and seamless support for all your ERP needs.</li>
                                  <li><strong>Faster Issue Resolution</strong> Our proactive, hyper-responsive support anticipates and resolves potential issues within your ERP system and across your technology stack, minimizing downtime and improving efficiency.</li>
                                  <li><strong>Seamless Scalability</strong> Support for growing businesses with easy scalability of your ERP system.</li>
