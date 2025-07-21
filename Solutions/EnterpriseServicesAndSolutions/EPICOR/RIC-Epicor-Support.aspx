@@ -820,7 +820,7 @@
                      </div>
                      <div class="form-box">
                         <div class="form-data cnt clearfix">
-                           <a href="#" id="btnpdf" class="form-btn">SCHEDULE A FREE CONSULTATION</a>
+                           <a href="#" id="btnpdf" class="form-btn">SCHEDULE A CONSULTATION TODAY</a>
                         </div>
                      </div>
                      <div class="form-box">
