@@ -1096,7 +1096,7 @@
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Ready to Take Your ERP Experience to the Next Level?</h2>
                         <p class="para-text1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">At RheinBrücke, we go beyond standard support with tailored ERP solutions, Premium Support, and seamless add-ons designed to meet your business needs. With 11 years of experience in 42 countries, we offer proactive support, legacy version assistance, and expert guidance for upgrading to Epicor Kinetic for enhanced flexibility and growth. Ready to optimize your business? Schedule a free consultation today to discover how our services can help drive your success.</p>
-                        <a href="#" class="common-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">SCHEDULE A FREE CONSULTATION</a>
+                        <a href="#" class="common-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">SCHEDULE A CONSULTATION TODAY</a>
                     </div>
                 </div>
             </div>
