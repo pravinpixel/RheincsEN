@@ -43,7 +43,7 @@
                   firstname: $('.txtName1').val(),
                   email: $('.txtEmail1').val(),
                   phone: $('.txtPhone1').val(),
-                  ServiceType: "SUPPORT SERVICES"
+                  ServiceType: "EPICOR SUPPORT SERVICES"
               };
               $.ajax({
                   type: 'POST',                   
@@ -64,6 +64,75 @@
           });
       
       });
+
+       $(document).ready(function () {
+           var URI = window.location.pathname;
+           var lurl = URI.toLowerCase();
+
+           $('#btnpdf').click(function () {
+               if ($('.txtFirstName').val() == '') {
+                   $('.showErrorMsg').text("Ensure name!."); $('.txtFirstName').focus(); return false;
+               }
+               //if ($('.txtPhone').val() == '') {
+               //    $('.showErrorMsg').text("Ensure phone number!."); $('.txtPhone').focus(); return false;
+               //}
+               if ($('.txtPhone').val() != '' && $('.txtPhone').val().length < 10) {
+                   $('.showErrorMsg').text("Ensure phone number!."); $('.txtPhone').focus(); return false;
+               }
+               if ($('.txtContactEmail').val() == '') {
+                   $('.showErrorMsg').text("Ensure work email!."); $('.txtContactEmail').focus(); return false;
+               }
+               if ($('.txtContactEmail').val() != '') {
+                   if (!IsEmailValid($('.txtContactEmail').val())) {
+                       $('.showErrorMsg').text("Ensure work email!."); $('.txtContactEmail').focus(); return false;
+                   }
+               }
+               if ($('.txtCompany').val() == '') {
+                   $('.showErrorMsg').text("Ensure Company!."); $('.txtCompany').focus(); return false;
+               }
+               if (!(grecaptcha && grecaptcha.getResponse().length > 0)) {
+                   $('.showErrorMsg').text("");
+                   //return false;
+               }
+               else {
+                   $('.showErrorMsg').text("");
+               }
+               var email = $('.txtContactEmail').val();
+               var a = email.split('@');
+               if (a[1].toLowerCase() == 'gmail.com' || a[1].toLowerCase() == 'live.com' || a[1].toLowerCase() == 'live.in' || a[1].toLowerCase() == 'outlook.com' || a[1].toLowerCase() == 'yahoo.com' || a[1].toLowerCase() == 'zoho.com' || a[1].toLowerCase() == 'yandex.com' || a[1].toLowerCase() == 'aol.com' || a[1].toLowerCase() == 'mail.com' || a[1].toLowerCase() == 'inbox.com') {
+                   $('.showErrorMsg').text("Please provide us with your work e-mail and not your personal e-mail!."); $('.txtContactEmail').focus(); return false;
+               }
+
+               var Data = {
+                   firstname: $('.txtFirstName').val(),
+                   email: $('.txtContactEmail').val(),
+                   phone: $('.txtPhone').val(),
+                   companyname: $('.txtCompany').val(),
+                   ServiceType: "EPICOR SUPPORT SERVICES"
+               };
+               $.ajax({
+                   type: 'POST',
+                   url: "/" + "api/Landing/LandingPage",
+                   data: JSON.stringify(Data),
+                   contentType: "application/json; charset=utf-8",
+                   dataType: "json",
+                   success: function (response) {
+                       if (response == "success") {
+                           $('#txtCompany').focus();
+                           $('.txtFirstName,.txtContactEmail,.txtPhone,.txtCompany').val('');
+                           $('.showErrorMsg').text('Mail has been sent successfully!');
+                           setTimeout(function () {
+                               $('.showErrorMsg').text('');
+                               const baseURL = window.location.origin;
+                               console.log(baseURL);
+                               window.location = baseURL + "//" + "thanks";
+                           }, 2000);
+                       }
+                   }
+               });
+           });
+
+       });
    </script>
    <style>  
       ul.breadcrumb {
