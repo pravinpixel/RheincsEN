@@ -43,7 +43,7 @@
                   firstname: $('.txtName1').val(),
                   email: $('.txtEmail1').val(),
                   phone: $('.txtPhone1').val(),
-                  ServiceType: "EPICOR SUPPORT SERVICES"
+                  ServiceType: "SUPPORT SERVICES"
               };
               $.ajax({
                   type: 'POST',                   
@@ -108,7 +108,7 @@
                    email: $('.txtContactEmail').val(),
                    phone: $('.txtPhone').val(),
                    companyname: $('.txtCompany').val(),
-                   ServiceType: "EPICOR SUPPORT SERVICES"
+                   ServiceType: "SUPPORT SERVICES"
                };
                $.ajax({
                    type: 'POST',
