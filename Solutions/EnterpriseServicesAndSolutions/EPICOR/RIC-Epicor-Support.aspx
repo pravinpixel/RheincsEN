@@ -968,7 +968,7 @@
                <p class="para-text1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">At RheinBrücke, we go beyond just ERP support. We also specialize in products that work seamlessly to enhance your ERP capabilities, supporting your organization’s growing needs:</p>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
-               <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/sap" class="erp-experience-box">
+               <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/sap" class="erp-experience-box">
                   <img src="../../../Assets/images/epicor-support-experience-bg1.jpg" alt="" class="img-responsive" />
                   <div class="erp-experience-box-content">
                      <h3>SAP</h3>
@@ -978,7 +978,7 @@
                </a>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
-               <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/epicor" class="erp-experience-box">
+               <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor" class="erp-experience-box">
                   <img src="../../../Assets/images/epicor-support-experience-bg2.jpg" alt="" class="img-responsive" />
                   <div class="erp-experience-box-content">
                      <h3>Epicor</h3>
@@ -988,7 +988,7 @@
                </a>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1200">
-               <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/ms-dynamics" class="erp-experience-box">
+               <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/ms-dynamics" class="erp-experience-box">
                   <img src="../../../Assets/images/epicor-support-experience-bg3.jpg" alt="" class="img-responsive" />
                   <div class="erp-experience-box-content">
                      <h3>Microsoft Dynamics</h3>
@@ -1016,7 +1016,7 @@
                      Streamline HR processes and ensure compliance while enhancing efficiency and employee satisfaction across your organization.
                   </div>
                   <div class="customer-excellence-card-button">  
-                     <a href="https://www.rheincs.com/solutions/CorusHR/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
+                     <a href="<%=rootpath %>solutions/CorusHR/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
                   </div>
                </div>
 
@@ -1029,7 +1029,7 @@
                      Streamlining sourcing operations, MeRLIN is a Strategic Direct Sourcing Solution that integrates automation, Supplier Relationship Management, planning, and Advanced Analytics.
                   </div>
                   <div class="customer-excellence-card-button">  
-                     <a href="https://www.rheincs.com/MeRLIN-strategic-sourcing-software/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
+                     <a href="<%=rootpath %>MeRLIN-strategic-sourcing-software/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
                   </div>
                </div>
 
@@ -1042,7 +1042,7 @@
                      At RheinBrücke, we offer more than just Epicor ERP support—we also specialize in companion products and add-ons that enhance your ERP and support your organization’s growth.
                   </div>
                   <div class="customer-excellence-card-button">  
-                     <a href="https://www.rheincs.com/solutions/erp-enterprise-solutions-and-services/epicor-cloud/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
+                     <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
                   </div>
                </div>
 
@@ -1055,7 +1055,7 @@
                      Bridging the gap between Technology and Business.
                   </div>
                   <div class="customer-excellence-card-button">  
-                     <a href="https://www.rheincs.com/solutions/digital-services-and-solutions/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
+                     <a href="<%=rootpath %>solutions/digital-services-and-solutions/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
                   </div>
                </div>
 
@@ -1068,7 +1068,7 @@
                      Empower your organization with robust data governance and management, ensuring seamless operations and compliance.
                   </div>
                   <div class="customer-excellence-card-button">  
-                     <a href="https://www.rheincs.com/solutions/it-services-and-solutions/application-maintenance-and-support/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
+                     <a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
                   </div>
                </div>
 
@@ -1081,7 +1081,7 @@
                      Leverage data-driven insights to make informed decisions, enhance performance, and gain a competitive edge.
                   </div>
                   <div class="customer-excellence-card-button">  
-                     <a href="https://www.rheincs.com/solutions/it-services-and-solutions/business-intelligence-services/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
+                     <a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
                   </div>
                </div>
                <p class="para-text1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Our expert teams provide end-to-end support, helping you maximize value and achieve business excellence.</p>
