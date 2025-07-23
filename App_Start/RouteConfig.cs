@@ -154,6 +154,8 @@ namespace RheinBrucke
             routes.MapPageRoute("DigitalSolutionsandServices", "solutions/digital-services-and-solutions", "~/Solutions/ITServicesAndSolutions/DigitalSolutionsandServices.aspx");
             routes.MapPageRoute("DigitalServices", "solutions/digital-services", "~/Solutions/ITServicesAndSolutions/DigitalServices.aspx");
             routes.MapPageRoute("DigitalSolutions", "solutions/digital-solutions", "~/Solutions/ITServicesAndSolutions/DigitalSolutions.aspx");
+            routes.MapPageRoute("ric-erp-customer-excellence", "solutions/erp-enterprise-solutions-and-services/Epicor/ric-erp-customer-excellence", "~/Solutions/EnterpriseServicesAndSolutions/EPICOR/RIC-ERP-Customer-Excellence.aspx");
+
 
             routes.MapPageRoute("microsoft-technologies", "solutions/it-services-and-solutions/microsoft-technologies", "~/Solutions/ITServicesAndSolutions/MicrosoftTechnologies/MicrosoftTechnologies.aspx");
             routes.MapPageRoute("consulting", "solutions/it-services-and-solutions/microsoft-technologies/consulting", "~/Solutions/ITServicesAndSolutions/MicrosoftTechnologies/Consulting.aspx");
