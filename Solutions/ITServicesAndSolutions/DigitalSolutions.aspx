@@ -2467,7 +2467,7 @@
                         <div class="col-lg-12 nopadding">
                             <h2 class="common-topic pb-20 h1 text-white">Contact Us</h2>
                         </div>
-                        <span class="book-form text-white">Partner with RheinBrücke Technology and leverage the power of Microsoft solutions to transform your business. Contact us now to get started with the future of technology</span>
+                        <span class="book-form text-white">Partner with RheinBr&uuml;cke Technology and leverage the power of Microsoft solutions to transform your business. Contact us now to get started with the future of technology</span>
                         <!-- <div class="img-boxer">
                      <img src="../../Assets/images/Corus-HR-Brochure-Thumbnail.png" width="379px" height="542px" alt="" class="img-responsive center-block" />
                      </div> -->
