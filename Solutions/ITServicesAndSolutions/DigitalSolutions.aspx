@@ -2298,7 +2298,7 @@
                                 </div>
                                 <div class="over-hidd">
                                     <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                                        <p class="common-para line-height">Transformation isn’t just about systems, it’s about people. We deliver modern, intuitive digital experiences and empower users with tools that accelerate productivity and decision-making.</p>
+                                        <p class="common-para line-height">Transformation isn't just about systems, it's about people. We deliver modern, intuitive digital experiences and empower users with tools that accelerate productivity and decision-making.</p>
                                     </div>
                                     <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                                         <ul class="list-style1">
@@ -2399,7 +2399,7 @@
                                 </div>
                                 <div class="over-hidd">
                                     <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                                        <p class="common-para line-height">Ensure operational resilience, security, and continuous performance improvement. We help you protect, monitor, and refine your environment — so your business stays ahead, always.</p>
+                                        <p class="common-para line-height">Ensure operational resilience, security, and continuous performance improvement. We help you protect, monitor, and refine your environment - so your business stays ahead, always.</p>
                                     </div>
                                     <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                                         <ul class="list-style1">
@@ -2439,12 +2439,12 @@
                         </div>
                         <div class="over-hidd">
                             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                                <p class="common-para line-height">From modernising enterprise platforms and activating AI-driven insights to transforming digital commerce and securing operations, our solutions deliver measurable, scalable outcomes — built for today and ready for what’s next.</p>
+                                <p class="common-para line-height">From modernising enterprise platforms and activating AI-driven insights to transforming digital commerce and securing operations, our solutions deliver measurable, scalable outcomes - built for today and ready for what's next.</p>
                             </div>
                         </div>
                         <div class="over-hidd">
                             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-                                <p class="common-para line-height">But transformation doesn’t stop at deployment. With continuous KPI tracking, real-time performance optimisation, and an agile, outcome-led approach, we help your business stay ahead of change and lead with confidence.</p>
+                                <p class="common-para line-height">But transformation doesn't stop at deployment. With continuous KPI tracking, real-time performance optimisation, and an agile, outcome-led approach, we help your business stay ahead of change and lead with confidence.</p>
                             </div>
                         </div>                        
                         <div class="over-hidd">

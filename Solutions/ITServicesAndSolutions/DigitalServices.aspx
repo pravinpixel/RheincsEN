@@ -2189,7 +2189,7 @@
                         </div>
                         <div class="over-hidd">
                             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
-                                <p class="common-para line-height">To stay competitive, businesses must evolve their core systems to be agile, scalable, and cloud-ready. Our enterprise modernisation services help you move beyond legacy systems with cutting-edge platforms, architectures, and applications, enabling faster innovation and operational flexibility.</p>
+                                <p class="common-para line-height pt-20">To stay competitive, businesses must evolve their core systems to be agile, scalable, and cloud-ready. Our enterprise modernisation services help you move beyond legacy systems with cutting-edge platforms, architectures, and applications, enabling faster innovation and operational flexibility.</p>
                             </div>
                         </div>
                     </div>
