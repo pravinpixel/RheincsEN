@@ -1042,7 +1042,8 @@
                      At RheinBrücke, we offer more than just Epicor ERP support—we also specialize in companion products and add-ons that enhance your ERP and support your organization’s growth.
                   </div>
                   <div class="customer-excellence-card-button">  
-                     <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/" target="_blank" class="common-btn border-btn">LEARN MORE</a>                   
+                      <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/ric-erp-customer-excellence" class="common-btn border-btn">LEARN MORE</a>       
+                     <%--<a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/epicor-cloud/" target="_blank" class="common-btn border-btn">LEARN MORE</a>--%>                   
                   </div>
                </div>
 

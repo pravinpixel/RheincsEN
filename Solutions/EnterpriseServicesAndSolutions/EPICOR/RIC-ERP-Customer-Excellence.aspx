@@ -2370,7 +2370,7 @@
                 </div>
                 <div class="row mt-50 mb-50">
                     <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                        <a href="#" class="common-btn border-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">BACK</a>
+                        <a href="<%=rootpath %>solutions/erp-enterprise-solutions-and-services/Epicor/epicor-Support-offering" class="common-btn border-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">BACK</a>
                     </div>
                 </div>
             </div>
