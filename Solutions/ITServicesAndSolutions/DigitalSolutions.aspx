@@ -2124,8 +2124,8 @@
         <div class="row">
             <div class="col-md-12">
                 <ul class="breadcrumb bread hidden-xs hidden-sm">
-                    <li><a href="<%=rootpath %>" class="redColor">Home <span>» </span></a></li>
-                    <li><a href="#" class="redColor">Solutions<span> » </span></a></li>
+                    <li><a href="<%=rootpath %>" class="redColor">Home <span>&raquo; </span></a></li>
+                    <li><a href="#" class="redColor">Solutions<span> &raquo; </span></a></li>
                     <li><a href="#" class="redColor">Digital Solutions</a></li>
                 </ul>
             </div>
