@@ -2376,7 +2376,7 @@
                     <div class="col-lg-1 col-md-12 col-sm-12 col-12"></div>
                     <div class="col-lg-10 col-md-12 col-sm-12 col-12">
                         <div class="over-hidd">
-                            <h2 class="common-topic h1 text-center text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">UI /UX - User-Centric Design</h2>
+                            <h2 class="common-topic h1 text-center text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">UI / UX - User-Centric Design</h2>
                         </div>
                         <div class="over-hidd">
                             <h4 class="text-white text-center line-height" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">We Deliver intuitive, enterprise-grade interfaces by applying user-centric principles to create seamless experiences and accelerate user adoption.</h4>
