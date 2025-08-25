@@ -761,14 +761,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <li>
                         <a href="<%=rootpath %>solutions/digital-services-and-solutions" class="mobilemenu-level1 Level2-menu"><span class="mobilemenu-border-bottom">Digital Solutions and Services</span></a>
                         <ul>
-                         
-                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support" class="Level3-menu ETMenu"><span>Application Maintenance & Support</span></a></li>
+                           <li><a href="<%=rootpath %>solutions/digital-solutions" class="Level3-menu ETMenu"><span>Digital Solutions</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/digital-services" class="Level3-menu ETMenu"><span>Digital Services</span></a></li>
+                            <li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>
+                            
+                          <%--  <li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support" class="Level3-menu ETMenu"><span>Application Maintenance & Support</span></a></li>
                              <li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services" class="Level3-menu ETMenu"><span>Business Intelligence Services</span></a></li>
-                          <%--   <li><a href="#" class="Level3-menu ETMenu"><span>Ecommerce Services</span></a></li>--%>
-                            <li><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies" class="Level3-menu ETMenu"><span>Open Source Technologies</span></a></li>
+                          --%><%--   <li><a href="#" class="Level3-menu ETMenu"><span>Ecommerce Services</span></a></li>--%>
+                           <%-- <li><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies" class="Level3-menu ETMenu"><span>Open Source Technologies</span></a></li>
                                <li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies" class="Level3-menu ETMenu"><span>Microsoft Technologies</span></a></li>
                             <li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services" class="Level3-menu ETMenu"><span>Testing Services</span></a></li>
-                           
+                           --%>
                         </ul>
                     </li>
                    <%-- <li>
@@ -927,15 +930,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                             </div>
                                                             <div class="col-md-3 col-md-4V2">
                                                                 <ul>
-                                                                    <li class="menuname-small menuheading menuheading-large"><a href="<%=rootpath %>solutions/digital-services-and-solutions">Digital Solutions and Services</a></li>
+                                                                    <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/digital-solutions">Digital Solutions</a></li>
+                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/digital-services">Digital Services</a></li>
+                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>
+                                                                
+                                                                    <%--<li class="menuname-small menuheading menuheading-large"><a href="<%=rootpath %>solutions/digital-services-and-solutions">Digital Solutions and Services</a></li>
                                                                     <br />
                                                                      <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">Application Maintenance & Support</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>
-                                                                    <%--<li class="menuname-small padd-bottom-7 ETMenu"><a href="#">Ecommerce Services</a></li>--%>
-                                                                     <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open Source Technologies</a></li>
+                                                                    --%><%--<li class="menuname-small padd-bottom-7 ETMenu"><a href="#">Ecommerce Services</a></li>--%>
+                                                                   <%--  <li class="menuname-small lineht padd-bottom-10 ETMenu"><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open Source Technologies</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
                                                                     <li class="menuname-small padd-bottom-7 ETMenu"><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing Services</a></li>
-                                                                    
+                                                                    --%>
                                                                 </ul>
                                                             </div>
                                                           <%--  <div class="col-md-3 col-md-4V2">
@@ -1584,12 +1591,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									<div class="col-sm-12 col-md-6">										
 										<ul class="footer-links our-solutions">
 											<li>Digital Solutions &amp; Services</li>
-											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">A M &amp; S</a></li>
-											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">BI</a></li>
+                                              <li><a href="<%=rootpath %>solutions/digital-solutions">Digital Solutions</a></li>
+                                                <li><a href="<%=rootpath %>solutions/digital-services">Digital Services</a></li>
+                                                <li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a></li>
+                           
+											<%--<li><a href="<%=rootpath %>solutions/it-services-and-solutions/application-maintenance-and-support">A M &amp; S</a></li>
+											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">BI</a></li>--%>
 										<%--	<li><a href="<%=rootpath %>">eCommerce</a></li>--%>
-											<li><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open-Source Technologies</a></li>
+											<%--<li><a href="<%=rootpath %>solutions/ip-product-development-services/open-source-technologies">Open-Source Technologies</a></li>
 											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/microsoft-technologies">Microsoft Technologies</a></li>
-											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing</a></li>
+											<li><a href="<%=rootpath %>solutions/it-services-and-solutions/testing-services">Testing</a></li>--%>
 										</ul>
 									</div>
 								</div>

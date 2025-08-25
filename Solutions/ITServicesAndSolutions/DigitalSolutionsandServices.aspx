@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="DigitalSolutionsandServices - Streamline Your Business | RheinBrücke"
     Language="C#" MasterPageFile="~/Rheincs.Master" AutoEventWireup="true" CodeBehind="DigitalSolutionsandServices.aspx.cs"
-     Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.DigitalSolutionsandServices" %>
+    Inherits="RheinBrucke.Solutions.EnterpriseServicesAndSolutions.DigitalSolutionsandServices" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headerPlaceHolder" runat="server">
     <meta name="keywords" content="ms dynamics erp solution" />
@@ -22,7 +22,12 @@
             display: flex;
         }
 
-        
+			.banner-buttons{ display: flex; align-items: center; justify-content: center; column-gap: 20px; flex-wrap: wrap; padding-top: 30px; padding-bottom: 30px;
+			}
+			
+			.lines.banner-buttons a{
+			margin-bottom: 20px;
+			}
 
             .approach_cards ._card {
                 display: flex;
@@ -1958,8 +1963,7 @@
                                 <p><strong>Business-First Approach:</strong> Combining deep tech expertise with business-focused consulting.</p>
                                 <p><strong>Proven Methodology:</strong> Our Analyse–Integrate–Transform model ensures alignment and execution.</p>
                                 <p><strong>Sustainable Value:</strong> We deliver measurable, scalable, and lasting impact.</p>
-                                <a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a>
-                            </div>
+                            </div>                             
                         </div>
                     </div>
                     <div class="col-md-6" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1300">
@@ -1984,8 +1988,24 @@
                             </div>
                             <img src="../../Assets/images/digital-solution-services-banner.jpg" class="img-responsive center-block" />
                         </div>
-                    </div>
+                    </div>					
                 </div>
+				<div class="col-md-12">
+					<div class="lines banner-buttons over-hidd">
+						<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+							<a data-toggle="modal" onclick="Clear()" data-target="#myModal-contactus">Contact Us</a>
+						</div>
+						<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+							<a href="<%=rootpath %>solutions/digital-solutions">Digital Solutions</a>
+						</div>
+						<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+							<a href="<%=rootpath %>solutions/digital-services">Digital Services</a>
+						</div>
+						<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+							<a href="<%=rootpath %>solutions/it-services-and-solutions/business-intelligence-services">Business Intelligence Services</a>
+						</div>
+					</div>
+				</div>
             </div>
         </div>
         <!--banner-->
@@ -2161,7 +2181,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines" data-aos="fade-up" data-aos-duration="1000">
                         <a href="<%=rootpath %>solutions/digital-solutions">Explore Our Solutions</a>
-                          <%--<a href="#">Explore Our Solutions</a>--%>
+                        <%--<a href="#">Explore Our Solutions</a>--%>
                     </div>
                 </div>
             </div>
@@ -2204,7 +2224,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center lines" data-aos="fade-up" data-aos-duration="1000">
                         <a href="<%=rootpath %>solutions/digital-services">Explore Our Services</a>
-                         <%--<a href="#">Explore Our Services</a>--%>
+                        <%--<a href="#">Explore Our Services</a>--%>
                     </div>
                 </div>
             </div>
